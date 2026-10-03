@@ -2,6 +2,14 @@
 
 Prima versione di un sito personale dedicato a World of Warcraft Retail e al diario roleplay WoW Forever. Sito statico, senza dipendenze, account visitatori, database o abbonamenti. Titolo e contenuti sono modificabili.
 
+## Sito pubblico
+
+- Sito: https://xuthar.github.io/cronache-di-azeroth/
+- Repository: https://github.com/xuthar/cronache-di-azeroth
+- Pubblicazione: GitHub Pages, ramo `main`, cartella `/(root)`, HTTPS attivo.
+
+Il sito è stato pubblicato il 3 ottobre 2026. Per aggiornarlo, modifica i file dello stesso repository: GitHub Pages ripubblica automaticamente il contenuto dopo il salvataggio sul ramo `main`. Il link rimane lo stesso.
+
 ## Aprire il sito
 
 Apri `index.html` con un browser e naviga con il menu. JavaScript deve essere attivo. Tutti i contenuti e gli stili sono locali: non servono installazioni né un processo di compilazione.
@@ -66,6 +74,6 @@ L’immagine di apertura è un’illustrazione fantasy originale generata per qu
 
 Apri tutte le pagine, verifica i collegamenti e prova il menu da smartphone. Un link come `journal.html#luce-tra-i-pini` apre direttamente la pagina del diario corrispondente. Prima di cambiare un `id`, cerca tutti i collegamenti che lo usano in `app.js` e `content.js`.
 
-La pagina `404.html` funziona come pagina di errore GitHub Pages; i link relativi sono adatti ai percorsi alla radice del progetto. Per URL errati con più livelli di sottocartelle, configura i collegamenti della 404 con il percorso assoluto del repository dopo averne scelto il nome.
+La pagina `404.html` è configurata per GitHub Pages con base `/cronache-di-azeroth/`, così anche gli indirizzi inesistenti in sottocartelle mantengono il menu e il collegamento alla Home. Se rinomini il repository, aggiorna anche quella base. Le altre pagine mantengono percorsi relativi e funzionano anche aprendo i file locali.
 
-Questo pacchetto è pronto per essere caricato, ma non viene pubblicato automaticamente: non contiene credenziali o riferimenti a un account GitHub specifico.
+Il pacchetto locale conserva una copia del sito e non contiene credenziali. La pubblicazione è gestita dal repository indicato sopra.

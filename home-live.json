@@ -1,0 +1,41 @@
+{
+  "forever": {
+    "launchAt": "2026-11-04T23:00:00.000Z",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
+    "checkedAt": "2026-10-04T08:07:26.984Z"
+  },
+  "news": [
+    {
+      "title": "Necklace Rewards from Collecting Books Nerfed to Uncommon Quality in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383231/necklace-rewards-from-collecting-books-nerfed-to-uncommon-quality-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-03T16:00:00.000Z"
+    },
+    {
+      "title": "Every Quest in Excavation Site: Wetlands - WoW Forever",
+      "url": "https://www.wowhead.com/news=383239/every-quest-in-excavation-site-wetlands-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-03T14:00:00.000Z"
+    },
+    {
+      "title": "Unholy DK Nerfs - Incoming Class Tuning on Weekly Reset",
+      "url": "https://www.wowhead.com/news=383242/unholy-dk-nerfs-incoming-class-tuning-on-weekly-reset",
+      "category": "Live",
+      "publishedAt": "2026-10-02T22:42:56.000Z"
+    },
+    {
+      "title": "Ghost Wolf Appearance Temporary Until Fixes Are In for WoW: Forever",
+      "url": "https://www.wowhead.com/news=383241/ghost-wolf-appearance-temporary-until-fixes-are-in-for-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-02T22:05:25.000Z"
+    }
+  ],
+  "newsUpdatedAt": "2026-10-04T08:07:26.983Z",
+  "generatedAt": "2026-10-04T08:07:26.975Z",
+  "newsSource": "Wowhead",
+  "newsSourceUrl": "https://www.wowhead.com/news",
+  "newsRefreshMinutes": 15,
+  "newsFeedBuiltAt": "Sun, 04 Oct 2026 03:07:03 -0500",
+  "newsFetchError": false,
+  "launchCheckError": false
+}

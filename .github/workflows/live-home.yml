@@ -1,0 +1,35 @@
+name: Refresh live homepage data
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: live-home-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Fetch Wowhead RSS and verify the official Forever launch
+        run: node scripts/update-home-live.mjs assets/data/home-live.json
+      - name: Publish fresh data on the dedicated live-news branch
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin live-news --depth=1 || true
+          blob=$(git hash-object -w assets/data/home-live.json)
+          tree=$(printf '100644 blob %s\thome-live.json\n' "$blob" | git mktree)
+          parent=$(git rev-parse --verify refs/remotes/origin/live-news 2>/dev/null || true)
+          if [ -n "$parent" ]; then
+            commit=$(git commit-tree "$tree" -p "$parent" -m 'Refresh Wowhead headlines and Forever launch')
+          else
+            commit=$(git commit-tree "$tree" -m 'Start automatic homepage feed')
+          fi
+          git push origin "$commit:refs/heads/live-news"

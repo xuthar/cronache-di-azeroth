@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-04T15:48:36.424Z"
+    "checkedAt": "2026-10-04T16:53:57.821Z"
   },
   "news": [
+    {
+      "title": "Professions get Fun Thematic Gear Bonuses in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383236/professions-get-fun-thematic-gear-bonuses-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-04T16:00:00.000Z"
+    },
     {
       "title": "Student Fodder Doesn't Give Rested Experience in WoW: Forever",
       "url": "https://www.wowhead.com/news=383243/student-fodder-doesnt-give-rested-experience-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383239/every-quest-in-excavation-site-wetlands-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-03T14:00:00.000Z"
-    },
-    {
-      "title": "Unholy DK Nerfs - Incoming Class Tuning on Weekly Reset",
-      "url": "https://www.wowhead.com/news=383242/unholy-dk-nerfs-incoming-class-tuning-on-weekly-reset",
-      "category": "Live",
-      "publishedAt": "2026-10-02T22:42:56.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-04T15:48:36.424Z",
-  "generatedAt": "2026-10-04T15:48:36.332Z",
+  "newsUpdatedAt": "2026-10-04T16:53:57.820Z",
+  "generatedAt": "2026-10-04T16:53:57.806Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 04 Oct 2026 10:48:32 -0500",
+  "newsFeedBuiltAt": "Sun, 04 Oct 2026 11:53:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

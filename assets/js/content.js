@@ -1,5 +1,4 @@
-/* Edit the content here. Image paths are relative to the HTML page.
-   Leave image: "" to display a placeholder. Use plain text, not HTML. */
+// Editable content for Chronicles of Azeroth.
 window.CHRONICLES = {
   "author": "Xuthar",
   "contacts": {
@@ -229,40 +228,52 @@ window.CHRONICLES = {
   ],
   "gallery": [
     {
-      "title": "The traveller’s face",
-      "category": "Portraits",
-      "image": "",
-      "alt": "Character portrait to be added"
-    },
-    {
-      "title": "Where the road ends",
-      "category": "Landscapes",
-      "image": "",
-      "alt": "Landscape screenshot to be added"
-    },
-    {
-      "title": "A night beneath the pines",
-      "category": "Campsites",
-      "image": "",
-      "alt": "Campsite screenshot to be added"
-    },
-    {
-      "title": "Companions in adventure",
+      "title": "Midnight above Stormwind",
       "category": "Retail",
-      "image": "",
-      "alt": "Retail character screenshot to be added"
+      "image": "assets/images/gallery/stormwind-midnight.jpg",
+      "alt": "Flying mounts and adventurers gathering above Stormwind's walls at night."
     },
     {
-      "title": "Notes from the trail",
+      "title": "A Winter Veil Traveller",
+      "category": "Portraits",
+      "image": "assets/images/gallery/winter-veil-selfie.jpg",
+      "alt": "A close-up of a Troll wearing red Winter Veil clothes beneath a golden ceiling."
+    },
+    {
+      "title": "Along the Luminous Path",
+      "category": "Adventures",
+      "image": "assets/images/gallery/moonlit-gathering.jpg",
+      "alt": "A gathering of adventurers and mounts beside a luminous blue path and pink lanterns."
+    },
+    {
+      "title": "The Azure Crossroads",
       "category": "Landscapes",
-      "image": "",
-      "alt": "Journey screenshot to be added"
+      "image": "assets/images/gallery/azure-crossroads.jpg",
+      "alt": "Glowing blue woodland paths leading towards a magical portal, with adventurers gathered nearby."
     },
     {
-      "title": "A return to the inn",
-      "category": "Campsites",
-      "image": "",
-      "alt": "Inn screenshot to be added"
+      "title": "Winter Veil in Ironforge",
+      "category": "Retail",
+      "image": "assets/images/gallery/winter-veil-ironforge.jpg",
+      "alt": "Velenia and her pets overlooking a crowded Winter Veil celebration in Ironforge."
+    },
+    {
+      "title": "Winter Veil above Orgrimmar",
+      "category": "Retail",
+      "image": "assets/images/gallery/winter-veil-orgrimmar.jpg",
+      "alt": "Xuthar flying above a decorated Winter Veil tree and Horde buildings in Orgrimmar."
+    },
+    {
+      "title": "A Little Winter in Orgrimmar",
+      "category": "Retail",
+      "image": "assets/images/gallery/orgrimmar-snow-globe.jpg",
+      "alt": "Xuthar standing near a giant festive snow globe in Orgrimmar."
+    },
+    {
+      "title": "Goldshire after Dark",
+      "category": "Retail",
+      "image": "assets/images/gallery/goldshire-after-dark.jpg",
+      "alt": "A nighttime gathering outside the decorated Goldshire inn, with glowing mounts and forest trees."
     }
   ]
 };

@@ -80,3 +80,6 @@ body{background-image:radial-gradient(ellipse at 0 30%,#32453126,transparent 65%
 .quote{border-top:0;background:linear-gradient(90deg,transparent,#cfac6940,transparent) center top/80% 1px no-repeat}
 .quote::before{content:'◇';display:block;color:#cfac6990;font:1.25rem var(--serif);margin:0 0 17px}
 @media(max-width:720px){.hero::before{inset:10px}.page-header{background-size:430px auto}.paper::after{inset:6px}#main::before{background-size:720px auto;opacity:.45}}
+
+/* Preserve the complete panoramic screenshots in the album. */
+.gallery-card .gallery-image{aspect-ratio:16/9;object-fit:contain;background:#101610}

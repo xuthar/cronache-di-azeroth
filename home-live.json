@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-04T13:47:59.122Z"
+    "checkedAt": "2026-10-04T14:46:08.876Z"
   },
   "news": [
+    {
+      "title": "Student Fodder Doesn't Give Rested Experience in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383243/student-fodder-doesnt-give-rested-experience-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-04T14:00:00.000Z"
+    },
     {
       "title": "Necklace Rewards from Collecting Books Nerfed to Uncommon Quality in WoW: Forever",
       "url": "https://www.wowhead.com/news=383231/necklace-rewards-from-collecting-books-nerfed-to-uncommon-quality-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383242/unholy-dk-nerfs-incoming-class-tuning-on-weekly-reset",
       "category": "Live",
       "publishedAt": "2026-10-02T22:42:56.000Z"
-    },
-    {
-      "title": "Ghost Wolf Appearance Temporary Until Fixes Are In for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383241/ghost-wolf-appearance-temporary-until-fixes-are-in-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-02T22:05:25.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-04T13:47:59.121Z",
-  "generatedAt": "2026-10-04T13:47:59.112Z",
+  "newsUpdatedAt": "2026-10-04T14:46:08.876Z",
+  "generatedAt": "2026-10-04T14:46:08.866Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 04 Oct 2026 08:47:52 -0500",
+  "newsFeedBuiltAt": "Sun, 04 Oct 2026 09:46:08 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

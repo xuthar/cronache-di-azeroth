@@ -1,79 +1,54 @@
-# Cronache di Azeroth
+# Chronicles of Azeroth
 
-Prima versione di un sito personale dedicato a World of Warcraft Retail e al diario roleplay WoW Forever. Sito statico, senza dipendenze, account visitatori, database o abbonamenti. Titolo e contenuti sono modificabili.
+A personal World of Warcraft website featuring Retail characters and a WoW Forever roleplay travel journal. All visitor-facing content is in English. Static HTML, CSS, and JavaScript; no dependencies, database, paid services, or visitor accounts.
 
-## Sito pubblico
+## Public website
 
-- Sito: https://xuthar.github.io/cronache-di-azeroth/
+- Website: https://xuthar.github.io/cronache-di-azeroth/
 - Repository: https://github.com/xuthar/cronache-di-azeroth
-- Pubblicazione: GitHub Pages, ramo `main`, cartella `/(root)`, HTTPS attivo.
+- Hosting: GitHub Pages, `main` branch, `/(root)` directory, HTTPS enabled.
 
-Il sito è stato pubblicato il 3 ottobre 2026. Per aggiornarlo, modifica i file dello stesso repository: GitHub Pages ripubblica automaticamente il contenuto dopo il salvataggio sul ramo `main`. Il link rimane lo stesso.
+First published on 3 October 2026. Translated into English on 4 October 2026. The repository name and public address remain the same. Updates committed to `main` trigger the next GitHub Pages deployment.
 
-## Aprire il sito
+## Open locally
 
-Apri `index.html` con un browser e naviga con il menu. JavaScript deve essere attivo. Tutti i contenuti e gli stili sono locali: non servono installazioni né un processo di compilazione.
+Open `index.html` in a browser with JavaScript enabled. All assets are local. No installation or build step is required. The custom error page is configured for the public GitHub Pages address.
 
-## Pubblicare gratis su GitHub Pages
+## Files and editing
 
-1. Crea un repository **pubblico** nel tuo account GitHub, per esempio `cronache-di-azeroth`.
-2. Carica **il contenuto di questa cartella**, con `index.html` direttamente nella radice del repository. Conserva anche le cartelle `assets` e il file `.nojekyll`.
-3. In **Settings → Pages**, scegli **Deploy from a branch**, ramo **main**, cartella **/(root)** e salva.
-4. Attendi il completamento della pubblicazione. GitHub mostrerà il link del sito nella stessa pagina; per un repository di progetto sarà normalmente `https://TUO-UTENTE.github.io/cronache-di-azeroth/`.
+The seven pages are `index.html`, `retail.html`, `forever.html`, `journal.html`, `campsites.html`, `stories.html`, and `gallery.html`. The page-not-found screen is `404.html`; `.nojekyll` disables Jekyll processing.
 
-Non occorre acquistare un dominio. I percorsi relativi funzionano anche nella sottocartella del repository. Non è necessario configurare GitHub Actions manualmente.
+Edit `assets/js/content.js` in a UTF-8 text editor. Each record is an object in an array; duplicate a record of the same type, separate it with a comma, and use a unique ID. Text is displayed as plain text, not HTML. Use English for new content.
 
-Riferimenti ufficiali verificati il 3 ottobre 2026:
+- `characters`: name, race, class, realm, specialisation, professions, portrait, and biography.
+- `journal`: newest entries first; `text` is an array of paragraphs. The optional `camp` must match a campsite ID.
+- `camps`: place names, shelters, water, status, and field notes.
+- `stories`: titles, story types, excerpts, and paragraphs in `text`.
+- `gallery`: image paths, categories, titles, and English alternative descriptions in `alt`.
+
+`assets/js/app.js` handles rendering, the mobile menu, expandable content, and the image viewer. Introductions, quotations, the route, and the featured Home entry are curated there: update them and their links when changing the journey. Headers, footers, titles, metadata, and `lang="en"` are in each HTML file. Styling and responsive layout are in `assets/css/style.css`.
+
+Internal IDs such as `luce-tra-i-pini` and `radura` were retained during translation so shared links keep working. They are not displayed as visitor-facing text. Before changing an ID, update every link using it.
+
+## Images
+
+Copy portraits and screenshots into `assets/images/`, then set a record’s `image` to a relative path such as `assets/images/xuthar.webp`. Leave `image: ""` for a placeholder. Supported formats: PNG, JPG, JPEG, WebP, AVIF, GIF. Use simple filenames without accents. Suggested proportions: portraits 4:5, screenshots 4:3 or 16:9. Gallery images can be enlarged and closed with Close or Escape.
+
+`assets/images/hero.webp` is the original, optimised fantasy opening landscape. It is generated artwork, not a game screenshot. The website loads no external fonts, libraries, trackers, or cookies.
+
+## Sample content
+
+Xuthar Morvayne comes from the project context. Race, class, origins, and real gameplay progress are still to be supplied. Retail profiles are placeholders. The Oak Inn → Ford Trail → Pine Glade route, journal entries, and stories are original examples, not official lore or records of actual adventures. Update the sample-content notices when adding real content.
+
+## Verification and publication
+
+After editing, open all pages and test mobile navigation, expandable stories, and image links. `journal.html#luce-tra-i-pini` opens its entry automatically. `404.html` uses base `/cronache-di-azeroth/`, keeping navigation working for nested missing URLs; update that base if the repository is renamed. Other pages use relative paths.
+
+The existing repository is already published. For a separate copy, create a public repository, upload this directory’s contents with `index.html` at its root, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. Keep `.nojekyll`. No domain purchase is required.
+
+Official documentation:
+
 - https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-## Struttura
-
-| File | Contenuto |
-| --- | --- |
-| `index.html` | Home |
-| `retail.html` | Retail Characters |
-| `forever.html` | WoW Forever |
-| `journal.html` | Travel Journal |
-| `campsites.html` | Campsites |
-| `stories.html` | Stories & Lore |
-| `gallery.html` | Gallery |
-| `404.html` | Pagina non trovata |
-| `assets/css/style.css` | Colori, tipografia, impaginazione desktop e mobile |
-| `assets/js/content.js` | Personaggi, diario, luoghi, racconti e album |
-| `assets/js/app.js` | Struttura dei contenuti, menu mobile, lettura e ingrandimento immagini |
-| `assets/images/` | Illustrazione e future immagini |
-
-## Aggiornare i contenuti
-
-Apri `assets/js/content.js` in un editor di testo. Ogni voce è un oggetto; per aggiungerne una, duplica una voce dello stesso elenco, separala con una virgola e assegna un `id` unico composto da lettere minuscole, numeri e trattini. I testi sono trattati come testo semplice, non HTML. Usa un editor che conservi UTF-8 e controlla le virgolette.
-
-- `characters`: modifica nome, razza, classe, reame, specializzazione, professioni e biografia.
-- `journal`: inserisci le nuove pagine **all’inizio** dell’elenco. `text` contiene un elenco di paragrafi. Il campo facoltativo `camp` deve corrispondere all’`id` di un accampamento.
-- `camps`: modifica luoghi, ripari, acqua e note narrative.
-- `stories`: aggiungi racconti con paragrafi nell’elenco `text`.
-- `gallery`: aggiungi immagini, titoli, categorie e descrizioni alternative (`alt`). Le immagini presenti si aprono in una finestra ingrandita, chiudibile anche con Esc.
-
-Le introduzioni editoriali, la citazione, l’itinerario e la pagina in evidenza della Home sono in `assets/js/app.js`. Quando cambi il viaggio, aggiorna anche questi testi e i relativi link: nella prima versione sono intenzionalmente curati a mano. Il nome del sito nella testata e i metadati sono in ogni file HTML.
-
-## Inserire ritratti e screenshot
-
-1. Copia l’immagine in `assets/images/`, ad esempio `xuthar.webp`.
-2. Nella relativa voce di `content.js`, imposta `image: "assets/images/xuthar.webp"`.
-3. Per la Gallery, scrivi anche un testo `alt` che descriva il contenuto.
-
-Sono accettati percorsi locali sotto `assets/images/` con estensione PNG, JPG, JPEG, WebP, AVIF o GIF. Usa nomi semplici senza accenti. Lascia `image: ""` per mantenere il segnaposto. Consigliati ritratti 4:5 e screenshot 4:3 o 16:9, compressi per ridurre i tempi di caricamento.
-
-## Personalizzazione iniziale
-
-Il nome **Xuthar Morvayne** deriva dal contesto del progetto; razza, classe, reame e progressi non sono stati inventati. I personaggi Retail sono schede da compilare. Il percorso Locanda della Quercia → Sentiero del Guado → Radura dei Pini e i racconti sono esempi originali: non sono presentati come luoghi ufficiali o attività realmente svolte. Quando inserirai i tuoi contenuti, aggiorna anche le note dimostrative.
-
-L’immagine di apertura è un’illustrazione fantasy originale generata per questo progetto, non uno screenshot del gioco. Non vengono caricati font remoti, librerie esterne, tracker o cookie.
-
-## Controlli dopo una modifica
-
-Apri tutte le pagine, verifica i collegamenti e prova il menu da smartphone. Un link come `journal.html#luce-tra-i-pini` apre direttamente la pagina del diario corrispondente. Prima di cambiare un `id`, cerca tutti i collegamenti che lo usano in `app.js` e `content.js`.
-
-La pagina `404.html` è configurata per GitHub Pages con base `/cronache-di-azeroth/`, così anche gli indirizzi inesistenti in sottocartelle mantengono il menu e il collegamento alla Home. Se rinomini il repository, aggiorna anche quella base. Le altre pagine mantengono percorsi relativi e funzionano anche aprendo i file locali.
-
-Il pacchetto locale conserva una copia del sito e non contiene credenziali. La pubblicazione è gestita dal repository indicato sopra.
+World of Warcraft is a trademark of Blizzard Entertainment. This is an unofficial fan project.

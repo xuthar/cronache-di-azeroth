@@ -1,33 +1,184 @@
-/* Modifica qui i contenuti. I percorsi delle immagini sono relativi alla pagina HTML.
-   Lascia image: "" per mostrare il segnaposto. Non inserire HTML nei testi. */
+/* Edit the content here. Image paths are relative to the HTML page.
+   Leave image: "" to display a placeholder. Use plain text, not HTML. */
 window.CHRONICLES = {
-  author: 'Xuthar',
-  character: 'Xuthar Morvayne',
-  characters: [
-    {id:'retail-01', name:'Il primo eroe', role:'Personaggio Retail · da personalizzare', race:'Da aggiungere', className:'Da aggiungere', realm:'Da aggiungere', spec:'Da aggiungere', professions:'Da aggiungere', image:'', bio:'Ogni eroe ha una prima strada, una città a cui tornare e una battaglia che non dimentica. Qui prenderanno posto la storia e le avventure del tuo primo personaggio Retail.'},
-    {id:'retail-02', name:'Un altro cammino', role:'Personaggio Retail · da personalizzare', race:'Da aggiungere', className:'Da aggiungere', realm:'Da aggiungere', spec:'Da aggiungere', professions:'Da aggiungere', image:'', bio:'Non tutti i viaggi cominciano con una chiamata alle armi. Alcuni iniziano per curiosità, altri per una promessa. Questa scheda è pronta ad accogliere un altro dei tuoi personaggi.'},
-    {id:'retail-03', name:'Una storia da scrivere', role:'Personaggio Retail · da personalizzare', race:'Da aggiungere', className:'Da aggiungere', realm:'Da aggiungere', spec:'Da aggiungere', professions:'Da aggiungere', image:'', bio:'Un ritratto, un nome e un piccolo frammento di passato: bastano poche righe per dare vita a un nuovo capitolo della tua collezione di eroi.'}
+  "author": "Xuthar",
+  "character": "Xuthar Morvayne",
+  "characters": [
+    {
+      "id": "retail-01",
+      "name": "The first hero",
+      "role": "Retail character · To be personalised",
+      "race": "To be added",
+      "className": "To be added",
+      "realm": "To be added",
+      "spec": "To be added",
+      "professions": "To be added",
+      "image": "",
+      "bio": "Every hero has a first road, a city to return to, and a battle they never forget. This is where the story and adventures of your first Retail character will take shape."
+    },
+    {
+      "id": "retail-02",
+      "name": "Another path",
+      "role": "Retail character · To be personalised",
+      "race": "To be added",
+      "className": "To be added",
+      "realm": "To be added",
+      "spec": "To be added",
+      "professions": "To be added",
+      "image": "",
+      "bio": "Not every journey begins with a call to arms. Some begin with curiosity, others with a promise. This profile is ready to welcome another of your characters."
+    },
+    {
+      "id": "retail-03",
+      "name": "A story yet to be written",
+      "role": "Retail character · To be personalised",
+      "race": "To be added",
+      "className": "To be added",
+      "realm": "To be added",
+      "spec": "To be added",
+      "professions": "To be added",
+      "image": "",
+      "bio": "A portrait, a name, and a small glimpse of the past: a few lines are enough to begin a new chapter in your collection of heroes."
+    }
   ],
-  journal: [
-    {id:'luce-tra-i-pini', day:'03', chapter:'Terza sera', title:'Una luce tra i pini', location:'Radura dei Pini', type:'Accampamento', excerpt:'Ho lasciato la strada prima del tramonto. Tra gli alberi, il vento ha finalmente smesso di inseguirmi.', text:['Ho lasciato la strada prima del tramonto. Tra gli alberi, il vento ha finalmente smesso di inseguirmi. Ho scelto una radura al riparo di due rocce, abbastanza lontana dal sentiero da non attirare sguardi curiosi.', 'Il fuoco è basso. Sopra le braci si scalda una tazza d’acqua e l’odore della resina copre quello della pioggia. Ho steso il mantello su un ramo, ma dubito che sarà asciutto prima dell’alba.', 'Domani cercherò il vecchio guado. La mappa ne conserva appena il nome; chi l’ha disegnata doveva conoscere bene questi boschi. Per questa notte, invece, mi basta sapere dove finisce la luce.'], camp:'radura'},
-    {id:'vecchio-ponte', day:'02', chapter:'Secondo giorno', title:'Il ponte che non c’è più', location:'Sentiero del Guado', type:'In viaggio', excerpt:'Le pietre affiorano dall’acqua come le pagine di un libro chiuso troppo in fretta.', text:['Il ponte non c’è più. Restano due pilastri e una corda consumata, legata a un albero sulla riva opposta. Ho camminato lungo il fiume fino a trovare un punto in cui la corrente sembrava meno impaziente.', 'Sulla sponda ho visto impronte fresche. Qualcuno portava un carico pesante e si fermava spesso. Per un tratto le ho seguite, poi la pioggia ha cancellato ogni cosa.', 'Ho segnato il passaggio sul margine della mappa. Non è una buona strada per chi viaggia di notte. Tornerò con più luce, e forse con una corda migliore.']},
-    {id:'ultima-locanda', day:'01', chapter:'La partenza', title:'L’ultima locanda prima del bosco', location:'Locanda della Quercia', type:'Sosta', excerpt:'L’oste non mi ha chiesto dove stessi andando. Mi ha soltanto dato del pane per il viaggio.', text:['L’oste non mi ha chiesto dove stessi andando. Mi ha soltanto dato del pane per il viaggio e indicato la finestra, dove le prime nuvole coprivano le colline.', 'Ho lasciato una moneta sotto la tazza e una lettera che non ho avuto il coraggio di spedire. Alcune parole pesano meno quando restano ferme.', 'Alle mie spalle la porta si è chiusa con un rumore piccolo. Davanti, la strada era ancora vuota. Ho stretto le cinghie dello zaino e mi sono messo in cammino.'],camp:'locanda'}
+  "journal": [
+    {
+      "id": "luce-tra-i-pini",
+      "day": "03",
+      "chapter": "Third evening",
+      "title": "A light among the pines",
+      "location": "Pine Glade",
+      "type": "Campsite",
+      "excerpt": "I left the road before sunset. Among the trees, the wind finally stopped following me.",
+      "text": [
+        "I left the road before sunset. Among the trees, the wind finally stopped following me. I chose a clearing sheltered by two rocks, far enough from the trail to avoid curious eyes.",
+        "The fire is low. A cup of water warms above the embers, and the scent of resin covers the smell of rain. I have draped my cloak over a branch, though I doubt it will be dry before dawn.",
+        "Tomorrow I will look for the old ford. Its name is barely visible on the map; whoever drew it must have known these woods well. Tonight, though, it is enough to know where the light ends."
+      ],
+      "camp": "radura"
+    },
+    {
+      "id": "vecchio-ponte",
+      "day": "02",
+      "chapter": "Second day",
+      "title": "The bridge that is no more",
+      "location": "Ford Trail",
+      "type": "On the road",
+      "excerpt": "The stones rise from the water like the pages of a book closed too soon.",
+      "text": [
+        "The bridge is gone. Two pillars remain, along with a frayed rope tied to a tree on the far bank. I walked along the river until I found a place where the current seemed less impatient.",
+        "On the bank, I found fresh footprints. Someone had been carrying a heavy load and stopping often. I followed them for a while, then the rain washed everything away.",
+        "I marked the crossing in the margin of the map. It is no road for a traveller after dark. I will return with more light, and perhaps a better rope."
+      ]
+    },
+    {
+      "id": "ultima-locanda",
+      "day": "01",
+      "chapter": "Departure",
+      "title": "The last inn before the woods",
+      "location": "The Oak Inn",
+      "type": "Rest stop",
+      "excerpt": "The innkeeper did not ask where I was going. He simply gave me bread for the journey.",
+      "text": [
+        "The innkeeper did not ask where I was going. He simply gave me bread for the journey and pointed towards the window, where the first clouds were gathering over the hills.",
+        "I left a coin beneath the cup, and a letter I had not found the courage to send. Some words weigh less when they stay where they are.",
+        "Behind me, the door closed with a small sound. Ahead, the road was still empty. I tightened the straps of my pack and set off."
+      ],
+      "camp": "locanda"
+    }
   ],
-  camps: [
-    {id:'radura', name:'Radura dei Pini', subtitle:'Il rifugio della terza sera', status:'Ultima sosta nel racconto', shelter:'Rocce e chioma dei pini', water:'Ruscello a breve distanza', notes:'Terreno asciutto sotto gli aghi di pino. Tenere il fuoco basso e lasciare libero il passaggio verso il ruscello. Prima di partire, spegnere le braci e ricoprire il cerchio di pietre.', image:''},
-    {id:'guado', name:'Riparo del Vecchio Guado', subtitle:'Un luogo per riprendere fiato', status:'Da esplorare nel racconto', shelter:'Argine rialzato', water:'Fiume; acqua da bollire', notes:'Un riparo segnato sul bordo della mappa. Da raggiungere di giorno: il sentiero scende vicino all’acqua e dopo la pioggia le pietre diventano scivolose.', image:''},
-    {id:'locanda', name:'Locanda della Quercia', subtitle:'L’ultima porta illuminata', status:'Luogo visitato nel racconto', shelter:'Una stanza sopra le stalle', water:'Pozzo nel cortile', notes:'Paglia pulita, una coperta ruvida e pane ancora caldo. L’oste conosce i sentieri del bosco, ma aspetta che sia il viaggiatore a fare la prima domanda.', image:''}
+  "camps": [
+    {
+      "id": "radura",
+      "name": "Pine Glade",
+      "subtitle": "A shelter for the third evening",
+      "status": "Latest stop in the story",
+      "shelter": "Rocks and the canopy of pines",
+      "water": "A nearby stream",
+      "notes": "Dry ground beneath the pine needles. Keep the fire low and leave the path to the stream clear. Before leaving, put out the embers and cover the ring of stones.",
+      "image": ""
+    },
+    {
+      "id": "guado",
+      "name": "Old Ford Shelter",
+      "subtitle": "A place to catch your breath",
+      "status": "Still to be explored in the story",
+      "shelter": "A raised riverbank",
+      "water": "River water; boil before drinking",
+      "notes": "A shelter marked on the edge of the map. Approach in daylight: the trail runs close to the water, and the stones become slippery after rain.",
+      "image": ""
+    },
+    {
+      "id": "locanda",
+      "name": "The Oak Inn",
+      "subtitle": "The last lighted doorway",
+      "status": "Visited in the story",
+      "shelter": "A room above the stables",
+      "water": "A well in the courtyard",
+      "notes": "Clean straw, a rough blanket, and bread still warm from the oven. The innkeeper knows the woodland trails, but waits for the traveller to ask the first question.",
+      "image": ""
+    }
   ],
-  stories: [
-    {id:'lettera', title:'La lettera mai spedita', kind:'Racconto breve', excerpt:'Ci sono addii che trovano posto soltanto sul retro di una mappa.', text:['Avevo scritto il tuo nome prima di sapere cosa dirti. Per questo la lettera è rimasta aperta, accanto a una candela che si consumava più in fretta del mio coraggio.', 'Ti avrei raccontato della strada, dei pini e di quel cielo così basso da sembrare un soffitto. Ma non ero ancora partito, e la verità era che non sapevo cosa avrei trovato.', 'Alla fine ho piegato il foglio senza firmarlo. L’ho lasciato alla locanda, sotto una tazza vuota. Se un giorno tornerò, forse avrò imparato a scrivere l’ultima riga.']},
-    {id:'campanella', title:'La campanella nel vento', kind:'Leggenda di viaggio', excerpt:'Al guado si racconta di un suono che arriva sempre prima della nebbia.', text:['Il vecchio alla locanda diceva che un tempo il ponte aveva una campanella. La suonavano i viaggiatori per chiamare il traghettatore quando il fiume copriva le pietre.', 'Ora il ponte è caduto e nessuno ricorda il nome di quell’uomo. Eppure, nelle sere di nebbia, qualcuno giura di sentire ancora un tintinnio dall’altra riva.', 'Non so se crederci. Ma quando ho attraversato il fiume, ho aspettato qualche istante prima di voltarmi. Per rispetto, mi sono detto. Soltanto per rispetto.']}
+  "stories": [
+    {
+      "id": "lettera",
+      "title": "The letter never sent",
+      "kind": "Short story",
+      "excerpt": "Some farewells find a home only on the back of a map.",
+      "text": [
+        "I had written your name before I knew what to say. That was why the letter lay open beside a candle that burned faster than my courage.",
+        "I would have told you about the road, the pines, and the sky hanging so low it felt like a ceiling. But I had not yet left, and the truth was that I did not know what I would find.",
+        "In the end, I folded the page without signing it. I left it at the inn, beneath an empty cup. If I return one day, perhaps I will have learned how to write the last line."
+      ]
+    },
+    {
+      "id": "campanella",
+      "title": "The bell in the wind",
+      "kind": "A traveller’s tale",
+      "excerpt": "At the ford, they speak of a sound that always arrives before the mist.",
+      "text": [
+        "The old man at the inn said the bridge once had a little bell. Travellers rang it to call the ferryman when the river covered the stones.",
+        "Now the bridge has fallen, and nobody remembers the man’s name. Yet on misty evenings, some swear they still hear a faint ringing from the far bank.",
+        "I do not know whether to believe it. But when I crossed the river, I waited a moment before turning away. Out of respect, I told myself. Only out of respect."
+      ]
+    }
   ],
-  gallery: [
-    {title:'Il volto del viaggiatore', category:'Ritratti', image:'', alt:'Ritratto del personaggio da aggiungere'},
-    {title:'Dove finisce la strada', category:'Paesaggi', image:'', alt:'Screenshot del paesaggio da aggiungere'},
-    {title:'Una notte sotto i pini', category:'Accampamenti', image:'', alt:'Screenshot dell’accampamento da aggiungere'},
-    {title:'Compagni di avventura', category:'Retail', image:'', alt:'Screenshot dei personaggi Retail da aggiungere'},
-    {title:'Appunti dal sentiero', category:'Paesaggi', image:'', alt:'Screenshot del viaggio da aggiungere'},
-    {title:'Il ritorno alla locanda', category:'Accampamenti', image:'', alt:'Screenshot della locanda da aggiungere'}
+  "gallery": [
+    {
+      "title": "The traveller’s face",
+      "category": "Portraits",
+      "image": "",
+      "alt": "Character portrait to be added"
+    },
+    {
+      "title": "Where the road ends",
+      "category": "Landscapes",
+      "image": "",
+      "alt": "Landscape screenshot to be added"
+    },
+    {
+      "title": "A night beneath the pines",
+      "category": "Campsites",
+      "image": "",
+      "alt": "Campsite screenshot to be added"
+    },
+    {
+      "title": "Companions in adventure",
+      "category": "Retail",
+      "image": "",
+      "alt": "Retail character screenshot to be added"
+    },
+    {
+      "title": "Notes from the trail",
+      "category": "Landscapes",
+      "image": "",
+      "alt": "Journey screenshot to be added"
+    },
+    {
+      "title": "A return to the inn",
+      "category": "Campsites",
+      "image": "",
+      "alt": "Inn screenshot to be added"
+    }
   ]
 };

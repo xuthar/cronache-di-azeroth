@@ -4,6 +4,7 @@ window.CHRONICLES = {
   "contacts": {
     "telegram": "Xuthar",
     "youtube": "MrXuthar",
+    "spotify": "https://open.spotify.com/intl-it/artist/22LwS0pyMelPbn88AFmUKC",
     "battleTag": "Xuthar#2681"
   },
   "character": "Xuthar Morvayne",

@@ -21,3 +21,11 @@
 .contact-status{font-size:.75rem;color:var(--gold)}
 .contact-status:empty{display:none}
 @media(max-width:600px){.contact-strip{justify-content:flex-start;gap:8px}.contact-label{width:100%}.contact-item{font-size:.75rem;padding:7px 10px}}
+
+/* Personal legends remain visible beneath each character’s name. */
+.character-legend{margin:24px 0 26px;padding:21px 0;border-block:1px solid var(--line)}
+.character-legend h3{font:1.05rem/1.4 var(--serif);font-variant:small-caps;letter-spacing:.07em;color:var(--gold);margin:0 0 13px}
+.character-legend blockquote{margin:0 0 16px;color:#e2c68e;font:italic 1.22rem/1.55 var(--serif);text-wrap:pretty}
+.character-legend blockquote::before{content:'“'}
+.character-legend blockquote::after{content:'”'}
+.character-legend p{margin:0;color:#cbc9b9;font:1.02rem/1.8 var(--serif)}

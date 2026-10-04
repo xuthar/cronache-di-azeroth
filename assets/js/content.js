@@ -18,7 +18,7 @@ window.CHRONICLES = {
       "spec": "Shadow",
       "professions": "Not listed in Armory",
       "image": "assets/images/xuthar-retail.jpg",
-      "bio": "Personal history and adventures to be added.",
+      "bio": "Xuthar has walked Azeroth for as long as memory reaches. Across distant shores and forgotten roads, he has gathered the stories of a lifetime. Yet when the world falls quiet, this legendary wanderer asks for little: a fishing line, still waters, and the promise of another dawn.",
       "extraFacts": [
         [
           "Title",
@@ -42,7 +42,11 @@ window.CHRONICLES = {
         ]
       ],
       "armoryUrl": "https://wowarmory.gg/eu/character/pozzo-delleternit%C3%A0/xuthar",
-      "armoryDate": "4 October 2026"
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The First Legend",
+        "quote": "Countless roads behind him. Endless horizons ahead. Peace beneath a fisherman’s sky."
+      }
     },
     {
       "id": "retail-02",
@@ -54,7 +58,7 @@ window.CHRONICLES = {
       "spec": "Beast Mastery",
       "professions": "Not listed in Armory",
       "image": "assets/images/velenia-retail-v2.jpg",
-      "bio": "Personal history and adventures to be added.",
+      "bio": "A legendary Draenei hunter, Velenia has made the wilds her home. Patient and watchful, she follows the trail where roads give way to untamed lands. The hunt is more than a calling: it is the rhythm of her life, and every new horizon carries its promise.",
       "extraFacts": [
         [
           "Hero talents",
@@ -74,7 +78,11 @@ window.CHRONICLES = {
         ]
       ],
       "armoryUrl": "https://wowarmory.gg/eu/character/pozzo-delleternit%C3%A0/velenia",
-      "armoryDate": "4 October 2026"
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Eternal Hunt",
+        "quote": "Where others see wilderness, she sees the path of the hunt."
+      }
     },
     {
       "id": "retail-03",
@@ -86,7 +94,7 @@ window.CHRONICLES = {
       "spec": "Retribution",
       "professions": "Not listed in Armory",
       "image": "assets/images/brancaleone-retail.jpg",
-      "bio": "Personal history and adventures to be added.",
+      "bio": "Brancaleone stands among the few who remain from the golden days. Still a paladin of the renowned Passion guild, he carries the memory of old comrades and the honour of an age that time could not erase. While his light endures, their legacy will never fall silent.",
       "extraFacts": [
         [
           "Title",
@@ -110,7 +118,11 @@ window.CHRONICLES = {
         ]
       ],
       "armoryUrl": "https://wowarmory.gg/eu/character/draenor/brancaleone",
-      "armoryDate": "4 October 2026"
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "An Oath Beyond the Golden Age",
+        "quote": "The golden age may fade. His oath will not."
+      }
     }
   ],
   "journal": [

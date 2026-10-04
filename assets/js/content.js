@@ -6,15 +6,39 @@ window.CHRONICLES = {
   "characters": [
     {
       "id": "retail-01",
-      "name": "The first hero",
-      "role": "Retail character · To be personalised",
-      "race": "To be added",
-      "className": "To be added",
-      "realm": "To be added",
-      "spec": "To be added",
-      "professions": "To be added",
+      "name": "Xuthar",
+      "role": "Level 90 · Troll Shadow Priest",
+      "race": "Troll",
+      "className": "Priest",
+      "realm": "Pozzo dell'Eternità (EU)",
+      "spec": "Shadow",
+      "professions": "Not listed in Armory",
       "image": "",
-      "bio": "Every hero has a first road, a city to return to, and a battle they never forget. This is where the story and adventures of your first Retail character will take shape."
+      "bio": "Personal history and adventures to be added.",
+      "extraFacts": [
+        [
+          "Title",
+          "Loremaster"
+        ],
+        [
+          "Hero talents",
+          "Archon"
+        ],
+        [
+          "Guild",
+          "Armata Brancaleone"
+        ],
+        [
+          "Equipped item level",
+          "309"
+        ],
+        [
+          "Achievement points",
+          "24,675"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/pozzo-delleternit%C3%A0/xuthar",
+      "armoryDate": "4 October 2026"
     },
     {
       "id": "retail-02",

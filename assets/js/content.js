@@ -2,7 +2,7 @@
 window.CHRONICLES = {
   "author": "Xuthar",
   "contacts": {
-    "telegram": "Xuthar",
+    "telegram": "",
     "youtube": "MrXuthar",
     "mal": "Xuthar",
     "spotify": "https://open.spotify.com/intl-it/artist/22LwS0pyMelPbn88AFmUKC",

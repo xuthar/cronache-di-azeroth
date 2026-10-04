@@ -67,3 +67,8 @@ Update chapters, people, places, events, release years and source chapter number
 ## Forever introduction and useful resource directory
 
 `assets/js/resources-content.js` contains the curated directory of 26 useful websites, purpose labels and game-version labels. `site-resources.js` renders the searchable category-filtered homepage collection and the Forever introduction before the personal roleplay journal. `resources.css` provides the dedicated responsive styles. Official information is reviewed 4 October 2026 and should be updated editorially when Blizzard changes its announcements; this introduction is not an automatic news feed. Launch UTC is 2026-11-04T23:00:00Z (5 November 00:00 CET). Base access is included in WoW subscription/Game Time; Skyborne and Zephras Isle require Heroic Pack or higher. Official trailers: cinematic xXaXYxcbA6A, gameplay uQuKE0KDgiM. The cinematic player loads from youtube-nocookie.com only when the visitor presses Play; external YouTube links remain available. Retail tools are not labelled as Forever-compatible.
+
+
+## Stories & Lore — Original short fiction
+
+The library includes 16 new English short stories plus the two existing travel fragments. Duskwood, Westfall, Durotar and Tanaris each have two tales; Outland and Northrend each have four. Edit `stories` in `assets/js/content.js`: each item has an ID, title, zone, region, kind, excerpt and text paragraph array. Region filters are generated from the content. New IDs must be unique. Links such as `stories.html#duskwood-third-lantern` open the matching tale; navigating to a hidden tale clears the active filter. These invented characters and events are distinct from the official history in The Lore and the personal gameplay journal.

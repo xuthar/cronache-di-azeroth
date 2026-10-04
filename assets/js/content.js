@@ -431,6 +431,230 @@ window.CHRONICLES = {
   ],
   "stories": [
     {
+      "id": "duskwood-third-lantern",
+      "title": "The Third Lantern",
+      "zone": "Duskwood",
+      "region": "Eastern Kingdoms",
+      "kind": "A woodland mystery",
+      "excerpt": "A lamplighter counts two flames along the road. The third is never his.",
+      "text": [
+        "Mara earned her supper tending two lanterns on a side road outside Darkshire. She trimmed their wicks, scraped insects from the glass, and hurried home before the last travelers stopped pretending they were not afraid. On a wet evening in autumn, she found a third lantern hanging between them. Its blue flame gave no warmth.",
+        "She carried it to the watchman. He would not touch it. ‘Leave it where you found it,’ he said, then asked whether she had heard a child crying. Mara had heard nothing. That troubled him more. For three nights she returned the lantern to the road, and each morning it waited on her doorstep, its handle dry despite the rain.",
+        "On the fourth night, she followed its light into the trees. Beneath a fallen branch lay a small traveling chest, split by roots. Inside were a wooden horse and a scrap of paper: Keep the light on until I come home. Mara set the lantern beside the chest. When she looked back from the road, the flame had gone out.",
+        "She still tends two lanterns. But she leaves a little oil beneath the fallen branch, and has never again hurried past the sound of someone calling in the dark."
+      ]
+    },
+    {
+      "id": "duskwood-empty-chair",
+      "title": "A Chair for the Rain",
+      "zone": "Duskwood",
+      "region": "Eastern Kingdoms",
+      "kind": "An innkeeper’s tale",
+      "excerpt": "At a roadside inn, one chair stays empty even when every traveler needs a seat.",
+      "text": [
+        "The innkeeper kept a chair beside the hearth that nobody was allowed to use. Not the merchant with a purse full of silver, nor the wounded guard, nor the old priest whose knees could barely bend. ‘That one is taken,’ she would say, and find them somewhere else.",
+        "A young courier finally asked who was coming. ‘My brother,’ she replied. ‘He went out to fetch wood when the rain began.’ The courier looked through the window. Rain had filled every ditch on the road. He did not ask how long ago her brother had left.",
+        "That night, a stranger knocked with a bundle of dripping branches. His hood hid his face. The innkeeper rose, but he laid the wood across the threshold and backed away. ‘He asked me to bring these,’ the stranger said. In the bundle she found her brother’s little iron hatchet, its handle worn smooth where his thumb had rested.",
+        "By morning the chair was offered to the courier. The innkeeper sat opposite him while the fire caught. Neither spoke about the footprints outside: one set approaching the door, and none leading away."
+      ]
+    },
+    {
+      "id": "westfall-last-sack",
+      "title": "The Last Sack of Grain",
+      "zone": "Westfall",
+      "region": "Eastern Kingdoms",
+      "kind": "A harvest story",
+      "excerpt": "A farmer hides the last of his harvest, then learns who has been stealing it.",
+      "text": [
+        "Hollis had one sack of grain left. He hid it beneath the loose boards of his barn and slept with a rake across his knees. The fields had given little that year, the roads less, and he had grown tired of being told that better days were coming.",
+        "Each morning the sack was lighter. He checked the roof for holes, the floor for rats, and the door for scratches. At last he tied a small bell to the boards. It rang near midnight. Hollis lifted his lantern and found his daughter holding a cup of grain against her chest.",
+        "She led him to the old cart beyond the fence. A woman and two children were sleeping beneath it. His daughter had been leaving food beside the wheel, never waiting for thanks. ‘I thought you would say there wasn’t enough,’ she whispered. Hollis looked at the cup. He had said exactly that for weeks.",
+        "They carried the sack to the cart together. The next morning, the stranger repaired his broken plough. By evening her children had cleared stones from a strip of field. There was still not enough grain. But when Hollis counted the hands willing to plant it, he found more than he remembered."
+      ]
+    },
+    {
+      "id": "westfall-scarecrow-coat",
+      "title": "The Scarecrow’s Sunday Coat",
+      "zone": "Westfall",
+      "region": "Eastern Kingdoms",
+      "kind": "A tale of homecoming",
+      "excerpt": "An old coat watches an empty field long after its owner has vanished.",
+      "text": [
+        "Every week, Elna brushed the dust from the coat on her scarecrow. It had belonged to her husband, who left with a caravan and never returned. The coat was too fine for fieldwork, which was why she had chosen it. If he came back by the western road, he would recognize his own foolish finery before he saw the house.",
+        "Travelers laughed until they learned the reason. Then they took off their hats. One offered to buy the coat. Another promised to make inquiries in Stormwind. Elna accepted neither offer. She had learned how easily a promise could leave the farm and never find its way back.",
+        "Years later, a young woman arrived carrying a battered ledger. Elna’s husband had died guarding the caravan, she said. His last wages had been entered beneath her name, but nobody had known where to send them. The young woman was the caravan master’s daughter. She had spent a season following old debts.",
+        "Elna took the coat down that afternoon. She patched its elbows and gave it to her visitor. The scarecrow received a work shirt. At supper, for the first time in years, she set the table without glancing toward the western road."
+      ]
+    },
+    {
+      "id": "durotar-water-skins",
+      "title": "Three Waterskins",
+      "zone": "Durotar",
+      "region": "Kalimdor",
+      "kind": "A desert crossing",
+      "excerpt": "An orc and a troll disagree over how much water a stranger deserves.",
+      "text": [
+        "Ruk carried three waterskins across the red hills: one for the outward journey, one for the return, and one because Durotar had taught him to distrust a perfect plan. His troll companion, Senji, called the third skin the coward’s share. Ruk answered that living cowards could still argue tomorrow.",
+        "They found a human beside a broken wagon. One wheel had sunk into a crack, and the man’s lips were split by thirst. Senji reached for his spear. Ruk reached for the extra skin. ‘You do not know him,’ Senji said. ‘I know what the sun does,’ Ruk replied.",
+        "The human drank, then pointed toward a ravine. He had seen movement there: men waiting above the narrow path. Ruk and Senji took the long road instead. Before leaving, they helped raise the wagon with stones. The stranger tried to offer coins. Ruk shook his head and took back the empty skin.",
+        "At the next well, Senji filled all three. He said nothing while tying the knots. But when Ruk called the last one the coward’s share, the troll corrected him. ‘That is the traveler’s share.’"
+      ]
+    },
+    {
+      "id": "durotar-drum-maker",
+      "title": "The Drum with the Crooked Rim",
+      "zone": "Durotar",
+      "region": "Kalimdor",
+      "kind": "A craftsman’s story",
+      "excerpt": "A young drummer wants an instrument fit for warriors. His grandmother makes something else.",
+      "text": [
+        "Torga asked his grandmother for a war drum. She stretched hide over a crooked wooden rim and gave him an instrument that sounded like a cough in an empty barrel. He was furious. The other youths carried drums with painted tusks and bright metal rings. His had a patch shaped like a fish.",
+        "‘Strike it near the fire,’ she told him. He struck it near the road instead, hard enough to frighten the chickens. Nobody admired it. When a dust storm rose beyond the village, he put the drum aside and helped secure the roofs. Only then did he notice that his grandmother was missing.",
+        "He found her beyond the last fence, guiding two lost children through the blowing sand. She could not see the village. Torga beat the drum. Its ugly, low note carried through the storm when his shouts did not. They followed it home.",
+        "His grandmother explained the patch that evening. The drum had once called fishermen back from the shore. Torga asked if he might paint a tusk beside the fish. ‘If you like,’ she said. He decided to leave the space for the next thing it brought home."
+      ]
+    },
+    {
+      "id": "tanaris-shade-map",
+      "title": "A Map of Shade",
+      "zone": "Tanaris",
+      "region": "Kalimdor",
+      "kind": "A bargain in the sand",
+      "excerpt": "A goblin sells a map that marks neither roads nor treasure.",
+      "text": [
+        "The goblin in Gadgetzan sold maps of shade. Travelers laughed at the little black marks until he explained that each showed a place where a person could escape the midday sun. ‘Treasure moves,’ he said. ‘Rocks mostly stay put.’ His smallest map cost less than a flask of wine.",
+        "A treasure hunter bought one only to prove it useless. He followed its marks into Tanaris and found a leaning pillar, a broken cart, and the ribs of something too large to name. At the fourth mark, there was nothing. He cursed the goblin, then noticed that the sand beneath his boots was cool.",
+        "He dug with his hands and uncovered the mouth of a buried shelter. Inside sat an old traveler beside an empty bottle. The map seller had marked the place years ago, before the dunes swallowed it. Together they waited for the heat to soften. The treasure hunter gave away half his water and abandoned the search that had brought him there.",
+        "Back in Gadgetzan, he asked for another map. The goblin offered a discount. ‘Found something valuable?’ he asked. The hunter looked at the man beside him. ‘Something that walks.’"
+      ]
+    },
+    {
+      "id": "tanaris-glass-bottle",
+      "title": "The Bottle That Remembered the Sea",
+      "zone": "Tanaris",
+      "region": "Kalimdor",
+      "kind": "A coastal fable",
+      "excerpt": "A child hears waves inside a bottle found far from the shore.",
+      "text": [
+        "Nessa found the blue bottle half buried in a dune. When she held it to her ear, she heard waves. Her father said there was nothing strange about that; a shell did the same. Nessa pointed out that it was not a shell. He conceded the point and told her to stop carrying more things than their pack could hold.",
+        "That evening the caravan lost its way. Wind had smoothed their tracks, and every ridge looked like the one behind them. Nessa’s father argued with the guide until the child interrupted. The bottle sounded louder when she turned east.",
+        "They followed her because nobody had a better idea. Near dawn, the dunes gave way to salt wind. A distant light showed a camp along the shore, where travelers shared fish and a little fresh water. Nessa’s father asked to inspect the bottle. It was empty, cracked at the lip, and entirely ordinary.",
+        "Nessa left it standing in the sand beside their extinguished fire. When he asked why, she shrugged. ‘It knows the way now. Somebody else might not.’ He made room in the pack for her next discovery."
+      ]
+    },
+    {
+      "id": "outland-shattrath-loaf",
+      "title": "Half a Loaf in Shattrath",
+      "zone": "Shattrath City",
+      "region": "Outland",
+      "kind": "A city encounter",
+      "excerpt": "Two enemies reach for the same loaf in a city that has learned to shelter both.",
+      "text": [
+        "The baker had one loaf left when the orc and the draenei arrived. Both reached for it. Both stopped. Around them, Shattrath carried on with its evening business: footsteps on stone, distant voices, the smell of smoke and unfamiliar spices. Neither traveler seemed willing to be the first to speak.",
+        "The baker cut the loaf in half and named a price. The orc searched his purse and found only a foreign coin. The draenei’s purse was empty. ‘Then earn it,’ the baker said, pointing at two sacks beside the oven. They carried flour upstairs, one behind the other, listening to the wood complain beneath their weight.",
+        "On the third trip, the orc slipped. The draenei caught the sack before it dragged him down the stairs. Afterwards, they sat on opposite ends of a bench and ate. The orc placed his coin between them. The draenei pushed it back. ‘The bread is paid for.’",
+        "They left by different streets. Neither learned the other’s name. The baker swept the stairs and kept the bench outside, although rain had been forecast. Some customers, she thought, needed a little longer to finish their meal."
+      ]
+    },
+    {
+      "id": "outland-nagrand-island",
+      "title": "The Island Without Footprints",
+      "zone": "Nagrand",
+      "region": "Outland",
+      "kind": "A tale beneath a broken sky",
+      "excerpt": "A shepherd loses a bell, and a floating island begins to ring.",
+      "text": [
+        "Oru’s smallest talbuk wore a copper bell that had belonged to his mother. He knew its uneven note even in the middle of a hundred grazing animals. When the bell disappeared, he searched the grass for two days. On the third morning, he heard it above him.",
+        "A small island drifted over the pasture, too high to reach and too low to ignore. The bell rang whenever its shadow crossed the herd. Oru asked every traveler how to climb there. Most laughed. One mage offered a spell at a price worth more than the entire herd. An old orc offered a different answer: wait.",
+        "Oru waited through rain, moonlight, and the arguments of people who knew better. A week later the island brushed a neighboring ridge. He climbed with a rope and found the bell caught in the roots of a tree that grew along its underside. Beside it lay a woven ribbon, sun-faded and frayed.",
+        "He brought the bell down but left the ribbon tied to a branch. Someone else had lost something beneath that strange sky. If the island returned, he wanted it to have a reason to stop."
+      ]
+    },
+    {
+      "id": "outland-zangar-letters",
+      "title": "Letters Beneath the Mushrooms",
+      "zone": "Zangarmarsh",
+      "region": "Outland",
+      "kind": "A marshland mystery",
+      "excerpt": "A courier finds messages addressed to a house that no longer stands.",
+      "text": [
+        "The courier kept finding letters beneath the same great mushroom. Each was wrapped in waxed cloth and addressed to a house that had collapsed into the marsh. He took the first to the nearest settlement. Nobody recognized the name. By the fifth, he began reading them.",
+        "They were ordinary letters: complaints about wet boots, news of a repaired roof, a recipe for soup. Whoever wrote them seemed determined to pretend the world had not broken. The courier followed the faint marks on the cloth and found a woman camped beside a lantern, carefully folding another page.",
+        "‘There is nobody at that address,’ he told her. ‘I know,’ she said. Her sister had died before their last quarrel could be settled. She had been writing the things she should have said while there was still someone to answer. The courier put the unopened letters beside her and asked about the soup.",
+        "They ate it together. Next morning, one envelope waited beneath the mushroom. This one bore his name. Inside was a recipe, and a final line: Thank you for delivering the others, even if only back to me."
+      ]
+    },
+    {
+      "id": "outland-hellfire-seed",
+      "title": "A Seed in Hellfire",
+      "zone": "Hellfire Peninsula",
+      "region": "Outland",
+      "kind": "A story of stubborn hope",
+      "excerpt": "A soldier carries a seed through a landscape that seems to have forgotten green.",
+      "text": [
+        "The soldier kept the seed in a scrap of cloth inside his gauntlet. It had come from a tree behind his father’s house. Whenever the march halted, he loosened the metal and checked that it was still there. His companions called it his smallest ration.",
+        "Across Hellfire Peninsula, he looked for a place to plant it. The ground was cracked, the wind carried grit, and the horizon offered no encouragement. At an abandoned shelter, he found a clay cup with a broken handle. He filled it with the least hostile earth he could find and gave the seed three drops of water.",
+        "Nothing happened. Days passed. He was ordered onward. Before leaving, he entrusted the cup to a wounded scout who could not yet march. ‘If it grows, find somewhere better,’ he said. The scout promised without smiling.",
+        "Months later, a small parcel reached him. Inside lay a green leaf pressed between two boards. There was no explanation, only the scout’s name and an address in a gentler part of Outland. For the first time since crossing the portal, the soldier wrote a letter about something other than surviving."
+      ]
+    },
+    {
+      "id": "northrend-grizzly-song",
+      "title": "The Song Under the Floorboards",
+      "zone": "Grizzly Hills",
+      "region": "Northrend",
+      "kind": "A northern fireside tale",
+      "excerpt": "An abandoned cabin makes music whenever the wind comes down from the hills.",
+      "text": [
+        "We found the cabin at dusk, its roof bowed under old snow. There was room for three travelers if none of us minded the others’ elbows. We cleared the hearth, hung our wet cloaks, and listened to a strange whistling beneath the floor.",
+        "The hunter blamed a broken pipe. The dwarf blamed spirits, although he did not sound worried enough to leave. I lifted a board and found a wooden flute wedged across a gap in the foundations. The wind played its holes. Someone had placed it carefully, not lost it.",
+        "Near the door, shallow cuts in the wood recorded a child’s growing height. The last mark had a small bird carved beside it. We could not know why the cabin stood empty, or whether the child had ever grown beyond that line. The hunter asked me to leave the flute where it was.",
+        "Before departing, the dwarf mended the roof over the hearth. The hunter left dry wood. I cut another small bird beside the door. When we reached the trees, the cabin began its tune again. This time it sounded less like an empty house and more like a place waiting for guests."
+      ]
+    },
+    {
+      "id": "northrend-fjord-window",
+      "title": "The Light Above the Fjord",
+      "zone": "Howling Fjord",
+      "region": "Northrend",
+      "kind": "A harbor story",
+      "excerpt": "A widow keeps a lamp burning for ships that cannot see it from the water.",
+      "text": [
+        "The lamp stood too far above the harbor to guide a ship. The harbormaster explained this every winter. Sella thanked him every winter, then bought more oil. Her husband had been a sailor, and the light was hers to keep.",
+        "One night, a storm stranded a climbing party on the cliffs. Their guide had broken an ankle, the rope was frozen, and snow erased the trail. Through the gusts they saw a single yellow window. They climbed toward it with their hands bleeding against the rock.",
+        "Sella opened the door before they knocked. She gave them blankets, heated soup, and the narrow beds her grown children had left behind. One of the travelers asked whether she had expected them. ‘No,’ she said. ‘But I expected someone.’",
+        "In spring, the party returned to build steps along the steepest part of the path. The harbormaster carried timber uphill without a word. That winter he stopped explaining what a ship could see. Instead, he delivered oil before the first snow, and asked if she needed the glass cleaned."
+      ]
+    },
+    {
+      "id": "northrend-borean-net",
+      "title": "The Net Mended in Silence",
+      "zone": "Borean Tundra",
+      "region": "Northrend",
+      "kind": "A fishing tale",
+      "excerpt": "A stranger offers no stories at a coastal camp, only the patience to repair a ruined net.",
+      "text": [
+        "The stranger arrived with a sword and no fish. At the coastal camp, that made him less useful than he seemed to expect. He watched the fishers untangle a torn net, then sat at its far end. Nobody asked where he had fought. Nobody asked whose blood had darkened his sleeve.",
+        "He worked badly at first. His knots were too tight, his fingers stiff with cold. An elderly tuskarr loosened each mistake and showed him again. The stranger frowned as though patience were an insult he did not know how to answer. Still, he stayed.",
+        "At dawn they carried the net to the water. By noon it held enough for the camp. The stranger waited beside his portion until the elder sat down. ‘You could have asked me what happened,’ he said. The elder pulled a bone from his fish. ‘You could have told me.’",
+        "He did, a little at a time. When he left two days later, he carried no new weapon, blessing, or promise. Only a length of cord and the knowledge of a knot that would hold without cutting what it held."
+      ]
+    },
+    {
+      "id": "northrend-dragonblight-names",
+      "title": "The Names Beneath the Snow",
+      "zone": "Dragonblight",
+      "region": "Northrend",
+      "kind": "A remembrance",
+      "excerpt": "A scribe crossing the white wastes refuses to leave the fallen unnamed.",
+      "text": [
+        "The scribe traveled with a shovel too small for frozen earth. Wherever she found an abandoned marker, she scraped away the snow and copied its name. Her companions complained that she slowed the march. She answered by handing them the shovel.",
+        "Near a ruined camp, the letters had worn from every board. She searched beneath collapsed canvas and found a cook’s ledger. Beside each portion of bread was a name. Beside some names were debts, jokes, or instructions about how much salt a person could bear. It was the nearest thing to a history any of them had left.",
+        "That evening, she read the ledger beside the fire. The soldiers laughed at the jokes and grew quiet at the unfinished entries. One recognized a name. Another remembered a face. By midnight the margins held more than the cook had written.",
+        "They could not carry all the markers home. They carried the book instead. In the spring, the scribe received a letter from a mother who had learned that her son disliked salty soup. It was a small, ridiculous thing to know. It was also the first new thing she had learned about him in years."
+      ]
+    },
+    {
       "id": "lettera",
       "title": "The letter never sent",
       "kind": "Short story",
@@ -439,7 +663,9 @@ window.CHRONICLES = {
         "I had written your name before I knew what to say. That was why the letter lay open beside a candle that burned faster than my courage.",
         "I would have told you about the road, the pines, and the sky hanging so low it felt like a ceiling. But I had not yet left, and the truth was that I did not know what I would find.",
         "In the end, I folded the page without signing it. I left it at the inn, beneath an empty cup. If I return one day, perhaps I will have learned how to write the last line."
-      ]
+      ],
+      "zone": "Along the road",
+      "region": "Travel fragments"
     },
     {
       "id": "campanella",
@@ -450,7 +676,9 @@ window.CHRONICLES = {
         "The old man at the inn said the bridge once had a little bell. Travellers rang it to call the ferryman when the river covered the stones.",
         "Now the bridge has fallen, and nobody remembers the man’s name. Yet on misty evenings, some swear they still hear a faint ringing from the far bank.",
         "I do not know whether to believe it. But when I crossed the river, I waited a moment before turning away. Out of respect, I told myself. Only out of respect."
-      ]
+      ],
+      "zone": "Along the road",
+      "region": "Travel fragments"
     }
   ],
   "gallery": [

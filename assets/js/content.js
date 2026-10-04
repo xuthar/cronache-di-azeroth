@@ -78,15 +78,39 @@ window.CHRONICLES = {
     },
     {
       "id": "retail-03",
-      "name": "A story yet to be written",
-      "role": "Retail character · To be personalised",
-      "race": "To be added",
-      "className": "To be added",
-      "realm": "To be added",
-      "spec": "To be added",
-      "professions": "To be added",
-      "image": "",
-      "bio": "A portrait, a name, and a small glimpse of the past: a few lines are enough to begin a new chapter in your collection of heroes."
+      "name": "Brancaleone",
+      "role": "Level 90 · Human Retribution Paladin",
+      "race": "Human",
+      "className": "Paladin",
+      "realm": "Draenor (EU)",
+      "spec": "Retribution",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/brancaleone-retail.jpg",
+      "bio": "Personal history and adventures to be added.",
+      "extraFacts": [
+        [
+          "Title",
+          "Loremaster"
+        ],
+        [
+          "Hero talents",
+          "Templar"
+        ],
+        [
+          "Guild",
+          "Passion"
+        ],
+        [
+          "Equipped item level",
+          "226"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/draenor/brancaleone",
+      "armoryDate": "4 October 2026"
     }
   ],
   "journal": [

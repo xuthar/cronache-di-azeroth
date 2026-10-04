@@ -6,7 +6,8 @@ window.CHRONICLES = {
     "youtube": "MrXuthar",
     "mal": "Xuthar",
     "spotify": "https://open.spotify.com/intl-it/artist/22LwS0pyMelPbn88AFmUKC",
-    "battleTag": "Xuthar#2681"
+    "battleTag": "Xuthar#2681",
+    "whatsapp": "xuthar"
   },
   "character": "Xuthar Morvayne",
   "characters": [

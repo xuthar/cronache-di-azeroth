@@ -50,7 +50,7 @@
       try{localStorage.setItem(cacheKey,JSON.stringify(data));}catch{}
     }catch {
       if(!updatedAt) try{const r=await fetch('assets/data/retail-events.json',{cache:'no-store'});if(r.ok)apply(await r.json());}catch{}
-      if(updatedAt) {const status=root.querySelector('#calendar-status');status.textContent+=' Latest check failed; showing the last saved schedule.';}
+      if(updatedAt) {render();const status=root.querySelector('#calendar-status');status.textContent+=' Latest check failed; showing the last saved schedule.';}
     }finally{fetching=false;}
   }
   try{apply(JSON.parse(localStorage.getItem(cacheKey)));}catch{}

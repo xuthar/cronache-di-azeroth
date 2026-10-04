@@ -52,3 +52,6 @@ Official documentation:
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 World of Warcraft is a trademark of Blizzard Entertainment. This is an unofficial fan project.
+
+## Retail event calendar
+calendar.html displays the public ICS schedule exported by WoW Lazy Tools. This is not a Blizzard character/guild calendar integration. The source has no regional identifier; Europe/Rome is a display timezone, not an EU server schedule guarantee. Dates are never shifted to guess regional reset times. The dedicated retail-events workflow fetches the source every 6 hours and publishes retail-events.json on the retail-events branch. Source failure leaves the last successful data untouched. The browser refreshes every 5 minutes and marks data older than 24 hours. Local fallback is assets/data/retail-events.json. Event end times are exclusive. Unsupported recurrence rules or unverified timezone identifiers stop publication instead of producing guessed dates.

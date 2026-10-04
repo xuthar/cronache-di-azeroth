@@ -1,0 +1,35 @@
+name: Refresh Retail event calendar
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '13 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: retail-event-calendar
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Read the public Retail calendar
+        run: node scripts/update-retail-events.mjs assets/data/retail-events.json
+      - name: Publish the calendar feed
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin retail-events --depth=1 || true
+          blob=$(git hash-object -w assets/data/retail-events.json)
+          tree=$(printf '100644 blob %s\tretail-events.json\n' "$blob" | git mktree)
+          parent=$(git rev-parse --verify refs/remotes/origin/retail-events 2>/dev/null || true)
+          if [ -n "$parent" ]; then
+            commit=$(git commit-tree "$tree" -p "$parent" -m 'Refresh Retail calendar')
+          else
+            commit=$(git commit-tree "$tree" -m 'Start automatic Retail calendar')
+          fi
+          git push origin "$commit:refs/heads/retail-events"

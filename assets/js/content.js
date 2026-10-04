@@ -277,6 +277,42 @@ window.CHRONICLES = {
         "title": "The Forge Beneath the Frost",
         "quote": "The forge made his will. Death could not break it. Winter now carries his oath."
       }
+    },
+    {
+      "id": "retail-08",
+      "name": "Mitsuhashi",
+      "role": "Level 90 · Pandaren Windwalker Monk",
+      "race": "Pandaren",
+      "className": "Monk",
+      "realm": "Silvermoon (EU)",
+      "spec": "Windwalker",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/mitsuhashi-retail.jpg",
+      "bio": "Mitsuhashi measures a journey by the lessons it leaves, rather than the miles beneath his feet. Along mist-veiled mountain paths, this steadfast Pandaren listens to the wind, shares a warm meal with strangers, and carries the teachings of the Celestials into distant lands. His patience is deep, but never mistaken for weakness: when danger threatens the road, calm gives way to a storm of precise strikes. Once the battle passes, he straightens his hat and walks on, seeking balance beneath another open sky.",
+      "extraFacts": [
+        [
+          "Hero talents",
+          "Conduit of the Celestials"
+        ],
+        [
+          "Guild",
+          "Not listed in Armory"
+        ],
+        [
+          "Equipped item level",
+          "203"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/silvermoon/mitsuhashi",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Stillness Within the Storm",
+        "quote": "His spirit rests with the mountains. His steps move with the wind."
+      }
     }
   ],
   "journal": [

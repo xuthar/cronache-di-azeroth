@@ -13,7 +13,7 @@ window.CHRONICLES = {
       "realm": "Pozzo dell'Eternità (EU)",
       "spec": "Shadow",
       "professions": "Not listed in Armory",
-      "image": "",
+      "image": "assets/images/xuthar-retail.jpg",
       "bio": "Personal history and adventures to be added.",
       "extraFacts": [
         [

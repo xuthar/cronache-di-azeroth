@@ -49,7 +49,7 @@ window.CHRONICLES = {
       "realm": "Pozzo dell'Eternità (EU)",
       "spec": "Beast Mastery",
       "professions": "Not listed in Armory",
-      "image": "assets/images/velenia-retail.jpg",
+      "image": "assets/images/velenia-retail-v2.jpg",
       "bio": "Personal history and adventures to be added.",
       "extraFacts": [
         [

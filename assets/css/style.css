@@ -98,3 +98,7 @@ body{background-image:radial-gradient(ellipse at 0 30%,#32453126,transparent 65%
 .faction-emblem.horde{background:#43201d80}
 .faction-emblem svg{width:19px;height:21px}
 @media(max-width:720px){.brand-heading{gap:5px 9px}.faction-emblem{width:21px;height:23px}.faction-emblem svg{width:16px;height:18px}.brand{min-width:0}.brand>span:last-child{min-width:0}.sigil,.menu-toggle{flex-shrink:0}.brand-row{gap:10px}}
+/* Keep the expanded archive navigation comfortable on smaller desktops. */
+@media(min-width:721px){.nav{gap:10px;flex-wrap:wrap;justify-content:flex-start}.nav a{padding:15px 10px;font-size:.8rem}}
+@media(min-width:1300px){.nav{justify-content:space-between}.nav a{padding:15px 0;font-size:.84rem}}
+.home-lore .world-card{background:linear-gradient(110deg,#222c20ee,#141d16dd),url('../images/archive-map.svg') right center/650px no-repeat}.home-lore .button{margin-top:10px}

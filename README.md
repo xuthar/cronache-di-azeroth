@@ -55,3 +55,10 @@ World of Warcraft is a trademark of Blizzard Entertainment. This is an unofficia
 
 ## Retail event calendar
 calendar.html displays the public ICS schedule exported by WoW Lazy Tools. This is not a Blizzard character/guild calendar integration. The source has no regional identifier; Europe/Rome is a display timezone, not an EU server schedule guarantee. Dates are never shifted to guess regional reset times. The dedicated retail-events workflow fetches the source every 6 hours and publishes retail-events.json on the retail-events branch. Source failure leaves the last successful data untouched. The browser refreshes every 5 minutes and marks data older than 24 hours. Local fallback is assets/data/retail-events.json. Event end times are exclusive. Unsupported recurrence rules or unverified timezone identifiers stop publication instead of producing guessed dates.
+
+
+## The Lore — The Road to Loremaster
+
+`lore.html` is an English narrative archive covering Classic and the eleven released expansions through Midnight. The main campaigns and major patch arcs are original summaries with per-chapter links to Blizzard’s official timeline. The newest account includes Curse of Ula’tek, reviewed 4 October 2026; it is editorial content, not an automatic live lore feed. It does not claim exhaustive coverage of every quest or book.
+
+Update chapters, people, places, events, release years and source chapter numbers in `assets/js/lore-content.js`. The reader and verified official YouTube cinematic IDs are in `assets/js/lore.js`; the dedicated responsive design is in `assets/css/lore.css`. The small W medallions are original inline SVGs with two colors per expansion. All chapters can be linked directly, for example `lore.html#wrath`. Chapters are navigable through the table of contents, sidebar, and previous/next links. The cinematic links open the official videos on YouTube.

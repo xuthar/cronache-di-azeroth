@@ -313,6 +313,42 @@ window.CHRONICLES = {
         "title": "The Stillness Within the Storm",
         "quote": "His spirit rests with the mountains. His steps move with the wind."
       }
+    },
+    {
+      "id": "retail-09",
+      "name": "Aienma",
+      "role": "Level 90 · Worgen Restoration Druid",
+      "race": "Worgen",
+      "className": "Druid",
+      "realm": "Argent Dawn (EU)",
+      "spec": "Restoration",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/aienma-retail.jpg",
+      "bio": "Aienma walks the narrow path between a wild heart and a healer’s gentle hands. Beneath moonlit branches, she listens for the smallest signs of life: a wounded traveller’s breath, a bird returning to a scarred forest, the first root stirring after winter. The wolf within makes her watchful; the druid within teaches her to mend what fear and battle have broken. When darkness closes around her companions, she stands beside them until the night gives way, fierce enough to guard their lives and patient enough to help them begin again.",
+      "extraFacts": [
+        [
+          "Hero talents",
+          "Wildstalker"
+        ],
+        [
+          "Guild",
+          "Not listed in Armory"
+        ],
+        [
+          "Equipped item level",
+          "229"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/argent-dawn/aienma",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Wild Heart That Heals",
+        "quote": "Within her lives the wolf. Through her hands, the wounded world begins to bloom."
+      }
     }
   ],
   "journal": [

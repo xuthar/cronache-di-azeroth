@@ -165,6 +165,46 @@ window.CHRONICLES = {
         "title": "The Bearbound Wanderer",
         "quote": "Let kings keep their crowns. Give him a mountain, a fire, and his bears."
       }
+    },
+    {
+      "id": "retail-05",
+      "name": "Missnagatoro",
+      "role": "Level 90 · Human Protection Warrior",
+      "race": "Human",
+      "className": "Warrior",
+      "realm": "Draenor (EU)",
+      "spec": "Protection",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/missnagatoro-retail.jpg",
+      "bio": "Missnagatoro meets danger with a steady gaze and a defiant smile. Behind her shield, weary companions find the courage to stand again; before her blade, the enemy learns that grace can carry the weight of iron. Through shattered gates and thunder over the high passes, this undaunted warrior holds her ground. She asks for no throne and no song of victory, only that those who trusted her return home to tell their own stories.",
+      "extraFacts": [
+        [
+          "Title",
+          "The Undaunted"
+        ],
+        [
+          "Hero talents",
+          "Mountain Thane"
+        ],
+        [
+          "Guild",
+          "Not listed in Armory"
+        ],
+        [
+          "Equipped item level",
+          "216"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/draenor/missnagatoro",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Undaunted Shield",
+        "quote": "Let the storm break against her shield. Those behind her will see another dawn."
+      }
     }
   ],
   "journal": [

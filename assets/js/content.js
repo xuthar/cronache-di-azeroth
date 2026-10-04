@@ -205,6 +205,42 @@ window.CHRONICLES = {
         "title": "The Undaunted Shield",
         "quote": "Let the storm break against her shield. Those behind her will see another dawn."
       }
+    },
+    {
+      "id": "retail-06",
+      "name": "Pantyanarchy",
+      "role": "Level 90 · Blood Elf Arcane Mage",
+      "race": "Blood Elf",
+      "className": "Mage",
+      "realm": "Argent Dawn (EU)",
+      "spec": "Arcane",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/pantyanarchy-retail.jpg",
+      "bio": "Beneath the spires of Silvermoon, Pantyanarchy learned that power is a promise best kept in her own hands. Proud, sharp-witted, and unwilling to bow to fear, she walks Azeroth with arcane starlight at her fingertips and the fury of the sun burning within. Forgotten portals and forbidden tomes draw her beyond familiar horizons. Where others see a sealed gate, she sees a challenge, and a chance to leave her own mark upon the world.",
+      "extraFacts": [
+        [
+          "Hero talents",
+          "Sunfury"
+        ],
+        [
+          "Guild",
+          "Not listed in Armory"
+        ],
+        [
+          "Equipped item level",
+          "207"
+        ],
+        [
+          "Achievement points",
+          "24,655"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/argent-dawn/pantyanarchy",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "Starlight and Sunfire",
+        "quote": "No sealed gate can bind her curiosity. No shadow can silence her sunfire."
+      }
     }
   ],
   "journal": [

@@ -8,4 +8,5 @@
 
 
 /* Keep character portraits complete at their original proportions. */
+.portrait:not(.placeholder){height:auto}
 .portrait .gallery-image{aspect-ratio:auto;height:auto}

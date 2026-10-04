@@ -125,6 +125,46 @@ window.CHRONICLES = {
         "title": "An Oath Beyond the Golden Age",
         "quote": "The golden age may fade. His oath will not."
       }
+    },
+    {
+      "id": "retail-04",
+      "name": "Xutharion",
+      "role": "Level 90 · Dwarf Beast Mastery Hunter",
+      "race": "Dwarf",
+      "className": "Hunter",
+      "realm": "Silvermoon (EU)",
+      "spec": "Beast Mastery",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/xutharion-retail.jpg",
+      "bio": "Gruff of voice and stubborn as mountain stone, Xutharion has little patience for courtly manners. With a battered rifle over his shoulder and his faithful bears at his side, he roams the snowbound ridges and forgotten passes of Azeroth. He trusts a pawprint more than a promise, and a roaring campfire more than a crowded hall. When storms swallow the trail, dwarf and bears press on together: a rough old hunter and the only companions he would follow into any blizzard.",
+      "extraFacts": [
+        [
+          "Title",
+          "Brawl Star"
+        ],
+        [
+          "Hero talents",
+          "Pack Leader"
+        ],
+        [
+          "Guild",
+          "Armata Brancaleone"
+        ],
+        [
+          "Equipped item level",
+          "231"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/silvermoon/xutharion",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Bearbound Wanderer",
+        "quote": "Let kings keep their crowns. Give him a mountain, a fire, and his bears."
+      }
     }
   ],
   "journal": [

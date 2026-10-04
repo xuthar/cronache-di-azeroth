@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <!-- Original decorative travel chart, not a geographical map of Azeroth. -->
+  <g stroke="#cfac69" stroke-opacity=".11" stroke-width="1">
+    <path d="M0 180H960M0 360H960M0 540H960M240 0V720M480 0V720M720 0V720" stroke-opacity=".035"/>
+    <path d="M75 660c95-64 46-134 107-192s123-5 156-65 17-129 69-153 144 29 171-30 32-88 106-95 107 16 187-43"/>
+    <path d="M89 676c92-68 47-139 108-194s118-10 156-70 19-124 63-147 135 26 170-26 31-89 100-98 113 12 189-39" stroke-opacity=".055"/>
+    <path d="M125 584c56-10 104 4 157-26s51-73 125-82 84 19 133-31 62-77 114-78 95 15 142-8" stroke-dasharray="4 9"/>
+    <circle cx="282" cy="558" r="6"/><circle cx="540" cy="445" r="6"/><circle cx="796" cy="359" r="6"/>
+    <path d="m450 392 15-29 15 29m-3-6 16-34 18 34m-325-40 12-24 12 24m-3-4 14-30 16 30m459-139 14-29 15 29m-2-6 14-31 16 31"/>
+    <path d="m660 478 9-18 9 18m-9-18v30m18-4 9-18 9 18m-9-18v30m-22 11 9-18 9 18m-9-18v30"/>
+    <g transform="translate(762 180)">
+      <circle r="67"/><circle r="55" stroke-opacity=".055"/>
+      <path d="M0-88V88M-88 0H88M-48-48 48 48M48-48-48 48" stroke-opacity=".08"/>
+      <path d="m0-68 12 56 56 12-56 12-12 56-12-56-56-12 56-12Z"/>
+      <path d="m0-44 7 37 37 7-37 7-7 37-7-37-37-7 37-7Z" fill="#cfac69" fill-opacity=".025"/>
+    </g>
+  </g>
+</svg>

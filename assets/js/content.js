@@ -3,6 +3,7 @@ window.CHRONICLES = {
   "author": "Xuthar",
   "contacts": {
     "telegram": "Xuthar",
+    "youtube": "MrXuthar",
     "battleTag": "Xuthar#2681"
   },
   "character": "Xuthar Morvayne",

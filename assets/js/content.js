@@ -42,15 +42,35 @@ window.CHRONICLES = {
     },
     {
       "id": "retail-02",
-      "name": "Another path",
-      "role": "Retail character · To be personalised",
-      "race": "To be added",
-      "className": "To be added",
-      "realm": "To be added",
-      "spec": "To be added",
-      "professions": "To be added",
-      "image": "",
-      "bio": "Not every journey begins with a call to arms. Some begin with curiosity, others with a promise. This profile is ready to welcome another of your characters."
+      "name": "Velenia",
+      "role": "Level 80 · Draenei Beast Mastery Hunter",
+      "race": "Draenei",
+      "className": "Hunter",
+      "realm": "Pozzo dell'Eternità (EU)",
+      "spec": "Beast Mastery",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/velenia-retail.jpg",
+      "bio": "Personal history and adventures to be added.",
+      "extraFacts": [
+        [
+          "Hero talents",
+          "Dark Ranger"
+        ],
+        [
+          "Guild",
+          "Armata Brancaleone"
+        ],
+        [
+          "Equipped item level",
+          "89"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/pozzo-delleternit%C3%A0/velenia",
+      "armoryDate": "4 October 2026"
     },
     {
       "id": "retail-03",

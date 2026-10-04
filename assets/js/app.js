@@ -8,6 +8,22 @@
   const pages = [['home','Home','index.html'],['retail','Retail Characters','retail.html'],['forever','WoW Forever','forever.html'],['journal','Travel Journal','journal.html'],['campsites','Campsites','campsites.html'],['stories','Stories & Lore','stories.html'],['gallery','Gallery','gallery.html']];
   const nav = document.querySelector('#navigation');
   nav.innerHTML = pages.map(([id,label,path]) => `<a href="${path}" ${page===id?'aria-current="page"':''}>${label}</a>`).join('');
+
+  const contacts = data.contacts;
+  if (contacts) {
+    const telegramName = /^[a-zA-Z0-9_]+$/.test(contacts.telegram) ? contacts.telegram : '';
+    nav.insertAdjacentHTML('afterend', `<div class="contact-strip" aria-label="Contact Xuthar"><span class="contact-label">Get in touch</span>${telegramName ? `<a class="contact-item" href="https://t.me/${telegramName}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10l7 3 3 7 8-17Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m10 13 6-6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Telegram <strong>@${escape(telegramName)}</strong></span></a>` : ''}<button class="contact-item" type="button" id="copy-battletag" aria-label="Copy BattleTag ${escape(contacts.battleTag)}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3c5 0 9 4 9 9M21 12c0 5-4 9-9 9M12 21c-5 0-9-4-9-9M3 12c0-5 4-9 9-9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m12 3 3 3m6 6-3 3m-6 6-3-3m-6-6 3-3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Battle.net <strong>${escape(contacts.battleTag)}</strong></span><span class="contact-copy-hint" aria-hidden="true">Copy</span></button><span class="contact-status" role="status" aria-live="polite"></span></div>`);
+    document.querySelector('#copy-battletag').addEventListener('click', async () => {
+      const status = document.querySelector('.contact-status');
+      try {
+        await navigator.clipboard.writeText(contacts.battleTag);
+        status.textContent = 'BattleTag copied';
+      } catch {
+        status.textContent = 'Your BattleTag: ' + contacts.battleTag;
+      }
+    });
+  }
+
   const toggle = document.querySelector('.menu-toggle');
   toggle.addEventListener('click', () => {const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);toggle.textContent=open?'Close':'Menu';});
   document.addEventListener('keydown', e => {if(e.key==='Escape' && toggle.getAttribute('aria-expanded')==='true'){toggle.click();toggle.focus();}});

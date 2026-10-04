@@ -9,3 +9,15 @@
 
 /* All Retail portraits use Xuthar’s frame proportions; fit whole images without distortion. */
 .portrait .gallery-image{aspect-ratio:auto;height:100%}
+
+/* Visible contact links shared by every page. */
+.contact-strip{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap;padding:13px 0;border-top:1px solid var(--line)}
+.contact-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin-right:auto}
+.contact-item{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;border:1px solid var(--line);background:#1b241b;color:var(--ink);font: .8rem/1.5 var(--sans);text-align:left}
+.contact-item:hover{border-color:var(--gold);color:var(--gold)}
+.contact-item svg{width:21px;height:21px;flex-shrink:0;color:var(--gold)}
+.contact-item strong{font-weight:500;color:var(--gold);margin-left:5px}
+.contact-copy-hint{font-size:.7rem;color:var(--muted)}
+.contact-status{font-size:.75rem;color:var(--gold)}
+.contact-status:empty{display:none}
+@media(max-width:600px){.contact-strip{justify-content:flex-start;gap:8px}.contact-label{width:100%}.contact-item{font-size:.75rem;padding:7px 10px}}

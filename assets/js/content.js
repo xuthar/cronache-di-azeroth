@@ -2,6 +2,10 @@
    Leave image: "" to display a placeholder. Use plain text, not HTML. */
 window.CHRONICLES = {
   "author": "Xuthar",
+  "contacts": {
+    "telegram": "Xuthar",
+    "battleTag": "Xuthar#2681"
+  },
   "character": "Xuthar Morvayne",
   "characters": [
     {

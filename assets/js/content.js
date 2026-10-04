@@ -135,7 +135,7 @@ window.CHRONICLES = {
       "realm": "Silvermoon (EU)",
       "spec": "Beast Mastery",
       "professions": "Not listed in Armory",
-      "image": "assets/images/xutharion-retail.jpg",
+      "image": "assets/images/xutharion-retail-v2.jpg",
       "bio": "Gruff of voice and stubborn as mountain stone, Xutharion has little patience for courtly manners. With a battered rifle over his shoulder and his faithful bears at his side, he roams the snowbound ridges and forgotten passes of Azeroth. He trusts a pawprint more than a promise, and a roaring campfire more than a crowded hall. When storms swallow the trail, dwarf and bears press on together: a rough old hunter and the only companions he would follow into any blizzard.",
       "extraFacts": [
         [

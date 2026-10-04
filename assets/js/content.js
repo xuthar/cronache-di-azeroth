@@ -241,6 +241,42 @@ window.CHRONICLES = {
         "title": "Starlight and Sunfire",
         "quote": "No sealed gate can bind her curiosity. No shadow can silence her sunfire."
       }
+    },
+    {
+      "id": "retail-07",
+      "name": "Ryukko",
+      "role": "Level 90 · Dark Iron Dwarf Frost Death Knight",
+      "race": "Dark Iron Dwarf",
+      "className": "Death Knight",
+      "realm": "Argent Dawn (EU)",
+      "spec": "Frost",
+      "professions": "Not listed in Armory",
+      "image": "assets/images/ryukko-retail.jpg",
+      "bio": "Born of the deep forge and tempered by a colder fate, Ryukko carries the stubborn resolve of the Dark Iron into the silence of undeath. Frost gathers upon his runeblade, and each heavy footstep leaves a warning in the snow. He speaks little of the life he lost. Instead, he walks the broken roads of Azeroth, turning the power that once bound him against those who would enslave others. Beneath blackened steel and winter-blue flame, an old defiance still endures.",
+      "extraFacts": [
+        [
+          "Hero talents",
+          "Rider of the Apocalypse"
+        ],
+        [
+          "Guild",
+          "Not listed in Armory"
+        ],
+        [
+          "Equipped item level",
+          "165"
+        ],
+        [
+          "Achievement points",
+          "24,545"
+        ]
+      ],
+      "armoryUrl": "https://wowarmory.gg/eu/character/argent-dawn/ryukko",
+      "armoryDate": "4 October 2026",
+      "legend": {
+        "title": "The Forge Beneath the Frost",
+        "quote": "The forge made his will. Death could not break it. Winter now carries his oath."
+      }
     }
   ],
   "journal": [

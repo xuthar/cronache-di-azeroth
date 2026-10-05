@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-05T23:19:54.783Z"
+    "checkedAt": "2026-10-05T23:34:11.854Z"
   },
   "news": [
+    {
+      "title": "Blizzard Performing Brief Realm Restarts Immediately",
+      "url": "https://www.wowhead.com/news=383260/blizzard-performing-brief-realm-restarts-immediately",
+      "category": "Forever",
+      "publishedAt": "2026-10-05T23:19:47.000Z"
+    },
     {
       "title": "Johnny Cash Announces that Stitches is Hostile Again in WoW: Forever",
       "url": "https://www.wowhead.com/news=383257/johnny-cash-announces-that-stitches-is-hostile-again-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383246/whats-best-for-wow-forever-party-buffs-or-raid-buffs",
       "category": "Forever",
       "publishedAt": "2026-10-05T15:30:00.000Z"
-    },
-    {
-      "title": "WoW: Forever Character Creation Portraits Now Have SD and HD Versions",
-      "url": "https://www.wowhead.com/news=383248/wow-forever-character-creation-portraits-now-have-sd-and-hd-versions",
-      "category": "Forever",
-      "publishedAt": "2026-10-05T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-05T23:19:54.783Z",
-  "generatedAt": "2026-10-05T23:19:54.745Z",
+  "newsUpdatedAt": "2026-10-05T23:34:11.854Z",
+  "generatedAt": "2026-10-05T23:34:11.847Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 05 Oct 2026 18:19:54 -0500",
+  "newsFeedBuiltAt": "Mon, 05 Oct 2026 18:34:10 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

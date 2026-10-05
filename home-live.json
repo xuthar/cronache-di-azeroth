@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-05T15:26:05.226Z"
+    "checkedAt": "2026-10-05T15:52:39.574Z"
   },
   "news": [
+    {
+      "title": "What's Best for WoW: Forever - Party Buffs or Raid Buffs?",
+      "url": "https://www.wowhead.com/news=383246/whats-best-for-wow-forever-party-buffs-or-raid-buffs",
+      "category": "Forever",
+      "publishedAt": "2026-10-05T15:30:00.000Z"
+    },
     {
       "title": "WoW: Forever Character Creation Portraits Now Have SD and HD Versions",
       "url": "https://www.wowhead.com/news=383248/wow-forever-character-creation-portraits-now-have-sd-and-hd-versions",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383243/student-fodder-doesnt-give-rested-experience-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-04T14:00:00.000Z"
-    },
-    {
-      "title": "Necklace Rewards from Collecting Books Nerfed to Uncommon Quality in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383231/necklace-rewards-from-collecting-books-nerfed-to-uncommon-quality-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-03T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-05T15:26:05.226Z",
-  "generatedAt": "2026-10-05T15:26:05.219Z",
+  "newsUpdatedAt": "2026-10-05T15:52:39.573Z",
+  "generatedAt": "2026-10-05T15:52:39.561Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 05 Oct 2026 10:26:04 -0500",
+  "newsFeedBuiltAt": "Mon, 05 Oct 2026 10:52:26 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

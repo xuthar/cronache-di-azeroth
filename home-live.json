@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-05T18:58:20.442Z"
+    "checkedAt": "2026-10-05T21:32:25.914Z"
   },
   "news": [
+    {
+      "title": "Johnny Cash Announces that Stitches is Hostile Again in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383257/johnny-cash-announces-that-stitches-is-hostile-again-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-05T21:10:19.000Z"
+    },
+    {
+      "title": "Blizzard Teases More Information to Come on Skyborne Models",
+      "url": "https://www.wowhead.com/news=383255/blizzard-teases-more-information-to-come-on-skyborne-models",
+      "category": "Forever",
+      "publishedAt": "2026-10-05T20:08:35.000Z"
+    },
     {
       "title": "What's Best for WoW: Forever - Party Buffs or Raid Buffs?",
       "url": "https://www.wowhead.com/news=383246/whats-best-for-wow-forever-party-buffs-or-raid-buffs",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383248/wow-forever-character-creation-portraits-now-have-sd-and-hd-versions",
       "category": "Forever",
       "publishedAt": "2026-10-05T14:00:00.000Z"
-    },
-    {
-      "title": "Professions get Fun Thematic Gear Bonuses in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383236/professions-get-fun-thematic-gear-bonuses-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-04T16:00:00.000Z"
-    },
-    {
-      "title": "Student Fodder Doesn't Give Rested Experience in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383243/student-fodder-doesnt-give-rested-experience-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-04T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-05T18:58:20.441Z",
-  "generatedAt": "2026-10-05T18:58:20.432Z",
+  "newsUpdatedAt": "2026-10-05T21:32:25.914Z",
+  "generatedAt": "2026-10-05T21:32:25.908Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 05 Oct 2026 13:57:53 -0500",
+  "newsFeedBuiltAt": "Mon, 05 Oct 2026 16:32:25 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

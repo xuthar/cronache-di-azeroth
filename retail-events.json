@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T06:35:33.087Z",
+  "updatedAt": "2026-10-05T12:31:50.426Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -13,15 +13,6 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=372"
-    },
-    {
-      "id": "wow-event-321-1789984800000@wowlazymacros.com",
-      "title": "Harvest Festival",
-      "startAt": "2026-09-21T10:00:00.000Z",
-      "endAt": "2026-09-28T10:00:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=321"
     },
     {
       "id": "wow-event-561-1790064000000@wowlazymacros.com",

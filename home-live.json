@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-05T13:54:26.859Z"
+    "checkedAt": "2026-10-05T14:28:24.575Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Character Creation Portraits Now Have SD and HD Versions",
+      "url": "https://www.wowhead.com/news=383248/wow-forever-character-creation-portraits-now-have-sd-and-hd-versions",
+      "category": "Forever",
+      "publishedAt": "2026-10-05T14:00:00.000Z"
+    },
     {
       "title": "Professions get Fun Thematic Gear Bonuses in WoW: Forever",
       "url": "https://www.wowhead.com/news=383236/professions-get-fun-thematic-gear-bonuses-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383231/necklace-rewards-from-collecting-books-nerfed-to-uncommon-quality-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-03T16:00:00.000Z"
-    },
-    {
-      "title": "Every Quest in Excavation Site: Wetlands - WoW Forever",
-      "url": "https://www.wowhead.com/news=383239/every-quest-in-excavation-site-wetlands-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-03T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-05T13:54:26.859Z",
-  "generatedAt": "2026-10-05T13:54:26.790Z",
+  "newsUpdatedAt": "2026-10-05T14:28:24.575Z",
+  "generatedAt": "2026-10-05T14:28:24.569Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 05 Oct 2026 08:54:26 -0500",
+  "newsFeedBuiltAt": "Mon, 05 Oct 2026 09:27:57 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

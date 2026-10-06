@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T21:58:54.885Z"
+    "checkedAt": "2026-10-06T22:22:13.782Z"
   },
   "news": [
+    {
+      "title": "Class Highlights Video for Druids, Warlocks and Priests in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383280/class-highlights-video-for-druids-warlocks-and-priests-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-06T22:05:41.000Z"
+    },
     {
       "title": "WoW: Forever Beta Restarting for \"Priority Fixes\"",
       "url": "https://www.wowhead.com/news=383278/wow-forever-beta-restarting-for-priority-fixes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383273/powershifting-is-out-shifting-power-is-in-feral-druid-changes-analysis-in-wow",
       "category": "Forever",
       "publishedAt": "2026-10-06T19:41:02.000Z"
-    },
-    {
-      "title": "Blizzard Temporarily Suspending Players with More Bonus Rolls Than Intended",
-      "url": "https://www.wowhead.com/news=383275/blizzard-temporarily-suspending-players-with-more-bonus-rolls-than-intended",
-      "category": "Live",
-      "publishedAt": "2026-10-06T19:27:42.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T21:58:54.884Z",
-  "generatedAt": "2026-10-06T21:58:54.806Z",
+  "newsUpdatedAt": "2026-10-06T22:22:13.782Z",
+  "generatedAt": "2026-10-06T22:22:13.775Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 16:58:26 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 17:22:11 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

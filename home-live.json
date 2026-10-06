@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T19:21:22.769Z"
+    "checkedAt": "2026-10-06T19:39:13.421Z"
   },
   "news": [
+    {
+      "title": "Blizzard Temporarily Suspending Players with More Bonus Rolls Than Intended",
+      "url": "https://www.wowhead.com/news=383275/blizzard-temporarily-suspending-players-with-more-bonus-rolls-than-intended",
+      "category": "Live",
+      "publishedAt": "2026-10-06T19:27:42.000Z"
+    },
     {
       "title": "MoP Timewalking Week Now Live",
       "url": "https://www.wowhead.com/news=383265/mop-timewalking-week-now-live",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383270/weekly-bonus-rolls-now-available",
       "category": "Live",
       "publishedAt": "2026-10-06T15:08:56.000Z"
-    },
-    {
-      "title": "New Library Book Return Quest Unlocked at Level 30 in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383251/new-reward-for-handing-in-library-books-at-level-30",
-      "category": "Forever",
-      "publishedAt": "2026-10-06T14:15:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T19:21:22.768Z",
-  "generatedAt": "2026-10-06T19:21:22.759Z",
+  "newsUpdatedAt": "2026-10-06T19:39:13.421Z",
+  "generatedAt": "2026-10-06T19:39:13.415Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 14:21:22 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 14:39:13 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

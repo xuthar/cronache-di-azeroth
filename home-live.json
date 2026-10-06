@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T13:52:01.759Z"
+    "checkedAt": "2026-10-06T14:09:11.492Z"
   },
   "news": [
+    {
+      "title": "Devourer DH Moving in the Right Direction - Review of Patch 12.1.5 Changes",
+      "url": "https://www.wowhead.com/news=383233/devourer-dh-moving-in-the-right-direction-review-of-patch-12-1-5-changes",
+      "category": "Live",
+      "publishedAt": "2026-10-06T14:00:00.000Z"
+    },
     {
       "title": "Massive Heroic and Mythic Ula'tek Nerfs with Weekly Reset",
       "url": "https://www.wowhead.com/news=383264/massive-heroic-and-mythic-ulatek-nerfs-with-weekly-reset",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383257/johnny-cash-announces-that-stitches-is-hostile-again-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-05T21:10:19.000Z"
-    },
-    {
-      "title": "Blizzard Teases More Information to Come on Skyborne Models",
-      "url": "https://www.wowhead.com/news=383255/blizzard-teases-more-information-to-come-on-skyborne-models",
-      "category": "Forever",
-      "publishedAt": "2026-10-05T20:08:35.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T13:52:01.759Z",
-  "generatedAt": "2026-10-06T13:52:01.746Z",
+  "newsUpdatedAt": "2026-10-06T14:09:11.492Z",
+  "generatedAt": "2026-10-06T14:09:11.481Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 08:51:40 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 09:08:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T14:09:11.492Z"
+    "checkedAt": "2026-10-06T14:36:53.125Z"
   },
   "news": [
+    {
+      "title": "New Library Book Return Quest Unlocked at Level 30 in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383251/new-reward-for-handing-in-library-books-at-level-30",
+      "category": "Forever",
+      "publishedAt": "2026-10-06T14:15:00.000Z"
+    },
     {
       "title": "Devourer DH Moving in the Right Direction - Review of Patch 12.1.5 Changes",
       "url": "https://www.wowhead.com/news=383233/devourer-dh-moving-in-the-right-direction-review-of-patch-12-1-5-changes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383260/blizzard-performing-brief-realm-restarts-immediately",
       "category": "Forever",
       "publishedAt": "2026-10-05T23:19:47.000Z"
-    },
-    {
-      "title": "Johnny Cash Announces that Stitches is Hostile Again in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383257/johnny-cash-announces-that-stitches-is-hostile-again-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-05T21:10:19.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T14:09:11.492Z",
-  "generatedAt": "2026-10-06T14:09:11.481Z",
+  "newsUpdatedAt": "2026-10-06T14:36:53.125Z",
+  "generatedAt": "2026-10-06T14:36:53.115Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 09:08:43 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 09:36:35 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

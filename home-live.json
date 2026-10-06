@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T23:00:02.879Z"
+    "checkedAt": "2026-10-06T23:21:15.350Z"
   },
   "news": [
+    {
+      "title": "Class Changes, Raid Tuning - Patch 12.1 Hotfixes for October 6th",
+      "url": "https://www.wowhead.com/news=383282/class-changes-raid-tuning-patch-12-1-hotfixes-for-october-6th",
+      "category": "Live",
+      "publishedAt": "2026-10-06T23:11:22.000Z"
+    },
     {
       "title": "Class Highlights Video for Druids, Warlocks and Priests in WoW: Forever",
       "url": "https://www.wowhead.com/news=383280/class-highlights-video-for-druids-warlocks-and-priests-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383276/booty-bays-most-entertaining-weapon-just-got-nerfed-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-06T21:15:14.000Z"
-    },
-    {
-      "title": "Powershifting is Out, Shifting Power is In: Feral Druid Changes Analysis in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383273/powershifting-is-out-shifting-power-is-in-feral-druid-changes-analysis-in-wow",
-      "category": "Forever",
-      "publishedAt": "2026-10-06T19:41:02.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T23:00:02.879Z",
-  "generatedAt": "2026-10-06T23:00:02.736Z",
+  "newsUpdatedAt": "2026-10-06T23:21:15.349Z",
+  "generatedAt": "2026-10-06T23:21:15.341Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 18:00:00 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 18:21:14 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

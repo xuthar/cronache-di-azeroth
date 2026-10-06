@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T14:55:57.483Z"
+    "checkedAt": "2026-10-06T15:23:18.377Z"
   },
   "news": [
+    {
+      "title": "Weekly Bonus Rolls Now Available",
+      "url": "https://www.wowhead.com/news=383270/weekly-bonus-rolls-now-available",
+      "category": "Live",
+      "publishedAt": "2026-10-06T15:08:56.000Z"
+    },
     {
       "title": "New Library Book Return Quest Unlocked at Level 30 in WoW: Forever",
       "url": "https://www.wowhead.com/news=383251/new-reward-for-handing-in-library-books-at-level-30",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383264/massive-heroic-and-mythic-ulatek-nerfs-with-weekly-reset",
       "category": "Live",
       "publishedAt": "2026-10-06T02:45:44.000Z"
-    },
-    {
-      "title": "Blizzard Performing Brief Realm Restarts Immediately",
-      "url": "https://www.wowhead.com/news=383260/blizzard-performing-brief-realm-restarts-immediately",
-      "category": "Forever",
-      "publishedAt": "2026-10-05T23:19:47.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T14:55:57.482Z",
-  "generatedAt": "2026-10-06T14:55:57.471Z",
+  "newsUpdatedAt": "2026-10-06T15:23:18.377Z",
+  "generatedAt": "2026-10-06T15:23:18.366Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 09:55:52 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 10:22:58 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:30:11.356Z",
+  "updatedAt": "2026-10-06T12:30:33.289Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -13,24 +13,6 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=372"
-    },
-    {
-      "id": "wow-event-561-1790064000000@wowlazymacros.com",
-      "title": "Arena Skirmish Bonus Event",
-      "startAt": "2026-09-22T08:00:00.000Z",
-      "endAt": "2026-09-29T07:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=561"
-    },
-    {
-      "id": "wow-event-667-1790064000000@wowlazymacros.com",
-      "title": "PvP Brawl: Packed House",
-      "startAt": "2026-09-22T08:00:00.000Z",
-      "endAt": "2026-09-29T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=667"
     },
     {
       "id": "wow-event-702-1790668800000@wowlazymacros.com",

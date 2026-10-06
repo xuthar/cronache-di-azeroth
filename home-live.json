@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-06T18:25:26.604Z"
+    "checkedAt": "2026-10-06T18:53:42.195Z"
   },
   "news": [
+    {
+      "title": "MoP Timewalking Week Now Live",
+      "url": "https://www.wowhead.com/news=383265/mop-timewalking-week-now-live",
+      "category": "Live",
+      "publishedAt": "2026-10-06T18:27:51.000Z"
+    },
     {
       "title": "How to Become Attuned to City of Dalaran Dungeon as Horde in WoW: Forever",
       "url": "https://www.wowhead.com/news=383256/how-to-become-attuned-to-city-of-dalaran-dungeon-as-horde-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383251/new-reward-for-handing-in-library-books-at-level-30",
       "category": "Forever",
       "publishedAt": "2026-10-06T14:15:00.000Z"
-    },
-    {
-      "title": "Devourer DH Moving in the Right Direction - Review of Patch 12.1.5 Changes",
-      "url": "https://www.wowhead.com/news=383233/devourer-dh-moving-in-the-right-direction-review-of-patch-12-1-5-changes",
-      "category": "Live",
-      "publishedAt": "2026-10-06T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-06T18:25:26.603Z",
-  "generatedAt": "2026-10-06T18:25:26.534Z",
+  "newsUpdatedAt": "2026-10-06T18:53:42.194Z",
+  "generatedAt": "2026-10-06T18:53:41.908Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 06 Oct 2026 13:25:25 -0500",
+  "newsFeedBuiltAt": "Tue, 06 Oct 2026 13:53:31 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

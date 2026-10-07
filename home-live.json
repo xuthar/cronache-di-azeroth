@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T14:51:26.541Z"
+    "checkedAt": "2026-10-07T15:44:32.281Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Warrior Deep Dive - What Changed, and What is Still Needed?",
+      "url": "https://www.wowhead.com/news=383284/wow-forever-warrior-deep-dive-what-changed-and-what-is-still-needed",
+      "category": "Forever",
+      "publishedAt": "2026-10-07T15:00:00.000Z"
+    },
     {
       "title": "New Required \"Playstyle\" Selection Added To LFG In WoW: Forever",
       "url": "https://www.wowhead.com/news=383259/new-required-playstyle-selection-added-to-lfg-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383282/class-changes-raid-tuning-patch-12-1-hotfixes-for-october-6th",
       "category": "Live",
       "publishedAt": "2026-10-06T23:11:22.000Z"
-    },
-    {
-      "title": "Class Highlights Video for Druids, Warlocks and Priests in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383280/class-highlights-video-for-druids-warlocks-and-priests-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-06T22:05:41.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T14:51:26.541Z",
-  "generatedAt": "2026-10-07T14:51:26.534Z",
+  "newsUpdatedAt": "2026-10-07T15:44:32.281Z",
+  "generatedAt": "2026-10-07T15:44:32.274Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 09:51:10 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 10:44:12 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:35:40.881Z",
+  "updatedAt": "2026-10-07T04:47:09.488Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -607,6 +607,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1233"
+    },
+    {
+      "id": "wow-event-647-1806886800000@wowlazymacros.com",
+      "title": "March of the Tadpoles",
+      "startAt": "2027-04-05T01:00:00.000Z",
+      "endAt": "2027-04-06T01:00:00.000Z",
+      "allDay": false,
+      "category": "World events",
+      "url": "https://www.wowhead.com/event=647"
     }
   ]
 }

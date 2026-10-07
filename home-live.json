@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T16:52:46.548Z"
+    "checkedAt": "2026-10-07T17:04:09.799Z"
   },
   "news": [
+    {
+      "title": "How PvP Progression in World of Warcraft: Forever",
+      "url": "https://www.wowhead.com/news=383292/how-pvp-progression-in-world-of-warcraft-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-07T17:02:18.000Z"
+    },
     {
       "title": "WoW: Forever Warrior Deep Dive - What Changed, and What is Still Needed?",
       "url": "https://www.wowhead.com/news=383284/wow-forever-warrior-deep-dive-what-changed-and-what-is-still-needed",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383261/mcdonalds-australia-offering-in-game-rewards-and-game-time-with-rewards-points",
       "category": "WoW",
       "publishedAt": "2026-10-07T13:00:00.000Z"
-    },
-    {
-      "title": "Class Changes, Raid Tuning - Patch 12.1 Hotfixes for October 6th",
-      "url": "https://www.wowhead.com/news=383282/class-changes-raid-tuning-patch-12-1-hotfixes-for-october-6th",
-      "category": "Live",
-      "publishedAt": "2026-10-06T23:11:22.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T16:52:46.548Z",
-  "generatedAt": "2026-10-07T16:52:46.540Z",
+  "newsUpdatedAt": "2026-10-07T17:04:09.798Z",
+  "generatedAt": "2026-10-07T17:04:09.789Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 11:52:31 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 12:04:09 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

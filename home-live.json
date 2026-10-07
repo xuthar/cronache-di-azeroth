@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T19:23:42.832Z"
+    "checkedAt": "2026-10-07T19:48:51.910Z"
   },
   "news": [
+    {
+      "title": "New Battleground Preview in World of Warcraft: Forever - Battle for the Darkspear Islands",
+      "url": "https://www.wowhead.com/news=383294/new-battleground-preview-in-world-of-warcraft-forever-battle-for-the-darkspear",
+      "category": "Forever",
+      "publishedAt": "2026-10-07T19:23:20.000Z"
+    },
     {
       "title": "Myth Track Gear Awarded from Delve Labyrinths in Patch 12.1.5",
       "url": "https://www.wowhead.com/news=383252/myth-track-gear-awarded-from-delve-labyrinths-in-patch-12-1-5",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383284/wow-forever-warrior-deep-dive-what-changed-and-what-is-still-needed",
       "category": "Forever",
       "publishedAt": "2026-10-07T15:00:00.000Z"
-    },
-    {
-      "title": "New Required \"Playstyle\" Selection Added To LFG In WoW: Forever",
-      "url": "https://www.wowhead.com/news=383259/new-required-playstyle-selection-added-to-lfg-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-07T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T19:23:42.831Z",
-  "generatedAt": "2026-10-07T19:23:42.824Z",
+  "newsUpdatedAt": "2026-10-07T19:48:51.909Z",
+  "generatedAt": "2026-10-07T19:48:51.902Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 14:23:42 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 14:48:36 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

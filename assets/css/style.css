@@ -105,3 +105,29 @@ body{background-image:radial-gradient(ellipse at 0 30%,#32453126,transparent 65%
 
 /* Original short-fiction library */
 .story-library{margin:32px 0}.story-filters{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}.story-filters button{font:inherit;font-size:.86rem;color:var(--muted,#b9b0a0);border:1px solid #665437;background:#191c17;border-radius:3px;padding:10px 15px;cursor:pointer}.story-filters button:hover,.story-filters button[aria-pressed="true"]{color:#f5dfad;border-color:#cfac69;background:#352c20}.story-filters button:focus-visible{outline:2px solid #cfac69;outline-offset:3px}.story-count{font-size:.88rem;color:#b9b0a0;margin-top:12px}body[data-page="stories"] .lore-grid{align-items:start}.story-card[hidden]{display:none}.story-zone{display:block;color:#d8b978;font-size:.83rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}.story-card .eyebrow{font-size:.72rem}.story-card h2{margin-top:10px}.story-excerpt{margin-top:20px}.story-card details .prose{padding-top:14px;font-size:1.05rem;line-height:1.85}.story-permalink{display:inline-block;margin-top:12px;font-size:.83rem}.story-card{scroll-margin-top:24px}@media(max-width:720px){.story-filters button{padding:10px 12px}.story-card{padding:26px}.story-zone{font-size:.76rem}}
+
+/* Homepage portraits and an illustrated tale, drawn from the personal gallery. */
+.home-heroes{padding-bottom:22px}
+.home-heroes .eyebrow{color:#a7c9f1}
+.hero-portrait-strip{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:12px}
+.hero-portrait-card{min-width:0;display:block;border:1px solid #ffffff20;border-bottom:3px solid var(--class-accent);background:linear-gradient(160deg,#202b35,#171d24);padding:8px 8px 12px;transition:transform .18s ease,border-color .18s ease}
+.hero-portrait-card:hover{transform:translateY(-4px);border-color:var(--class-accent);color:var(--ink)}
+.hero-portrait-frame{height:150px;background:#10171d;overflow:hidden}
+.hero-portrait-frame img{width:100%;height:100%;object-fit:contain}
+.hero-portrait-name{display:block;margin-top:10px;font:1rem/1.4 var(--serif);overflow-wrap:anywhere;color:var(--ink)}
+.hero-portrait-class{display:block;margin-top:4px;font-size:.875rem;line-height:1.4;color:var(--class-accent)}
+.home-featured-story .eyebrow{color:#f0b282}
+.featured-story-card{display:grid;grid-template-columns:1.05fr 1fr;border:1px solid #d7a47466;background:linear-gradient(130deg,#263445,#302326 65%,#28221b);overflow:hidden}
+.featured-story-card figure{margin:0;min-width:0;display:flex;flex-direction:column;background:#15202b}
+.featured-story-card figure img{width:100%;height:100%;min-height:320px;object-fit:cover;flex:1}
+.featured-story-card figcaption{padding:10px 16px;font-size:.875rem;color:#c5d6e8;background:#172330}
+.featured-story-copy{padding:34px}
+.featured-story-copy .badge{color:#f0b282;font-size:.875rem}
+.featured-story-copy h3{font-size:clamp(1.7rem,3vw,2.5rem);margin:15px 0 18px;color:#fff0dc}
+.featured-story-copy p{color:#ded5cf;font-size:1rem}
+.featured-story-copy blockquote{margin:20px 0 26px;padding-left:18px;border-left:2px solid #d89570;color:#e9cdb9;font:italic 1.05rem/1.8 var(--serif)}
+body[data-page="home"] .world-card.retail{background:linear-gradient(125deg,#263b57,#1b2635);border-color:#749ac855}
+body[data-page="home"] .world-card:not(.retail){background:linear-gradient(125deg,#344838,#1a2a25);border-color:#94b87855}
+@media(max-width:1100px){.hero-portrait-strip{grid-template-columns:repeat(5,minmax(0,1fr))}.hero-portrait-frame{height:170px}}
+@media(max-width:720px){.hero-portrait-strip{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.hero-portrait-frame{height:145px}.featured-story-card{grid-template-columns:1fr}.featured-story-card figure img{min-height:0;height:auto;aspect-ratio:16/10;object-fit:cover}.featured-story-copy{padding:25px}}
+@media(max-width:380px){.hero-portrait-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}

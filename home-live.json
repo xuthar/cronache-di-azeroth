@@ -30,12 +30,12 @@
       "publishedAt": "2026-10-06T21:15:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T11:50:28.961Z",
-  "generatedAt": "2026-10-07T11:50:28.954Z",
+  "newsUpdatedAt": "2026-10-07T12:05:24.216Z",
+  "generatedAt": "2026-10-07T12:05:24.166Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 06:50:28 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 07:05:00 -0500",
   "newsFetchError": false,
-  "launchCheckError": false
+  "launchCheckError": true
 }

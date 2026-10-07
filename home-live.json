@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T22:03:13.123Z"
+    "checkedAt": "2026-10-07T22:21:37.319Z"
   },
   "news": [
+    {
+      "title": "Rogue and Warlock Class Deep Dive in World of Warcraft: Forever",
+      "url": "https://www.wowhead.com/news=383299/rogue-and-warlock-class-deep-dive-in-world-of-warcraft-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-07T22:06:52.000Z"
+    },
     {
       "title": "SD Skyborne Models and Druid Forms Arriving in Early 2027",
       "url": "https://www.wowhead.com/news=383298/sd-skyborne-models-and-druid-forms-arriving-in-early-2027",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383252/myth-track-gear-awarded-from-delve-labyrinths-in-patch-12-1-5",
       "category": "PTR",
       "publishedAt": "2026-10-07T18:52:58.000Z"
-    },
-    {
-      "title": "How PvP Progression Works in World of Warcraft: Forever",
-      "url": "https://www.wowhead.com/news=383292/how-pvp-progression-in-world-of-warcraft-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-07T17:02:18.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T22:03:13.122Z",
-  "generatedAt": "2026-10-07T22:03:13.113Z",
+  "newsUpdatedAt": "2026-10-07T22:21:37.319Z",
+  "generatedAt": "2026-10-07T22:21:37.056Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 17:02:54 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 17:21:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

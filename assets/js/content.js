@@ -432,6 +432,66 @@ window.CHRONICLES = {
   ],
   "stories": [
     {
+      "id": "elwynn-rain-check",
+      "title": "The Innkeeper’s Rain Check",
+      "zone": "Elwynn Forest",
+      "region": "Elwynn Forest",
+      "kind": "A roadside misadventure",
+      "excerpt": "A traveller trades a leaking roof for a night’s work and finds an unexpected helper in the attic.",
+      "text": [
+        "By the time I reached the inn, the rain had found every weakness in my cloak. The innkeeper looked at my empty purse, then at the puddle around my boots. ‘There’s a bed upstairs,’ she said. ‘It leaks.’ I asked how much. ‘Fix the leak.’",
+        "The attic smelled of apples and damp timber. Beneath the broken tile stood seven bowls, a cooking pot, and a helmet with a remarkably good seal. I moved a crate to reach the rafters. Under it lay wooden swords carved with children’s names. One broken blade had been bound with careful stitching.",
+        "At midnight, something scratched beyond the roof. I drew my knife. A small hand pushed through the gap and offered a tile. The girl outside wore an oversized guard’s tunic. ‘You’re standing on the ladder,’ she whispered. ‘Move.’ We patched the opening while her mother shouted threats from the courtyard that neither of us believed.",
+        "Over breakfast, the innkeeper explained that the attic had been her husband’s workshop. He had made swords for half the children along the road. Since his death, she had managed the inn alone; the roof slipped further down the list every season. Her daughter was supposed to be asleep when she climbed out to mend it.",
+        "When I left, the girl gave me the repaired sword. ‘For the wolves.’ I showed her my knife. She inspected it without enthusiasm. ‘This one’s got a name.’ At the next bend, I checked the carving. It said Captain. For the first time in weeks, I walked into the rain with a promotion."
+      ]
+    },
+    {
+      "id": "wetlands-ferryman-rope",
+      "title": "The Rope Across the Marsh",
+      "zone": "Wetlands",
+      "region": "Wetlands",
+      "kind": "A marshland mystery",
+      "excerpt": "Fresh knots appear on an abandoned ferry rope, although no ferryman has worked the crossing for years.",
+      "text": [
+        "The rope ran between leaning posts beside a flooded trail. There was no boat, only a sign promising a crossing for two copper. Someone had scratched out the price and written WAIT. The merchant ahead refused to take advice from a board. He stepped into the water and sank to his waist.",
+        "We hauled him out by his belt. While he complained, I noticed the rope’s fresh, evenly spaced knots. A second line descended into the flood. When I pulled it, a narrow raft emerged from behind a willow. On its deck lay a pole, a dry sack, and three small boots.",
+        "A dwarf appeared on the opposite bank with a fourth boot under her arm. She guided us across. The merchant demanded to know why she had hidden the raft. ‘Because you lot keep taking it downstream,’ she said. ‘And then the children can’t get home.’",
+        "She repaired barrels in a settlement beyond the marsh, where the flooded trail had cut off several families. Each morning she checked the knots and returned the raft to its willow. The boots belonged to children who crossed barefoot to avoid spending the day in wet stockings. She had been hunting the fourth one since dawn.",
+        "The merchant paid two copper. She returned them and asked for nails instead. He found a handful in his cart; I helped straighten the posts. Before leaving, I turned the sign over and wrote PULL THE LOWER ROPE. Beneath it, the dwarf added RETURN THE RAFT. She underlined that part three times."
+      ]
+    },
+    {
+      "id": "ironforge-parcel",
+      "title": "A Parcel Too Light for Ironforge",
+      "zone": "Ironforge",
+      "region": "Ironforge",
+      "kind": "A delivery with complications",
+      "excerpt": "A courier carries an almost weightless box through Ironforge, with instructions to distrust the recipient’s brother.",
+      "text": [
+        "The box came with three instructions: keep it upright, keep it warm, and do not accept payment from anyone claiming to be the recipient’s brother. In Ironforge, where every second dwarf seemed to be someone’s brother, this struck me as poor planning. The address led to a smithy above a steep flight of stairs.",
+        "The smith weighed the parcel. ‘Too light.’ I showed her the signature. She set down her hammer so carefully that I stopped worrying about my fee. Inside was a tin cup holding a tiny cutting, its two leaves protected by bent wire.",
+        "Her brother had taken work far from home after a quarrel about an inheritance, a workshop, and words that had grown larger than either. The cutting came from their mother’s kitchen plant. The note read, You always watered it too much. This one only needs a little.",
+        "The smith read it twice. Then she asked whether he had paid for delivery. I said he had. ‘Typical. Buying the last word.’ She filled another box with pruning shears, a folded letter, and enough padding to protect a royal crown.",
+        "I asked whether her reply needed the same precautions. ‘Drop it down the stairs if you like. I made those hinges.’ Outside, I checked the slip. Under special instructions she had written, Wait for an answer. I found a room near the forge. Some routes take longer than the map suggests."
+      ]
+    },
+    {
+      "id": "mulgore-unclaimed-fire",
+      "title": "The Fire No One Claimed",
+      "zone": "Mulgore",
+      "region": "Mulgore",
+      "kind": "A camp beneath the open sky",
+      "excerpt": "Two travellers reach an abandoned campfire and each assumes the other lit it.",
+      "text": [
+        "I saw the smoke before the hollow between the hills. A low fire burned beside three flat stones. There was dry grass beneath a rock and a kettle beginning to sing. I called out. No one answered. After a day in the wind, mysterious hot water seemed a risk worth taking.",
+        "The tauren arrived as I searched my pack for tea. She thanked me for the fire. I thanked her for the kettle. We looked at each other, then at the empty hollow. She checked the tracks while I looked behind the rock. Whoever had left had gone toward the road less than an hour earlier.",
+        "We shared my tea and her bread. She carried hides to trade; I carried a message whose owner had been much too confident about the distance. With no host to entertain, we sat quietly. Once, she laughed at the way I held my cup with both hands. ‘You look as though it might escape.’",
+        "At dusk, an elderly tauren returned for his kettle. He had walked up the ridge to find a missing pack animal. He found it asleep in the grass and us drinking his water. He accepted the last tea, listened to our explanations, and asked if we had saved any bread.",
+        "We made room. Before dawn, I heard him loading his packs. He left dry branches beneath the rock for the next traveller. I added my remaining tea. When we reached the road, smoke rose from another hollow farther west. He shaded his eyes and smiled. ‘Someone’s had the same idea.’"
+      ]
+    },
+    {
       "id": "duskwood-third-lantern",
       "title": "The Third Lantern",
       "zone": "Duskwood",

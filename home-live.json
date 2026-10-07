@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T18:31:03.063Z"
+    "checkedAt": "2026-10-07T18:55:57.675Z"
   },
   "news": [
+    {
+      "title": "Myth Track Gear Awarded from Delve Labyrinths in Patch 12.1.5",
+      "url": "https://www.wowhead.com/news=383252/myth-track-gear-awarded-from-delve-labyrinths-in-patch-12-1-5",
+      "category": "PTR",
+      "publishedAt": "2026-10-07T18:52:58.000Z"
+    },
     {
       "title": "How PvP Progression Works in World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383292/how-pvp-progression-in-world-of-warcraft-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383259/new-required-playstyle-selection-added-to-lfg-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-07T14:00:00.000Z"
-    },
-    {
-      "title": "McDonald's Australia Offering In-Game Rewards and Game Time with Rewards Points",
-      "url": "https://www.wowhead.com/news=383261/mcdonalds-australia-offering-in-game-rewards-and-game-time-with-rewards-points",
-      "category": "WoW",
-      "publishedAt": "2026-10-07T13:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T18:31:03.063Z",
-  "generatedAt": "2026-10-07T18:31:03.054Z",
+  "newsUpdatedAt": "2026-10-07T18:55:57.675Z",
+  "generatedAt": "2026-10-07T18:55:57.669Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 13:30:47 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 13:55:52 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

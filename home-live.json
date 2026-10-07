@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-07T22:39:09.395Z"
+    "checkedAt": "2026-10-07T22:59:53.514Z"
   },
   "news": [
+    {
+      "title": "Win a Skyborne Epic Pack in Wowhead's Latest WoW: Forever Beta Sweepstakes",
+      "url": "https://www.wowhead.com/news=383296/win-a-skyborne-epic-pack-in-wowheads-latest-wow-forever-beta-sweepstakes",
+      "category": "Wowhead",
+      "publishedAt": "2026-10-07T22:50:31.000Z"
+    },
     {
       "title": "Rogue and Warlock Class Deep Dive in World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383299/rogue-and-warlock-class-deep-dive-in-world-of-warcraft-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383294/new-battleground-preview-in-world-of-warcraft-forever-battle-for-the-darkspear",
       "category": "Forever",
       "publishedAt": "2026-10-07T19:23:20.000Z"
-    },
-    {
-      "title": "Myth Track Gear Awarded from Delve Labyrinths in Patch 12.1.5",
-      "url": "https://www.wowhead.com/news=383252/myth-track-gear-awarded-from-delve-labyrinths-in-patch-12-1-5",
-      "category": "PTR",
-      "publishedAt": "2026-10-07T18:52:58.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-07T22:39:09.395Z",
-  "generatedAt": "2026-10-07T22:39:09.388Z",
+  "newsUpdatedAt": "2026-10-07T22:59:53.514Z",
+  "generatedAt": "2026-10-07T22:59:53.507Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 07 Oct 2026 17:39:08 -0500",
+  "newsFeedBuiltAt": "Wed, 07 Oct 2026 17:59:52 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

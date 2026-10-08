@@ -790,6 +790,120 @@ window.CHRONICLES = {
       "category": "Retail",
       "image": "assets/images/gallery/goldshire-after-dark.jpg",
       "alt": "A nighttime gathering outside the decorated Goldshire inn, with glowing mounts and forest trees."
+    },
+    {
+      "title": "The Raging Tempest Falls",
+      "category": "Dungeons",
+      "image": "assets/images/gallery/wow-010126_151126.jpg",
+      "alt": "Xuthar after defeating the Raging Tempest in the Nokhud Offensive, with the storm elemental and loot window visible."
+    },
+    {
+      "title": "Teera and Maruuk at Rest",
+      "category": "Dungeons",
+      "image": "assets/images/gallery/wow-010126_151611.jpg",
+      "alt": "The spirits of Teera and Maruuk after their defeat at the Eternal Kurgans in the Nokhud Offensive."
+    },
+    {
+      "title": "Bogpiper Defeated",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010226_220701.jpg",
+      "alt": "Xuthar and companions celebrate victory over Bogpiper among the mushrooms of Mycomancer Cavern."
+    },
+    {
+      "title": "A Setback in Mycomancer Cavern",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010226_221205.jpg",
+      "alt": "Xuthar lies defeated in Mycomancer Cavern during a tier 11 delve encounter, with companions still nearby."
+    },
+    {
+      "title": "Victory in Nightfall Sanctum",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010326_191632.jpg",
+      "alt": "The Speaker Halven victory banner above Xuthar on a wooden platform in Nightfall Sanctum."
+    },
+    {
+      "title": "The Underkeep: Torque and Sprok",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010326_193601.jpg",
+      "alt": "Xuthar and companions defeat Torque Clankfire and Sprok in the red-lit chambers of the Underkeep."
+    },
+    {
+      "title": "Captain Nil'hitan Defeated",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010326_195421.jpg",
+      "alt": "Victory over Captain Nil'hitan in Archival Assault, amid violet magic and glowing runes."
+    },
+    {
+      "title": "A Fall in Tak-Rethan Abyss",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010326_200826.jpg",
+      "alt": "Xuthar lies defeated while the fight continues among coral and glowing hazards in Tak-Rethan Abyss."
+    },
+    {
+      "title": "Victory Beyond the Fall",
+      "category": "Delves",
+      "image": "assets/images/gallery/wow-010326_200925.jpg",
+      "alt": "The Undersea Abomination is defeated in Tak-Rethan Abyss while Xuthar awaits resurrection."
+    },
+    {
+      "title": "Leymor and the Arcane Grove",
+      "category": "Dungeons",
+      "image": "assets/images/gallery/wow-010426_150630.jpg",
+      "alt": "Leymor defeated among luminous blue branches in the Azure Vault, with the loot window open."
+    },
+    {
+      "title": "Azureblade Falls",
+      "category": "Dungeons",
+      "image": "assets/images/gallery/wow-010426_151114.jpg",
+      "alt": "Xuthar amid arcane circles and fallen enemies as Azureblade is defeated in the Azure Vault."
+    },
+    {
+      "title": "Umbrelskul in the Crystal Chamber",
+      "category": "Dungeons",
+      "image": "assets/images/gallery/wow-010426_151531.jpg",
+      "alt": "Umbrelskul defeated above Xuthar in the brilliant blue crystal chamber of the Azure Vault."
+    },
+    {
+      "title": "Echo of Sylvanas",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_192122.jpg",
+      "alt": "Xuthar and a dungeon group defeat the Echo of Sylvanas at the Ruby Dragonshrine in End Time."
+    },
+    {
+      "title": "Echo of Tyrande",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_192438.jpg",
+      "alt": "Moonlight fills the Emerald Dragonshrine after the group defeats the Echo of Tyrande in End Time."
+    },
+    {
+      "title": "The End of Murozond",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_192611.jpg",
+      "alt": "The group completes End Time after defeating Murozond, with Nozdormu standing on the golden sands."
+    },
+    {
+      "title": "Caught in the Chains of Woe",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_192933.jpg",
+      "alt": "Xuthar lies defeated during the fight against Rom'ogg Bonecrusher in the lava-lit Blackrock Caverns."
+    },
+    {
+      "title": "Rom'ogg Bonecrusher Defeated",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_192939.jpg",
+      "alt": "The group defeats Rom'ogg Bonecrusher amid purple braziers and lava in Blackrock Caverns."
+    },
+    {
+      "title": "Corla, Herald of Twilight",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_193144.jpg",
+      "alt": "Victory over Corla, Herald of Twilight in the Halls of Awakening within Blackrock Caverns."
+    },
+    {
+      "title": "Beauty amid the Flames",
+      "category": "Timewalking",
+      "image": "assets/images/gallery/wow-010426_193655.jpg",
+      "alt": "Beauty defeated in a burst of fire in Blackrock Caverns, with Xuthar standing before the core hound."
     }
   ]
 };

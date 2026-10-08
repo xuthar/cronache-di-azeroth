@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T16:59:59.638Z"
+    "checkedAt": "2026-10-08T17:10:35.680Z"
   },
   "news": [
+    {
+      "title": "Buffs to Dungeon Experience Coming in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383312/buffs-to-dungeon-experience-coming-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T17:07:24.000Z"
+    },
     {
       "title": "2,100+ Gold Buying Accounts Have Been Banned on WoW: Forever Beta",
       "url": "https://www.wowhead.com/news=383310/2-100-gold-buying-accounts-have-been-banned-on-wow-forever-beta",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383305/mage-and-shaman-class-deep-dive-for-world-of-warcraft-forever",
       "category": "Forever",
       "publishedAt": "2026-10-08T16:16:35.000Z"
-    },
-    {
-      "title": "WoW: Forever Beta Build Today - Expected Downtime of 6 Hours",
-      "url": "https://www.wowhead.com/news=383306/wow-forever-beta-build-today-expected-downtime-of-6-hours",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T15:03:13.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T16:59:59.637Z",
-  "generatedAt": "2026-10-08T16:59:59.630Z",
+  "newsUpdatedAt": "2026-10-08T17:10:35.679Z",
+  "generatedAt": "2026-10-08T17:10:35.671Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 11:59:44 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 12:10:34 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

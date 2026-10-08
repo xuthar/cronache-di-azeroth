@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T20:53:05.407Z"
+    "checkedAt": "2026-10-08T21:23:48.731Z"
   },
   "news": [
+    {
+      "title": "Preservation Evoker and Murder Row Dungeon - Updates to 12.1.5 Patch Notes",
+      "url": "https://www.wowhead.com/news=383328/preservation-evoker-and-murder-row-dungeon-updates-to-12-1-5-patch-notes",
+      "category": "Live",
+      "publishedAt": "2026-10-08T21:05:25.000Z"
+    },
+    {
+      "title": "New Class Changes in Latest WoW: Forever Beta Build",
+      "url": "https://www.wowhead.com/news=383327/new-class-changes-in-latest-wow-forever-beta-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T20:54:21.000Z"
+    },
     {
       "title": "Durability Loss from Resurrection Penalty Reduced in WoW: Forever Beta Build 4",
       "url": "https://www.wowhead.com/news=383325/durability-loss-from-resurrection-penalty-reduced-in-wow-forever-beta-build-4",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383321/wow-forever-teases-announces-week-4-beta-content-city-of-dalaran-dungeon",
       "category": "Forever",
       "publishedAt": "2026-10-08T19:56:26.000Z"
-    },
-    {
-      "title": "Changes to Racials Likely Coming Next Week in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383311/changes-to-racials-likely-coming-next-week-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T19:40:25.000Z"
-    },
-    {
-      "title": "Dungeon Maps Likely Not Coming to WoW: Forever",
-      "url": "https://www.wowhead.com/news=383317/dungeon-maps-likely-not-coming-to-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T18:52:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T20:53:05.407Z",
-  "generatedAt": "2026-10-08T20:53:05.340Z",
+  "newsUpdatedAt": "2026-10-08T21:23:48.731Z",
+  "generatedAt": "2026-10-08T21:23:48.725Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 15:52:48 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 16:23:22 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:32:26.682Z",
+  "updatedAt": "2026-10-08T12:32:58.327Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -616,6 +616,15 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=647"
+    },
+    {
+      "id": "wow-event-664-1807002000000@wowlazymacros.com",
+      "title": "PvP Brawl: Warsong Scramble",
+      "startAt": "2027-04-06T09:00:00.000Z",
+      "endAt": "2027-04-13T09:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=664"
     }
   ]
 }

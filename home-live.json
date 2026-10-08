@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T19:51:09.084Z"
+    "checkedAt": "2026-10-08T20:06:42.661Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Teases Announces Week 4 Beta Content - City of Dalaran Dungeon Available",
+      "url": "https://www.wowhead.com/news=383321/wow-forever-teases-announces-week-4-beta-content-city-of-dalaran-dungeon",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T19:56:26.000Z"
+    },
     {
       "title": "Changes to Racials Likely Coming Next Week in WoW: Forever",
       "url": "https://www.wowhead.com/news=383311/changes-to-racials-likely-coming-next-week-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383316/bcca-face-the-gods-of-zul-aman-on-october-22-world-of-warcraft-blizzard-news",
       "category": "TBC",
       "publishedAt": "2026-10-08T18:18:53.000Z"
-    },
-    {
-      "title": "New Owl Mount in the Shop: Whoofle Bramblewing",
-      "url": "https://www.wowhead.com/news=383314/new-owl-mount-in-the-shop-whoofle-bramblewing",
-      "category": "Live",
-      "publishedAt": "2026-10-08T17:41:22.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T19:51:09.084Z",
-  "generatedAt": "2026-10-08T19:51:09.027Z",
+  "newsUpdatedAt": "2026-10-08T20:06:42.661Z",
+  "generatedAt": "2026-10-08T20:06:42.654Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 14:50:46 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 15:06:15 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

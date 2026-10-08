@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T23:04:58.367Z"
+    "checkedAt": "2026-10-08T23:24:40.802Z"
   },
   "news": [
+    {
+      "title": "Significant Nerfs to Crafted Decor Costs in Patch 12.1.5 - Lumber Costs Coming Down",
+      "url": "https://www.wowhead.com/news=383337/massive-nerf-to-crafted-decor-costs-in-patch-12-1-5-lumber-costs-coming-down",
+      "category": "Live",
+      "publishedAt": "2026-10-08T23:17:41.000Z"
+    },
     {
       "title": "More Dungeon Quest Rewards Reduced in Rarity in Latest WoW: Forever Build",
       "url": "https://www.wowhead.com/news=383330/more-dungeon-quest-rewards-reduced-in-rarity-in-latest-wow-forever-build",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383332/crafted-wand-sell-prices-partially-un-nerfed-in-latest-forever-build",
       "category": "Forever",
       "publishedAt": "2026-10-08T22:13:27.000Z"
-    },
-    {
-      "title": "New Twitch Drop on October 13th - Get the Cuddly Gold-Colored Grrgle Housing Decor",
-      "url": "https://www.wowhead.com/news=383331/new-twitch-drop-on-october-13th-get-the-cuddly-gold-colored-grrgle-housing-decor",
-      "category": "Live",
-      "publishedAt": "2026-10-08T22:01:55.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T23:04:58.367Z",
-  "generatedAt": "2026-10-08T23:04:58.360Z",
+  "newsUpdatedAt": "2026-10-08T23:24:40.802Z",
+  "generatedAt": "2026-10-08T23:24:40.625Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 18:04:57 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 18:24:21 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T22:27:23.774Z"
+    "checkedAt": "2026-10-08T22:51:00.609Z"
   },
   "news": [
+    {
+      "title": "More Dungeon Quest Rewards Reduced in Rarity in Latest WoW: Forever Build",
+      "url": "https://www.wowhead.com/news=383330/more-dungeon-quest-rewards-reduced-in-rarity-in-latest-wow-forever-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T22:47:43.000Z"
+    },
     {
       "title": "TBC Anniversary Zul'Aman Raid Testing Announced",
       "url": "https://www.wowhead.com/news=383333/tbc-anniversary-zulaman-raid-testing-announced",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383331/new-twitch-drop-on-october-13th-get-the-cuddly-gold-colored-grrgle-housing-decor",
       "category": "Live",
       "publishedAt": "2026-10-08T22:01:55.000Z"
-    },
-    {
-      "title": "Dungeon Experience Buff & 16 Legacy Points Testing - WoW Forever Beta Development Notes",
-      "url": "https://www.wowhead.com/news=383329/dungeon-experience-buff-and-16-legacy-points-testing-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T21:35:46.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T22:27:23.774Z",
-  "generatedAt": "2026-10-08T22:27:23.688Z",
+  "newsUpdatedAt": "2026-10-08T22:51:00.609Z",
+  "generatedAt": "2026-10-08T22:51:00.603Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 17:27:23 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 17:51:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

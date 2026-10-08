@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T19:24:05.405Z"
+    "checkedAt": "2026-10-08T19:51:09.084Z"
   },
   "news": [
+    {
+      "title": "Changes to Racials Likely Coming Next Week in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383311/changes-to-racials-likely-coming-next-week-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T19:40:25.000Z"
+    },
     {
       "title": "Dungeon Maps Likely Not Coming to WoW: Forever",
       "url": "https://www.wowhead.com/news=383317/dungeon-maps-likely-not-coming-to-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383314/new-owl-mount-in-the-shop-whoofle-bramblewing",
       "category": "Live",
       "publishedAt": "2026-10-08T17:41:22.000Z"
-    },
-    {
-      "title": "Four New Witchy Bundles Released on Battle.net Shop: Hexed Witchwick Collection",
-      "url": "https://www.wowhead.com/news=383313/four-new-witchy-bundles-released-on-battle-net-shop-hexed-witchwick-collection",
-      "category": "Live",
-      "publishedAt": "2026-10-08T17:23:29.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T19:24:05.405Z",
-  "generatedAt": "2026-10-08T19:24:05.394Z",
+  "newsUpdatedAt": "2026-10-08T19:51:09.084Z",
+  "generatedAt": "2026-10-08T19:51:09.027Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 14:23:46 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 14:50:46 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

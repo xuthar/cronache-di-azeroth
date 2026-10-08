@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T21:51:48.052Z"
+    "checkedAt": "2026-10-08T22:06:54.955Z"
   },
   "news": [
+    {
+      "title": "New Twitch Drop on October 13th - Get the Cuddly Gold-Colored Grrgle Housing Decor",
+      "url": "https://www.wowhead.com/news=383331/new-twitch-drop-on-october-13th-get-the-cuddly-gold-colored-grrgle-housing-decor",
+      "category": "Live",
+      "publishedAt": "2026-10-08T22:01:55.000Z"
+    },
     {
       "title": "Dungeon Experience Buff & 16 Legacy Points Testing - WoW Forever Beta Development Notes",
       "url": "https://www.wowhead.com/news=383329/dungeon-experience-buff-and-16-legacy-points-testing-wow-forever-beta",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383328/preservation-evoker-and-murder-row-dungeon-updates-to-12-1-5-patch-notes",
       "category": "Live",
       "publishedAt": "2026-10-08T21:05:25.000Z"
-    },
-    {
-      "title": "New Class Changes in Latest WoW: Forever Beta Build",
-      "url": "https://www.wowhead.com/news=383327/new-class-changes-in-latest-wow-forever-beta-build",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T20:54:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T21:51:48.052Z",
-  "generatedAt": "2026-10-08T21:51:48.043Z",
+  "newsUpdatedAt": "2026-10-08T22:06:54.954Z",
+  "generatedAt": "2026-10-08T22:06:54.945Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 16:51:46 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 17:06:44 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

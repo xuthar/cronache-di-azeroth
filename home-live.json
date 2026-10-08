@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T16:27:00.073Z"
+    "checkedAt": "2026-10-08T16:54:12.736Z"
   },
   "news": [
+    {
+      "title": "2,100+ Gold Buying Accounts Have Been Banned on WoW: Forever Beta",
+      "url": "https://www.wowhead.com/news=383310/2-100-gold-buying-accounts-have-been-banned-on-wow-forever-beta",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T16:33:56.000Z"
+    },
+    {
+      "title": "The WoW: Forever Podcast Episode 3 Now Available - Dungeons and Questing",
+      "url": "https://www.wowhead.com/news=383309/the-wow-forever-podcast-episode-3-now-available-dungeons-and-questing",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T16:26:26.000Z"
+    },
     {
       "title": "Mage and Shaman Class Deep Dive for World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383305/mage-and-shaman-class-deep-dive-for-world-of-warcraft-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383306/wow-forever-beta-build-today-expected-downtime-of-6-hours",
       "category": "Forever",
       "publishedAt": "2026-10-08T15:03:13.000Z"
-    },
-    {
-      "title": "Level 30 Guides are Here - Meet our WoW: Forever Class Writing Team",
-      "url": "https://www.wowhead.com/news=383169/level-30-guides-are-here-meet-our-wow-forever-class-writing-team",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T15:00:00.000Z"
-    },
-    {
-      "title": "Do We Have Enough Bag Space in WoW: Forever?",
-      "url": "https://www.wowhead.com/news=383269/do-we-have-enough-bag-space-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T14:15:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T16:27:00.072Z",
-  "generatedAt": "2026-10-08T16:27:00.029Z",
+  "newsUpdatedAt": "2026-10-08T16:54:12.736Z",
+  "generatedAt": "2026-10-08T16:54:12.728Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 11:26:54 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 11:54:12 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

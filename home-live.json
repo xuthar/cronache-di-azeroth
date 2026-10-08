@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T18:29:57.184Z"
+    "checkedAt": "2026-10-08T18:55:39.769Z"
   },
   "news": [
+    {
+      "title": "Dungeon Maps Likely Not Coming to WoW: Forever",
+      "url": "https://www.wowhead.com/news=383317/dungeon-maps-likely-not-coming-to-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T18:52:00.000Z"
+    },
     {
       "title": "BCCA: Face the Gods of Zul’Aman on October 22 — World of Warcraft — Blizzard News",
       "url": "https://www.wowhead.com/news=383316/bcca-face-the-gods-of-zul-aman-on-october-22-world-of-warcraft-blizzard-news",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383313/four-new-witchy-bundles-released-on-battle-net-shop-hexed-witchwick-collection",
       "category": "Live",
       "publishedAt": "2026-10-08T17:23:29.000Z"
-    },
-    {
-      "title": "Buffs to Dungeon Experience Coming in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383312/buffs-to-dungeon-experience-coming-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T17:07:24.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T18:29:57.183Z",
-  "generatedAt": "2026-10-08T18:29:57.090Z",
+  "newsUpdatedAt": "2026-10-08T18:55:39.769Z",
+  "generatedAt": "2026-10-08T18:55:39.760Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 13:29:28 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 13:55:39 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

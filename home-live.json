@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T18:05:59.231Z"
+    "checkedAt": "2026-10-08T18:29:57.184Z"
   },
   "news": [
+    {
+      "title": "BCCA: Face the Gods of Zul’Aman on October 22 — World of Warcraft — Blizzard News",
+      "url": "https://www.wowhead.com/news=383316/bcca-face-the-gods-of-zul-aman-on-october-22-world-of-warcraft-blizzard-news",
+      "category": "TBC",
+      "publishedAt": "2026-10-08T18:18:53.000Z"
+    },
     {
       "title": "New Owl Mount in the Shop: Whoofle Bramblewing",
       "url": "https://www.wowhead.com/news=383314/new-owl-mount-in-the-shop-whoofle-bramblewing",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383312/buffs-to-dungeon-experience-coming-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-08T17:07:24.000Z"
-    },
-    {
-      "title": "2,100+ Gold Buying Accounts Have Been Banned on WoW: Forever Beta",
-      "url": "https://www.wowhead.com/news=383310/2-100-gold-buying-accounts-have-been-banned-on-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T16:33:56.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T18:05:59.231Z",
-  "generatedAt": "2026-10-08T18:05:59.224Z",
+  "newsUpdatedAt": "2026-10-08T18:29:57.183Z",
+  "generatedAt": "2026-10-08T18:29:57.090Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 13:05:47 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 13:29:28 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

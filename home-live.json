@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T14:54:17.705Z"
+    "checkedAt": "2026-10-09T15:23:44.487Z"
   },
   "news": [
+    {
+      "title": "Downranking Spells Significantly Nerfed In WoW: Forever",
+      "url": "https://www.wowhead.com/news=383285/downranking-spells-significantly-nerfed-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T15:00:00.000Z"
+    },
     {
       "title": "New Stay a While and Listen UI Asset in Patch 12.1.5",
       "url": "https://www.wowhead.com/news=383293/new-stay-a-while-and-listen-ui-asset-in-patch-12-1-5",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383336/three-new-gear-sets-revealed-in-latest-wow-forever-beta-build",
       "category": "Forever",
       "publishedAt": "2026-10-09T13:00:00.000Z"
-    },
-    {
-      "title": "Blizzard Clarifies Horde Having Access to Dalaran Not Really Intended",
-      "url": "https://www.wowhead.com/news=383340/blizzard-clarifies-horde-having-access-to-dalaran-not-really-intended",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T03:43:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T14:54:17.705Z",
-  "generatedAt": "2026-10-09T14:54:17.635Z",
+  "newsUpdatedAt": "2026-10-09T15:23:44.486Z",
+  "generatedAt": "2026-10-09T15:23:44.479Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 09:54:02 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 10:23:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

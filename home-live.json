@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T03:24:30.533Z"
+    "checkedAt": "2026-10-09T03:52:41.632Z"
   },
   "news": [
+    {
+      "title": "Blizzard Clarifies Horde Having Access to Dalaran Not Really Intended",
+      "url": "https://www.wowhead.com/news=383340/blizzard-clarifies-horde-having-access-to-dalaran-not-really-intended",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T03:43:14.000Z"
+    },
     {
       "title": "Watch Holly Longdale and Clay Stone's Keynote Presentation at PAX Aus 2026",
       "url": "https://www.wowhead.com/news=383339/watch-holly-longdale-and-clay-stones-keynote-presentation-at-pax-aus-2026",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383338/horde-are-welcome-in-dalaran-after-completing-the-city-of-dalaran-dungeon-in-wow",
       "category": "Forever",
       "publishedAt": "2026-10-08T23:57:50.000Z"
-    },
-    {
-      "title": "16 Legacy Points Now Available for Testing on WoW: Forever Beta",
-      "url": "https://www.wowhead.com/news=383335/16-legacy-points-now-available-for-testing-on-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T23:25:07.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T03:24:30.533Z",
-  "generatedAt": "2026-10-09T03:24:30.525Z",
+  "newsUpdatedAt": "2026-10-09T03:52:41.631Z",
+  "generatedAt": "2026-10-09T03:52:41.624Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 22:24:01 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 22:52:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T19:59:52.571Z"
+    "checkedAt": "2026-10-09T20:22:13.095Z"
   },
   "news": [
+    {
+      "title": "How Does Elemental Shaman Look in WoW: Forever?",
+      "url": "https://www.wowhead.com/news=383356/how-does-elemental-shaman-look-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T20:03:22.000Z"
+    },
     {
       "title": "Murder Row Boss Deals \"Fake Damage\" To Players",
       "url": "https://www.wowhead.com/news=383347/murder-row-boss-deals-fake-damage-to-players",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383348/enter-the-world-of-warcraft-student-art-contest-2026",
       "category": "WoW",
       "publishedAt": "2026-10-09T17:02:13.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever - Your Adventure Begins Video",
-      "url": "https://www.wowhead.com/news=383346/world-of-warcraft-forever-your-adventure-begins-video",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T16:22:48.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T19:59:52.571Z",
-  "generatedAt": "2026-10-09T19:59:52.563Z",
+  "newsUpdatedAt": "2026-10-09T20:22:13.094Z",
+  "generatedAt": "2026-10-09T20:22:13.087Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 14:59:29 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 15:22:12 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

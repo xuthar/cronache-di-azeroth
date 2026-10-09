@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T15:53:04.267Z"
+    "checkedAt": "2026-10-09T16:23:48.135Z"
   },
   "news": [
+    {
+      "title": "World of Warcraft: Forever - Your Adventure Begins Video",
+      "url": "https://www.wowhead.com/news=383346/world-of-warcraft-forever-your-adventure-begins-video",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T16:22:48.000Z"
+    },
     {
       "title": "GDKP Ban Only Applies to NA and Europe Realms - 4Gamers Interview",
       "url": "https://www.wowhead.com/news=383345/gdkp-ban-only-applies-to-na-and-europe-realms-4gamers-interview",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383293/new-stay-a-while-and-listen-ui-asset-in-patch-12-1-5",
       "category": "PTR",
       "publishedAt": "2026-10-09T14:15:00.000Z"
-    },
-    {
-      "title": "Unlock Powerful Weapons with Level 30 Shaman Quest in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383290/unlock-powerful-weapons-with-level-30-shaman-quest-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T15:53:04.265Z",
-  "generatedAt": "2026-10-09T15:53:04.255Z",
+  "newsUpdatedAt": "2026-10-09T16:23:48.135Z",
+  "generatedAt": "2026-10-09T16:23:48.128Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 10:53:03 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 11:23:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

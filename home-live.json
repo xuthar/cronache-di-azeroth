@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T18:54:37.528Z"
+    "checkedAt": "2026-10-09T19:21:51.145Z"
   },
   "news": [
+    {
+      "title": "Murder Row Boss Deals \"Fake Damage\" To Players",
+      "url": "https://www.wowhead.com/news=383347/murder-row-boss-deals-fake-damage-to-players",
+      "category": "Live",
+      "publishedAt": "2026-10-09T19:00:37.000Z"
+    },
     {
       "title": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
       "url": "https://www.wowhead.com/news=383351/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383346/world-of-warcraft-forever-your-adventure-begins-video",
       "category": "Forever",
       "publishedAt": "2026-10-09T16:22:48.000Z"
-    },
-    {
-      "title": "GDKP Ban Only Applies to NA and Europe Realms - 4Gamers Interview",
-      "url": "https://www.wowhead.com/news=383345/gdkp-ban-only-applies-to-na-and-europe-realms-4gamers-interview",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T15:46:17.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T18:54:37.528Z",
-  "generatedAt": "2026-10-09T18:54:37.520Z",
+  "newsUpdatedAt": "2026-10-09T19:21:51.145Z",
+  "generatedAt": "2026-10-09T19:21:51.122Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 13:54:37 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 14:21:37 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

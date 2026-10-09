@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T12:57:08.704Z"
+    "checkedAt": "2026-10-09T13:26:47.672Z"
   },
   "news": [
+    {
+      "title": "Three New Gear Sets Revealed in Latest WoW: Forever Beta Build",
+      "url": "https://www.wowhead.com/news=383336/three-new-gear-sets-revealed-in-latest-wow-forever-beta-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T13:00:00.000Z"
+    },
     {
       "title": "Blizzard Clarifies Horde Having Access to Dalaran Not Really Intended",
       "url": "https://www.wowhead.com/news=383340/blizzard-clarifies-horde-having-access-to-dalaran-not-really-intended",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383334/wolfshead-helm-nerfed-in-latest-wow-forever-beta-build",
       "category": "Forever",
       "publishedAt": "2026-10-09T00:58:10.000Z"
-    },
-    {
-      "title": "Horde are Welcome in Dalaran After Completing the City of Dalaran Dungeon in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383338/horde-are-welcome-in-dalaran-after-completing-the-city-of-dalaran-dungeon-in-wow",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T23:57:50.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T12:57:08.704Z",
-  "generatedAt": "2026-10-09T12:57:08.698Z",
+  "newsUpdatedAt": "2026-10-09T13:26:47.672Z",
+  "generatedAt": "2026-10-09T13:26:47.664Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 07:57:08 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 08:26:39 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

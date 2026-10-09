@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T16:52:51.328Z"
+    "checkedAt": "2026-10-09T17:21:43.724Z"
   },
   "news": [
+    {
+      "title": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
+      "url": "https://www.wowhead.com/news=383351/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly",
+      "category": "WoW",
+      "publishedAt": "2026-10-09T17:10:16.000Z"
+    },
+    {
+      "title": "Enter the World of Warcraft Student Art Contest 2026",
+      "url": "https://www.wowhead.com/news=383348/enter-the-world-of-warcraft-student-art-contest-2026",
+      "category": "WoW",
+      "publishedAt": "2026-10-09T17:02:13.000Z"
+    },
     {
       "title": "World of Warcraft: Forever - Your Adventure Begins Video",
       "url": "https://www.wowhead.com/news=383346/world-of-warcraft-forever-your-adventure-begins-video",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383345/gdkp-ban-only-applies-to-na-and-europe-realms-4gamers-interview",
       "category": "Forever",
       "publishedAt": "2026-10-09T15:46:17.000Z"
-    },
-    {
-      "title": "Downranking Spells Significantly Nerfed In WoW: Forever",
-      "url": "https://www.wowhead.com/news=383285/downranking-spells-significantly-nerfed-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T15:00:00.000Z"
-    },
-    {
-      "title": "New Stay a While and Listen UI Asset in Patch 12.1.5",
-      "url": "https://www.wowhead.com/news=383293/new-stay-a-while-and-listen-ui-asset-in-patch-12-1-5",
-      "category": "PTR",
-      "publishedAt": "2026-10-09T14:15:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T16:52:51.328Z",
-  "generatedAt": "2026-10-09T16:52:51.321Z",
+  "newsUpdatedAt": "2026-10-09T17:21:43.723Z",
+  "generatedAt": "2026-10-09T17:21:43.718Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 11:52:40 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 12:21:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

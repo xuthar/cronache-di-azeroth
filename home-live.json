@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T13:53:15.054Z"
+    "checkedAt": "2026-10-09T14:26:39.127Z"
   },
   "news": [
+    {
+      "title": "New Stay a While and Listen UI Asset in Patch 12.1.5",
+      "url": "https://www.wowhead.com/news=383293/new-stay-a-while-and-listen-ui-asset-in-patch-12-1-5",
+      "category": "PTR",
+      "publishedAt": "2026-10-09T14:15:00.000Z"
+    },
+    {
+      "title": "Unlock Powerful Weapons with Level 30 Shaman Quest in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383290/unlock-powerful-weapons-with-level-30-shaman-quest-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T14:00:00.000Z"
+    },
     {
       "title": "Three New Gear Sets Revealed in Latest WoW: Forever Beta Build",
       "url": "https://www.wowhead.com/news=383336/three-new-gear-sets-revealed-in-latest-wow-forever-beta-build",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383340/blizzard-clarifies-horde-having-access-to-dalaran-not-really-intended",
       "category": "Forever",
       "publishedAt": "2026-10-09T03:43:14.000Z"
-    },
-    {
-      "title": "Watch Holly Longdale and Clay Stone's Keynote Presentation at PAX Aus 2026",
-      "url": "https://www.wowhead.com/news=383339/watch-holly-longdale-and-clay-stones-keynote-presentation-at-pax-aus-2026",
-      "category": "WoW",
-      "publishedAt": "2026-10-09T00:58:49.000Z"
-    },
-    {
-      "title": "Wolfshead Helm Nerfed in Latest WoW: Forever Beta Build",
-      "url": "https://www.wowhead.com/news=383334/wolfshead-helm-nerfed-in-latest-wow-forever-beta-build",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T00:58:10.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T13:53:15.054Z",
-  "generatedAt": "2026-10-09T13:53:14.983Z",
+  "newsUpdatedAt": "2026-10-09T14:26:39.127Z",
+  "generatedAt": "2026-10-09T14:26:39.057Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 08:53:12 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 09:26:20 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

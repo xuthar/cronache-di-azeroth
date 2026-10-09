@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-09T00:35:50.327Z"
+    "checkedAt": "2026-10-09T01:02:46.973Z"
   },
   "news": [
+    {
+      "title": "Watch Holly Longdale and Clay Stone's Keynote Presentation at PAX Aus 2026",
+      "url": "https://www.wowhead.com/news=383339/watch-holly-longdale-and-clay-stones-keynote-presentation-at-pax-aus-2026",
+      "category": "WoW",
+      "publishedAt": "2026-10-09T00:58:49.000Z"
+    },
+    {
+      "title": "Wolfshead Helm Nerfed in Latest WoW: Forever Beta Build",
+      "url": "https://www.wowhead.com/news=383334/wolfshead-helm-nerfed-in-latest-wow-forever-beta-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-09T00:58:10.000Z"
+    },
     {
       "title": "Horde are Welcome in Dalaran After Completing the City of Dalaran Dungeon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383338/horde-are-welcome-in-dalaran-after-completing-the-city-of-dalaran-dungeon-in-wow",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383335/16-legacy-points-now-available-for-testing-on-wow-forever-beta",
       "category": "Forever",
       "publishedAt": "2026-10-08T23:25:07.000Z"
-    },
-    {
-      "title": "Significant Nerfs to Crafted Decor Costs in Patch 12.1.5 - Lumber Costs Coming Down",
-      "url": "https://www.wowhead.com/news=383337/massive-nerf-to-crafted-decor-costs-in-patch-12-1-5-lumber-costs-coming-down",
-      "category": "Live",
-      "publishedAt": "2026-10-08T23:17:41.000Z"
-    },
-    {
-      "title": "More Dungeon Quest Rewards Reduced in Rarity in Latest WoW: Forever Build",
-      "url": "https://www.wowhead.com/news=383330/more-dungeon-quest-rewards-reduced-in-rarity-in-latest-wow-forever-build",
-      "category": "Forever",
-      "publishedAt": "2026-10-08T22:47:43.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T00:35:50.327Z",
-  "generatedAt": "2026-10-09T00:35:50.320Z",
+  "newsUpdatedAt": "2026-10-09T01:02:46.973Z",
+  "generatedAt": "2026-10-09T01:02:46.802Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 19:35:49 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 20:02:35 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-08T23:49:03.493Z"
+    "checkedAt": "2026-10-09T00:01:24.427Z"
   },
   "news": [
+    {
+      "title": "Horde are Welcome in Dalaran After Completing the City of Dalaran Dungeon in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383338/horde-are-welcome-in-dalaran-after-completing-the-city-of-dalaran-dungeon-in-wow",
+      "category": "Forever",
+      "publishedAt": "2026-10-08T23:57:50.000Z"
+    },
     {
       "title": "16 Legacy Points Now Available for Testing on WoW: Forever Beta",
       "url": "https://www.wowhead.com/news=383335/16-legacy-points-now-available-for-testing-on-wow-forever-beta",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383330/more-dungeon-quest-rewards-reduced-in-rarity-in-latest-wow-forever-build",
       "category": "Forever",
       "publishedAt": "2026-10-08T22:47:43.000Z"
-    },
-    {
-      "title": "TBC Anniversary Zul'Aman Raid Testing Announced",
-      "url": "https://www.wowhead.com/news=383333/tbc-anniversary-zulaman-raid-testing-announced",
-      "category": "TBC",
-      "publishedAt": "2026-10-08T22:26:23.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-08T23:49:03.492Z",
-  "generatedAt": "2026-10-08T23:49:03.483Z",
+  "newsUpdatedAt": "2026-10-09T00:01:24.427Z",
+  "generatedAt": "2026-10-09T00:01:24.416Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 08 Oct 2026 18:48:40 -0500",
+  "newsFeedBuiltAt": "Thu, 08 Oct 2026 19:01:07 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

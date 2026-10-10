@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-10T16:40:24.417Z"
+    "checkedAt": "2026-10-10T17:00:12.289Z"
   },
   "news": [
+    {
+      "title": "All Melee Swings Cause \"Phantom Damage\" to Health Bars in Midnight",
+      "url": "https://www.wowhead.com/news=383363/all-melee-swings-cause-phantom-damage-to-health-bars-in-midnight",
+      "category": "Live",
+      "publishedAt": "2026-10-10T16:52:12.000Z"
+    },
     {
       "title": "New Toy Available from Great Gnomeregan Run Holiday",
       "url": "https://www.wowhead.com/news=383362/new-toy-available-from-great-gnomeregan-run-holiday",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383359/2nd-boss-murder-row-hotfixed-and-now-deals-real-damage",
       "category": "Live",
       "publishedAt": "2026-10-10T00:39:46.000Z"
-    },
-    {
-      "title": "Ruby Life Pools Nerfs on Patch 12.1.5 PTR - Mythic+ Dungeon Tuning",
-      "url": "https://www.wowhead.com/news=383357/ruby-life-pools-nerfs-on-patch-12-1-5-ptr-mythic-dungeon-tuning",
-      "category": "PTR",
-      "publishedAt": "2026-10-09T21:14:06.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-10T16:40:24.416Z",
-  "generatedAt": "2026-10-10T16:40:24.406Z",
+  "newsUpdatedAt": "2026-10-10T17:00:12.288Z",
+  "generatedAt": "2026-10-10T17:00:12.219Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 10 Oct 2026 11:40:23 -0500",
+  "newsFeedBuiltAt": "Sat, 10 Oct 2026 12:00:02 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

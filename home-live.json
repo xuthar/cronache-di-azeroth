@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-10T00:34:04.414Z"
+    "checkedAt": "2026-10-10T01:00:00.554Z"
   },
   "news": [
+    {
+      "title": "2nd Boss Murder Row Hotfixed and Now Deals Real Damage",
+      "url": "https://www.wowhead.com/news=383359/2nd-boss-murder-row-hotfixed-and-now-deals-real-damage",
+      "category": "Live",
+      "publishedAt": "2026-10-10T00:39:46.000Z"
+    },
     {
       "title": "Ruby Life Pools Nerfs on Patch 12.1.5 PTR - Mythic+ Dungeon Tuning",
       "url": "https://www.wowhead.com/news=383357/ruby-life-pools-nerfs-on-patch-12-1-5-ptr-mythic-dungeon-tuning",
@@ -18,24 +24,18 @@
       "publishedAt": "2026-10-09T20:03:22.000Z"
     },
     {
-      "title": "Murder Row Boss Deals \"Fake Damage\" To Players",
+      "title": "[FIXED] Murder Row Boss Deals \"Fake Damage\" To Players",
       "url": "https://www.wowhead.com/news=383347/murder-row-boss-deals-fake-damage-to-players",
       "category": "Live",
       "publishedAt": "2026-10-09T19:00:37.000Z"
-    },
-    {
-      "title": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
-      "url": "https://www.wowhead.com/news=383351/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly",
-      "category": "WoW",
-      "publishedAt": "2026-10-09T17:10:16.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-10T00:34:04.414Z",
-  "generatedAt": "2026-10-10T00:34:04.369Z",
+  "newsUpdatedAt": "2026-10-10T01:00:00.553Z",
+  "generatedAt": "2026-10-10T01:00:00.545Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 09 Oct 2026 19:34:03 -0500",
+  "newsFeedBuiltAt": "Fri, 09 Oct 2026 19:59:47 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

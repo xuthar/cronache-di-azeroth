@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-10T14:38:26.178Z"
+    "checkedAt": "2026-10-10T14:59:40.932Z"
   },
   "news": [
+    {
+      "title": "New Toy Available from Great Gnomeregan Run Holiday",
+      "url": "https://www.wowhead.com/news=383362/new-toy-available-from-great-gnomeregan-run-holiday",
+      "category": "Live",
+      "publishedAt": "2026-10-10T14:58:21.000Z"
+    },
     {
       "title": "New Paladin-Exclusive Cloak Currently Alliance Only",
       "url": "https://www.wowhead.com/news=383286/new-paladin-exclusive-cloak-currently-alliance-only",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383357/ruby-life-pools-nerfs-on-patch-12-1-5-ptr-mythic-dungeon-tuning",
       "category": "PTR",
       "publishedAt": "2026-10-09T21:14:06.000Z"
-    },
-    {
-      "title": "How Does Elemental Shaman Look in WoW: Forever?",
-      "url": "https://www.wowhead.com/news=383356/how-does-elemental-shaman-look-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-09T20:03:22.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-10T14:38:26.178Z",
-  "generatedAt": "2026-10-10T14:38:26.169Z",
+  "newsUpdatedAt": "2026-10-10T14:59:40.932Z",
+  "generatedAt": "2026-10-10T14:59:40.919Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 10 Oct 2026 09:38:25 -0500",
+  "newsFeedBuiltAt": "Sat, 10 Oct 2026 09:59:33 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

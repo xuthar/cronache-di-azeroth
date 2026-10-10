@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-10T13:59:39.805Z"
+    "checkedAt": "2026-10-10T14:20:57.845Z"
   },
   "news": [
+    {
+      "title": "New Paladin-Exclusive Cloak Currently Alliance Only",
+      "url": "https://www.wowhead.com/news=383286/new-paladin-exclusive-cloak-currently-alliance-only",
+      "category": "Forever",
+      "publishedAt": "2026-10-10T14:00:00.000Z"
+    },
     {
       "title": "2nd Boss Murder Row Hotfixed and Now Deals Real Damage",
       "url": "https://www.wowhead.com/news=383359/2nd-boss-murder-row-hotfixed-and-now-deals-real-damage",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383356/how-does-elemental-shaman-look-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-09T20:03:22.000Z"
-    },
-    {
-      "title": "[FIXED] Murder Row Boss Deals \"Fake Damage\" To Players",
-      "url": "https://www.wowhead.com/news=383347/murder-row-boss-deals-fake-damage-to-players",
-      "category": "Live",
-      "publishedAt": "2026-10-09T19:00:37.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-10T13:59:39.805Z",
-  "generatedAt": "2026-10-10T13:59:39.717Z",
+  "newsUpdatedAt": "2026-10-10T14:20:57.845Z",
+  "generatedAt": "2026-10-10T14:20:57.836Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 10 Oct 2026 08:59:20 -0500",
+  "newsFeedBuiltAt": "Sat, 10 Oct 2026 09:20:35 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

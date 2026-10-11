@@ -1,0 +1,18 @@
+/* Xuthar's manually recorded quest progress. */
+.quest-progress{padding:clamp(1rem,3vw,2rem);border:1px solid var(--line,#494331);border-radius:8px;background:#171e19;margin-block:2rem}
+.quest-progress .section-head{flex-wrap:wrap;gap:1rem}
+.quest-progress-overall{margin-block:1.5rem;padding:1.2rem;background:#101611;border-radius:6px}
+.quest-progress-overall p{margin-bottom:0;color:#cfc7b5}
+.quest-progress-label{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.4rem 1rem;font-size:.95rem}
+.quest-progress-label span:last-child{font-variant-numeric:tabular-nums;color:#cfac69}
+.quest-progress progress{display:block;appearance:none;width:100%;height:.65rem;border:0;border-radius:9px;overflow:hidden;background:#2c342c;margin:.6rem 0}
+.quest-progress progress::-webkit-progress-bar{background:#2c342c;border-radius:9px}
+.quest-progress progress::-webkit-progress-value{background:#cfac69;border-radius:9px}
+.quest-progress progress::-moz-progress-bar{background:#cfac69;border-radius:9px}
+.quest-progress-percent{font-size:.8rem;color:#cfc7b5}
+.quest-progress-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;margin-block:1.4rem}
+.quest-progress-details summary{cursor:pointer;color:#eee7d5;padding-block:.6rem}
+.quest-progress a:focus-visible,.quest-progress summary:focus-visible{outline:2px solid #cfac69;outline-offset:5px}
+.quest-progress .meta{margin-top:1.5rem;line-height:1.7}
+@media(max-width:850px){.quest-progress-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.quest-progress-grid{grid-template-columns:minmax(0,1fr)}}

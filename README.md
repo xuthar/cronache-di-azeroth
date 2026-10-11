@@ -71,7 +71,7 @@ Update chapters, people, places, events, release years and source chapter number
 
 ## Stories & Lore — Original short fiction
 
-The library includes 16 new English short stories plus the two existing travel fragments. Duskwood, Westfall, Durotar and Tanaris each have two tales; Outland and Northrend each have four. Edit `stories` in `assets/js/content.js`: each item has an ID, title, zone, region, kind, excerpt and text paragraph array. Region filters are generated from the content. New IDs must be unique. Links such as `stories.html#duskwood-third-lantern` open the matching tale; navigating to a hidden tale clears the active filter. These invented characters and events are distinct from the official history in The Lore and the personal gameplay journal.
+The library contains 32 English tales, including the two original travel fragments. On 11 October 2026, ten new stories were added at the front of the collection, set in remote corners of Winterspring, Desolace, Azshara, Feralas, Silithus, the Hinterlands, the Swamp of Sorrows, the Badlands, the Storm Peaks and Townlong Steppes. The previous 22 entries retain their text and IDs. Edit `stories` in `assets/js/content.js`: each item has an ID, title, zone, region, kind, excerpt and text paragraph array. Region filters are generated from the content. New IDs must be unique. Links such as `stories.html#duskwood-third-lantern` open the matching tale; navigating to a hidden tale clears the active filter. These invented characters and events are distinct from the official history in The Lore and the personal gameplay journal.
 
 
 ## Interactive lore atlas

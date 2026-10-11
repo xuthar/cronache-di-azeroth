@@ -432,6 +432,156 @@ window.CHRONICLES = {
   ],
   "stories": [
     {
+      "id": "winterspring-eleventh-step",
+      "title": "The Eleventh Step",
+      "zone": "Winterspring",
+      "region": "Kalimdor",
+      "kind": "A survival tale",
+      "excerpt": "Above the last marked trail, a guide discovers that the mountain has been counting someone else’s footsteps.",
+      "text": [
+        "The staircase cut into the ice had ten steps when Sella climbed it that morning. She counted because the pack was heavy, because her left knee was unreliable, and because counting kept her from looking into the ravine. At the top stood the surveyor she had been hired to bring home. He had spent six days refusing to leave his broken instruments.",
+        "On the descent there were eleven steps. The last was smooth, blue, and wide enough for a boot. Sella drew the surveyor back by his collar. Beneath that inviting surface lay nothing but a thin lid of ice, grown overnight across a gap. He stared at the place where he had nearly put his weight. Then he began apologising about the instruments.",
+        "She made him unbuckle the brass telescope. They laid it across the gap, threaded the rope through its mounting rings, and crawled over one at a time. Halfway across, the surveyor heard a delicate crack inside the tube. For an instant his hand tightened around it. Then he let the broken glass fall.",
+        "At the lower shelter he emptied the rest of his pack. Out came rock samples, measuring chains, three notebooks swollen with damp. From the smallest pocket he removed a sketch of his daughter, still dry inside its wrapping.",
+        "While Sella cooked, he turned a notebook sideways and drew the staircase. He numbered the safe steps carefully. Beside the eleventh he wrote nothing. Instead, he pressed the blunt end of his pencil through the paper until there was a hole."
+      ]
+    },
+    {
+      "id": "desolace-rain-auction",
+      "title": "The Auction of Rain",
+      "zone": "Desolace",
+      "region": "Kalimdor",
+      "kind": "A roadside comedy",
+      "excerpt": "A goblin arrives at an abandoned watchpost selling tomorrow’s weather, until somebody asks for delivery.",
+      "text": [
+        "At a roofless watchpost in Desolace, a goblin called Pell sold shares in the next rainfall. One copper bought a cupful; five bought a bucket. He issued receipts on clean paper and explained that weather, unlike horses, could not be stolen on the road.",
+        "By noon, six travellers had paid. By evening, there was not a cloud. Pell remained cheerful until an elderly orc placed a basin on his counter. She wanted her water now. She had a seedling wrapped in cloth, and the roots were beginning to dry. He pointed to the word 'next' on her receipt. She pointed to the word 'rain'.",
+        "The other customers gathered. Pell considered running, but his mule had been borrowed to carry an injured traveller and would not return until morning. Under six attentive pairs of eyes, he surrendered his drinking water. It filled half the basin.",
+        "The orc inspected the watchpost’s broken roof. Together they stretched Pell’s canvas advertisement between the surviving beams and angled it towards a barrel. He protested that the lettering would wash away. Nobody answered. They were busy tying knots.",
+        "Rain arrived before dawn. By breakfast the barrel was full, the seedling had revived, and Pell was selling hot porridge made with water he now insisted was complimentary. The orc paid for two bowls. Before leaving, she nailed her receipt beside the barrel, with an amendment in large, square letters: DELIVERED. Pell left it there. It was the first honest testimonial his business had received."
+      ]
+    },
+    {
+      "id": "azshara-tide-room",
+      "title": "A Room Below the Tide",
+      "zone": "Azshara",
+      "region": "Kalimdor",
+      "kind": "A coastal mystery",
+      "excerpt": "In a sea cave beneath Azshara’s cliffs, a salvage diver finds a room that refuses to get wet.",
+      "text": [
+        "The tide had swallowed the cave entrance by the time Neris found the door. It stood upright between two fallen pillars, although the wall around it had collapsed centuries before. Beyond its frame, a little room held dry air. Her first breath tasted of dust and bitter flowers.",
+        "There was a chair, an empty shelf, and a basin containing one ordinary stone. Nothing that a buyer in a harbour would pay for. Neris sat down anyway. Her lamp was failing, and the long swim back had begun to frighten her. In the silence she heard someone breathing beneath her own breath.",
+        "A second diver stumbled through the doorway. He had followed her light after losing his line. He could scarcely speak. While he rested, Neris examined the basin. Under the stone, scratched into the metal, were rows of short marks. Some were sharp; others had almost worn away. She added two with the point of her knife.",
+        "Between them they had enough line to reach the entrance. They tied their belts together, checked each knot, and waited for the pull of the water to ease. The stranger offered to help carry the basin. Bronze, he said, was worth something. Neris shook her head.",
+        "They left the stone where it was. From the water, she looked back once. The doorway was a pale rectangle in the dark, without a lamp to light it. At the harbour she sold three corroded buckles and told the buyer she had found nothing else."
+      ]
+    },
+    {
+      "id": "feralas-wrong-whistle",
+      "title": "The Wrong Whistle",
+      "zone": "Feralas",
+      "region": "Kalimdor",
+      "kind": "A forest adventure",
+      "excerpt": "A missing pack animal answers a familiar whistle from much farther above the ground than it should.",
+      "text": [
+        "Corren’s mule vanished beside a stream in Feralas, taking the cooking pot, his spare boots, and a week’s supply of oats. He whistled the three notes he had taught her. Something in the canopy whistled back.",
+        "He followed the answer through ferns taller than his shoulders. Each time he stopped, the notes came again, a little farther away. At last he reached an enormous fallen tree. From its highest branch, a small bird watched him with the concentrated malice of a creature that had never carried its own luggage.",
+        "Corren threw a fallen seed pod. The bird dodged and whistled. Below the trunk, almost hidden by roots, the mule gave a tired snort. Her lead had caught on a splinter. One foreleg hung over a muddy hollow, and every attempt to pull free dragged her closer to it.",
+        "He tried lifting the lead over the wood. Too tight. He tried cutting it with his belt knife. The mule shifted and nearly took him into the hollow. Finally he opened the sack of oats and poured a thin trail along the trunk. She followed it just far enough to slacken the rope.",
+        "By dusk they were back at the stream. Corren gave the mule her supper and laid a few grains on a stone for the bird, which had followed them. He whistled his three notes. From above came a perfect imitation of his voice shouting, 'You miserable thief!' The mule flicked an ear. Corren decided that both animals had earned the last word."
+      ]
+    },
+    {
+      "id": "silithus-seam-in-silence",
+      "title": "The Seam in the Silence",
+      "zone": "Silithus",
+      "region": "Kalimdor",
+      "kind": "An expedition mystery",
+      "excerpt": "A mapmaker hired to chart an empty stretch of desert discovers why her predecessor left one square blank.",
+      "text": [
+        "The map had a blank square in its southern corner. Not unexplored, the expedition leader insisted. Merely unfinished. He paid Iressa to fill it with contours, distances, and anything that might inconvenience a caravan.",
+        "She reached the place after two days across Silithus. Sand, broken stone, the remains of a shallow trench. Her compass behaved normally. So did the sun. Only the silence was wrong. Whenever she stood inside the trench, she could no longer hear the wind.",
+        "At first she blamed her ears. Then she dropped a pebble. It struck the ground without a sound. She stepped out and heard it rolling, though it had already stopped. Iressa repeated the experiment until the shadows shortened. Every sound returned late, delayed by the time she spent inside.",
+        "Near sunset she heard a man shout, 'Back!' There was nobody on the ridge. The ground beneath her boots gave a small, precise tremor. She ran. Behind her, the trench opened along a seam as straight as a cut in cloth. A section of desert folded inward, carrying her measuring poles into darkness.",
+        "At camp she found a note tucked into the old map’s binding. Her predecessor had written only: It keeps what it hears. Iressa covered the blank square with dense crosshatching and marked a wide route around it. When the expedition leader complained about the missing contours, she offered him the measuring poles. He would have to collect them himself."
+      ]
+    },
+    {
+      "id": "hinterlands-stones-for-a-roof",
+      "title": "Stones for a Roof",
+      "zone": "The Hinterlands",
+      "region": "Eastern Kingdoms",
+      "kind": "A tale of unlikely neighbours",
+      "excerpt": "Two strangers rebuilding a mountain shelter agree on everything except which way its door should face.",
+      "text": [
+        "The storm destroyed the shelter on a ridge in the Hinterlands and deposited its roof halfway down the slope. Brunna, a dwarf carrying a cracked climbing axe, arrived from the west. An old forest troll arrived from the east. Both claimed to have slept there first.",
+        "They argued until sleet began collecting in their collars. Then Brunna lifted a beam, the troll took the other end, and the argument continued at a more useful height. He wanted the door facing east, away from the weather. She wanted it facing west, where approaching travellers could see the valley trail.",
+        "Neither had enough nails. Neither trusted the other’s knots. They tested both by hanging their combined weight from the first repaired beam. When it held, Brunna grunted. The troll made a similar sound. They divided the remaining work without discussing it.",
+        "By nightfall the roof was back in place, weighted with stones. Brunna fitted a narrow western door. The troll built an eastern one from the wreckage. Each announced that the other entrance was unnecessary. During supper, wind pushed smoke from their little stove towards the west. The troll opened his door a hand’s width, and the room cleared.",
+        "In the morning Brunna carved a boot above one entrance. Above the other, her companion scratched a bare foot. They left in opposite directions. Halfway down the valley trail she looked back. A distant figure was checking the roof stones, testing each with his heel. She waited until he finished before continuing."
+      ]
+    },
+    {
+      "id": "swamp-sorrows-seven-minutes",
+      "title": "Seven Minutes of Dry Ground",
+      "zone": "Swamp of Sorrows",
+      "region": "Eastern Kingdoms",
+      "kind": "A rescue on the marsh",
+      "excerpt": "A courier’s shortcut ends on a sinking island, with a stranger’s voice counting down from the reeds.",
+      "text": [
+        "The island looked solid. That was its first trick. Its second was waiting until Mara had opened her lunch before beginning to sink. Water crept across the moss without a ripple. Her boots were already wet when somebody in the reeds shouted, 'Seven minutes, if you stop moving.'",
+        "The speaker was a woman in a flat-bottomed boat, too far away to see clearly. She was poling against a sluggish current. Mara asked what happened in seven minutes. 'Usually bubbles,' the woman replied. 'Throw me your pack.'",
+        "Inside the pack was a sealed message she had carried for three days. Mara refused. The boatwoman tried another approach and struck something beneath the surface. Her pole snapped. For a moment the boat turned broadside and drifted away. Mara watched the woman discard the broken half, kneel, and paddle with her hands.",
+        "The pack contained a coil of cord. Mara tied one end around its buckle and threw it. The first attempt fell short. On the second, the woman caught a strap with the broken pole. She pulled the boat close enough for Mara to crawl aboard. The island sagged behind them, slowly exhaling.",
+        "At the next dry bank they opened the soaked pack. The message concerned an overdue shipment of roofing nails. Mara laughed until she began to shake. The boatwoman wrapped her in a blanket and counted seven slow breaths with her. Only then did she ask whether the recipient of the letter might spare enough nails to mend a boat."
+      ]
+    },
+    {
+      "id": "badlands-shadow-surveyor",
+      "title": "The Surveyor of Shadows",
+      "zone": "Badlands",
+      "region": "Eastern Kingdoms",
+      "kind": "An archaeological puzzle",
+      "excerpt": "An apprentice sent to measure a ruined tower finds that its shadow belongs to a building that no longer exists.",
+      "text": [
+        "Every afternoon, the ruined tower cast a shadow with three windows. Only one window remained in the stonework. Tavin checked his instruments, changed his position, and finally sat down in the dust to consider whether he should have become a baker.",
+        "His employer wanted a measurement, not a mystery. Yet the extra windows moved with the sunlight, stretching across the dry floor of a narrow Badlands ravine. At the same hour each day, one square of light crossed a flat stone. Tavin marked its edges with chalk.",
+        "On the fourth afternoon, he noticed scratches beneath the chalk. They formed part of a plan: corridors, small rooms, a stair. He cleared the dust with his brush. The square of light lay precisely over a chamber beneath the ruined tower. He had found a guide, or a very elaborate joke.",
+        "He dug until his hands blistered. Beneath a slab was a shallow recess containing a clay box. Inside lay a child’s wooden animals, wrapped in cloth that disintegrated when touched. There were six creatures, each with one wheel instead of feet. No treasure. No explanation of the impossible shadow.",
+        "Tavin drew them before packing the box for the archive. His employer asked why he had included a sheet showing six wheeled beasts standing in a row. 'For scale,' he said. That evening he watched the shadow until it disappeared. The two missing windows remained. Whatever had preserved them had apparently not been waiting for him to understand."
+      ]
+    },
+    {
+      "id": "storm-peaks-supper-on-a-wire",
+      "title": "Supper on a Wire",
+      "zone": "The Storm Peaks",
+      "region": "Northrend",
+      "kind": "A mountain rescue",
+      "excerpt": "At a deserted cable station, a cook must send a meal across a chasm before she can send a rescuer.",
+      "text": [
+        "The cable station had been abandoned before anyone thought to remove the warning sign. Edda could not read its frozen lettering, but the broken platform made the general meaning clear. Across the chasm, a prospector waved one arm from a ledge. The other hung at an unfortunate angle.",
+        "Her companion wanted to cross immediately. Edda stopped him. The cable vanished into a housing full of ice; nobody knew whether the brake still held. They tested it with a sack of flour. Halfway across, the line jerked and dropped. The sack disappeared into the whiteness below.",
+        "While her companion opened the housing, Edda lit her little stove behind a rock. She had climbed into the Storm Peaks to feed an expedition, and she intended to feed someone. A thinner service wire still spanned the gap. She attached a covered cooking pot to it and worked it across with a loop of string.",
+        "The man on the ledge ate with his good hand. Afterward he used the pot to shelter a candle from the wind. Its small light gave them something steady to aim for while snow erased the far side of the gorge. They replaced the broken brake pin with the handle of Edda’s ladle.",
+        "The crossing took an hour. When the prospector finally reached them, he was carrying the pot under his coat. Edda inspected its dented lid and demanded to know whether he had enjoyed supper. He began to cry. She put the pot back on the stove and told her companion to find a spoon."
+      ]
+    },
+    {
+      "id": "townlong-grass-that-bowed",
+      "title": "The Grass That Bowed Twice",
+      "zone": "Townlong Steppes",
+      "region": "Pandaria",
+      "kind": "A tale of patient observation",
+      "excerpt": "A solitary shepherd knows the wind’s habits well enough to recognise when something beneath the grass is imitating them.",
+      "text": [
+        "At the edge of a lonely grazing hollow in Townlong Steppes, old Ren noticed that the grass bowed twice. Once with the wind, and once against it. He moved his flock uphill before telling the young guard stationed beside the trail.",
+        "The guard saw nothing. Ren waited. By afternoon a narrow line of stems bent against the breeze and straightened again. Something was moving beneath them. The guard drew his sword. Ren caught his wrist. Whatever lay below was travelling towards the abandoned storehouse, not the sheep.",
+        "They climbed onto the storehouse roof by way of a leaning tree. Beneath the floor came a scraping sound, followed by an angry chitter. The guard raised his blade over a gap between the boards. Ren lowered a scrap of dried meat on a string.",
+        "A small burrowing creature seized it. Around its middle, half buried in fur, was the wire handle of an old bucket. Each movement dragged the wire against roots and stone. Ren fetched a grain sack. The guard held the creature still inside it while the shepherd worked a pair of cutters beneath the metal.",
+        "It escaped through the floor without gratitude. The guard rubbed a bite on his thumb and asked how Ren had known it was no threat. 'I didn’t,' said the shepherd. 'That is why we climbed onto the roof.' Next morning the guard arrived carrying a new pair of cutters. His sword remained at his side, but he spent the first hour watching the grass."
+      ]
+    },
+    {
       "id": "elwynn-rain-check",
       "title": "The Innkeeper’s Rain Check",
       "zone": "Elwynn Forest",

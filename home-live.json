@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-11T13:49:42.365Z"
+    "checkedAt": "2026-10-11T14:01:58.096Z"
   },
   "news": [
+    {
+      "title": "How to Find the Secret Boss in the City of Dalaran Dungeon in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383366/how-to-find-the-secret-boss-in-the-city-of-dalaran-dungeon-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-11T14:00:00.000Z"
+    },
     {
       "title": "Blizzard Teases Possible Change to Unlock Level of Dual Spec in WoW: Forever",
       "url": "https://www.wowhead.com/news=383320/blizzard-teases-possible-change-to-unlock-level-of-dual-spec-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383362/new-toy-available-from-great-gnomeregan-run-holiday",
       "category": "Live",
       "publishedAt": "2026-10-10T14:58:21.000Z"
-    },
-    {
-      "title": "New Paladin-Exclusive Cloak Currently Alliance Only",
-      "url": "https://www.wowhead.com/news=383286/new-paladin-exclusive-cloak-currently-alliance-only",
-      "category": "Forever",
-      "publishedAt": "2026-10-10T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-11T13:49:42.364Z",
-  "generatedAt": "2026-10-11T13:49:42.356Z",
+  "newsUpdatedAt": "2026-10-11T14:01:58.096Z",
+  "generatedAt": "2026-10-11T14:01:58.047Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 11 Oct 2026 08:49:41 -0500",
+  "newsFeedBuiltAt": "Sun, 11 Oct 2026 09:01:57 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

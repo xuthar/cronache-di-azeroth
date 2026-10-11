@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-11T17:48:55.714Z"
+    "checkedAt": "2026-10-11T18:00:23.771Z"
   },
   "news": [
+    {
+      "title": "Free WoW: Forever Beta Code to Tradera Users in Sweden and Denmark",
+      "url": "https://www.wowhead.com/news=383365/free-wow-forever-beta-code-to-tradera-users-in-sweden-and-denmark",
+      "category": "Forever",
+      "publishedAt": "2026-10-11T18:00:00.000Z"
+    },
     {
       "title": "How to Find the Secret Boss in the City of Dalaran Dungeon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383366/how-to-find-the-secret-boss-in-the-city-of-dalaran-dungeon-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383363/all-melee-swings-cause-phantom-damage-to-health-bars-in-midnight",
       "category": "Live",
       "publishedAt": "2026-10-10T16:52:12.000Z"
-    },
-    {
-      "title": "New Toy Available from Great Gnomeregan Run Holiday",
-      "url": "https://www.wowhead.com/news=383362/new-toy-available-from-great-gnomeregan-run-holiday",
-      "category": "Live",
-      "publishedAt": "2026-10-10T14:58:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-11T17:48:55.714Z",
-  "generatedAt": "2026-10-11T17:48:55.704Z",
+  "newsUpdatedAt": "2026-10-11T18:00:23.771Z",
+  "generatedAt": "2026-10-11T18:00:23.764Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 11 Oct 2026 12:48:51 -0500",
+  "newsFeedBuiltAt": "Sun, 11 Oct 2026 13:00:11 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

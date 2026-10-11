@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-04T08:03:03.438Z"
+    "checkedAt": "2026-10-11T08:24:09.834Z"
   },
   "news": [
     {
-      "title": "Necklace Rewards from Collecting Books Nerfed to Uncommon Quality in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383231/necklace-rewards-from-collecting-books-nerfed-to-uncommon-quality-in-wow-forever",
+      "title": "Blizzard Teases Possible Change to Unlock Level of Dual Spec in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383320/blizzard-teases-possible-change-to-unlock-level-of-dual-spec-in-wow-forever",
       "category": "Forever",
-      "publishedAt": "2026-10-03T16:00:00.000Z"
+      "publishedAt": "2026-10-10T18:00:00.000Z"
     },
     {
-      "title": "Every Quest in Excavation Site: Wetlands - WoW Forever",
-      "url": "https://www.wowhead.com/news=383239/every-quest-in-excavation-site-wetlands-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-03T14:00:00.000Z"
-    },
-    {
-      "title": "Unholy DK Nerfs - Incoming Class Tuning on Weekly Reset",
-      "url": "https://www.wowhead.com/news=383242/unholy-dk-nerfs-incoming-class-tuning-on-weekly-reset",
+      "title": "All Melee Swings Cause \"Phantom Damage\" to Health Bars in Midnight",
+      "url": "https://www.wowhead.com/news=383363/all-melee-swings-cause-phantom-damage-to-health-bars-in-midnight",
       "category": "Live",
-      "publishedAt": "2026-10-02T22:42:56.000Z"
+      "publishedAt": "2026-10-10T16:52:12.000Z"
     },
     {
-      "title": "Ghost Wolf Appearance Temporary Until Fixes Are In for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383241/ghost-wolf-appearance-temporary-until-fixes-are-in-for-wow-forever",
+      "title": "New Toy Available from Great Gnomeregan Run Holiday",
+      "url": "https://www.wowhead.com/news=383362/new-toy-available-from-great-gnomeregan-run-holiday",
+      "category": "Live",
+      "publishedAt": "2026-10-10T14:58:21.000Z"
+    },
+    {
+      "title": "New Paladin-Exclusive Cloak Currently Alliance Only",
+      "url": "https://www.wowhead.com/news=383286/new-paladin-exclusive-cloak-currently-alliance-only",
       "category": "Forever",
-      "publishedAt": "2026-10-02T22:05:25.000Z"
+      "publishedAt": "2026-10-10T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-04T08:03:03.438Z",
-  "generatedAt": "2026-10-04T08:03:03.417Z",
+  "newsUpdatedAt": "2026-10-11T08:24:09.833Z",
+  "generatedAt": "2026-10-11T08:24:09.824Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 04 Oct 2026 03:02:34 -0500",
+  "newsFeedBuiltAt": "Sun, 11 Oct 2026 03:24:09 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-12T13:22:58.185Z"
+    "checkedAt": "2026-10-12T14:02:56.518Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Druids Can Now Hold Torches Properly While Shapeshifted",
+      "url": "https://www.wowhead.com/news=383370/wow-forever-druids-can-now-hold-torches-properly-while-shapeshifted",
+      "category": "Forever",
+      "publishedAt": "2026-10-12T14:00:00.000Z"
+    },
     {
       "title": "Free WoW: Forever Beta Code to Tradera Users in Sweden and Denmark",
       "url": "https://www.wowhead.com/news=383365/free-wow-forever-beta-code-to-tradera-users-in-sweden-and-denmark",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383320/blizzard-teases-possible-change-to-unlock-level-of-dual-spec-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-10T18:00:00.000Z"
-    },
-    {
-      "title": "All Melee Swings Cause \"Phantom Damage\" to Health Bars in Midnight",
-      "url": "https://www.wowhead.com/news=383363/all-melee-swings-cause-phantom-damage-to-health-bars-in-midnight",
-      "category": "Live",
-      "publishedAt": "2026-10-10T16:52:12.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-12T13:22:58.185Z",
-  "generatedAt": "2026-10-12T13:22:58.115Z",
+  "newsUpdatedAt": "2026-10-12T14:02:56.517Z",
+  "generatedAt": "2026-10-12T14:02:56.509Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 08:22:40 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 09:02:56 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

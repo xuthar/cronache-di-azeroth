@@ -2,7 +2,7 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-12T22:51:18.996Z"
+    "checkedAt": "2026-10-12T23:05:57.751Z"
   },
   "news": [
     {
@@ -10,6 +10,12 @@
       "url": "https://www.wowhead.com/news=383389/massive-mythic-coiled-altar-nerfs-with-weekly-reset",
       "category": "Live",
       "publishedAt": "2026-10-12T22:46:05.000Z"
+    },
+    {
+      "title": "Mythic+ Dungeon Tuning with Weekly Reset - Altar of Fangs Nerfed",
+      "url": "https://www.wowhead.com/news=383388/mythic-dungeon-tuning-with-weekly-reset-altar-of-fangs-nerfed",
+      "category": "Live",
+      "publishedAt": "2026-10-12T22:45:14.000Z"
     },
     {
       "title": "WoW: Forever Classes Won't Be Modernized - TechRadar Interview with Blizzard",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383384/patch-12-1-5-content-update-trailer",
       "category": "Live",
       "publishedAt": "2026-10-12T17:04:20.000Z"
-    },
-    {
-      "title": "WoW Forever & Ever Video by Carbot Animations",
-      "url": "https://www.wowhead.com/news=383377/wow-forever-and-ever-video-by-carbot-animations",
-      "category": "Forever",
-      "publishedAt": "2026-10-12T16:13:37.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-12T22:51:18.995Z",
-  "generatedAt": "2026-10-12T22:51:18.988Z",
+  "newsUpdatedAt": "2026-10-12T23:05:57.750Z",
+  "generatedAt": "2026-10-12T23:05:57.699Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 17:51:18 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 18:05:57 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-12T14:58:18.558Z"
+    "checkedAt": "2026-10-12T15:25:23.504Z"
   },
   "news": [
+    {
+      "title": "New Item Makes Gravemoss Farming Easier in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383371/new-item-makes-gravemoss-farming-easier-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-12T15:00:00.000Z"
+    },
     {
       "title": "The Venomous Abyss Hall of Fame Now Full",
       "url": "https://www.wowhead.com/news=383376/the-venomous-abyss-hall-of-fame-now-full",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383365/free-wow-forever-beta-code-to-tradera-users-in-sweden-and-denmark",
       "category": "Forever",
       "publishedAt": "2026-10-11T18:00:00.000Z"
-    },
-    {
-      "title": "How to Find the Secret Boss in the City of Dalaran Dungeon in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383366/how-to-find-the-secret-boss-in-the-city-of-dalaran-dungeon-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-11T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-12T14:58:18.558Z",
-  "generatedAt": "2026-10-12T14:58:18.547Z",
+  "newsUpdatedAt": "2026-10-12T15:25:23.503Z",
+  "generatedAt": "2026-10-12T15:25:23.493Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 09:58:18 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 10:25:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

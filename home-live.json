@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-12T22:25:12.231Z"
+    "checkedAt": "2026-10-12T22:51:18.996Z"
   },
   "news": [
+    {
+      "title": "Massive Mythic Coiled Altar Nerfs with Weekly Reset",
+      "url": "https://www.wowhead.com/news=383389/massive-mythic-coiled-altar-nerfs-with-weekly-reset",
+      "category": "Live",
+      "publishedAt": "2026-10-12T22:46:05.000Z"
+    },
     {
       "title": "WoW: Forever Classes Won't Be Modernized - TechRadar Interview with Blizzard",
       "url": "https://www.wowhead.com/news=383378/wow-forever-classes-wont-be-modernized-techradar-interview-with-blizzard",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383377/wow-forever-and-ever-video-by-carbot-animations",
       "category": "Forever",
       "publishedAt": "2026-10-12T16:13:37.000Z"
-    },
-    {
-      "title": "New Item Makes Gravemoss Farming Easier in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383371/new-item-makes-gravemoss-farming-easier-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-12T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-12T22:25:12.230Z",
-  "generatedAt": "2026-10-12T22:25:12.134Z",
+  "newsUpdatedAt": "2026-10-12T22:51:18.995Z",
+  "generatedAt": "2026-10-12T22:51:18.988Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 17:25:11 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 17:51:18 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

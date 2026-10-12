@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-12T14:02:56.518Z"
+    "checkedAt": "2026-10-12T14:30:15.145Z"
   },
   "news": [
+    {
+      "title": "The Venomous Abyss Hall of Fame Now Full",
+      "url": "https://www.wowhead.com/news=383376/the-venomous-abyss-hall-of-fame-now-full",
+      "category": "Live",
+      "publishedAt": "2026-10-12T14:10:13.000Z"
+    },
     {
       "title": "WoW: Forever Druids Can Now Hold Torches Properly While Shapeshifted",
       "url": "https://www.wowhead.com/news=383370/wow-forever-druids-can-now-hold-torches-properly-while-shapeshifted",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383366/how-to-find-the-secret-boss-in-the-city-of-dalaran-dungeon-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-11T14:00:00.000Z"
-    },
-    {
-      "title": "Blizzard Teases Possible Change to Unlock Level of Dual Spec in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383320/blizzard-teases-possible-change-to-unlock-level-of-dual-spec-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-10T18:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-12T14:02:56.517Z",
-  "generatedAt": "2026-10-12T14:02:56.509Z",
+  "newsUpdatedAt": "2026-10-12T14:30:15.145Z",
+  "generatedAt": "2026-10-12T14:30:15.087Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 09:02:56 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 09:30:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

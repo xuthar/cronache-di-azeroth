@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T18:30:12.195Z"
+    "checkedAt": "2026-10-13T19:05:29.566Z"
   },
   "news": [
+    {
+      "title": "Mythic Sszorak Quality of Life Change with Patch 12.1.5",
+      "url": "https://www.wowhead.com/news=383397/mythic-sszorak-quality-of-life-change-with-patch-12-1-5",
+      "category": "Live",
+      "publishedAt": "2026-10-13T18:39:35.000Z"
+    },
     {
       "title": "World of Warcraft: Forever Original Soundtrack Now Available",
       "url": "https://www.wowhead.com/news=383396/world-of-warcraft-forever-original-soundtrack-now-available",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383393/subtlety-rogue-buff-updates-to-12-1-5-patch-notes",
       "category": "Live",
       "publishedAt": "2026-10-13T00:45:46.000Z"
-    },
-    {
-      "title": "Blizzard Confirms Venomous Abyss Hall of Fame Closing with Weekly Reset",
-      "url": "https://www.wowhead.com/news=383391/blizzard-confirms-venomous-abyss-hall-of-fame-closing-with-weekly-reset",
-      "category": "Live",
-      "publishedAt": "2026-10-12T23:38:39.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T18:30:12.194Z",
-  "generatedAt": "2026-10-13T18:30:12.185Z",
+  "newsUpdatedAt": "2026-10-13T19:05:29.565Z",
+  "generatedAt": "2026-10-13T19:05:29.505Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 13:30:02 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 14:05:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

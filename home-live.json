@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T21:31:59.447Z"
+    "checkedAt": "2026-10-13T22:02:31.769Z"
   },
   "news": [
+    {
+      "title": "Patch 12.1.5 Guide Compendium: Every Guide You’ll Need",
+      "url": "https://www.wowhead.com/news=383395/patch-12-1-5-guide-compendium-every-guide-you-ll-need",
+      "category": "Live",
+      "publishedAt": "2026-10-13T21:50:26.000Z"
+    },
     {
       "title": "Avoiding Homogenization in WoW: Forever Class Design - Inven Global Interview",
       "url": "https://www.wowhead.com/news=383382/avoiding-homogenization-in-wow-forever-class-design-inven-global-interview",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383396/world-of-warcraft-forever-original-soundtrack-now-available",
       "category": "Forever",
       "publishedAt": "2026-10-13T17:09:30.000Z"
-    },
-    {
-      "title": "Shaman Tanks, Collections and Zones - JackedIQ Interview on WoW: Forever",
-      "url": "https://www.wowhead.com/news=383381/shaman-tanks-collections-and-zones-jackediq-interview-on-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-13T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T21:31:59.447Z",
-  "generatedAt": "2026-10-13T21:31:59.441Z",
+  "newsUpdatedAt": "2026-10-13T22:02:31.768Z",
+  "generatedAt": "2026-10-13T22:02:31.698Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 16:31:59 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 17:02:08 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

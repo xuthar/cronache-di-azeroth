@@ -1,37 +1,10 @@
 {
-  "updatedAt": "2026-10-13T06:34:42.004Z",
+  "updatedAt": "2026-10-13T12:34:46.875Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-372-1789887600000@wowlazymacros.com",
-      "title": "Brewfest",
-      "startAt": "2026-09-20T07:00:00.000Z",
-      "endAt": "2026-10-06T07:00:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=372"
-    },
-    {
-      "id": "wow-event-702-1790668800000@wowlazymacros.com",
-      "title": "PvP Brawl: Deep Six",
-      "startAt": "2026-09-29T08:00:00.000Z",
-      "endAt": "2026-10-06T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=702"
-    },
-    {
-      "id": "wow-event-592-1790668800000@wowlazymacros.com",
-      "title": "World Quest Bonus Event",
-      "startAt": "2026-09-29T08:00:00.000Z",
-      "endAt": "2026-10-06T07:00:00.000Z",
-      "allDay": false,
-      "category": "Bonus events",
-      "url": "https://www.wowhead.com/event=592"
-    },
     {
       "id": "wow-event-479-1791054060000@wowlazymacros.com",
       "title": "Darkmoon Faire",

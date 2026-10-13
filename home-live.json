@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T16:55:16.447Z"
+    "checkedAt": "2026-10-13T17:24:22.081Z"
   },
   "news": [
+    {
+      "title": "World of Warcraft: Forever Original Soundtrack Now Available",
+      "url": "https://www.wowhead.com/news=383396/world-of-warcraft-forever-original-soundtrack-now-available",
+      "category": "Forever",
+      "publishedAt": "2026-10-13T17:09:30.000Z"
+    },
     {
       "title": "Shaman Tanks, Collections and Zones - JackedIQ Interview on WoW: Forever",
       "url": "https://www.wowhead.com/news=383381/shaman-tanks-collections-and-zones-jackediq-interview-on-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383391/blizzard-confirms-venomous-abyss-hall-of-fame-closing-with-weekly-reset",
       "category": "Live",
       "publishedAt": "2026-10-12T23:38:39.000Z"
-    },
-    {
-      "title": "Massive Mythic Coiled Altar Nerfs with Weekly Reset",
-      "url": "https://www.wowhead.com/news=383389/massive-mythic-coiled-altar-nerfs-with-weekly-reset",
-      "category": "Live",
-      "publishedAt": "2026-10-12T22:46:05.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T16:55:16.447Z",
-  "generatedAt": "2026-10-13T16:55:16.394Z",
+  "newsUpdatedAt": "2026-10-13T17:24:22.081Z",
+  "generatedAt": "2026-10-13T17:24:22.069Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 11:55:00 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 12:24:08 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

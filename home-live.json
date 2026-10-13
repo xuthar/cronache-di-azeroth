@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T00:40:48.613Z"
+    "checkedAt": "2026-10-13T01:10:20.907Z"
   },
   "news": [
+    {
+      "title": "Subtlety Rogue Buff - Updates to 12.1.5 Patch Notes",
+      "url": "https://www.wowhead.com/news=383393/subtlety-rogue-buff-updates-to-12-1-5-patch-notes",
+      "category": "Live",
+      "publishedAt": "2026-10-13T00:45:46.000Z"
+    },
     {
       "title": "Blizzard Confirms Venomous Abyss Hall of Fame Closing with Weekly Reset",
       "url": "https://www.wowhead.com/news=383391/blizzard-confirms-venomous-abyss-hall-of-fame-closing-with-weekly-reset",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383388/mythic-dungeon-tuning-with-weekly-reset-altar-of-fangs-nerfed",
       "category": "Live",
       "publishedAt": "2026-10-12T22:45:14.000Z"
-    },
-    {
-      "title": "WoW: Forever Classes Won't Be Modernized - TechRadar Interview with Blizzard",
-      "url": "https://www.wowhead.com/news=383378/wow-forever-classes-wont-be-modernized-techradar-interview-with-blizzard",
-      "category": "Forever",
-      "publishedAt": "2026-10-12T18:29:16.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T00:40:48.613Z",
-  "generatedAt": "2026-10-13T00:40:48.605Z",
+  "newsUpdatedAt": "2026-10-13T01:10:20.907Z",
+  "generatedAt": "2026-10-13T01:10:20.900Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 12 Oct 2026 19:40:44 -0500",
+  "newsFeedBuiltAt": "Mon, 12 Oct 2026 20:10:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

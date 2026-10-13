@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T22:32:38.199Z"
+    "checkedAt": "2026-10-13T23:00:39.821Z"
   },
   "news": [
+    {
+      "title": "Mythic Kith'ix World First Officially Killed by Liquid",
+      "url": "https://www.wowhead.com/news=383400/mythic-kithix-world-first-officially-killed-by-liquid",
+      "category": "Live",
+      "publishedAt": "2026-10-13T22:46:18.000Z"
+    },
+    {
+      "title": "WoW: Forever Stress Test Available on October 19th - New Option on Battle.net Launcher",
+      "url": "https://www.wowhead.com/news=383402/wow-forever-stress-test-available-on-october-19th-new-option-on-battle-net",
+      "category": "Forever",
+      "publishedAt": "2026-10-13T22:39:15.000Z"
+    },
     {
       "title": "Kith'ix Raid Finale Cinematic",
       "url": "https://www.wowhead.com/news=383398/kithix-raid-finale-cinematic",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383399/blizzard-releases-known-issues-for-patch-12-1-5",
       "category": "Live",
       "publishedAt": "2026-10-13T22:14:12.000Z"
-    },
-    {
-      "title": "Patch 12.1.5 Guide Compendium: Every Guide You’ll Need",
-      "url": "https://www.wowhead.com/news=383395/patch-12-1-5-guide-compendium-every-guide-you-ll-need",
-      "category": "Live",
-      "publishedAt": "2026-10-13T21:50:26.000Z"
-    },
-    {
-      "title": "Avoiding Homogenization in WoW: Forever Class Design - Inven Global Interview",
-      "url": "https://www.wowhead.com/news=383382/avoiding-homogenization-in-wow-forever-class-design-inven-global-interview",
-      "category": "Forever",
-      "publishedAt": "2026-10-13T20:21:26.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T22:32:38.199Z",
-  "generatedAt": "2026-10-13T22:32:38.192Z",
+  "newsUpdatedAt": "2026-10-13T23:00:39.820Z",
+  "generatedAt": "2026-10-13T23:00:39.813Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 17:32:24 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 18:00:33 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

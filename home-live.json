@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T22:02:31.769Z"
+    "checkedAt": "2026-10-13T22:32:38.199Z"
   },
   "news": [
+    {
+      "title": "Kith'ix Raid Finale Cinematic",
+      "url": "https://www.wowhead.com/news=383398/kithix-raid-finale-cinematic",
+      "category": "Live",
+      "publishedAt": "2026-10-13T22:16:00.000Z"
+    },
+    {
+      "title": "Blizzard Releases Known Issues for Patch 12.1.5",
+      "url": "https://www.wowhead.com/news=383399/blizzard-releases-known-issues-for-patch-12-1-5",
+      "category": "Live",
+      "publishedAt": "2026-10-13T22:14:12.000Z"
+    },
     {
       "title": "Patch 12.1.5 Guide Compendium: Every Guide You’ll Need",
       "url": "https://www.wowhead.com/news=383395/patch-12-1-5-guide-compendium-every-guide-you-ll-need",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383382/avoiding-homogenization-in-wow-forever-class-design-inven-global-interview",
       "category": "Forever",
       "publishedAt": "2026-10-13T20:21:26.000Z"
-    },
-    {
-      "title": "Mythic Sszorak Quality of Life Change with Patch 12.1.5",
-      "url": "https://www.wowhead.com/news=383397/mythic-sszorak-quality-of-life-change-with-patch-12-1-5",
-      "category": "Live",
-      "publishedAt": "2026-10-13T18:39:35.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever Original Soundtrack Now Available",
-      "url": "https://www.wowhead.com/news=383396/world-of-warcraft-forever-original-soundtrack-now-available",
-      "category": "Forever",
-      "publishedAt": "2026-10-13T17:09:30.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T22:02:31.768Z",
-  "generatedAt": "2026-10-13T22:02:31.698Z",
+  "newsUpdatedAt": "2026-10-13T22:32:38.199Z",
+  "generatedAt": "2026-10-13T22:32:38.192Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 17:02:08 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 17:32:24 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

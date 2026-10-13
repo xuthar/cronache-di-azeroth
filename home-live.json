@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-13T13:59:25.026Z"
+    "checkedAt": "2026-10-13T14:27:58.611Z"
   },
   "news": [
+    {
+      "title": "Shaman Tanks, Collections and Zones - JackedIQ Interview on WoW: Forever",
+      "url": "https://www.wowhead.com/news=383381/shaman-tanks-collections-and-zones-jackediq-interview-on-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-13T14:00:00.000Z"
+    },
     {
       "title": "Subtlety Rogue Buff - Updates to 12.1.5 Patch Notes",
       "url": "https://www.wowhead.com/news=383393/subtlety-rogue-buff-updates-to-12-1-5-patch-notes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383389/massive-mythic-coiled-altar-nerfs-with-weekly-reset",
       "category": "Live",
       "publishedAt": "2026-10-12T22:46:05.000Z"
-    },
-    {
-      "title": "Mythic+ Dungeon Tuning with Weekly Reset - Altar of Fangs Nerfed",
-      "url": "https://www.wowhead.com/news=383388/mythic-dungeon-tuning-with-weekly-reset-altar-of-fangs-nerfed",
-      "category": "Live",
-      "publishedAt": "2026-10-12T22:45:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-13T13:59:25.026Z",
-  "generatedAt": "2026-10-13T13:59:25.019Z",
+  "newsUpdatedAt": "2026-10-13T14:27:58.611Z",
+  "generatedAt": "2026-10-13T14:27:58.528Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 08:59:24 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 09:27:29 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

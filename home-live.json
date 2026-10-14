@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T13:41:59.553Z"
+    "checkedAt": "2026-10-14T14:15:39.627Z"
   },
   "news": [
+    {
+      "title": "Character Caps in WoW: Forever, Cross Region Servers - Fiamma Interview with Clay Stone and Holly Longdale",
+      "url": "https://www.wowhead.com/news=383383/character-caps-in-wow-forever-cross-region-servers-fiamma-interview-with-clay",
+      "category": "WoW",
+      "publishedAt": "2026-10-14T14:00:00.000Z"
+    },
     {
       "title": "Hallow's End Decor Available Early From Neighborhood Vendors",
       "url": "https://www.wowhead.com/news=383408/hallows-end-decor-available-early-from-neighborhood-vendors",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383407/wow-forever-introducing-temporary-economy-holds-to-combat-rmt",
       "category": "Forever",
       "publishedAt": "2026-10-14T00:01:43.000Z"
-    },
-    {
-      "title": "Post-Raid Campaign Cannot Be Completed - Blizzard Investigating",
-      "url": "https://www.wowhead.com/news=383406/post-raid-campaign-cannot-be-completed-blizzard-investigating",
-      "category": "Live",
-      "publishedAt": "2026-10-13T23:30:27.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T13:41:59.553Z",
-  "generatedAt": "2026-10-14T13:41:59.546Z",
+  "newsUpdatedAt": "2026-10-14T14:15:39.627Z",
+  "generatedAt": "2026-10-14T14:15:39.620Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 08:41:59 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 09:15:30 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

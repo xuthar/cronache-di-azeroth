@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T18:08:30.617Z"
+    "checkedAt": "2026-10-14T19:01:58.830Z"
   },
   "news": [
+    {
+      "title": "New Cosmetics Items Available from Patch 12.1.5 Campaign",
+      "url": "https://www.wowhead.com/news=383403/new-cosmetics-items-available-from-patch-12-1-5-campaign",
+      "category": "Live",
+      "publishedAt": "2026-10-14T18:54:02.000Z"
+    },
     {
       "title": "World of Warcraft: Forever Highilghts Launch Dungeons in New Blizzard Video",
       "url": "https://www.wowhead.com/news=383419/world-of-warcraft-forever-highilghts-launch-dungeons-in-new-blizzard-video",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383417/wow-forever-beta-going-down-for-a-couple-hours",
       "category": "Forever",
       "publishedAt": "2026-10-14T14:52:52.000Z"
-    },
-    {
-      "title": "Character Caps in WoW: Forever, Cross Region Servers - Fiamma Interview with Clay Stone and Holly Longdale",
-      "url": "https://www.wowhead.com/news=383383/character-caps-in-wow-forever-cross-region-servers-fiamma-interview-with-clay",
-      "category": "WoW",
-      "publishedAt": "2026-10-14T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T18:08:30.616Z",
-  "generatedAt": "2026-10-14T18:08:30.608Z",
+  "newsUpdatedAt": "2026-10-14T19:01:58.829Z",
+  "generatedAt": "2026-10-14T19:01:58.823Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 13:08:13 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 14:01:58 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

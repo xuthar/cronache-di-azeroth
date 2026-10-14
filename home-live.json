@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T12:07:43.837Z"
+    "checkedAt": "2026-10-14T13:04:28.950Z"
   },
   "news": [
+    {
+      "title": "Hallow's End Decor Available Early From Neighborhood Vendors",
+      "url": "https://www.wowhead.com/news=383408/hallows-end-decor-available-early-from-neighborhood-vendors",
+      "category": "Live",
+      "publishedAt": "2026-10-14T13:00:00.000Z"
+    },
     {
       "title": "Multiple Bugs Preventing Progress in Labyrinths",
       "url": "https://www.wowhead.com/news=383409/multiple-bugs-preventing-progress-in-labyrinths-forcing",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383406/post-raid-campaign-cannot-be-completed-blizzard-investigating",
       "category": "Live",
       "publishedAt": "2026-10-13T23:30:27.000Z"
-    },
-    {
-      "title": "Post-Raid Campaign Cutscene - Spoilers Ahead",
-      "url": "https://www.wowhead.com/news=383404/post-raid-campaign-cutscene-spoilers-ahead",
-      "category": "Live",
-      "publishedAt": "2026-10-13T23:07:57.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T12:07:43.837Z",
-  "generatedAt": "2026-10-14T12:07:43.829Z",
+  "newsUpdatedAt": "2026-10-14T13:04:28.949Z",
+  "generatedAt": "2026-10-14T13:04:28.939Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 07:07:34 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 08:04:07 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

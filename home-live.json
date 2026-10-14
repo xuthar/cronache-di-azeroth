@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T14:15:39.627Z"
+    "checkedAt": "2026-10-14T14:55:03.488Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Beta Going Down for a Couple Hours",
+      "url": "https://www.wowhead.com/news=383417/wow-forever-beta-going-down-for-a-couple-hours",
+      "category": "Forever",
+      "publishedAt": "2026-10-14T14:52:52.000Z"
+    },
     {
       "title": "Character Caps in WoW: Forever, Cross Region Servers - Fiamma Interview with Clay Stone and Holly Longdale",
       "url": "https://www.wowhead.com/news=383383/character-caps-in-wow-forever-cross-region-servers-fiamma-interview-with-clay",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383409/multiple-bugs-preventing-progress-in-labyrinths-forcing",
       "category": "Live",
       "publishedAt": "2026-10-14T00:40:40.000Z"
-    },
-    {
-      "title": "WoW: Forever Introducing Temporary Economy Holds to Combat RMT",
-      "url": "https://www.wowhead.com/news=383407/wow-forever-introducing-temporary-economy-holds-to-combat-rmt",
-      "category": "Forever",
-      "publishedAt": "2026-10-14T00:01:43.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T14:15:39.627Z",
-  "generatedAt": "2026-10-14T14:15:39.620Z",
+  "newsUpdatedAt": "2026-10-14T14:55:03.488Z",
+  "generatedAt": "2026-10-14T14:55:03.416Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 09:15:30 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 09:55:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

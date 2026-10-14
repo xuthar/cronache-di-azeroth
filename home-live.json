@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T00:43:28.611Z"
+    "checkedAt": "2026-10-14T01:21:52.027Z"
   },
   "news": [
+    {
+      "title": "Multiple Bugs Preventing Progress in Labyrinths",
+      "url": "https://www.wowhead.com/news=383409/multiple-bugs-preventing-progress-in-labyrinths-forcing",
+      "category": "Live",
+      "publishedAt": "2026-10-14T00:40:40.000Z"
+    },
     {
       "title": "WoW: Forever Introducing Temporary Economy Holds to Combat RMT",
       "url": "https://www.wowhead.com/news=383407/wow-forever-introducing-temporary-economy-holds-to-combat-rmt",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383404/post-raid-campaign-cutscene-spoilers-ahead",
       "category": "Live",
       "publishedAt": "2026-10-13T23:07:57.000Z"
-    },
-    {
-      "title": "Mythic Kith'ix World First Officially Killed by Liquid",
-      "url": "https://www.wowhead.com/news=383400/mythic-kithix-world-first-officially-killed-by-liquid",
-      "category": "Live",
-      "publishedAt": "2026-10-13T22:46:18.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T00:43:28.611Z",
-  "generatedAt": "2026-10-14T00:43:28.604Z",
+  "newsUpdatedAt": "2026-10-14T01:21:52.026Z",
+  "generatedAt": "2026-10-14T01:21:52.017Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 13 Oct 2026 19:43:28 -0500",
+  "newsFeedBuiltAt": "Tue, 13 Oct 2026 20:21:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

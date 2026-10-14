@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-14T16:57:24.509Z"
+    "checkedAt": "2026-10-14T17:35:12.476Z"
   },
   "news": [
+    {
+      "title": "World of Warcraft: Forever Highilghts Launch Dungeons in New Blizzard Video",
+      "url": "https://www.wowhead.com/news=383419/world-of-warcraft-forever-highilghts-launch-dungeons-in-new-blizzard-video",
+      "category": "Forever",
+      "publishedAt": "2026-10-14T17:12:00.000Z"
+    },
     {
       "title": "Receive 2 Mounts for 12-Month Subscription - New Subscription Bonuses",
       "url": "https://www.wowhead.com/news=383418/receive-2-mounts-for-12-month-subscription-new-subscription-bonuses",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383383/character-caps-in-wow-forever-cross-region-servers-fiamma-interview-with-clay",
       "category": "WoW",
       "publishedAt": "2026-10-14T14:00:00.000Z"
-    },
-    {
-      "title": "Hallow's End Decor Available Early From Neighborhood Vendors",
-      "url": "https://www.wowhead.com/news=383408/hallows-end-decor-available-early-from-neighborhood-vendors",
-      "category": "Live",
-      "publishedAt": "2026-10-14T13:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-14T16:57:24.508Z",
-  "generatedAt": "2026-10-14T16:57:24.499Z",
+  "newsUpdatedAt": "2026-10-14T17:35:12.475Z",
+  "generatedAt": "2026-10-14T17:35:12.468Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 11:57:23 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 12:35:12 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

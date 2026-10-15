@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T19:52:23.033Z"
+    "checkedAt": "2026-10-15T20:32:46.117Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Beta Going Down for Maintenance for New Build",
+      "url": "https://www.wowhead.com/news=383446/wow-forever-beta-going-down-for-maintenance-for-new-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-15T20:09:00.000Z"
+    },
+    {
+      "title": "New Mounts Datamined in Patch 12.1.7 - Winterrrgl's Pine-Powered Candy Cane Contraption",
+      "url": "https://www.wowhead.com/news=383443/new-mounts-datamined-in-patch-12-1-7-winterrrgls-pine-powered-candy-cane",
+      "category": "PTR",
+      "publishedAt": "2026-10-15T19:58:16.000Z"
+    },
     {
       "title": "Updates to Herbalism and Mining - Patch 12.1.7 PTR Development Notes",
       "url": "https://www.wowhead.com/news=383441/updates-to-herbalism-and-mining-patch-12-1-7-ptr-development-notes",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383440/paladin-class-deep-dive-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-15T19:02:45.000Z"
-    },
-    {
-      "title": "Players Report Progression-Bricking Bugs Still Exist in Labyrinth of Kindo'jan",
-      "url": "https://www.wowhead.com/news=383439/players-reporting-progression-bricking-bugs-still-persist-in-labyrinths",
-      "category": "Live",
-      "publishedAt": "2026-10-15T18:56:20.000Z"
-    },
-    {
-      "title": "Blizzard to Lower Alterac Valley Honor and Increase All Other Battlegrounds Honor in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383433/blizzard-to-lower-alterac-valley-honor-and-increase-all-other-battlegrounds",
-      "category": "Forever",
-      "publishedAt": "2026-10-15T17:33:02.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T19:52:23.033Z",
-  "generatedAt": "2026-10-15T19:52:23.025Z",
+  "newsUpdatedAt": "2026-10-15T20:32:46.116Z",
+  "generatedAt": "2026-10-15T20:32:45.701Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 14:51:55 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 15:32:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

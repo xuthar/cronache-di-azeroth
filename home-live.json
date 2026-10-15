@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T12:49:36.441Z"
+    "checkedAt": "2026-10-15T13:28:28.594Z"
   },
   "news": [
+    {
+      "title": "Resistance Gear & The Economy - Friends Per Second Podcast Interview with Blizzard",
+      "url": "https://www.wowhead.com/news=383386/resistance-gear-and-the-economy-friends-per-second-podcast-interview-with",
+      "category": "Forever",
+      "publishedAt": "2026-10-15T13:00:00.000Z"
+    },
     {
       "title": "Many Labyrinth Bug Fixes - Patch 12.1.5 Hotfixes",
       "url": "https://www.wowhead.com/news=383424/many-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383403/new-cosmetics-items-available-from-patch-12-1-5-campaign",
       "category": "Live",
       "publishedAt": "2026-10-14T18:54:02.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever Highilghts Launch Dungeons in New Blizzard Video",
-      "url": "https://www.wowhead.com/news=383419/world-of-warcraft-forever-highilghts-launch-dungeons-in-new-blizzard-video",
-      "category": "Forever",
-      "publishedAt": "2026-10-14T17:12:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T12:49:36.440Z",
-  "generatedAt": "2026-10-15T12:49:36.376Z",
+  "newsUpdatedAt": "2026-10-15T13:28:28.593Z",
+  "generatedAt": "2026-10-15T13:28:28.584Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 07:49:13 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 08:28:28 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

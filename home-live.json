@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T21:05:35.359Z"
+    "checkedAt": "2026-10-15T21:38:29.980Z"
   },
   "news": [
+    {
+      "title": "New Witch Hunter Set Datamined on Patch 12.1.7 PTR",
+      "url": "https://www.wowhead.com/news=383447/new-witch-hunter-set-datamined-on-patch-12-1-7-ptr",
+      "category": "PTR",
+      "publishedAt": "2026-10-15T21:31:11.000Z"
+    },
     {
       "title": "Join the World of Warcraft: Forever Stress Test on October 19th",
       "url": "https://www.wowhead.com/news=383449/join-the-world-of-warcraft-forever-stress-test-on-october-19th",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383443/new-mounts-datamined-in-patch-12-1-7-winterrrgls-pine-powered-candy-cane",
       "category": "PTR",
       "publishedAt": "2026-10-15T19:58:16.000Z"
-    },
-    {
-      "title": "Updates to Herbalism and Mining - Patch 12.1.7 PTR Development Notes",
-      "url": "https://www.wowhead.com/news=383441/updates-to-herbalism-and-mining-patch-12-1-7-ptr-development-notes",
-      "category": "PTR",
-      "publishedAt": "2026-10-15T19:10:13.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T21:05:35.359Z",
-  "generatedAt": "2026-10-15T21:05:35.220Z",
+  "newsUpdatedAt": "2026-10-15T21:38:29.979Z",
+  "generatedAt": "2026-10-15T21:38:29.972Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 16:05:34 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 16:38:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

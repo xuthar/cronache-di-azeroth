@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T15:38:45.091Z"
+    "checkedAt": "2026-10-15T16:15:57.564Z"
   },
   "news": [
+    {
+      "title": "More Omnium Folio Unlocks - Patch 12.1.7: Echoes of the Worldcore Overview",
+      "url": "https://www.wowhead.com/news=383428/more-omnium-folio-unlocks-patch-12-1-7-echoes-of-the-worldcore-overview",
+      "category": "Live",
+      "publishedAt": "2026-10-15T16:01:39.000Z"
+    },
+    {
+      "title": "The Secret Finding Discord is Sleuthing Again in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383414/the-secret-finding-discord-is-sleuthing-again-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "title": "Blizzard Addressing Issue with Nebulous Voidcores for Players Who Were Temporarily Suspended",
+      "url": "https://www.wowhead.com/news=383427/blizzard-addressing-issue-with-nebulous-voidcores-for-players-who-were",
+      "category": "Live",
+      "publishedAt": "2026-10-15T15:47:42.000Z"
+    },
     {
       "title": "Collect Hexmasks and Unlock Locked Rooms in Labyrinths",
       "url": "https://www.wowhead.com/news=383423/collect-hexmasks-and-unlock-locked-rooms-in-labyrinths",
       "category": "Live",
       "publishedAt": "2026-10-15T15:00:00.000Z"
-    },
-    {
-      "title": "Mislaid Curiosities Allow Massive Stat Buff Stacking in Labyrinths",
-      "url": "https://www.wowhead.com/news=383422/mislaid-curiosities-allow-massive-stat-buff-stacking-in-labyrinths",
-      "category": "Live",
-      "publishedAt": "2026-10-15T14:00:00.000Z"
-    },
-    {
-      "title": "Resistance Gear & The Economy - Friends Per Second Podcast Interview with Blizzard",
-      "url": "https://www.wowhead.com/news=383386/resistance-gear-and-the-economy-friends-per-second-podcast-interview-with",
-      "category": "Forever",
-      "publishedAt": "2026-10-15T13:00:00.000Z"
-    },
-    {
-      "title": "Many Labyrinth Bug Fixes - Patch 12.1.5 Hotfixes",
-      "url": "https://www.wowhead.com/news=383424/many-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
-      "category": "Live",
-      "publishedAt": "2026-10-15T00:55:15.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T15:38:45.090Z",
-  "generatedAt": "2026-10-15T15:38:45.083Z",
+  "newsUpdatedAt": "2026-10-15T16:15:57.564Z",
+  "generatedAt": "2026-10-15T16:15:57.556Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 10:38:44 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 11:15:56 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

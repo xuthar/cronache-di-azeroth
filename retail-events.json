@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:46:28.441Z",
+  "updatedAt": "2026-10-15T15:09:13.222Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -391,6 +391,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=664"
+    },
+    {
+      "id": "wow-event-1047-1807621200000@wowlazymacros.com",
+      "title": "PvP Brawl: Cooking Impossible",
+      "startAt": "2027-04-13T13:00:00.000Z",
+      "endAt": "2027-04-20T13:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=1047"
     }
   ]
 }

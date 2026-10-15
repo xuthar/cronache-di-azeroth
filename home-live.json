@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T16:57:10.651Z"
+    "checkedAt": "2026-10-15T17:33:40.862Z"
   },
   "news": [
+    {
+      "title": "New Rexxar Battle.net Shop Pack - Champion of the Wilds Pack",
+      "url": "https://www.wowhead.com/news=383432/new-rexxar-battle-net-shop-pack-champion-of-the-wilds-pack",
+      "category": "Live",
+      "publishedAt": "2026-10-15T17:07:55.000Z"
+    },
     {
       "title": "Blizzard Confirms No Current Plans for RP-PVP Ruleset in WoW: Forever",
       "url": "https://www.wowhead.com/news=383431/blizzard-confirms-no-current-plans-for-rp-pvp-ruleset-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383428/more-omnium-folio-unlocks-patch-12-1-7-echoes-of-the-worldcore-overview",
       "category": "Live",
       "publishedAt": "2026-10-15T16:01:39.000Z"
-    },
-    {
-      "title": "The Secret Finding Discord is Sleuthing Again in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383414/the-secret-finding-discord-is-sleuthing-again-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-15T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T16:57:10.650Z",
-  "generatedAt": "2026-10-15T16:57:10.640Z",
+  "newsUpdatedAt": "2026-10-15T17:33:40.862Z",
+  "generatedAt": "2026-10-15T17:33:40.855Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 11:56:45 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 12:33:20 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

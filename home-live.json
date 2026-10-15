@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T22:11:50.055Z"
+    "checkedAt": "2026-10-15T22:48:38.496Z"
   },
   "news": [
+    {
+      "title": "No Lower Level PvP Protection Planned for WoW: Forever",
+      "url": "https://www.wowhead.com/news=383435/no-lower-level-pvp-protection-planned-for-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-15T22:23:50.000Z"
+    },
     {
       "title": "New Capes and Weapons Datamined on Patch 12.1.7 PTR",
       "url": "https://www.wowhead.com/news=383448/new-capes-and-weapons-datamined-on-patch-12-1-7-ptr",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383449/join-the-world-of-warcraft-forever-stress-test-on-october-19th",
       "category": "Forever",
       "publishedAt": "2026-10-15T21:02:34.000Z"
-    },
-    {
-      "title": "WoW: Forever Beta Going Down for Maintenance for New Build",
-      "url": "https://www.wowhead.com/news=383446/wow-forever-beta-going-down-for-maintenance-for-new-build",
-      "category": "Forever",
-      "publishedAt": "2026-10-15T20:09:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T22:11:50.054Z",
-  "generatedAt": "2026-10-15T22:11:50.044Z",
+  "newsUpdatedAt": "2026-10-15T22:48:38.496Z",
+  "generatedAt": "2026-10-15T22:48:38.490Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 17:11:27 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 17:48:23 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

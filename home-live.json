@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T14:54:29.410Z"
+    "checkedAt": "2026-10-15T15:09:13.433Z"
   },
   "news": [
+    {
+      "title": "Collect Hexmasks and Unlock Locked Rooms in Labyrinths",
+      "url": "https://www.wowhead.com/news=383423/collect-hexmasks-and-unlock-locked-rooms-in-labyrinths",
+      "category": "Live",
+      "publishedAt": "2026-10-15T15:00:00.000Z"
+    },
     {
       "title": "Mislaid Curiosities Allow Massive Stat Buff Stacking in Labyrinths",
       "url": "https://www.wowhead.com/news=383422/mislaid-curiosities-allow-massive-stat-buff-stacking-in-labyrinths",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383424/many-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
       "category": "Live",
       "publishedAt": "2026-10-15T00:55:15.000Z"
-    },
-    {
-      "title": "Loot Sturdy Chests in Labyrinth of Kindo'jan for Lots of Reputation",
-      "url": "https://www.wowhead.com/news=383421/loot-sturdy-chests-in-labyrinth-of-kindojan-for-lots-of-reputation",
-      "category": "Live",
-      "publishedAt": "2026-10-14T21:23:05.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T14:54:29.410Z",
-  "generatedAt": "2026-10-15T14:54:29.402Z",
+  "newsUpdatedAt": "2026-10-15T15:09:13.432Z",
+  "generatedAt": "2026-10-15T15:09:13.424Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 09:54:28 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 10:09:12 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

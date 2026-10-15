@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-15T00:42:42.888Z"
+    "checkedAt": "2026-10-15T01:21:05.138Z"
   },
   "news": [
+    {
+      "title": "Many Labyrinth Bug Fixes - Patch 12.1.5 Hotfixes",
+      "url": "https://www.wowhead.com/news=383424/many-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
+      "category": "Live",
+      "publishedAt": "2026-10-15T00:55:15.000Z"
+    },
     {
       "title": "Loot Sturdy Chests in Labyrinth of Kindo'jan for Lots of Reputation",
       "url": "https://www.wowhead.com/news=383421/loot-sturdy-chests-in-labyrinth-of-kindojan-for-lots-of-reputation",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383419/world-of-warcraft-forever-highilghts-launch-dungeons-in-new-blizzard-video",
       "category": "Forever",
       "publishedAt": "2026-10-14T17:12:00.000Z"
-    },
-    {
-      "title": "Receive 2 Mounts for 12-Month Subscription - New Subscription Bonuses",
-      "url": "https://www.wowhead.com/news=383418/receive-2-mounts-for-12-month-subscription-new-subscription-bonuses",
-      "category": "Live",
-      "publishedAt": "2026-10-14T15:44:46.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-15T00:42:42.888Z",
-  "generatedAt": "2026-10-15T00:42:42.835Z",
+  "newsUpdatedAt": "2026-10-15T01:21:05.137Z",
+  "generatedAt": "2026-10-15T01:21:05.022Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 14 Oct 2026 19:42:15 -0500",
+  "newsFeedBuiltAt": "Wed, 14 Oct 2026 20:20:41 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T00:45:54.260Z"
+    "checkedAt": "2026-10-16T01:19:41.320Z"
   },
   "news": [
+    {
+      "title": "Many Buffs Now Raid-Wide: Class Changes in Latest WoW: Forever Build",
+      "url": "https://www.wowhead.com/news=383456/many-buffs-now-raid-wide-class-changes-in-latest-wow-forever-build",
+      "category": "Forever",
+      "publishedAt": "2026-10-16T01:09:49.000Z"
+    },
     {
       "title": "New Winter Veil Mount and Rewards Coming with Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383451/new-winter-veil-mount-and-rewards-coming-with-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383435/no-lower-level-pvp-protection-planned-for-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-15T22:23:50.000Z"
-    },
-    {
-      "title": "New Capes and Weapons Datamined on Patch 12.1.7 PTR",
-      "url": "https://www.wowhead.com/news=383448/new-capes-and-weapons-datamined-on-patch-12-1-7-ptr",
-      "category": "PTR",
-      "publishedAt": "2026-10-15T22:09:29.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T00:45:54.259Z",
-  "generatedAt": "2026-10-16T00:45:54.253Z",
+  "newsUpdatedAt": "2026-10-16T01:19:41.320Z",
+  "generatedAt": "2026-10-16T01:19:41.310Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 15 Oct 2026 19:45:48 -0500",
+  "newsFeedBuiltAt": "Thu, 15 Oct 2026 20:19:35 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

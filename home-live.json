@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T14:11:21.012Z"
+    "checkedAt": "2026-10-16T14:54:45.939Z"
   },
   "news": [
+    {
+      "title": "Rexxar Shop Pack Removed from Battle.net Store",
+      "url": "https://www.wowhead.com/news=383464/rexxar-shop-pack-removed-from-battle-net-store",
+      "category": "Live",
+      "publishedAt": "2026-10-16T14:30:01.000Z"
+    },
     {
       "title": "Nine New Battle Pets Datamined in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383452/nine-new-battle-pets-datamined-in-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383438/official-dueling-arena-added-for-100k-pvp-tournament-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-16T12:00:00.000Z"
-    },
-    {
-      "title": "Some Powerful Hunter Pet Abilities Nerfed in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383460/some-powerful-hunter-pet-abilities-nerfed-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-16T02:23:03.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T14:11:21.011Z",
-  "generatedAt": "2026-10-16T14:11:20.782Z",
+  "newsUpdatedAt": "2026-10-16T14:54:45.938Z",
+  "generatedAt": "2026-10-16T14:54:45.928Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 09:11:20 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 09:54:17 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

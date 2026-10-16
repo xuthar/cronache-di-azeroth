@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T20:51:51.253Z"
+    "checkedAt": "2026-10-16T21:17:22.280Z"
   },
   "news": [
+    {
+      "title": "The $100K WoW Tournament Is Pure Chaos! The PULL 10 Podcast Featuring Tips Out",
+      "url": "https://www.wowhead.com/news=383470/the-100k-wow-tournament-is-pure-chaos-the-pull-10-podcast-featuring-tips-out",
+      "category": "Forever",
+      "publishedAt": "2026-10-16T21:12:50.000Z"
+    },
     {
       "title": "Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build",
       "url": "https://www.wowhead.com/news=383463/potential-new-mounts-pets-and-cosmetics-discovered-in-latest-wow-forever-build",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383466/blizzard-announces-hotfix-for-druid-cat-form-quest-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-16T18:00:06.000Z"
-    },
-    {
-      "title": "Midnight 12.1.5 Live, Patch 12.1.7 & WoW: Forever - WoW Weekly Recap",
-      "url": "https://www.wowhead.com/news=383465/midnight-12-1-5-live-patch-12-1-7-and-wow-forever-wow-weekly-recap",
-      "category": "WoW",
-      "publishedAt": "2026-10-16T17:03:18.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T20:51:51.252Z",
-  "generatedAt": "2026-10-16T20:51:51.238Z",
+  "newsUpdatedAt": "2026-10-16T21:17:22.279Z",
+  "generatedAt": "2026-10-16T21:17:22.266Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 15:51:41 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 16:17:21 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

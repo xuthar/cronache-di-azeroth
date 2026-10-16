@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T17:31:52.462Z"
+    "checkedAt": "2026-10-16T18:03:02.812Z"
   },
   "news": [
+    {
+      "title": "Blizzard Announces Hotfix for Druid Cat Form Quest in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383466/blizzard-announces-hotfix-for-druid-cat-form-quest-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-16T18:00:06.000Z"
+    },
     {
       "title": "Midnight 12.1.5 Live, Patch 12.1.7 & WoW: Forever - WoW Weekly Recap",
       "url": "https://www.wowhead.com/news=383465/midnight-12-1-5-live-patch-12-1-7-and-wow-forever-wow-weekly-recap",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383464/rexxar-shop-pack-removed-from-battle-net-store",
       "category": "Live",
       "publishedAt": "2026-10-16T14:30:01.000Z"
-    },
-    {
-      "title": "Nine New Battle Pets Datamined in Patch 12.1.7",
-      "url": "https://www.wowhead.com/news=383452/nine-new-battle-pets-datamined-in-patch-12-1-7",
-      "category": "PTR",
-      "publishedAt": "2026-10-16T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T17:31:52.462Z",
-  "generatedAt": "2026-10-16T17:31:52.452Z",
+  "newsUpdatedAt": "2026-10-16T18:03:02.812Z",
+  "generatedAt": "2026-10-16T18:03:02.806Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 12:31:21 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 13:02:33 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

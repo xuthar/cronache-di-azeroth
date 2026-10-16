@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T13:26:28.914Z"
+    "checkedAt": "2026-10-16T14:11:21.012Z"
   },
   "news": [
+    {
+      "title": "Nine New Battle Pets Datamined in Patch 12.1.7",
+      "url": "https://www.wowhead.com/news=383452/nine-new-battle-pets-datamined-in-patch-12-1-7",
+      "category": "PTR",
+      "publishedAt": "2026-10-16T14:00:00.000Z"
+    },
     {
       "title": "Are Vendor Shuffles Dead in WoW: Forever?",
       "url": "https://www.wowhead.com/news=383458/are-vendor-shuffles-dead-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383460/some-powerful-hunter-pet-abilities-nerfed-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-16T02:23:03.000Z"
-    },
-    {
-      "title": "Labyrinth Bosses Should Now Give Credit - Patch 12.1.5 Hotfixes",
-      "url": "https://www.wowhead.com/news=383459/labyrinth-bosses-should-now-give-credit-patch-12-1-5-hotfixes",
-      "category": "Live",
-      "publishedAt": "2026-10-16T02:14:33.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T13:26:28.914Z",
-  "generatedAt": "2026-10-16T13:26:28.907Z",
+  "newsUpdatedAt": "2026-10-16T14:11:21.011Z",
+  "generatedAt": "2026-10-16T14:11:20.782Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 08:26:09 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 09:11:20 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

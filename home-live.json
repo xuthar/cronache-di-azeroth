@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-16T16:54:22.904Z"
+    "checkedAt": "2026-10-16T17:31:52.462Z"
   },
   "news": [
+    {
+      "title": "Midnight 12.1.5 Live, Patch 12.1.7 & WoW: Forever - WoW Weekly Recap",
+      "url": "https://www.wowhead.com/news=383465/midnight-12-1-5-live-patch-12-1-7-and-wow-forever-wow-weekly-recap",
+      "category": "WoW",
+      "publishedAt": "2026-10-16T17:03:18.000Z"
+    },
     {
       "title": "Several Starter Zone White Drops Changed to Greens in Latest WoW: Forever Beta Build",
       "url": "https://www.wowhead.com/news=383461/several-starter-zone-white-drops-changed-to-greens-in-latest-wow-forever-beta",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383452/nine-new-battle-pets-datamined-in-patch-12-1-7",
       "category": "PTR",
       "publishedAt": "2026-10-16T14:00:00.000Z"
-    },
-    {
-      "title": "Are Vendor Shuffles Dead in WoW: Forever?",
-      "url": "https://www.wowhead.com/news=383458/are-vendor-shuffles-dead-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-16T13:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-16T16:54:22.903Z",
-  "generatedAt": "2026-10-16T16:54:22.895Z",
+  "newsUpdatedAt": "2026-10-16T17:31:52.462Z",
+  "generatedAt": "2026-10-16T17:31:52.452Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 11:54:09 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 12:31:21 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

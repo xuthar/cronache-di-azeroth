@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-17T13:47:07.061Z"
+    "checkedAt": "2026-10-17T14:08:39.157Z"
   },
   "news": [
+    {
+      "title": "What's Going on With Layering in WoW: Forever?",
+      "url": "https://www.wowhead.com/news=383412/whats-going-on-with-layering-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-17T14:00:00.000Z"
+    },
     {
       "title": "Many More Labyrinth Fixes - Patch 12.1.5 Hotfixes",
       "url": "https://www.wowhead.com/news=383478/many-more-labyrinth-fixes-patch-12-1-5-hotfixes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383475/wowheads-talebound-talent-calculator-now-live",
       "category": "Wowhead",
       "publishedAt": "2026-10-17T00:25:20.000Z"
-    },
-    {
-      "title": "Blizzard Moves WoW: Forever Stress Test to October 21",
-      "url": "https://www.wowhead.com/news=383474/blizzard-moves-wow-forever-stress-test-to-october-21",
-      "category": "Forever",
-      "publishedAt": "2026-10-16T22:46:56.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-17T13:47:07.061Z",
-  "generatedAt": "2026-10-17T13:47:07.054Z",
+  "newsUpdatedAt": "2026-10-17T14:08:39.156Z",
+  "generatedAt": "2026-10-17T14:08:39.146Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 17 Oct 2026 08:47:06 -0500",
+  "newsFeedBuiltAt": "Sat, 17 Oct 2026 09:08:38 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

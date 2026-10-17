@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-17T00:05:30.772Z"
+    "checkedAt": "2026-10-17T00:48:04.325Z"
   },
   "news": [
+    {
+      "title": "Wowhead's Talebound Talent Calculator Now Live",
+      "url": "https://www.wowhead.com/news=383475/wowheads-talebound-talent-calculator-now-live",
+      "category": "Wowhead",
+      "publishedAt": "2026-10-17T00:25:20.000Z"
+    },
     {
       "title": "Blizzard Moves WoW: Forever Stress Test to October 21",
       "url": "https://www.wowhead.com/news=383474/blizzard-moves-wow-forever-stress-test-to-october-21",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383472/blizzard-clarifies-recent-art-assets-discovered-on-the-wow-forever-beta",
       "category": "Forever",
       "publishedAt": "2026-10-16T22:24:46.000Z"
-    },
-    {
-      "title": "The $100K WoW Tournament Is Pure Chaos! The PULL 10 Podcast Featuring Tips Out",
-      "url": "https://www.wowhead.com/news=383470/the-100k-wow-tournament-is-pure-chaos-the-pull-10-podcast-featuring-tips-out",
-      "category": "Forever",
-      "publishedAt": "2026-10-16T21:12:50.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-17T00:05:30.772Z",
-  "generatedAt": "2026-10-17T00:05:30.709Z",
+  "newsUpdatedAt": "2026-10-17T00:48:04.325Z",
+  "generatedAt": "2026-10-17T00:48:04.252Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 16 Oct 2026 19:05:06 -0500",
+  "newsFeedBuiltAt": "Fri, 16 Oct 2026 19:47:38 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

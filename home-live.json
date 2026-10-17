@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-17T15:46:16.748Z"
+    "checkedAt": "2026-10-17T16:07:28.508Z"
   },
   "news": [
+    {
+      "title": "Labyrinth of Kindo'jan Has No Save Points Mid Run",
+      "url": "https://www.wowhead.com/news=383469/labyrinth-of-kindojan-has-no-save-points-mid-run",
+      "category": "Live",
+      "publishedAt": "2026-10-17T16:00:00.000Z"
+    },
     {
       "title": "What's Going on With Layering in WoW: Forever?",
       "url": "https://www.wowhead.com/news=383412/whats-going-on-with-layering-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383476/hallows-end-tricky-treat-decor-costs-nerfed-by-90",
       "category": "Live",
       "publishedAt": "2026-10-17T01:06:28.000Z"
-    },
-    {
-      "title": "Wowhead's Talebound Talent Calculator Now Live",
-      "url": "https://www.wowhead.com/news=383475/wowheads-talebound-talent-calculator-now-live",
-      "category": "Wowhead",
-      "publishedAt": "2026-10-17T00:25:20.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-17T15:46:16.747Z",
-  "generatedAt": "2026-10-17T15:46:16.734Z",
+  "newsUpdatedAt": "2026-10-17T16:07:28.507Z",
+  "generatedAt": "2026-10-17T16:07:28.499Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 17 Oct 2026 10:46:06 -0500",
+  "newsFeedBuiltAt": "Sat, 17 Oct 2026 11:07:27 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

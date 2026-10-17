@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-17T17:44:25.415Z"
+    "checkedAt": "2026-10-17T18:04:56.353Z"
   },
   "news": [
+    {
+      "title": "New Warband Campsite Datamined in Patch 12.1.7",
+      "url": "https://www.wowhead.com/news=383453/new-warband-campsite-datamined-in-patch-12-1-7",
+      "category": "PTR",
+      "publishedAt": "2026-10-17T18:00:00.000Z"
+    },
     {
       "title": "Labyrinth of Kindo'jan Has No Save Points Mid Run",
       "url": "https://www.wowhead.com/news=383469/labyrinth-of-kindojan-has-no-save-points-mid-run",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383478/many-more-labyrinth-fixes-patch-12-1-5-hotfixes",
       "category": "Live",
       "publishedAt": "2026-10-17T02:18:50.000Z"
-    },
-    {
-      "title": "Hallow's End Tricky Treat Decor Costs Nerfed by 90%",
-      "url": "https://www.wowhead.com/news=383476/hallows-end-tricky-treat-decor-costs-nerfed-by-90",
-      "category": "Live",
-      "publishedAt": "2026-10-17T01:06:28.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-17T17:44:25.415Z",
-  "generatedAt": "2026-10-17T17:44:25.368Z",
+  "newsUpdatedAt": "2026-10-17T18:04:56.353Z",
+  "generatedAt": "2026-10-17T18:04:56.345Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 17 Oct 2026 12:44:24 -0500",
+  "newsFeedBuiltAt": "Sat, 17 Oct 2026 13:04:39 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

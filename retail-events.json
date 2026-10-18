@@ -1,19 +1,10 @@
 {
-  "updatedAt": "2026-10-17T18:34:30.765Z",
+  "updatedAt": "2026-10-18T00:46:40.447Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-479-1791068460000@wowlazymacros.com",
-      "title": "Darkmoon Faire",
-      "startAt": "2026-10-03T23:01:00.000Z",
-      "endAt": "2026-10-10T22:59:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=479"
-    },
     {
       "id": "wow-event-666-1791288000000@wowlazymacros.com",
       "title": "PvP Brawl: Arathi Blizzard",

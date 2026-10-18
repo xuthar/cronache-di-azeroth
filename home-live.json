@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-18T13:47:37.141Z"
+    "checkedAt": "2026-10-18T14:08:36.130Z"
   },
   "news": [
+    {
+      "title": "Premade Groups Will Only Match Against Other Premades in WoW: Forever Battlegrounds",
+      "url": "https://www.wowhead.com/news=383436/premade-groups-will-only-match-against-other-premades-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-18T14:00:00.000Z"
+    },
     {
       "title": "New Warband Campsite Datamined in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383453/new-warband-campsite-datamined-in-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383412/whats-going-on-with-layering-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-17T14:00:00.000Z"
-    },
-    {
-      "title": "Many More Labyrinth Fixes - Patch 12.1.5 Hotfixes",
-      "url": "https://www.wowhead.com/news=383478/many-more-labyrinth-fixes-patch-12-1-5-hotfixes",
-      "category": "Live",
-      "publishedAt": "2026-10-17T02:18:50.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-18T13:47:37.141Z",
-  "generatedAt": "2026-10-18T13:47:37.131Z",
+  "newsUpdatedAt": "2026-10-18T14:08:36.129Z",
+  "generatedAt": "2026-10-18T14:08:36.120Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 18 Oct 2026 08:47:36 -0500",
+  "newsFeedBuiltAt": "Sun, 18 Oct 2026 09:08:35 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

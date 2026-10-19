@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T22:07:57.251Z"
+    "checkedAt": "2026-10-19T22:50:31.643Z"
   },
   "news": [
+    {
+      "title": "Rexxar Transmog Pack Returns to the Battle.net Store",
+      "url": "https://www.wowhead.com/news=383500/rexxar-transmog-pack-returns-to-the-battle-net-store",
+      "category": "Live",
+      "publishedAt": "2026-10-19T22:21:11.000Z"
+    },
     {
       "title": "Eight Hours of Maintenance Scheduled for NA Servers Tomorrow",
       "url": "https://www.wowhead.com/news=383496/eight-hours-of-maintenance-scheduled-for-na-servers-tomorrow",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383494/blizzard-acknowledges-labyrinth-launch-bugs-and-extends-limited-time-achievement",
       "category": "Live",
       "publishedAt": "2026-10-19T18:39:26.000Z"
-    },
-    {
-      "title": "Neighborhood Themes, New Achievements, and New Rewards for Hallow's End 2026",
-      "url": "https://www.wowhead.com/news=383489/neighborhood-themes-new-achievements-and-new-rewards-for-hallows-end-2026",
-      "category": "Live",
-      "publishedAt": "2026-10-19T15:00:32.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T22:07:57.251Z",
-  "generatedAt": "2026-10-19T22:07:57.121Z",
+  "newsUpdatedAt": "2026-10-19T22:50:31.642Z",
+  "generatedAt": "2026-10-19T22:50:31.563Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 17:07:33 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 17:50:30 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

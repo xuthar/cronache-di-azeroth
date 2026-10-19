@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T14:59:11.454Z"
+    "checkedAt": "2026-10-19T15:38:04.076Z"
   },
   "news": [
+    {
+      "title": "Neighborhood Themes, New Achievements, and New Rewards for Hallow's End 2026",
+      "url": "https://www.wowhead.com/news=383489/neighborhood-themes-new-achievements-and-new-rewards-for-hallows-end-2026",
+      "category": "Live",
+      "publishedAt": "2026-10-19T15:00:32.000Z"
+    },
     {
       "title": "Should Flight Paths Be Changed in WoW: Forever?",
       "url": "https://www.wowhead.com/news=383272/should-flight-paths-be-changed-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383426/new-glove-enchants-available-from-loa-sealed-rooms-in-labyrinth-of-kindojan",
       "category": "Live",
       "publishedAt": "2026-10-18T18:00:00.000Z"
-    },
-    {
-      "title": "Premade Groups Will Only Match Against Other Premades in WoW: Forever Battlegrounds",
-      "url": "https://www.wowhead.com/news=383436/premade-groups-will-only-match-against-other-premades-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-18T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T14:59:11.454Z",
-  "generatedAt": "2026-10-19T14:59:11.444Z",
+  "newsUpdatedAt": "2026-10-19T15:38:04.076Z",
+  "generatedAt": "2026-10-19T15:38:04.068Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 09:58:52 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 10:38:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

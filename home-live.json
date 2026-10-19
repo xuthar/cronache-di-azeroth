@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T21:05:42.967Z"
+    "checkedAt": "2026-10-19T21:36:52.699Z"
   },
   "news": [
+    {
+      "title": "Eight Hours of Maintenance Scheduled for NA Servers Tomorrow",
+      "url": "https://www.wowhead.com/news=383496/eight-hours-of-maintenance-scheduled-for-na-servers-tomorrow",
+      "category": "Live",
+      "publishedAt": "2026-10-19T21:24:35.000Z"
+    },
     {
       "title": "The Journey Past Level 30 in WoW: Forever - The Riverglades and Hyjal Zones",
       "url": "https://www.wowhead.com/news=383495/the-journey-past-level-30-in-wow-forever-the-riverglades-and-hyjal-zones",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383489/neighborhood-themes-new-achievements-and-new-rewards-for-hallows-end-2026",
       "category": "Live",
       "publishedAt": "2026-10-19T15:00:32.000Z"
-    },
-    {
-      "title": "Should Flight Paths Be Changed in WoW: Forever?",
-      "url": "https://www.wowhead.com/news=383272/should-flight-paths-be-changed-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-19T14:30:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T21:05:42.966Z",
-  "generatedAt": "2026-10-19T21:05:42.958Z",
+  "newsUpdatedAt": "2026-10-19T21:36:52.698Z",
+  "generatedAt": "2026-10-19T21:36:52.688Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 16:05:42 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 16:36:52 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T13:29:41.826Z"
+    "checkedAt": "2026-10-19T14:18:12.342Z"
   },
   "news": [
+    {
+      "title": "New Trading Post Rewards Datamined from the Patch 12.1.7 PTR",
+      "url": "https://www.wowhead.com/news=383450/new-trading-post-rewards-datamined-from-the-patch-12-1-7-ptr",
+      "category": "PTR",
+      "publishedAt": "2026-10-19T14:00:00.000Z"
+    },
     {
       "title": "New Glove Enchants Available from Loa-Sealed Rooms in Labyrinth of Kindo'jan",
       "url": "https://www.wowhead.com/news=383426/new-glove-enchants-available-from-loa-sealed-rooms-in-labyrinth-of-kindojan",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383453/new-warband-campsite-datamined-in-patch-12-1-7",
       "category": "PTR",
       "publishedAt": "2026-10-17T18:00:00.000Z"
-    },
-    {
-      "title": "Labyrinth of Kindo'jan Has No Save Points Mid Run",
-      "url": "https://www.wowhead.com/news=383469/labyrinth-of-kindojan-has-no-save-points-mid-run",
-      "category": "Live",
-      "publishedAt": "2026-10-17T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T13:29:41.826Z",
-  "generatedAt": "2026-10-19T13:29:41.753Z",
+  "newsUpdatedAt": "2026-10-19T14:18:12.342Z",
+  "generatedAt": "2026-10-19T14:18:12.333Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 08:29:18 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 09:18:11 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

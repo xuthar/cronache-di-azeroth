@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T22:50:31.643Z"
+    "checkedAt": "2026-10-19T23:15:27.902Z"
   },
   "news": [
+    {
+      "title": "Ascendant Venomstones Unlock Tomorrow - Finish Quest to Prepare",
+      "url": "https://www.wowhead.com/news=383492/ascendant-venomstones-unlock-tomorrow-finish-quest-to-prepare",
+      "category": "Live",
+      "publishedAt": "2026-10-19T22:54:32.000Z"
+    },
     {
       "title": "Rexxar Transmog Pack Returns to the Battle.net Store",
       "url": "https://www.wowhead.com/news=383500/rexxar-transmog-pack-returns-to-the-battle-net-store",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383495/the-journey-past-level-30-in-wow-forever-the-riverglades-and-hyjal-zones",
       "category": "Forever",
       "publishedAt": "2026-10-19T18:59:19.000Z"
-    },
-    {
-      "title": "Blizzard Acknowledges Labyrinth Launch Bugs and Extends Limited-Time Achievement by One Extra Week",
-      "url": "https://www.wowhead.com/news=383494/blizzard-acknowledges-labyrinth-launch-bugs-and-extends-limited-time-achievement",
-      "category": "Live",
-      "publishedAt": "2026-10-19T18:39:26.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T22:50:31.642Z",
-  "generatedAt": "2026-10-19T22:50:31.563Z",
+  "newsUpdatedAt": "2026-10-19T23:15:27.902Z",
+  "generatedAt": "2026-10-19T23:15:27.894Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 17:50:30 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 18:15:27 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

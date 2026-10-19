@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T18:42:23.192Z"
+    "checkedAt": "2026-10-19T19:21:53.972Z"
   },
   "news": [
+    {
+      "title": "The Journey Past Level 30 in WoW: Forever - The Riverglades and Hyjal Zones",
+      "url": "https://www.wowhead.com/news=383495/the-journey-past-level-30-in-wow-forever-the-riverglades-and-hyjal-zones",
+      "category": "Forever",
+      "publishedAt": "2026-10-19T18:59:19.000Z"
+    },
     {
       "title": "Blizzard Acknowledges Labyrinth Launch Bugs and Extends Limited-Time Achievement by One Extra Week",
       "url": "https://www.wowhead.com/news=383494/blizzard-acknowledges-labyrinth-launch-bugs-and-extends-limited-time-achievement",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383272/should-flight-paths-be-changed-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-19T14:30:00.000Z"
-    },
-    {
-      "title": "New Trading Post Rewards Datamined from the Patch 12.1.7 PTR",
-      "url": "https://www.wowhead.com/news=383450/new-trading-post-rewards-datamined-from-the-patch-12-1-7-ptr",
-      "category": "PTR",
-      "publishedAt": "2026-10-19T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T18:42:23.191Z",
-  "generatedAt": "2026-10-19T18:42:23.186Z",
+  "newsUpdatedAt": "2026-10-19T19:21:53.972Z",
+  "generatedAt": "2026-10-19T19:21:53.903Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 13:42:22 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 14:21:25 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-19T18:03:51.229Z"
+    "checkedAt": "2026-10-19T18:42:23.192Z"
   },
   "news": [
+    {
+      "title": "Blizzard Acknowledges Labyrinth Launch Bugs and Extends Limited-Time Achievement by One Extra Week",
+      "url": "https://www.wowhead.com/news=383494/blizzard-acknowledges-labyrinth-launch-bugs-and-extends-limited-time-achievement",
+      "category": "Live",
+      "publishedAt": "2026-10-19T18:39:26.000Z"
+    },
     {
       "title": "Neighborhood Themes, New Achievements, and New Rewards for Hallow's End 2026",
       "url": "https://www.wowhead.com/news=383489/neighborhood-themes-new-achievements-and-new-rewards-for-hallows-end-2026",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383450/new-trading-post-rewards-datamined-from-the-patch-12-1-7-ptr",
       "category": "PTR",
       "publishedAt": "2026-10-19T14:00:00.000Z"
-    },
-    {
-      "title": "New Glove Enchants Available from Loa-Sealed Rooms in Labyrinth of Kindo'jan",
-      "url": "https://www.wowhead.com/news=383426/new-glove-enchants-available-from-loa-sealed-rooms-in-labyrinth-of-kindojan",
-      "category": "Live",
-      "publishedAt": "2026-10-18T18:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-19T18:03:51.229Z",
-  "generatedAt": "2026-10-19T18:03:51.222Z",
+  "newsUpdatedAt": "2026-10-19T18:42:23.191Z",
+  "generatedAt": "2026-10-19T18:42:23.186Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 19 Oct 2026 13:03:46 -0500",
+  "newsFeedBuiltAt": "Mon, 19 Oct 2026 13:42:22 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

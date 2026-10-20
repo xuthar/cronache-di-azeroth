@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T14:56:26.404Z"
+    "checkedAt": "2026-10-20T15:36:13.742Z"
   },
   "news": [
+    {
+      "title": "New Ring of Blood Style Quest Coming in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383498/new-ring-of-blood-style-quest-coming-in-wow-forever",
+      "category": "Blizzard",
+      "publishedAt": "2026-10-20T15:00:00.000Z"
+    },
     {
       "title": "\"Phantom Damage\" Bug from Melee Attacks Fixed",
       "url": "https://www.wowhead.com/news=383493/phantom-damage-bug-from-melee-attacks-fixed",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383500/rexxar-transmog-pack-returns-to-the-battle-net-store",
       "category": "Live",
       "publishedAt": "2026-10-19T22:21:11.000Z"
-    },
-    {
-      "title": "Eight Hours of Maintenance Scheduled for NA Servers Tomorrow",
-      "url": "https://www.wowhead.com/news=383496/eight-hours-of-maintenance-scheduled-for-na-servers-tomorrow",
-      "category": "Live",
-      "publishedAt": "2026-10-19T21:24:35.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T14:56:26.404Z",
-  "generatedAt": "2026-10-20T14:56:26.335Z",
+  "newsUpdatedAt": "2026-10-20T15:36:13.741Z",
+  "generatedAt": "2026-10-20T15:36:13.733Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 09:56:25 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 10:36:13 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

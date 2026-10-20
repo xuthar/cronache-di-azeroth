@@ -2,11 +2,17 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T19:55:25.274Z"
+    "checkedAt": "2026-10-20T20:34:42.857Z"
   },
   "news": [
     {
-      "title": "Ascendant Venomstones Bugged and Not Dropping from Blizzard Noted Sources",
+      "title": "Nightmare Preys Hotfixed and Are Fastest Source of Ascendant Venomstones",
+      "url": "https://www.wowhead.com/news=383510/nightmare-preys-hotfixed-and-are-fastest-source-of-ascendant-venomstones",
+      "category": "Live",
+      "publishedAt": "2026-10-20T20:03:28.000Z"
+    },
+    {
+      "title": "[Updated] Ascendant Venomstones Bugged and Not Dropping from Blizzard Noted Sources",
       "url": "https://www.wowhead.com/news=383509/ascendant-venomstones-bugged-and-not-dropping-from-blizzard-noted-sources",
       "category": "Live",
       "publishedAt": "2026-10-20T19:25:51.000Z"
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383497/despite-bugs-over-150-000-players-defeated-tier-11-kindojan-during-first-week-of",
       "category": "Live",
       "publishedAt": "2026-10-20T18:06:11.000Z"
-    },
-    {
-      "title": "Explore the New Dungeons of World of Warcraft: Forever",
-      "url": "https://www.wowhead.com/news=383506/explore-the-new-dungeons-of-world-of-warcraft-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-20T17:06:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T19:55:25.273Z",
-  "generatedAt": "2026-10-20T19:55:25.266Z",
+  "newsUpdatedAt": "2026-10-20T20:34:42.856Z",
+  "generatedAt": "2026-10-20T20:34:42.850Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 14:55:00 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 15:34:42 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

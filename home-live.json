@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T21:52:39.053Z"
+    "checkedAt": "2026-10-20T22:32:59.571Z"
   },
   "news": [
+    {
+      "title": "Turn Restored Coffer Keys into Ascendant Venomstones by Doing Tier 11 Delves",
+      "url": "https://www.wowhead.com/news=383518/turn-restored-coffer-keys-into-ascendant-venomstones",
+      "category": "Live",
+      "publishedAt": "2026-10-20T22:14:03.000Z"
+    },
     {
       "title": "How to Reserve Your World of Warcraft: Forever Character Name on October 27th",
       "url": "https://www.wowhead.com/news=383515/how-to-reserve-your-world-of-warcraft-forever-character-name-on-october-27th",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383513/wow-forever-stress-test-start-times-on-october-21st",
       "category": "Forever",
       "publishedAt": "2026-10-20T20:33:27.000Z"
-    },
-    {
-      "title": "Nightmare Preys Hotfixed and Are Fastest Source of Ascendant Venomstones",
-      "url": "https://www.wowhead.com/news=383510/nightmare-preys-hotfixed-and-are-fastest-source-of-ascendant-venomstones",
-      "category": "Live",
-      "publishedAt": "2026-10-20T20:03:28.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T21:52:39.053Z",
-  "generatedAt": "2026-10-20T21:52:39.044Z",
+  "newsUpdatedAt": "2026-10-20T22:32:59.571Z",
+  "generatedAt": "2026-10-20T22:32:59.560Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 16:52:27 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 17:32:59 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

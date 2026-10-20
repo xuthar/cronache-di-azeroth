@@ -1,28 +1,10 @@
 {
-  "updatedAt": "2026-10-20T06:43:07.159Z",
+  "updatedAt": "2026-10-20T12:45:49.658Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-666-1791273600000@wowlazymacros.com",
-      "title": "PvP Brawl: Arathi Blizzard",
-      "startAt": "2026-10-06T08:00:00.000Z",
-      "endAt": "2026-10-13T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=666"
-    },
-    {
-      "id": "wow-event-643-1791273600000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-10-06T08:00:00.000Z",
-      "endAt": "2026-10-13T07:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=643"
-    },
     {
       "id": "wow-event-563-1791878400000@wowlazymacros.com",
       "title": "Battleground Bonus Event",

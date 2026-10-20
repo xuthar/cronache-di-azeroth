@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T17:37:52.486Z"
+    "checkedAt": "2026-10-20T18:06:26.330Z"
   },
   "news": [
+    {
+      "title": "Despite Bugs, Over 150,000 Players Defeated Tier 11 Kindo'jan During First Week of Patch 12.1.5",
+      "url": "https://www.wowhead.com/news=383497/despite-bugs-over-150-000-players-defeated-tier-11-kindojan-during-first-week-of",
+      "category": "Live",
+      "publishedAt": "2026-10-20T18:06:11.000Z"
+    },
     {
       "title": "Explore the New Dungeons of World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383506/explore-the-new-dungeons-of-world-of-warcraft-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383493/phantom-damage-bug-from-melee-attacks-fixed",
       "category": "Live",
       "publishedAt": "2026-10-20T14:00:00.000Z"
-    },
-    {
-      "title": "Ascendant Venomstones Unlock Tomorrow - Finish Quest to Prepare",
-      "url": "https://www.wowhead.com/news=383492/ascendant-venomstones-unlock-tomorrow-finish-quest-to-prepare",
-      "category": "Live",
-      "publishedAt": "2026-10-19T22:54:32.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T17:37:52.486Z",
-  "generatedAt": "2026-10-20T17:37:52.337Z",
+  "newsUpdatedAt": "2026-10-20T18:06:26.330Z",
+  "generatedAt": "2026-10-20T18:06:26.259Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 12:37:37 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 13:06:17 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

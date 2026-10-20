@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T13:28:05.537Z"
+    "checkedAt": "2026-10-20T14:14:08.286Z"
   },
   "news": [
+    {
+      "title": "\"Phantom Damage\" Bug from Melee Attacks Fixed",
+      "url": "https://www.wowhead.com/news=383493/phantom-damage-bug-from-melee-attacks-fixed",
+      "category": "Live",
+      "publishedAt": "2026-10-20T14:00:00.000Z"
+    },
     {
       "title": "Ascendant Venomstones Unlock Tomorrow - Finish Quest to Prepare",
       "url": "https://www.wowhead.com/news=383492/ascendant-venomstones-unlock-tomorrow-finish-quest-to-prepare",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383496/eight-hours-of-maintenance-scheduled-for-na-servers-tomorrow",
       "category": "Live",
       "publishedAt": "2026-10-19T21:24:35.000Z"
-    },
-    {
-      "title": "The Journey Past Level 30 in WoW: Forever - The Riverglades and Hyjal Zones",
-      "url": "https://www.wowhead.com/news=383495/the-journey-past-level-30-in-wow-forever-the-riverglades-and-hyjal-zones",
-      "category": "Forever",
-      "publishedAt": "2026-10-19T18:59:19.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T13:28:05.537Z",
-  "generatedAt": "2026-10-20T13:28:05.527Z",
+  "newsUpdatedAt": "2026-10-20T14:14:08.286Z",
+  "generatedAt": "2026-10-20T14:14:08.239Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 08:28:04 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 09:13:57 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

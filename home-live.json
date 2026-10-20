@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T20:34:42.857Z"
+    "checkedAt": "2026-10-20T21:07:14.176Z"
   },
   "news": [
+    {
+      "title": "How to Reserve Your World of Warcraft: Forever Character Name on October 27th",
+      "url": "https://www.wowhead.com/news=383515/how-to-reserve-your-world-of-warcraft-forever-character-name-on-october-27th",
+      "category": "Forever",
+      "publishedAt": "2026-10-20T21:02:22.000Z"
+    },
+    {
+      "title": "Blizzard Announces Closing Date and Extension for WoW: Forever Beta",
+      "url": "https://www.wowhead.com/news=383514/blizzard-announces-closing-date-and-extension-for-wow-forever-beta",
+      "category": "Forever",
+      "publishedAt": "2026-10-20T20:42:52.000Z"
+    },
+    {
+      "title": "WoW: Forever Stress Test Start Times on October 21st",
+      "url": "https://www.wowhead.com/news=383513/wow-forever-stress-test-start-times-on-october-21st",
+      "category": "Forever",
+      "publishedAt": "2026-10-20T20:33:27.000Z"
+    },
     {
       "title": "Nightmare Preys Hotfixed and Are Fastest Source of Ascendant Venomstones",
       "url": "https://www.wowhead.com/news=383510/nightmare-preys-hotfixed-and-are-fastest-source-of-ascendant-venomstones",
       "category": "Live",
       "publishedAt": "2026-10-20T20:03:28.000Z"
-    },
-    {
-      "title": "[Updated] Ascendant Venomstones Bugged and Not Dropping from Blizzard Noted Sources",
-      "url": "https://www.wowhead.com/news=383509/ascendant-venomstones-bugged-and-not-dropping-from-blizzard-noted-sources",
-      "category": "Live",
-      "publishedAt": "2026-10-20T19:25:51.000Z"
-    },
-    {
-      "title": "Learn More About the WoW: Forever Raids and Attunements",
-      "url": "https://www.wowhead.com/news=383508/learn-more-about-the-wow-forever-raids-and-attunements",
-      "category": "Forever",
-      "publishedAt": "2026-10-20T19:01:45.000Z"
-    },
-    {
-      "title": "Despite Bugs, Over 150,000 Players Defeated Tier 11 Kindo'jan During First Week of Patch 12.1.5",
-      "url": "https://www.wowhead.com/news=383497/despite-bugs-over-150-000-players-defeated-tier-11-kindojan-during-first-week-of",
-      "category": "Live",
-      "publishedAt": "2026-10-20T18:06:11.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T20:34:42.856Z",
-  "generatedAt": "2026-10-20T20:34:42.850Z",
+  "newsUpdatedAt": "2026-10-20T21:07:14.176Z",
+  "generatedAt": "2026-10-20T21:07:14.168Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 15:34:42 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 16:06:53 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T18:42:32.719Z"
+    "checkedAt": "2026-10-20T19:21:44.478Z"
   },
   "news": [
+    {
+      "title": "Learn More About the WoW: Forever Raids and Attunements",
+      "url": "https://www.wowhead.com/news=383508/learn-more-about-the-wow-forever-raids-and-attunements",
+      "category": "Forever",
+      "publishedAt": "2026-10-20T19:01:45.000Z"
+    },
     {
       "title": "Despite Bugs, Over 150,000 Players Defeated Tier 11 Kindo'jan During First Week of Patch 12.1.5",
       "url": "https://www.wowhead.com/news=383497/despite-bugs-over-150-000-players-defeated-tier-11-kindojan-during-first-week-of",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383498/new-ring-of-blood-style-quest-coming-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-20T15:00:00.000Z"
-    },
-    {
-      "title": "\"Phantom Damage\" Bug from Melee Attacks Fixed",
-      "url": "https://www.wowhead.com/news=383493/phantom-damage-bug-from-melee-attacks-fixed",
-      "category": "Live",
-      "publishedAt": "2026-10-20T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T18:42:32.719Z",
-  "generatedAt": "2026-10-20T18:42:32.529Z",
+  "newsUpdatedAt": "2026-10-20T19:21:44.477Z",
+  "generatedAt": "2026-10-20T19:21:44.469Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 13:42:25 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 14:21:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

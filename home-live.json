@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-21T13:27:37.610Z"
+    "checkedAt": "2026-10-21T14:14:11.679Z"
   },
   "news": [
+    {
+      "title": "Kindo'jan Labyrinth Reputation Increased from Delve Bonus Event",
+      "url": "https://www.wowhead.com/news=383517/kindojan-labyrinth-reputation-increased-from-delve-bonus-event",
+      "category": "Live",
+      "publishedAt": "2026-10-21T14:00:00.000Z"
+    },
     {
       "title": "Spirit Conduit Loa Powers Can No Longer Be Used on Kindo'jan - Patch 12.1.5 Hotfixes",
       "url": "https://www.wowhead.com/news=383519/spirit-conduit-loa-powers-can-no-longer-be-used-on-kindo-jan-patch-12-1-5",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383515/how-to-reserve-your-world-of-warcraft-forever-character-name-on-october-27th",
       "category": "Forever",
       "publishedAt": "2026-10-20T21:02:22.000Z"
-    },
-    {
-      "title": "Blizzard Announces Closing Date and Extension for WoW: Forever Beta",
-      "url": "https://www.wowhead.com/news=383514/blizzard-announces-closing-date-and-extension-for-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-20T20:42:52.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-21T13:27:37.610Z",
-  "generatedAt": "2026-10-21T13:27:37.579Z",
+  "newsUpdatedAt": "2026-10-21T14:14:11.679Z",
+  "generatedAt": "2026-10-21T14:14:11.673Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 21 Oct 2026 08:27:15 -0500",
+  "newsFeedBuiltAt": "Wed, 21 Oct 2026 09:14:11 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

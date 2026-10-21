@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-21T16:18:43.913Z"
+    "checkedAt": "2026-10-21T16:56:48.629Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Beta Going Offline for Stress Test",
+      "url": "https://www.wowhead.com/news=383521/wow-forever-beta-going-offline-for-stress-test",
+      "category": "Forever",
+      "publishedAt": "2026-10-21T16:31:31.000Z"
+    },
     {
       "title": "Acquire Scarecrow Pepe Decor During Hallow's End",
       "url": "https://www.wowhead.com/news=383507/acquire-scarecrow-pepe-decor-during-hallows-end",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383519/spirit-conduit-loa-powers-can-no-longer-be-used-on-kindo-jan-patch-12-1-5",
       "category": "Live",
       "publishedAt": "2026-10-21T00:09:55.000Z"
-    },
-    {
-      "title": "Turn Restored Coffer Keys into Ascendant Venomstones by Doing Tier 11 Delves",
-      "url": "https://www.wowhead.com/news=383518/turn-restored-coffer-keys-into-ascendant-venomstones",
-      "category": "Live",
-      "publishedAt": "2026-10-20T22:14:03.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-21T16:18:43.913Z",
-  "generatedAt": "2026-10-21T16:18:43.819Z",
+  "newsUpdatedAt": "2026-10-21T16:56:48.629Z",
+  "generatedAt": "2026-10-21T16:56:48.562Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 21 Oct 2026 11:18:24 -0500",
+  "newsFeedBuiltAt": "Wed, 21 Oct 2026 11:56:48 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

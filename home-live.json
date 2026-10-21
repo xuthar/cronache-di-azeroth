@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-21T20:04:31.595Z"
+    "checkedAt": "2026-10-21T20:36:34.417Z"
   },
   "news": [
+    {
+      "title": "Use Skeleton Keys to Open Locked Door in Labyrinths - Easy Achievement Farming",
+      "url": "https://www.wowhead.com/news=383505/use-skeleton-keys-to-open-locked-door-in-labyrinths-easy-achievement-farming",
+      "category": "Live",
+      "publishedAt": "2026-10-21T20:11:41.000Z"
+    },
     {
       "title": "The Current State of Protection Paladins in WoW: Forever",
       "url": "https://www.wowhead.com/news=383487/the-current-state-of-protection-paladins-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383522/camping-system-breakdown-in-world-of-warcraft-forever",
       "category": "Forever",
       "publishedAt": "2026-10-21T17:07:33.000Z"
-    },
-    {
-      "title": "WoW: Forever Beta Going Offline for Stress Test",
-      "url": "https://www.wowhead.com/news=383521/wow-forever-beta-going-offline-for-stress-test",
-      "category": "Forever",
-      "publishedAt": "2026-10-21T16:31:31.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-21T20:04:31.594Z",
-  "generatedAt": "2026-10-21T20:04:31.588Z",
+  "newsUpdatedAt": "2026-10-21T20:36:34.416Z",
+  "generatedAt": "2026-10-21T20:36:34.409Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 21 Oct 2026 15:04:21 -0500",
+  "newsFeedBuiltAt": "Wed, 21 Oct 2026 15:36:33 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

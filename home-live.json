@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-20T23:58:17.121Z"
+    "checkedAt": "2026-10-21T00:43:17.364Z"
   },
   "news": [
+    {
+      "title": "Spirit Conduit Loa Powers Can No Longer Be Used on Kindo'jan - Patch 12.1.5 Hotfixes",
+      "url": "https://www.wowhead.com/news=383519/spirit-conduit-loa-powers-can-no-longer-be-used-on-kindo-jan-patch-12-1-5",
+      "category": "Live",
+      "publishedAt": "2026-10-21T00:09:55.000Z"
+    },
     {
       "title": "Turn Restored Coffer Keys into Ascendant Venomstones by Doing Tier 11 Delves",
       "url": "https://www.wowhead.com/news=383518/turn-restored-coffer-keys-into-ascendant-venomstones",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383514/blizzard-announces-closing-date-and-extension-for-wow-forever-beta",
       "category": "Forever",
       "publishedAt": "2026-10-20T20:42:52.000Z"
-    },
-    {
-      "title": "WoW: Forever Stress Test Start Times on October 21st",
-      "url": "https://www.wowhead.com/news=383513/wow-forever-stress-test-start-times-on-october-21st",
-      "category": "Forever",
-      "publishedAt": "2026-10-20T20:33:27.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-20T23:58:17.121Z",
-  "generatedAt": "2026-10-20T23:58:17.062Z",
+  "newsUpdatedAt": "2026-10-21T00:43:17.363Z",
+  "generatedAt": "2026-10-21T00:43:17.355Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 20 Oct 2026 18:58:16 -0500",
+  "newsFeedBuiltAt": "Tue, 20 Oct 2026 19:43:01 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

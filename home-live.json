@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-22T14:55:53.758Z"
+    "checkedAt": "2026-10-22T15:38:08.260Z"
   },
   "news": [
+    {
+      "title": "RP-PvP Ruleset Coming to WoW: Forever",
+      "url": "https://www.wowhead.com/news=383537/rp-pvp-ruleset-coming-to-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-22T15:33:56.000Z"
+    },
+    {
+      "title": "Complete New Sweet Tooth Hallow's End Achievement Quickly Using Alts",
+      "url": "https://www.wowhead.com/news=383525/complete-new-sweet-tooth-hallows-end-achievement-quickly-using-alts",
+      "category": "Live",
+      "publishedAt": "2026-10-22T15:00:00.000Z"
+    },
     {
       "title": "Optimize Tricky Treat Exchange with Neighborhood Vendors for Hallow's End",
       "url": "https://www.wowhead.com/news=383528/optimize-tricky-treat-exchange-with-neighborhood-vendors-for-hallows-end",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383530/dalaran-recreated-at-1-1-scale-for-wow-forever-celebration-in-china",
       "category": "Forever",
       "publishedAt": "2026-10-22T14:00:00.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever Beta Will Return Shortly",
-      "url": "https://www.wowhead.com/news=383532/world-of-warcraft-forever-beta-will-return-shortly",
-      "category": "Forever",
-      "publishedAt": "2026-10-22T01:55:07.000Z"
-    },
-    {
-      "title": "Bonus Rolls Tooltip Fixed & More Labyrinth Bug Fixes - Patch 12.1.5 Hotfixes",
-      "url": "https://www.wowhead.com/news=383531/bonus-rolls-tooltip-fixed-and-more-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
-      "category": "Live",
-      "publishedAt": "2026-10-22T01:43:01.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-22T14:55:53.758Z",
-  "generatedAt": "2026-10-22T14:55:53.686Z",
+  "newsUpdatedAt": "2026-10-22T15:38:08.259Z",
+  "generatedAt": "2026-10-22T15:38:08.182Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 22 Oct 2026 09:55:53 -0500",
+  "newsFeedBuiltAt": "Thu, 22 Oct 2026 10:38:07 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

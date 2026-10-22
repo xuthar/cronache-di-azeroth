@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-22T16:57:04.576Z"
+    "checkedAt": "2026-10-22T17:33:06.651Z"
   },
   "news": [
+    {
+      "title": "The WoW: Forever End of Beta Celebration Has Begun ft. Azuregos and Kazzak",
+      "url": "https://www.wowhead.com/news=383541/the-wow-forever-end-of-beta-celebration-has-begun-ft-azuregos-and-kazzak",
+      "category": "Forever",
+      "publishedAt": "2026-10-22T17:13:00.000Z"
+    },
     {
       "title": "The WoW: Forever Podcast Episode 5 Now Available - The End of Beta Special!",
       "url": "https://www.wowhead.com/news=383540/the-wow-forever-podcast-episode-5-now-available-the-end-of-beta-special",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383520/no-mail-spell-power-dungeon-and-quest-armor-in-wow-forever-early-levels",
       "category": "Forever",
       "publishedAt": "2026-10-22T16:00:00.000Z"
-    },
-    {
-      "title": "RP-PvP Ruleset Coming to WoW: Forever",
-      "url": "https://www.wowhead.com/news=383537/rp-pvp-ruleset-coming-to-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-22T15:33:56.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-22T16:57:04.575Z",
-  "generatedAt": "2026-10-22T16:57:04.549Z",
+  "newsUpdatedAt": "2026-10-22T17:33:06.651Z",
+  "generatedAt": "2026-10-22T17:33:06.641Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 22 Oct 2026 11:57:04 -0500",
+  "newsFeedBuiltAt": "Thu, 22 Oct 2026 12:33:06 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

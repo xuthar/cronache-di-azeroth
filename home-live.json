@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-22T01:22:18.398Z"
+    "checkedAt": "2026-10-22T02:08:18.375Z"
   },
   "news": [
+    {
+      "title": "World of Warcraft: Forever Beta Will Return Shortly",
+      "url": "https://www.wowhead.com/news=383532/world-of-warcraft-forever-beta-will-return-shortly",
+      "category": "Forever",
+      "publishedAt": "2026-10-22T01:55:07.000Z"
+    },
+    {
+      "title": "Bonus Rolls Tooltip Fixed & More Labyrinth Bug Fixes - Patch 12.1.5 Hotfixes",
+      "url": "https://www.wowhead.com/news=383531/bonus-rolls-tooltip-fixed-and-more-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
+      "category": "Live",
+      "publishedAt": "2026-10-22T01:43:01.000Z"
+    },
     {
       "title": "Use Skeleton Keys to Open Locked Door in Labyrinths - Easy Achievement Farming",
       "url": "https://www.wowhead.com/news=383505/use-skeleton-keys-to-open-locked-door-in-labyrinths-easy-achievement-farming",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383487/the-current-state-of-protection-paladins-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-21T19:06:30.000Z"
-    },
-    {
-      "title": "Get 30% Off Game Services and Up to 50% Off Transmogs, Toys and Bundles on the Battle.net Shop",
-      "url": "https://www.wowhead.com/news=383524/get-30-off-game-services-and-up-to-50-off-transmogs-toys-and-bundles-on-the",
-      "category": "Live",
-      "publishedAt": "2026-10-21T18:28:46.000Z"
-    },
-    {
-      "title": "Camping System Breakdown in World of Warcraft: Forever",
-      "url": "https://www.wowhead.com/news=383522/camping-system-breakdown-in-world-of-warcraft-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-21T17:07:33.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-22T01:22:18.398Z",
-  "generatedAt": "2026-10-22T01:22:18.392Z",
+  "newsUpdatedAt": "2026-10-22T02:08:18.374Z",
+  "generatedAt": "2026-10-22T02:08:18.302Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 21 Oct 2026 20:22:17 -0500",
+  "newsFeedBuiltAt": "Wed, 21 Oct 2026 21:07:52 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

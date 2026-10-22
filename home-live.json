@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-22T14:12:42.852Z"
+    "checkedAt": "2026-10-22T14:55:53.758Z"
   },
   "news": [
+    {
+      "title": "Optimize Tricky Treat Exchange with Neighborhood Vendors for Hallow's End",
+      "url": "https://www.wowhead.com/news=383528/optimize-tricky-treat-exchange-with-neighborhood-vendors-for-hallows-end",
+      "category": "Live",
+      "publishedAt": "2026-10-22T14:15:00.000Z"
+    },
     {
       "title": "Dalaran Recreated at 1:1 Scale for WoW: Forever Celebration in China",
       "url": "https://www.wowhead.com/news=383530/dalaran-recreated-at-1-1-scale-for-wow-forever-celebration-in-china",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383531/bonus-rolls-tooltip-fixed-and-more-labyrinth-bug-fixes-patch-12-1-5-hotfixes",
       "category": "Live",
       "publishedAt": "2026-10-22T01:43:01.000Z"
-    },
-    {
-      "title": "Use Skeleton Keys to Open Locked Door in Labyrinths - Easy Achievement Farming",
-      "url": "https://www.wowhead.com/news=383505/use-skeleton-keys-to-open-locked-door-in-labyrinths-easy-achievement-farming",
-      "category": "Live",
-      "publishedAt": "2026-10-21T20:11:41.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-22T14:12:42.852Z",
-  "generatedAt": "2026-10-22T14:12:42.790Z",
+  "newsUpdatedAt": "2026-10-22T14:55:53.758Z",
+  "generatedAt": "2026-10-22T14:55:53.686Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 22 Oct 2026 09:12:42 -0500",
+  "newsFeedBuiltAt": "Thu, 22 Oct 2026 09:55:53 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

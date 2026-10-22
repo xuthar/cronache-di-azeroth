@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T06:44:56.024Z",
+  "updatedAt": "2026-10-22T12:45:41.498Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -321,15 +321,6 @@
       "url": "https://www.wowhead.com/event=663"
     },
     {
-      "id": "wow-event-1703-1798527600000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-12-29T07:00:00.000Z",
-      "endAt": "2027-01-05T06:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1703"
-    },
-    {
       "id": "wow-event-1704-1798527600000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2026-12-29T07:00:00.000Z",
@@ -337,6 +328,15 @@
       "allDay": false,
       "category": "Timewalking",
       "url": "https://www.wowhead.com/event=1704"
+    },
+    {
+      "id": "wow-event-1703-1798527600000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-29T07:00:00.000Z",
+      "endAt": "2027-01-05T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1703"
     },
     {
       "id": "wow-event-658-1798740000000@wowlazymacros.com",
@@ -607,6 +607,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1047"
+    },
+    {
+      "id": "wow-event-1170-1808211600000@wowlazymacros.com",
+      "title": "PvP Brawl: Temple of Hotmogu",
+      "startAt": "2027-04-20T09:00:00.000Z",
+      "endAt": "2027-04-27T09:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=1170"
     }
   ]
 }

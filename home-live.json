@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-22T20:33:11.951Z"
+    "checkedAt": "2026-10-22T21:08:03.315Z"
   },
   "news": [
+    {
+      "title": "Blizzard Teases Raid Philosophy and Encounters for WoW: Forever",
+      "url": "https://www.wowhead.com/news=383546/blizzard-teases-raid-philosophy-and-encounters-for-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-22T20:38:25.000Z"
+    },
+    {
+      "title": "Blizzard Performing Forever Beta Realm Restarts Soon",
+      "url": "https://www.wowhead.com/news=383548/blizzard-performing-forever-beta-realm-restarts-soon",
+      "category": "Forever",
+      "publishedAt": "2026-10-22T20:31:57.000Z"
+    },
     {
       "title": "Subtlety Rogue Interaction with Demonology Warlocks Speculated to Ninja Pull Mobs",
       "url": "https://www.wowhead.com/news=383542/subtlety-rogue-interaction-with-demonology-warlocks-speculated-to-ninja-pull",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383543/blizzard-confirms-molten-core-will-have-new-mechanics-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-22T18:15:43.000Z"
-    },
-    {
-      "title": "The WoW: Forever End of Beta Celebration Has Begun ft. Azuregos and Kazzak",
-      "url": "https://www.wowhead.com/news=383541/the-wow-forever-end-of-beta-celebration-has-begun-ft-azuregos-and-kazzak",
-      "category": "Forever",
-      "publishedAt": "2026-10-22T17:13:00.000Z"
-    },
-    {
-      "title": "The WoW: Forever Podcast Episode 5 Now Available - The End of Beta Special!",
-      "url": "https://www.wowhead.com/news=383540/the-wow-forever-podcast-episode-5-now-available-the-end-of-beta-special",
-      "category": "Forever",
-      "publishedAt": "2026-10-22T16:21:06.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-22T20:33:11.951Z",
-  "generatedAt": "2026-10-22T20:33:11.891Z",
+  "newsUpdatedAt": "2026-10-22T21:08:03.314Z",
+  "generatedAt": "2026-10-22T21:08:03.307Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 22 Oct 2026 15:33:07 -0500",
+  "newsFeedBuiltAt": "Thu, 22 Oct 2026 16:08:02 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

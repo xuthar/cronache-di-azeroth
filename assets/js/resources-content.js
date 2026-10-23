@@ -7,7 +7,7 @@ window.AZEROTH_RESOURCES = {
     ['WoW Forever Official','forever','Official','https://worldofwarcraft.blizzard.com/en-us/forever','The game overview, announced features, access options and latest official updates.'],
     ['Forever: What’s Next','forever','Official · Features','https://worldofwarcraft.blizzard.com/en-us/news/24303862','Blizzard’s introduction to the world, regions, race, dungeons and roadmap.'],
     ['Forever: Deep Dive','forever','Official · Systems','https://worldofwarcraft.blizzard.com/en-us/news/24303313','Camping, professions, combat changes and the systems behind the journey.'],
-    ['Forever Beta Guide','forever','Official · Beta','https://worldofwarcraft.blizzard.com/en-us/news/24304160/','Beta eligibility, installation and the announced testing schedule.'],
+    ['Forever Name Reservations','forever','Official · Launch preparation','https://worldofwarcraft.blizzard.com/en-us/news/24303866','27 October–3 November: eligible upgrades can reserve up to three character names across rulesets. The beta is now closed.'],
     ['Wowhead Forever Guides','forever','Forever · Guides','https://www.wowhead.com/forever/guides/mechanics','A dedicated starting point for Forever mechanics and preparation guides.'],
     ['Icy Veins Forever','forever','Forever · Guides','https://www.icy-veins.com/wow-forever/','Forever news, class builds and guides in a dedicated game section.'],
     ['WoW Forever Info','forever','Unofficial · Community','https://wowforever.info/','A fan-run overview of announced zones, dungeons, systems and videos.'],

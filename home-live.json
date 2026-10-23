@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T17:10:24.693Z"
+    "checkedAt": "2026-10-23T17:18:26.242Z"
   },
   "news": [
+    {
+      "title": "Blizzard Thanks Players for Testing the WoW Forever Beta",
+      "url": "https://www.wowhead.com/news=383560/blizzard-thanks-players-for-testing-the-wow-forever-beta",
+      "category": "Forever",
+      "publishedAt": "2026-10-23T17:12:50.000Z"
+    },
     {
       "title": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”",
       "url": "https://www.wowhead.com/news=383558/watch-the-world-of-warcraft-midnight-motion-comic-singularity",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383523/dalaran-updated-ahead-of-the-betas-end-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-23T16:00:00.000Z"
-    },
-    {
-      "title": "Bind to Account Mythic+ Gear Chests Now Available",
-      "url": "https://www.wowhead.com/news=383529/bind-to-account-mythic-gear-chests-now-available",
-      "category": "Live",
-      "publishedAt": "2026-10-23T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T17:10:24.692Z",
-  "generatedAt": "2026-10-23T17:10:24.684Z",
+  "newsUpdatedAt": "2026-10-23T17:18:26.242Z",
+  "generatedAt": "2026-10-23T17:18:26.233Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 12:10:23 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 12:18:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

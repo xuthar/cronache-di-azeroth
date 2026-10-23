@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T22:32:55.807Z"
+    "checkedAt": "2026-10-23T23:02:53.621Z"
   },
   "news": [
+    {
+      "title": "Subtlety Rogue Nerfs and Feral Druid Buffs - Class Tuning Incoming with Weekly Reset",
+      "url": "https://www.wowhead.com/news=383568/subtlety-rogue-nerfs-and-feral-druid-buffs-class-tuning-incoming-with-weekly",
+      "category": "Live",
+      "publishedAt": "2026-10-23T22:54:15.000Z"
+    },
     {
       "title": "World Bosses, Legendaries, and a Scourge Invasion - The WoW: Forever Beta is Over",
       "url": "https://www.wowhead.com/news=383554/world-bosses-legendaries-and-a-scourge-invasion-the-wow-forever-beta-is-over",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383560/blizzard-thanks-players-for-testing-the-wow-forever-beta",
       "category": "Forever",
       "publishedAt": "2026-10-23T17:12:50.000Z"
-    },
-    {
-      "title": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”",
-      "url": "https://www.wowhead.com/news=383558/watch-the-world-of-warcraft-midnight-motion-comic-singularity",
-      "category": "Live",
-      "publishedAt": "2026-10-23T17:08:34.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T22:32:55.807Z",
-  "generatedAt": "2026-10-23T22:32:55.721Z",
+  "newsUpdatedAt": "2026-10-23T23:02:53.620Z",
+  "generatedAt": "2026-10-23T23:02:53.611Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 17:32:55 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 18:02:53 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

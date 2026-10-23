@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T14:58:21.807Z"
+    "checkedAt": "2026-10-23T15:38:02.443Z"
   },
   "news": [
+    {
+      "title": "Bind to Account Mythic+ Gear Chests Now Available",
+      "url": "https://www.wowhead.com/news=383529/bind-to-account-mythic-gear-chests-now-available",
+      "category": "Live",
+      "publishedAt": "2026-10-23T15:00:00.000Z"
+    },
     {
       "title": "Some Decor Costs Adjusted on the Patch 12.1.7 PTR",
       "url": "https://www.wowhead.com/news=383511/some-decor-costs-adjusted-on-the-patch-12-1-7-ptr",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383551/four-new-titles-available-from-talebound-in-patch-12-1-7",
       "category": "PTR",
       "publishedAt": "2026-10-23T13:00:00.000Z"
-    },
-    {
-      "title": "Item Level Changes for Ascended Venomforged Gear",
-      "url": "https://www.wowhead.com/news=383552/item-level-changes-for-ascended-venomforged-gear",
-      "category": "Live",
-      "publishedAt": "2026-10-23T02:19:48.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T14:58:21.807Z",
-  "generatedAt": "2026-10-23T14:58:21.721Z",
+  "newsUpdatedAt": "2026-10-23T15:38:02.442Z",
+  "generatedAt": "2026-10-23T15:38:02.402Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 09:58:05 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 10:37:58 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

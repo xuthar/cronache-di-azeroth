@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T02:09:31.514Z"
+    "checkedAt": "2026-10-23T02:55:41.522Z"
   },
   "news": [
+    {
+      "title": "Item Level Changes for Ascended Venomforged Gear",
+      "url": "https://www.wowhead.com/news=383552/item-level-changes-for-ascended-venomforged-gear",
+      "category": "Live",
+      "publishedAt": "2026-10-23T02:19:48.000Z"
+    },
     {
       "title": "Patch 12.1.7 PTR Development Notes - Various Bug Fixes",
       "url": "https://www.wowhead.com/news=383550/patch-12-1-7-ptr-development-notes-various-bug-fixes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383548/blizzard-performing-forever-beta-realm-restarts-soon",
       "category": "Forever",
       "publishedAt": "2026-10-22T20:31:57.000Z"
-    },
-    {
-      "title": "Subtlety Rogue Interaction with Demonology Warlocks Speculated to Ninja Pull Mobs",
-      "url": "https://www.wowhead.com/news=383542/subtlety-rogue-interaction-with-demonology-warlocks-speculated-to-ninja-pull",
-      "category": "Live",
-      "publishedAt": "2026-10-22T18:54:45.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T02:09:31.514Z",
-  "generatedAt": "2026-10-23T02:09:31.506Z",
+  "newsUpdatedAt": "2026-10-23T02:55:41.522Z",
+  "generatedAt": "2026-10-23T02:55:41.513Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 22 Oct 2026 21:09:15 -0500",
+  "newsFeedBuiltAt": "Thu, 22 Oct 2026 21:55:41 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T15:38:02.443Z"
+    "checkedAt": "2026-10-23T16:22:16.020Z"
   },
   "news": [
+    {
+      "title": "Dalaran Updated Ahead of the Beta's End in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383523/dalaran-updated-ahead-of-the-betas-end-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-23T16:00:00.000Z"
+    },
     {
       "title": "Bind to Account Mythic+ Gear Chests Now Available",
       "url": "https://www.wowhead.com/news=383529/bind-to-account-mythic-gear-chests-now-available",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383547/who-is-wow-forever-meant-for-blizzard-discusses-on-forever-podcast",
       "category": "Forever",
       "publishedAt": "2026-10-23T14:00:00.000Z"
-    },
-    {
-      "title": "Four New Titles Available from Talebound in Patch 12.1.7",
-      "url": "https://www.wowhead.com/news=383551/four-new-titles-available-from-talebound-in-patch-12-1-7",
-      "category": "PTR",
-      "publishedAt": "2026-10-23T13:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T15:38:02.442Z",
-  "generatedAt": "2026-10-23T15:38:02.402Z",
+  "newsUpdatedAt": "2026-10-23T16:22:16.019Z",
+  "generatedAt": "2026-10-23T16:22:15.904Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 10:37:58 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 11:22:15 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

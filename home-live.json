@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T13:26:53.601Z"
+    "checkedAt": "2026-10-23T14:16:20.004Z"
   },
   "news": [
+    {
+      "title": "Some Decor Costs Adjusted on the Patch 12.1.7 PTR",
+      "url": "https://www.wowhead.com/news=383511/some-decor-costs-adjusted-on-the-patch-12-1-7-ptr",
+      "category": "PTR",
+      "publishedAt": "2026-10-23T14:15:00.000Z"
+    },
+    {
+      "title": "Who is WoW: Forever Meant For? Blizzard Discusses on Forever Podcast",
+      "url": "https://www.wowhead.com/news=383547/who-is-wow-forever-meant-for-blizzard-discusses-on-forever-podcast",
+      "category": "Forever",
+      "publishedAt": "2026-10-23T14:00:00.000Z"
+    },
     {
       "title": "Four New Titles Available from Talebound in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383551/four-new-titles-available-from-talebound-in-patch-12-1-7",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383552/item-level-changes-for-ascended-venomforged-gear",
       "category": "Live",
       "publishedAt": "2026-10-23T02:19:48.000Z"
-    },
-    {
-      "title": "Patch 12.1.7 PTR Development Notes - Various Bug Fixes",
-      "url": "https://www.wowhead.com/news=383550/patch-12-1-7-ptr-development-notes-various-bug-fixes",
-      "category": "PTR",
-      "publishedAt": "2026-10-22T23:04:49.000Z"
-    },
-    {
-      "title": "Blizzard Teases Raid Philosophy and Encounters for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383546/blizzard-teases-raid-philosophy-and-encounters-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-22T20:38:25.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T13:26:53.601Z",
-  "generatedAt": "2026-10-23T13:26:53.592Z",
+  "newsUpdatedAt": "2026-10-23T14:16:20.004Z",
+  "generatedAt": "2026-10-23T14:16:19.994Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 08:26:53 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 09:16:08 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

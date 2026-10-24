@@ -432,6 +432,86 @@ window.CHRONICLES = {
   ],
   "stories": [
     {
+      "id": "duskwood-last-bell-hallows-end",
+      "title": "The Bell That Rang After Midnight",
+      "zone": "Duskwood",
+      "region": "Eastern Kingdoms",
+      "kind": "Hallow’s End · A ghost story",
+      "excerpt": "The bell on an abandoned watchpost has no rope. On Hallow’s End, someone rings it anyway.",
+      "text": [
+        "Della had repaired three lanterns before the bell began. One stroke, a pause, then two more. Across the road, the abandoned watchpost stood black against the trees. Its bell rope had rotted away years ago. She knew because she had borrowed the last useful length to mend her cart.",
+        "The night watchman told her to shut the workshop. Hallow’s End brought fools into the woods, he said, and worse things followed fools. But Della’s apprentice had gone that way to collect a wheel from a stranded wagon. He should have returned before supper.",
+        "She took a lantern and followed the road. The bell sounded again. Beneath the tower stood a woman in a watchman’s coat, one sleeve pinned empty. She raised her remaining hand towards a narrow path. Della lifted the lantern. Light passed through the woman’s boots and fell on the wet leaves behind them.",
+        "The apprentice lay halfway down an old drainage ditch. His ankle was caught beneath the wagon wheel; his voice had worn itself to a whisper. Della fetched the watchman, and together they hauled him out with the rope from her cart. When she looked up, the woman was gone.",
+        "At dawn, Della found a small memorial stone behind the watchpost. The name was weathered beyond reading. Below it, a single line remained: SHE KEPT THE ROAD. Someone had left a rusted buckle beside the stone. It matched the one on the woman’s coat.",
+        "Della returned that afternoon with a new rope. The watchman helped her hang it, asking no questions. That evening the bell stayed silent. In the workshop, her apprentice slept with his injured foot on a stool, while three repaired lanterns burned in the window. Della left them lit until morning."
+      ]
+    },
+    {
+      "id": "brill-pumpkin-missing-face",
+      "title": "The Pumpkin With a Missing Face",
+      "zone": "Tirisfal Glades",
+      "region": "Eastern Kingdoms",
+      "kind": "Hallow’s End · A Forsaken mystery",
+      "excerpt": "Every carved pumpkin in a Brill courtyard wears the same crooked smile — except the one that keeps turning towards the cellar.",
+      "text": [
+        "Merrit sold candles from a courtyard near Brill. For Hallow’s End, he carved six pumpkins with broad, unpleasant grins. By morning there were seven. The newcomer was small and pale, with no face at all. He put it on the gatepost. When he returned, it sat beside the cellar door.",
+        "He suspected the neighbours. Being Forsaken had not improved his patience with practical jokes. He moved the pumpkin into a locked cupboard, counted his candles, and went to bed. In the morning the cupboard was still locked. The pumpkin waited at the cellar door. This time, a thin cut marked the place where its mouth should have been.",
+        "Merrit fetched a knife. “If you want something,” he told it, “you might try being specific.” He cut a mouth, then two eyes. Before he could set down the knife, a child’s voice said, “Under the third step.” Merrit dropped the knife. The pumpkin said nothing more.",
+        "Beneath the cellar stair lay a little wooden horse wrapped in the remains of a flour sack. One wheel was missing. Merrit remembered selling the house’s contents after its previous occupants died, years before his own death. He had overlooked the toy. On its underside, someone had painted a name he could no longer quite recall.",
+        "He repaired the wheel with a candle spool and placed the horse beside the pumpkin. At dusk, wheels rattled briefly over the courtyard stones. By the time he reached the door, the toy was gone. The pumpkin had collapsed into ordinary, damp pulp.",
+        "The following year Merrit carved six pumpkins again. Beside them he left a plain candle, a wooden horse, and a notice: LOST PROPERTY. COLLECTION AFTER DARK. His neighbour asked whether it was a joke. “Not a profitable one,” Merrit said, and checked that the gate was open."
+      ]
+    },
+    {
+      "id": "goldshire-table-for-thirteen",
+      "title": "A Table for Thirteen",
+      "zone": "Elwynn Forest",
+      "region": "Eastern Kingdoms",
+      "kind": "Hallow’s End · A fireside haunting",
+      "excerpt": "The inn has twelve guests, thirteen bowls, and a chair that nobody remembers pulling away from the fire.",
+      "text": [
+        "The relief cook counted twelve guests in the common room. She filled twelve bowls, turned to reach for bread, and found thirteen on the counter. The innkeeper carried them out without comment. “Put the extra one by the hearth,” he said. “And don’t clear it early.”",
+        "Outside, children ran between the lanterns with bags of sweets. Somewhere beyond Goldshire, a horse screamed. The cook shut the kitchen window. When she brought out the bread, the extra chair stood a little farther from the wall. A wet mark spread beneath it, though nobody’s cloak hung on its back.",
+        "A young traveller reached for the spare bowl. The innkeeper caught his wrist gently and handed him another. “That one’s paid for.” The cook checked the ledger. Beneath the evening’s accounts was a single copper, green with age, and a name crossed out so often that the paper had nearly worn through.",
+        "As the room emptied, she asked who they were feeding. The innkeeper rubbed a thumb along the counter. Years ago, a messenger had reached the inn during a dreadful night. He refused a meal because someone was still waiting for medicine farther down the road. They found his empty satchel the next morning. The medicine had arrived.",
+        "The cook looked towards the hearth. A spoon rested in the bowl. The soup level had fallen, although she had not seen it move. She warmed a little more, added a heel of fresh bread, and returned to the kitchen. Behind her came the soft scrape of a chair.",
+        "By dawn the wet patch had dried. The bowl was empty and the old copper lay beside it. The cook put the coin back into the ledger. When the innkeeper asked how many portions she would prepare next Hallow’s End, she did not need to count the tables. “Thirteen,” she said. “And I’ll start the bread earlier.”"
+      ]
+    },
+    {
+      "id": "thousand-needles-map-wrong-side",
+      "title": "The Map on the Wrong Side",
+      "zone": "Thousand Needles",
+      "region": "Kalimdor",
+      "kind": "An adventure in ink and sandstone",
+      "excerpt": "A young courier buys a map with no roads, then discovers that its blank spaces are the most useful part.",
+      "text": [
+        "The map cost Vessa two silver and showed almost nothing. A few sandstone pillars, three short lines, and a brown stain occupied one side. The reverse held an excellent drawing of a boot. By the time she noticed, the merchant had packed his stall and left.",
+        "Her delivery was a small tin of needles, ordered by a leatherworker whose camp lay beyond the next rise. At least, every person she asked said it was beyond the next rise. By midday she had crossed four rises, emptied half her waterskin, and begun to resent the entire profession of leatherworking.",
+        "She stopped in the shade of a pillar and studied the map again. The stain resembled the split rock above her. The three lines matched ledges on the canyon wall. Holding the sheet against the sun, she saw tiny holes pricked through the paper. They formed a trail from one patch of shade to another.",
+        "The leatherworker found her following the last of those marks. He laughed when he saw the sheet. It was his old route sketch, lost during a move. Roads shifted under sand and fallen stone, he explained, but the tall pillars kept their shadows. He had marked places where a traveller could rest safely during the hottest hours.",
+        "Vessa delivered the needles and demanded an explanation for the boot. He turned the map over. The drawing showed the sole of a badly worn shoe, with a nail protruding through the heel. “So I’d remember which repair came first.” He glanced at her feet. “Looks familiar.”",
+        "He fixed her boot while she drank water in the shade. Before leaving, Vessa added his camp to the map and drew a small cup beside it. On her next journey through the canyon, she found another traveller studying the same pillars. She showed him the holes in the paper, then pointed towards the cup."
+      ]
+    },
+    {
+      "id": "winterspring-mittens-for-gryphon",
+      "title": "Mittens for a Gryphon Rider",
+      "zone": "Winterspring",
+      "region": "Kalimdor",
+      "kind": "A winter tale of an unlikely delivery",
+      "excerpt": "A parcel marked URGENT contains two woollen mittens. Crossing Winterspring, its courier learns why that is reason enough.",
+      "text": [
+        "Borik expected jewels, medicine, or military orders. The parcel contained mittens. Red ones, with uneven thumbs and a row of yellow birds stitched around the cuffs. The address named a gryphon rider stationed beyond Everlook. Underneath, in much smaller writing, someone had added: Please make him wear them.",
+        "Snow closed the northern track before noon. Borik took shelter with a goblin trader, who offered to buy his mule, his boots, and eventually the mittens. “Red wool sells,” she said. Borik refused all three offers. He was already regretting the fixed delivery fee.",
+        "They found the rider at a small shelter beside the landing ground. His gryphon had a cracked harness buckle, and he sat repairing it with bare hands. Three attempts had left the leather threaded incorrectly. His fingers shook too much to pull the needle through.",
+        "Borik handed over the parcel. The rider read the note twice. His daughter had knitted the mittens, he explained. She was learning to write and had insisted on addressing the parcel herself. He pulled them on, sat near the stove, and held his hands very still. After a while, Borik finished the buckle.",
+        "The trader appeared at the door carrying a replacement strap. She had followed their tracks, she said, because nobody should trust a dwarf’s stitching. While they argued over the price, a signal flare rose beyond the ridge. Two travellers had missed the pass. The rider stood, tightened the repaired harness, and checked that his mittens were secure.",
+        "He returned at dusk with both travellers. Borik stayed long enough to help rub down the gryphon, then wrote a receipt on the parcel’s wrapping. Delivered. Worn immediately. Good fit. Beneath it he added a drawing of the yellow birds. The trader inspected his work and offered him a copper for it. This time, he laughed."
+      ]
+    },
+    {
       "id": "winterspring-eleventh-step",
       "title": "The Eleventh Step",
       "zone": "Winterspring",

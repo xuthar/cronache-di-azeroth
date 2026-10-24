@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-23T23:58:25.423Z"
+    "checkedAt": "2026-10-24T00:49:07.610Z"
   },
   "news": [
+    {
+      "title": "Den of Nalorakk and Murder Row Bug Fixes - Patch 12.1.5 Hotfixes",
+      "url": "https://www.wowhead.com/news=383570/den-of-nalorakk-and-murder-row-bug-fixes-patch-12-1-5-hotfixes",
+      "category": "Live",
+      "publishedAt": "2026-10-24T00:23:57.000Z"
+    },
     {
       "title": "Subtlety Rogue Nerfs and Feral Druid Buffs - Class Tuning Incoming with Weekly Reset",
       "url": "https://www.wowhead.com/news=383568/subtlety-rogue-nerfs-and-feral-druid-buffs-class-tuning-incoming-with-weekly",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383561/this-weeks-wow-recap-wow-forever-hallows-end-fall-savings",
       "category": "WoW",
       "publishedAt": "2026-10-23T17:25:01.000Z"
-    },
-    {
-      "title": "Blizzard Thanks Players for Testing the WoW Forever Beta",
-      "url": "https://www.wowhead.com/news=383560/blizzard-thanks-players-for-testing-the-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-23T17:12:50.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-23T23:58:25.422Z",
-  "generatedAt": "2026-10-23T23:58:25.414Z",
+  "newsUpdatedAt": "2026-10-24T00:49:07.610Z",
+  "generatedAt": "2026-10-24T00:49:07.602Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 23 Oct 2026 18:58:24 -0500",
+  "newsFeedBuiltAt": "Fri, 23 Oct 2026 19:49:06 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-24T13:51:17.095Z"
+    "checkedAt": "2026-10-24T14:13:48.039Z"
   },
   "news": [
+    {
+      "title": "Catch Up on Renown Quickly with Aqir Invasions",
+      "url": "https://www.wowhead.com/news=383544/catch-up-on-renown-quickly-with-aqir-invasions",
+      "category": "Live",
+      "publishedAt": "2026-10-24T14:00:00.000Z"
+    },
     {
       "title": "Den of Nalorakk and Murder Row Bug Fixes - Patch 12.1.5 Hotfixes",
       "url": "https://www.wowhead.com/news=383570/den-of-nalorakk-and-murder-row-bug-fixes-patch-12-1-5-hotfixes",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383554/world-bosses-legendaries-and-a-scourge-invasion-the-wow-forever-beta-is-over",
       "category": "Forever",
       "publishedAt": "2026-10-23T20:13:11.000Z"
-    },
-    {
-      "title": "This Week's WoW Recap - WoW: Forever, Hallow's End, Fall Savings",
-      "url": "https://www.wowhead.com/news=383561/this-weeks-wow-recap-wow-forever-hallows-end-fall-savings",
-      "category": "WoW",
-      "publishedAt": "2026-10-23T17:25:01.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-24T13:51:17.094Z",
-  "generatedAt": "2026-10-24T13:51:17.084Z",
+  "newsUpdatedAt": "2026-10-24T14:13:48.038Z",
+  "generatedAt": "2026-10-24T14:13:48.029Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 24 Oct 2026 08:50:52 -0500",
+  "newsFeedBuiltAt": "Sat, 24 Oct 2026 09:13:36 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

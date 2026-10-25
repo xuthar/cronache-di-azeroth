@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-25T13:49:10.860Z"
+    "checkedAt": "2026-10-25T14:11:14.731Z"
   },
   "news": [
+    {
+      "title": "New Winter Veil Neighborhood Activities Updates in Patch 12.1.7",
+      "url": "https://www.wowhead.com/news=383562/new-winter-veil-neighborhood-activities-updates-in-patch-12-1-7",
+      "category": "PTR",
+      "publishedAt": "2026-10-25T14:00:00.000Z"
+    },
     {
       "title": "New 30% Bonus Experience Potions Datamined on Patch 12.1.7 PTR",
       "url": "https://www.wowhead.com/news=383566/new-30-bonus-experience-potions-datamined-on-patch-12-1-7-ptr",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383570/den-of-nalorakk-and-murder-row-bug-fixes-patch-12-1-5-hotfixes",
       "category": "Live",
       "publishedAt": "2026-10-24T00:23:57.000Z"
-    },
-    {
-      "title": "Subtlety Rogue Nerfs and Feral Druid Buffs - Class Tuning Incoming with Weekly Reset",
-      "url": "https://www.wowhead.com/news=383568/subtlety-rogue-nerfs-and-feral-druid-buffs-class-tuning-incoming-with-weekly",
-      "category": "Live",
-      "publishedAt": "2026-10-23T22:54:15.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-25T13:49:10.860Z",
-  "generatedAt": "2026-10-25T13:49:10.855Z",
+  "newsUpdatedAt": "2026-10-25T14:11:14.731Z",
+  "generatedAt": "2026-10-25T14:11:14.724Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 25 Oct 2026 08:48:52 -0500",
+  "newsFeedBuiltAt": "Sun, 25 Oct 2026 09:10:45 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

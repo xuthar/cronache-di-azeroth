@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-26T18:47:50.013Z"
+    "checkedAt": "2026-10-26T19:29:18.810Z"
   },
   "news": [
+    {
+      "title": "Meet the Devs at WoW: Forever Poster Signing - Limited Tickets Available Now",
+      "url": "https://www.wowhead.com/news=383595/meet-the-devs-at-wow-forever-poster-signing-limited-tickets-available-now",
+      "category": "Forever",
+      "publishedAt": "2026-10-26T19:09:41.000Z"
+    },
     {
       "title": "Test Talebound on the Patch 12.1.7 PTR This Friday!",
       "url": "https://www.wowhead.com/news=383592/test-talebound-on-the-patch-12-1-7-ptr-this-friday",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383573/blizzard-hints-the-wow-forever-podcast-will-continue",
       "category": "Forever",
       "publishedAt": "2026-10-26T15:00:00.000Z"
-    },
-    {
-      "title": "New Talebound Toy Allows Companion Pets to Fly on an Enchanted Book",
-      "url": "https://www.wowhead.com/news=383565/new-talebound-toy-allows-companion-pets-to-fly-on-an-enchanted-book",
-      "category": "PTR",
-      "publishedAt": "2026-10-26T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-26T18:47:50.012Z",
-  "generatedAt": "2026-10-26T18:47:50.005Z",
+  "newsUpdatedAt": "2026-10-26T19:29:18.810Z",
+  "generatedAt": "2026-10-26T19:29:18.802Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 26 Oct 2026 13:47:49 -0500",
+  "newsFeedBuiltAt": "Mon, 26 Oct 2026 14:28:54 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

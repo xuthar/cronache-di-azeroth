@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-26T16:27:21.857Z"
+    "checkedAt": "2026-10-26T17:20:06.593Z"
   },
   "news": [
+    {
+      "title": "Watch the WoW: Forever Short Story, “Unbowed”",
+      "url": "https://www.wowhead.com/news=383589/watch-the-wow-forever-short-story-unbowed-world-of-warcraft-blizzard-news",
+      "category": "Forever",
+      "publishedAt": "2026-10-26T17:07:09.000Z"
+    },
     {
       "title": "Blizzard Hints The WoW: Forever Podcast Will Continue",
       "url": "https://www.wowhead.com/news=383573/blizzard-hints-the-wow-forever-podcast-will-continue",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383571/the-wow-forever-beta-pvp-tournament-results-winners-statistics",
       "category": "Forever",
       "publishedAt": "2026-10-26T13:00:00.000Z"
-    },
-    {
-      "title": "More Readable Book Decor Coming in Patch 12.1.7",
-      "url": "https://www.wowhead.com/news=383516/more-readable-book-decor-coming-in-patch-12-1-7",
-      "category": "PTR",
-      "publishedAt": "2026-10-25T18:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-26T16:27:21.856Z",
-  "generatedAt": "2026-10-26T16:27:21.846Z",
+  "newsUpdatedAt": "2026-10-26T17:20:06.593Z",
+  "generatedAt": "2026-10-26T17:20:06.529Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 26 Oct 2026 11:26:53 -0500",
+  "newsFeedBuiltAt": "Mon, 26 Oct 2026 12:20:06 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

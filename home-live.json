@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-26T11:14:45.426Z"
+    "checkedAt": "2026-10-26T13:39:25.927Z"
   },
   "news": [
+    {
+      "title": "The WoW: Forever Beta PvP Tournament: Results, Winners, Statistics",
+      "url": "https://www.wowhead.com/news=383571/the-wow-forever-beta-pvp-tournament-results-winners-statistics",
+      "category": "Forever",
+      "publishedAt": "2026-10-26T13:00:00.000Z"
+    },
     {
       "title": "More Readable Book Decor Coming in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383516/more-readable-book-decor-coming-in-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383566/new-30-bonus-experience-potions-datamined-on-patch-12-1-7-ptr",
       "category": "PTR",
       "publishedAt": "2026-10-24T18:00:00.000Z"
-    },
-    {
-      "title": "Catch Up on Renown Quickly with Aqir Invasions",
-      "url": "https://www.wowhead.com/news=383544/catch-up-on-renown-quickly-with-aqir-invasions",
-      "category": "Live",
-      "publishedAt": "2026-10-24T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-26T11:14:45.426Z",
-  "generatedAt": "2026-10-26T11:14:45.418Z",
+  "newsUpdatedAt": "2026-10-26T13:39:25.926Z",
+  "generatedAt": "2026-10-26T13:39:25.915Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 26 Oct 2026 06:14:45 -0500",
+  "newsFeedBuiltAt": "Mon, 26 Oct 2026 08:39:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

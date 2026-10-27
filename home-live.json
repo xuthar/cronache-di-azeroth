@@ -2,11 +2,17 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T16:50:20.093Z"
+    "checkedAt": "2026-10-27T17:35:46.664Z"
   },
   "news": [
     {
-      "title": "More Racial Ability Tuning on WoW: Forever",
+      "title": "World of Warcraft: Forever AMV - WARPATH",
+      "url": "https://www.wowhead.com/news=383605/world-of-warcraft-forever-amv-warpath",
+      "category": "Forever",
+      "publishedAt": "2026-10-27T17:13:12.000Z"
+    },
+    {
+      "title": "[Updated] More Racial Ability Tuning on WoW: Forever",
       "url": "https://www.wowhead.com/news=383602/more-racial-ability-tuning-on-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-27T15:47:39.000Z"
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383591/ellesmereui-adds-fellowship-inspired-nameplate-kick-tracker",
       "category": "Live",
       "publishedAt": "2026-10-27T14:00:00.000Z"
-    },
-    {
-      "title": "More Labyrinth & Class Bug Fixes - Patch 12.1.5 Hotfixes for October 26th",
-      "url": "https://www.wowhead.com/news=383599/more-labyrinth-and-class-bug-fixes-patch-12-1-5-hotfixes-for-october-26th",
-      "category": "Live",
-      "publishedAt": "2026-10-27T03:22:27.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T16:50:20.092Z",
-  "generatedAt": "2026-10-27T16:50:20.085Z",
+  "newsUpdatedAt": "2026-10-27T17:35:46.664Z",
+  "generatedAt": "2026-10-27T17:35:46.659Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 11:50:11 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 12:35:25 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

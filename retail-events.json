@@ -1,37 +1,10 @@
 {
-  "updatedAt": "2026-10-27T06:45:22.197Z",
+  "updatedAt": "2026-10-27T12:47:39.884Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-563-1791878400000@wowlazymacros.com",
-      "title": "Battleground Bonus Event",
-      "startAt": "2026-10-13T08:00:00.000Z",
-      "endAt": "2026-10-20T07:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=563"
-    },
-    {
-      "id": "wow-event-565-1791878400000@wowlazymacros.com",
-      "title": "Pet Battle Bonus Event",
-      "startAt": "2026-10-13T08:00:00.000Z",
-      "endAt": "2026-10-20T07:00:00.000Z",
-      "allDay": false,
-      "category": "Bonus events",
-      "url": "https://www.wowhead.com/event=565"
-    },
-    {
-      "id": "wow-event-663-1791878400000@wowlazymacros.com",
-      "title": "PvP Brawl: Gravity Lapse",
-      "startAt": "2026-10-13T08:00:00.000Z",
-      "endAt": "2026-10-20T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=663"
-    },
     {
       "id": "wow-event-324-1792404000000@wowlazymacros.com",
       "title": "Hallow's End",
@@ -321,15 +294,6 @@
       "url": "https://www.wowhead.com/event=663"
     },
     {
-      "id": "wow-event-1704-1798527600000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-12-29T07:00:00.000Z",
-      "endAt": "2027-01-06T07:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1704"
-    },
-    {
       "id": "wow-event-1703-1798527600000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2026-12-29T07:00:00.000Z",
@@ -337,6 +301,15 @@
       "allDay": false,
       "category": "Timewalking",
       "url": "https://www.wowhead.com/event=1703"
+    },
+    {
+      "id": "wow-event-1704-1798527600000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-29T07:00:00.000Z",
+      "endAt": "2027-01-06T07:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1704"
     },
     {
       "id": "wow-event-658-1798740000000@wowlazymacros.com",

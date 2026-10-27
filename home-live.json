@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T13:16:52.631Z"
+    "checkedAt": "2026-10-27T14:09:29.020Z"
   },
   "news": [
+    {
+      "title": "EllesmereUI Adds Fellowship-Inspired Nameplate Kick Tracker",
+      "url": "https://www.wowhead.com/news=383591/ellesmereui-adds-fellowship-inspired-nameplate-kick-tracker",
+      "category": "Live",
+      "publishedAt": "2026-10-27T14:00:00.000Z"
+    },
     {
       "title": "More Labyrinth & Class Bug Fixes - Patch 12.1.5 Hotfixes for October 26th",
       "url": "https://www.wowhead.com/news=383599/more-labyrinth-and-class-bug-fixes-patch-12-1-5-hotfixes-for-october-26th",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383597/racial-ability-tuning-pass-for-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-26T20:38:14.000Z"
-    },
-    {
-      "title": "Meet the Devs at WoW: Forever Poster Signing - Limited Tickets Available Tomorrow",
-      "url": "https://www.wowhead.com/news=383595/meet-the-devs-at-wow-forever-poster-signing-limited-tickets-available-now",
-      "category": "Forever",
-      "publishedAt": "2026-10-26T19:09:41.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T13:16:52.630Z",
-  "generatedAt": "2026-10-27T13:16:52.624Z",
+  "newsUpdatedAt": "2026-10-27T14:09:29.020Z",
+  "generatedAt": "2026-10-27T14:09:29.012Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 08:16:34 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 09:09:28 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

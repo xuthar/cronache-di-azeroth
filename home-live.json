@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T21:10:52.312Z"
+    "checkedAt": "2026-10-27T21:54:43.492Z"
   },
   "news": [
+    {
+      "title": "Players Upset Latest Housing Bundles Breaks Stated Philosophy on Hearthsteel",
+      "url": "https://www.wowhead.com/news=383614/players-upset-latest-housing-bundles-breaks-stated-philosophy-on-hearthsteel",
+      "category": "Live",
+      "publishedAt": "2026-10-27T21:16:46.000Z"
+    },
     {
       "title": "Blizzard Announces Name Reservation Issue for Oceanic Players in WoW: Forever",
       "url": "https://www.wowhead.com/news=383612/blizzard-announces-name-reservation-issue-for-oceanic-players-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383607/living-heartsbane-cauldron-mount-now-available-on-battle-net-store",
       "category": "Live",
       "publishedAt": "2026-10-27T18:00:46.000Z"
-    },
-    {
-      "title": "Update: Name Reservations for WoW: Forever Now Live in EU, NA Players Seeing Disconnects",
-      "url": "https://www.wowhead.com/news=383608/name-reservations-for-wow-forever-delayed",
-      "category": "Forever",
-      "publishedAt": "2026-10-27T17:58:59.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T21:10:52.311Z",
-  "generatedAt": "2026-10-27T21:10:52.304Z",
+  "newsUpdatedAt": "2026-10-27T21:54:43.491Z",
+  "generatedAt": "2026-10-27T21:54:43.483Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 16:10:24 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 16:54:16 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

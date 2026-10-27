@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-26T23:31:45.719Z"
+    "checkedAt": "2026-10-27T00:02:04.420Z"
   },
   "news": [
+    {
+      "title": "New Grimtide Housing Exterior and Decor Datamined",
+      "url": "https://www.wowhead.com/news=383598/new-grimtide-housing-exterior-and-decor-datamined",
+      "category": "Live",
+      "publishedAt": "2026-10-26T23:24:18.000Z"
+    },
     {
       "title": "Racial Ability Tuning Pass for WoW: Forever",
       "url": "https://www.wowhead.com/news=383597/racial-ability-tuning-pass-for-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383592/test-talebound-on-the-patch-12-1-7-ptr-this-friday",
       "category": "PTR",
       "publishedAt": "2026-10-26T18:01:31.000Z"
-    },
-    {
-      "title": "Watch the WoW: Forever Short Story, “Unbowed”",
-      "url": "https://www.wowhead.com/news=383589/watch-the-wow-forever-short-story-unbowed-world-of-warcraft-blizzard-news",
-      "category": "Forever",
-      "publishedAt": "2026-10-26T17:07:09.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-26T23:31:45.718Z",
-  "generatedAt": "2026-10-26T23:31:45.662Z",
+  "newsUpdatedAt": "2026-10-27T00:02:04.420Z",
+  "generatedAt": "2026-10-27T00:02:04.411Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 26 Oct 2026 18:31:20 -0500",
+  "newsFeedBuiltAt": "Mon, 26 Oct 2026 19:02:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

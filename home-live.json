@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T22:38:01.063Z"
+    "checkedAt": "2026-10-27T23:16:03.623Z"
   },
   "news": [
+    {
+      "title": "Myth 2/6 Piece of Loot Now Available from Labyrinths",
+      "url": "https://www.wowhead.com/news=383603/myth-2-6-piece-of-loot-now-available-from-labyrinths",
+      "category": "Live",
+      "publishedAt": "2026-10-27T22:58:35.000Z"
+    },
     {
       "title": "Blizzard Takes Action Against RMT on Retail WoW - Gold Transactions Should Be Direct",
       "url": "https://www.wowhead.com/news=383616/blizzard-takes-action-against-rmt-on-retail-wow-gold-transactions-should-be",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383612/blizzard-announces-name-reservation-issue-for-oceanic-players-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-27T20:05:03.000Z"
-    },
-    {
-      "title": "Join the WoW Portal Room for Your Next Adventure in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383610/join-the-wow-portal-room-for-your-next-adventure-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-27T19:08:56.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T22:38:01.063Z",
-  "generatedAt": "2026-10-27T22:38:00.926Z",
+  "newsUpdatedAt": "2026-10-27T23:16:03.623Z",
+  "generatedAt": "2026-10-27T23:16:03.618Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 17:37:44 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 18:16:03 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

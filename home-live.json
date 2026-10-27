@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T20:00:03.165Z"
+    "checkedAt": "2026-10-27T20:22:26.001Z"
   },
   "news": [
+    {
+      "title": "Blizzard Announces Name Reservation Issue for Oceanic Players in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383612/blizzard-announces-name-reservation-issue-for-oceanic-players-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-27T20:05:03.000Z"
+    },
     {
       "title": "Join the WoW Portal Room for Your Next Adventure in WoW: Forever",
       "url": "https://www.wowhead.com/news=383610/join-the-wow-portal-room-for-your-next-adventure-in-wow-forever",
@@ -18,24 +24,18 @@
       "publishedAt": "2026-10-27T18:00:46.000Z"
     },
     {
-      "title": "Update: Name Reservations for WoW: Forever Now Live in EU",
+      "title": "Update: Name Reservations for WoW: Forever Now Live in EU, NA Players Seeing Disconnects",
       "url": "https://www.wowhead.com/news=383608/name-reservations-for-wow-forever-delayed",
       "category": "Forever",
       "publishedAt": "2026-10-27T17:58:59.000Z"
-    },
-    {
-      "title": "New Grimtide Housing Bundles Available for Hearthsteel",
-      "url": "https://www.wowhead.com/news=383606/new-grimtide-housing-bundles-available-for-hearthsteel",
-      "category": "Live",
-      "publishedAt": "2026-10-27T17:24:31.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T20:00:03.164Z",
-  "generatedAt": "2026-10-27T20:00:03.159Z",
+  "newsUpdatedAt": "2026-10-27T20:22:26.000Z",
+  "generatedAt": "2026-10-27T20:22:25.995Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 14:59:54 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 15:22:22 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

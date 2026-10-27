@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T14:09:29.020Z"
+    "checkedAt": "2026-10-27T15:07:52.858Z"
   },
   "news": [
+    {
+      "title": "New Theatre-Themed Decor Takes the Stage in Patch 12.1.7",
+      "url": "https://www.wowhead.com/news=383512/new-theatre-themed-decor-takes-the-stage-in-patch-12-1-7",
+      "category": "PTR",
+      "publishedAt": "2026-10-27T15:00:00.000Z"
+    },
     {
       "title": "EllesmereUI Adds Fellowship-Inspired Nameplate Kick Tracker",
       "url": "https://www.wowhead.com/news=383591/ellesmereui-adds-fellowship-inspired-nameplate-kick-tracker",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383598/new-grimtide-housing-exterior-and-decor-datamined",
       "category": "Live",
       "publishedAt": "2026-10-26T23:24:18.000Z"
-    },
-    {
-      "title": "Racial Ability Tuning Pass for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383597/racial-ability-tuning-pass-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-26T20:38:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T14:09:29.020Z",
-  "generatedAt": "2026-10-27T14:09:29.012Z",
+  "newsUpdatedAt": "2026-10-27T15:07:52.858Z",
+  "generatedAt": "2026-10-27T15:07:52.777Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 09:09:28 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 10:07:26 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

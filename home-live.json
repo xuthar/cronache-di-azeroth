@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-27T19:06:05.836Z"
+    "checkedAt": "2026-10-27T19:43:58.459Z"
   },
   "news": [
+    {
+      "title": "Join the WoW Portal Room for Your Next Adventure in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383610/join-the-wow-portal-room-for-your-next-adventure-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-27T19:08:56.000Z"
+    },
     {
       "title": "Living Heartsbane Cauldron Mount Now Available on Battle.net Store",
       "url": "https://www.wowhead.com/news=383607/living-heartsbane-cauldron-mount-now-available-on-battle-net-store",
@@ -12,7 +18,7 @@
       "publishedAt": "2026-10-27T18:00:46.000Z"
     },
     {
-      "title": "Name Reservations for WoW: Forever Delayed",
+      "title": "Update: Name Reservations for WoW: Forever Now Live in EU",
       "url": "https://www.wowhead.com/news=383608/name-reservations-for-wow-forever-delayed",
       "category": "Forever",
       "publishedAt": "2026-10-27T17:58:59.000Z"
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383606/new-grimtide-housing-bundles-available-for-hearthsteel",
       "category": "Live",
       "publishedAt": "2026-10-27T17:24:31.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever AMV - WARPATH",
-      "url": "https://www.wowhead.com/news=383605/world-of-warcraft-forever-amv-warpath",
-      "category": "Forever",
-      "publishedAt": "2026-10-27T17:13:12.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T19:06:05.835Z",
-  "generatedAt": "2026-10-27T19:06:05.825Z",
+  "newsUpdatedAt": "2026-10-27T19:43:58.459Z",
+  "generatedAt": "2026-10-27T19:43:58.453Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 14:05:40 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 14:43:37 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

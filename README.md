@@ -38,7 +38,7 @@ Copy portraits and screenshots into `assets/images/`, then set a record’s `ima
 
 ## Sample content
 
-Xuthar Morvayne comes from the project context. Race, class, origins, and real gameplay progress are still to be supplied. Retail profiles are placeholders. The Oak Inn → Ford Trail → Pine Glade route, journal entries, and stories are original examples, not official lore or records of actual adventures. Update the sample-content notices when adding real content.
+The planned WoW Forever roster was announced on 27 October 2026: Xuthar Morvayne (main; Human Shadow Priest), Thorgar Ironbeard (Dwarf Hunter) and Aelyndra Zephyrveil (female Skyborne Druid). Origins and real gameplay progress have not been recorded yet. Retail profiles remain separate from Forever plans. The Oak Inn → Ford Trail → Pine Glade route, journal entries, and stories are original examples, not official lore or records of actual adventures. Update the sample-content notices when adding real content.
 
 ## Verification and publication
 
@@ -84,3 +84,8 @@ The Atlas of Azeroth in lore.html uses atlas-data.js (16 region/world entries an
 The project's Facebook page is https://www.facebook.com/CronacheDiAzerothWoW. Posts are in Italian and English; the website remains in English. The shared contact strip, a homepage community card and static footers on all pages link directly to the page, without loading Facebook embeds or tracking scripts.
 
 Editorial selection reviewed 11 October 2026: Forever beta notes dated 8 October (City of Dalaran, dungeon XP and interface changes), Blizzard's WoW Weekly dated 9 October (podcast episode 3 and class features), and the Retail 12.1.5 notes. The previous upcoming PAX notice has been removed after its date passed. Sources are linked next to the summaries; these are dated editorial snapshots, separate from the automatic Wowhead feed. The checked-in homepage fallback has been refreshed from the successful live-news snapshot of 11 October.
+
+
+## WoW Forever character announcement — 27 October 2026
+
+`assets/js/forever-roster.js` defines the three planned Forever characters and renders the launch announcement both on the homepage and at `forever.html#forever-roster`; it also exposes the entries via `window.CHRONICLES.foreverCharacters` when the main content object is available. `assets/css/forever-roster.css` contains the custom illustrations, class colors and mobile layout. The site distinguishes planned roleplay biographies from confirmed gameplay progress. Do not place these characters in the Retail roster.

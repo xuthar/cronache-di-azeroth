@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T00:20:52.990Z"
+    "checkedAt": "2026-10-28T01:27:46.376Z"
   },
   "news": [
+    {
+      "title": "Class Tuning and Bug Fixes - Patch 12.1.5 Hotfixes for October 27th",
+      "url": "https://www.wowhead.com/news=383617/world-of-warcraft-midnight-hotfixes-october-27",
+      "category": "Live",
+      "publishedAt": "2026-10-28T01:08:50.000Z"
+    },
     {
       "title": "Myth 2/6 Piece of Loot Now Available from Labyrinths",
       "url": "https://www.wowhead.com/news=383603/myth-2-6-piece-of-loot-now-available-from-labyrinths",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383614/players-upset-latest-housing-bundles-breaks-stated-philosophy-on-hearthsteel",
       "category": "Live",
       "publishedAt": "2026-10-27T21:16:46.000Z"
-    },
-    {
-      "title": "Blizzard Announces Name Reservation Issue for Oceanic Players in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383612/blizzard-announces-name-reservation-issue-for-oceanic-players-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-27T20:05:03.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T00:20:52.989Z",
-  "generatedAt": "2026-10-28T00:20:52.980Z",
+  "newsUpdatedAt": "2026-10-28T01:27:46.375Z",
+  "generatedAt": "2026-10-28T01:27:46.366Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 19:20:52 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 20:27:45 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T13:59:01.832Z"
+    "checkedAt": "2026-10-28T14:55:14.616Z"
   },
   "news": [
+    {
+      "title": "Warlords of Draenor Timewalking Week Now Live",
+      "url": "https://www.wowhead.com/news=383619/warlords-of-draenor-timewalking-week-now-live",
+      "category": "Live",
+      "publishedAt": "2026-10-28T14:00:00.000Z"
+    },
     {
       "title": "Name Reservations Included Overly Restrictive Name Check But Fix Incoming",
       "url": "https://www.wowhead.com/news=383618/name-reservations-included-overly-restrictive-name-check-but-fix-incoming",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383603/myth-2-6-piece-of-loot-now-available-from-labyrinths",
       "category": "Live",
       "publishedAt": "2026-10-27T22:58:35.000Z"
-    },
-    {
-      "title": "Blizzard Takes Action Against RMT on Retail WoW - Gold Transactions Should Be Direct",
-      "url": "https://www.wowhead.com/news=383616/blizzard-takes-action-against-rmt-on-retail-wow-gold-transactions-should-be",
-      "category": "Live",
-      "publishedAt": "2026-10-27T21:54:48.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T13:59:01.832Z",
-  "generatedAt": "2026-10-28T13:59:01.738Z",
+  "newsUpdatedAt": "2026-10-28T14:55:14.616Z",
+  "generatedAt": "2026-10-28T14:55:14.609Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 28 Oct 2026 08:59:01 -0500",
+  "newsFeedBuiltAt": "Wed, 28 Oct 2026 09:55:14 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T15:52:58.597Z"
+    "checkedAt": "2026-10-28T16:52:25.188Z"
   },
   "news": [
+    {
+      "title": "Planet Azeroth: Episode 1 ft. Bill Bailey",
+      "url": "https://www.wowhead.com/news=383630/planet-azeroth-episode-1-ft-bill-bailey",
+      "category": "Forever",
+      "publishedAt": "2026-10-28T16:38:15.000Z"
+    },
     {
       "title": "New Cabin-Themed Shop Decor Discovered in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383593/new-cabin-themed-shop-decor-discovered-in-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383618/name-reservations-included-overly-restrictive-name-check-but-fix-incoming",
       "category": "Forever",
       "publishedAt": "2026-10-28T01:30:05.000Z"
-    },
-    {
-      "title": "Class Tuning and Bug Fixes - Patch 12.1.5 Hotfixes for October 27th",
-      "url": "https://www.wowhead.com/news=383617/world-of-warcraft-midnight-hotfixes-october-27",
-      "category": "Live",
-      "publishedAt": "2026-10-28T01:08:50.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T15:52:58.597Z",
-  "generatedAt": "2026-10-28T15:52:58.560Z",
+  "newsUpdatedAt": "2026-10-28T16:52:25.187Z",
+  "generatedAt": "2026-10-28T16:52:25.176Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 28 Oct 2026 10:52:57 -0500",
+  "newsFeedBuiltAt": "Wed, 28 Oct 2026 11:52:24 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

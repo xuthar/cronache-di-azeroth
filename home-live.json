@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T16:52:25.188Z"
+    "checkedAt": "2026-10-28T17:46:48.796Z"
   },
   "news": [
+    {
+      "title": "New Player’s Starter Guide for World of Warcraft: Forever",
+      "url": "https://www.wowhead.com/news=383632/new-player-s-starter-guide-for-world-of-warcraft-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-28T17:05:34.000Z"
+    },
     {
       "title": "Planet Azeroth: Episode 1 ft. Bill Bailey",
       "url": "https://www.wowhead.com/news=383630/planet-azeroth-episode-1-ft-bill-bailey",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383619/warlords-of-draenor-timewalking-week-now-live",
       "category": "Live",
       "publishedAt": "2026-10-28T14:00:00.000Z"
-    },
-    {
-      "title": "Name Reservations Included Overly Restrictive Name Check But Fix Incoming",
-      "url": "https://www.wowhead.com/news=383618/name-reservations-included-overly-restrictive-name-check-but-fix-incoming",
-      "category": "Forever",
-      "publishedAt": "2026-10-28T01:30:05.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T16:52:25.187Z",
-  "generatedAt": "2026-10-28T16:52:25.176Z",
+  "newsUpdatedAt": "2026-10-28T17:46:48.795Z",
+  "generatedAt": "2026-10-28T17:46:48.789Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 28 Oct 2026 11:52:24 -0500",
+  "newsFeedBuiltAt": "Wed, 28 Oct 2026 12:46:40 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

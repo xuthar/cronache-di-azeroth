@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T21:01:35.450Z"
+    "checkedAt": "2026-10-28T21:41:40.123Z"
   },
   "news": [
+    {
+      "title": "New Class and Item Tuning on WoW: Forever - Hunter Changes",
+      "url": "https://www.wowhead.com/news=383641/new-class-and-item-tuning-on-wow-forever-hunter-changes",
+      "category": "Forever",
+      "publishedAt": "2026-10-28T21:17:17.000Z"
+    },
     {
       "title": "Retail Team Discussing Lighting and Water Improvements from WoW: Forever",
       "url": "https://www.wowhead.com/news=383637/retail-team-discussing-lighting-and-water-improvements-from-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383630/planet-azeroth-episode-1-ft-bill-bailey",
       "category": "Forever",
       "publishedAt": "2026-10-28T16:38:15.000Z"
-    },
-    {
-      "title": "New Cabin-Themed Shop Decor Discovered in Patch 12.1.7",
-      "url": "https://www.wowhead.com/news=383593/new-cabin-themed-shop-decor-discovered-in-patch-12-1-7",
-      "category": "PTR",
-      "publishedAt": "2026-10-28T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T21:01:35.449Z",
-  "generatedAt": "2026-10-28T21:01:35.442Z",
+  "newsUpdatedAt": "2026-10-28T21:41:40.122Z",
+  "generatedAt": "2026-10-28T21:41:40.115Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 28 Oct 2026 16:01:34 -0500",
+  "newsFeedBuiltAt": "Wed, 28 Oct 2026 16:41:29 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

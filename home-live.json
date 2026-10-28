@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T01:27:46.376Z"
+    "checkedAt": "2026-10-28T02:20:13.633Z"
   },
   "news": [
+    {
+      "title": "Name Reservations Included Overly Restrictive Name Check But Fix Incoming",
+      "url": "https://www.wowhead.com/news=383618/name-reservations-included-overly-restrictive-name-check-but-fix-incoming",
+      "category": "Forever",
+      "publishedAt": "2026-10-28T01:30:05.000Z"
+    },
     {
       "title": "Class Tuning and Bug Fixes - Patch 12.1.5 Hotfixes for October 27th",
       "url": "https://www.wowhead.com/news=383617/world-of-warcraft-midnight-hotfixes-october-27",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383616/blizzard-takes-action-against-rmt-on-retail-wow-gold-transactions-should-be",
       "category": "Live",
       "publishedAt": "2026-10-27T21:54:48.000Z"
-    },
-    {
-      "title": "Players Upset Latest Housing Bundles Breaks Stated Philosophy on Hearthsteel",
-      "url": "https://www.wowhead.com/news=383614/players-upset-latest-housing-bundles-breaks-stated-philosophy-on-hearthsteel",
-      "category": "Live",
-      "publishedAt": "2026-10-27T21:16:46.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T01:27:46.375Z",
-  "generatedAt": "2026-10-28T01:27:46.366Z",
+  "newsUpdatedAt": "2026-10-28T02:20:13.632Z",
+  "generatedAt": "2026-10-28T02:20:13.626Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 27 Oct 2026 20:27:45 -0500",
+  "newsFeedBuiltAt": "Tue, 27 Oct 2026 21:20:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

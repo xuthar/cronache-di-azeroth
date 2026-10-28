@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-28T19:26:30.909Z"
+    "checkedAt": "2026-10-28T20:16:35.067Z"
   },
   "news": [
+    {
+      "title": "Retail Team Discussing Lighting and Water Improvements from WoW: Forever",
+      "url": "https://www.wowhead.com/news=383637/retail-team-discussing-lighting-and-water-improvements-from-wow-forever",
+      "category": "Live",
+      "publishedAt": "2026-10-28T19:30:38.000Z"
+    },
     {
       "title": "New Player’s Starter Guide for World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383632/new-player-s-starter-guide-for-world-of-warcraft-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383593/new-cabin-themed-shop-decor-discovered-in-patch-12-1-7",
       "category": "PTR",
       "publishedAt": "2026-10-28T15:00:00.000Z"
-    },
-    {
-      "title": "Warlords of Draenor Timewalking Week Now Live",
-      "url": "https://www.wowhead.com/news=383619/warlords-of-draenor-timewalking-week-now-live",
-      "category": "Live",
-      "publishedAt": "2026-10-28T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-28T19:26:30.909Z",
-  "generatedAt": "2026-10-28T19:26:30.901Z",
+  "newsUpdatedAt": "2026-10-28T20:16:35.066Z",
+  "generatedAt": "2026-10-28T20:16:35.059Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 28 Oct 2026 14:26:18 -0500",
+  "newsFeedBuiltAt": "Wed, 28 Oct 2026 15:16:15 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T17:49:50.891Z"
+    "checkedAt": "2026-10-29T18:27:27.687Z"
   },
   "news": [
+    {
+      "title": "Blizzard Working on Top Layering Issues in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383650/blizzard-working-on-top-layering-issues-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-29T18:12:11.000Z"
+    },
     {
       "title": "The WoW: Forever Podcast Episode 6 Now Available - Tech and Community Building",
       "url": "https://www.wowhead.com/news=383648/the-wow-forever-podcast-episode-6-now-available-tech-and-community-building",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383635/patch-cadence-future-locations-respeccing-ign-interview-on-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-29T15:00:00.000Z"
-    },
-    {
-      "title": "After 2 Weeks, Over 200k Players Have Defeated Tier 11 Kindo'jan Solo",
-      "url": "https://www.wowhead.com/news=383634/after-2-weeks-over-200k-players-have-defeated-tier-11-kindojan-solo",
-      "category": "Live",
-      "publishedAt": "2026-10-29T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T17:49:50.891Z",
-  "generatedAt": "2026-10-29T17:49:50.886Z",
+  "newsUpdatedAt": "2026-10-29T18:27:27.687Z",
+  "generatedAt": "2026-10-29T18:27:27.678Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 12:49:25 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 13:27:27 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

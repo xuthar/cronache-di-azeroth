@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T19:28:18.472Z"
+    "checkedAt": "2026-10-29T20:05:32.223Z"
   },
   "news": [
+    {
+      "title": "Forced World Refreshes Will Be Significantly Reduced for WoW: Forever",
+      "url": "https://www.wowhead.com/news=383649/forced-world-refreshes-will-be-significantly-reduced-for-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-29T19:44:00.000Z"
+    },
     {
       "title": "Return to Azeroth Recap for World of Warcraft: Forever",
       "url": "https://www.wowhead.com/news=383653/return-to-azeroth-recap-for-world-of-warcraft-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383650/blizzard-working-on-top-layering-issues-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-29T18:12:11.000Z"
-    },
-    {
-      "title": "The WoW: Forever Podcast Episode 6 Now Available - Tech and Community Building",
-      "url": "https://www.wowhead.com/news=383648/the-wow-forever-podcast-episode-6-now-available-tech-and-community-building",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T16:27:09.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T19:28:18.471Z",
-  "generatedAt": "2026-10-29T19:28:18.465Z",
+  "newsUpdatedAt": "2026-10-29T20:05:32.223Z",
+  "generatedAt": "2026-10-29T20:05:32.217Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 14:28:13 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 15:05:17 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T21:05:36.342Z"
+    "checkedAt": "2026-10-29T21:46:12.177Z"
   },
   "news": [
+    {
+      "title": "Everything You Need to Know for WoW: Forever's Global Launch",
+      "url": "https://www.wowhead.com/news=383656/everything-you-need-to-know-for-wow-forevers-global-launch",
+      "category": "Forever",
+      "publishedAt": "2026-10-29T21:09:39.000Z"
+    },
     {
       "title": "Forced World Refreshes Will Be Significantly Reduced for WoW: Forever",
       "url": "https://www.wowhead.com/news=383649/forced-world-refreshes-will-be-significantly-reduced-for-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383651/patch-12-1-7-ptr-development-notes-talebound-demo-available-tomorrow",
       "category": "PTR",
       "publishedAt": "2026-10-29T18:41:51.000Z"
-    },
-    {
-      "title": "Blizzard Working on Top Layering Issues in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383650/blizzard-working-on-top-layering-issues-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T18:12:11.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T21:05:36.342Z",
-  "generatedAt": "2026-10-29T21:05:36.334Z",
+  "newsUpdatedAt": "2026-10-29T21:46:12.177Z",
+  "generatedAt": "2026-10-29T21:46:12.169Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 16:05:19 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 16:46:11 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T18:27:27.687Z"
+    "checkedAt": "2026-10-29T19:28:18.472Z"
   },
   "news": [
+    {
+      "title": "Return to Azeroth Recap for World of Warcraft: Forever",
+      "url": "https://www.wowhead.com/news=383653/return-to-azeroth-recap-for-world-of-warcraft-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-29T19:13:59.000Z"
+    },
+    {
+      "title": "Patch 12.1.7 PTR Development Notes - Talebound Demo Available Tomorrow",
+      "url": "https://www.wowhead.com/news=383651/patch-12-1-7-ptr-development-notes-talebound-demo-available-tomorrow",
+      "category": "PTR",
+      "publishedAt": "2026-10-29T18:41:51.000Z"
+    },
     {
       "title": "Blizzard Working on Top Layering Issues in WoW: Forever",
       "url": "https://www.wowhead.com/news=383650/blizzard-working-on-top-layering-issues-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383648/the-wow-forever-podcast-episode-6-now-available-tech-and-community-building",
       "category": "Forever",
       "publishedAt": "2026-10-29T16:27:09.000Z"
-    },
-    {
-      "title": "WoW: Forever is Aiming for a 4-Month Patch Cadence",
-      "url": "https://www.wowhead.com/news=383640/wow-forever-is-aiming-for-a-4-month-patch-cadence",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T16:00:00.000Z"
-    },
-    {
-      "title": "Patch Cadence, Future Locations, Respeccing - IGN Interview on WoW: Forever",
-      "url": "https://www.wowhead.com/news=383635/patch-cadence-future-locations-respeccing-ign-interview-on-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T18:27:27.687Z",
-  "generatedAt": "2026-10-29T18:27:27.678Z",
+  "newsUpdatedAt": "2026-10-29T19:28:18.471Z",
+  "generatedAt": "2026-10-29T19:28:18.465Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 13:27:27 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 14:28:13 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

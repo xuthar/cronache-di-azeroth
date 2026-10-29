@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T22:23:45.816Z"
+    "checkedAt": "2026-10-29T23:13:05.643Z"
   },
   "news": [
+    {
+      "title": "Two New Housing Exterior Customizations Discovered on 12.1.7 PTR",
+      "url": "https://www.wowhead.com/news=383660/two-new-housing-exterior-customizations-discovered-on-12-1-7-ptr",
+      "category": "PTR",
+      "publishedAt": "2026-10-29T23:07:55.000Z"
+    },
+    {
+      "title": "Talebound Awards Two Pieces of Mythic Venomous Abyss Loot",
+      "url": "https://www.wowhead.com/news=383658/talebound-awards-two-pieces-of-mythic-venomous-abyss-loot",
+      "category": "PTR",
+      "publishedAt": "2026-10-29T22:39:33.000Z"
+    },
     {
       "title": "Everything You Need to Know for WoW: Forever's Global Launch",
       "url": "https://www.wowhead.com/news=383656/everything-you-need-to-know-for-wow-forevers-global-launch",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383649/forced-world-refreshes-will-be-significantly-reduced-for-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-29T19:44:00.000Z"
-    },
-    {
-      "title": "Return to Azeroth Recap for World of Warcraft: Forever",
-      "url": "https://www.wowhead.com/news=383653/return-to-azeroth-recap-for-world-of-warcraft-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T19:13:59.000Z"
-    },
-    {
-      "title": "Patch 12.1.7 PTR Development Notes - Talebound Demo Available Tomorrow",
-      "url": "https://www.wowhead.com/news=383651/patch-12-1-7-ptr-development-notes-talebound-demo-available-tomorrow",
-      "category": "PTR",
-      "publishedAt": "2026-10-29T18:41:51.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T22:23:45.816Z",
-  "generatedAt": "2026-10-29T22:23:45.810Z",
+  "newsUpdatedAt": "2026-10-29T23:13:05.643Z",
+  "generatedAt": "2026-10-29T23:13:05.635Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 17:23:45 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 18:12:43 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

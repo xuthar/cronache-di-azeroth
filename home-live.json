@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T14:57:32.985Z"
+    "checkedAt": "2026-10-29T15:54:54.308Z"
   },
   "news": [
+    {
+      "title": "Patch Cadence, Future Locations, Respeccing - IGN Interview on WoW: Forever",
+      "url": "https://www.wowhead.com/news=383635/patch-cadence-future-locations-respeccing-ign-interview-on-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-29T15:00:00.000Z"
+    },
     {
       "title": "After 2 Weeks, Over 200k Players Have Defeated Tier 11 Kindo'jan Solo",
       "url": "https://www.wowhead.com/news=383634/after-2-weeks-over-200k-players-have-defeated-tier-11-kindojan-solo",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383637/retail-team-discussing-lighting-and-water-improvements-from-wow-forever",
       "category": "Live",
       "publishedAt": "2026-10-28T19:30:38.000Z"
-    },
-    {
-      "title": "New Player’s Starter Guide for World of Warcraft: Forever",
-      "url": "https://www.wowhead.com/news=383632/new-player-s-starter-guide-for-world-of-warcraft-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-28T17:05:34.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T14:57:32.985Z",
-  "generatedAt": "2026-10-29T14:57:32.928Z",
+  "newsUpdatedAt": "2026-10-29T15:54:54.308Z",
+  "generatedAt": "2026-10-29T15:54:54.302Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 09:57:32 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 10:54:27 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

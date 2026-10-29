@@ -79,9 +79,9 @@ The library contains 32 English tales, including the two original travel fragmen
 The Atlas of Azeroth in lore.html uses atlas-data.js (16 region/world entries and the Wowhead zone index reviewed 4 October 2026), atlas.js and atlas.css. The game map images are loaded directly from Wowhead’s public image CDN; artwork is attributed to Blizzard. Region/world selection, full-index search, zoom, drag/pinch, keyboard panning, expanded view and one temporary coordinate marker are supported without a map library. Links #atlas-r-1 or #atlas-p10 share a selected map. Markers are map-relative and never game/GPS tracking or routing. Regional outdoor maps are curated; the full index also contains alternate phases/instances, some without an image. Failed images show a reference link rather than invented geography. Remote image availability may change. The Forever personal travel map is separate and remains planned.
 
 
-## Facebook community and October news review
+## Contacts and October news review
 
-The project's Facebook page is https://www.facebook.com/CronacheDiAzerothWoW. Posts are in Italian and English; the website remains in English. The shared contact strip, a homepage community card and static footers on all pages link directly to the page, without loading Facebook embeds or tracking scripts.
+The shared contact strip provides Telegram and Battle.net.
 
 Editorial selection reviewed 11 October 2026: Forever beta notes dated 8 October (City of Dalaran, dungeon XP and interface changes), Blizzard's WoW Weekly dated 9 October (podcast episode 3 and class features), and the Retail 12.1.5 notes. The previous upcoming PAX notice has been removed after its date passed. Sources are linked next to the summaries; these are dated editorial snapshots, separate from the automatic Wowhead feed. The checked-in homepage fallback has been refreshed from the successful live-news snapshot of 11 October.
 

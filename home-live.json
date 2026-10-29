@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-29T23:13:05.643Z"
+    "checkedAt": "2026-10-29T23:55:26.827Z"
   },
   "news": [
+    {
+      "title": "Talebound End-Game Player Power Rewards - Venomstones, Bonus Rolls, Experience Potions",
+      "url": "https://www.wowhead.com/news=383659/talebound-end-game-player-power-rewards-venomstones-bonus-rolls-experience",
+      "category": "PTR",
+      "publishedAt": "2026-10-29T23:51:03.000Z"
+    },
     {
       "title": "Two New Housing Exterior Customizations Discovered on 12.1.7 PTR",
       "url": "https://www.wowhead.com/news=383660/two-new-housing-exterior-customizations-discovered-on-12-1-7-ptr",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383656/everything-you-need-to-know-for-wow-forevers-global-launch",
       "category": "Forever",
       "publishedAt": "2026-10-29T21:09:39.000Z"
-    },
-    {
-      "title": "Forced World Refreshes Will Be Significantly Reduced for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383649/forced-world-refreshes-will-be-significantly-reduced-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T19:44:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-29T23:13:05.643Z",
-  "generatedAt": "2026-10-29T23:13:05.635Z",
+  "newsUpdatedAt": "2026-10-29T23:55:26.827Z",
+  "generatedAt": "2026-10-29T23:55:26.820Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 29 Oct 2026 18:12:43 -0500",
+  "newsFeedBuiltAt": "Thu, 29 Oct 2026 18:55:26 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

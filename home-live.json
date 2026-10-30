@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-30T17:22:19.861Z"
+    "checkedAt": "2026-10-30T18:14:47.310Z"
   },
   "news": [
+    {
+      "title": "November Traveler's Log Bonus Reward - Hot Motocross Bunmover 4600 Mount",
+      "url": "https://www.wowhead.com/news=383666/november-travelers-log-bonus-reward-hot-motocross-bunmover-4600-mount",
+      "category": "Live",
+      "publishedAt": "2026-10-30T17:31:46.000Z"
+    },
+    {
+      "title": "WoW Weekly Recap - WoW: Forever, Talebound Demo, New Shop Decor Packs",
+      "url": "https://www.wowhead.com/news=383664/wow-weekly-recap-wow-forever-talebound-demo-new-shop-decor-packs",
+      "category": "WoW",
+      "publishedAt": "2026-10-30T17:20:18.000Z"
+    },
     {
       "title": "Blizzard Addresses Day and Night Cycle Issues for Oceanic Players in WoW: Forever",
       "url": "https://www.wowhead.com/news=383652/blizzard-addresses-day-and-night-cycle-issues-for-oceanic-players-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383482/returning-to-dornogal-patch-12-1-7-campaign-playthrough-story-spoilers",
       "category": "PTR",
       "publishedAt": "2026-10-30T14:00:00.000Z"
-    },
-    {
-      "title": "Talebound End-Game Player Power Rewards - Venomstones, Bonus Rolls, Experience Potions",
-      "url": "https://www.wowhead.com/news=383659/talebound-end-game-player-power-rewards-venomstones-bonus-rolls-experience",
-      "category": "PTR",
-      "publishedAt": "2026-10-29T23:51:03.000Z"
-    },
-    {
-      "title": "Two New Housing Exterior Customizations Discovered on 12.1.7 PTR",
-      "url": "https://www.wowhead.com/news=383660/two-new-housing-exterior-customizations-discovered-on-12-1-7-ptr",
-      "category": "PTR",
-      "publishedAt": "2026-10-29T23:07:55.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-30T17:22:19.860Z",
-  "generatedAt": "2026-10-30T17:22:19.853Z",
+  "newsUpdatedAt": "2026-10-30T18:14:47.309Z",
+  "generatedAt": "2026-10-30T18:14:46.860Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 30 Oct 2026 12:22:19 -0500",
+  "newsFeedBuiltAt": "Fri, 30 Oct 2026 13:14:40 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

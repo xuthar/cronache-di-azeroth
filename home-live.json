@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-30T12:57:28.134Z"
+    "checkedAt": "2026-10-30T14:00:08.084Z"
   },
   "news": [
+    {
+      "title": "Returning to Dornogal - Patch 12.1.7 Campaign Playthrough (Story Spoilers)",
+      "url": "https://www.wowhead.com/news=383482/returning-to-dornogal-patch-12-1-7-campaign-playthrough-story-spoilers",
+      "category": "PTR",
+      "publishedAt": "2026-10-30T14:00:00.000Z"
+    },
     {
       "title": "Talebound End-Game Player Power Rewards - Venomstones, Bonus Rolls, Experience Potions",
       "url": "https://www.wowhead.com/news=383659/talebound-end-game-player-power-rewards-venomstones-bonus-rolls-experience",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383658/talebound-awards-two-pieces-of-mythic-venomous-abyss-loot",
       "category": "PTR",
       "publishedAt": "2026-10-29T22:39:33.000Z"
-    },
-    {
-      "title": "Everything You Need to Know for WoW: Forever's Global Launch",
-      "url": "https://www.wowhead.com/news=383656/everything-you-need-to-know-for-wow-forevers-global-launch",
-      "category": "Forever",
-      "publishedAt": "2026-10-29T21:09:39.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-30T12:57:28.134Z",
-  "generatedAt": "2026-10-30T12:57:28.127Z",
+  "newsUpdatedAt": "2026-10-30T14:00:08.084Z",
+  "generatedAt": "2026-10-30T14:00:08.078Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 30 Oct 2026 07:57:27 -0500",
+  "newsFeedBuiltAt": "Fri, 30 Oct 2026 09:00:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

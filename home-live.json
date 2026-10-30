@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-30T14:56:45.478Z"
+    "checkedAt": "2026-10-30T15:51:43.393Z"
   },
   "news": [
+    {
+      "title": "Blizzard Addresses Day and Night Cycle Issues for Oceanic Players in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383652/blizzard-addresses-day-and-night-cycle-issues-for-oceanic-players-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-10-30T15:00:00.000Z"
+    },
     {
       "title": "Returning to Dornogal - Patch 12.1.7 Campaign Playthrough (Story Spoilers)",
       "url": "https://www.wowhead.com/news=383482/returning-to-dornogal-patch-12-1-7-campaign-playthrough-story-spoilers",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383660/two-new-housing-exterior-customizations-discovered-on-12-1-7-ptr",
       "category": "PTR",
       "publishedAt": "2026-10-29T23:07:55.000Z"
-    },
-    {
-      "title": "Talebound Awards Two Pieces of Mythic Venomous Abyss Loot",
-      "url": "https://www.wowhead.com/news=383658/talebound-awards-two-pieces-of-mythic-venomous-abyss-loot",
-      "category": "PTR",
-      "publishedAt": "2026-10-29T22:39:33.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-30T14:56:45.477Z",
-  "generatedAt": "2026-10-30T14:56:45.470Z",
+  "newsUpdatedAt": "2026-10-30T15:51:43.392Z",
+  "generatedAt": "2026-10-30T15:51:43.384Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 30 Oct 2026 09:56:45 -0500",
+  "newsFeedBuiltAt": "Fri, 30 Oct 2026 10:51:32 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

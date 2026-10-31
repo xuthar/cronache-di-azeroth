@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-31T13:59:08.725Z"
+    "checkedAt": "2026-10-31T14:37:32.248Z"
   },
   "news": [
+    {
+      "title": "New Drust-Themed Hearthstone Available from Talebound",
+      "url": "https://www.wowhead.com/news=383662/new-drust-themed-hearthstone-available-from-talebound",
+      "category": "PTR",
+      "publishedAt": "2026-10-31T14:00:00.000Z"
+    },
     {
       "title": "Massive Talent Tree Changes to Druids and Paladins - Class Tuning for WoW: Forever",
       "url": "https://www.wowhead.com/news=383670/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383666/november-travelers-log-bonus-reward-hot-motocross-bunmover-4600-mount",
       "category": "Live",
       "publishedAt": "2026-10-30T17:31:46.000Z"
-    },
-    {
-      "title": "WoW Weekly Recap - WoW: Forever, Talebound Demo, New Shop Decor Packs",
-      "url": "https://www.wowhead.com/news=383664/wow-weekly-recap-wow-forever-talebound-demo-new-shop-decor-packs",
-      "category": "WoW",
-      "publishedAt": "2026-10-30T17:20:18.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-31T13:59:08.724Z",
-  "generatedAt": "2026-10-31T13:59:08.661Z",
+  "newsUpdatedAt": "2026-10-31T14:37:32.248Z",
+  "generatedAt": "2026-10-31T14:37:32.243Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 31 Oct 2026 08:59:00 -0500",
+  "newsFeedBuiltAt": "Sat, 31 Oct 2026 09:37:31 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

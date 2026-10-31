@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-10-31T17:51:44.524Z"
+    "checkedAt": "2026-10-31T18:24:23.229Z"
   },
   "news": [
+    {
+      "title": "Could the WoW: Forever Podcast be Teasing a Secret New Weapon?",
+      "url": "https://www.wowhead.com/news=383657/could-the-wow-forever-podcast-be-teasing-a-secret-new-weapon",
+      "category": "Forever",
+      "publishedAt": "2026-10-31T18:00:00.000Z"
+    },
+    {
+      "title": "Repeatable Quest Experience Exploit Fixed for WoW: Forever Launch",
+      "url": "https://www.wowhead.com/news=383574/repeatable-quest-experience-exploit-fixed-for-wow-forever-launch",
+      "category": "Forever",
+      "publishedAt": "2026-10-31T18:00:00.000Z"
+    },
     {
       "title": "New Drust-Themed Hearthstone Available from Talebound",
       "url": "https://www.wowhead.com/news=383662/new-drust-themed-hearthstone-available-from-talebound",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383670/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-10-30T23:22:14.000Z"
-    },
-    {
-      "title": "Over 8 Million Characters Were Created in the WoW: Forever Beta",
-      "url": "https://www.wowhead.com/news=383669/over-8-million-characters-were-created-in-the-wow-forever-beta",
-      "category": "Forever",
-      "publishedAt": "2026-10-30T19:37:04.000Z"
-    },
-    {
-      "title": "November Traveler's Log Bonus Reward - Hot Motocross Bunmover 4600 Mount",
-      "url": "https://www.wowhead.com/news=383666/november-travelers-log-bonus-reward-hot-motocross-bunmover-4600-mount",
-      "category": "Live",
-      "publishedAt": "2026-10-30T17:31:46.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-10-31T17:51:44.523Z",
-  "generatedAt": "2026-10-31T17:51:44.478Z",
+  "newsUpdatedAt": "2026-10-31T18:24:23.229Z",
+  "generatedAt": "2026-10-31T18:24:23.223Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 31 Oct 2026 12:51:37 -0500",
+  "newsFeedBuiltAt": "Sat, 31 Oct 2026 13:23:59 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -1,0 +1,217 @@
+/* WO W FOREVER · PROFESSIONS FIELD MANUAL
+   Independent, responsive guide. Isolated under #forever-professions. */
+#forever-professions{
+  --pf-ink:#f0f1ec;--pf-soft:#bcced5;--pf-line:#8fb9c95b;
+  --pf-amber:#edc486;--pf-aqua:#8ddadb;
+  display:block;position:relative;isolation:isolate;
+  padding:0 0 68px;margin:36px 0 20px;scroll-margin-top:35px;
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--pf-ink)
+}
+#forever-professions *{box-sizing:border-box}
+#forever-professions .prof-guide-hero{
+  position:relative;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.86fr);
+  gap:clamp(16px,3vw,40px);min-height:405px;
+  background:linear-gradient(120deg,#0d2538,#153b4f 64%,#082739);
+  border:1px solid #9ec5c57f;border-radius:9px;overflow:hidden;
+  box-shadow:0 19px 43px #0006,0 0 0 1px #ddecca0c inset
+}
+#forever-professions .prof-guide-hero::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:radial-gradient(ellipse at 15% 5%,#287ea642,transparent 65%);
+}
+#forever-professions .prof-guide-hero-copy{
+  z-index:1;min-width:0;padding:clamp(28px,4.8vw,58px) 4px clamp(24px,4vw,44px) clamp(24px,4.4vw,58px);
+}
+#forever-professions .prof-kicker{
+  color:#85dae1;font:800 .7rem/1.5 system-ui;letter-spacing:.16em;text-transform:uppercase
+}
+#forever-professions .prof-guide-hero-copy h2{
+  color:#fff0db;font:600 clamp(2.5rem,4.5vw,4.35rem)/1.08 Georgia,serif;
+  letter-spacing:-.052em;margin:13px 0 18px;text-shadow:0 9px 36px #000a;
+}
+#forever-professions .prof-guide-hero-copy h2 em{color:#f5c985;font-weight:400}
+#forever-professions .prof-guide-hero-copy>p{
+  font-size:1rem;max-width:630px;color:#c7dce2;line-height:1.7;margin:0 0 20px
+}
+#forever-professions .prof-guide-pills{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 23px}
+#forever-professions .prof-guide-pills span{
+  padding:7px 10px;border:1px solid #8db6c667;border-radius:4px;
+  background:#062439ba;color:#d5e4e7;font-size:.72rem
+}
+#forever-professions .prof-guide-pills b{color:#f8cd85;font-size:.94rem}
+#forever-professions .prof-guide-hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+#forever-professions .prof-guide-hero-actions .button{font-size:.77rem;padding:10px 13px}
+#forever-professions .prof-guide-art{
+  display:flex;flex-direction:column;justify-content:flex-end;
+  min-height:100%;padding:34px 26px;position:relative;isolation:isolate;
+  background:linear-gradient(0deg,#071827ee,#071d2580 35%,#0b31491f 75%),url('../images/gallery/goldshire-after-dark.jpg') center/cover;
+}
+#forever-professions .prof-guide-art:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#123a4e66,transparent)}
+#forever-professions .prof-guide-art span{font:800 .69rem system-ui;letter-spacing:.17em;color:#a1e4e1}
+#forever-professions .prof-guide-art strong{color:#ffe7b8;font:600 clamp(2.1rem,3vw,3.55rem)/1.12 Georgia,serif;margin-top:11px;text-shadow:0 7px 24px #000}
+#forever-professions .prof-guide-basics{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px
+}
+#forever-professions .prof-guide-basics article{
+  position:relative;min-width:0;padding:22px 22px 19px;
+  background:linear-gradient(120deg,#143d50,#0d2639);
+  border:1px solid #7db4c27b;border-radius:6px
+}
+#forever-professions .prof-basic-icon{
+  display:inline-grid;place-items:center;width:34px;height:34px;
+  border:1px solid #d7be8d80;border-radius:50%;
+  color:#f9d69d;font-weight:750;font-size:.76rem;background:#062338
+}
+#forever-professions .prof-guide-basics h3{
+  color:#f8ebd8;font:600 1.12rem Georgia,serif;margin:12px 0 7px
+}
+#forever-professions .prof-guide-basics p{color:#c7d4d8;font:.78rem/1.6 system-ui;margin:0}
+#forever-professions .prof-guide-subhead{margin:39px 0 18px;scroll-margin-top:30px}
+#forever-professions .prof-guide-subhead h3{
+  color:#ffedd2;font:600 clamp(1.65rem,2.5vw,2.35rem)/1.17 Georgia,serif;margin:5px 0 8px
+}
+#forever-professions .prof-guide-subhead p{margin:0;font:.81rem/1.55 system-ui;color:#b8cdd3;max-width:900px}
+#forever-professions .prof-milestones{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+#forever-professions .prof-milestones>div{
+  padding:19px 17px;min-width:0;position:relative;
+  background:linear-gradient(140deg,#0e3247,#0c2031);
+  border:1px solid #7198ad91;border-radius:6px;
+}
+#forever-professions .prof-milestones>div:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,#4ed4cb,#e6c28e)}
+#forever-professions .prof-milestones>div>span{display:block;color:#78c2ce;letter-spacing:.15em;font-size:.7rem}
+#forever-professions .prof-milestones strong{display:block;color:#ffe1ad;font:600 2rem Georgia,serif;margin:4px 0}
+#forever-professions .prof-milestones small{display:block;font:700 .74rem system-ui;color:#a8dce3}
+#forever-professions .prof-milestones p{color:#c7d6db;font:.73rem/1.52 system-ui;margin:9px 0 0}
+#forever-professions .prof-colour-note{
+  display:flex;flex-wrap:wrap;gap:6px 19px;margin:14px 0 34px;
+  padding:12px 16px;border:1px solid #7db5bb55;border-radius:5px;background:#061e30ba
+}
+#forever-professions .prof-colour-note span{font-size:.73rem;font-weight:650}
+#forever-professions .pc-orange{color:#ff9b43}
+#forever-professions .pc-yellow{color:#ffda70}
+#forever-professions .pc-green{color:#92ce82}
+#forever-professions .pc-grey{color:#b9c1c6}
+#forever-professions .prof-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:17px}
+#forever-professions .prof-filters button{
+  padding:9px 15px;color:#d4e4e9;font:700 .76rem system-ui;
+  background:#0e3044;border:1px solid #88b3bd77;border-radius:4px;cursor:pointer
+}
+#forever-professions .prof-filters button:hover{background:#17516a;color:#fff}
+#forever-professions .prof-filters button[aria-pressed=true]{
+  border-color:#51c6de;background:#0d759c;color:#fff;box-shadow:0 5px 18px #038cd526
+}
+#forever-professions .prof-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#forever-professions .prof-card{
+  --pf-accent:#93bdc6;
+  min-width:0;position:relative;display:flex;flex-direction:column;
+  border:1px solid color-mix(in srgb,var(--pf-accent) 58%,transparent);
+  border-radius:7px;background:linear-gradient(150deg,#153c50,#0a2132 76%);
+  overflow:hidden;box-shadow:0 9px 22px #0004;
+}
+#forever-professions .prof-card[hidden]{display:none!important}
+#forever-professions .prof-card:before{
+  content:"";position:absolute;inset:0 0 auto;height:3px;
+  background:linear-gradient(90deg,var(--pf-accent),transparent 85%)
+}
+#forever-professions .prof-violet{--pf-accent:#c1a8f2;background:linear-gradient(150deg,#302c4a,#152239 80%)}
+#forever-professions .prof-amber{--pf-accent:#e9c68e;background:linear-gradient(150deg,#3b3431,#18283a 82%)}
+#forever-professions .prof-teal{--pf-accent:#83dfdf;background:linear-gradient(150deg,#144251,#0a2539 82%)}
+#forever-professions .prof-green{--pf-accent:#9bddb2;background:linear-gradient(150deg,#1e4439,#0d2634 82%)}
+#forever-professions .prof-red{--pf-accent:#ed9fa1;background:linear-gradient(150deg,#472e3d,#182437 82%)}
+#forever-professions .prof-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:20px 19px 0}
+#forever-professions .prof-icon{
+  display:grid;place-items:center;width:46px;height:46px;
+  border:1px solid color-mix(in srgb,var(--pf-accent) 63%,transparent);
+  border-radius:7px;background:#07172999;
+  color:var(--pf-accent);font-size:1.55rem
+}
+#forever-professions .prof-kind{font:800 .63rem system-ui;letter-spacing:.12em;color:var(--pf-accent)}
+#forever-professions .prof-card h4{padding:0 19px;margin:13px 0 7px;color:#fff0dc;font:600 1.38rem Georgia,serif}
+#forever-professions .prof-card-description{padding:0 19px;color:#c6d8dd;font:.79rem/1.55 system-ui;margin:0 0 12px;min-height:52px}
+#forever-professions .prof-card-pair{padding:11px 19px 14px;display:flex;gap:5px;flex-wrap:wrap;align-items:baseline}
+#forever-professions .prof-card-pair small{font:800 .63rem system-ui;letter-spacing:.09em;color:#96bbc6}
+#forever-professions .prof-card-pair strong{font:.77rem system-ui;color:#f4d598}
+#forever-professions .prof-card details{margin-top:auto;background:#031c2bab;border-top:1px solid #8db9c657}
+#forever-professions .prof-card summary{padding:13px 19px;cursor:pointer;font:700 .77rem system-ui;color:#a7e3ea;list-style:none;display:flex;justify-content:space-between;gap:12px}
+#forever-professions .prof-card summary::-webkit-details-marker{display:none}
+#forever-professions .prof-card details[open] summary{border-bottom:1px solid #84b7bd46}
+#forever-professions .prof-card details[open] summary span{transform:rotate(45deg)}
+#forever-professions .prof-card-details{padding:15px 19px 19px;color:#cfdee2}
+#forever-professions .prof-card-details p{font:.75rem/1.55 system-ui;margin:0 0 9px}
+#forever-professions .prof-card-details p strong{color:#f3d9a7}
+#forever-professions .prof-route{list-style:none;padding:0;margin:13px 0 12px;display:grid;gap:8px}
+#forever-professions .prof-route li{
+  display:flex;gap:10px;align-items:flex-start;padding:9px 9px;border:1px solid #7fa8bb4a;
+  border-radius:4px;background:#112e4257
+}
+#forever-professions .prof-route li b{flex:0 0 54px;color:#ffe1a9;font:.73rem system-ui}
+#forever-professions .prof-route li span{font:.71rem/1.48 system-ui;color:#c8d7dc}
+#forever-professions .prof-card-details a{display:inline-block;color:#9ce7e4;font:700 .74rem system-ui;border-bottom:1px solid #63b8bb55;padding-bottom:4px}
+#forever-professions .prof-pairing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#forever-professions .prof-hero-pair{min-width:0;padding:22px 19px;background:linear-gradient(145deg,#173e51,#0b263b);border:1px solid #91bcc877;border-radius:7px;box-shadow:0 12px 25px #0004}
+#forever-professions .prof-hero-pair:nth-child(1){background:linear-gradient(145deg,#352d59,#152338)}
+#forever-professions .prof-hero-pair:nth-child(2){background:linear-gradient(145deg,#2a4537,#142c37)}
+#forever-professions .prof-hero-pair:nth-child(3){background:linear-gradient(145deg,#134b58,#152c43)}
+#forever-professions .prof-pair-avatar{display:grid;place-items:center;width:51px;height:51px;margin:0 0 13px;border:1px solid #e1ce9b79;border-radius:50%;background:#0a1c30a1;color:#ffe1a7;font:2rem Georgia,serif}
+#forever-professions .prof-hero-pair .prof-kicker{letter-spacing:.12em;font-size:.58rem}
+#forever-professions .prof-hero-pair h4{font:600 1.5rem Georgia,serif;color:#fff0d9;margin:7px 0 12px}
+#forever-professions .prof-pair-choice{padding:10px;border-radius:4px;background:#061a2cb3;border:1px solid #9cb8a65d;color:#f9d9a0;font:800 .86rem system-ui}
+#forever-professions .prof-hero-pair p{font:.79rem/1.55 system-ui;color:#d4e0df;margin:12px 0 11px}
+#forever-professions .prof-hero-pair small{font:.71rem/1.5 system-ui;color:#afd2d4}
+#forever-professions .prof-pairing-tool{
+  display:grid;grid-template-columns:1.2fr minmax(240px,.95fr);
+  gap:12px 26px;margin:15px 0;padding:22px;
+  border:1px solid #8ec3cb66;border-radius:6px;
+  background:linear-gradient(110deg,#113c53,#0a233a)
+}
+#forever-professions .prof-pairing-tool h4{margin:7px 0;color:#f5e8d0;font:600 1.32rem Georgia,serif}
+#forever-professions .prof-pairing-tool label{align-self:end;font:700 .72rem system-ui;color:#a9dbe1}
+#forever-professions .prof-pairing-tool select{
+  grid-column:2;min-width:0;padding:12px 13px;border:1px solid #84c9d3;background:#081e2e;color:#fff4e2;border-radius:4px;font:normal .85rem system-ui;cursor:pointer
+}
+#forever-professions .prof-pairing-tool #prof-goal-answer{
+  grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 13px;
+  border-top:1px solid #9dcac659;margin:5px 0 0;padding-top:16px;font:.81rem/1.5 system-ui;color:#d8e6e5
+}
+#forever-professions #prof-goal-answer strong{color:#ffd898}
+#forever-professions .prof-forever-features{margin:40px 0}
+#forever-professions .prof-feature-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+#forever-professions .prof-feature-list article{display:flex;align-items:flex-start;gap:13px;padding:20px 18px;border:1px solid #7eacb57a;border-radius:6px;background:linear-gradient(120deg,#113c4d,#0d2537)}
+#forever-professions .prof-feature-list article>span{display:grid;place-items:center;flex:0 0 39px;height:39px;font-size:1.2rem;border:1px solid #d9c68a75;border-radius:6px;background:#09263b;color:#ffde9a}
+#forever-professions .prof-feature-list h4{margin:0 0 8px;color:#fff1d9;font:600 1.12rem Georgia,serif}
+#forever-professions .prof-feature-list p{font:.76rem/1.6 system-ui;color:#c8d9d9;margin:0}
+#forever-professions .prof-guide-sources{padding:22px 24px;background:#081e2dcc;border:1px solid #6c9eae6b;border-left:3px solid #d9bb82;border-radius:5px}
+#forever-professions .prof-guide-sources strong{color:#f1d9aa;font:700 .89rem system-ui}
+#forever-professions .prof-guide-sources p{color:#bfced4;font:.76rem/1.6 system-ui;margin:8px 0 12px}
+#forever-professions .prof-guide-sources a{display:inline-block;margin:4px 20px 4px 0;color:#98dae2;font:700 .73rem/1.4 system-ui}
+#forever-professions .prof-guide-sources a:hover{color:#ffe1ae}
+#forever-professions button:focus-visible,#forever-professions select:focus-visible,#forever-professions summary:focus-visible,#forever-professions a:focus-visible{outline:3px solid #c9eadb;outline-offset:3px}
+@media(max-width:1020px){
+  #forever-professions .prof-guide-hero{grid-template-columns:minmax(0,1.2fr) minmax(230px,.85fr)}
+  #forever-professions .prof-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #forever-professions .prof-feature-list{grid-template-columns:minmax(0,1fr)}
+  #forever-professions .prof-milestones{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  #forever-professions{margin-top:28px}
+  #forever-professions .prof-guide-hero{grid-template-columns:minmax(0,1fr)}
+  #forever-professions .prof-guide-hero-copy{padding:29px 22px 20px}
+  #forever-professions .prof-guide-art{min-height:200px}
+  #forever-professions .prof-guide-basics,#forever-professions .prof-pairing-grid{grid-template-columns:minmax(0,1fr)}
+  #forever-professions .prof-pairing-tool{grid-template-columns:minmax(0,1fr)}
+  #forever-professions .prof-pairing-tool select{grid-column:1}
+  #forever-professions .prof-pairing-tool #prof-goal-answer{grid-column:1}
+}
+@media(max-width:540px){
+  #forever-professions .prof-guide-hero-copy h2{font-size:clamp(2.15rem,9vw,3.1rem)}
+  #forever-professions .prof-cards,#forever-professions .prof-milestones{grid-template-columns:minmax(0,1fr)}
+  #forever-professions .prof-guide-hero-actions{flex-direction:column;align-items:stretch}
+  #forever-professions .prof-guide-hero-actions .button{text-align:center}
+  #forever-professions .prof-guide-subhead{margin-top:30px}
+  #forever-professions .prof-guide-hero-copy>p{font-size:.88rem}
+  #forever-professions .prof-card-description{min-height:0}
+  #forever-professions .prof-guide-sources a{display:block;margin:10px 0}
+}
+@media(prefers-reduced-motion:reduce){
+ #forever-professions *{scroll-behavior:auto!important;transition:none!important}
+}

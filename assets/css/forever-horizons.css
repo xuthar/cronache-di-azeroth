@@ -191,14 +191,16 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;bac
 
 /* FOREVER COMMAND CENTER · unified countdown and news, full-width and compact */
 body[data-page="home"] .home-live.forever-command-center{
-  width:calc(100vw - 44px);
-  max-width:1700px;
+  width:calc(100vw - 36px);
+  max-width:none;
   margin:26px 0 18px 50%;
   transform:translateX(-50%);
   display:grid;
-  grid-template-columns:minmax(0,46%) minmax(0,54%);
+  grid-template-columns:minmax(0,42%) minmax(0,58%);
   align-items:stretch;
   gap:0;
+  position:relative;
+  isolation:isolate;
   padding:0;
   overflow:hidden;
   border:1px solid #dbbb7b80;
@@ -215,7 +217,7 @@ body[data-page="home"] .forever-command-center::before{
 body[data-page="home"] .forever-command-center .launch-card,
 body[data-page="home"] .forever-command-center .news-card{
   min-width:0;margin:0;
-  padding:23px clamp(20px,3vw,45px) 21px;
+  padding:19px clamp(18px,2.7vw,36px) 19px;
   border:0;border-radius:0;
   background:transparent;box-shadow:none;
   overflow:visible;
@@ -269,11 +271,11 @@ body[data-page="home"] .forever-command-center .launch-timer{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
   gap:8px;
-  margin:13px 0 10px;
+  margin:10px 0 9px;
 }
 body[data-page="home"] .forever-command-center .launch-timer>div{
   min-width:0;
-  padding:9px 5px 8px;
+  padding:7px 5px 7px;
   border:1px solid #d7b77a55;
   border-radius:3px;
   background:#091a29a8;
@@ -425,3 +427,5 @@ body[data-page="home"] .forever-command-center .news-bottom small{
   body[data-page="home"] .forever-command-center .news-head h2{font-size:1.5rem}
   body[data-page="home"] .forever-command-center .launch-next-step a{display:inline-block;margin-left:0}
 }
+
+/* Single-commit Pages republish: Forever home command center v2 (2026-11-01). */

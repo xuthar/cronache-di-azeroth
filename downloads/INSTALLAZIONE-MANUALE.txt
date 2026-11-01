@@ -1,0 +1,16 @@
+AZEROTH CHRONICLE SYNC - INSTALLAZIONE MANUALE SENZA SCRIPT
+1) Scarica AzerothChronicleSync-manual.zip dal repository GitHub.
+2) Estrai la cartella AzerothChronicleSync contenuta nello ZIP.
+3) Copia la cartella AzerothChronicleSync in:
+   C:\Program Files (x86)\World of Warcraft\_forever_\Interface\AddOns\
+4) Alla fine i due file devono essere:
+   ...\_forever_\Interface\AddOns\AzerothChronicleSync\AzerothChronicleSync.toc
+   ...\_forever_\Interface\AddOns\AzerothChronicleSync\AzerothChronicleSync.lua
+5) Avvia WoW Forever, abilita Azeroth Chronicle Sync nell'elenco degli addon
+   e prova il comando /acs status. Quindi usa /reload o disconnettiti
+   per generare il file SavedVariables.
+6) Questo installa SOLO l'addon. La sincronizzazione dei dati verso GitHub
+   richiede una configurazione aggiuntiva del programma Windows: non
+   eseguire installer o script bloccati da Bitdefender.
+AVVERTENZA: al momento l'addon non e' ancora collaudato nel client live Forever.
+Una diagnosi antivirus va valutata prima di escludere qualunque file.

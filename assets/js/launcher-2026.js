@@ -163,10 +163,13 @@
   const destinations=[
     ['FOREVER','A world reborn','Launch updates, gameplay systems and the adventure ahead.','forever.html',images.horizon],
     ['THE LIVING CHRONICLE','Our progress','Three characters and their real journeys through Azeroth.','chronicle.html',images.forest],
+    ['THE LIVING BOOKS','Turn the pages','Read Xuthar’s first volume and browse two stories reserved for the future.','book.html?character=xuthar',images.goldshire],
     ['THE GALLERY','Worlds in pictures','Moments, landscapes and memories from Azeroth.','gallery.html',images.stormwind],
     ['XUTHAR MORVAYNE','The Last Witness','A complete roleplay biography, family mystery and in-game character guide.','xuthar.html',images.goldshire],
     ['RETAIL ARCHIVE','The heroes before Forever','A lifetime of characters and the roads already travelled.','retail.html',images.orgrimmar],
-    ['CALENDAR','Never miss the next chapter','Important events, schedules and milestones.','calendar.html',images.ironforge]
+    ['CALENDAR','Never miss the next chapter','Important events, schedules and milestones.','calendar.html',images.ironforge],
+    ['STORIES & LORE','Tales from Azeroth','Original short fiction and Warcraft background.','stories.html',images.forest],
+    ['TRAVEL JOURNAL','The road itself','Keep personal notes and memories of the journey.','journal.html',images.collection]
   ];
   const explore=document.createElement('section');explore.className='launcher-section launcher-explore wrap';explore.id='launcher-explore';
   explore.innerHTML=heading('05  /  EXPLORE AZEROTH','Choose your next adventure.','Every door opens onto another corner of the Chronicle.');

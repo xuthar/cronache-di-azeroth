@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-01",
+  "editorialPolicy": "Fictional backstory is separate from player-reported or verified in-game events. Never invent gameplay progress. Append chapters only after user provides real session evidence; use chronicle chronology and preserve unknowns.",
+  "volumes": [
+    {
+      "id": "xuthar",
+      "title": "The Last Witness",
+      "subtitle": "The Book of Forgotten Names",
+      "name": "Xuthar Morvayne",
+      "class": "Human · Shadow Priest",
+      "status": "prologue",
+      "priority": "main",
+      "dossier": "xuthar.html",
+      "cover": "assets/images/gallery/stormwind-midnight.jpg",
+      "illustration": "assets/images/gallery/moonlit-gathering.jpg",
+      "symbol": "☾",
+      "motto": "Memory before glory.",
+      "pages": [
+        {
+          "id": "x-dedication",
+          "chapter": "Front matter",
+          "title": "To those history forgets",
+          "kind": "fiction",
+          "paragraphs": [
+            "There are no monuments here for kings. No chronicles of victorious armies. These pages belong to the ones who passed unnoticed through rain, wheat and winter, whose names the world scarcely bothered to learn.",
+            "Xuthar Morvayne was not born with a prophecy. He was born with questions, and eventually he learned that even a question may become a burden when it asks too much of the living.",
+            "This book begins before the first real journey in World of Warcraft: Forever. Once the player enters Azeroth, later chapters will grow from actual sessions, then be transformed into fiction without changing what truly happened."
+          ]
+        },
+        {
+          "id": "x-ch1a",
+          "chapter": "Chapter I · Before the road",
+          "title": "The house of missing names",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Morvaynes had never owned enough land to make their surname important. They had owned paper. In their narrow house, records leaned against the walls, tied with fraying strings: inventories of modest estates, petitions sent by uncertain hands, lists of the dead whose graves had never received a stone.",
+            "As a child, Xuthar thought the work tedious. A good story surely required a king, a battle, a victory. His mother corrected him one evening by placing an empty page beside the record of a life no one remembered. 'Which of these', she asked, 'will be easier for the world to forget?'",
+            "The boy did not answer. That was the first lesson he kept."
+          ],
+          "image": "assets/images/gallery/stormwind-midnight.jpg",
+          "caption": "Archive illustration · Not an in-game visit."
+        },
+        {
+          "id": "x-ch1b",
+          "chapter": "Chapter I · Before the road",
+          "title": "The lessons of light",
+          "kind": "fiction",
+          "paragraphs": [
+            "In the care of priests shaped by Stormwind's teachings, he learned patience before he learned power. He tended lamps, memorized prayers and watched those who made themselves useful without expecting witnesses.",
+            "He loved the quiet mercy of healing. What troubled him was the certainty with which some spoke of the Light's will. He had seen the faithful remain unhealed. He had seen cruel men carried through sickness by accidents that looked like blessings. The questions gathered until they felt heavier than the books in his arms.",
+            "He did not turn against compassion. He turned against the comfort of pretending he knew why suffering had chosen one door and spared another."
+          ]
+        },
+        {
+          "id": "x-ch2a",
+          "chapter": "Chapter II · The winter vigil",
+          "title": "The woman without a name",
+          "kind": "fiction",
+          "paragraphs": [
+            "Snow whispered against the shutters that night. The dying woman in the narrow bed had no visitor. Xuthar had tried everything he knew, and now there was nothing left to offer but a chair and the refusal to leave.",
+            "She held his wrist. Her hand was astonishingly light. 'Do not pray that I will be saved,' she said. 'Pray that someone will remember I existed.'",
+            "The words remained after her breath did not. He waited for the familiar reassurance of the Light. Instead he found a silence so complete that it seemed to be listening back.",
+            "He did not know her name. That ignorance followed him farther than any road."
+          ],
+          "image": "assets/images/gallery/goldshire-after-dark.jpg",
+          "caption": "Atmospheric illustration · The vigil is fictional."
+        },
+        {
+          "id": "x-ch2b",
+          "chapter": "Chapter II · The winter vigil",
+          "title": "The first whisper",
+          "kind": "fiction",
+          "paragraphs": [
+            "A thought arrived in the empty room: And who will remember her?",
+            "He could not say whether it came from exhaustion, grief or something beyond the reach of his education. He had read enough warnings about the Void to know that a voice capable of asking an honest question might still intend a dishonest end.",
+            "He lit a candle, wrote the woman's last words and left the space for her name empty. It was the only honest record he could make.",
+            "For the first time, his unanswered prayer had become a responsibility rather than an accusation."
+          ]
+        },
+        {
+          "id": "x-ch3a",
+          "chapter": "Chapter III · The ledger",
+          "title": "Written in a fading flame",
+          "kind": "fiction",
+          "paragraphs": [
+            "Years later, among the family's damaged records, he found a book whose leaves looked untouched. A candle held close to the paper drew out delicate lines of ink that vanished when the flame moved away.",
+            "He tried again. The lines returned. Names, broken dates, accounts too brief to understand. He searched for a family history and found instead a list that appeared to have forgotten how to remain on the page.",
+            "Then he saw his own name. Beside it, no date of birth. Only a sentence: The last witness must not remember.",
+            "The words frightened him less than the possibility that he would believe them without proof."
+          ],
+          "image": "assets/images/gallery/moonlit-gathering.jpg",
+          "caption": "Illustrative archive scene · The magical ledger is original roleplay fiction."
+        },
+        {
+          "id": "x-ch3b",
+          "chapter": "Chapter III · The ledger",
+          "title": "A road rather than an answer",
+          "kind": "fiction",
+          "paragraphs": [
+            "He gathered the book, a needle, his travel-worn robes and what little money he could spare. He would investigate, not obey. A revelation that demanded surrender was not a revelation he meant to trust.",
+            "He decided to listen to people whose names would never become landmarks. He would keep records of campsites, old stories and small kindnesses. The Shadow would be a tool used with fear and care, never a master to whom he gave his judgment.",
+            "Before leaving, he wrote one rule on the inside cover: No answer is sacred enough to be spared a question."
+          ]
+        },
+        {
+          "id": "x-prologue",
+          "chapter": "Prologue · The Last Witness",
+          "title": "The things no one remembers",
+          "kind": "fiction",
+          "paragraphs": [
+            "There are silences that belong to peace, and others that grow where a name should have been. For years I mistook the first for the second.",
+            "A woman died with my hand in hers. She did not ask to be spared. She asked not to disappear. I did not know her name. I have carried the shame of that ignorance longer than I carried her body from the room.",
+            "Now my bag contains little: a robe mended too often, a needle, a book whose pages refuse to remain empty and the uneasy possibility that something waits for me in the silence.",
+            "I shall not call it truth merely because it speaks. Somewhere beyond these walls are villages, roads and people who will never be written into history. I do not yet know where my own path begins.",
+            "If a life must end, let at least its name endure."
+          ],
+          "signed": "Xuthar Morvayne · Fictional prologue"
+        },
+        {
+          "id": "x-future",
+          "chapter": "The Living Chronicle",
+          "title": "The first true footstep",
+          "kind": "pending",
+          "paragraphs": [
+            "This page will be written after Xuthar's first real session in Forever.",
+            "Actual quests, travel, encounters and choices will become the factual foundation of the chapter. The thoughts and symbolism may be imagined, but the events themselves will not be invented."
+          ],
+          "link": "chronicle.html"
+        }
+      ]
+    },
+    {
+      "id": "thorgar",
+      "title": "The Keeper of Unmarked Trails",
+      "subtitle": "The Seventh Cairn",
+      "name": "Thorgar Ironbeard",
+      "class": "Dwarf · Hunter",
+      "status": "reserved",
+      "priority": "future",
+      "dossier": "thorgar.html",
+      "cover": "assets/images/gallery/winter-veil-ironforge.jpg",
+      "illustration": "assets/images/gallery/orgrimmar-snow-globe.jpg",
+      "symbol": "⌖",
+      "motto": "Measure twice. Leave no one behind.",
+      "pages": [
+        {
+          "id": "t-dedication",
+          "chapter": "Front matter",
+          "title": "For the ones who will follow",
+          "kind": "fiction",
+          "paragraphs": [
+            "Some maps are made to claim land. The best ones are made so another traveller can find the way home.",
+            "Thorgar Ironbeard has not yet begun his journey in Forever. What follows is the personal fiction that will travel in his pack when his time arrives. His real achievements, companions and routes are still unwritten."
+          ]
+        },
+        {
+          "id": "t-ch1",
+          "chapter": "Chapter I · Ironforge",
+          "title": "Brass, ink and stubbornness",
+          "kind": "fiction",
+          "paragraphs": [
+            "Thorgar's childhood smelled of metal polish, fresh paper and the sharp warmth of a forge. His family repaired instruments for people who left Ironforge with hopes too large for their pockets. He learned to measure twice, not because his father feared mistakes, but because strangers might trust the work.",
+            "His mother preserved ledgers and maps with a severity the boy understood only years later. Every corrected distance meant a stranger might arrive before nightfall.",
+            "The mountain raised him, but every departing caravan taught him that the world had more corners than a well-made map could contain."
+          ],
+          "image": "assets/images/gallery/winter-veil-ironforge.jpg",
+          "caption": "Illustrative Ironforge archive."
+        },
+        {
+          "id": "t-ch2",
+          "chapter": "Chapter II · The survey",
+          "title": "Six stones, seven signatures",
+          "kind": "fiction",
+          "paragraphs": [
+            "In an old drawer he found a survey that listed six stone cairns and carried seven names. The last signature had been scraped away. Someone had written a warning on the edge: Do not count the seventh.",
+            "Thorgar asked for an explanation and was given three different stories. His father called the document damaged; an older relative said the expedition had ended safely. Nobody seemed eager to compare their memories.",
+            "He took the family's brass compass to his workbench. Its needle would not settle where the others did. He cleaned it, checked it, and refused to call it enchanted merely because it was inconvenient."
+          ],
+          "image": "assets/images/gallery/azure-crossroads.jpg",
+          "caption": "Atmospheric road illustration · Fictional survey."
+        },
+        {
+          "id": "t-prologue",
+          "chapter": "Prologue · The Seventh Cairn",
+          "title": "Where the seventh stone should be",
+          "kind": "fiction",
+          "paragraphs": [
+            "There are things a mountain keeps better than a man: cold, silence, and the weight of a promise made too long ago.",
+            "Six cairns on the route. Seven signatures beneath. One scratched away until the paper nearly broke. My father saw me count them, set down his hammer, and said some trails were best left to the weather.",
+            "Perhaps the compass is broken. Perhaps my pride is. I have packed my rifle and enough supplies for a poor start; I will trust neither a map nor a rumor until the ground has had its say.",
+            "For now I shall count seven stones, though I have only ever seen six."
+          ],
+          "signed": "Thorgar Ironbeard · Fictional prologue"
+        },
+        {
+          "id": "t-future",
+          "chapter": "Reserved",
+          "title": "A road not yet walked",
+          "kind": "pending",
+          "paragraphs": [
+            "The first real chapter will begin when Thorgar is actually played. Until then, his route, pet, friends, profession progress and choices remain unknown.",
+            "Xuthar Morvayne remains the main character whose Chronicle will grow first."
+          ],
+          "link": "thorgar.html"
+        }
+      ]
+    },
+    {
+      "id": "aelyndra",
+      "title": "The Listener Between Winds",
+      "subtitle": "The Song of Five Leaves",
+      "name": "Aelyndra Zephyrveil",
+      "class": "Skyborne · Druid",
+      "status": "reserved",
+      "priority": "future",
+      "dossier": "aelyndra.html",
+      "cover": "assets/images/gallery/azure-crossroads.jpg",
+      "illustration": "assets/images/gallery/moonlit-gathering.jpg",
+      "symbol": "❧",
+      "motto": "The wind belongs to no hand.",
+      "pages": [
+        {
+          "id": "a-dedication",
+          "chapter": "Front matter",
+          "title": "To everything that must change",
+          "kind": "fiction",
+          "paragraphs": [
+            "A place can be loved without being possessed. A song can be remembered without being forced to return.",
+            "Aelyndra's life in Forever remains ahead of her. Her faction, journeys and discoveries are not decided in these pages. They belong to future play, not the author's convenience."
+          ]
+        },
+        {
+          "id": "a-ch1",
+          "chapter": "Chapter I · Above the clouds",
+          "title": "The garden on Zephras Isle",
+          "kind": "fiction",
+          "paragraphs": [
+            "The gardens of Zephras Isle demanded gentle hands. Aelyndra grew among terraces where plants leaned toward the sun and the wind could interrupt the most careful work. Her mother taught her to bind young stems without constricting them.",
+            "She was fascinated less by the breadth of the sky than by the lives that persisted beneath it. A seed that survived a storm seemed as extraordinary as any ancestral tale.",
+            "When her people argued about their future, Aelyndra tried to hear what was being said beneath the anger: the fear of losing a home, and the fear of never being allowed to leave it."
+          ],
+          "image": "assets/images/gallery/azure-crossroads.jpg",
+          "caption": "Landscape from the Chronicles gallery; personal scenes are fictional."
+        },
+        {
+          "id": "a-ch2",
+          "chapter": "Chapter II · The still morning",
+          "title": "The fifth leaf",
+          "kind": "fiction",
+          "paragraphs": [
+            "A silver chime of five leaves hung outside the family dwelling. Its notes had accompanied ordinary mornings for as long as Aelyndra remembered. One day all the plants moved in the breeze, but the chime made no sound.",
+            "She examined the hinges and cords. Nothing seemed broken. She could not prove the object meant anything beyond its own silence.",
+            "That evening she wrapped it in cloth. The island had greater troubles than an heirloom, but she suspected people first learned to recognize loss through the smallest absences."
+          ],
+          "image": "assets/images/gallery/moonlit-gathering.jpg",
+          "caption": "Atmospheric archive illustration · Fictional family chime."
+        },
+        {
+          "id": "a-prologue",
+          "chapter": "Prologue · The Silent Chime",
+          "title": "The hour of still air",
+          "kind": "fiction",
+          "paragraphs": [
+            "Some mornings the terraces sang before the sun reached them. The wind moved through chimes, leaves and narrow spaces between stone. Every sound seemed to be its own language.",
+            "Mother told me I had confused listening with naming. A thing did not become mine because I could describe it. Then the silver chime fell silent, and I understood how quickly affection can become a demand.",
+            "I have folded away my herbs and wrapped the five leaves in cloth. Soon I shall travel into a world whose winds do not know my name. I hope I will be wise enough not to demand that they learn it.",
+            "If the song returns, I would like to hear it without mistaking it for a command."
+          ],
+          "signed": "Aelyndra Zephyrveil · Fictional prologue"
+        },
+        {
+          "id": "a-future",
+          "chapter": "Reserved",
+          "title": "The world beneath the clouds",
+          "kind": "pending",
+          "paragraphs": [
+            "Aelyndra's actual faction, adventures, encounters and skills will appear only once you play her in Forever.",
+            "Her personal lore is prepared, but Xuthar's chronicle comes first."
+          ],
+          "link": "aelyndra.html"
+        }
+      ]
+    }
+  ]
+}

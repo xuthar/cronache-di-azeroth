@@ -91,7 +91,7 @@
     if (!c) {
       add(card,'p','chronicle-untracked','Awaiting the first in-game sync.');
       add(card,'p','chronicle-small','No progress has been recorded for this character.');
-      if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}
+      if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}const book=add(card,'a','chronicle-xuthar-link','Open the character’s book →');book.href='book.html?character='+encodeURIComponent(hero.id);
       return;
     }
     const stats=add(card,'div','chronicle-stats');
@@ -118,7 +118,7 @@
       line.append(c.professions.map(p=>String(p.name||'')+' '+safeNumber(p.rank)).join(' · '));
     }
     add(card,'p','chronicle-last-played',official?'Official API checked: '+when(c.checkedAt||data.exportedAt):'Last seen: '+when(c.lastSeenAt));
-    if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}
+    if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}const book=add(card,'a','chronicle-xuthar-link','Open the character’s book →');book.href='book.html?character='+encodeURIComponent(hero.id);
   }
   function renderTimeline(data) {
     if (!timeline) return;

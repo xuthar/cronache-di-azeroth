@@ -90,7 +90,7 @@
     '<span class="forever-roster-seal" aria-hidden="true">III <small>THE NEW<br>CHRONICLE</small></span></div>' +
     '<div class="forever-roster-grid">' + cast.map(card).join('') + '</div>' +
     '<div class="forever-roster-footer"><p>Xuthar’s chronicle comes first. Thorgar and Aelyndra have fictional backstories prepared for future play; no gameplay progress is claimed for either.</p>' +
-    (full ? '<a class="text-link" href="xuthar.html">Read The Last Witness · Full Xuthar lore →</a>' :
+    (full ? '<a class="text-link" href="book.html?character=xuthar">Open the living character books →</a>' :
       '<a class="button primary" href="forever.html#forever-roster">Meet the Forever roster →</a>') + '</div>';
 
   if (page === 'home') {

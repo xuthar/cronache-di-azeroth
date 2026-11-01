@@ -37,6 +37,22 @@ The first command checks once. `-Watch` polls every 45 seconds **while PowerShel
 
 **WoW writes SavedVariables to disk on logout or `/reload`**, not on every event. The site polls the published feed every five minutes. No combat capture, keylogger, game memory access, packet interception, or automatic journal fiction is involved.
 
+## 4 · Start automatically with Windows (optional)
+
+After you have tested `sync.ps1` once and authenticated with `gh auth login`, you can set up the monitor to start in a minimized PowerShell window on your **own Windows account** (no administrator permissions required):
+
+```powershell
+.\start-on-login.ps1 -ClientPath "C:\Program Files (x86)\World of Warcraft\_forever_"
+```
+
+It will start after your next Windows login and watch for new saved exports. Remove the startup shortcut at any time:
+
+```powershell
+.\start-on-login.ps1 -Remove
+```
+
+The game is not controlled by this script; it only reads the file written by WoW. You can stop the watcher by closing its PowerShell process/window.
+
 ## Privacy and limitations
 
 - **Public:** in-game character names, realm, race/class, level/XP, tracked zones, quest completions, profession levels, and personal notes entered with `/acs note`.

@@ -37,7 +37,7 @@ function Get-ExportFile {
   if (-not (Test-Path -LiteralPath $accounts -PathType Container)) {
     throw "Game WTF folder not found: $accounts. Supply -ClientPath for the correct Forever game folder."
   }
-  $filesFound = @(Get-ChildItem -Path $accounts -Filter $sourceName".lua" -File -Recurse -ErrorAction SilentlyContinue |
+  $filesFound = @(Get-ChildItem -Path $accounts -Filter "AzerothChronicleSync.lua" -File -Recurse -ErrorAction SilentlyContinue |
     Where-Object { $_.FullName -match '[\\/]SavedVariables[\\/]AzerothChronicleSync\.lua$' } |
     Sort-Object LastWriteTimeUtc -Descending)
   if ($filesFound.Count -eq 0) { return $null }

@@ -1,0 +1,306 @@
+/* CHRONICLES OF AZEROTH · LAUNCHER EXPERIENCE 2026
+   Inspired by the visual rhythm of game launchers; entirely our own site language.
+   Loaded last to preserve previous features; no third-party fonts or UI dependencies. */
+:root {
+  --launch-night:#061523;
+  --launch-ink:#e8f3f4;
+  --launch-aqua:#78d5e5;
+  --launch-gold:#efc787;
+  --launch-blue:#087de0;
+  --launch-border:#6da9be50;
+  --launch-panel:#102b3e;
+}
+html.azeroth-launcher {scroll-padding-top:90px}
+.azeroth-launcher body {
+  color:var(--launch-ink);
+  background:#061624;
+  background-image:radial-gradient(circle at 80% 4%,#1e779749,transparent 39%),radial-gradient(circle at 9% 48%,#51408125,transparent 42%),linear-gradient(180deg,#071d2a 0%,#07131f 100%);
+}
+.azeroth-launcher .wrap{width:min(1440px,calc(100% - 60px))}
+.azeroth-launcher .masthead{
+  position:relative;z-index:10;
+  border-bottom:1px solid #b6d5e832;
+  background:linear-gradient(112deg,#081a2afa,#0e3144f9 62%,#071723fc);
+  box-shadow:0 14px 40px #0007;
+}
+.azeroth-launcher .masthead::before{height:3px;background:linear-gradient(90deg,#1976ab,#7dd5d4 35%,#dfb56d 68%,#2376a7)}
+.azeroth-launcher .brand-row{padding-block:14px 11px}
+.azeroth-launcher .brand-name{font:600 clamp(1.25rem,1.75vw,1.65rem)/1.1 Georgia,serif;letter-spacing:.02em;color:#fff4db}
+.azeroth-launcher .brand-sub{color:#9bdce9;letter-spacing:.16em}
+.azeroth-launcher .sigil{background:linear-gradient(140deg,#126c96,#0c3049);box-shadow:0 0 0 4px #4ba3ce11;color:#f2cb83}
+.azeroth-launcher .edition{border:1px solid #a8d4dd3c;border-radius:100px;background:#0d344a;padding:7px 13px;font:.72rem/1.3 system-ui;color:#b3e3e9}
+.azeroth-launcher .nav{gap:clamp(10px,1.45vw,24px);justify-content:flex-start;overflow-x:auto;scrollbar-width:thin}
+.azeroth-launcher .nav a{font:.78rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:#c7d9e2;padding:12px 4px;white-space:nowrap}
+.azeroth-launcher .nav a:hover,.azeroth-launcher .nav a[aria-current=page]{color:#f8d79c}
+.azeroth-launcher .nav a[aria-current=page]:after{background:#eabb72;height:3px}
+.azeroth-launcher .forever-signal{background:linear-gradient(90deg,#0d3d53,#092434);border-bottom:1px solid #7bbed545}
+.azeroth-launcher .forever-signal-inner{min-height:40px}
+.azeroth-launcher .forever-signal-copy strong{color:#dcebf2}
+.azeroth-launcher .forever-signal a{color:#f2cd85}
+.azeroth-launcher .button,.azeroth-launcher .launcher-panel-button {
+  border-radius:5px;font-weight:700;letter-spacing:.025em;transition:transform .2s,background .2s,box-shadow .2s;
+}
+.azeroth-launcher .button:hover,.azeroth-launcher .launcher-panel-button:hover{transform:translateY(-2px)}
+.azeroth-launcher .button.primary,.azeroth-launcher .launcher-panel-button{color:#fff;background:linear-gradient(150deg,#087fdc,#1260ab);border-color:#39a2ed;box-shadow:0 7px 25px #0057b248}
+.azeroth-launcher .button.primary:hover,.azeroth-launcher .launcher-panel-button:hover{background:linear-gradient(150deg,#149ff6,#1479d9);color:white}
+.azeroth-launcher .text-link{color:#e9c889;border-bottom-color:#cfa76c5e}
+.azeroth-launcher .section-head h2,.azeroth-launcher .page-header h1{color:#f8ebd6}
+.azeroth-launcher .section-head .eyebrow,.azeroth-launcher .page-header .eyebrow{color:#80cddd}
+.azeroth-launcher .content-card,.azeroth-launcher .world-card,.azeroth-launcher .resource-card{
+  border-color:#81b8c056;
+  background:linear-gradient(155deg,#13374a,#0b2434 64%,#112233);
+  box-shadow:0 8px 25px #0003;
+}
+.azeroth-launcher .content-card:hover,.azeroth-launcher .resource-card:hover{border-color:#7acde48c}
+.azeroth-launcher .page-header.launcher-interior-header{
+  isolation:isolate;position:relative;padding:68px clamp(22px,4vw,60px) 45px;margin-block:24px 34px;
+  border:1px solid #89b6c163;border-radius:9px;overflow:hidden;
+  background:linear-gradient(90deg,#061523f0 0%,#0a2534d9 50%,#0b25334d),url('../images/hero.webp') center 45%/cover;
+}
+.azeroth-launcher .page-header.launcher-interior-header:after{
+  content:'';position:absolute;inset:auto 0 0;height:3px;background:linear-gradient(90deg,#278bbd,#e8ba72,#438b9a);pointer-events:none;
+}
+.azeroth-launcher .page-header.launcher-interior-header h1{font-size:clamp(2.5rem,4vw,4rem);text-shadow:0 4px 15px #0008}
+.azeroth-launcher .page-header.launcher-interior-header p{color:#d1e3e5;max-width:760px}
+.azeroth-launcher .chronicle-hero.launcher-interior-header{
+  margin-top:22px;padding:72px clamp(25px,4vw,60px) 52px;border:1px solid #a6c9cd61;border-radius:8px;
+  background:linear-gradient(90deg,#071726f2,#071d29cd 62%,#06233466),url('../images/gallery/azure-crossroads.jpg') center 52%/cover;
+}
+.azeroth-launcher .chronicle-character{border-color:#9fbcbd69;box-shadow:0 16px 34px #0005}
+.azeroth-launcher .chronicle-character:nth-child(1){background:linear-gradient(145deg,#28304d,#111d32)}
+.azeroth-launcher .chronicle-character:nth-child(2){background:linear-gradient(145deg,#354632,#14252b)}
+.azeroth-launcher .chronicle-character:nth-child(3){background:linear-gradient(145deg,#164653,#122c42)}
+/* HOME · full-width cinematic split hero */
+.azeroth-launcher body[data-page=home] .hero{
+  min-height:570px;
+  background-image:linear-gradient(90deg,#061726f5 0%,#081b2bcf 37%,#09243575 65%,#061b2561),url('../images/hero.webp');
+  background-position:center,center 45%;
+  border-bottom:1px solid #8dc2d45b;
+}
+.azeroth-launcher body[data-page=home] .hero:before{inset:16px;border-color:#d9c49524}
+.azeroth-launcher body[data-page=home] .hero:after{z-index:-1;background:linear-gradient(0deg,#061523,transparent 48%)}
+.azeroth-launcher body[data-page=home] .hero-content{
+  display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,.64fr);
+  align-items:center;gap:clamp(24px,5vw,90px);
+  padding-block:76px 88px;
+}
+.azeroth-launcher .launcher-hero-copy{min-width:0}
+.azeroth-launcher .launcher-hero-copy .warfront-hero-kicker{
+  display:inline-flex;gap:12px;align-items:center;
+  color:#83d5e5;font:.73rem/1.5 system-ui;letter-spacing:.16em;text-transform:uppercase;
+}
+.azeroth-launcher .launcher-hero-copy .warfront-hero-kicker::before{content:"";height:6px;width:6px;border-radius:50%;background:#6fe4d9;box-shadow:0 0 18px #4ffcf8}
+.azeroth-launcher body[data-page=home] .hero h1{
+  max-width:900px;margin:19px 0 19px;
+  font:600 clamp(3.15rem,5.2vw,6rem)/1.04 Georgia,serif;
+  letter-spacing:-.055em;color:#fff5e4;text-shadow:0 8px 40px #000b;
+}
+.azeroth-launcher body[data-page=home] .hero h1 em{font-weight:400;color:#ffd28e;text-shadow:0 0 40px #ffa44d49}
+.azeroth-launcher body[data-page=home] .hero p{max-width:620px;margin:0 0 29px;color:#d5e7e9;font:1.04rem/1.74 system-ui}
+.azeroth-launcher body[data-page=home] .hero .buttons{gap:10px}
+.azeroth-launcher body[data-page=home] .hero .buttons .button{padding:12px 18px;font-size:.79rem}
+.azeroth-launcher body[data-page=home] .hero .buttons .launcher-ghost{background:#082638ba;border-color:#b2d6e469}
+.azeroth-launcher body[data-page=home] .hero .buttons .launcher-ghost:hover{background:#134762;color:#fff}
+.azeroth-launcher .launcher-hero-copy .hero-note{margin-top:34px;color:#b6d0d7;font-size:.82rem}
+.azeroth-launcher .launcher-game-panel{
+  width:100%;max-width:405px;justify-self:end;overflow:hidden;
+  padding:20px 20px 18px;border:1px solid #a4d4dd8c;border-radius:8px;
+  background:linear-gradient(150deg,#082c42e8,#081a2bf2 70%);
+  box-shadow:0 20px 60px #000a,0 0 35px #159fca17,inset 0 1px #fff3;
+  backdrop-filter:blur(14px);
+}
+.azeroth-launcher .launcher-panel-label{display:flex;gap:9px;align-items:center;font:700 .65rem system-ui;letter-spacing:.15em;color:#bedee5}
+.azeroth-launcher .launcher-pulse{width:7px;height:7px;background:#66d9bc;border-radius:50%;box-shadow:0 0 14px #56dfbd}
+.azeroth-launcher .launcher-game-name{display:flex;gap:13px;align-items:center;padding:19px 0 17px}
+.azeroth-launcher .launcher-game-name strong{display:block;color:#fff2d9;font:600 clamp(1.15rem,1.8vw,1.45rem) Georgia,serif}
+.azeroth-launcher .launcher-game-name small{display:block;color:#b0ccd4;font:.76rem system-ui}
+.azeroth-launcher .launcher-game-crest{display:grid;place-items:center;width:55px;height:55px;border:1px solid #eaca839b;border-radius:9px;background:radial-gradient(circle,#217d9c,#05253c);color:#f8d498;font-size:1.7rem;box-shadow:0 0 0 5px #c3ddcf0a}
+.azeroth-launcher .launcher-game-status{padding:13px 14px;border:1px solid #79b5bb65;border-radius:5px;background:#051725bd}
+.azeroth-launcher .launcher-game-status small{display:block;color:#9fc4d0;font:700 .6rem system-ui;letter-spacing:.17em}
+.azeroth-launcher .launcher-game-status strong{display:block;margin:4px 0;color:#fff0d5;font:600 1.25rem Georgia,serif}
+.azeroth-launcher .launcher-game-status span{font:.72rem system-ui;color:#93d7e3}
+.azeroth-launcher .launcher-panel-state{font:.76rem/1.5 system-ui;color:#bdcdd1;margin:13px 0}
+.azeroth-launcher .launcher-panel-button{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;font:.77rem system-ui}
+.azeroth-launcher .launcher-panel-links{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:15px}
+.azeroth-launcher .launcher-panel-links a{font:.68rem system-ui;color:#b7d3dc}
+.azeroth-launcher .launcher-panel-links a:hover{color:#f3d09a}
+/* HOME · common editorial sections */
+.azeroth-launcher .launcher-section{padding-block:31px}
+.azeroth-launcher .launcher-section-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:18px}
+.azeroth-launcher .launcher-section-heading h2{
+  margin:3px 0 0;color:#fff0d9;
+  font:600 clamp(1.55rem,2.45vw,2.55rem)/1.2 Georgia,serif;letter-spacing:-.026em;
+}
+.azeroth-launcher .launcher-section-heading p{max-width:700px;margin:8px 0 0;color:#acc6d0;font:.79rem/1.5 system-ui}
+.azeroth-launcher .launcher-eyebrow{font:800 .66rem/1.5 system-ui;letter-spacing:.16em;color:#73c4d4}
+.azeroth-launcher .launcher-heading-link{flex-shrink:0;color:#f6d199;font:700 .76rem/1.4 system-ui;padding-bottom:5px;border-bottom:1px solid #dbbf7b70}
+.azeroth-launcher .launcher-heading-link:hover{color:#fff}
+.azeroth-launcher .launcher-featured{margin-top:-14px;position:relative;z-index:1}
+.azeroth-launcher .launcher-feature-grid{display:grid;grid-template-columns:minmax(0,1.72fr) minmax(310px,.9fr);gap:15px}
+.azeroth-launcher .launcher-feature-side{display:grid;grid-template-rows:1fr 1fr;gap:15px;min-height:0}
+.azeroth-launcher .launcher-news-tile{
+  position:relative;display:block;isolation:isolate;overflow:hidden;min-width:0;min-height:235px;
+  border:1px solid #7daabc83;border-radius:8px;background:#102c40;box-shadow:0 13px 35px #0006;
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.azeroth-launcher .launcher-news-tile:hover,.azeroth-launcher .launcher-news-tile:focus-visible{
+  transform:translateY(-4px);border-color:#b3effb;box-shadow:0 22px 44px #0008,0 0 0 1px #66d4e588;
+}
+.azeroth-launcher .launcher-news-tile>img{position:absolute;inset:0;height:100%;width:100%;object-fit:cover;object-position:center 45%;filter:saturate(1.14) contrast(1.03);transition:transform .5s ease}
+.azeroth-launcher .launcher-news-tile:hover>img{transform:scale(1.045)}
+.azeroth-launcher .launcher-news-tile:before{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(0deg,#04131df9,#071c29e8 21%,#09273c40 67%,#05283912);
+}
+.azeroth-launcher .launcher-news-caption{position:relative;z-index:2;display:flex;flex-direction:column;justify-content:end;height:100%;padding:24px;min-height:inherit}
+.azeroth-launcher .launcher-tile-category{width:fit-content;color:#9bedf0;font:800 .63rem system-ui;letter-spacing:.13em;text-transform:uppercase}
+.azeroth-launcher .launcher-news-tile h3{margin:9px 0 8px;color:#fff4e4;text-shadow:0 4px 15px #000;font:600 clamp(1.2rem,1.8vw,1.85rem)/1.17 Georgia,serif}
+.azeroth-launcher .launcher-news-tile p{margin:0 0 8px;font:.78rem/1.48 system-ui;color:#d3e3e9;max-width:620px}
+.azeroth-launcher .launcher-tile-link{margin-top:3px;font:700 .72rem system-ui;color:#f5d399}
+.azeroth-launcher .launcher-news-lead{min-height:490px}
+.azeroth-launcher .launcher-news-lead .launcher-news-caption{padding:32px}
+.azeroth-launcher .launcher-news-lead h3{font-size:clamp(1.85rem,3.35vw,3.4rem);max-width:650px}
+.azeroth-launcher .launcher-news-lead p{font-size:.92rem;max-width:560px}
+.azeroth-launcher .launcher-news-secondary{min-height:235px}
+.azeroth-launcher .launcher-news-secondary h3{font-size:clamp(1.2rem,1.9vw,1.8rem)}
+.azeroth-launcher .launcher-dynamic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.azeroth-launcher .launcher-dynamic-grid .launcher-news-tile{min-height:325px}
+.azeroth-launcher .launcher-dynamic-grid .launcher-news-tile h3{font-size:clamp(1.3rem,1.8vw,1.8rem)}
+.azeroth-launcher .launcher-news-source{margin:9px 0 0;font:.69rem/1.5 system-ui;color:#8cb6bf}
+/* Preserve the original two separate rows (COUNTDOWN first, NEWS second). */
+.azeroth-launcher .launcher-command .home-live.forever-command-center{
+  width:100%!important;max-width:none!important;margin:0!important;transform:none!important;
+  display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:12px!important;
+  border:0!important;border-radius:0!important;overflow:visible!important;box-shadow:none!important;
+  background:none!important;position:relative;
+}
+.azeroth-launcher .launcher-command .home-live.forever-command-center:before{display:none}
+.azeroth-launcher .launcher-command .forever-command-center .launch-card,
+.azeroth-launcher .launcher-command .forever-command-center .news-card{
+  border:1px solid #6bb1c47c;border-radius:8px;background:linear-gradient(120deg,#123e56,#092b44 60%,#143342);
+  box-shadow:0 13px 34px #0006;padding:20px 28px;overflow:hidden;
+}
+.azeroth-launcher .launcher-command .forever-command-center .launch-card{
+  grid-template-columns:minmax(210px,1fr) minmax(340px,1.65fr) minmax(200px,.95fr);
+  align-items:center;column-gap:35px;
+}
+.azeroth-launcher .launcher-command .forever-command-center .news-card{
+  grid-template-columns:minmax(190px,.78fr) minmax(0,2.6fr) minmax(195px,.87fr);
+  align-items:center;column-gap:25px;background:linear-gradient(120deg,#142d45,#0c2336 56%,#194159);
+}
+.azeroth-launcher .launcher-command .launch-timer>div{background:#041d2ec7;border-color:#7ebfd368}
+.azeroth-launcher .launcher-command .launch-timer strong{color:#ffe0ab}
+.azeroth-launcher .launcher-command .news-head h2{color:#ffeacc}
+.azeroth-launcher .launcher-command .news-auto{color:#8cdeea}
+/* Character dossier and live progress */
+.azeroth-launcher .launcher-adventurers{padding-top:40px}
+.azeroth-launcher .launcher-roster.forever-roster-section{margin:0;padding:0;border:1px solid #75b4c468;border-radius:8px;overflow:hidden;background:linear-gradient(140deg,#092637,#102c40);box-shadow:0 15px 36px #0006}
+.azeroth-launcher .launcher-roster .forever-roster-heading{background:linear-gradient(100deg,#123c4d,#092434)}
+.azeroth-launcher .launcher-roster .forever-roster-grid{gap:15px}
+.azeroth-launcher .launcher-roster .forever-roster-card{border-radius:7px;box-shadow:0 8px 25px #0004}
+.azeroth-launcher .launcher-roster .forever-roster-card--priest{background:linear-gradient(150deg,#3e315f,#161d36)}
+.azeroth-launcher .launcher-roster .forever-roster-card--hunter{background:linear-gradient(150deg,#35492b,#152a30)}
+.azeroth-launcher .launcher-roster .forever-roster-card--druid{background:linear-gradient(150deg,#0c4b58,#203448)}
+.azeroth-launcher .launcher-roster .forever-roster-card-body{background:linear-gradient(150deg,#fff1,transparent)}
+.azeroth-launcher .launcher-chronicle-teaser{width:100%;max-width:none;margin:15px 0 0;padding:20px;border:1px solid #8ac0c16b;border-radius:8px;background:linear-gradient(105deg,#174457,#102d3f);box-shadow:0 10px 25px #0004}
+.azeroth-launcher .launcher-chronicle-teaser .button{background:#0e5d86;border-color:#2c96be;color:#fff}
+/* Explore cards */
+.azeroth-launcher .launcher-explore-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.azeroth-launcher .launcher-destination{position:relative;display:block;min-height:244px;overflow:hidden;isolation:isolate;border:1px solid #7cbdc38e;border-radius:8px;background:#102b3b;transition:transform .2s,border-color .2s}
+.azeroth-launcher .launcher-destination:hover{transform:translateY(-4px);border-color:#8de2e8}
+.azeroth-launcher .launcher-destination img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.1)}
+.azeroth-launcher .launcher-destination:before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,#071824f7,#0b2739dd 30%,#0b223939 76%);pointer-events:none}
+.azeroth-launcher .launcher-destination-copy{position:absolute;inset:auto 0 0;z-index:2;display:flex;flex-direction:column;padding:22px}
+.azeroth-launcher .launcher-destination-copy small{font:800 .61rem system-ui;letter-spacing:.14em;color:#8ce1e8}
+.azeroth-launcher .launcher-destination-copy strong{font:600 1.53rem/1.2 Georgia,serif;color:#fff0d8;margin:7px 0}
+.azeroth-launcher .launcher-destination-copy span{font:.76rem/1.45 system-ui;color:#d2e2e7;max-width:350px}
+.azeroth-launcher .launcher-destination-copy b{position:absolute;right:18px;bottom:18px;font:1.2rem system-ui;color:#f4d391}
+/* Media spotlight */
+.azeroth-launcher .launcher-media-grid{display:grid;grid-template-columns:1.32fr 1fr;gap:15px}
+.azeroth-launcher .launcher-media-tile{position:relative;isolation:isolate;min-height:280px;display:block;overflow:hidden;border:1px solid #82bac96a;border-radius:8px;background:#122f43}
+.azeroth-launcher .launcher-media-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.azeroth-launcher .launcher-media-tile:before{content:'';position:absolute;z-index:1;inset:0;background:linear-gradient(0deg,#061725fd,#081c33bb 49%,#071d2830)}
+.azeroth-launcher .launcher-media-tile:hover{border-color:#87d9ed}
+.azeroth-launcher .launcher-media-copy{position:absolute;z-index:2;inset:auto 0 0;padding:23px}
+.azeroth-launcher .launcher-media-copy small{color:#8ce4e3;font:800 .66rem system-ui;letter-spacing:.13em}
+.azeroth-launcher .launcher-media-copy h3{color:#fff1dc;font:600 1.65rem Georgia,serif;margin:7px 0}
+.azeroth-launcher .launcher-media-copy p{font:.77rem/1.5 system-ui;color:#d4e5e7;margin:0 0 5px}
+.azeroth-launcher .launcher-media-copy span{color:#f5d092;font:700 .75rem system-ui}
+.azeroth-launcher .launcher-directory{width:min(1440px,calc(100% - 60px));margin:22px auto 45px;border:1px solid #80bac370;border-radius:8px;background:#0c2b3d}
+.azeroth-launcher .launcher-directory>summary{padding:17px 23px;cursor:pointer;color:#f2d397;font:700 .82rem system-ui;list-style-position:inside}
+.azeroth-launcher .launcher-directory[open]>summary{border-bottom:1px solid #6bb0be55}
+.azeroth-launcher .launcher-directory #useful-sites{padding:12px 24px 25px}
+.azeroth-launcher .launcher-directory .resource-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+/* Legacy text-only material remains available in the relevant destination pages. */
+.azeroth-launcher body.launcher-home-ready .home-forever-news,
+.azeroth-launcher body.launcher-home-ready .home-forever-focus,
+.azeroth-launcher body.launcher-home-ready .home-forever-journal,
+.azeroth-launcher body.launcher-home-ready .home-lore,
+.azeroth-launcher body.launcher-home-ready .warfront-newsbar,
+.azeroth-launcher body.launcher-home-ready .evergreen-compass,
+.azeroth-launcher body.launcher-home-ready .warfront-story-panel,
+.azeroth-launcher body.launcher-home-ready #main .quote{display:none!important}
+.azeroth-launcher body.launcher-home-ready #main>.wrap:empty{display:none}
+.azeroth-launcher .footer{margin-top:36px;padding-block:32px;border-top:2px solid #79c5ca77;background:linear-gradient(110deg,#08263a,#081523)}
+.azeroth-launcher .footer .footer-title{color:#ffebc9}
+.azeroth-launcher .footer small{color:#a3bec3}
+@media(max-width:1180px){
+  .azeroth-launcher .launcher-command .forever-command-center .launch-card{grid-template-columns:minmax(170px,.9fr) minmax(290px,1.3fr);gap:14px 24px}
+  .azeroth-launcher .launcher-command .forever-command-center .news-card{grid-template-columns:minmax(180px,.75fr) minmax(0,2.4fr);gap:14px 24px}
+  .azeroth-launcher .launcher-command .forever-command-center .launch-links,
+  .azeroth-launcher .launcher-command .forever-command-center .news-bottom{grid-column:1/-1;flex-direction:row;flex-wrap:wrap;padding:10px 0 0;border-left:0;border-top:1px solid #98c6ce4d}
+}
+@media(max-width:900px){
+  .azeroth-launcher .wrap{width:min(100% - 36px,1440px)}
+  .azeroth-launcher body[data-page=home] .hero-content{grid-template-columns:minmax(0,1fr) minmax(250px,.62fr);gap:22px}
+  .azeroth-launcher body[data-page=home] .hero h1{font-size:clamp(2.8rem,5vw,4.2rem)}
+  .azeroth-launcher .launcher-feature-grid{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-news-lead{min-height:390px}
+  .azeroth-launcher .launcher-feature-side{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto}
+  .azeroth-launcher .launcher-news-secondary{min-height:230px}
+  .azeroth-launcher .launcher-dynamic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .azeroth-launcher .launcher-explore-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .azeroth-launcher .launcher-directory{width:calc(100% - 36px)}
+}
+@media(max-width:700px){
+  .azeroth-launcher .wrap{width:calc(100% - 28px)}
+  .azeroth-launcher .brand-row{gap:10px;flex-wrap:wrap}
+  .azeroth-launcher .edition{display:none}
+  .azeroth-launcher .nav{flex-wrap:wrap;overflow:visible;gap:8px 14px}
+  .azeroth-launcher .nav a{font-size:.74rem;padding:8px 2px}
+  .azeroth-launcher body[data-page=home] .hero{min-height:auto}
+  .azeroth-launcher body[data-page=home] .hero-content{grid-template-columns:minmax(0,1fr);padding:57px 0 43px;gap:27px}
+  .azeroth-launcher body[data-page=home] .hero h1{font-size:clamp(2.8rem,9vw,4.2rem)}
+  .azeroth-launcher .launcher-game-panel{max-width:none;justify-self:stretch}
+  .azeroth-launcher .launcher-section{padding-block:26px}
+  .azeroth-launcher .launcher-section-heading{align-items:flex-start;flex-direction:column;gap:7px}
+  .azeroth-launcher .launcher-featured{margin-top:0}
+  .azeroth-launcher .launcher-feature-side{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-news-lead{min-height:385px}
+  .azeroth-launcher .launcher-news-secondary{min-height:240px}
+  .azeroth-launcher .launcher-dynamic-grid{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-dynamic-grid .launcher-news-tile{min-height:290px}
+  .azeroth-launcher .launcher-command .forever-command-center .launch-card,
+  .azeroth-launcher .launcher-command .forever-command-center .news-card{
+    grid-template-columns:minmax(0,1fr);padding:18px 16px;gap:14px;
+  }
+  .azeroth-launcher .launcher-command .forever-command-center .launch-links,
+  .azeroth-launcher .launcher-command .forever-command-center .news-bottom{grid-column:1/-1}
+  .azeroth-launcher .launcher-command .forever-command-center .wow-news-list{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-explore-grid{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-media-grid{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .launcher-directory{width:calc(100% - 28px)}
+  .azeroth-launcher .launcher-directory .resource-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:420px){
+  .azeroth-launcher .launcher-news-caption,.azeroth-launcher .launcher-news-lead .launcher-news-caption{padding:17px}
+  .azeroth-launcher .launcher-news-lead h3{font-size:2rem}
+  .azeroth-launcher .launcher-game-panel{padding:16px}
+  .azeroth-launcher .launcher-command .forever-command-center .launch-timer{gap:4px}
+  .azeroth-launcher .launcher-command .forever-command-center .launch-timer strong{font-size:clamp(1.6rem,7vw,2rem)}
+}
+@media(prefers-reduced-motion:reduce){
+  .azeroth-launcher .launcher-news-tile,.azeroth-launcher .launcher-news-tile>img,
+  .azeroth-launcher .launcher-destination,.azeroth-launcher .button{transition:none!important}
+  .azeroth-launcher .launcher-news-tile:hover,.azeroth-launcher .launcher-destination:hover{transform:none}
+}

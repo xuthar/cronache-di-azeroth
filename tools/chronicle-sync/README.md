@@ -1,8 +1,21 @@
 # Azeroth Chronicle Sync — setup for Windows
 
-**Status:** working implementation prepared for the first real Forever login. The live game API and TOC Interface value (`16001`) should be verified against the release client. No real progress has been collected or uploaded yet.
+**Status:** beta implementation ready for first real Forever login. The game API and TOC Interface value (`16001`) are provisional until tested in the release client. No real progress has been collected or uploaded yet.
 
-## 1 · Install the addon
+**Preconfigured owner game directory:** `C:\Program Files (x86)\World of Warcraft\_forever_`. The installer uses this value by default. If your client moves, supply `-ClientPath` manually.
+
+## Quick Windows installation (recommended)
+
+1. Download the [complete project ZIP](https://github.com/xuthar/cronache-di-azeroth/archive/refs/heads/main.zip) and **extract all files** into a normal Windows directory.
+2. Open `tools\chronicle-sync` inside the extracted directory and double-click **`INSTALLA-CHRONICLE.bat`**. The game path is already filled in.
+3. If Program Files denies access, the installer can request UAC elevation *only for copying the addon*; do not run GitHub login as administrator.
+4. GitHub CLI is required to publish. Install it from https://cli.github.com/ if missing, rerun the installer, and authenticate with your `xuthar` GitHub account on your own PC.
+5. In the Forever game, use `/acs status` then `/reload` or log out. Double-click **`AVVIA-SYNC.bat`** in the same folder to start the watcher.
+6. If you explicitly opt into automatic Windows startup in the installer, a shortcut is created for your own Windows account. You can choose **No** and enable it later.
+
+The installed monitor lives in `%LOCALAPPDATA%\AzerothChronicleSync`, so it is not dependent on leaving the downloaded repository ZIP extracted in the same place. The two `.bat` launchers do not require administrator privileges for GitHub operations. `-ExecutionPolicy Bypass` is applied to the individual PowerShell process, not the system policy. Inspect the scripts before running them if desired.
+
+## 1 · Install the addon manually (alternative)
 
 Download the repository ZIP from GitHub or clone the repository. Open PowerShell and run:
 
@@ -11,7 +24,7 @@ cd "C:\path\to\cronache-di-azeroth\tools\chronicle-sync"
 .\install-addon.ps1 -ClientPath "C:\Program Files (x86)\World of Warcraft\_forever_"
 ```
 
-**Important:** `_forever_` is an EXAMPLE, not a verified client directory. Replace it with the actual game directory containing `Interface` and `WTF`. You can also manually copy `addons/AzerothChronicleSync` into `<game>/Interface/AddOns/`.
+**Important:** This path was supplied by the owner but has not been inspected remotely. Replace it if your installation moved. You can also manually copy `addons/AzerothChronicleSync` into `<game>/Interface/AddOns/`.
 
 Use in-game `/acs status`, `/acs note Explored a quiet trail tonight`, `/acs off`, `/acs on`. Only characters whose **game names** are Xuthar, Thorgar or Aelyndra are automatically tracked; the site's full roleplay names are display labels.
 

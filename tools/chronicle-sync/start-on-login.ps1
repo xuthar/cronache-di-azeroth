@@ -6,7 +6,7 @@ Install: .\start-on-login.ps1 -ClientPath "C:\...\World of Warcraft\_forever_"
 Remove:  .\start-on-login.ps1 -Remove
 #>
 [CmdletBinding()]
-param([string]$ClientPath = "", [switch]$Remove)
+param([string]$ClientPath = 'C:\Program Files (x86)\World of Warcraft\_forever_', [switch]$Remove)
 $ErrorActionPreference = 'Stop'
 $startup = [Environment]::GetFolderPath([Environment+SpecialFolder]::Startup)
 $shortcutPath = Join-Path $startup 'Azeroth Chronicle Sync.lnk'
@@ -24,7 +24,7 @@ if (-not (Test-Path -LiteralPath $script -PathType Leaf)) { throw "sync.ps1 must
 $exe = Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
 $shortcut = (New-Object -ComObject WScript.Shell).CreateShortcut($shortcutPath)
 $shortcut.TargetPath = $exe
-$shortcut.Arguments = '-NoProfile -WindowStyle Minimized -File "' + $script + '" -ClientPath "' + $ClientPath + '" -Watch'
+$shortcut.Arguments = '-NoProfile -ExecutionPolicy Bypass -WindowStyle Minimized -File "' + $script + '" -ClientPath "' + $ClientPath + '" -Watch'
 $shortcut.WorkingDirectory = $PSScriptRoot
 $shortcut.Description = 'Sync WoW Forever SavedVariables to personal public Chronicle page'
 $shortcut.WindowStyle = 7

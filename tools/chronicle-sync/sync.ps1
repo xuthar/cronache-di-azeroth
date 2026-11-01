@@ -7,7 +7,7 @@ Writes public character progress only to branch live-progress, never to main.
 #>
 [CmdletBinding()]
 param(
-  [Parameter(Mandatory = $true)][string]$ClientPath,
+  [string]$ClientPath = 'C:\Program Files (x86)\World of Warcraft\_forever_',
   [string]$SavedVariablesPath = "",
   [switch]$Watch,
   [ValidateRange(15,3600)][int]$IntervalSeconds = 45,

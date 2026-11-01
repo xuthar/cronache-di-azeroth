@@ -33,17 +33,86 @@
   const route = `<ol class="route-list"><li><strong>The Oak Inn</strong><span>01 · The starting point</span></li><li><strong>Ford Trail</strong><span>02 · On the road</span></li><li><strong>Pine Glade</strong><span>03 · The latest stop</span></li></ol>`;
   const paragraphs = list => list.map(p=>`<p>${escape(p)}</p>`).join('');
   const facts = entries => `<dl class="facts">${entries.map(([k,v])=>`<div><dt>${escape(k)}</dt><dd>${escape(v)}</dd></div>`).join('')}</dl>`;
-  const homeCharacters = () => {
-    const colors = {'Priest':'#e9e4f5','Hunter':'#aad372','Paladin':'#f48cba','Warrior':'#c69b6d','Mage':'#69ccf0','Death Knight':'#ef6874','Monk':'#00ff98','Druid':'#ff9c52'};
-    return `<section class="section home-heroes" aria-labelledby="home-heroes-title"><div class="section-head"><div><span class="eyebrow">The faces behind the adventures</span><h2 id="home-heroes-title">Meet my heroes</h2></div><a class="text-link" href="retail.html">All character stories</a></div><div class="hero-portrait-strip">${data.characters.map(c => `<a class="hero-portrait-card" href="retail.html#${escape(c.id)}" style="--class-accent:${colors[c.className] || '#cfac69'}"><div class="hero-portrait-frame"><img src="${escape(safeImage(c.image))}" alt="${escape(c.name)}" loading="lazy" decoding="async"></div><span class="hero-portrait-name">${escape(c.name)}</span><span class="hero-portrait-class">${escape(c.className)}</span></a>`).join('')}</div></section>`;
-  };
-  const homeFeaturedStory = () => {
-    const story = data.stories.find(s => s.id === 'elwynn-rain-check') || data.stories[0];
-    if (!story) return '';
-    return `<section class="section home-featured-story" aria-labelledby="featured-story-title"><div class="section-head"><div><span class="eyebrow">A tale for tonight</span><h2 id="featured-story-title">Beside the inn’s warm light</h2></div><a class="text-link" href="stories.html">Browse all tales</a></div><article class="featured-story-card"><figure><img src="assets/images/gallery/goldshire-after-dark.jpg" alt="Adventurers and glowing mounts outside the warmly lit Goldshire inn at night." loading="lazy" decoding="async"><figcaption><a href="gallery.html">Goldshire after dark · From the gallery</a></figcaption></figure><div class="featured-story-copy"><span class="badge">${escape(story.zone)} · Original short fiction</span><h3>${escape(story.title)}</h3><p>${escape(story.excerpt)}</p><blockquote>“${escape(story.text[0])}”</blockquote><a class="button primary" href="stories.html#${escape(story.id)}">Read the story</a></div></article></section>`;
-  };
   const renderers = {
-    home: () => `<section class="hero"><div class="wrap hero-content"><span class="eyebrow">Beta closed · Next stop: WoW Forever</span><h1>Azeroth is calling.<br>We’re coming <em>home.</em></h1><p>The beta is over. The real journey begins on 5 November at 00:00 CET.<br>Old roads. New companions. One more campfire beneath the stars.</p><div class="buttons"><a class="button primary" href="forever.html">Get ready for Forever</a><a class="button" href="retail.html">Meet the characters</a></div><div class="hero-note">Travel notes by ${escape(data.author)}</div></div></section><div class="wrap">${homeCharacters()}<section class="section" aria-labelledby="editorial-updates-title"><div class="section-head"><div><span class="eyebrow">Latest official dispatches · 23 October 2026</span><h2 id="editorial-updates-title">The beta is closed. The adventure is next.</h2></div><a class="text-link" href="forever.html#forever-news">All Forever launch news →</a></div><div class="two-worlds"><article class="world-card"><span class="eyebrow">Next milestone · 27 October–3 November</span><h3>A new beginning deserves a name.</h3><p>Eligible upgrade purchasers can reserve up to three character names across all rulesets. Europe opens on 27 October at 18:00 CET. Choose your name, ready your companions, and start imagining the first evening on the road.</p><a class="text-link" href="https://worldofwarcraft.blizzard.com/en-us/news/24303866" target="_blank" rel="noopener noreferrer">Official name reservation details ↗</a></article><article class="world-card retail"><span class="eyebrow">Confirmed for launch · RP-PvP</span><h3>Your story. A world with real danger.</h3><p>Roleplay-PvP is joining Forever at launch. Blizzard is also working to make it available for early name reservations. New dungeon previews, the first raid schedule, and a closer look at Camping are waiting in our updated Forever guide.</p><a class="text-link" href="forever.html#forever-news">Explore the latest announcements →</a></article></div></section>${homeFeaturedStory()}<section class="section"><div class="section-head"><div><span class="eyebrow">Choose a path</span><h2>Two ways to explore Azeroth</h2></div><span class="meta">The personal collection of ${escape(data.author)}</span></div><div class="two-worlds"><article class="world-card retail"><span class="card-number" aria-hidden="true">I</span><span class="eyebrow">Adventures & characters</span><h3>World of Warcraft Retail</h3><p>The heroes behind the adventures. Stories, identities, and memories of the characters who make every return to Azeroth different.</p><a class="text-link" href="retail.html">Explore the characters</a></article><article class="world-card"><span class="card-number" aria-hidden="true">II</span><span class="eyebrow">Roleplay & life on the road</span><h3>WoW Forever</h3><p>Time to watch, pause, and tell a tale. Follow ${escape(data.character)} along forgotten trails and through woodland campsites.</p><a class="text-link" href="forever.html">Follow the journey</a></article></div></section><section class="section home-lore"><div class="section-head"><div><span class="eyebrow">A new volume in the archive</span><h2>The Road to Loremaster</h2></div><a class="text-link" href="lore.html">Enter The Lore</a></div><article class="world-card"><span class="eyebrow">Twelve eras · One unfolding story</span><h3>Before every quest, there was a story.</h3><p>Travel through Warcraft’s history, expansion by expansion: the fall of kings, the return of dragons, the wounds of the world, and the dawn that follows the dark. Read the chapters and watch their official cinematic trailers.</p><a class="button" href="lore.html#classic">Begin with Classic</a></article></section><section class="section"><div class="section-head"><div><span class="eyebrow">From the travel journal</span><h2>The latest page</h2></div><a class="text-link" href="journal.html">All journal entries</a></div><div class="home-journal"><article class="paper"><span class="eyebrow">Third evening · Sample story</span><h3>A light among the pines</h3><p class="prose">«I left the road before sunset. Among the trees, the wind finally stopped following me.»</p><p>A clearing, a cloak to dry, and the hush of the woods. Tonight, the journey rests here.</p><a class="text-link" href="journal.html#luce-tra-i-pini">Read this entry</a></article><aside class="journal-aside"><span class="eyebrow">The story’s route</span>${route}<a class="text-link" href="campsites.html#radura">Visit the campsite</a></aside></div></section><div class="quote"><blockquote>«Not every road leads to a battle.<br>Some lead only to a good place to light a fire.»</blockquote><cite>From the journal of ${escape(data.character)} · sample writing</cite></div></div>`,
+    home: () => `
+      <section class="hero">
+        <div class="wrap hero-content">
+          <span class="eyebrow">World of Warcraft Forever · A new beginning</span>
+          <h1>The road is calling.<br><em>This time, Forever.</em></h1>
+          <p>Three companions. A whole world to explore. Quests, professions, campfires and the freedom to take the long way home.</p>
+          <div class="buttons">
+            <a class="button primary" href="forever.html">Enter WoW Forever</a>
+            <a class="button" href="forever.html#forever-roster">Meet our adventurers</a>
+          </div>
+          <div class="hero-note">The Forever chronicle of ${escape(data.author)}</div>
+        </div>
+      </section>
+      <div class="wrap">
+        <section class="section home-forever-news" aria-labelledby="editorial-updates-title">
+          <div class="section-head">
+            <div><span class="eyebrow">The final countdown · 5 November 2026</span><h2 id="editorial-updates-title">Forever is almost here.</h2></div>
+            <a class="text-link" href="forever.html#forever-news">All Forever updates →</a>
+          </div>
+          <div class="two-worlds">
+            <article class="world-card"><span class="eyebrow">The journey begins</span><h3>One new world. Countless stories.</h3><p>Follow the countdown to launch and prepare for the first evening in Azeroth.</p><a class="text-link" href="forever.html">The launch briefing →</a></article>
+            <article class="world-card"><span class="eyebrow">Our next adventurers</span><h3>Three names to remember.</h3><p>Xuthar Morvayne, Thorgar Ironbeard and Aelyndra Zephyrveil are ready to write a new chronicle.</p><a class="text-link" href="forever.html#forever-roster">Meet the Forever roster →</a></article>
+          </div>
+        </section>
+        <section class="section home-forever-focus" aria-labelledby="home-forever-focus-title">
+          <div class="section-head">
+            <div><span class="eyebrow">How we will play Forever</span><h2 id="home-forever-focus-title">There is no need to hurry.</h2></div>
+            <a class="text-link" href="forever.html#forever-journey">The personal journey →</a>
+          </div>
+          <div class="forever-home-pillars">
+            <article class="world-card">
+              <span class="eyebrow">01 · The world</span><h3>Explore every corner.</h3>
+              <p>Follow forgotten paths, rediscover the old lands and let the landscape tell its own stories.</p>
+              <a class="text-link" href="gallery.html">Scenes from Azeroth →</a>
+            </article>
+            <article class="world-card">
+              <span class="eyebrow">02 · The characters</span><h3>Grow at your own pace.</h3>
+              <p>Take the time for quests, professions and character stories instead of racing toward the finish line.</p>
+              <a class="text-link" href="forever.html#forever-roster">Our three travellers →</a>
+            </article>
+            <article class="world-card">
+              <span class="eyebrow">03 · The journey</span><h3>Remember the small moments.</h3>
+              <p>Make camp, share a story, collect memories and write the next page of the journal.</p>
+              <a class="text-link" href="journal.html">Read the travel journal →</a>
+            </article>
+          </div>
+        </section>
+        <section class="section home-lore" aria-labelledby="home-forever-lore-title">
+          <div class="section-head">
+            <div><span class="eyebrow">Before the first quest</span><h2 id="home-forever-lore-title">The world behind Forever.</h2></div>
+            <a class="text-link" href="lore.html">Explore Warcraft history →</a>
+          </div>
+          <article class="world-card">
+            <span class="eyebrow">Azeroth · Lore & memory</span>
+            <h3>Every new journey begins with an old legend.</h3>
+            <p>Meet the places, peoples and stories that shaped the world we are about to explore. The lore archive is a companion to the new Forever experience.</p>
+            <a class="button" href="lore.html">Discover the lore</a>
+          </article>
+        </section>
+        <section class="section home-forever-journal" aria-labelledby="home-forever-journal-title">
+          <div class="section-head">
+            <div><span class="eyebrow">A chronicle still to be written</span><h2 id="home-forever-journal-title">Beyond the first campfire.</h2></div>
+            <a class="text-link" href="journal.html">Open the travel journal →</a>
+          </div>
+          <div class="two-worlds">
+            <article class="world-card">
+              <span class="eyebrow">The traveller's notebook</span><h3>Not every adventure needs a battle.</h3>
+              <p>One day it might be an unexplored road. Another, a quiet clearing. Follow the personal journal as the Forever journey unfolds.</p>
+              <a class="text-link" href="journal.html">The journal →</a>
+            </article>
+            <article class="world-card">
+              <span class="eyebrow">Stories beside the fire</span><h3>Some tales deserve to be remembered.</h3>
+              <p>Read original fiction, fragments of lore and atmospheric stories inspired by the world awaiting our adventurers.</p>
+              <a class="text-link" href="stories.html">Stories & Lore →</a>
+            </article>
+          </div>
+        </section>
+        <div class="quote"><blockquote>«Not every road leads to a battle.<br>Some lead only to a good place to light a fire.»</blockquote><cite>From the journal of ${escape(data.character)} · Original fiction</cite></div>
+      </div>`,
     retail: () => `<div class="wrap body-space">${header('I · The heroes','Retail Characters','A collection of faces, stories, and adventures. Every character has a place here, between who they have been and who they have yet to become.')}<p class="demo-note">Character details from the linked Armory profiles. Legends retold from their personal histories.</p><div class="grid">${data.characters.map(c=>`<article class="content-card" id="${escape(c.id)}">${placeholder('Character portrait','portrait',c.image,c.name)}<div class="card-body"><span class="badge">Retail</span><h2>${escape(c.name)}</h2><p class="meta">${escape(c.role)}</p>${c.legend?`<section class="character-legend" aria-label="The legend of ${escape(c.name)}"><h3>${escape(c.legend.title)}</h3><blockquote>${escape(c.legend.quote)}</blockquote><p>${escape(c.bio)}</p></section>`:''}${facts([['Race',c.race],['Class',c.className],['Realm',c.realm],['Specialisation',c.spec],['Professions',c.professions],...(c.extraFacts||[])])}${c.legend?'':`<details><summary>Character story</summary><p>${escape(c.bio)}</p></details>`}${c.armoryUrl && /^https:\/\/wowarmory\.gg\//.test(c.armoryUrl)?`<p class="meta">Armory snapshot · ${escape(c.armoryDate)}</p><a class="text-link" href="${escape(c.armoryUrl)}" target="_blank" rel="noopener noreferrer">View Armory profile</a>`:''} </div></article>`).join('')}</div></div>`,
     forever: () => `<div class="wrap body-space">${header('II · The traveller','WoW Forever','Discover World of Warcraft: Forever first. Then follow the quiet roads, campsites and stories of a traveller finding his place in Azeroth.')}<div id="forever-overview"></div><section id="forever-journey"><header class="forever-journey-head"><span class="eyebrow">Beyond the guide · The personal journal</span><h2>Now, the road becomes our own.</h2></header>${demo}<div class="forever-layout"><div><div class="feature-banner"><p>«As long as there is a road,<br>I will have a story to tell.»</p></div><article class="paper"><span class="eyebrow">The journal of ${escape(data.character)}</span><h2>A quiet departure</h2><div class="prose" style="margin-top:24px"><p>I carry little with me. A cloak that has seen better days, a map covered in corrections, and this journal. I write to remember places without monuments and people whose names no one will sing.</p><p>Each evening, before sleep, I add a line. Sometimes it is a story. Other times, only the way the light fell across the trees.</p></div><a class="text-link" href="journal.html">Open the travel journal</a></article></div><aside><div class="portrait-panel">${placeholder('Portrait of '+data.character)}<h2>${escape(data.character)}</h2><p class="meta">Main character · Human Shadow Priest · Forever roleplay</p>${facts([['Race / class','Human · Shadow Priest'],['Role','Main character'],['Personal history','To be written during the journey']])}<span class="eyebrow">The story’s stops</span>${route}<a class="text-link" href="campsites.html">Places along the journey</a></div></aside></div><section class="section"><div class="two-worlds"><article class="world-card"><span class="eyebrow">Beside the embers</span><h3>Campsites</h3><p>Shelters, rest stops, and small rituals that make a place feel like home, even far from everything.</p><a class="text-link" href="campsites.html">Explore the rest stops</a></article><article class="world-card retail"><span class="eyebrow">Beyond the trail</span><h3>Stories & Lore</h3><p>Letters never sent, rumours heard at an inn, and stories to carry along the road.</p><a class="text-link" href="stories.html">Read the stories</a></article></div></section></section></div>`,
     journal: () => `<div class="wrap body-space">${header('III · Pages from the journey','Travel Journal','The newest entries come first. The rest is a trail of footsteps, notes in the margins, and roads still waiting to be walked.')}${demo}<div class="home-journal"><div class="journal-list">${data.journal.map(j=>`<article class="journal-entry" id="${escape(j.id)}"><div class="day" aria-label="Stop ${escape(j.day)}">${escape(j.day)}</div><div><span class="badge">${escape(j.type)} · ${escape(j.chapter)}</span><h2>${escape(j.title)}</h2><p class="meta">${escape(j.location)} · ${escape(data.character)}</p><p>${escape(j.excerpt)}</p><details><summary>Read the full entry</summary><div class="paper prose">${paragraphs(j.text)}${j.camp?`<a class="text-link" href="campsites.html#${escape(j.camp)}">The place in this entry</a>`:''}</div></details></div></article>`).join('')}</div><aside class="journal-aside"><span class="eyebrow">The thread of the journey</span>${route}<p>Three stops on an imagined route. The next trail will belong to your own adventure.</p><a class="text-link" href="forever.html">The traveller and his journal</a></aside></div></div>`,

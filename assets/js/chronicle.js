@@ -1,5 +1,5 @@
 /* Chronicles of Azeroth · The Living Chronicle
-   Reads player-approved JSON from the live-progress branch.
+   Prefers verified official Blizzard API data from live-blizzard; legacy addon is optional.
    Static fallback contains NO invented gameplay progress. */
 (() => {
   'use strict';
@@ -10,7 +10,8 @@
     {id:'thorgar',name:'Thorgar Ironbeard',descriptor:'Dwarf · Hunter',symbol:'✦'},
     {id:'aelyndra',name:'Aelyndra Zephyrveil',descriptor:'Skyborne · Druid',symbol:'❧'}
   ];
-  const feed = 'https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-progress/forever-progress.json';
+  const officialFeed = 'https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
+  const legacyFeed = 'https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-progress/forever-progress.json';
   const fallback = 'assets/data/forever-progress.json';
   const create = (tag, cls, text) => {
     const node = document.createElement(tag);
@@ -39,9 +40,9 @@
       const root = create('section','chronicle-teaser wrap');
       root.id = 'home-chronicle-preview';
       const intro = add(root,'div','chronicle-teaser-intro');
-      add(intro,'span','eyebrow','Azeroth Chronicle Sync · Forever');
+      add(intro,'span','eyebrow','Official Blizzard API · Forever');
       add(intro,'h2','','The Living Chronicle');
-      add(intro,'p','','A personal journey, recorded when the adventurers return from the road.');
+      add(intro,'p','','Official character profiles when Blizzard makes Forever API data available.');
       const status = add(root,'div','chronicle-teaser-status','No gameplay data uploaded yet.');
       status.id='chronicle-teaser-status';
       const link=add(root,'a','button','Explore the live progress →');
@@ -57,17 +58,29 @@
     const res = await fetch(url+'?t='+Math.floor(Date.now()/300000),{cache:'no-store'});
     if (!res.ok) throw Error('HTTP '+res.status);
     const data = await res.json();
-    if (data.schemaVersion !== 1 || data.source !== 'AzerothChronicleSync' || !Array.isArray(data.characters) || !Array.isArray(data.events)) {
+    if (data.schemaVersion !== 1 || !['AzerothChronicleSync','BlizzardOfficialAPI'].includes(data.source) || !Array.isArray(data.characters) || !Array.isArray(data.events)) {
       throw Error('Unsupported snapshot');
     }
     return data;
   }
   async function getSnapshot() {
-    try { return {data:await read(feed),fallback:false}; }
-    catch { return {data:await read(fallback),fallback:true}; }
+    let official = null;
+    try { official=await read(officialFeed); } catch {}
+    if(official && official.source==='BlizzardOfficialAPI' && official.characters.length && official.exportedAt) {
+      return {data:official,fallback:false};
+    }
+    // Legacy data is read only if a real game session has already produced it.
+    // The owner does NOT need to use the addon for the official API approach.
+    try {
+      const legacy=await read(legacyFeed);
+      if(legacy.characters.length && legacy.exportedAt) return {data:legacy,fallback:false};
+    } catch {}
+    if(official && official.source==='BlizzardOfficialAPI') return {data:official,fallback:false};
+    return {data:await read(fallback),fallback:true};
   }
   function renderCharacter(place, hero, data) {
     const c = (data.characters || []).find(item => item && item.id === hero.id);
+    const official = data.source === 'BlizzardOfficialAPI';
     const card = add(place,'article','chronicle-character');
     const head = add(card,'div','chronicle-character-head');
     const sigil = add(head,'span','chronicle-sigil',hero.symbol);
@@ -84,9 +97,9 @@
     const level=add(stats,'div','chronicle-stat');
     level.append(create('strong','',String(safeNumber(c.level))),create('span','','Level'));
     const quests=add(stats,'div','chronicle-stat');
-    quests.append(create('strong','',String(safeNumber(c.questsCompleted))),create('span','','Quests tracked'));
+    quests.append(create('strong','',c.questsCompleted==null?'—':String(safeNumber(c.questsCompleted))),create('span','','Quests tracked'));
     const areas=add(stats,'div','chronicle-stat');
-    areas.append(create('strong','',String(Array.isArray(c.zones)?c.zones.length:0)),create('span','','Zones seen'));
+    areas.append(create('strong','',Array.isArray(c.zones)?String(c.zones.length):'—'),create('span','','Zones seen'));
     const xp=safeNumber(c.xp),max=safeNumber(c.xpMax);
     if(max>0) {
       const cap=add(card,'div','chronicle-xp-caption','Experience toward next level');
@@ -97,13 +110,13 @@
     }
     const location=add(card,'p','chronicle-character-location');
     add(location,'span','chronicle-label','Last location ');
-    add(location,'strong','',String(c.zone||'Unrecorded'));
+    add(location,'strong','',c.zone?String(c.zone):(official?'Not provided by API':'Unrecorded'));
     if (c.subzone && c.subzone!==c.zone) add(location,'small','',' · '+String(c.subzone));
     if(Array.isArray(c.professions)&&c.professions.length){
       const line=add(card,'p','chronicle-small','Professions: ');
       line.append(c.professions.map(p=>String(p.name||'')+' '+safeNumber(p.rank)).join(' · '));
     }
-    add(card,'p','chronicle-last-played','Last seen: '+when(c.lastSeenAt));
+    add(card,'p','chronicle-last-played',official?'Official API checked: '+when(c.checkedAt||data.exportedAt):'Last seen: '+when(c.lastSeenAt));
   }
   function renderTimeline(data) {
     if (!timeline) return;
@@ -126,13 +139,15 @@
   }
   function render(data,isFallback) {
     const hasData=data.characters.length>0 && data.exportedAt;
+    const official=data.source==='BlizzardOfficialAPI';
     const message=hasData
-      ? data.characters.length+' adventurer'+(data.characters.length===1?'':'s')+' tracked · Last sync: '+when(data.exportedAt)
-      : 'Awaiting the first real in-game sync. No invented progress is displayed.';
+      ? (official?'Official Blizzard API · ':'')+data.characters.length+' adventurer'+(data.characters.length===1?'':'s')+' tracked · Last check: '+when(data.exportedAt)
+      : official?'Official Blizzard API support for Forever is not confirmed yet. No character data available.'
+                :'Awaiting a real progress source. No invented statistics are displayed.';
     const teaser=document.getElementById('chronicle-teaser-status');
     if(teaser) teaser.textContent=message;
-    if (state) state.textContent=hasData?'Character data received':'Not yet connected';
-    if (updated) updated.textContent=(hasData?'Latest export: '+when(data.exportedAt):'No game data received yet')+(isFallback?' · Local fallback shown':'');
+    if (state) state.textContent=hasData?(official?'Official Blizzard API active':'Character data received'):(official?'Blizzard Forever API pending':'Not yet connected');
+    if (updated) updated.textContent=(hasData?(official?'Last official API check: ':'Latest export: ')+when(data.exportedAt):'Waiting for verified Forever profile support')+(isFallback?' · Local fallback shown':'');
     if(grid){
       grid.replaceChildren();
       for(const hero of cast) renderCharacter(grid,hero,data);
@@ -144,7 +159,7 @@
     catch {
       if(state) state.textContent='Unable to read Chronicle data';
       if(updated) updated.textContent='Check network connectivity and GitHub feed.';
-      if(grid) render({schemaVersion:1,source:'AzerothChronicleSync',characters:[],events:[]},true);
+      if(grid) render({schemaVersion:1,source:'BlizzardOfficialAPI',exportedAt:null,characters:[],events:[]},true);
     }
   }
   refresh();

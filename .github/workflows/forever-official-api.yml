@@ -1,0 +1,58 @@
+name: Forever official Blizzard API sync
+on:
+  schedule:
+    - cron: '21 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/forever-official-api.yml'
+      - 'scripts/forever-api/**'
+permissions:
+  contents: write
+concurrency:
+  group: forever-official-api-publish
+  cancel-in-progress: false
+jobs:
+  official-profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate importer syntax
+        run: node --check scripts/forever-api/sync.mjs
+      - name: Query official API only if verified and authorized
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          FOREVER_API_ENABLED: ${{ vars.FOREVER_API_ENABLED }}
+          FOREVER_NAMESPACE_VERIFIED: ${{ vars.FOREVER_NAMESPACE_VERIFIED }}
+          FOREVER_PROFILE_NAMESPACE: ${{ vars.FOREVER_PROFILE_NAMESPACE }}
+          FOREVER_REALM_SLUG: ${{ vars.FOREVER_REALM_SLUG }}
+          FOREVER_XUTHAR_SLUG: ${{ vars.FOREVER_XUTHAR_SLUG }}
+          FOREVER_THORGAR_SLUG: ${{ vars.FOREVER_THORGAR_SLUG }}
+          FOREVER_AELYNDRA_SLUG: ${{ vars.FOREVER_AELYNDRA_SLUG }}
+        run: node scripts/forever-api/sync.mjs "$RUNNER_TEMP/forever-progress.json"
+      - name: Publish verified data only
+        shell: bash
+        run: |
+          if [ ! -s "$RUNNER_TEMP/forever-progress.json" ]; then
+            echo "No supported Forever profile connection yet; skipping publication."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin live-blizzard --depth=1
+          git show origin/live-blizzard:forever-progress.json > "$RUNNER_TEMP/previous.json"
+          if cmp -s "$RUNNER_TEMP/previous.json" "$RUNNER_TEMP/forever-progress.json"; then
+            echo "Official profile data unchanged."
+            exit 0
+          fi
+          blob=$(git hash-object -w "$RUNNER_TEMP/forever-progress.json")
+          tree=$(printf '100644 blob %s\tforever-progress.json\n' "$blob" | git mktree)
+          parent=$(git rev-parse refs/remotes/origin/live-blizzard)
+          commit=$(git commit-tree "$tree" -p "$parent" -m 'Sync verified official Forever profiles')
+          git push origin "$commit:refs/heads/live-blizzard"

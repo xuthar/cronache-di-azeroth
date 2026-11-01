@@ -75,7 +75,7 @@
           '<h3>Names become legends.</h3>' +
           '<p>Early name reservations are available to eligible players. Up to three names can be reserved across rulesets, subject to availability. The journeys of Xuthar, Thorgar and Aelyndra are waiting to begin.</p>' +
           '<a class="text-link" target="_blank" rel="noopener noreferrer" href="https://worldofwarcraft.blizzard.com/it-it/news/24303866/prenota-i-nomi-dei-tuoi-personaggi-in-world-of-warcraft-forever">Official reservation details ↗</a></article>' +
-          '<article class="world-card retail">' +
+          '<article class="world-card">' +
           '<span class="eyebrow">5 November · 00:00 CET · Europe</span>' +
           '<h3>The gates of Azeroth reopen.</h3>' +
           '<p>The beta is behind us. New beginnings, familiar lands, campfires, exploration and roleplay are ahead. Our Forever page gathers the guide, the cast, and the launch dispatches.</p>' +

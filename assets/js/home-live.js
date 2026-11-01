@@ -8,7 +8,7 @@
   let launchAt = Date.parse('2026-11-04T23:00:00.000Z');
   let fetching = false;
   let latestSnapshot = 0;
-  hero.insertAdjacentHTML('afterend', `<div class="wrap"><section class="home-live" aria-label="The next adventure and WoW headlines"><article class="launch-card"><span class="eyebrow"><span class="live-spark" aria-hidden="true"></span>Beta closed · Launch incoming</span><h2>WoW Forever</h2><p class="launch-intro">Testing is over. The next footsteps through Azeroth will begin our real adventure.</p><p class="beta-closed-badge">Beta closed · 23 October 2026, 19:00 CEST</p><div class="launch-timer" role="timer" aria-label="Time until the global launch of WoW Forever" aria-live="off">${['Days','Hours','Minutes','Seconds'].map((label,i)=>`<div><strong id="launch-${i}">00</strong><span>${label}</span></div>`).join('')}</div><p id="launch-state" class="launch-state">Until we return to Azeroth</p><p id="launch-date" class="meta">5 November 2026 · 00:00 CET (Rome)</p><p id="launch-local" class="launch-local"></p><p class="launch-next-step">Next milestone: name reservations · 27 Oct–3 Nov<br><a class="text-link" href="forever.html#forever-news">Prepare for launch →</a></p><a class="text-link" id="launch-source" href="https://worldofwarcraft.blizzard.com/it-it/news/24302093/" target="_blank" rel="noopener noreferrer">Official launch details</a></article><aside class="news-card" aria-labelledby="wow-news-heading"><div class="news-head"><div><span class="eyebrow">From Wowhead</span><h2 id="wow-news-heading">Around Azeroth</h2></div><span class="news-auto">Auto-updated</span></div><ul id="wow-news-list" class="wow-news-list"><li class="meta">Loading the latest WoW headlines…</li></ul><div class="news-bottom"><a class="text-link" href="https://www.wowhead.com/news" target="_blank" rel="noopener noreferrer">All Wowhead news</a><a class="text-link" href="calendar.html">Retail calendar &amp; daily events →</a><small id="news-update" class="meta">Automatic feed checks every 15 minutes</small></div></aside></section></div>`);
+  hero.insertAdjacentHTML('afterend', `<div class="wrap"><section class="home-live" aria-label="The Forever launch and news"><article class="launch-card"><span class="eyebrow"><span class="live-spark" aria-hidden="true"></span>Beta closed · Launch incoming</span><h2>WoW Forever</h2><p class="launch-intro">Testing is over. The next footsteps through Azeroth will begin our real adventure.</p><p class="beta-closed-badge">Beta closed · 23 October 2026, 19:00 CEST</p><div class="launch-timer" role="timer" aria-label="Time until the global launch of WoW Forever" aria-live="off">${['Days','Hours','Minutes','Seconds'].map((label,i)=>`<div><strong id="launch-${i}">00</strong><span>${label}</span></div>`).join('')}</div><p id="launch-state" class="launch-state">Until we return to Azeroth</p><p id="launch-date" class="meta">5 November 2026 · 00:00 CET (Rome)</p><p id="launch-local" class="launch-local"></p><p class="launch-next-step">Next milestone: name reservations · 27 Oct–3 Nov<br><a class="text-link" href="forever.html#forever-news">Prepare for launch →</a></p><a class="text-link" id="launch-source" href="https://worldofwarcraft.blizzard.com/it-it/news/24302093/" target="_blank" rel="noopener noreferrer">Official launch details</a></article><aside class="news-card" aria-labelledby="wow-news-heading"><div class="news-head"><div><span class="eyebrow">Forever · From Wowhead</span><h2 id="wow-news-heading">Forever dispatches</h2></div><span class="news-auto">Auto-updated</span></div><ul id="wow-news-list" class="wow-news-list"><li class="meta">Loading the latest WoW headlines…</li></ul><div class="news-bottom"><a class="text-link" href="https://worldofwarcraft.blizzard.com/en-us/forever" target="_blank" rel="noopener noreferrer">Official Forever updates</a><a class="text-link" href="forever.html#forever-news">Forever launch briefings →</a><small id="news-update" class="meta">Automatic feed checks every 15 minutes</small></div></aside></section></div>`);
   const units = [0,1,2,3].map(i=>document.querySelector('#launch-'+i));
   const source = document.querySelector('#launch-source');
   function tick() {
@@ -32,12 +32,16 @@
       if (snapshot.forever.sourceUrl === expected) source.href = expected;
       tick();
     }
-    const news = (Array.isArray(snapshot.news) ? snapshot.news : []).filter(n=>typeof n.title==='string' && validNewsUrl(n.url) && Number.isFinite(Date.parse(n.publishedAt))).slice(0,4);
+    const news = (Array.isArray(snapshot.news) ? snapshot.news : []).filter(n=>typeof n.title==='string' && validNewsUrl(n.url) && Number.isFinite(Date.parse(n.publishedAt)) && /forever/i.test(n.title + ' ' + (n.category || ''))).slice(0,4);
     if (news.length) {
       document.querySelector('#wow-news-list').innerHTML = news.map(n=>`<li><span class="news-meta">${escape(n.category)} · <time datetime="${escape(n.publishedAt)}">${escape(new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short'}).format(new Date(n.publishedAt)))}</time></span><a href="${escape(n.url)}" target="_blank" rel="noopener noreferrer">${escape(n.title)}<span aria-hidden="true"> ↗</span></a></li>`).join('');
       const last = Date.parse(snapshot.newsUpdatedAt);
       const outdated = snapshot.newsFetchError || !Number.isFinite(last) || Date.now()-last>7200000;
       document.querySelector('#news-update').textContent = Number.isFinite(last) ? `${outdated?'Last successful update':'Feed checked'}: ${new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(last))} · auto-refresh` : 'Automatic feed checks every 15 minutes';
+    }
+    if (!news.length) {
+      document.querySelector('#wow-news-list').innerHTML = '<li class="meta">No new Forever-specific headlines in this update. Check the official Forever news and launch briefings below.</li>';
+      document.querySelector('#news-update').textContent = 'Forever headlines only · automatically checked';
     }
     latestSnapshot = stamp;
   }
@@ -52,7 +56,7 @@
     try { apply(await read(liveUrl+'?t='+Math.floor(Date.now()/60000))); }
     catch {
       try { apply(await read('assets/data/home-live.json?t='+Math.floor(Date.now()/60000))); }
-      catch { if (!latestSnapshot) { document.querySelector('#wow-news-list').innerHTML='<li class="meta">Headlines are temporarily unavailable. Visit Wowhead for the latest news.</li>'; } }
+      catch { if (!latestSnapshot) { document.querySelector('#wow-news-list').innerHTML='<li class="meta">Forever headlines are temporarily unavailable. Visit the official Forever page for updates.</li>'; } }
     }
     finally { fetching = false; }
   }

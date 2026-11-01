@@ -174,3 +174,16 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;bac
   .evergreen-path{transition:none}
   .evergreen-path:hover{transform:none}
 }
+/* Home: Forever-only story pillars, independent of the Retail archive. */
+.home-forever-news .section-head,.home-forever-focus .section-head,.home-forever-journal .section-head{align-items:flex-end}
+.forever-home-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.forever-home-pillars .world-card{height:100%;min-height:250px;display:flex;flex-direction:column;align-items:flex-start;padding:27px 26px;border-color:#c6af7b61}
+.forever-home-pillars .world-card .eyebrow{color:#a9d7d0}
+.forever-home-pillars .world-card h3{font-size:clamp(1.38rem,2vw,1.9rem);line-height:1.25}
+.forever-home-pillars .world-card p{flex:1}
+.home-forever-focus{padding-top:45px}
+.home-forever-journal .world-card{border-top:2px solid #8abfb1}
+.home-forever-journal .world-card h3{max-width:430px}
+.home-forever-news .world-card{border-top:2px solid #deb777}
+@media(max-width:900px){.forever-home-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.forever-home-pillars .world-card:last-child{grid-column:1/-1}}
+@media(max-width:650px){.forever-home-pillars{grid-template-columns:1fr}.forever-home-pillars .world-card:last-child{grid-column:auto}.forever-home-pillars .world-card{min-height:auto;padding:24px 22px}.home-forever-focus{padding-top:35px}}

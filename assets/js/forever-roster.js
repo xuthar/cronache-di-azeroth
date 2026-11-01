@@ -17,9 +17,9 @@
       specialisation: 'Shadow',
       role: 'MAIN CHARACTER',
       symbol: 'priest',
-      epithet: 'The Shadowbound Wanderer',
-      introduction: 'The heart of the new journey. A Human Shadow Priest drawn to forgotten paths, whispered mysteries, and the restless frontier between light and shadow.',
-      chronicle: 'His is the first name in the chronicle. He seeks neither haste nor glory: the roads of Azeroth, the quiet of a campfire, and the secrets of the Void will shape his story.'
+      epithet: 'The Last Witness',
+      introduction: 'The Last Witness: an ex-student of the Holy Light and keeper of forgotten names, drawn into the dangerous questions of the Shadow and his family’s missing records.',
+      chronicle: 'Once a student of the Holy Light, Xuthar now records the lives history forgets. A strange family ledger, a dying stranger’s final request and the whispers of the Void have drawn him onto the road. His full roleplay dossier is ready to read.'
     },
     {
       id: 'thorgar-ironbeard',
@@ -58,7 +58,9 @@
   const card = character => {
     const kind = character.symbol;
     const copy = full ? character.chronicle : character.introduction;
-    const link = full ? '' : '<a class="forever-roster-card-link" href="forever.html#forever-' + esc(character.id) + '">Read the character story <span aria-hidden="true">→</span></a>';
+    const link = character.id === 'xuthar-morvayne'
+      ? '<a class="forever-roster-card-link" href="xuthar.html">Open the full Morvayne dossier <span aria-hidden="true">→</span></a>'
+      : (full ? '' : '<a class="forever-roster-card-link" href="forever.html#forever-' + esc(character.id) + '">Read the character story <span aria-hidden="true">→</span></a>');
     return '<article class="forever-roster-card forever-roster-card--' + kind + '"' +
       (full ? ' id="forever-' + esc(character.id) + '"' : '') + '>' +
       '<div class="forever-roster-visual"><span class="forever-roster-halo" aria-hidden="true"></span>' +
@@ -85,7 +87,7 @@
     '<span class="forever-roster-seal" aria-hidden="true">III <small>THE NEW<br>CHRONICLE</small></span></div>' +
     '<div class="forever-roster-grid">' + cast.map(card).join('') + '</div>' +
     '<div class="forever-roster-footer"><p>Announced characters for the upcoming Forever journey · Personal roleplay concepts, not current gameplay progress.</p>' +
-    (full ? '<a class="text-link" href="#forever-journey">Follow Xuthar’s journal →</a>' :
+    (full ? '<a class="text-link" href="xuthar.html">Read The Last Witness · Full Xuthar lore →</a>' :
       '<a class="button primary" href="forever.html#forever-roster">Meet the Forever roster →</a>') + '</div>';
 
   if (page === 'home') {

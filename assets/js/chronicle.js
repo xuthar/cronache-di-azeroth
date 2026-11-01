@@ -91,6 +91,7 @@
     if (!c) {
       add(card,'p','chronicle-untracked','Awaiting the first in-game sync.');
       add(card,'p','chronicle-small','No progress has been recorded for this character.');
+      if(hero.id==='xuthar'){const profile=add(card,'a','chronicle-xuthar-link','Read The Last Witness · Roleplay lore →');profile.href='xuthar.html';}
       return;
     }
     const stats=add(card,'div','chronicle-stats');
@@ -117,6 +118,7 @@
       line.append(c.professions.map(p=>String(p.name||'')+' '+safeNumber(p.rank)).join(' · '));
     }
     add(card,'p','chronicle-last-played',official?'Official API checked: '+when(c.checkedAt||data.exportedAt):'Last seen: '+when(c.lastSeenAt));
+    if(hero.id==='xuthar'){const profile=add(card,'a','chronicle-xuthar-link','Read The Last Witness · Roleplay lore →');profile.href='xuthar.html';}
   }
   function renderTimeline(data) {
     if (!timeline) return;

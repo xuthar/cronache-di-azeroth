@@ -164,7 +164,7 @@
     ['FOREVER','A world reborn','Launch updates, gameplay systems and the adventure ahead.','forever.html',images.horizon],
     ['THE LIVING CHRONICLE','Our progress','Three characters and their real journeys through Azeroth.','chronicle.html',images.forest],
     ['THE GALLERY','Worlds in pictures','Moments, landscapes and memories from Azeroth.','gallery.html',images.stormwind],
-    ['STORIES & LORE','Tales worth telling','Warcraft history and original chronicles beside the fire.','stories.html',images.goldshire],
+    ['XUTHAR MORVAYNE','The Last Witness','A complete roleplay biography, family mystery and in-game character guide.','xuthar.html',images.goldshire],
     ['RETAIL ARCHIVE','The heroes before Forever','A lifetime of characters and the roads already travelled.','retail.html',images.orgrimmar],
     ['CALENDAR','Never miss the next chapter','Important events, schedules and milestones.','calendar.html',images.ironforge]
   ];

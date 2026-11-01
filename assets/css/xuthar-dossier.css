@@ -1,0 +1,204 @@
+/* Xuthar Morvayne — The Last Witness / cinematic RP dossier.
+   Original character fan fiction; gameplay progress is never simulated here. */
+.xu-dossier{background:#071421;color:#e9e4dc}
+.xu-dossier *{box-sizing:border-box}
+.xu-dossier a{transition:color .2s,background .2s,border-color .2s}
+.xu-dossier a:focus-visible,.xu-dossier button:focus-visible,
+.xu-dossier input:focus-visible,.xu-dossier textarea:focus-visible,
+.xu-dossier select:focus-visible,.xu-dossier summary:focus-visible{outline:3px solid #8be5ef;outline-offset:4px}
+.xu-dossier .xu-hero{isolation:isolate;position:relative;overflow:hidden;min-height:620px;border-bottom:1px solid #d3b07a61;background:#071626}
+.xu-dossier .xu-hero-backdrop{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#070f1ef7 0%,#11152bd9 43%,#0c26349e 72%,#0c202c92),url('../images/gallery/stormwind-midnight.jpg') center 46%/cover}
+.xu-dossier .xu-hero:before{content:"";position:absolute;inset:22px;z-index:-1;border:1px solid #e7bd8450;background:linear-gradient(#eec18478,#eec18478) left top/42px 2px no-repeat,linear-gradient(#eec18478,#eec18478) left top/2px 42px no-repeat,linear-gradient(#eec18478,#eec18478) right bottom/42px 2px no-repeat,linear-gradient(#eec18478,#eec18478) right bottom/2px 42px no-repeat;pointer-events:none}
+.xu-dossier .xu-hero:after{content:"";position:absolute;inset:auto 0 0;height:130px;z-index:-1;background:linear-gradient(0deg,#071421,transparent)}
+.xu-dossier .xu-hero-inner{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(290px,.66fr);gap:clamp(30px,5vw,80px);align-items:center;padding-block:80px 94px}
+.xu-dossier .xu-hero-copy{min-width:0}
+.xu-dossier .xu-overline{display:block;font:700 .67rem/1.6 system-ui;letter-spacing:.16em;color:#a6d9de}
+.xu-dossier .xu-overline span{color:#d0a87f;padding-inline:10px}
+.xu-dossier .xu-rp-badge{display:inline-block;border:1px solid #d7b4898c;padding:7px 11px;margin-top:25px;border-radius:4px;background:#8a5b5029;color:#f6d7ad;font:700 .64rem/1.3 system-ui;letter-spacing:.14em}
+.xu-dossier .xu-hero h1{font:600 clamp(4.3rem,7.3vw,8.2rem)/.91 Georgia,serif;letter-spacing:-.075em;color:#fff7ee;margin:27px 0 12px;text-shadow:0 12px 40px #000c}
+.xu-dossier .xu-hero h1 em{font-weight:400;color:#e3c8f5;text-shadow:0 0 34px #a381d664}
+.xu-dossier .xu-hero-subtitle{font:italic clamp(1.25rem,2.4vw,2rem)/1.3 Georgia,serif;color:#f1cc92;letter-spacing:.035em;margin:0 0 21px}
+.xu-dossier .xu-hero-lead{font:1.04rem/1.8 system-ui;color:#d1dce2;max-width:700px;margin:0 0 25px}
+.xu-dossier .xu-hero blockquote{font:italic 1.05rem/1.7 Georgia,serif;border-left:2px solid #d6ae79;color:#f0d7bd;margin:0 0 25px;padding-left:17px;max-width:680px}
+.xu-dossier .xu-hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+.xu-dossier .xu-hero-actions .button{font:700 .78rem/1.4 system-ui;padding:11px 16px;border-radius:4px}
+.xu-dossier .xu-hero-actions .xu-outline{color:#d6e4ed;background:#12283dc9;border-color:#b8cee264}
+.xu-dossier .xu-dossier-panel{align-self:center;position:relative;padding:26px;background:linear-gradient(155deg,#20293be8,#0b1c2de8);border:1px solid #b2b3d27d;box-shadow:0 19px 65px #0009,0 0 35px #7b60b72c,inset 0 1px #fff2;border-radius:8px;backdrop-filter:blur(10px)}
+.xu-dossier .xu-panel-heading{display:block;color:#a9dce4;font:700 .67rem system-ui;letter-spacing:.17em}
+.xu-dossier .xu-panel-sigil{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;width:136px;height:136px;margin:18px auto 22px;border:1px solid #caafd38c;border-radius:50%;box-shadow:0 0 0 6px #9d83b71b,inset 0 0 36px #9c69c542;background:radial-gradient(circle at 54% 36%,#443659,#121d36 72%)}
+.xu-dossier .xu-panel-sigil span{color:#e7c4ed;font:5rem/1 Georgia,serif}
+.xu-dossier .xu-panel-sigil small{color:#edd5ae;font:600 .47rem system-ui;letter-spacing:.15em}
+.xu-dossier .xu-dossier-panel dl{margin:0;padding:0;border-top:1px solid #d6c2d84d}
+.xu-dossier .xu-dossier-panel dl>div{display:flex;justify-content:space-between;gap:8px;padding:11px 0;border-bottom:1px solid #d6c2d829}
+.xu-dossier .xu-dossier-panel dt{font:700 .59rem system-ui;color:#a4bfcc;letter-spacing:.12em}
+.xu-dossier .xu-dossier-panel dd{margin:0;text-align:right;font:.73rem/1.35 system-ui;color:#f7e7d4}
+.xu-dossier .xu-dossier-panel dd small{font-size:.64rem;color:#95bbc3}
+.xu-dossier .xu-dossier-panel>p{color:#b9c9ce;font:.69rem/1.5 system-ui;margin:15px 0 0}
+.xu-dossier .xu-chapter-nav{display:flex;gap:5px;flex-wrap:wrap;justify-content:center;margin-top:-23px;margin-bottom:45px;position:relative;z-index:2;padding:12px;background:#13293de9;border:1px solid #8eacd269;border-radius:6px;box-shadow:0 14px 35px #0006}
+.xu-dossier .xu-chapter-nav a{flex:0 1 auto;padding:9px 12px;color:#bcdbe4;border-radius:4px;font:700 .75rem system-ui;white-space:nowrap}
+.xu-dossier .xu-chapter-nav a:hover{background:#275275;color:#fff}
+.xu-dossier .xu-editorial{padding-bottom:10px}
+.xu-dossier .xu-section{scroll-margin-top:30px;margin-bottom:82px}
+.xu-dossier .xu-section-heading{margin:0 0 27px;padding:0 0 19px;border-bottom:1px solid #86b4be4f}
+.xu-dossier .xu-kicker{display:block;color:#92d4df;font:800 .69rem/1.6 system-ui;letter-spacing:.16em;text-transform:uppercase}
+.xu-dossier .xu-section-heading h2{font:600 clamp(2.15rem,4vw,3.5rem)/1.12 Georgia,serif;color:#fff0df;letter-spacing:-.046em;margin:9px 0 12px}
+.xu-dossier .xu-section-heading h2 em{font-weight:400;color:#d8bde7}
+.xu-dossier .xu-section-heading p{max-width:890px;color:#b4ccd5;font:.87rem/1.65 system-ui;margin:0}
+.xu-dossier .xu-opening-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(270px,.84fr);gap:27px;align-items:stretch}
+.xu-dossier .xu-opening-prose{padding:10px 8px 10px 0}
+.xu-dossier .xu-opening-prose p{font:1.06rem/1.86 Georgia,serif;color:#dbdce2;margin:0 0 18px}
+.xu-dossier .xu-opening-prose strong{color:#efce9d}
+.xu-dossier figure{margin:0}
+.xu-dossier .xu-scene{background:#0d2b40;border:1px solid #85b4bc55;border-radius:6px;overflow:hidden}
+.xu-dossier .xu-scene img{height:calc(100% - 41px);min-height:295px;width:100%;object-fit:cover}
+.xu-dossier figcaption{color:#a8c3c8;font:.69rem/1.5 system-ui;padding:10px 15px;background:#061f2c}
+.xu-dossier .xu-triad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+.xu-dossier .xu-triad article{padding:21px;border:1px solid #8cbbbd59;background:linear-gradient(140deg,#152b41,#141d31);border-radius:6px}
+.xu-dossier .xu-triad article:nth-child(2){background:linear-gradient(140deg,#352b4d,#17243b)}
+.xu-dossier .xu-triad article:nth-child(3){background:linear-gradient(140deg,#174439,#122d38)}
+.xu-dossier .xu-triad span{color:#9bd9dc;font:800 .61rem system-ui;letter-spacing:.13em}
+.xu-dossier .xu-triad strong{display:block;color:#ffe5b4;font:600 1.28rem/1.3 Georgia,serif;margin:10px 0}
+.xu-dossier .xu-triad p{color:#c6d4d7;font:.78rem/1.55 system-ui;margin:0}
+.xu-dossier .xu-history-layout{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(220px,.67fr);gap:35px;align-items:start}
+.xu-dossier .xu-prose{padding:5px 10px 0 0}
+.xu-dossier .xu-prose article{position:relative;padding:0 0 22px 35px;margin:0 0 26px;border-left:1px solid #cca97868}
+.xu-dossier .xu-prose article:before{content:"";position:absolute;left:-5px;top:7px;width:9px;height:9px;border-radius:50%;background:#d2ae75;box-shadow:0 0 0 5px #c59d5b15}
+.xu-dossier .xu-roman{display:block;color:#a8ccdb;font:700 .67rem system-ui;letter-spacing:.17em}
+.xu-dossier .xu-prose h3{color:#f4e3c9;font:600 1.85rem/1.24 Georgia,serif;margin:7px 0 14px}
+.xu-dossier .xu-prose p{font:1.01rem/1.83 Georgia,serif;color:#d4dce0;margin:0 0 17px}
+.xu-dossier .xu-prose .xu-pullquote{font:italic 1.35rem/1.6 Georgia,serif;color:#f6d09c;border-left:3px solid #bfa47b;padding:11px 20px;background:#ba955f12}
+.xu-dossier .xu-history-aside{display:grid;gap:17px;position:sticky;top:18px}
+.xu-dossier .xu-history-aside img{height:240px;width:100%;object-fit:cover;border:1px solid #7f9bb15e}
+.xu-dossier .xu-margin-note{border:1px solid #8aa2ac56;padding:19px;background:#14273ac9}
+.xu-dossier .xu-margin-note span{font:800 .61rem system-ui;color:#98d9db;letter-spacing:.14em}
+.xu-dossier .xu-margin-note p{font:italic 1rem/1.65 Georgia,serif;color:#efdcbe;margin:9px 0 0}
+.xu-dossier .xu-family-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.xu-dossier .xu-family-grid article{border:1px solid #a9a2b36b;border-radius:6px;padding:23px;background:linear-gradient(140deg,#1e2f45,#152438)}
+.xu-dossier .xu-family-grid .xu-family-feature{grid-row:span 2;display:flex;flex-direction:column;background:radial-gradient(ellipse at 35% 2%,#70508b59,transparent 55%),linear-gradient(120deg,#2d2844,#131d33);justify-content:center}
+.xu-dossier .xu-family-glyph{display:block;text-align:center;color:#e2c3ef;font:8rem/1 Georgia,serif;margin:0 0 24px}
+.xu-dossier .xu-family-grid h3{color:#ffedd7;font:600 clamp(1.25rem,2vw,1.65rem)/1.28 Georgia,serif;margin:8px 0 11px}
+.xu-dossier .xu-family-grid p{color:#c8d5d8;font:.83rem/1.7 system-ui;margin:0 0 9px}
+.xu-dossier .xu-file-id{color:#9bddda;font:800 .62rem system-ui;letter-spacing:.12em}
+.xu-dossier .xu-spoiler{margin-top:19px;border:1px solid #bb9cb45f;background:#2f2538a8;border-radius:5px}
+.xu-dossier .xu-spoiler summary{padding:19px 21px;color:#f2d7ad;font:700 .84rem system-ui;cursor:pointer}
+.xu-dossier .xu-spoiler summary span{display:block;color:#b6b9c2;font:400 .73rem/1.5 system-ui;margin-top:4px}
+.xu-dossier .xu-spoiler-body{padding:0 22px 20px;font:.83rem/1.65 system-ui;color:#d7d1d6}
+.xu-dossier .xu-spoiler-body p{margin:8px 0}
+.xu-dossier .xu-psyche-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.xu-dossier .xu-psyche-grid article{border:1px solid #94b7bc61;background:linear-gradient(125deg,#152f42,#0d2233);padding:23px 20px;border-radius:6px}
+.xu-dossier .xu-psyche-grid article:nth-child(2),.xu-dossier .xu-psyche-grid article:nth-child(5){background:linear-gradient(125deg,#282746,#111d36)}
+.xu-dossier .xu-psyche-symbol{display:block;color:#f1cc96;font:2rem Georgia,serif}
+.xu-dossier .xu-psyche-grid h3{font:600 1.27rem Georgia,serif;color:#ffedd5;margin:11px 0}
+.xu-dossier .xu-psyche-grid p{font:.79rem/1.65 system-ui;color:#c4d2d8;margin:0}
+.xu-dossier .xu-code{margin-top:17px;padding:25px 30px;border:1px solid #c9a77875;background:linear-gradient(135deg,#30313e,#162438)}
+.xu-dossier .xu-code h3{font:600 1.6rem Georgia,serif;color:#f6e2b6;margin:0 0 16px}
+.xu-dossier .xu-code ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;row-gap:10px;padding-left:19px;margin:0}
+.xu-dossier .xu-code li{font:.86rem/1.5 system-ui;color:#d4d7d8;padding-left:5px}
+.xu-dossier .xu-code li::marker{color:#c9aa7b}
+.xu-dossier .xu-clues{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.xu-dossier .xu-clues article{min-width:0;padding:25px;border:1px solid #9bb1c36e;border-radius:5px;background:linear-gradient(145deg,#1c2941,#122137)}
+.xu-dossier .xu-clues article:nth-child(3){background:linear-gradient(145deg,#342745,#161d39)}
+.xu-dossier .xu-clues article:nth-child(4){border-style:dashed}
+.xu-dossier .xu-clues span{color:#9bd8dd;font:800 .65rem/1.55 system-ui;letter-spacing:.13em}
+.xu-dossier .xu-clues h3{color:#f6e4cb;font:600 1.45rem Georgia,serif;margin:10px 0}
+.xu-dossier .xu-clues p{font:.84rem/1.67 system-ui;color:#ced8dc;margin:0}
+.xu-dossier .xu-disclaimer{margin:17px 0 0;padding:15px 19px;border-left:3px solid #d3b47c;background:#aaacb512;color:#bdcad0;font:.83rem/1.6 system-ui}
+.xu-dossier .xu-disclaimer strong{color:#ffe4b2}
+.xu-dossier .xu-acts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.xu-dossier .xu-acts article{padding:24px 19px;min-width:0;border:1px solid #98bdbe62;background:linear-gradient(145deg,#152f46,#142136);border-radius:5px;display:flex;flex-direction:column;gap:10px}
+.xu-dossier .xu-acts article:nth-child(2){background:linear-gradient(145deg,#312b49,#142238)}
+.xu-dossier .xu-acts article:nth-child(3){background:linear-gradient(145deg,#3e2d42,#22223a)}
+.xu-dossier .xu-acts article:nth-child(4){background:linear-gradient(145deg,#203e4b,#11263c)}
+.xu-dossier .xu-acts article>span{color:#a9e0dc;font:800 .66rem system-ui;letter-spacing:.18em}
+.xu-dossier .xu-acts h3{color:#f6dfbb;font:600 1.45rem/1.25 Georgia,serif;margin:0}
+.xu-dossier .xu-acts p{color:#d0d7dc;font:.77rem/1.65 system-ui;margin:0}
+.xu-dossier .xu-acts small{color:#c0abdd;font:.68rem/1.65 system-ui;display:block;margin-top:auto;padding-top:13px;border-top:1px solid #bacad14e}
+.xu-dossier .xu-playbook-layout{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);gap:19px;align-items:start}
+.xu-dossier .xu-playbook-layout>div{display:grid;gap:13px}
+.xu-dossier .xu-quickbio{border:1px solid #83b1c564;background:#122b3f;border-radius:5px;padding:18px 22px}
+.xu-dossier .xu-quickbio-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:13px}
+.xu-dossier .xu-quickbio-head span{color:#a7e4e0;font:800 .63rem/1.45 system-ui;letter-spacing:.12em}
+.xu-dossier .xu-copy{flex-shrink:0;padding:7px 12px;border-radius:4px;background:#185777;border:1px solid #72b8cd;color:#e2f1f4;font:700 .73rem system-ui;cursor:pointer}
+.xu-dossier .xu-copy:hover{background:#247e9f;color:white}
+.xu-dossier .xu-quickbio p{font:.9rem/1.7 Georgia,serif;color:#e8ddce;margin:0}
+.xu-dossier .xu-rp-actions{border:1px solid #ad9b8065;border-radius:5px;background:#2b2a3c90;padding:20px 23px}
+.xu-dossier .xu-rp-actions h3{font:600 1.55rem Georgia,serif;color:#f7deb3;margin:0 0 14px}
+.xu-dossier .xu-rp-actions ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.xu-dossier .xu-rp-actions li{padding:0 0 10px 16px;border-bottom:1px solid #b6afc329;font:.81rem/1.58 system-ui;color:#d4d6dc;position:relative}
+.xu-dossier .xu-rp-actions li:before{content:'✧';position:absolute;left:0;color:#d5bf9c}
+.xu-dossier .xu-rp-actions li strong{color:#f0d09c}
+.xu-dossier .xu-dialogue{padding:25px 20px;border-radius:6px;border:1px solid #9d87b67d;background:linear-gradient(145deg,#302947,#102138);box-shadow:0 14px 36px #0005}
+.xu-dossier .xu-dialogue h3{font:600 1.8rem Georgia,serif;color:#f7e3c5;margin:5px 0 20px}
+.xu-dossier .xu-line{display:flex;gap:8px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #b9b8c638}
+.xu-dossier .xu-line code{flex:1;min-width:0;font:.78rem/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#e2d7ea;white-space:normal;overflow-wrap:anywhere}
+.xu-dossier .xu-dialogue-help{font:.72rem/1.56 system-ui;color:#a9bdca;margin:18px 0 0}
+.xu-dossier .xu-dialogue-help code{color:#f1cbad}
+.xu-dossier .xu-prologue{background:linear-gradient(145deg,#242039,#161d30);border:1px solid #b7a39260;border-radius:5px;padding:25px clamp(20px,4vw,60px) 40px}
+.xu-dossier .xu-prologue .xu-section-heading{margin-bottom:27px}
+.xu-dossier .xu-prologue-sheet{max-width:830px;margin:0 auto;border:1px solid #ebcda953;padding:clamp(25px,5vw,60px);background:linear-gradient(180deg,#e7dfc9,#d9ceb6);color:#302922;box-shadow:0 12px 45px #0007}
+.xu-dossier .xu-prologue-sheet p{font:1.05rem/1.91 Georgia,serif;color:#302b26;margin:0 0 20px}
+.xu-dossier .xu-prologue-sheet p:first-child:first-letter{font:4.15rem/1 Georgia,serif;color:#5f4762;float:left;margin:0 8px 0 0}
+.xu-dossier .xu-prologue-sheet .xu-prologue-ending{font:italic 1.35rem Georgia,serif;color:#68456b;margin-top:30px}
+.xu-dossier .xu-prologue-sheet .xu-prologue-signature{border-top:1px solid #66574877;padding-top:15px;margin-top:28px;font-size:.78rem;text-align:right}
+.xu-dossier .xu-journal-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:17px}
+.xu-dossier .xu-session-form{padding:25px;border:1px solid #8dbdbd65;border-radius:6px;background:linear-gradient(145deg,#163449,#0f2639);display:grid;gap:13px}
+.xu-dossier .xu-session-form label{display:flex;flex-direction:column;gap:6px;font:700 .78rem/1.5 system-ui;color:#c6dce4}
+.xu-dossier .xu-session-form input,.xu-dossier .xu-session-form textarea,.xu-dossier .xu-session-form select,.xu-dossier #xu-session-preview{width:100%;padding:11px 12px;border:1px solid #8bb7c278;border-radius:4px;background:#071b2a;color:#f5eddf;font:normal .84rem/1.6 system-ui}
+.xu-dossier .xu-session-form textarea{resize:vertical;min-height:100px}
+.xu-dossier .xu-session-form input::placeholder,.xu-dossier .xu-session-form textarea::placeholder{color:#9babb8}
+.xu-dossier .xu-form-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:5px}
+.xu-dossier .xu-form-hint{font:.73rem/1.55 system-ui;color:#a6c2c9;margin:0}
+.xu-dossier .xu-session-output{padding:25px;border:1px solid #b7a57e6d;border-radius:5px;background:linear-gradient(145deg,#302b40,#111f32)}
+.xu-dossier .xu-session-output h3{font:600 1.5rem Georgia,serif;color:#f6dfb7;margin:0 0 12px}
+.xu-dossier .xu-session-output>p{font:.78rem/1.65 system-ui;color:#c7d0d5}
+.xu-dossier #xu-session-preview{height:230px;resize:vertical;margin:6px 0 13px}
+.xu-dossier #xu-copy-report[disabled]{opacity:.45;cursor:not-allowed}
+.xu-dossier .xu-copy-status{min-height:1.4em;margin:9px 0;font:.76rem system-ui;color:#ace8d5}
+.xu-dossier .xu-back-to-live{display:inline-block;margin:15px 0 0;color:#9ce9ee;font:.78rem system-ui;border-bottom:1px solid #a0d1d57a}
+.xu-dossier .xu-final-note{text-align:center;padding:40px 20px 90px;border-top:1px solid #a9b8b15d;background:radial-gradient(circle at 50% 5%,#5b417839,transparent 75%)}
+.xu-dossier .xu-final-note>span{font:5rem/1 Georgia,serif;color:#d9b9e5}
+.xu-dossier .xu-final-note p{font:italic clamp(1.2rem,2.4vw,1.95rem)/1.6 Georgia,serif;color:#d7c8d6;margin:14px auto 22px}
+.xu-dossier .xu-final-note strong{color:#f7d8a6;font-weight:400}
+.xu-dossier .xu-final-note>div{display:flex;gap:15px;flex-wrap:wrap;justify-content:center}
+.xu-dossier .xu-final-note a{color:#8adddc;font:.77rem system-ui;border-bottom:1px solid #7ca5b466}
+@media(max-width:1100px){
+ .xu-dossier .xu-hero-inner{grid-template-columns:minmax(0,1.3fr) minmax(260px,.8fr);gap:28px}
+ .xu-dossier .xu-acts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .xu-dossier .xu-psyche-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:820px){
+ .xu-dossier .xu-hero-inner{grid-template-columns:1fr;padding-block:70px 55px}
+ .xu-dossier .xu-dossier-panel{max-width:650px}
+ .xu-dossier .xu-opening-grid{grid-template-columns:1fr}
+ .xu-dossier .xu-scene img{height:350px}
+ .xu-dossier .xu-history-layout{grid-template-columns:1fr}
+ .xu-dossier .xu-history-aside{position:static;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .xu-dossier .xu-history-aside figure{grid-column:1/-1}
+ .xu-dossier .xu-history-aside img{height:320px}
+ .xu-dossier .xu-playbook-layout,.xu-dossier .xu-journal-grid{grid-template-columns:1fr}
+ .xu-dossier .xu-section{margin-bottom:62px}
+}
+@media(max-width:630px){
+ .xu-dossier .xu-hero:before{inset:10px}
+ .xu-dossier .xu-hero h1{font-size:clamp(3.9rem,15vw,6rem)}
+ .xu-dossier .xu-hero-inner{padding-block:54px 45px}
+ .xu-dossier .xu-chapter-nav{margin-bottom:33px;justify-content:flex-start;gap:2px}
+ .xu-dossier .xu-chapter-nav a{font-size:.66rem;padding:8px 9px}
+ .xu-dossier .xu-section-heading h2{font-size:clamp(2rem,8vw,2.6rem)}
+ .xu-dossier .xu-triad,.xu-dossier .xu-family-grid,.xu-dossier .xu-psyche-grid,.xu-dossier .xu-clues,.xu-dossier .xu-acts{grid-template-columns:1fr}
+ .xu-dossier .xu-family-grid .xu-family-feature{grid-row:auto}
+ .xu-dossier .xu-family-glyph{font-size:5.5rem}
+ .xu-dossier .xu-code ol{grid-template-columns:1fr}
+ .xu-dossier .xu-history-aside{grid-template-columns:1fr}
+ .xu-dossier .xu-history-aside figure{grid-column:auto}
+ .xu-dossier .xu-prose article{padding-left:21px}
+ .xu-dossier .xu-prose h3{font-size:1.55rem}
+ .xu-dossier .xu-prologue{padding:16px 12px 27px}
+ .xu-dossier .xu-prologue-sheet p{font-size:.94rem}
+ .xu-dossier .xu-session-form,.xu-dossier .xu-session-output{padding:18px}
+ .xu-dossier .xu-dossier-panel{padding:20px}
+ .xu-dossier .xu-dialogue{padding:18px 15px}
+ .xu-dossier .xu-line{flex-wrap:wrap}
+ .xu-dossier .xu-quickbio-head{align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){.xu-dossier *, .xu-dossier *:before{scroll-behavior:auto;transition:none!important}}

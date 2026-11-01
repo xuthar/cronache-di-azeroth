@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-01T05:22:50.988Z"
+    "checkedAt": "2026-11-01T06:18:01.007Z"
   },
   "news": [
+    {
+      "title": "Get a Chef Uniform and a Warturkey Mount in November 2026 Trading Post",
+      "url": "https://www.wowhead.com/news=383680/get-a-chef-uniform-and-a-warturkey-mount-in-november-2026-trading-post",
+      "category": "Live",
+      "publishedAt": "2026-11-01T06:03:01.000Z"
+    },
     {
       "title": "Could the WoW: Forever Podcast be Teasing a Secret New Weapon?",
       "url": "https://www.wowhead.com/news=383657/could-the-wow-forever-podcast-be-teasing-a-secret-new-weapon",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383662/new-drust-themed-hearthstone-available-from-talebound",
       "category": "PTR",
       "publishedAt": "2026-10-31T14:00:00.000Z"
-    },
-    {
-      "title": "Massive Talent Tree Changes to Druids and Paladins - Class Tuning for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383670/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-10-30T23:22:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-01T05:22:50.988Z",
-  "generatedAt": "2026-11-01T05:22:50.983Z",
+  "newsUpdatedAt": "2026-11-01T06:18:01.007Z",
+  "generatedAt": "2026-11-01T06:18:00.951Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 01 Nov 2026 00:22:45 -0500",
+  "newsFeedBuiltAt": "Sun, 01 Nov 2026 01:18:00 -0500",
   "newsFetchError": false,
   "launchCheckError": false
 }

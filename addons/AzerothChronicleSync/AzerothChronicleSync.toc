@@ -1,0 +1,7 @@
+## Interface: 16001
+## Title: Azeroth Chronicle Sync
+## Notes: Personal Forever progress tracker; exports only selected characters on logout or /reload.
+## Author: Xuthar / Chronicles of Azeroth
+## Version: 0.1.0
+## SavedVariables: ACSDB, ACS_ExportHex
+AzerothChronicleSync.lua

@@ -7,7 +7,7 @@
   const data=window.AZEROTH_RESOURCES;
   if(page==='home'){
     // Retail-only resources belong in the dedicated Retail archive.
-    const homeSites = data.sites.filter(([,category,label]) => category !== 'tools' && !/^Retail\\b/i.test(label));
+    const homeSites = data.sites.filter(([,category,label]) => category !== 'tools' && !/^Retail\b/i.test(label));
     const homeGroups = data.groups.filter(([id]) => id === 'all' || homeSites.some(([,category]) => category === id));
     const section=document.createElement('section');
     section.id='useful-sites';section.className='section resource-directory';
@@ -20,7 +20,7 @@
   }
 
   if(page==='retail'){
-    const retailSites = data.sites.filter(([,category,label]) => category === 'tools' || /^Retail\\b/i.test(label));
+    const retailSites = data.sites.filter(([,category,label]) => category === 'tools' || /^Retail\b/i.test(label));
     const parent = document.querySelector('#main .body-space');
     if(parent && retailSites.length){
       const section = document.createElement('section');
@@ -35,7 +35,7 @@
         retailSites.map(([title,category,label,url,description]) =>
           '<article class="resource-card"><span class="resource-tag">' + esc(label) + '</span>' +
           '<h3>' + external(url,title,'resource-title') + '</h3><p>' + esc(description) + '</p>' +
-          '<span class="resource-domain">' + esc(new URL(url).hostname.replace(/^www\\./,'')) + '</span></article>').join('') +
+          '<span class="resource-domain">' + esc(new URL(url).hostname.replace(/^www\./,'')) + '</span></article>').join('') +
         '</div><p class="meta resource-footnote">Check game-version compatibility and official sources before following third-party guides.</p>';
       parent.appendChild(section);
     }

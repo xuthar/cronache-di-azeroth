@@ -55,7 +55,7 @@
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> GAME VERSION & STATUS</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Europe · The next chapter</small></div></div>'+
-      '<div class="launcher-game-status"><small>LAUNCH WINDOW</small><strong>5 NOVEMBER 2026</strong><span>00:00 CET · Rome</span></div>'+
+      '<div class="launcher-game-status"><small>GAME STATUS · LIVE COUNTDOWN</small><strong>5 NOVEMBER 2026</strong><span>00:00 CET · Rome</span></div>'+
       '<div class="launcher-panel-state">'+(live?'The gates of Azeroth are open':'Beta completed · The road to launch')+'</div>'+
       '<a class="launcher-panel-button" href="forever.html">EXPLORE FOREVER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
@@ -128,9 +128,23 @@
 
   const command=document.createElement('section');
   command.className='launcher-section launcher-command wrap';command.id='launcher-command';
-  command.innerHTML=heading('03  /  COMMAND CENTER','Your Forever dashboard.','Two distinct horizontal panels: launch countdown first, headline briefing below.','forever.html','Forever guide');
+  command.innerHTML=heading('03  /  FOREVER BULLETIN','The latest briefing.','Automatic Forever headlines and official sources, collected in one easy-to-read panel.','forever.html','Forever guide');
   const currentCountdown=document.querySelector('.home-live.forever-command-center');
-  if(currentCountdown)command.append(currentCountdown);
+  if(currentCountdown) {
+    command.append(currentCountdown);
+    // Move the ORIGINAL live countdown into the launcher Game Status cell.
+    // We move, never clone: existing IDs and the one-second ticker keep working.
+    const timeSection=currentCountdown.querySelector('.launch-time');
+    const statusCell=heroContent?.querySelector('.launcher-game-status');
+    if(timeSection && statusCell){
+      const statusLabel=document.createElement('small');
+      statusLabel.className='launcher-countdown-label';
+      statusLabel.textContent='GAME STATUS  /  COUNTDOWN TO FOREVER';
+      statusCell.replaceChildren(statusLabel,timeSection);
+      currentCountdown.querySelector('.launch-card')?.remove();
+      command.classList.add('launcher-command--news-only');
+    }
+  }
   news.insertAdjacentElement('afterend',command);
 
   const characters=document.createElement('section');

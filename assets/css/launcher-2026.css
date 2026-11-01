@@ -304,3 +304,78 @@ html.azeroth-launcher {scroll-padding-top:90px}
   .azeroth-launcher .launcher-destination,.azeroth-launcher .button{transition:none!important}
   .azeroth-launcher .launcher-news-tile:hover,.azeroth-launcher .launcher-destination:hover{transform:none}
 }
+
+
+/* Countdown inside the top-right GAME STATUS tile, NOT below Featured/News.
+   The actual .launch-time node is reparented by launcher-2026.js, so the
+   original one-second clock / updated launchAt still drive these values. */
+.azeroth-launcher body[data-page=home] .launcher-game-status {
+  padding:15px 12px 13px;
+  background:linear-gradient(135deg,#061b30e8,#0a3444ce);
+  border:1px solid #88ccda78;
+  border-radius:6px;
+  box-shadow:inset 0 1px #ffffff12,0 0 24px #1a82bf1d;
+}
+.azeroth-launcher .launcher-game-status .launcher-countdown-label{
+  display:block;margin:0 0 11px;color:#8fe2e3;
+  font:800 .59rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.11em;text-transform:uppercase;
+}
+.azeroth-launcher .launcher-game-status .launch-time{min-width:0;width:100%}
+.azeroth-launcher .launcher-game-status .launch-timer{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:5px;width:100%;margin:0 0 10px;padding:0;
+}
+.azeroth-launcher .launcher-game-status .launch-timer>div{
+  min-width:0;padding:9px 2px 7px;
+  border:1px solid #6db6cb75;
+  border-radius:5px;text-align:center;
+  background:linear-gradient(160deg,#103e56,#061e33);
+}
+.azeroth-launcher .launcher-game-status .launch-timer strong{
+  display:block;margin:0;color:#ffdc96;
+  font:700 clamp(1.35rem,2.1vw,2.05rem)/1.08 Georgia,serif;
+  font-variant-numeric:tabular-nums;letter-spacing:-.035em;
+  text-shadow:0 0 15px #f7bf6750;
+}
+.azeroth-launcher .launcher-game-status .launch-timer span{
+  display:block;margin:5px 0 0;
+  color:#a9d4db;font:700 .51rem/1.15 system-ui;
+  letter-spacing:.025em;text-transform:uppercase;
+}
+.azeroth-launcher .launcher-game-status .launch-quick-details{
+  display:flex;flex-direction:column;gap:4px;
+  width:100%;margin:0;padding:0;
+  color:#c1d9e3;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+.azeroth-launcher .launcher-game-status .launch-quick-details p{
+  margin:0!important;padding:0!important;max-width:none!important;
+  font-size:.7rem!important;line-height:1.4!important;
+}
+.azeroth-launcher .launcher-game-status .launch-quick-details #launch-state{
+  color:#f2d29a;font-style:normal;font-weight:700;
+}
+.azeroth-launcher .launcher-game-status .launch-quick-details #launch-date{
+  color:#d9e9e6;font-weight:600;
+}
+.azeroth-launcher .launcher-game-status .launch-quick-details #launch-local{
+  color:#91baca;font-size:.65rem!important;
+}
+.azeroth-launcher .launcher-command--news-only .forever-command-center{
+  grid-template-columns:minmax(0,1fr)!important;
+}
+.azeroth-launcher .launcher-command--news-only .forever-command-center .news-card{
+  width:100%;grid-column:1/-1;
+}
+@media(max-width:1180px){
+  .azeroth-launcher .launcher-game-status .launch-timer strong{font-size:clamp(1.25rem,2.4vw,1.8rem)}
+  .azeroth-launcher .launcher-game-status .launch-timer span{font-size:.49rem}
+}
+@media(max-width:700px){
+  .azeroth-launcher .launcher-game-status .launch-timer strong{font-size:clamp(1.6rem,7.2vw,2.3rem)}
+  .azeroth-launcher .launcher-game-status .launch-timer span{font-size:.57rem}
+}
+@media(max-width:380px){
+  .azeroth-launcher .launcher-game-status .launch-timer>div{padding:8px 1px}
+  .azeroth-launcher .launcher-game-status .launch-timer strong{font-size:1.55rem}
+}

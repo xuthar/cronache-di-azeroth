@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-01T17:35:53.709Z"
+    "checkedAt": "2026-11-01T18:09:16.438Z"
   },
   "news": [
+    {
+      "title": "Planet Azeroth: Episode 2 ft. Bill Bailey",
+      "url": "https://www.wowhead.com/news=383685/planet-azeroth-episode-2-ft-bill-bailey",
+      "category": "Forever",
+      "publishedAt": "2026-11-01T18:05:28.000Z"
+    },
     {
       "title": "The Story of Lorewalking: Titans in Patch 12.1.7",
       "url": "https://www.wowhead.com/news=383483/the-story-of-lorewalking-titans-in-patch-12-1-7",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383657/could-the-wow-forever-podcast-be-teasing-a-secret-new-weapon",
       "category": "Forever",
       "publishedAt": "2026-10-31T18:00:00.000Z"
-    },
-    {
-      "title": "Repeatable Quest Experience Exploit Fixed for WoW: Forever Launch",
-      "url": "https://www.wowhead.com/news=383574/repeatable-quest-experience-exploit-fixed-for-wow-forever-launch",
-      "category": "Forever",
-      "publishedAt": "2026-10-31T18:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-01T17:35:53.709Z",
-  "generatedAt": "2026-11-01T17:35:53.660Z",
+  "newsUpdatedAt": "2026-11-01T18:09:16.438Z",
+  "generatedAt": "2026-11-01T18:09:16.432Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 01 Nov 2026 11:35:42 -0600",
+  "newsFeedBuiltAt": "Sun, 01 Nov 2026 12:09:15 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

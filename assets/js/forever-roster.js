@@ -89,7 +89,7 @@
       '<a class="button primary" href="forever.html#forever-roster">Meet the Forever roster →</a>') + '</div>';
 
   if (page === 'home') {
-    const heroes = document.querySelector('.home-heroes');
+    const heroes = document.querySelector('.home-forever-focus');
     if (heroes) heroes.insertAdjacentElement('beforebegin', section);
   } else {
     const overview = document.getElementById('forever-overview');

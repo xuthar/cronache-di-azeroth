@@ -29,9 +29,9 @@
       specialisation: '',
       role: 'THE TRACKER',
       symbol: 'hunter',
-      epithet: 'The Ironforge Marksman',
-      introduction: 'A steadfast Dwarf Hunter with a keen eye, a steady aim, and the stubborn courage of the mountains.',
-      chronicle: 'From the stone halls of Ironforge to the snowbound wilderness, Thorgar follows the trails that others miss. He knows the value of patience, good company, and a well-kept rifle.'
+      epithet: 'The Keeper of Unmarked Trails',
+      introduction: 'A patient Dwarf Hunter from Ironforge, with an unreliable brass compass and a mystery hidden in his family survey records.',
+      chronicle: 'The Keeper of Unmarked Trails: a hunter and cartographer following the mystery of the Seventh Cairn. His backstory is ready, but his actual journey in Forever is yet to begin.'
     },
     {
       id: 'aelyndra-zephyrveil',
@@ -41,9 +41,9 @@
       specialisation: '',
       role: 'THE WILDS',
       symbol: 'druid',
-      epithet: 'The Whisper of the High Skies',
-      introduction: 'A Skyborne Druid whose path is bound to the living world and the winds that sweep above it.',
-      chronicle: 'Aelyndra listens for the smallest movement in the leaves and the oldest voices carried on the breeze. Where the world changes, she seeks balance and renewal.'
+      epithet: 'The Listener Between Winds',
+      introduction: 'A Skyborne Druid of Zephras Isle, caught between preserving her home and letting it change. Her family wind chime has fallen silent.',
+      chronicle: 'The Listener Between Winds: a Skyborne Druid whose loyalty to Zephras Isle is tested by a changing world and a silent family chime. Her chosen faction and future adventures are not yet recorded.'
     }
   ];
   if (window.CHRONICLES) window.CHRONICLES.foreverCharacters = cast;
@@ -58,9 +58,12 @@
   const card = character => {
     const kind = character.symbol;
     const copy = full ? character.chronicle : character.introduction;
-    const link = character.id === 'xuthar-morvayne'
-      ? '<a class="forever-roster-card-link" href="xuthar.html">Open the full Morvayne dossier <span aria-hidden="true">→</span></a>'
-      : (full ? '' : '<a class="forever-roster-card-link" href="forever.html#forever-' + esc(character.id) + '">Read the character story <span aria-hidden="true">→</span></a>');
+    const dossier = {
+      'xuthar-morvayne': ['xuthar.html','Read the main chronicle · The Last Witness'],
+      'thorgar-ironbeard': ['thorgar.html','Read the reserved character dossier'],
+      'aelyndra-zephyrveil': ['aelyndra.html','Read the reserved character dossier']
+    }[character.id];
+    const link = dossier ? '<a class="forever-roster-card-link" href="' + dossier[0] + '">' + dossier[1] + ' <span aria-hidden="true">→</span></a>' : '';
     return '<article class="forever-roster-card forever-roster-card--' + kind + '"' +
       (full ? ' id="forever-' + esc(character.id) + '"' : '') + '>' +
       '<div class="forever-roster-visual"><span class="forever-roster-halo" aria-hidden="true"></span>' +
@@ -86,7 +89,7 @@
     '<p>Xuthar’s next adventure has its heroes. The names are chosen; their stories have yet to be written.</p></div>' +
     '<span class="forever-roster-seal" aria-hidden="true">III <small>THE NEW<br>CHRONICLE</small></span></div>' +
     '<div class="forever-roster-grid">' + cast.map(card).join('') + '</div>' +
-    '<div class="forever-roster-footer"><p>Announced characters for the upcoming Forever journey · Personal roleplay concepts, not current gameplay progress.</p>' +
+    '<div class="forever-roster-footer"><p>Xuthar’s chronicle comes first. Thorgar and Aelyndra have fictional backstories prepared for future play; no gameplay progress is claimed for either.</p>' +
     (full ? '<a class="text-link" href="xuthar.html">Read The Last Witness · Full Xuthar lore →</a>' :
       '<a class="button primary" href="forever.html#forever-roster">Meet the Forever roster →</a>') + '</div>';
 

@@ -6,9 +6,9 @@
   const page = document.body.dataset.page;
   if (page !== 'chronicle' && page !== 'home') return;
   const cast = [
-    {id:'xuthar',name:'Xuthar Morvayne',descriptor:'Human · Shadow Priest',symbol:'☽'},
-    {id:'thorgar',name:'Thorgar Ironbeard',descriptor:'Dwarf · Hunter',symbol:'✦'},
-    {id:'aelyndra',name:'Aelyndra Zephyrveil',descriptor:'Skyborne · Druid',symbol:'❧'}
+    {id:'xuthar',name:'Xuthar Morvayne',descriptor:'Human · Shadow Priest',symbol:'☽',dossier:'xuthar.html'},
+    {id:'thorgar',name:'Thorgar Ironbeard',descriptor:'Dwarf · Hunter',symbol:'✦',dossier:'thorgar.html'},
+    {id:'aelyndra',name:'Aelyndra Zephyrveil',descriptor:'Skyborne · Druid',symbol:'❧',dossier:'aelyndra.html'}
   ];
   const officialFeed = 'https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
   const legacyFeed = 'https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-progress/forever-progress.json';
@@ -91,7 +91,7 @@
     if (!c) {
       add(card,'p','chronicle-untracked','Awaiting the first in-game sync.');
       add(card,'p','chronicle-small','No progress has been recorded for this character.');
-      if(hero.id==='xuthar'){const profile=add(card,'a','chronicle-xuthar-link','Read The Last Witness · Roleplay lore →');profile.href='xuthar.html';}
+      if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}
       return;
     }
     const stats=add(card,'div','chronicle-stats');
@@ -118,7 +118,7 @@
       line.append(c.professions.map(p=>String(p.name||'')+' '+safeNumber(p.rank)).join(' · '));
     }
     add(card,'p','chronicle-last-played',official?'Official API checked: '+when(c.checkedAt||data.exportedAt):'Last seen: '+when(c.lastSeenAt));
-    if(hero.id==='xuthar'){const profile=add(card,'a','chronicle-xuthar-link','Read The Last Witness · Roleplay lore →');profile.href='xuthar.html';}
+    if(hero.dossier){const profile=add(card,'a','chronicle-xuthar-link',hero.id==='xuthar'?'Main story · The Last Witness →':'Reserved lore dossier →');profile.href=hero.dossier;}
   }
   function renderTimeline(data) {
     if (!timeline) return;

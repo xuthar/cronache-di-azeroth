@@ -5,7 +5,7 @@
   const escape = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeImage = value => /^(assets\/images\/)[\w./ -]+\.(png|jpe?g|webp|avif|gif)$/i.test(value) && !value.includes('..') ? value : '';
   const page = document.body.dataset.page;
-  const pages = [['home','Home','index.html'],['retail','Retail Characters','retail.html'],['lore','The Lore','lore.html'],['forever','WoW Forever','forever.html'],['xuthar','Xuthar Morvayne','xuthar.html'],['journal','Travel Journal','journal.html'],['campsites','Campsites','campsites.html'],['stories','Stories & Lore','stories.html'],['gallery','Gallery','gallery.html'],['calendar','Calendar & Events','calendar.html'],['chronicle','Live Chronicle','chronicle.html']];
+  const pages = [['home','Home','index.html'],['retail','Retail Characters','retail.html'],['lore','The Lore','lore.html'],['forever','WoW Forever','forever.html'],['xuthar','Xuthar Morvayne','xuthar.html'],['thorgar','Thorgar','thorgar.html'],['aelyndra','Aelyndra','aelyndra.html'],['journal','Travel Journal','journal.html'],['campsites','Campsites','campsites.html'],['stories','Stories & Lore','stories.html'],['gallery','Gallery','gallery.html'],['calendar','Calendar & Events','calendar.html'],['chronicle','Live Chronicle','chronicle.html']];
   const nav = document.querySelector('#navigation');
   nav.innerHTML = pages.map(([id,label,path]) => `<a href="${path}" ${page===id?'aria-current="page"':''}>${label}</a>`).join('');
 

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-02T00:09:33.932Z"
+    "checkedAt": "2026-11-02T01:31:28.231Z"
   },
   "news": [
+    {
+      "title": "Day of the Dead Celebrations Now Live",
+      "url": "https://www.wowhead.com/news=383689/day-of-the-dead-celebrations-now-live",
+      "category": "Live",
+      "publishedAt": "2026-11-02T00:24:21.000Z"
+    },
     {
       "title": "Planet Azeroth: Episode 2 ft. Bill Bailey",
       "url": "https://www.wowhead.com/news=383685/planet-azeroth-episode-2-ft-bill-bailey",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383680/get-a-chef-uniform-and-a-warturkey-mount-in-november-2026-trading-post",
       "category": "Live",
       "publishedAt": "2026-11-01T06:03:01.000Z"
-    },
-    {
-      "title": "Could the WoW: Forever Podcast be Teasing a Secret New Weapon?",
-      "url": "https://www.wowhead.com/news=383657/could-the-wow-forever-podcast-be-teasing-a-secret-new-weapon",
-      "category": "Forever",
-      "publishedAt": "2026-10-31T18:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-02T00:09:33.931Z",
-  "generatedAt": "2026-11-02T00:09:33.923Z",
+  "newsUpdatedAt": "2026-11-02T01:31:28.230Z",
+  "generatedAt": "2026-11-02T01:31:28.215Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 01 Nov 2026 18:09:33 -0600",
+  "newsFeedBuiltAt": "Sun, 01 Nov 2026 19:31:25 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

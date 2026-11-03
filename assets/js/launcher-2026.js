@@ -19,7 +19,7 @@
     collection:'assets/images/gallery/wow-010126_151126.jpg'
   };
   const official = [
-    {category:'OFFICIAL · 27 OCT',name:'Claim Your Forever Character Names',description:'Early name reservations run until 3 November. Prepare the names that will travel with you.',url:'https://worldofwarcraft.blizzard.com/en-us/news/24303866',image:images.stormwind},
+    {category:'OFFICIAL · 29 OCT',name:'Forever is nearly here: return to Azeroth',description:'A world of new paths and stories is ready for its global debut. See Blizzard’s official launch guide.',url:'https://worldofwarcraft.blizzard.com/en-us/news/24315643/regresa-a-azeroth-en-world-of-warcraft-forever',image:images.stormwind},
     {category:'OFFICIAL · DUNGEONS',name:'Explore nine new Forever dungeons',description:'Nine new dungeons across the Eastern Kingdoms and Kalimdor are waiting to be discovered.',url:'https://worldofwarcraft.blizzard.com/en-us/news/24301455',image:images.horizon},
     {category:'OFFICIAL · CAMPING',name:'Gather around the campfire',description:'A closer look at the new Camping system, its crafted features and the joy of stopping along the road.',url:'https://worldofwarcraft.blizzard.com/en-us/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever',image:images.goldshire},
     {category:'OFFICIAL · RAID PREVIEW',name:'The first raids begin 9 December',description:'Barrow Deeps, Hyjal Summit and Onyxia’s Lair open a new chapter at level 60.',url:'https://worldofwarcraft.blizzard.com/en-us/news/24303009/world-of-warcraft-forever-raid-overview-locations-raid-sizes-and-attunement',image:images.ironforge}
@@ -86,9 +86,9 @@
   featured.innerHTML=heading('01  /  FEATURED','Beyond the horizon.','The stories shaping our next great adventure.','forever.html#forever-news','All Forever news');
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
-    category:'FEATURED STORY  ·  WORLD OF WARCRAFT: FOREVER',
-    name:'The gates of Azeroth are opening.',
-    description:'5 November · 00:00 CET. A familiar world, new discoveries and a journey worth taking slowly.',
+    category:'FEATURED STORY  ·  THE ROAD TO FOREVER',
+    name:live?'The Forever era has begun.':'The gates of Azeroth are opening.',
+    description:'5 November · 00:00 CET in Italy. One new beginning, a thousand roads and three adventurers whose stories are waiting to be written.',
     url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
@@ -186,7 +186,7 @@
   spotlight.innerHTML=heading('06  /  MEDIA SPOTLIGHT','Scenes from the world.','A cinematic preview and snapshots from the archive.','gallery.html','Open gallery');
   const mediaGrid=document.createElement('div');mediaGrid.className='launcher-media-grid';
   [
-    {eyebrow:'OFFICIAL CINEMATIC',title:'Discover Forever',desc:'Watch the official video and follow the launch briefings.',url:'forever.html#forever-video',image:images.horizon},
+    {eyebrow:'LAUNCH SPOTLIGHT',title:'The final watch before Forever',desc:'Return to the featured video and celebrate the last hours before our next adventure.',url:'#forever-premiere',image:images.hero},
     {eyebrow:'PHOTO ARCHIVE',title:'Azeroth through our eyes',desc:'Explore the community gallery and moments on the road.',url:'gallery.html',image:images.collection}
   ].forEach(item=>{
     const a=document.createElement('a');a.href=item.url;a.className='launcher-media-tile';

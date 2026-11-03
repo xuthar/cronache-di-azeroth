@@ -1,0 +1,317 @@
+/* CHRONICLES OF AZEROTH · FOREVER LAUNCH SPOTLIGHT · NOVEMBER 2026
+   Visual celebration without modifying game-status countdown or news data. */
+:root {
+  --premiere-ink:#f5eee5;
+  --premiere-amber:#f1c985;
+  --premiere-gold:#d6a95e;
+  --premiere-sky:#8de1ed;
+  --premiere-panel:#0d2639;
+}
+.azeroth-launcher body[data-page=home] .hero{
+  position:relative;
+  border-bottom-color:#b9d9cb6b;
+  box-shadow:inset 0 -60px 80px #081b2b85;
+}
+.azeroth-launcher body[data-page=home] .hero::before{
+  border:1px solid #efce9563;
+  background:linear-gradient(#e4b95d92,#e4b95d92) left top/65px 2px no-repeat,
+             linear-gradient(#e4b95d92,#e4b95d92) left top/2px 65px no-repeat,
+             linear-gradient(#e4b95d92,#e4b95d92) right bottom/65px 2px no-repeat,
+             linear-gradient(#e4b95d92,#e4b95d92) right bottom/2px 65px no-repeat;
+  pointer-events:none;
+}
+.azeroth-launcher body[data-page=home] .hero .launcher-hero-copy .forever-premiere-hero-signal{
+  display:inline-flex;align-items:center;gap:11px;
+  margin:9px 0 4px;padding:8px 13px;border:1px solid #f0cb897d;
+  border-radius:4px;
+  background:linear-gradient(95deg,#734a269e,#1e38509e);
+  box-shadow:0 5px 19px #f7b34b18,0 0 23px #d89e4e16 inset;
+  color:#ffda98;font:800 .68rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.15em;
+}
+.forever-premiere-hero-pulse{
+  width:9px;height:9px;border-radius:50%;flex:0 0 9px;
+  background:#ffce83;box-shadow:0 0 0 5px #d0a45a20,0 0 17px #ffe6a1;
+  animation:forever-premiere-heartbeat 2.9s ease-in-out infinite;
+}
+.azeroth-launcher body[data-page=home] .hero h1 em{
+  color:#ffe1ab;
+  background:linear-gradient(100deg,#fff2d5,#fac47a 56%,#ffefc9);
+  background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+}
+.azeroth-launcher body[data-page=home] .hero .buttons .forever-premiere-hero-watch{
+  color:#fce2b2;
+  border-color:#e7bb7975;
+  background:linear-gradient(115deg,#794e2869,#262f42a8);
+}
+.azeroth-launcher body[data-page=home] .hero .buttons .forever-premiere-hero-watch:hover{
+  background:#a36a338e;border-color:#ffe2a0;color:#fff;
+}
+/* The prominent video and narrative form the first section under the hero. */
+.azeroth-launcher .forever-premiere{
+  position:relative;z-index:2;
+  margin-top:10px;margin-bottom:18px;
+  padding:27px 0 11px;
+  overflow:visible;
+}
+.azeroth-launcher .forever-premiere::before{
+  content:'';pointer-events:none;z-index:-1;position:absolute;
+  inset:-35px -40px -40px;background:radial-gradient(ellipse at 42% 25%,#0c82ba2a,transparent 60%),radial-gradient(ellipse at 90% 55%,#c49d5730,transparent 45%);
+}
+.azeroth-launcher .forever-premiere-topline{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px 20px;margin-bottom:15px;flex-wrap:wrap;
+}
+.azeroth-launcher .forever-premiere-topper{display:flex;gap:11px 19px;align-items:center;flex-wrap:wrap}
+.azeroth-launcher .forever-premiere-eyebrow{
+  color:#ffe1ae;font:800 .68rem system-ui;letter-spacing:.13em;
+}
+.azeroth-launcher .forever-premiere-top-title{
+  position:relative;color:#eaf9f5;font:700 .69rem system-ui;letter-spacing:.14em;
+  padding-left:17px;
+}
+.azeroth-launcher .forever-premiere-top-title::before{
+  content:'';position:absolute;top:1px;left:0;width:2px;height:12px;background:#7de1df;
+}
+.azeroth-launcher .forever-premiere-status{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#bc78482d;border:1px solid #d7a16874;color:#ffe2b4;
+  padding:5px 10px;border-radius:999px;
+  font:800 .61rem/1.3 system-ui;letter-spacing:.08em;
+}
+.azeroth-launcher .forever-premiere-status::before{
+  content:'';width:6px;height:6px;background:#f9bb71;border-radius:50%;box-shadow:0 0 11px #e7a05a;
+}
+.azeroth-launcher .forever-premiere-top-right{
+  color:#98bac7;font:700 .64rem/1.4 system-ui;letter-spacing:.13em;
+}
+.azeroth-launcher .forever-premiere-grid{
+  display:grid;grid-template-columns:minmax(0,1.45fr) minmax(320px,.88fr);
+  align-items:stretch;gap:0;
+  background:linear-gradient(110deg,#0d283a,#0b2334);
+  border:1px solid #9dc8d078;border-radius:9px;
+  box-shadow:0 25px 68px #000a,0 0 0 1px #fff1 inset,0 0 35px #168ba120;
+  overflow:hidden;
+}
+.azeroth-launcher .forever-premiere-video{
+  background:#06101b;min-width:0;
+  display:flex;flex-direction:column;justify-content:stretch;
+  border-right:1px solid #d3c5ab51;
+}
+.azeroth-launcher .forever-premiere-stage{
+  position:relative;aspect-ratio:16/9;min-height:285px;
+  display:flex;align-items:stretch;justify-content:center;
+  isolation:isolate;overflow:hidden;background:
+    linear-gradient(120deg,#081522ab,#152d337c),
+    url('../images/hero.webp') center/cover;
+}
+.azeroth-launcher .forever-premiere-play{
+  position:absolute;inset:0;
+  display:block;width:100%;height:100%;
+  border:0;padding:0;cursor:pointer;
+  background:transparent;color:white;overflow:hidden;text-align:left;
+}
+.azeroth-launcher .forever-premiere-poster{
+  display:block;width:100%;height:100%;object-fit:cover;
+  object-position:center;filter:saturate(1.14) contrast(1.07);
+  transform:scale(1.005);transition:transform .5s ease,filter .45s ease;
+}
+.azeroth-launcher .forever-premiere-video-shade{
+  position:absolute;pointer-events:none;inset:0;
+  background:linear-gradient(0deg,#030f1fe8 0%,#0b1d35ad 29%,#08254017 70%),
+             linear-gradient(90deg,#082b4782,transparent 60%);
+}
+.azeroth-launcher .forever-premiere-play-icon{
+  position:absolute;left:50%;top:45%;
+  transform:translate(-50%,-50%);
+  display:grid;place-items:center;padding-left:5px;
+  width:86px;height:86px;border-radius:50%;
+  border:2px solid #fbe4b9;
+  background:linear-gradient(140deg,#087ebbe3,#0c386bea);
+  box-shadow:0 0 0 9px #1d849a35,0 11px 30px #0009,0 0 38px #84cce284;
+  font:2rem/1 system-ui;color:#fff9eb;
+  transition:transform .25s,box-shadow .25s;
+}
+.azeroth-launcher .forever-premiere-play:hover .forever-premiere-play-icon,
+.azeroth-launcher .forever-premiere-play:focus-visible .forever-premiere-play-icon{
+  transform:translate(-50%,-50%) scale(1.1);
+  box-shadow:0 0 0 14px #249dc342,0 14px 34px #0009,0 0 45px #bfeaf6;
+}
+.azeroth-launcher .forever-premiere-play:hover .forever-premiere-poster{transform:scale(1.045);filter:saturate(1.27) contrast(1.13)}
+.azeroth-launcher .forever-premiere-play-ribbon{
+  position:absolute;inset:auto 26px 23px;z-index:1;
+  display:flex;flex-direction:column;gap:6px;text-shadow:0 3px 10px #000b;
+}
+.azeroth-launcher .forever-premiere-play-ribbon small{
+  color:#b7f2f0;font:800 .64rem/1.4 system-ui;letter-spacing:.16em;
+}
+.azeroth-launcher .forever-premiere-play-ribbon strong{
+  max-width:610px;color:#fff3df;
+  font:600 clamp(1.32rem,2.5vw,2.6rem)/1.17 Georgia,serif;
+}
+.azeroth-launcher .forever-premiere-play-ribbon em{
+  font:700 .77rem system-ui;color:#ffe1ac;
+}
+.azeroth-launcher .forever-premiere-stage iframe.forever-premiere-iframe{
+  position:absolute;inset:0;display:block;border:0;width:100%;height:100%;background:#000;
+}
+.azeroth-launcher .forever-premiere-video-caption{
+  display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center;
+  gap:7px 16px;padding:12px 18px;
+  background:linear-gradient(90deg,#0c293a,#0b2235);
+  color:#a8c9d4;font:.68rem/1.4 system-ui;
+}
+.azeroth-launcher .forever-premiere-video-caption a{
+  color:#ffda97;border-bottom:1px solid #cbaa7b6e;padding-bottom:2px;
+  font-weight:700;
+}
+.azeroth-launcher .forever-premiere-video-caption a:hover{color:#fff;}
+/* Right-hand feature: the emotional invitation and verified launch facts. */
+.azeroth-launcher .forever-premiere-story{
+  min-width:0;
+  display:flex;flex-direction:column;
+  position:relative;isolation:isolate;
+  padding:clamp(24px,3.3vw,42px) clamp(22px,3.2vw,39px) 23px;
+  background:radial-gradient(ellipse at 86% 9%,#b17a4e36,transparent 55%),
+             linear-gradient(130deg,#0e2c42,#0b2034 69%,#1c2942);
+}
+.azeroth-launcher .forever-premiere-story::after{
+  content:'';position:absolute;pointer-events:none;inset:12px;z-index:-1;
+  border:1px solid #d8caa415;border-radius:4px;
+}
+.azeroth-launcher .forever-premiere-serial{
+  display:flex;align-items:center;gap:9px;
+  color:#ffe1aa;font:800 .65rem/1.4 system-ui;letter-spacing:.16em;
+}
+.azeroth-launcher .forever-premiere-serial-mark{
+  font:1.2rem/1 Georgia,serif;color:#f2c783;
+}
+.azeroth-launcher .forever-premiere-headline{
+  margin:18px 0 15px;
+  color:#fff0d8;
+  font:600 clamp(1.95rem,3.15vw,3.3rem)/1.14 Georgia,serif;
+  letter-spacing:-.039em;text-wrap:balance;
+}
+.azeroth-launcher .forever-premiere-lead{
+  color:#d1e2e5;margin:0 0 22px;font:.91rem/1.76 system-ui;
+}
+.azeroth-launcher .forever-premiere-launch-meter{
+  padding:15px 16px 13px;margin-bottom:14px;
+  border-radius:5px;border:1px solid #eac58c83;
+  background:linear-gradient(90deg,#36402e71,#8d612b38);
+  box-shadow:0 0 22px #ecb35811 inset;
+}
+.azeroth-launcher .forever-premiere-launch-meter span{
+  display:block;color:#a9dade;font:800 .61rem system-ui;letter-spacing:.13em;margin-bottom:8px;
+}
+.azeroth-launcher .forever-premiere-launch-meter strong{
+  display:block;color:#ffe1aa;
+  font:600 clamp(1.24rem,2.1vw,2rem)/1.18 Georgia,serif;
+}
+.azeroth-launcher .forever-premiere-launch-meter small{
+  display:block;margin-top:5px;color:#dce8e3;font:.74rem system-ui;
+}
+.azeroth-launcher .forever-premiere-facts{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;
+  margin-bottom:18px;
+}
+.azeroth-launcher .forever-premiere-fact{
+  min-width:0;padding:10px 5px;text-align:center;
+  background:#05192b7f;border:1px solid #7badb560;
+  border-radius:4px;
+}
+.azeroth-launcher .forever-premiere-fact strong{
+  display:block;color:#ffdeaa;font:600 clamp(1.1rem,1.6vw,1.6rem)/1.16 Georgia,serif;
+}
+.azeroth-launcher .forever-premiere-fact small{
+  display:block;margin-top:5px;color:#a2d6db;
+  font:700 .5rem/1.25 system-ui;letter-spacing:.09em;
+}
+.azeroth-launcher .forever-premiere-cta{
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+  margin-top:auto;padding-top:5px;
+}
+.azeroth-launcher .forever-premiere-primary,
+.azeroth-launcher .forever-premiere-secondary{
+  border:1px solid #4fa8d9;border-radius:4px;display:inline-flex;justify-content:center;
+  text-align:center;align-items:center;min-height:40px;padding:11px 12px;
+  font:800 .7rem/1.35 system-ui;
+}
+.azeroth-launcher .forever-premiere-primary{
+  background:linear-gradient(115deg,#0b86da,#1762af);color:white;
+  box-shadow:0 6px 18px #026fb450;
+}
+.azeroth-launcher .forever-premiere-primary:hover{background:#129fee;color:white}
+.azeroth-launcher .forever-premiere-secondary{
+  color:#ffe6b3;border-color:#beaf887e;background:#172d3c;
+}
+.azeroth-launcher .forever-premiere-secondary:hover{background:#244d63;color:white}
+.azeroth-launcher .forever-premiere-source{
+  margin-top:15px;color:#a4d4df;font:.66rem/1.45 system-ui;
+  border-bottom:1px solid #86bec460;width:fit-content;padding-bottom:2px;
+}
+.azeroth-launcher .forever-premiere-bottom-note{
+  display:flex;gap:18px;align-items:center;justify-content:center;
+  margin-top:13px;padding:8px 0;
+  color:#bbd3d2;font:800 .63rem/1.5 system-ui;letter-spacing:.18em;text-align:center;
+}
+.azeroth-launcher .forever-premiere-bottom-note>span{
+  color:#e9c28a;font:1.2rem Georgia,serif;
+}
+.azeroth-launcher .launcher-featured{margin-top:0}
+.azeroth-launcher .forever-signal{
+  border-bottom-color:#d3b17f83;
+  background:linear-gradient(97deg,#0b3a53,#173549 48%,#4a3b3b 81%,#112b41);
+}
+.azeroth-launcher .forever-signal .forever-signal-mark{
+  box-shadow:0 0 16px #c1eae8;
+}
+@keyframes forever-premiere-heartbeat{
+  0%,100%{transform:scale(1);opacity:.85}
+  45%{transform:scale(1.2);opacity:1}
+}
+@media(max-width:1180px){
+  .azeroth-launcher .forever-premiere-grid{
+    grid-template-columns:minmax(0,1.24fr) minmax(315px,1fr);
+  }
+  .azeroth-launcher .forever-premiere-headline{font-size:clamp(1.7rem,2.7vw,2.35rem)}
+  .azeroth-launcher .forever-premiere-story{padding:25px 24px 21px}
+  .azeroth-launcher .forever-premiere-lead{font-size:.84rem}
+}
+@media(max-width:900px){
+  .azeroth-launcher .forever-premiere-grid{grid-template-columns:minmax(0,1fr)}
+  .azeroth-launcher .forever-premiere-video{border-right:0;border-bottom:1px solid #d3c5ab51}
+  .azeroth-launcher .forever-premiere-story{padding:27px}
+  .azeroth-launcher .forever-premiere-headline{font-size:clamp(2rem,5vw,3.1rem);max-width:670px}
+  .azeroth-launcher .forever-premiere-lead{font-size:.93rem}
+  .azeroth-launcher .forever-premiere-facts{max-width:570px}
+}
+@media(max-width:700px){
+  .azeroth-launcher .forever-premiere{margin-top:0;padding-top:23px}
+  .azeroth-launcher .forever-premiere-topline{align-items:flex-start}
+  .azeroth-launcher .forever-premiere-hero-signal{font-size:.6rem;letter-spacing:.07em}
+  .azeroth-launcher .forever-premiere-top-right{font-size:.58rem}
+  .azeroth-launcher .forever-premiere-stage{min-height:190px}
+  .azeroth-launcher .forever-premiere-play-icon{width:65px;height:65px;font-size:1.45rem}
+  .azeroth-launcher .forever-premiere-play-ribbon{inset:auto 17px 15px}
+  .azeroth-launcher .forever-premiere-play-ribbon small{font-size:.56rem}
+  .azeroth-launcher .forever-premiere-play-ribbon strong{font-size:1.38rem}
+  .azeroth-launcher .forever-premiere-video-caption{padding:12px}
+  .azeroth-launcher .forever-premiere-story{padding:23px 19px}
+  .azeroth-launcher .forever-premiere-headline{font-size:2.15rem}
+  .azeroth-launcher .forever-premiere-bottom-note{font-size:.55rem;letter-spacing:.09em}
+}
+@media(max-width:400px){
+  .azeroth-launcher .forever-premiere-play-icon{top:41%;width:56px;height:56px}
+  .azeroth-launcher .forever-premiere-play-ribbon strong{font-size:1.12rem}
+  .azeroth-launcher .forever-premiere-story{padding:18px 15px}
+  .azeroth-launcher .forever-premiere-headline{font-size:1.9rem}
+  .azeroth-launcher .forever-premiere-fact small{font-size:.47rem}
+  .azeroth-launcher .forever-premiere-primary,.azeroth-launcher .forever-premiere-secondary{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+ .forever-premiere-hero-pulse{animation:none!important}
+ .azeroth-launcher .forever-premiere-poster,
+ .azeroth-launcher .forever-premiere-play-icon{transition:none!important}
+ .azeroth-launcher .forever-premiere-play:hover .forever-premiere-poster{transform:none!important}
+}

@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-03T20:40:24.636Z"
+    "checkedAt": "2026-11-03T22:59:27.295Z"
   },
   "news": [
+    {
+      "title": "Classic Shaman Discord Open Again After 13 Hours",
+      "url": "https://www.wowhead.com/news=383724/classic-shaman-discord-open-again-after-13-hours",
+      "category": "Forever",
+      "publishedAt": "2026-11-03T22:32:58.000Z"
+    },
+    {
+      "title": "Blizzard Addresses Trading Post Reward Mount Issues - Fixes Ready Ahead of Maintenance",
+      "url": "https://www.wowhead.com/news=383723/blizzard-addresses-trading-post-reward-mount-issues-fixes-ready-ahead-of",
+      "category": "Live",
+      "publishedAt": "2026-11-03T21:43:41.000Z"
+    },
     {
       "title": "You Can Play WoW: Forever on a Gamepad",
       "url": "https://www.wowhead.com/news=383720/wow-forever-officially-supports-gamepads",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383714/wowheads-talent-calculator-for-wow-forever-updated-for-launch-class-changes",
       "category": "Forever",
       "publishedAt": "2026-11-03T20:00:54.000Z"
-    },
-    {
-      "title": "Tier Pieces Require Quest Chain That Requires Group Content in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383716/tier-pieces-require-quest-chain-that-requires-group-content-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-03T19:30:50.000Z"
-    },
-    {
-      "title": "D&D: World of Warcraft Early Access Grants Pet, Mount, Decor, and Toy",
-      "url": "https://www.wowhead.com/news=383713/d-d-world-of-warcraft-early-access-grants-pet-mount-decor-and-toy",
-      "category": "WoW",
-      "publishedAt": "2026-11-03T18:56:09.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-03T20:40:24.636Z",
-  "generatedAt": "2026-11-03T20:40:24.627Z",
+  "newsUpdatedAt": "2026-11-03T22:59:27.295Z",
+  "generatedAt": "2026-11-03T22:59:27.286Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 03 Nov 2026 14:40:03 -0600",
+  "newsFeedBuiltAt": "Tue, 03 Nov 2026 16:59:25 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

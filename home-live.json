@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-03T00:01:41.682Z"
+    "checkedAt": "2026-11-03T06:36:47.760Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever Official Development Notes and Class Tuning",
+      "url": "https://www.wowhead.com/news=383704/wow-forever-official-development-notes-and-class-tuning",
+      "category": "Forever",
+      "publishedAt": "2026-11-03T03:51:28.000Z"
+    },
+    {
+      "title": "Hunter Class Buffs on WoW: Forever",
+      "url": "https://www.wowhead.com/news=383702/hunter-buffs-on-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-03T01:33:01.000Z"
+    },
+    {
+      "title": "Planet Azeroth with Bill Bailey: Plaguelands, Winterspring, and More",
+      "url": "https://www.wowhead.com/news=383698/planet-azeroth-with-bill-bailey-plaguelands-winterspring-and-more",
+      "category": "Forever",
+      "publishedAt": "2026-11-03T00:05:25.000Z"
+    },
     {
       "title": "New Druid and Rogue Passive Reduces Energy Cost on A First Strike",
       "url": "https://www.wowhead.com/news=383699/new-druid-and-rogue-passive-reduces-energy-cost-on-a-first-strike",
       "category": "Forever",
       "publishedAt": "2026-11-02T23:18:08.000Z"
-    },
-    {
-      "title": "Xbox UK Confirms WoW: Forever Not Coming to Xbox in November",
-      "url": "https://www.wowhead.com/news=383696/xbox-uk-confirms-wow-forever-not-coming-to-xbox-in-november",
-      "category": "Forever",
-      "publishedAt": "2026-11-02T20:38:53.000Z"
-    },
-    {
-      "title": "Long Maintenance Planned Ahead of WoW: Forever Launch",
-      "url": "https://www.wowhead.com/news=383695/long-maintenance-planned-ahead-of-wow-forever-launch",
-      "category": "Forever",
-      "publishedAt": "2026-11-02T18:25:59.000Z"
-    },
-    {
-      "title": "Day of the Dead Celebrations Now Live",
-      "url": "https://www.wowhead.com/news=383689/day-of-the-dead-celebrations-now-live",
-      "category": "Live",
-      "publishedAt": "2026-11-02T00:24:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-03T00:01:41.681Z",
-  "generatedAt": "2026-11-03T00:01:41.675Z",
+  "newsUpdatedAt": "2026-11-03T06:36:47.759Z",
+  "generatedAt": "2026-11-03T06:36:47.753Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 02 Nov 2026 18:01:23 -0600",
+  "newsFeedBuiltAt": "Tue, 03 Nov 2026 00:36:47 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

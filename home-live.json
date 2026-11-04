@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-04T15:43:25.232Z"
+    "checkedAt": "2026-11-04T19:52:19.133Z"
   },
   "news": [
     {
-      "title": "Wowhead's Forever Tools Now Live and Updated for Launch",
-      "url": "https://www.wowhead.com/news=383722/wowheads-forever-tools-now-live-and-updated-for-launch",
+      "title": "WoW: Forever Development Notes Updated - UI and Accessibility Updates",
+      "url": "https://www.wowhead.com/news=383741/wow-forever-development-notes-updated-ui-and-accessibility-updates",
       "category": "Forever",
-      "publishedAt": "2026-11-04T15:00:00.000Z"
+      "publishedAt": "2026-11-04T19:38:53.000Z"
     },
     {
-      "title": "When Does WoW: Forever Launch Globally?",
-      "url": "https://www.wowhead.com/news=383728/when-does-wow-forever-launch-globally",
-      "category": "Forever",
-      "publishedAt": "2026-11-04T14:00:00.000Z"
+      "title": "New Alliance and Horde Twitch Chat Badges for Subs to WoW Streamers",
+      "url": "https://www.wowhead.com/news=383740/new-alliance-and-horde-twitch-chat-badges-for-subs-to-wow-streamers",
+      "category": "WoW",
+      "publishedAt": "2026-11-04T19:12:22.000Z"
     },
     {
-      "title": "Classic Shaman Discord Open Again After 13 Hours",
-      "url": "https://www.wowhead.com/news=383724/classic-shaman-discord-open-again-after-13-hours",
+      "title": "New Nvidia Drivers for World of Warcraft: Forever",
+      "url": "https://www.wowhead.com/news=383738/new-nvidia-drivers-for-world-of-warcraft-forever",
       "category": "Forever",
-      "publishedAt": "2026-11-03T22:32:58.000Z"
+      "publishedAt": "2026-11-04T18:58:48.000Z"
     },
     {
-      "title": "Blizzard Addresses Trading Post Reward Mount Issues - Fixes Ready Ahead of Maintenance",
-      "url": "https://www.wowhead.com/news=383723/blizzard-addresses-trading-post-reward-mount-issues-fixes-ready-ahead-of",
-      "category": "Live",
-      "publishedAt": "2026-11-03T21:43:41.000Z"
+      "title": "Introducing The Forever Files: Wowhead's Forever Newsletter",
+      "url": "https://www.wowhead.com/news=383736/introducing-the-forever-files-wowheads-forever-newsletter",
+      "category": "Wowhead",
+      "publishedAt": "2026-11-04T17:55:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-04T15:43:25.231Z",
-  "generatedAt": "2026-11-04T15:43:25.155Z",
+  "newsUpdatedAt": "2026-11-04T19:52:19.132Z",
+  "generatedAt": "2026-11-04T19:52:19.051Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 04 Nov 2026 09:43:24 -0600",
+  "newsFeedBuiltAt": "Wed, 04 Nov 2026 13:51:55 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

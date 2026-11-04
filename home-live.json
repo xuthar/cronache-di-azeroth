@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-04T07:27:10.558Z"
+    "checkedAt": "2026-11-04T15:43:25.232Z"
   },
   "news": [
+    {
+      "title": "Wowhead's Forever Tools Now Live and Updated for Launch",
+      "url": "https://www.wowhead.com/news=383722/wowheads-forever-tools-now-live-and-updated-for-launch",
+      "category": "Forever",
+      "publishedAt": "2026-11-04T15:00:00.000Z"
+    },
+    {
+      "title": "When Does WoW: Forever Launch Globally?",
+      "url": "https://www.wowhead.com/news=383728/when-does-wow-forever-launch-globally",
+      "category": "Forever",
+      "publishedAt": "2026-11-04T14:00:00.000Z"
+    },
     {
       "title": "Classic Shaman Discord Open Again After 13 Hours",
       "url": "https://www.wowhead.com/news=383724/classic-shaman-discord-open-again-after-13-hours",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383723/blizzard-addresses-trading-post-reward-mount-issues-fixes-ready-ahead-of",
       "category": "Live",
       "publishedAt": "2026-11-03T21:43:41.000Z"
-    },
-    {
-      "title": "You Can Play WoW: Forever on a Gamepad",
-      "url": "https://www.wowhead.com/news=383720/wow-forever-officially-supports-gamepads",
-      "category": "Forever",
-      "publishedAt": "2026-11-03T20:22:18.000Z"
-    },
-    {
-      "title": "Wowhead's Talent Calculator for WoW: Forever Updated for Launch Class Changes",
-      "url": "https://www.wowhead.com/news=383714/wowheads-talent-calculator-for-wow-forever-updated-for-launch-class-changes",
-      "category": "Forever",
-      "publishedAt": "2026-11-03T20:00:54.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-04T07:27:10.557Z",
-  "generatedAt": "2026-11-04T07:27:10.547Z",
+  "newsUpdatedAt": "2026-11-04T15:43:25.231Z",
+  "generatedAt": "2026-11-04T15:43:25.155Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 04 Nov 2026 01:26:53 -0600",
+  "newsFeedBuiltAt": "Wed, 04 Nov 2026 09:43:24 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

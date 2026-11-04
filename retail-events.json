@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T06:06:46.424Z",
+  "updatedAt": "2026-11-04T14:23:55.388Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -598,6 +598,15 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=479"
+    },
+    {
+      "id": "wow-event-201-1809338400000@wowlazymacros.com",
+      "title": "Children's Week",
+      "startAt": "2027-05-03T10:00:00.000Z",
+      "endAt": "2027-05-10T10:00:00.000Z",
+      "allDay": false,
+      "category": "World events",
+      "url": "https://www.wowhead.com/event=201"
     }
   ]
 }

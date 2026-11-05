@@ -78,6 +78,7 @@
   function home(atlas){
     const figure=document.querySelector('.first-night-figure');
     if(!figure)return;
+    figure.classList.add('fn-with-photo');
     figure.style.setProperty('--fn-atlas','url("'+atlas+'")');
     const a=document.createElement('a');a.href='gallery.html#forever-first-night-gallery';a.className='fn-hero-photo-link';
     a.setAttribute('aria-label','View eight screenshots from Xuthar’s first night');

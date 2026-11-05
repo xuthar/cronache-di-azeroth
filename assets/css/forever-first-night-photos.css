@@ -48,3 +48,11 @@
 .azeroth-launcher .first-night-figure.fn-with-photo{align-self:center;aspect-ratio:440 / 248;min-height:0;max-height:none;height:auto;width:100%}
 .azeroth-launcher .fn-with-photo .fn-hero-photo-link{min-height:0;height:100%;aspect-ratio:440 / 248}
 .azeroth-launcher .fn-with-photo .fn-hero-photo{min-height:0;height:100%;aspect-ratio:440 / 248}
+
+/* Lion's Pride Inn contact-sheet: 2×2 frames, unlike the older 2×4 atlases. */
+.lpi-gallery .lpi-photo-frame{background-size:200% 200%;aspect-ratio:16 / 9;filter:contrast(1.06) saturate(1.08)}
+.lpi-gallery{background:linear-gradient(140deg,#211a24,#241b1b 50%,#252b3c);border-color:#cca15b9c}
+.lpi-gallery:before{background:radial-gradient(ellipse at 10% 12%,#e5a34a30,transparent 55%),radial-gradient(ellipse at 90% 85%,#7d61851d,transparent 60%)}
+.lpi-gallery .fn-shot-card{background:#231c1b;border-color:#b69a7475}
+.lpi-gallery .fn-shot-number{color:#f0c98b}
+.lpi-gallery .fn-shot-button:hover .lpi-photo-frame{transform:scale(1.035)}

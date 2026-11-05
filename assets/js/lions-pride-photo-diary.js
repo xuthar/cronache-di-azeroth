@@ -4,7 +4,7 @@
   const page=document.body.dataset.page;
   if(!['gallery','home','xuthar'].includes(page))return;
   const galleryId='lions-pride-inn-gallery';
-  const atlas='assets/data/xuthar-lions-pride-four-atlas.b64?v=20261105-inn-four-01';
+  const atlas='assets/img/xuthar-lions-pride-hd.webp?v=20261105-hd-01';
   const pics=[
     ['The Hearth of Goldshire','12:32 · THE INN','Xuthar enters the Lion’s Pride Inn. The great brick hearth, candlelit tables and Melika Isenstrider appear in the common room.'],
     ['At the Innkeeper’s Side','12:33 · FARLEY','Xuthar stands beside Innkeeper Farley. Barkeep Dobbins and Brog Hamfist are visible beyond the counter. Quest turn-in is not confirmed.'],
@@ -13,7 +13,15 @@
   ];
   const node=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
   const frame=(i,cls='')=>{const e=node('span','fn-photo-frame lpi-photo-frame '+cls);e.style.backgroundPosition=(i%2*100)+'% '+(Math.floor(i/2)*100)+'%';e.setAttribute('role','img');e.setAttribute('aria-label',pics[i][2]);return e;};
-  async function imageUrl(){const r=await fetch(atlas,{cache:'force-cache'});if(!r.ok)throw Error('Inn photo atlas unavailable');const s=(await r.text()).trim();if(s.length!==14236||!/^[A-Za-z0-9+/]+={0,2}$/.test(s))throw Error('Invalid inn photo atlas');return 'data:image/avif;base64,'+s;}
+  function imageUrl(){
+    return new Promise((resolve,reject)=>{
+      const img=new Image();
+      img.onload=()=>img.naturalWidth===2800&&img.naturalHeight===1576
+        ? resolve(atlas) : reject(new Error('Unexpected inn image dimensions'));
+      img.onerror=()=>reject(new Error('Lion’s Pride Inn photographs could not be loaded'));
+      img.src=atlas;
+    });
+  }
   function gallery(url){
     const root=document.querySelector('#main .body-space');
     if(!root||document.getElementById(galleryId))return;
@@ -43,7 +51,7 @@
       button.append(frame(i));button.addEventListener('click',()=>open(i));
       const text=node('div','fn-shot-caption');text.append(node('span','fn-shot-number',(i+1)+' / 4 · '+p[1]));text.append(node('h3','',p[0]));text.append(node('p','',p[2]));card.append(button,text);grid.append(card);
     });
-    section.append(grid,dialog,node('p','fn-shot-footnote','Player-supplied screenshots, 5 November 2026. Compressed 400×225 pixel previews; original gameplay files remain separate. Being near Farley or Tomas does not prove completing their quests or learning professions.'));
+    section.append(grid,dialog,node('p','fn-shot-footnote','Player-supplied 1920×1080 screenshots, 5 November 2026. High-quality 1400×788 WebP previews. Being near Farley or Tomas does not prove quest completion or profession training.'));
     root.prepend(section);
     if(location.hash==='#'+galleryId)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));
   }

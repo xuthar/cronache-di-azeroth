@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-kobold-tracks-01';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-kobold-tracks-ready-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,7 +39,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is level 6 by player report. The latest screenshot shows four active quests, including Shhh! We’re Hunting Kobolds at 0/6 Followed Kobold Tracks. None is marked ready for turn-in in this view. Earlier snapshots remain part of the chronicle.');
+   const lead=make('p','','Xuthar is level 6 by player report. The latest screenshot shows Shhh! We’re Hunting Kobolds ready for turn-in after the tracking objectives, and four active quests, including Rest and Relaxation at the Lion’s Pride Inn. Earlier screenshots remain archived.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.readyForTurnIn.length,'Ready for turn-in'],[data.active.length,'Still active']]){
@@ -61,10 +61,10 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Recorded from a player-provided quest screenshot on 5 November 2026, near Northshire (49.5, 41.6). The four quests shown are active; none is marked ready in this view. Milly’s Harvest and Bounty on Garrick Padfoot were ready in the previous screenshot. Their absence here does not prove they were delivered. Quest levels differ from Xuthar’s reported level 6. This is a manual archive, not Blizzard API synchronisation.');
+   const foot=make('p','xql-provenance','Recorded from a player-provided quest screenshot on 5 November 2026 (44.9, 62.0). Shhh! We’re Hunting Kobolds is ready for turn-in, not yet shown delivered. Rest and Relaxation, The Adventurer, Report to Goldshire and In Favor of the Light remain active. The absence of older quests is not proof of turn-in. Character level 6 was reported separately. No Blizzard API synchronisation is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-kobold-tracks-notes';root.append(book);
+   book.href='book.html?character=xuthar#x-kobold-tracks-ready-inn-notes';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

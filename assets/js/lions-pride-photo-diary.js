@@ -47,9 +47,23 @@
     root.prepend(section);
     if(location.hash==='#'+galleryId)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));
   }
-  function links(){
+  function featuredInn(url){
+    const figure=document.querySelector('.first-night-figure');
+    if(!figure)return;
+    figure.dataset.featuredAlbum='inn';
+    figure.classList.add('fn-with-photo');
+    figure.style.setProperty('--fn-atlas','url("'+url+'")');
+    const link=node('a','fn-hero-photo-link');
+    link.href='gallery.html#'+galleryId;
+    link.setAttribute('aria-label','See Xuthar seated inside Lion’s Pride Inn and three more authentic photographs');
+    const preview=frame(3,'fn-hero-photo lpi-hero-photo');
+    link.append(preview,node('span','fn-hero-photo-caption','REAL GAMEPLAY · XUTHAR RESTS AT THE LION’S PRIDE INN · VIEW PHOTOS ↗'));
+    figure.replaceChildren(link);
+  }
+    function links(){
     const target=page==='home'?document.querySelector('.first-night-links'):document.querySelector('.xu-first-night .first-night-links');
-    if(target&&!target.querySelector('.lpi-gallery-link')){
+    if(page==='home')imageUrl().then(featuredInn).catch(e=>console.warn('Inn feature:',e.message));
+        if(target&&!target.querySelector('.lpi-gallery-link')){
       const a=node('a','lpi-gallery-link','Four photos inside the inn ↗');a.href='gallery.html#'+galleryId;target.append(a);
     }
   }

@@ -2,44 +2,26 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-05",
-  "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
-  "source": "Player-provided screenshot of Xuthar Morvayne's quest tracker, 5 November 2026",
-  "scope": "Snapshot of six visible quest entries, including two new Camping 101 profession lessons. One quest ready to turn in and five active. Reported level 6 unchanged. Absence of earlier quests is not proof of delivery.",
-  "readyForTurnIn": [
-    {
-      "id": "shhh-were-hunting-kobolds",
-      "name": "Shhh! We're Hunting Kobolds",
-      "level": "4",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "Six kobold tracks followed; quest has not been shown handed in"
-    }
-  ],
+  "location": "Northshire Valley · 48.2, 42.9 at 11:36; later screenshots show the approach into Goldshire",
+  "source": "Player-provided screenshots WoWScrnShot_110526_113639.jpg and later Elwynn/Goldshire travel photos",
+  "scope": "The listed quest states are a snapshot at 11:36 in-game screenshot. Later travel photos confirm arrival in the Goldshire village area, but show no quest dialogues. Bounty on Garrick Padfoot completion and level 6 are confirmed by game chat.",
+  "readyForTurnIn": [],
   "active": [
     {
-      "id": "camping-101-herbalism",
-      "name": "Camping 101: Herbalism",
-      "level": "6",
+      "id": "grape-manifest",
+      "name": "Grape Manifest",
+      "level": "4",
       "status": "active",
-      "progress": "Raise Herbalism skill to 20",
-      "objective": "Raise your Herbalism skill to 20",
-      "targetSkill": 20
+      "progress": "Bring the Grape Manifest to Brother Neals",
+      "objective": "Bring the Grape Manifest to Brother Neals in Northshire Abbey"
     },
     {
-      "id": "camping-101-cooking",
-      "name": "Camping 101: Cooking",
+      "id": "the-adventurer",
+      "name": "The Adventurer",
       "level": "6",
       "status": "active",
-      "progress": "Learn Cooking from Tomas in Goldshire",
-      "objective": "Learn Cooking from Tomas in Goldshire"
-    },
-    {
-      "id": "rest-and-relaxation",
-      "name": "Rest and Relaxation",
-      "level": "5",
-      "status": "active",
-      "progress": "Speak with Innkeeper Farley",
-      "objective": "Speak with Innkeeper Farley at the Lion's Pride Inn"
+      "progress": "Speak to Sam Sarsparilla near Goldshire",
+      "objective": "Speak to Sam Sarsparilla near Goldshire"
     },
     {
       "id": "report-to-goldshire",
@@ -60,22 +42,32 @@
   ],
   "historical": [
     {
+      "name": "Camping 101: Herbalism",
+      "status": "Active in prior screenshot",
+      "note": "Raise Herbalism to 20; absent from latest cropped quest tracker, no skill progress or completion confirmed."
+    },
+    {
+      "name": "Camping 101: Cooking",
+      "status": "Active in prior screenshot",
+      "note": "Learn Cooking from Tomas in Goldshire; training is not shown and is not marked complete."
+    },
+    {
+      "name": "Rest and Relaxation",
+      "status": "Active in prior screenshot",
+      "note": "Speak with Innkeeper Farley at Lion's Pride Inn; later screenshot shows Goldshire streets, not an innkeeper conversation."
+    },
+    {
+      "name": "Shhh! We're Hunting Kobolds",
+      "status": "Previously ready for turn-in",
+      "note": "Its hand-in and reward are not confirmed in new screenshots."
+    },
+    {
       "name": "The Adventurer",
       "status": "Active in previous screenshot",
       "note": "Previously directed Xuthar to Sam Sarsparilla near Goldshire; not visible here. No completion or hand-in inferred."
     },
     {
-      "name": "Shhh! We're Hunting Kobolds",
-      "status": "0/6 Followed Kobold Tracks in preceding screenshot",
-      "note": "Now ready for turn-in: the six tracking objectives are complete, but delivery not shown."
-    },
-    {
       "name": "Milly's Harvest",
-      "status": "Ready for turn-in on previous screenshot",
-      "note": "No longer visible in this crop; hand-in and reward not confirmed."
-    },
-    {
-      "name": "Bounty on Garrick Padfoot",
       "status": "Ready for turn-in on previous screenshot",
       "note": "No longer visible in this crop; hand-in and reward not confirmed."
     },
@@ -100,11 +92,10 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "elwynn-20261105-camping-101",
+  "snapshotId": "northshire-goldshire-20261105-113639",
   "previousSnapshot": {
-    "snapshotId": "northshire-20261105-lions-pride-road",
-    "recordedAt": "2026-11-05",
-    "location": "Elwynn Forest · 44.9, 62.0 visible in quest-tracker screenshot",
+    "snapshotId": "elwynn-20261105-camping-101",
+    "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
     "readyForTurnIn": [
       {
         "id": "shhh-were-hunting-kobolds",
@@ -112,10 +103,27 @@
         "level": "4",
         "status": "ready-for-turn-in",
         "progress": "Ready for turn-in",
-        "objective": "All 6 Followed Kobold Tracks objectives complete; quest delivery/reward not shown"
+        "objective": "Six kobold tracks followed; quest has not been shown handed in"
       }
     ],
     "active": [
+      {
+        "id": "camping-101-herbalism",
+        "name": "Camping 101: Herbalism",
+        "level": "6",
+        "status": "active",
+        "progress": "Raise Herbalism skill to 20",
+        "objective": "Raise your Herbalism skill to 20",
+        "targetSkill": 20
+      },
+      {
+        "id": "camping-101-cooking",
+        "name": "Camping 101: Cooking",
+        "level": "6",
+        "status": "active",
+        "progress": "Learn Cooking from Tomas in Goldshire",
+        "objective": "Learn Cooking from Tomas in Goldshire"
+      },
       {
         "id": "rest-and-relaxation",
         "name": "Rest and Relaxation",
@@ -123,14 +131,6 @@
         "status": "active",
         "progress": "Speak with Innkeeper Farley",
         "objective": "Speak with Innkeeper Farley at the Lion's Pride Inn"
-      },
-      {
-        "id": "the-adventurer",
-        "name": "The Adventurer",
-        "level": "6",
-        "status": "active",
-        "progress": "Speak to Sam Sarsparilla near Goldshire",
-        "objective": "Speak to Sam Sarsparilla near Goldshire"
       },
       {
         "id": "report-to-goldshire",
@@ -151,6 +151,28 @@
     ]
   },
   "characterLevel": 6,
-  "characterLevelSource": "Player-reported in chat on 5 November 2026 after the latest quest tracker screenshot. Not screenshot-confirmed.",
-  "characterLevelRecordedAt": "2026-11-05"
+  "characterLevelSource": "Confirmed by in-game chat in screenshot WoWScrnShot_110526_113639.jpg: 'Congratulations, you have reached [Level 6]!' following the Bounty on Garrick Padfoot completion.",
+  "characterLevelRecordedAt": "2026-11-05",
+  "confirmedCompleted": [
+    {
+      "id": "bounty-on-garrick-padfoot",
+      "name": "Bounty on Garrick Padfoot",
+      "evidence": "Screenshot game chat explicitly says 'Bounty on Garrick Padfoot completed.' and 'Experience gained: 340.'",
+      "experience": 340
+    }
+  ],
+  "travelMilestones": [
+    {
+      "place": "Northshire Abbey",
+      "observation": "Lion-head fountain and stone archway shown in screenshot around 11:54"
+    },
+    {
+      "place": "Elwynn Forest road",
+      "observation": "Sunlit forest trail towards Goldshire shown"
+    },
+    {
+      "place": "Goldshire village",
+      "observation": "Blue-roofed houses, cobbled road and settlement buildings visible in later screenshots"
+    }
+  ]
 }

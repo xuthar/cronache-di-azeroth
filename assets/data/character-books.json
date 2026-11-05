@@ -444,13 +444,44 @@
           ]
         },
         {
+          "id": "x-lions-pride-hearth",
+          "chapter": "Chapter XVI · The Quiet Mercy of Fire",
+          "title": "The Inn Where Time Stood Still",
+          "kind": "reported",
+          "paragraphs": [
+            "He had thought the road ended where the roofs of Goldshire rose between the trees. But a village was not the end of a journey. It was an invitation: a hundred ordinary lives gathered beneath timber and slate, each carrying a story the world would never consider worthy of a chronicle.",
+            "When Xuthar entered the Lion's Pride Inn, the first thing he met was warmth. Firelight breathed from a wide red-brick hearth. Beneath heavy dark beams, candle flames trembled above weathered tables; barrels slept along the walls and glass bottles caught the glow as though some small stars had fallen to earth.",
+            "There was no battle to be fought inside those walls. Instead there were people whose trades gave the place its name and purpose: Farley, the innkeeper; Melika Isenstrider among the chairs; Dobbins behind the bar; Brog Hamfist keeping his goods within reach. They were not the kind of names sung by bards. That was precisely why the Last Witness would remember them.",
+            "Xuthar approached Farley, the keeper of the threshold between the dangerous road and the safety of a borrowed roof. Whatever words passed, if any, were not preserved by the images of that hour. A witness who invents a conversation has lost his calling before he has begun it.",
+            "A little farther within, the room changed its voice. The wood creaked beneath his boots, and the warmth deepened around a working hearth. Tomas, a cook, stood beside the kitchen fire; Toddrick the butcher laboured among the ordinary provisions of ordinary people. A new commission had called Xuthar toward the art of cooking, yet there was no record that he had learned it that afternoon. He had merely reached the man who might teach him.",
+            "Then, at last, he sat.",
+            "No triumph was announced. No chorus of soldiers hailed his return. The chair was plain, the company mixed, the air heavy with smoke, bread and the imagined murmur of conversations whose words he could not make out. His travelling robes fell still against the worn floorboards, and beside him rested the silence he had brought from Northshire.",
+            "For a moment he allowed his thoughts to wander toward every small life outside the inn: a farmhand beneath the trees, a merchant counting coins, a stranger taking the same forest road for the first time. Each would one day be forgotten by someone. Xuthar could not save them all from that fate. Perhaps he could, at least, refuse to let their stories vanish without a witness.",
+            "The flames shifted in their grate. Goldshire continued breathing around him. And for the first time since the gates of Forever had opened, the Last Witness gave himself permission to do nothing but rest.",
+            "There would be roads again. There would be shadows. But not yet."
+          ]
+        },
+        {
+          "id": "x-lions-pride-hearth-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Four Photographs from the Lion’s Pride Inn",
+          "kind": "reported",
+          "paragraphs": [
+            "Screenshot 12:32: Xuthar inside the Lion’s Pride Inn in Goldshire. Large brick fireplace, tables, candles and barrels; Melika Isenstrider is visible as Assistant Innkeeper and Innkeeper Farley appears beyond the bar.",
+            "Screenshot 12:33: Xuthar standing immediately beside Innkeeper Farley. Barkeep Dobbins and Brog Hamfist (General Supplies) are visible. No dialogue window, reward or quest turn-in is shown.",
+            "Screenshot 12:35: Xuthar in the kitchen, close to Tomas (Cook) and Toddrick (Butcher). His earlier Camping 101: Cooking quest tasked him with learning Cooking from Tomas; this image establishes the visit to the cook, not a skill learned.",
+            "Screenshot 12:38: Xuthar seated in the common room near the bar. Innkeeper Farley, Barkeep Dobbins and Brog Hamfist are visible. This documents actual rest by sitting in the tavern, not necessarily a changed inn bind point, in-game rested XP or Rest and Relaxation quest completion.",
+            "Four user-supplied original gameplay screenshots are presented in a compressed four-frame AVIF preview atlas on the site gallery. All internal reflections and sensory images in Chapter XVI are literary roleplay, not direct claims about game actions."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Voices beyond Goldshire",
+          "title": "Beyond the Light of the Hearth",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar Morvayne has reached the Goldshire village area at level 6. The game chat shows Bounty on Garrick Padfoot completed for 340 XP. A Grape Manifest appears in the visible quest tracker, along with The Adventurer, Report to Goldshire and In Favor of the Light.",
-            "Goldshire's roads and buildings are now photographed. Future conversations with Innkeeper Farley, Marshal Dughan, Sam Sarsparilla and Priestess Josetta will be recorded only when actually witnessed or reported."
+            "At level 6, Xuthar has been photographed inside Goldshire’s Lion’s Pride Inn, near Innkeeper Farley and Tomas the Cook, and later sitting at a table. The images do not confirm an NPC conversation, a quest turn-in, learning Cooking, setting a hearthstone, or any new reward.",
+            "Further quests and travels will be recorded when the player supplies the next observations. The completed Bounty on Garrick Padfoot (340 XP), earlier Northshire missions and the Goldshire journey remain in the historical field record."
           ],
           "link": "chronicle.html"
         }

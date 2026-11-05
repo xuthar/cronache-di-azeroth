@@ -2,49 +2,82 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-05",
-  "location": "Northshire Valley · 48.2, 42.9 at 11:36; later screenshots show the approach into Goldshire",
-  "source": "Player-provided screenshots WoWScrnShot_110526_113639.jpg and later Elwynn/Goldshire travel photos",
-  "scope": "Last quest tracker dates from before the inn visit. Four later photos establish the visit to Lion's Pride Inn and a seated rest, without proving any quest turn-in, profession training, hearthstone binding or further level gain.",
-  "readyForTurnIn": [],
+  "location": "Elwynn Forest · 42.5, 67.4 (coordinates visible in screenshot)",
+  "source": "Player-provided in-game quest tracker screenshot at 42.5, 67.4, supplied on 5 November 2026; Garments of the Light completion directly confirmed by the player.",
+  "scope": "Six missions are visible: four ready for turn-in and two in progress. A quest being ready is not a confirmed NPC hand-in. Garments of the Light is completed according to the player's direct report. The screenshot does not establish any new character level; the last confirmed level remains 6. Older quests missing from this cropped tracker are not assumed completed.",
+  "readyForTurnIn": [
+    {
+      "id": "kobold-candles",
+      "name": "Kobold Candles",
+      "level": "7",
+      "status": "ready-for-turn-in",
+      "progress": "Ready for turn-in",
+      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+    },
+    {
+      "id": "the-fargodeep-mine",
+      "name": "The Fargodeep Mine",
+      "level": "7",
+      "status": "ready-for-turn-in",
+      "progress": "Ready for turn-in",
+      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+    },
+    {
+      "id": "gold-dust-exchange",
+      "name": "Gold Dust Exchange",
+      "level": "7",
+      "status": "ready-for-turn-in",
+      "progress": "Ready for turn-in",
+      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+    },
+    {
+      "id": "book-return-elite",
+      "name": "Book Return (Elite)",
+      "level": "6+",
+      "status": "ready-for-turn-in",
+      "progress": "Ready for turn-in",
+      "objective": "Elite quest marked ready in the tracker; reward/hand-in not shown."
+    }
+  ],
   "active": [
     {
-      "id": "grape-manifest",
-      "name": "Grape Manifest",
-      "level": "4",
+      "id": "further-concerns",
+      "name": "Further Concerns",
+      "level": "10",
       "status": "active",
-      "progress": "Bring the Grape Manifest to Brother Neals",
-      "objective": "Bring the Grape Manifest to Brother Neals in Northshire Abbey"
+      "progress": "Speak with Guard Thomas",
+      "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
     },
     {
-      "id": "the-adventurer",
-      "name": "The Adventurer",
+      "id": "camping-101-herbalism",
+      "name": "Camping 101: Herbalism",
       "level": "6",
       "status": "active",
-      "progress": "Speak to Sam Sarsparilla near Goldshire",
-      "objective": "Speak to Sam Sarsparilla near Goldshire"
-    },
-    {
-      "id": "report-to-goldshire",
-      "name": "Report to Goldshire",
-      "level": "5",
-      "status": "active",
-      "progress": "Take Marshal McBride's Documents to Marshal Dughan in Goldshire",
-      "objective": "Take Marshal McBride's Documents to Marshal Dughan in Goldshire"
-    },
-    {
-      "id": "in-favor-of-the-light",
-      "name": "In Favor of the Light",
-      "level": "4",
-      "status": "active",
-      "progress": "Speak to Priestess Josetta in Elwynn Forest",
-      "objective": "Speak to Priestess Josetta in Elwynn Forest"
+      "progress": "Raise Herbalism to skill 20",
+      "objective": "Raise your Herbalism skill to 20.",
+      "targetSkill": 20
     }
   ],
   "historical": [
     {
-      "name": "Camping 101: Herbalism",
-      "status": "Active in prior screenshot",
-      "note": "Raise Herbalism to 20; absent from latest cropped quest tracker, no skill progress or completion confirmed."
+      "name": "Grape Manifest",
+      "status": "Active in earlier tracker",
+      "note": "Missing from the latest cropped tracker. No hand-in confirmed."
+    },
+    {
+      "name": "The Adventurer",
+      "status": "Active in earlier tracker",
+      "note": "Previously directed Xuthar to Sam Sarsparilla. Not present in the latest crop; no completion inferred."
+    },
+    {
+      "name": "Report to Goldshire",
+      "status": "Active in earlier tracker",
+      "note": "Previously directed Xuthar to Marshal Dughan. Not present now; quest hand-in not separately confirmed."
+    },
+    {
+      "name": "In Favor of the Light",
+      "status": "Active in earlier tracker",
+      "note": "Previously asked Xuthar to speak with Priestess Josetta. The player's confirmed Garments of the Light completion does not independently confirm this preceding hand-in."
     },
     {
       "name": "Camping 101: Cooking",
@@ -60,11 +93,6 @@
       "name": "Shhh! We're Hunting Kobolds",
       "status": "Previously ready for turn-in",
       "note": "Its hand-in and reward are not confirmed in new screenshots."
-    },
-    {
-      "name": "The Adventurer",
-      "status": "Active in previous screenshot",
-      "note": "Previously directed Xuthar to Sam Sarsparilla near Goldshire; not visible here. No completion or hand-in inferred."
     },
     {
       "name": "Milly's Harvest",
@@ -92,7 +120,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "northshire-goldshire-20261105-113639",
+  "snapshotId": "elwynn-20261105-1916",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -151,7 +179,7 @@
     ]
   },
   "characterLevel": 6,
-  "characterLevelSource": "Confirmed by in-game chat in screenshot WoWScrnShot_110526_113639.jpg: 'Congratulations, you have reached [Level 6]!' following the Bounty on Garrick Padfoot completion.",
+  "characterLevelSource": "Confirmed by in-game chat in screenshot WoWScrnShot_110526_113639.jpg: 'Congratulations, you have reached [Level 6]!' following the Bounty on Garrick Padfoot completion. No later level-up is shown in the screenshot at coordinates 42.5, 67.4.",
   "characterLevelRecordedAt": "2026-11-05",
   "confirmedCompleted": [
     {
@@ -159,6 +187,12 @@
       "name": "Bounty on Garrick Padfoot",
       "evidence": "Screenshot game chat explicitly says 'Bounty on Garrick Padfoot completed.' and 'Experience gained: 340.'",
       "experience": 340
+    },
+    {
+      "id": "garments-of-the-light",
+      "name": "Garments of the Light",
+      "evidence": "Player explicitly reported successful completion on 5 November 2026 after using the correct rank of the healing spell.",
+      "confirmationType": "player-report"
     }
   ],
   "travelMilestones": [
@@ -191,5 +225,45 @@
     "cookingLearnedConfirmed": false,
     "restAndRelaxationTurnInConfirmed": false,
     "evidence": "Four player-supplied screenshots"
+  },
+  "previousLatestSnapshot": {
+    "snapshotId": "northshire-goldshire-20261105-113639",
+    "location": "Northshire Valley · 48.2, 42.9 at 11:36; later screenshots show the approach into Goldshire",
+    "readyForTurnIn": [],
+    "active": [
+      {
+        "id": "grape-manifest",
+        "name": "Grape Manifest",
+        "level": "4",
+        "status": "active",
+        "progress": "Bring the Grape Manifest to Brother Neals",
+        "objective": "Bring the Grape Manifest to Brother Neals in Northshire Abbey"
+      },
+      {
+        "id": "the-adventurer",
+        "name": "The Adventurer",
+        "level": "6",
+        "status": "active",
+        "progress": "Speak to Sam Sarsparilla near Goldshire",
+        "objective": "Speak to Sam Sarsparilla near Goldshire"
+      },
+      {
+        "id": "report-to-goldshire",
+        "name": "Report to Goldshire",
+        "level": "5",
+        "status": "active",
+        "progress": "Take Marshal McBride's Documents to Marshal Dughan in Goldshire",
+        "objective": "Take Marshal McBride's Documents to Marshal Dughan in Goldshire"
+      },
+      {
+        "id": "in-favor-of-the-light",
+        "name": "In Favor of the Light",
+        "level": "4",
+        "status": "active",
+        "progress": "Speak to Priestess Josetta in Elwynn Forest",
+        "objective": "Speak to Priestess Josetta in Elwynn Forest"
+      }
+    ],
+    "scope": "Last quest tracker dates from before the inn visit. Four later photos establish the visit to Lion's Pride Inn and a seated rest, without proving any quest turn-in, profession training, hearthstone binding or further level gain."
   }
 }

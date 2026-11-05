@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-05",
   "editorialPolicy": "Fictional backstory is separate from player-reported or verified in-game events. Never invent gameplay progress. Append chapters only after user provides real session evidence; use chronicle chronology and preserve unknowns.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-5-player-reported",
+      "status": "level-8-screenshot-confirmed",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -472,6 +472,56 @@
             "Screenshot 12:35: Xuthar in the kitchen, close to Tomas (Cook) and Toddrick (Butcher). His earlier Camping 101: Cooking quest tasked him with learning Cooking from Tomas; this image establishes the visit to the cook, not a skill learned.",
             "Screenshot 12:38: Xuthar seated in the common room near the bar. Innkeeper Farley, Barkeep Dobbins and Brog Hamfist are visible. This documents actual rest by sitting in the tavern, not necessarily a changed inn bind point, in-game rested XP or Rest and Relaxation quest completion.",
             "Four user-supplied original gameplay screenshots are presented in a compressed four-frame AVIF preview atlas on the site gallery. All internal reflections and sensory images in Chapter XVI are literary roleplay, not direct claims about game actions."
+          ]
+        },
+        {
+          "id": "x-lights-by-the-lake",
+          "chapter": "Chapter XVII · The Mercy of Water",
+          "title": "A Blessing at the Water's Edge",
+          "kind": "reported",
+          "paragraphs": [
+            "In Elwynn Forest, the road did not hurry its travellers. There were strangers sitting together around a campfire, their names flickering above the cobbles like little flags carried through the woodland.",
+            "The next photograph was quieter. Water opened between wooded banks; beside a tree waited Guard Roberts. The priest had come to learn that tending another person could be a kind of courage, even when the right words were difficult to find.",
+            "Earlier, the player had solved the strange obstacle of Garments of the Light: the correct rank of Lesser Heal mattered. In the Lion's Pride Inn at 18:46, the game chat finally confirmed the quest completed. Xuthar received Friar's Robes of the Light and 270 experience, while the character reached level seven.",
+            "For the fictional Last Witness, the lesson was more enduring than the reward: mercy was not merely an ideal written in scripture. It was a spell chosen with care, and a person on the other end of it."
+          ]
+        },
+        {
+          "id": "x-fargodeep-trials",
+          "chapter": "Chapter XVIII · Where the Mine Swallows Light",
+          "title": "Two Falls Beneath the Earth",
+          "kind": "reported",
+          "paragraphs": [
+            "The sunlit woods gave way to Fargodeep Mine, where supports and rough carts divided the dark into narrow strips. Kobold Miners and a Rumbler were visible in the passages. The game would not let him forget their strength.",
+            "At 19:04 the screen declared his first recorded death there. A few minutes later, at 19:07, the same message returned. Both defeats were preserved in screenshots. The Last Witness was not yet strong enough to make the mine obey his plans.",
+            "In the earlier tracker, Kobold Candles showed four of eight Large Candles and Gold Dust Exchange showed seven of ten Gold Dust. Book Return (Elite) showed six Lost Books but not the remaining illustrated book. A later tracker marked these quests ready for turn-in, but the screenshots do not independently confirm their delivery.",
+            "In the roleplay chronicle, defeat becomes a mark in the margin rather than something erased: two reminders that surviving Azeroth means understanding when to turn back."
+          ]
+        },
+        {
+          "id": "x-stormwind-arrival",
+          "chapter": "Chapter XIX · Lanterns of the Capital",
+          "title": "The Road to Stormwind",
+          "kind": "reported",
+          "paragraphs": [
+            "After the mine, stone replaced soil. A torchlit passage opened on the streets of Stormwind; high timbered buildings faced the cobbles, and the Trade District buzzed with the ordinary business of people who had never seen a hero arrive.",
+            "At 19:26, beside Morgan Pestle, the game chat recorded the completion of Shipment to Stormwind: 800 experience, 150 Stormwind reputation, Oil of Olaf and three silver fifty copper. In that same moment, Xuthar reached level eight.",
+            "Later, he walked to the city canals. One photograph shows the priest alone at the edge of a wooden dock; another faces him as fishing trainers and quiet waters stand behind. No additional achievement is claimed from this visit.",
+            "The Last Witness, in our imagined reading of the day, might have wondered whether a large city could remember each of its small lives. He had seen crowds around a fire, a wounded guard beside water, dangers underground, and now lanterns reflected from stone. There was more to witness than victory.",
+            "His latest 20:24 quest tracker lists Wine Shop Advert, The Jasperlode Mine, Rare Books (Elite), Further Concerns and Camping 101: Herbalism as active. Previous quests missing from the crop remain historically recorded, not automatically completed."
+          ]
+        },
+        {
+          "id": "x-evening-20261105-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Levels Seven and Eight · Twelve New Screenshots",
+          "kind": "reported",
+          "paragraphs": [
+            "Evidence: twelve new player-supplied 1920×1080 gameplay screenshots, taken between 13:49 and 20:24 on 5 November 2026. They cover a forest-road gathering, Crystal Lake with Guard Roberts, the priest quest reward, two deaths in Fargodeep Mine, the Stormwind Trade District and canals.",
+            "Verified level changes: level seven at 18:46:51 and level eight at 19:26:24, both visible in the game chat. Garments of the Light and Shipment to Stormwind are explicitly confirmed as completed.",
+            "Garments of the Light: 270 XP and Friar's Robes of the Light. Shipment to Stormwind: 800 XP, 150 Stormwind reputation, Oil of Olaf and 3 Silver 50 Copper. Earlier Bounty on Garrick Padfoot remains separately verified.",
+            "At the final 20:24 screenshot, five active quests are shown. The quest levels, including level ten beside two assignments, must not be mistaken for Xuthar's character level.",
+            "All internal thoughts and emotional imagery in these chapters are fictional roleplay interpretation; locations, defeats, rewards and missions are based on the screenshots. The original twelve screenshots have been received in this conversation but are not yet publicly hosted as website image files."
           ]
         },
         {

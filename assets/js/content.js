@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-rainy-goldshire-rest",
+      "day": "14",
+      "chapter": "5 November 2026 · Stormwind to Goldshire, 20:24–21:34",
+      "title": "Rain over Goldshire: a place to sleep",
+      "location": "Stormwind · Elwynn Forest · Lion's Pride Inn, Goldshire",
+      "type": "Player-reported activities and screenshot-confirmed rest",
+      "excerpt": "After Stormwind quest deliveries, Xuthar takes Tailoring and Enchanting instead of Herbalism, learns Fishing, and returns to a rainy Goldshire to sleep.",
+      "text": [
+        "The player confirms several quest hand-ins in Stormwind, including a stop associated with Renato Gallina and deliveries inside shops. The exact quest names and rewards are not shown, so no particular quest is marked completed from this report alone.",
+        "Xuthar abandons Herbalism, learns Tailoring and Enchanting as primary professions, and learns Fishing. Their skill levels are not yet provided. The earlier Camping 101: Herbalism quest has an unverified outcome after this change.",
+        "Seven new screenshots record the return route: the Stormwind dock, orange-lit tunnel, stone bridge and statues; later the night road of Elwynn Forest is wet with rain. Goldshire's inn and houses appear under blue roofs, with lanterns shining through the weather.",
+        "In the final photograph, Xuthar lies on an upstairs bed at the Lion's Pride Inn; the player says he is staying for the night. A new character level, successful quest turn-in, logout or rested experience is not inferred from the photograph.",
+        "This quiet ending becomes Chapter XX of The Last Witness, with literary interpretation explicitly distinguished from the actual game record."
+      ]
+    },
+    {
       "id": "xuthar-stormwind-level-eight",
       "day": "13",
       "chapter": "5 November 2026 · Stormwind, 19:24–20:24",

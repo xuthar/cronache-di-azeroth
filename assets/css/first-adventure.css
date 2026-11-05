@@ -1,0 +1,33 @@
+/* First Night of Forever · player-reported adventures, literary telling. */
+.first-night,.first-night *,.xu-first-night,.xu-first-night *{box-sizing:border-box}
+.first-night{position:relative;isolation:isolate;margin-block:28px 40px;padding:0;overflow:hidden;border:1px solid #c8a46b80;border-radius:8px;background:linear-gradient(128deg,#101b2b,#1b2335 54%,#172b34);box-shadow:0 22px 60px #0008}
+.first-night:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 18% 0%,#9671ba24,transparent 60%),linear-gradient(90deg,#d7b57b77,transparent 42%) top / 100% 2px no-repeat;pointer-events:none}
+.first-night-body{position:relative;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.83fr);gap:clamp(20px,4vw,55px);padding:clamp(24px,4.3vw,52px)}
+.first-night-copy{min-width:0}
+.first-night-overline{display:inline-flex;align-items:center;gap:10px;color:#e4c58f;font:700 .72rem/1.4 system-ui;letter-spacing:.15em;text-transform:uppercase}
+.first-night-overline:before{content:"";width:26px;height:1px;background:#d8b57c}
+.first-night h2{font:500 clamp(2.25rem,4.6vw,4.7rem)/1.07 Georgia,serif;letter-spacing:-.035em;margin:16px 0 16px;color:#fff0d4}
+.first-night h2 em{font-weight:400;color:#cfb7ed}
+.first-night-lead{max-width:710px;color:#e5e0db;font:1.04rem/1.75 Georgia,serif}
+.first-night-quote{margin:23px 0;padding:2px 0 2px 19px;border-left:2px solid #b394d8;color:#d5c5e5;font:italic 1.1rem/1.5 Georgia,serif}
+.first-night-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:23px 0}
+.first-night-steps>div{padding:12px;background:#050e1c85;border:1px solid #c2a77a4d;border-radius:4px}
+.first-night-steps b{display:block;font:500 1.18rem Georgia,serif;color:#f6deac}
+.first-night-steps span{display:block;margin-top:4px;font-size:.68rem;line-height:1.45;color:#b9cbd4}
+.first-night-links{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:25px}
+.first-night .first-night-links a,.xu-first-night a{display:inline-block;border:1px solid #d4b47e91;padding:12px 18px;color:#fff2de;border-radius:4px;text-decoration:none;font-size:.8rem;font-weight:700;background:#6c4e7359;transition:background .2s,transform .2s}
+.first-night .first-night-links a:hover,.xu-first-night a:hover{background:#865e9c8a;transform:translateY(-2px)}
+.first-night .first-night-links a.secondary{background:transparent;color:#e7d5b9}
+.first-night-fine{font-size:.7rem;line-height:1.6;color:#aeb7bd;margin:16px 0 0}
+.first-night-figure{position:relative;align-self:stretch;min-height:410px;margin:0;border:1px solid #9a82a667;border-radius:5px;overflow:hidden;background:#102131}
+.first-night-figure img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.first-night-figure:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0a142bed,transparent 34%)}
+.first-night-figure figcaption{position:absolute;z-index:1;bottom:14px;left:18px;right:18px;color:#f2dbbe;font:.72rem/1.4 system-ui}
+.xu-first-night{position:relative;margin-block:20px 55px;padding:clamp(20px,3vw,38px);border:1px solid #bc9bd18a;border-radius:6px;background:linear-gradient(120deg,#242137,#111f30)}
+.xu-first-night .first-night-overline{color:#ceb7e9}
+.xu-first-night h2{font:500 clamp(1.9rem,3vw,3rem)/1.15 Georgia,serif;color:#ffedda;margin:14px 0}
+.xu-first-night p{max-width:850px;color:#d8d9e2;line-height:1.7}
+.xu-first-night .first-night-links{margin-top:18px}
+@media(max-width:820px){.first-night-body{grid-template-columns:1fr}.first-night-figure{min-height:250px;max-height:340px;order:-1}.first-night h2{font-size:clamp(2rem,7vw,3.4rem)}}
+@media(max-width:520px){.first-night{margin-block:18px 28px}.first-night-body{padding:18px}.first-night-steps{grid-template-columns:1fr}.first-night-steps>div{padding:10px 14px}.first-night-figure{min-height:215px}.first-night .first-night-links a{width:100%;text-align:center}}
+@media(prefers-reduced-motion:reduce){.first-night .first-night-links a,.xu-first-night a{transition:none}}

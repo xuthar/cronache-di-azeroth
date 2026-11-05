@@ -59,3 +59,15 @@
 
 /* The latest home-page cover is the real photograph of Xuthar seated in the inn. */
 .fn-with-photo .lpi-hero-photo{background-size:200% 200%;background-position:100% 100%!important;aspect-ratio:16 / 9;min-height:0;filter:contrast(1.09) saturate(1.09)}
+
+/* High-resolution player screenshots: no blurry hover upscaling. Source: 1920×1080,
+   WebP atlas stores each photo at 1400×788 for clear gallery and modal viewing. */
+.fn-gallery .fn-photo-frame{aspect-ratio:16 / 9;image-rendering:auto;transition:none;filter:none}
+.fn-gallery .fn-shot-button:hover .fn-photo-frame{transform:none}
+.fn-gallery .fn-dialog-frame{max-width:100%;width:100%;aspect-ratio:16 / 9}
+.fn-photo-dialog{max-width:min(1440px,96vw);width:96vw}
+.fn-dialog-inner{padding:clamp(12px,2vw,24px)}
+.fn-hero-photo,.fn-with-photo .lpi-hero-photo{filter:none}
+.azeroth-launcher .fn-with-photo .fn-hero-photo-link,
+.azeroth-launcher .fn-with-photo .fn-hero-photo{aspect-ratio:16 / 9}
+@media(max-width:760px){.fn-photo-dialog{max-width:98vw;width:98vw}.fn-dialog-inner{padding:10px}}

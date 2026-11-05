@@ -2,7 +2,7 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-05T17:10:52.646Z"
+    "checkedAt": "2026-11-05T17:38:14.710Z"
   },
   "news": [
     {
@@ -12,7 +12,13 @@
       "publishedAt": "2026-11-05T17:00:00.000Z"
     },
     {
-      "title": "Wo:W: Forever Known Issues After Launch",
+      "title": "How to Phase to See Group Members After Joining New Group",
+      "url": "https://www.wowhead.com/news=383761/how-to-phase-to-see-group-members-after-joining-new-group",
+      "category": "Forever",
+      "publishedAt": "2026-11-05T16:36:51.000Z"
+    },
+    {
+      "title": "WoW: Forever Known Issues After Launch",
       "url": "https://www.wowhead.com/news=383760/wo-w-forever-known-issues",
       "category": "Forever",
       "publishedAt": "2026-11-05T16:32:18.000Z"
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383745/mcdonalds-canada-offering-wow-game-time-for-reward-points",
       "category": "WoW",
       "publishedAt": "2026-11-05T16:00:00.000Z"
-    },
-    {
-      "title": "Mythic Venomous Abyss Caches Replaced by Open World Gear in Talebound Rewards",
-      "url": "https://www.wowhead.com/news=383746/mythic-venomous-abyss-caches-replaced-by-open-world-gear-in-talebound-rewards",
-      "category": "PTR",
-      "publishedAt": "2026-11-05T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-05T17:10:52.646Z",
-  "generatedAt": "2026-11-05T17:10:52.578Z",
+  "newsUpdatedAt": "2026-11-05T17:38:14.710Z",
+  "generatedAt": "2026-11-05T17:38:14.703Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 05 Nov 2026 11:10:52 -0600",
+  "newsFeedBuiltAt": "Thu, 05 Nov 2026 11:38:14 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

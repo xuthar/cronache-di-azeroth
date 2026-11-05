@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "forever-first-night",
+      "day": "01",
+      "chapter": "5 November 2026 · First night",
+      "title": "The night Azeroth awoke",
+      "location": "Northshire Abbey and Echo Ridge · WoW Forever",
+      "type": "Player-reported adventure",
+      "excerpt": "At midnight, the gates opened. Xuthar Morvayne stepped into a sea of adventurers and followed the first uncertain path towards Echo Ridge.",
+      "text": [
+        "5 November 2026. The first night in Forever began with a queue position of 524 and a choice: Roleplay. Then the gates yielded. Xuthar Morvayne appeared before Northshire Abbey among a vast crowd of new arrivals. Names filled the air, voices called to strangers, and the old stones seemed to tremble beneath a thousand possible futures.",
+        "He was a Human Priest in pale robes, his braids falling against his shoulders. At level two he fought wolves in the fields beyond the abbey. There was nothing glorious in it. That was why he remembered it: the first lessons of a traveller are rarely the ones a bard would choose.",
+        "By level three he stood before Marshal McBride. A Hallowed Letter pointed him towards the priestly trainer, whom he later found; Investigate Echo Ridge drew him farther into the woods. Beneath the old trees he fought kobold workers and recovered stolen books.",
+        "The latest reported progress was five of ten Kobold Workers and five of eight Stolen Books. The Brotherhood of Thieves commission had not yet yielded any Red Burlap Bandanas. The road was still open; no unfinished task has been presented as complete.",
+        "For the literary telling, enter Book I, The Last Witness: Chapters IV–VII transform the same journey into a darker, more expansive story without changing the events known from play."
+      ]
+    },
+    {
       "id": "luce-tra-i-pini",
       "day": "03",
       "chapter": "Third evening",

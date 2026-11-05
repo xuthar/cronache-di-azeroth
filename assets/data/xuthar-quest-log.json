@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-05",
-  "location": "Elwynn Forest · 44.9, 62.0 visible in quest-tracker screenshot",
-  "source": "Player-provided in-game quest-tracker screenshot showing Rest and Relaxation and tracked kobold quest",
-  "scope": "Five visible quests in latest crop: one ready for turn-in and four active. Prior quests absent from view are not assumed handed in. Player-reported character level remains 6.",
+  "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
+  "source": "Player-provided screenshot of Xuthar Morvayne's quest tracker, 5 November 2026",
+  "scope": "Snapshot of six visible quest entries, including two new Camping 101 profession lessons. One quest ready to turn in and five active. Reported level 6 unchanged. Absence of earlier quests is not proof of delivery.",
   "readyForTurnIn": [
     {
       "id": "shhh-were-hunting-kobolds",
@@ -12,10 +12,27 @@
       "level": "4",
       "status": "ready-for-turn-in",
       "progress": "Ready for turn-in",
-      "objective": "All 6 Followed Kobold Tracks objectives complete; quest delivery/reward not shown"
+      "objective": "Six kobold tracks followed; quest has not been shown handed in"
     }
   ],
   "active": [
+    {
+      "id": "camping-101-herbalism",
+      "name": "Camping 101: Herbalism",
+      "level": "6",
+      "status": "active",
+      "progress": "Raise Herbalism skill to 20",
+      "objective": "Raise your Herbalism skill to 20",
+      "targetSkill": 20
+    },
+    {
+      "id": "camping-101-cooking",
+      "name": "Camping 101: Cooking",
+      "level": "6",
+      "status": "active",
+      "progress": "Learn Cooking from Tomas in Goldshire",
+      "objective": "Learn Cooking from Tomas in Goldshire"
+    },
     {
       "id": "rest-and-relaxation",
       "name": "Rest and Relaxation",
@@ -23,14 +40,6 @@
       "status": "active",
       "progress": "Speak with Innkeeper Farley",
       "objective": "Speak with Innkeeper Farley at the Lion's Pride Inn"
-    },
-    {
-      "id": "the-adventurer",
-      "name": "The Adventurer",
-      "level": "6",
-      "status": "active",
-      "progress": "Speak to Sam Sarsparilla near Goldshire",
-      "objective": "Speak to Sam Sarsparilla near Goldshire"
     },
     {
       "id": "report-to-goldshire",
@@ -50,6 +59,11 @@
     }
   ],
   "historical": [
+    {
+      "name": "The Adventurer",
+      "status": "Active in previous screenshot",
+      "note": "Previously directed Xuthar to Sam Sarsparilla near Goldshire; not visible here. No completion or hand-in inferred."
+    },
     {
       "name": "Shhh! We're Hunting Kobolds",
       "status": "0/6 Followed Kobold Tracks in preceding screenshot",
@@ -86,22 +100,29 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "northshire-20261105-lions-pride-road",
+  "snapshotId": "elwynn-20261105-camping-101",
   "previousSnapshot": {
-    "snapshotId": "northshire-20261105-quest-followed-tracks",
+    "snapshotId": "northshire-20261105-lions-pride-road",
     "recordedAt": "2026-11-05",
-    "location": "Northshire Valley · 49.5, 41.6 visible on screenshot",
-    "readyForTurnIn": [],
-    "active": [
+    "location": "Elwynn Forest · 44.9, 62.0 visible in quest-tracker screenshot",
+    "readyForTurnIn": [
       {
         "id": "shhh-were-hunting-kobolds",
         "name": "Shhh! We're Hunting Kobolds",
         "level": "4",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "All 6 Followed Kobold Tracks objectives complete; quest delivery/reward not shown"
+      }
+    ],
+    "active": [
+      {
+        "id": "rest-and-relaxation",
+        "name": "Rest and Relaxation",
+        "level": "5",
         "status": "active",
-        "progress": "0/6",
-        "objective": "Followed Kobold Tracks",
-        "current": 0,
-        "total": 6
+        "progress": "Speak with Innkeeper Farley",
+        "objective": "Speak with Innkeeper Farley at the Lion's Pride Inn"
       },
       {
         "id": "the-adventurer",
@@ -127,118 +148,7 @@
         "progress": "Speak to Priestess Josetta in Elwynn Forest",
         "objective": "Speak to Priestess Josetta in Elwynn Forest"
       }
-    ],
-    "previousSnapshot": {
-      "snapshotId": "northshire-20261105-020322",
-      "recordedAt": "2026-11-05",
-      "location": "Northshire / Elwynn Forest · 51.4, 41.5 visible on screenshot",
-      "readyForTurnIn": [
-        {
-          "id": "millys-harvest",
-          "name": "Milly's Harvest",
-          "level": "4",
-          "status": "ready-for-turn-in",
-          "progress": "Ready for turn-in",
-          "objective": "Harvest objective complete; return/hand-in not shown"
-        },
-        {
-          "id": "bounty-on-garrick-padfoot",
-          "name": "Bounty on Garrick Padfoot",
-          "level": "5",
-          "status": "ready-for-turn-in",
-          "progress": "Ready for turn-in",
-          "objective": "Bounty objective complete; return/hand-in not shown"
-        }
-      ],
-      "active": [
-        {
-          "id": "the-adventurer",
-          "name": "The Adventurer",
-          "level": "6",
-          "status": "active",
-          "progress": "Speak to Sam Sarsparilla near Goldshire",
-          "objective": "Speak to Sam Sarsparilla near Goldshire"
-        },
-        {
-          "id": "follow-that-kobold",
-          "name": "Follow That Kobold!",
-          "level": "4",
-          "status": "active",
-          "progress": "Speak to Tordrin Sternblade",
-          "objective": "Speak to Tordrin Sternblade near the stable behind Northshire's Abbey"
-        },
-        {
-          "id": "report-to-goldshire",
-          "name": "Report to Goldshire",
-          "level": "5",
-          "status": "active",
-          "progress": "Deliver Marshal McBride's Documents",
-          "objective": "Take Marshal McBride's Documents to Marshal Dughan in Goldshire"
-        },
-        {
-          "id": "in-favor-of-the-light",
-          "name": "In Favor of the Light",
-          "level": "4",
-          "status": "active",
-          "progress": "Speak to Priestess Josetta",
-          "objective": "Speak to Priestess Josetta in Elwynn Forest"
-        }
-      ],
-      "previousSnapshot": {
-        "recordedAt": "2026-11-05",
-        "location": "Northshire Valley · 47.6, 39.8 (minimap screenshot)",
-        "readyForTurnIn": [
-          {
-            "id": "the-big-picture",
-            "name": "The Big Picture (Elite)",
-            "level": "3+",
-            "elite": true,
-            "status": "ready-for-turn-in",
-            "progress": "Objectives fulfilled; ready for turn-in",
-            "objective": "Quest objective completed; turn-in and reward not shown"
-          },
-          {
-            "id": "skirmish-at-echo-ridge",
-            "name": "Skirmish at Echo Ridge",
-            "level": "5",
-            "elite": false,
-            "status": "ready-for-turn-in",
-            "progress": "Objectives fulfilled; ready for turn-in",
-            "objective": "Earlier screenshot showed 0/12 Kobold Laborers; latest tracker now says Ready for turn-in"
-          }
-        ],
-        "active": [
-          {
-            "id": "millys-harvest",
-            "name": "Milly's Harvest",
-            "level": "4",
-            "status": "active",
-            "progress": "0/8",
-            "objective": "Milly's Harvest",
-            "current": 0,
-            "total": 8
-          },
-          {
-            "id": "in-favor-of-the-light",
-            "name": "In Favor of the Light",
-            "level": "4",
-            "status": "active",
-            "progress": "Speak to Priestess Josetta",
-            "objective": "Speak to Priestess Josetta in Elwynn Forest"
-          },
-          {
-            "id": "bounty-on-garrick-padfoot",
-            "name": "Bounty on Garrick Padfoot",
-            "level": "5",
-            "status": "active",
-            "progress": "0/1",
-            "objective": "Garrick's Head",
-            "current": 0,
-            "total": 1
-          }
-        ]
-      }
-    }
+    ]
   },
   "characterLevel": 6,
   "characterLevelSource": "Player-reported in chat on 5 November 2026 after the latest quest tracker screenshot. Not screenshot-confirmed.",

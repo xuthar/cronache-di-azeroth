@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-05T02:08:18.595Z"
+    "checkedAt": "2026-11-05T08:35:30.616Z"
   },
   "news": [
+    {
+      "title": "Temporary Portals Replace Boats and Zeppelins Due to Bugs",
+      "url": "https://www.wowhead.com/news=383758/temporary-portals-replace-boats-and-zeppelins-due-to-bugs",
+      "category": "Forever",
+      "publishedAt": "2026-11-05T06:45:40.000Z"
+    },
+    {
+      "title": "Blizzard Aware of Population Issues in Certain Areas",
+      "url": "https://www.wowhead.com/news=383757/blizzard-aware-of-population-issues-in-certain-areas",
+      "category": "Forever",
+      "publishedAt": "2026-11-05T06:41:36.000Z"
+    },
     {
       "title": "The Great Outdoors Quest Bugged and How to Complete",
       "url": "https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383750/official-warcraft-twitch-stream-showing-heat-map-of-level-ups",
       "category": "Forever",
       "publishedAt": "2026-11-05T00:51:34.000Z"
-    },
-    {
-      "title": "Obtain the Pouch of Violet Dust Toy - Increases Camp Benefits by 1 Hour",
-      "url": "https://www.wowhead.com/news=383751/obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour",
-      "category": "Forever",
-      "publishedAt": "2026-11-05T00:32:54.000Z"
-    },
-    {
-      "title": "World of Warcraft: Forever is Now Live",
-      "url": "https://www.wowhead.com/news=383749/world-of-warcraft-forever-is-now-live",
-      "category": "Forever",
-      "publishedAt": "2026-11-04T23:01:38.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-05T02:08:18.594Z",
-  "generatedAt": "2026-11-05T02:08:18.469Z",
+  "newsUpdatedAt": "2026-11-05T08:35:30.616Z",
+  "generatedAt": "2026-11-05T08:35:30.554Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 04 Nov 2026 20:08:17 -0600",
+  "newsFeedBuiltAt": "Thu, 05 Nov 2026 02:35:30 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -113,3 +113,17 @@ The book now contains Chapters VIII–IX (five new pages including a factual fie
 An eight-frame, player-supplied Northshire screenshot album is available at `gallery.html#forever-first-night-gallery`. The screenshots show a launch-night crowd near the abbey; Deputy Willem and other adventurers; Xuthar's level 2 Wolf quest; level 3 after Kobold Camp Cleanup; level 4 with 9/10 Kobold Workers and 6/8 Stolen Books; Defias fields; and level 5 with the Militia Hammer reward, new quest options, and Brotherhood of Thieves **Ready for turn-in**. See the factual screenshot notes added to Xuthar's book. The latest player's written report subsequently places Xuthar resting at the abbey. No subsequent hand-in is inferred.
 
 The eight real screenshots are stored in a single optimized, lightly brightened 2-column × 4-row AVIF preview sheet, base64 text at `assets/data/forever-first-night-atlas.b64`. `assets/js/forever-first-night-photos.js` retrieves that file locally, validates its expected format and length, displays each cropped frame without remote storage, and offers a keyboard-operable gallery view. `assets/css/forever-first-night-photos.css` supplies responsive styling. The homepage replaces its previous archive illustration with an authentic cropped screenshot. The gallery keeps other historical images unchanged. Preview frames are 440×248; original uploaded files are not represented as full-resolution downloads. The site makes **no claim of automatic gameplay synchronization**.
+
+### The first road to Goldshire — 5 November 2026 (seven new screenshots)
+
+The latest real gameplay images record Xuthar Morvayne's level 6 milestone and **Bounty on Garrick Padfoot completed**. Game chat explicitly reports **340 XP** for the completed bounty; it also shows receiving a **Grape Manifest**, which the screenshot's tracker directs to Brother Neals in Northshire Abbey. The Adventurer, Report to Goldshire and In Favor of the Light are active in the same screenshot.
+
+Six subsequent images show the sunlit grounds outside Northshire, the lion-headed fountain and Abbey archway, the forest road, and the blue-roofed village buildings and streets of **Goldshire**. These establish travel to the village area but **do not** confirm talking with Innkeeper Farley, Marshal Dughan or other NPCs. Earlier Camping 101 objectives have not been silently completed or removed from historical records.
+
+- Book I: **Chapter XV · The Sun beyond the Abbey**, plus a new field record, at `book.html?character=xuthar#x-goldshire-road`.
+- Travel Journal: `journal.html#xuthar-first-steps-goldshire`.
+- Gallery: `gallery.html#goldshire-travel-gallery`, an interactive seven-photo gallery with captions, keyboard navigation and player-supplied images.
+- Image previews are a single compact 2×4 AVIF contact sheet at `assets/data/xuthar-goldshire-seven-atlas.b64` (seven populated frames, one unused cell). The site decodes the base64 locally; **the full-size screenshots remain user-provided originals outside the published website**. Preview resolution is 320×180 pixels per frame, so no full-resolution claim is made. Source files include `WoWScrnShot_110526_113639.jpg`, `113644`, `115408`, `115434`, `121800`, `121805` and `121809`.
+- Script: `assets/js/goldshire-photo-diary.js`. This presentation has no in-game addon or Blizzard API access; quest observations remain manual.
+
+The previous journal/quest screenshots are historical snapshots. Only Garrick's bounty has a confirmed screenshot-based final hand-in in the new material.

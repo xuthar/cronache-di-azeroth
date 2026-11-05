@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-04T21:34:41.381Z"
+    "checkedAt": "2026-11-05T00:39:44.458Z"
   },
   "news": [
     {
-      "title": "The Questie Addon is Back in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383744/the-questie-addon-is-back-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-04T21:30:48.000Z"
+      "title": "Obtain the Pouch of Violet Dust Toy - Increases Camp Benefits by 1 Hour",
+      "url": "https://www.wowhead.com/news=383751/obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour",
+      "category": "Live",
+      "publishedAt": "2026-11-05T00:32:54.000Z"
     },
     {
-      "title": "Twitch Teasing \"Major Reveal\" on Warcraft Twitch Stream",
-      "url": "https://www.wowhead.com/news=383742/twitch-teasing-major-reveal-on-warcraft-twitch-stream",
+      "title": "World of Warcraft: Forever is Now Live",
+      "url": "https://www.wowhead.com/news=383749/world-of-warcraft-forever-is-now-live",
       "category": "Forever",
-      "publishedAt": "2026-11-04T20:22:35.000Z"
+      "publishedAt": "2026-11-04T23:01:38.000Z"
     },
     {
-      "title": "WoW: Forever Development Notes Updated - UI and Accessibility Updates",
-      "url": "https://www.wowhead.com/news=383741/wow-forever-development-notes-updated-ui-and-accessibility-updates",
+      "title": "Secret Twitch Drop Awarded Pouch of Violet Dust Toy to Live Stream Viewers in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383748/secret-twitch-drop-awards-pouch-of-violet-dust-toy-in-wow-forever",
       "category": "Forever",
-      "publishedAt": "2026-11-04T19:38:53.000Z"
+      "publishedAt": "2026-11-04T22:18:26.000Z"
     },
     {
-      "title": "New Alliance and Horde Twitch Chat Badges for Subs to WoW Streamers",
-      "url": "https://www.wowhead.com/news=383740/new-alliance-and-horde-twitch-chat-badges-for-subs-to-wow-streamers",
-      "category": "WoW",
-      "publishedAt": "2026-11-04T19:12:22.000Z"
+      "title": "Taldramir, the Whispering Wood Revealed as WoW: Forever Legendary",
+      "url": "https://www.wowhead.com/news=383747/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary",
+      "category": "Forever",
+      "publishedAt": "2026-11-04T22:05:13.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-04T21:34:41.381Z",
-  "generatedAt": "2026-11-04T21:34:41.374Z",
+  "newsUpdatedAt": "2026-11-05T00:39:44.457Z",
+  "generatedAt": "2026-11-05T00:39:44.306Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 04 Nov 2026 15:34:27 -0600",
+  "newsFeedBuiltAt": "Wed, 04 Nov 2026 18:39:29 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

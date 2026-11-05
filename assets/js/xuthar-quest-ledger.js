@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-quest-ledger-01';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-six-visible-quests-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,7 +39,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Two commissions await their turn-in. Three more still call Xuthar beyond the Abbey walls. These are the latest objectives visible in the shared screenshot — not automatically updated game statistics.');
+   const lead=make('p','','The tracker now shows Milly’s Harvest and Garrick Padfoot ready to report, while four missions remain active, including new roads towards Goldshire. These are the latest six visible quests — not automatically updated game statistics.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.readyForTurnIn.length,'Ready for turn-in'],[data.active.length,'Still active']]){
@@ -58,10 +58,10 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Recorded from the player’s quest tracker on 5 November 2026 in Northshire Valley. “Ready for turn-in” does not mean the quest has been delivered. Brotherhood of Thieves was ready in an earlier screenshot, but its later hand-in has not been confirmed. No Blizzard API synchronisation is implied.');
+   const foot=make('p','xql-provenance','Recorded from a player-provided tracker screenshot on 5 November 2026 near Northshire (51.4, 41.5). “Ready for turn-in” means the objective is complete, not handed in. Earlier screenshots showed The Big Picture (Elite), Skirmish at Echo Ridge and Brotherhood of Thieves ready to report; their absence now does not confirm that they were turned in. Quest levels are not the character level. This is a manual record, not a Blizzard API connection.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-quest-snapshot-020025';root.append(book);
+   book.href='book.html?character=xuthar#x-quest-snapshot-020322';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

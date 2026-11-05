@@ -101,3 +101,9 @@ The owner's screenshots and conversation establish Xuthar Morvayne's first Rolep
 - `assets/js/app.js`: separates the real journal entry from older samples. `book.html?character=xuthar#x-live-1` deep-links into the new chapter.
 
 Narrative metaphors, inner thoughts, scenery descriptions and dialogue are roleplay fiction. Player-reported events are not independently verified through a Blizzard API. Existing archive artwork is clearly labelled as illustrative, not as an actual first-session screenshot.
+
+### Further first-night update — Level 5, Defias and the Abbey
+
+The owner subsequently reported Xuthar Morvayne at level **5**, confirmed the **Brotherhood of Thieves** objective had been completed (twelve Red Burlap Bandanas), and stated that Xuthar returned to **Northshire Abbey to rest**. A screenshot also showed Defias Thugs in the Northshire fields. Quest turn-in, reward and other active-quest status were not supplied; no completion is inferred for the older Echo Ridge or Rascally Rodents objectives.
+
+The book now contains Chapters VIII–IX (five new pages including a factual field record) immediately before the future-story placeholder, and the travel journal begins with the latest reported event at `journal.html#northshire-abbey-rest`. The first-night homepage feature and Xuthar dossier reflect level 5. Deep link to the latest fictionalised episode: `book.html?character=xuthar#x-live-9`. The prose is a literary interpretation, clearly distinct from confirmed player reports. This manual editorial update does not claim official Blizzard API synchronisation.

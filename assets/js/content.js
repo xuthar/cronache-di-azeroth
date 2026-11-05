@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-kobold-tracks",
+      "day": "06",
+      "chapter": "5 November 2026 · The trail through Northshire",
+      "title": "The tracks beneath the trees",
+      "location": "Northshire Valley · 49.5, 41.6 · Quest tracker",
+      "type": "Screenshot-confirmed quest record",
+      "excerpt": "A new quest appears: Shhh! We're Hunting Kobolds (0/6 tracks). Xuthar's visible assignments still point to Sam Sarsparilla, Marshal Dughan and Priestess Josetta.",
+      "text": [
+        "The newest screenshot of Xuthar Morvayne's quest tracker, around Northshire Valley coordinates 49.5, 41.6, shows Shhh! We're Hunting Kobolds (level 4) with zero of six Followed Kobold Tracks. The quest asks the player to follow tracks, not to defeat six kobolds; no progress beyond 0/6 is recorded in this image.",
+        "The Adventurer (level 6) still asks Xuthar to speak with Sam Sarsparilla near Goldshire. Report to Goldshire (level 5) still requires Marshal McBride's Documents to be taken to Marshal Dughan in Goldshire. In Favor of the Light (level 4) still sends him to Priestess Josetta in Elwynn Forest.",
+        "Four missions are visible and none says Ready for turn-in in this screenshot. Milly's Harvest and Bounty on Garrick Padfoot, previously marked ready for turn-in, do not appear in this cropped tracker. The disappearance is not evidence of their hand-in or any reward. Follow That Kobold! was shown previously; the newer kobold-tracking task might be connected, but the intermediate steps were not shown.",
+        "The last reported character level is 6, supplied directly by the player. No additional level or quest completion is inferred from this quest-tracker image.",
+        "Roleplay interpretation: among the night's uncounted footsteps, the earth had kept a language of its own. Every small kobold trace was a word in a sentence the Last Witness had not yet learned to read. He followed no invented trail in this record; only the next six signs waited to be found."
+      ]
+    },
+    {
       "id": "xuthar-level-six",
       "day": "05",
       "chapter": "5 November 2026 · A sixth step into Azeroth",

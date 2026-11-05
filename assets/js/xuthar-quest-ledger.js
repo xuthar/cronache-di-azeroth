@@ -70,7 +70,7 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','The latest screenshot records six quests at Elwynn Forest (42.5, 67.4): four ready for turn-in and two active. Game chat confirms Bounty on Garrick Padfoot completed (340 XP) and the level 6 milestone. Earlier Herbalism, Cooking, Rest and Relaxation, and kobold-tracking objectives remain historical: their absence from the new tracker does not establish delivery. No Blizzard API synchronization is claimed.');
+   const foot=make('p','xql-provenance','The latest screenshot records six quests at Elwynn Forest (42.5, 67.4): four ready for turn-in and two active. Game chat confirms Bounty on Garrick Padfoot completed (340 XP) and the level 6 milestone. Camping 101: Herbalism remains active; older quests absent from the crop are not automatically considered complete. Garments of the Light is player-confirmed completed. No Blizzard API synchronization is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
    book.href='book.html?character=xuthar#x-goldshire-road-notes';root.append(book);

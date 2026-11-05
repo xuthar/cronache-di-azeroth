@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "journey-begun",
+      "status": "level-5-player-reported",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -216,7 +216,7 @@
         {
           "id": "x-live-notes",
           "chapter": "The Field Record · 5 November 2026",
-          "title": "What was witnessed, what is still to come",
+          "title": "First-night snapshot before the Defias",
           "kind": "reported",
           "paragraphs": [
             "Player-reported gameplay, from screenshots and the traveller's own notes: Xuthar Morvayne entered Forever as a Human Priest on the Roleplay ruleset. The launch login screen showed queue position 524. His first arrival was at Northshire Abbey among a large crowd of players.",
@@ -226,13 +226,73 @@
           ]
         },
         {
+          "id": "x-live-9",
+          "chapter": "Chapter VIII · Red Cloth Beneath the Trees",
+          "title": "Men beneath the dark boughs",
+          "kind": "reported",
+          "paragraphs": [
+            "Beyond the safer paths of Northshire, the fields lay beneath the long shadows of ancient trees. The land still bore the patient furrows of honest hands, but the men who watched those furrows had come with other intentions. Defias thugs stood among the fences, their red insignia as stark as wounds against the green.",
+            "Xuthar halted before the first of them. Until now he had struggled against hunger given the shape of a wolf, or against the restless labour of kobolds beneath a hill. These were men. Their anger had a history; their threats could be understood in words. That knowledge did not make them harmless.",
+            "The novice priest felt his heartbeat climb, yet he did not turn away. He had reached the fifth step of his growing strength, and the world was already asking whether his compassion could survive the need to resist another human being.",
+            "Above the fields, the branches moved like dark fingers against the sky. No voice announced the correct path. The choice, like all the difficult choices to come, belonged to him."
+          ]
+        },
+        {
+          "id": "x-live-10",
+          "chapter": "Chapter VIII · Red Cloth Beneath the Trees",
+          "title": "Twelve tokens of a broken brotherhood",
+          "kind": "reported",
+          "paragraphs": [
+            "The fight was not the stuff of tavern songs. There were no royal trumpets, no sweeping banners, no triumphant charge. There was only the rhythm of danger, the need to hold one enemy at a time, and the bitter knowledge that a priest's hands could be called upon for violence.",
+            "The red burlap bandanas were proof of the work entrusted to him. Twelve had been required for the Brotherhood of Thieves commission. By the end of his struggle the objective was complete, though the record does not yet tell whether he had returned it to its giver.",
+            "He regarded those scraps of cloth and wondered what oath had once made the brotherhood worthy of its name. Men could bind themselves together for justice or for cruelty. Sometimes the difference became visible only to those standing in the path of their weapons.",
+            "He had won no great war in that shadowed field. Yet he had learned something that a hundred sheltered sermons could scarcely teach: the darkest deeds were not always born of darkness alone."
+          ]
+        },
+        {
+          "id": "x-live-11",
+          "chapter": "Chapter IX · The Abbey's Vigil",
+          "title": "The long road back to silence",
+          "kind": "reported",
+          "paragraphs": [
+            "When he returned to Northshire Abbey, the world had not become less troubled. Beyond its walls the forest still concealed unfinished errands, and beyond the forest lay an immeasurable continent of unanswered names. Yet within the stone halls there was room for a quieter kind of courage.",
+            "The candles did not ask how many foes he had faced. The worn benches did not weigh his victories. Here, among ordinary walls and the traces of a thousand prayers, Xuthar could cease for a moment to be a combatant and remember the simple burden of being alive.",
+            "He rested. His level had risen to five, and the work against the Defias was done, but he felt no compulsion to outrun the next sunrise. The road would remain. Nothing important would be lost by listening to the silence between one adventure and another.",
+            "In that pause the priest understood, perhaps for the first time, that a chronicle was not made only of battles. Someone must also preserve the moments in which a weary traveller lays down his burdens and decides to begin again."
+          ]
+        },
+        {
+          "id": "x-live-12",
+          "chapter": "Chapter IX · The Abbey's Vigil",
+          "title": "A candle between Light and Shadow",
+          "kind": "reported",
+          "paragraphs": [
+            "A single candle trembled in the abbey's half-light. In its gold Xuthar saw the teachings that had carried him this far: patience, mercy, the insistence that even the smallest life deserved a witness. Around it waited the shadow, neither friend nor enemy, only the great unknown that made the little flame visible.",
+            "He remembered the old family records, the dying stranger whose name he had never learned, and the words that appeared beneath the ledger's fading ink. The last witness must not remember. There was an almost cruel humour in that warning. All he wanted was to remember.",
+            "Outside, Azeroth moved on without him. The world was enormous; his adventures, so far, scarcely filled a valley. But he was no longer the man who had stood at the threshold, wondering whether he belonged among the thousands who had arrived.",
+            "He closed his eyes, not to escape the road but to honour the distance already walked. Tomorrow could ask its questions. Tonight, the answer was rest."
+          ]
+        },
+        {
+          "id": "x-live-notes-2",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Level five · A completed commission · A moment of rest",
+          "kind": "reported",
+          "paragraphs": [
+            "Player-reported update, 5 November 2026: Xuthar Morvayne is now level 5. The owner reported completing the objectives of Brotherhood of Thieves, which required twelve Red Burlap Bandanas. The game did not provide a shared screenshot of the final tracker; this milestone is recorded on the player's word.",
+            "A screenshot showed Xuthar near Defias Thugs in the fields around Northshire. The owner subsequently reported that Xuthar had returned to Northshire Abbey and was taking a rest there. Mission turn-in, reward received, new spells and the status of other quests have not been confirmed.",
+            "The earlier Field Record preserves a previous screenshot snapshot: 5/10 Kobold Workers, 5/8 Stolen Books and 0/12 Red Burlap Bandanas before the Defias objective was completed. It is not a statement of current progress.",
+            "All introspection, invented dialogue, candle imagery and symbolic descriptions in Chapters VIII–IX are literary roleplay additions. Level 5, the Defias objective's completion, and the rest at Northshire Abbey come from the player's reported play."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "Beyond Echo Ridge",
+          "title": "Beyond the Abbey's Silence",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar's first steps are now recorded. The next pages will begin only when the traveller returns with new observations from Azeroth.",
-            "The quests at Echo Ridge remained unfinished in the last shared screenshot. Their outcome and the road beyond them are still unwritten."
+            "Xuthar Morvayne is resting in Northshire Abbey at level 5, having completed the Brotherhood of Thieves objective. The next chapter will begin when his traveller next reports a real event in Azeroth.",
+            "The completion and turn-in of other quests, any rewards, new spells and the next destination have not been recorded; they will not be invented."
           ],
           "link": "chronicle.html"
         }

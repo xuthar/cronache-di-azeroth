@@ -2,44 +2,35 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-05",
-  "location": "Elwynn Forest · 42.5, 67.4 (coordinates visible in screenshot)",
-  "source": "Player-provided in-game quest tracker screenshot at 42.5, 67.4, supplied on 5 November 2026; Garments of the Light completion directly confirmed by the player.",
-  "scope": "Six missions are visible: four ready for turn-in and two in progress. A quest being ready is not a confirmed NPC hand-in. Garments of the Light is completed according to the player's direct report. The screenshot does not establish any new character level; the last confirmed level remains 6. Older quests missing from this cropped tracker are not assumed completed.",
-  "readyForTurnIn": [
-    {
-      "id": "kobold-candles",
-      "name": "Kobold Candles",
-      "level": "7",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
-    },
-    {
-      "id": "the-fargodeep-mine",
-      "name": "The Fargodeep Mine",
-      "level": "7",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
-    },
-    {
-      "id": "gold-dust-exchange",
-      "name": "Gold Dust Exchange",
-      "level": "7",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
-    },
-    {
-      "id": "book-return-elite",
-      "name": "Book Return (Elite)",
-      "level": "6+",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "Elite quest marked ready in the tracker; reward/hand-in not shown."
-    }
-  ],
+  "location": "Stormwind City · Trade District · 63.1, 74.6 (latest screenshot)",
+  "source": "Player screenshots from 5 November 2026 (18:46–20:24), including in-game quest tracker, completion log and level-up messages.",
+  "scope": "The latest tracker at 20:24 shows five active quests; no ready-for-turn-in markers. Historic quests absent from this crop are not presumed handed in. In-game chat visibly confirms level 7, then level 8, Garments of the Light and Shipment to Stormwind completed. Two deaths in Fargodeep Mine are also explicitly shown.",
+  "readyForTurnIn": [],
   "active": [
+    {
+      "id": "wine-shop-advert",
+      "name": "Wine Shop Advert",
+      "level": "2",
+      "status": "active",
+      "progress": "Bring Suzetta Gallina the Wine Ticket for a free bottle of wine",
+      "objective": "Go to Gallina Winery and bring Suzetta Gallina the Wine Ticket for a free bottle of wine."
+    },
+    {
+      "id": "the-jasperlode-mine",
+      "name": "The Jasperlode Mine",
+      "level": "10",
+      "status": "active",
+      "progress": "Scout through the Jasperlode Mine",
+      "objective": "Scout through the Jasperlode Mine."
+    },
+    {
+      "id": "rare-books-elite",
+      "name": "Rare Books (Elite)",
+      "level": "7+",
+      "status": "active",
+      "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words."
+    },
     {
       "id": "further-concerns",
       "name": "Further Concerns",
@@ -53,12 +44,32 @@
       "name": "Camping 101: Herbalism",
       "level": "6",
       "status": "active",
-      "progress": "Raise Herbalism to skill 20",
+      "progress": "Raise Herbalism skill to 20",
       "objective": "Raise your Herbalism skill to 20.",
       "targetSkill": 20
     }
   ],
   "historical": [
+    {
+      "name": "Kobold Candles",
+      "status": "Previously ready for turn-in",
+      "note": "At 19:04–19:07 the tracker showed 4/8 Large Candle; a later tracker showed Ready for turn-in. Not visible in the 20:24 crop; hand-in not confirmed."
+    },
+    {
+      "name": "The Fargodeep Mine",
+      "status": "Previously ready for turn-in",
+      "note": "The underground tracker explicitly showed Ready for turn-in; later hand-in not independently confirmed."
+    },
+    {
+      "name": "Gold Dust Exchange",
+      "status": "Previously ready for turn-in",
+      "note": "Earlier screenshots show 7/10 Gold Dust; a later tracker marked the mission ready. Not visible at 20:24; hand-in not confirmed."
+    },
+    {
+      "name": "Book Return (Elite)",
+      "status": "Previously ready for turn-in",
+      "note": "Earlier screenshot shows 0/1 Picture Book: Fun with Elementals and 6/6 Lost Book; a later tracker marked ready for turn-in. Hand-in is unconfirmed."
+    },
     {
       "name": "Grape Manifest",
       "status": "Active in earlier tracker",
@@ -120,7 +131,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "elwynn-20261105-1916",
+  "snapshotId": "stormwind-20261105-202423",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -178,8 +189,8 @@
       }
     ]
   },
-  "characterLevel": 6,
-  "characterLevelSource": "Confirmed by in-game chat in screenshot WoWScrnShot_110526_113639.jpg: 'Congratulations, you have reached [Level 6]!' following the Bounty on Garrick Padfoot completion. No later level-up is shown in the screenshot at coordinates 42.5, 67.4.",
+  "characterLevel": 8,
+  "characterLevelSource": "Screenshot WoWScrnShot_110526_192624.jpg: chat says 'Congratulations, you have reached [Level 8]!' near Morgan Pestle in Stormwind; WoWScrnShot_110526_184652.jpg separately confirms level 7.",
   "characterLevelRecordedAt": "2026-11-05",
   "confirmedCompleted": [
     {
@@ -191,8 +202,22 @@
     {
       "id": "garments-of-the-light",
       "name": "Garments of the Light",
-      "evidence": "Player explicitly reported successful completion on 5 November 2026 after using the correct rank of the healing spell.",
-      "confirmationType": "player-report"
+      "evidence": "WoWScrnShot_110526_184652.jpg: game chat explicitly confirms 'Garments of the Light completed.', 270 XP, and Friar's Robes of the Light received.",
+      "confirmationType": "game-chat-screenshot",
+      "experience": 270,
+      "rewardItem": "Friar's Robes of the Light"
+    },
+    {
+      "id": "shipment-to-stormwind",
+      "name": "Shipment to Stormwind",
+      "experience": 800,
+      "reputation": {
+        "faction": "Stormwind",
+        "value": 150
+      },
+      "rewardItem": "Oil of Olaf",
+      "money": "3 Silver, 50 Copper",
+      "evidence": "WoWScrnShot_110526_192624.jpg: quest completed in chat, XP 800, Stormwind reputation +150, Oil of Olaf received, 3 Silver 50 Copper."
     }
   ],
   "travelMilestones": [
@@ -211,6 +236,22 @@
     {
       "place": "Lion's Pride Inn",
       "observation": "Entered the inn; stood beside Farley, located Tomas the Cook and sat in a chair, shown across four screenshots. NPC conversations and quest completions are not visible."
+    },
+    {
+      "place": "Elwynn Forest gathering",
+      "observation": "Two player screenshots show a group of adventurers gathered around a small campfire on a cobbled forest road."
+    },
+    {
+      "place": "Crystal Lake",
+      "observation": "A screenshot shows Xuthar beside the lake and Guard Roberts, relevant to the priest quest Garments of the Light."
+    },
+    {
+      "place": "Fargodeep Mine",
+      "observation": "Two screenshots document hostile kobold miners, a Rumbler and two player deaths inside the mine."
+    },
+    {
+      "place": "Stormwind City",
+      "observation": "Screenshots show a stone passage into Stormwind, the Trade District, Morgan Pestle, and the canal docks."
     }
   ],
   "innVisit": {
@@ -265,5 +306,151 @@
       }
     ],
     "scope": "Last quest tracker dates from before the inn visit. Four later photos establish the visit to Lion's Pride Inn and a seated rest, without proving any quest turn-in, profession training, hearthstone binding or further level gain."
-  }
+  },
+  "previousEveningSnapshot": {
+    "snapshotId": "elwynn-20261105-1916",
+    "location": "Elwynn Forest · 42.5, 67.4 (coordinates visible in screenshot)",
+    "readyForTurnIn": [
+      {
+        "id": "kobold-candles",
+        "name": "Kobold Candles",
+        "level": "7",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+      },
+      {
+        "id": "the-fargodeep-mine",
+        "name": "The Fargodeep Mine",
+        "level": "7",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+      },
+      {
+        "id": "gold-dust-exchange",
+        "name": "Gold Dust Exchange",
+        "level": "7",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "All quest objectives fulfilled according to the latest tracker; reward/hand-in not shown."
+      },
+      {
+        "id": "book-return-elite",
+        "name": "Book Return (Elite)",
+        "level": "6+",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "Elite quest marked ready in the tracker; reward/hand-in not shown."
+      }
+    ],
+    "active": [
+      {
+        "id": "further-concerns",
+        "name": "Further Concerns",
+        "level": "10",
+        "status": "active",
+        "progress": "Speak with Guard Thomas",
+        "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
+      },
+      {
+        "id": "camping-101-herbalism",
+        "name": "Camping 101: Herbalism",
+        "level": "6",
+        "status": "active",
+        "progress": "Raise Herbalism to skill 20",
+        "objective": "Raise your Herbalism skill to 20.",
+        "targetSkill": 20
+      }
+    ],
+    "scope": "Six missions are visible: four ready for turn-in and two in progress. A quest being ready is not a confirmed NPC hand-in. Garments of the Light is completed according to the player's direct report. The screenshot does not establish any new character level; the last confirmed level remains 6. Older quests missing from this cropped tracker are not assumed completed."
+  },
+  "combatNotes": [
+    {
+      "place": "Fargodeep Mine",
+      "at": "19:04:49",
+      "event": "Character death",
+      "evidence": "WoWScrnShot_110526_190449.jpg"
+    },
+    {
+      "place": "Fargodeep Mine",
+      "at": "19:07:45",
+      "event": "Character death",
+      "evidence": "WoWScrnShot_110526_190746.jpg"
+    }
+  ],
+  "screenshotEvidence": [
+    {
+      "filename": "WoWScrnShot_110526_134935.jpg",
+      "description": "Forest road gathering around fire",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_134948.jpg",
+      "description": "Second view of the gathering",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_140058.jpg",
+      "description": "Crystal Lake near Guard Roberts",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_184652.jpg",
+      "description": "Level 7, Garments of the Light, priest reward",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_190449.jpg",
+      "description": "Fargodeep Mine, first documented death",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_190746.jpg",
+      "description": "Fargodeep Mine, second documented death",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_192459.jpg",
+      "description": "Stormwind stone passage",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_192520.jpg",
+      "description": "Stormwind Trade District",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_192624.jpg",
+      "description": "Level 8 and Shipment to Stormwind completion",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_192634.jpg",
+      "description": "Xuthar with Morgan Pestle",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_202423.jpg",
+      "description": "Stormwind canal, wooden dock",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_202433.jpg",
+      "description": "Xuthar standing on canal dock with anglers nearby",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    }
+  ]
 }

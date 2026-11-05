@@ -46,17 +46,17 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='5 November 2026. The gates of Azeroth opened, the Abbey of Northshire filled with voices, and Xuthar Morvayne began the journey through Echo Ridge. Now level eight by verified game-chat screenshots, he has completed Garments of the Light and Shipment to Stormwind, endured two deaths in Fargodeep Mine, and reached Stormwind. The living chronicle continues.';
+    if(lead)lead.textContent='5 November 2026. The gates of Azeroth opened, the Abbey of Northshire filled with voices, and Xuthar Morvayne began the journey through Echo Ridge. Now level eight by verified game-chat screenshots, he has completed Garments of the Light and Shipment to Stormwind, endured two deaths in Fargodeep Mine, and reached Stormwind. After several errands, he learned Tailoring, Enchanting and Fishing, left Herbalism behind, then returned to Goldshire to sleep as the rain fell. The living chronicle continues.';
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-stormwind-arrival">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-rain-over-goldshire">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>Adventure recorded · Human Priest · Level 8<br>Priest quest complete → Stormwind reached</div>'+
-      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-stormwind-arrival">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>Adventure recorded · Human Priest · Level 8<br>Tailoring + Enchanting · Fishing → Goldshire rest</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-rain-over-goldshire">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }
@@ -86,12 +86,12 @@
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
     category:'THE LAST WITNESS · FIRST PLAYED ADVENTURE',
-    name:'Xuthar Morvayne: From Elwynn to Stormwind.',
-    description:'Xuthar reaches level eight after his priest training mission, survives two defeats in Fargodeep Mine, and arrives in Stormwind. Follow the newest chapters of The Last Witness.',
-    url:'book.html?character=xuthar#x-stormwind-arrival',image:images.stormwind
+    name:'Xuthar Morvayne: Rain on the road home.',
+    description:'At level eight, Xuthar learns Tailoring, Enchanting and Fishing, completes further Stormwind errands and returns to a rainy Goldshire to rest. Read Chapter XX.',
+    url:'book.html?character=xuthar#x-rain-over-goldshire',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
-  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'The latest recorded journey: level eight, the Fargodeep Mine and arrival in Stormwind.',url:'journal.html#xuthar-stormwind-level-eight',image:images.forest},'launcher-news-secondary'));
+  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'The latest recorded journey: new professions, Stormwind errands and a rainy night back at Goldshire.',url:'journal.html#xuthar-rainy-goldshire-rest',image:images.forest},'launcher-news-secondary'));
   featureGrid.append(sides);featured.append(featureGrid);
   hero.insertAdjacentElement('afterend',featured);
 
@@ -148,7 +148,7 @@
   const destinations=[
     ['FOREVER','A world reborn','Launch updates, gameplay systems and the adventure ahead.','forever.html',images.horizon],
     ['THE LIVING CHRONICLE','Our progress','Three characters and their real journeys through Azeroth.','chronicle.html',images.forest],
-    ['THE LIVING BOOKS','A new chapter is written','Follow Xuthar through the Defias fields and the silent halls of Northshire Abbey.','book.html?character=xuthar#x-goldshire-road',images.goldshire],
+    ['THE LIVING BOOKS','A new chapter is written','Follow Xuthar from the abbey to Stormwind and back along the rainy road to Goldshire.','book.html?character=xuthar#x-goldshire-road',images.goldshire],
     ['THE GALLERY','Worlds in pictures','Moments, landscapes and memories from Azeroth.','gallery.html',images.stormwind],
     ['XUTHAR MORVAYNE','The Last Witness','A complete roleplay biography, family mystery and in-game character guide.','xuthar.html',images.goldshire],
     ['RETAIL ARCHIVE','The heroes before Forever','A lifetime of characters and the roads already travelled.','retail.html',images.orgrimmar],

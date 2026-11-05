@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-elwynn-1916';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-stormwind-level-eight-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,14 +39,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is still at his last-confirmed character level 6. The latest screenshot shows four quests ready for turn-in and two quests in progress at Elwynn Forest 42.5, 67.4. Garments of the Light is confirmed completed by the player; quests marked ready still require turn-in.');
+   const lead=make('p','','The latest confirmed character level is 8. The Stormwind quest tracker at 20:24 lists five active missions: Wine Shop Advert, The Jasperlode Mine, Rare Books (Elite), Further Concerns and Camping 101: Herbalism. Garments of the Light and Shipment to Stormwind were completed earlier today. Older quests not visible are not assumed delivered.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Confirmed completions'],[data.active.length,'Visible active']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Confirmed completions'],[data.readyForTurnIn.length,'Ready in latest tracker'],[data.active.length,'Active in latest tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (last confirmed earlier) · New Elwynn quest-tracker snapshot');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Level '+(data.characterLevel||'unconfirmed')+' · 5 November 2026 · Stormwind Trade District');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -70,7 +70,7 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','The latest screenshot records six quests at Elwynn Forest (42.5, 67.4): four ready for turn-in and two active. Game chat confirms Bounty on Garrick Padfoot completed (340 XP) and the level 6 milestone. Camping 101: Herbalism remains active; older quests absent from the crop are not automatically considered complete. Garments of the Light is player-confirmed completed. No Blizzard API synchronization is claimed.');
+   const foot=make('p','xql-provenance','Latest screenshot: Stormwind Trade District (63.1, 74.6), at 20:24. Earlier screenshots show level 7 after Garments of the Light (270 XP), level 8 after Shipment to Stormwind (800 XP), and two deaths in Fargodeep Mine. Five active quests are visible. Four previously ready quests are archived without claiming a hand-in. No automatic Blizzard API synchronization is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
    book.href='book.html?character=xuthar#x-goldshire-road-notes';root.append(book);

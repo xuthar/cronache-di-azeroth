@@ -32,7 +32,7 @@ async function main(){
   }
   const namespace=slug(env.FOREVER_PROFILE_NAMESPACE,'FOREVER_PROFILE_NAMESPACE');
   if(!namespace.startsWith('profile-')||!namespace.endsWith('-eu'))throw Error('Not a valid EU profile namespace.');
-  const realm=slug(env.FOREVER_REALM_SLUG,'FOREVER_REALM_SLUG');
+  /* Forever is realmless: characters are addressed by full-name slug per region. */
   const characters=roster.filter(x=>env[x[2]]).map(([id,displayName,key])=>({id,displayName,slug:slug(env[key],key)}));
   if(!characters.length){console.log('No character identifiers configured. No publication.');return;}
   if(!env.BLIZZARD_CLIENT_ID||!env.BLIZZARD_CLIENT_SECRET){
@@ -47,7 +47,7 @@ async function main(){
   if(typeof auth.access_token!=='string') throw Error('Missing Blizzard access token.');
   const timestamp=Math.floor(Date.now()/1000),profiles=[];
   for(const c of characters){
-    const url=new URL('https://eu.api.blizzard.com/profile/wow/character/'+encodeURIComponent(realm)+'/'+encodeURIComponent(c.slug));
+    const url=new URL('https://eu.api.blizzard.com/profile/wow/character/'+encodeURIComponent(c.slug));
     url.searchParams.set('namespace',namespace);
     url.searchParams.set('locale','en_GB');
     const p=await json(url,{
@@ -55,13 +55,17 @@ async function main(){
     });
     const level=Number(p?.level);
     const returnedName=name(p?.name);
-    if(!Number.isInteger(level)||level<1||level>100||!returnedName||
-       returnedName.toLowerCase().split(/\s+/)[0]!==c.displayName.toLowerCase().split(' ')[0]){
-      throw Error('Official API returned an incomplete or mismatched character. No publication.');
+    const returnedSurname=name(p?.surname);
+    const [expectedFirst,...surnameParts]=c.displayName.split(/\s+/);
+    const expectedSurname=surnameParts.join(' ');
+    if(!Number.isInteger(level)||level<10||level>100||
+       returnedName.toLowerCase()!==expectedFirst.toLowerCase()||
+       returnedSurname.toLowerCase()!==expectedSurname.toLowerCase()){
+      throw Error('Official API returned an unavailable, incomplete or mismatched Forever character. No publication.');
     }
     profiles.push({
-      id:c.id,name:c.displayName,gameName:returnedName,
-      realm:name(p.realm?.name)||realm,race:name(p.race?.name),
+      id:c.id,name:c.displayName,gameName:returnedName+' '+returnedSurname,
+      ruleset:name(p.ruleset?.name)||null,race:name(p.race?.name),
       className:name(p.character_class?.name),level,
       zone:'',subzone:'',xp:null,xpMax:null,questsCompleted:null,zones:null,
       professions:[],firstSeenAt:null,lastSeenAt:null,checkedAt:timestamp

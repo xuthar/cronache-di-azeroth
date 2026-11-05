@@ -336,13 +336,25 @@
           ]
         },
         {
+          "id": "x-level-six",
+          "chapter": "Chapter XI · The Measure of a Journey",
+          "title": "Six Steps beneath an Unwritten Sky",
+          "kind": "reported",
+          "paragraphs": [
+            "Some journeys announce themselves with the roar of dragons or the fall of a king. Xuthar Morvayne's sixth milestone was quieter. A novice priest, once lost among the countless names outside Northshire Abbey, had found the strength to take one more step across a world vast enough to swallow legends.",
+            "He thought of the wolves in the dark grass, the kobolds beneath Echo Ridge and the red-clad men haunting the fields. Each had taught him something different about fear. But the living world offered lessons beyond combat: names to remember, letters to carry, strangers waiting patiently for a word.",
+            "The roads towards Goldshire remained promises rather than passages recorded. The old ledger gave no prophecy of what lay beyond the abbey. It offered only a blank page and the solemn freedom to fill it one witnessed moment at a time.",
+            "At level six, Xuthar was neither master of Light nor child of Shadow. He was simply a man who had begun—and who chose to keep going."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
           "title": "The Road Beyond Northshire",
           "kind": "pending",
           "paragraphs": [
-            "The most recent screenshot lists two missions ready for turn-in: Milly's Harvest and Bounty on Garrick Padfoot. The Adventurer, Follow That Kobold!, Report to Goldshire and In Favor of the Light remain active and direct Xuthar to conversations in Northshire and Goldshire.",
-            "No journey to Goldshire, completed hand-in of The Big Picture or Skirmish at Echo Ridge, change of character level or additional reward has been confirmed. Further pages will follow the player's actual next adventures."
+            "Xuthar Morvayne has reached level 6 by player report. The latest quest screenshot still shows Milly's Harvest and Bounty on Garrick Padfoot ready for turn-in, with The Adventurer, Follow That Kobold!, Report to Goldshire and In Favor of the Light active. No change in those quest states has been reported.",
+            "The next chapter will follow only the player's actual further travels, quest deliveries and encounters. Quest rewards, hand-ins and new destinations are not inferred from reaching level six."
           ],
           "link": "chronicle.html"
         }

@@ -354,6 +354,49 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-stormwind-level-eight",
+      "day": "13",
+      "chapter": "5 November 2026 · Stormwind, 19:24–20:24",
+      "title": "The City of Lamps · Level Eight",
+      "location": "Stormwind City · Trade District and canals",
+      "type": "Screenshot-confirmed level-up and travel",
+      "excerpt": "Xuthar reaches level eight after handing in Shipment to Stormwind, walks through the Trade District and pauses beside the canals.",
+      "text": [
+        "The game chat at 19:26 confirms level eight as Xuthar stands near Morgan Pestle in Stormwind. Shipment to Stormwind is also explicitly completed: 800 experience, +150 reputation with Stormwind, Oil of Olaf, 3 Silver and 50 Copper.",
+        "Screenshots show the torchlit stone passage, Trade District shops, and the wooden dock by the canal. At the last screenshot, the priest stands on the dock looking across the water. This visit is travel evidence, not an achievement or additional quest completion.",
+        "At 20:24 the tracker shows five active quests: Wine Shop Advert, The Jasperlode Mine, Rare Books (Elite), Further Concerns and Camping 101: Herbalism. Quests not shown are not automatically marked completed.",
+        "The associated book chapter uses fictional introspection to explore what the city might mean to the Last Witness."
+      ]
+    },
+    {
+      "id": "xuthar-fargodeep-deaths",
+      "day": "12",
+      "chapter": "5 November 2026 · Fargodeep Mine, 19:04–19:07",
+      "title": "Two Falls in the Mine",
+      "location": "Fargodeep Mine · Elwynn Forest",
+      "type": "Screenshot-confirmed encounters",
+      "excerpt": "Kobold Miners and a Rumbler confront Xuthar in Fargodeep Mine; the screenshots document two deaths but no final victory.",
+      "text": [
+        "At 19:04 and again at 19:07, the player is shown dead inside Fargodeep Mine. Mine scaffolds, hostile Kobold Miners and a Rumbler are visible; no victory over these enemies is assumed.",
+        "The earlier tracker shows Kobold Candles at 4/8 Large Candle, Gold Dust Exchange at 7/10 Gold Dust and Book Return (Elite) at 6/6 Lost Book but 0/1 Picture Book: Fun with Elementals. A subsequent quest tracker marked those objectives ready for turn-in; neither a hand-in nor reward is separately confirmed.",
+        "This is an honest entry in the living record: defeats are part of the journey, not events to hide."
+      ]
+    },
+    {
+      "id": "xuthar-garments-level-seven",
+      "day": "11",
+      "chapter": "5 November 2026 · Elwynn and Lion's Pride Inn, 13:49–18:46",
+      "title": "Mercy by the Water",
+      "location": "Elwynn Forest · Crystal Lake · Lion's Pride Inn",
+      "type": "Screenshot-confirmed priest milestone",
+      "excerpt": "A forest campfire, Guard Roberts at Crystal Lake and the completed priest quest lead to Xuthar reaching level seven.",
+      "text": [
+        "Two screenshots show a small gathering of adventurers around a campfire on a cobbled forest road. Another shows Guard Roberts by the water near Crystal Lake, the location linked to Garments of the Light.",
+        "At 18:46:51, the in-game chat records level seven and Garments of the Light completed. Xuthar gained 270 XP and received Friar's Robes of the Light.",
+        "The player previously confirmed completing the task after casting the correct spell rank. This later screenshot independently documents the quest reward and level change."
+      ]
+    },
+    {
       "id": "xuthar-inside-lions-pride-inn",
       "day": "10",
       "chapter": "5 November 2026 · Goldshire, 12:32–12:38",

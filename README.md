@@ -38,7 +38,7 @@ Copy portraits and screenshots into `assets/images/`, then set a record’s `ima
 
 ## Sample content
 
-The planned WoW Forever roster was announced on 27 October 2026: Xuthar Morvayne (main; Human Shadow Priest), Thorgar Ironbeard (Dwarf Hunter) and Aelyndra Zephyrveil (female Skyborne Druid). Origins and real gameplay progress have not been recorded yet. Retail profiles remain separate from Forever plans. The Oak Inn → Ford Trail → Pine Glade route, journal entries, and stories are original examples, not official lore or records of actual adventures. Update the sample-content notices when adding real content.
+The planned WoW Forever roster was announced on 27 October 2026: Xuthar Morvayne (main; Human Shadow Priest), Thorgar Ironbeard (Dwarf Hunter) and Aelyndra Zephyrveil (female Skyborne Druid). The planned character biographies are fictional; Xuthar's first player-reported gameplay session is now recorded separately (5 November 2026). Thorgar and Aelyndra have no recorded played sessions here. Retail profiles remain separate from Forever plans. The Oak Inn → Ford Trail → Pine Glade route, journal entries, and stories are original examples, not official lore or records of actual adventures. Update the sample-content notices when adding real content.
 
 ## Verification and publication
 
@@ -89,3 +89,15 @@ Editorial selection reviewed 11 October 2026: Forever beta notes dated 8 October
 ## WoW Forever character announcement — 27 October 2026
 
 `assets/js/forever-roster.js` defines the three planned Forever characters and renders the launch announcement both on the homepage and at `forever.html#forever-roster`; it also exposes the entries via `window.CHRONICLES.foreverCharacters` when the main content object is available. `assets/css/forever-roster.css` contains the custom illustrations, class colors and mobile layout. The site distinguishes planned roleplay biographies from confirmed gameplay progress. Do not place these characters in the Retail roster.
+
+
+## The first night of Forever — 5 November 2026
+
+The owner's screenshots and conversation establish Xuthar Morvayne's first Roleplay session: login queue position 524; arrival at Northshire Abbey; fighting wolves at level 2; reaching level 3; meeting Marshal McBride and finding the Priest trainer; and exploring Echo Ridge. The last shared quest tracker showed 5/8 Stolen Books, 5/10 Kobold Workers, and 0/12 Red Burlap Bandanas. These were still **in progress**; no automatic character sync or later quest completion is implied.
+
+- `assets/data/character-books.json`: Book I now includes the first nine player-reported and literary pages after the fictional prologue, with an explicit factual field record. The last page still awaits future play.
+- `assets/js/content.js`: first `journal` entry is a dated first-session report. Older journal stops are still fictional examples.
+- `assets/js/first-adventure.js` + `assets/css/first-adventure.css`: editorial first-night feature on the homepage and Xuthar dossier, with links to the interactive book and journal.
+- `assets/js/app.js`: separates the real journal entry from older samples. `book.html?character=xuthar#x-live-1` deep-links into the new chapter.
+
+Narrative metaphors, inner thoughts, scenery descriptions and dialogue are roleplay fiction. Player-reported events are not independently verified through a Blizzard API. Existing archive artwork is clearly labelled as illustrative, not as an actual first-session screenshot.

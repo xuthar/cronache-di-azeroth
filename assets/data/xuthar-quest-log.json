@@ -2,54 +2,37 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-05",
-  "location": "Stormwind City · Trade District · 63.1, 74.6 (latest screenshot)",
-  "source": "Player screenshots from 5 November 2026 (18:46–20:24), including in-game quest tracker, completion log and level-up messages.",
-  "scope": "The latest tracker at 20:24 shows five active quests; no ready-for-turn-in markers. Historic quests absent from this crop are not presumed handed in. In-game chat visibly confirms level 7, then level 8, Garments of the Light and Shipment to Stormwind completed. Two deaths in Fargodeep Mine are also explicitly shown.",
+  "location": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
+  "source": "Player report of Stormwind quest deliveries, profession changes and Goldshire overnight rest; seven player-supplied 1920×1080 screenshots of the route and rainy Goldshire (20:24–21:34); earlier Stormwind quest tracker remains the latest readable mission list.",
+  "scope": "After the 20:24 Stormwind quest-tracker snapshot, player reports handing in some quests at Stormwind near Renato Gallina and in various shops, but no exact completed quest names or rewards are established by the new screenshots. Tailoring and Enchanting were learned as main professions, Herbalism abandoned, Fishing learned. Xuthar returned to Goldshire and lay in a bed at Lion's Pride Inn while rain fell outside. The last screenshot-backed level remains 8. Current quest list after these deliveries is NOT shown; do not treat older last-seen missions as current or missing missions as completed.",
   "readyForTurnIn": [],
-  "active": [
-    {
-      "id": "wine-shop-advert",
-      "name": "Wine Shop Advert",
-      "level": "2",
-      "status": "active",
-      "progress": "Bring Suzetta Gallina the Wine Ticket for a free bottle of wine",
-      "objective": "Go to Gallina Winery and bring Suzetta Gallina the Wine Ticket for a free bottle of wine."
-    },
-    {
-      "id": "the-jasperlode-mine",
-      "name": "The Jasperlode Mine",
-      "level": "10",
-      "status": "active",
-      "progress": "Scout through the Jasperlode Mine",
-      "objective": "Scout through the Jasperlode Mine."
-    },
-    {
-      "id": "rare-books-elite",
-      "name": "Rare Books (Elite)",
-      "level": "7+",
-      "status": "active",
-      "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
-      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words."
-    },
-    {
-      "id": "further-concerns",
-      "name": "Further Concerns",
-      "level": "10",
-      "status": "active",
-      "progress": "Speak with Guard Thomas",
-      "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
-    },
-    {
-      "id": "camping-101-herbalism",
-      "name": "Camping 101: Herbalism",
-      "level": "6",
-      "status": "active",
-      "progress": "Raise Herbalism skill to 20",
-      "objective": "Raise your Herbalism skill to 20.",
-      "targetSkill": 20
-    }
-  ],
+  "active": [],
   "historical": [
+    {
+      "name": "Further Concerns",
+      "status": "Active in last readable Stormwind tracker (20:24); later state unknown",
+      "note": "Further Stormwind deliveries happened after the latest readable tracker. No latest objective state verified."
+    },
+    {
+      "name": "Rare Books (Elite)",
+      "status": "Active in last readable Stormwind tracker (20:24); later state unknown",
+      "note": "Further Stormwind deliveries happened after the latest readable tracker. No latest objective state verified."
+    },
+    {
+      "name": "The Jasperlode Mine",
+      "status": "Active in last readable Stormwind tracker (20:24); later state unknown",
+      "note": "Further Stormwind deliveries happened after the latest readable tracker. No latest objective state verified."
+    },
+    {
+      "name": "Wine Shop Advert",
+      "status": "Active in last readable Stormwind tracker (20:24); later state unknown",
+      "note": "Further Stormwind deliveries happened after the latest readable tracker. No latest objective state verified."
+    },
+    {
+      "name": "Camping 101: Herbalism",
+      "status": "Quest status not verified after Herbalism abandonment",
+      "note": "Was visible and active at 20:24, but the player subsequently abandoned Herbalism. No quest abandonment or delivery screenshot exists. Preserve as unresolved history."
+    },
     {
       "name": "Kobold Candles",
       "status": "Previously ready for turn-in",
@@ -131,7 +114,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "stormwind-20261105-202423",
+  "snapshotId": "goldshire-rest-20261105-213455",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -252,6 +235,22 @@
     {
       "place": "Stormwind City",
       "observation": "Screenshots show a stone passage into Stormwind, the Trade District, Morgan Pestle, and the canal docks."
+    },
+    {
+      "place": "Stormwind departures",
+      "observation": "Stone-lit tunnel, courtyard and heroic statues photographed on return route after visiting shops and trainers."
+    },
+    {
+      "place": "Elwynn Forest, rainy night",
+      "observation": "Nighttime rain over the cobbled road and trees outside Goldshire, seen in photographs around 21:29."
+    },
+    {
+      "place": "Goldshire in rain",
+      "observation": "Rain falls on the main road as Xuthar walks back toward Lion's Pride Inn after Stormwind."
+    },
+    {
+      "place": "Lion's Pride Inn, night rest",
+      "observation": "Player photograph at 21:34 shows Xuthar reclining on an upstairs bed. This confirms lying down, not necessarily logging out or earning rested experience."
     }
   ],
   "innVisit": {
@@ -451,6 +450,194 @@
       "description": "Xuthar standing on canal dock with anglers nearby",
       "uploadedByPlayer": true,
       "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_202433(1).jpg",
+      "description": "Stormwind canal dock, alternate copy",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_202853.jpg",
+      "description": "Torchlit stone tunnel leaving Stormwind",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_212811.jpg",
+      "description": "Nighttime city approach under warm lanterns",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_212845.jpg",
+      "description": "Bridge between monumental Stormwind statues",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_212958.jpg",
+      "description": "Rain on the Elwynn cobbled road",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_213316.jpg",
+      "description": "Goldshire road and blue roofed inn in the rain",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "WoWScrnShot_110526_213455.jpg",
+      "description": "Xuthar resting in a bed at Lion's Pride Inn",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
     }
-  ]
+  ],
+  "latestReportAt": "2026-11-05T21:34:55+01:00",
+  "previousStormwindSnapshot": {
+    "snapshotId": "stormwind-20261105-202423",
+    "location": "Stormwind City · Trade District · 63.1, 74.6",
+    "active": [
+      {
+        "id": "wine-shop-advert",
+        "name": "Wine Shop Advert",
+        "level": "2",
+        "status": "active",
+        "progress": "Bring Suzetta Gallina the Wine Ticket for a free bottle of wine",
+        "objective": "Go to Gallina Winery and bring Suzetta Gallina the Wine Ticket for a free bottle of wine."
+      },
+      {
+        "id": "the-jasperlode-mine",
+        "name": "The Jasperlode Mine",
+        "level": "10",
+        "status": "active",
+        "progress": "Scout through the Jasperlode Mine",
+        "objective": "Scout through the Jasperlode Mine."
+      },
+      {
+        "id": "rare-books-elite",
+        "name": "Rare Books (Elite)",
+        "level": "7+",
+        "status": "active",
+        "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+        "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words."
+      },
+      {
+        "id": "further-concerns",
+        "name": "Further Concerns",
+        "level": "10",
+        "status": "active",
+        "progress": "Speak with Guard Thomas",
+        "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
+      },
+      {
+        "id": "camping-101-herbalism",
+        "name": "Camping 101: Herbalism",
+        "level": "6",
+        "status": "active",
+        "progress": "Raise Herbalism skill to 20",
+        "objective": "Raise your Herbalism skill to 20.",
+        "targetSkill": 20
+      }
+    ],
+    "readyForTurnIn": [],
+    "at": "2026-11-05T20:24:23+01:00"
+  },
+  "questsAfterProfessionChange": "Unknown. Last readable tracker was at 20:24, before later Stormwind hand-ins and profession changes.",
+  "reportedQuestActivity": [
+    {
+      "area": "Stormwind City",
+      "description": "Several quests handed in, including activity with an NPC named by the player as Renato Gallina and deliveries inside city shops.",
+      "source": "player-report",
+      "exactQuestNamesVerified": false,
+      "rewardsVerified": false
+    }
+  ],
+  "professions": {
+    "primary": [
+      {
+        "name": "Tailoring",
+        "learned": true,
+        "source": "player-report",
+        "skillLevel": null
+      },
+      {
+        "name": "Enchanting",
+        "learned": true,
+        "source": "player-report",
+        "skillLevel": null
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Fishing",
+        "learned": true,
+        "source": "player-report",
+        "skillLevel": null
+      }
+    ],
+    "abandoned": [
+      {
+        "name": "Herbalism",
+        "source": "player-report",
+        "note": "Abandoned to take Tailoring and Enchanting; corresponding Camping 101: Herbalism quest status after profession change not shown."
+      }
+    ],
+    "unverified": [
+      "Cooking"
+    ]
+  },
+  "lastSeenQuestTracker": [
+    {
+      "id": "wine-shop-advert",
+      "name": "Wine Shop Advert",
+      "level": "2",
+      "status": "active",
+      "progress": "Bring Suzetta Gallina the Wine Ticket for a free bottle of wine",
+      "objective": "Go to Gallina Winery and bring Suzetta Gallina the Wine Ticket for a free bottle of wine."
+    },
+    {
+      "id": "the-jasperlode-mine",
+      "name": "The Jasperlode Mine",
+      "level": "10",
+      "status": "active",
+      "progress": "Scout through the Jasperlode Mine",
+      "objective": "Scout through the Jasperlode Mine."
+    },
+    {
+      "id": "rare-books-elite",
+      "name": "Rare Books (Elite)",
+      "level": "7+",
+      "status": "active",
+      "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words."
+    },
+    {
+      "id": "further-concerns",
+      "name": "Further Concerns",
+      "level": "10",
+      "status": "active",
+      "progress": "Speak with Guard Thomas",
+      "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
+    },
+    {
+      "id": "camping-101-herbalism",
+      "name": "Camping 101: Herbalism",
+      "level": "6",
+      "status": "active",
+      "progress": "Raise Herbalism skill to 20",
+      "objective": "Raise your Herbalism skill to 20.",
+      "targetSkill": 20
+    }
+  ],
+  "rest": {
+    "place": "Lion's Pride Inn, Goldshire",
+    "date": "2026-11-05",
+    "approxTime": "21:34",
+    "lyingInBedConfirmed": true,
+    "outsideWeather": "rain",
+    "overnightIntention": "player reported stopping for the night",
+    "restedXpUnverified": true
+  }
 }

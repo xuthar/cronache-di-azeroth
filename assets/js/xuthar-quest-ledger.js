@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-camping-101-01';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-goldshire-road-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,16 +39,25 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is level 6 by player report. The latest screenshot shows Shhh! We’re Hunting Kobolds ready for turn-in and five active quests, including Camping 101: Herbalism (skill target 20) and Camping 101: Cooking (learn from Tomas in Goldshire). Earlier screenshots remain archived.');
+   const lead=make('p','','Xuthar’s level 6 is now confirmed in the game chat, along with Bounty on Garrick Padfoot completed for 340 XP. The latest quest screenshot shows Grape Manifest, The Adventurer, Report to Goldshire and In Favor of the Light. The journey has reached the Goldshire village area; quest hand-ins not shown remain unconfirmed.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.readyForTurnIn.length,'Ready for turn-in'],[data.active.length,'Still active']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Screenshot-confirmed completed'],[data.active.length,'Visible active']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (player reported) · Quest list from latest screenshot');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (screenshot confirmed) · Latest quest-tracker snapshot');
    head.append(status);
    head.append(metrics);root.append(head);
+   if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
+     const completed=make('div','xql-confirmed');
+     completed.append(make('h3','xql-group-heading','Confirmed in game chat'));
+     data.confirmedCompleted.forEach(q=>{
+       const item=make('p','xql-confirmed-item','✓ '+q.name+(Number.isFinite(q.experience)?' · '+q.experience+' XP':''));
+       completed.append(item);
+     });
+     root.append(completed);
+   }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
      [data.readyForTurnIn,'Ready to report','xql-group-ready',true],
@@ -56,15 +65,15 @@
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
-     if(items.length===0)grid.append(make('p','xql-empty','None marked ready for turn-in in this screenshot. Previous quest states are preserved in the archive.'));
+     if(items.length===0)grid.append(make('p','xql-empty','No quest marked ready for turn-in in this screenshot. Older quest states remain archived.'));
      items.forEach(q=>grid.append(questCard(q,ready)));
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Recorded from a player-provided quest tracker screenshot on 5 November 2026 (43.1, 65.0). Shhh! We’re Hunting Kobolds is ready for turn-in; Camping 101: Herbalism, Camping 101: Cooking and three other quests are active. The Adventurer is absent from this cropped tracker; its hand-in is not established. Level 6 is player-reported. No Blizzard API synchronisation is claimed.');
+   const foot=make('p','xql-provenance','The latest tracker snapshot is at Northshire (48.2, 42.9), followed by photos of the road to Goldshire. Game chat confirms Bounty on Garrick Padfoot completed (340 XP) and the level 6 milestone. Earlier Herbalism, Cooking, Rest and Relaxation, and kobold-tracking objectives remain historical: their absence from the new tracker does not establish delivery. No Blizzard API synchronization is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-camping-101-notes';root.append(book);
+   book.href='book.html?character=xuthar#x-goldshire-road-notes';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

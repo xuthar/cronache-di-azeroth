@@ -4,7 +4,7 @@
   const page=document.body.dataset.page;
   if(!['gallery','home','xuthar'].includes(page))return;
   const galleryId='lions-pride-inn-gallery';
-  const atlas='assets/img/xuthar-lions-pride-hd.webp?v=20261105-hd-01';
+  const atlas=new URL('assets/img/xuthar-lions-pride-hd.webp?v=20261105-image-path-fix-02', document.baseURI).href;
   const pics=[
     ['The Hearth of Goldshire','12:32 · THE INN','Xuthar enters the Lion’s Pride Inn. The great brick hearth, candlelit tables and Melika Isenstrider appear in the common room.'],
     ['At the Innkeeper’s Side','12:33 · FARLEY','Xuthar stands beside Innkeeper Farley. Barkeep Dobbins and Brog Hamfist are visible beyond the counter. Quest turn-in is not confirmed.'],

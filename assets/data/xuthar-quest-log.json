@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "character": "Xuthar Morvayne",
+  "recordedAt": "2026-11-05",
+  "location": "Northshire Valley · 47.6, 39.8 (minimap screenshot)",
+  "source": "Player-supplied in-game quest-tracker screenshot",
+  "scope": "This is a manual snapshot of visible quests, not a live Blizzard API sync.",
+  "readyForTurnIn": [
+    {
+      "id": "the-big-picture",
+      "name": "The Big Picture (Elite)",
+      "level": "3+",
+      "elite": true,
+      "status": "ready-for-turn-in",
+      "progress": "Objectives fulfilled; ready for turn-in",
+      "objective": "Quest objective completed; turn-in and reward not shown"
+    },
+    {
+      "id": "skirmish-at-echo-ridge",
+      "name": "Skirmish at Echo Ridge",
+      "level": "5",
+      "elite": false,
+      "status": "ready-for-turn-in",
+      "progress": "Objectives fulfilled; ready for turn-in",
+      "objective": "Earlier screenshot showed 0/12 Kobold Laborers; latest tracker now says Ready for turn-in"
+    }
+  ],
+  "active": [
+    {
+      "id": "millys-harvest",
+      "name": "Milly's Harvest",
+      "level": "4",
+      "status": "active",
+      "progress": "0/8",
+      "objective": "Milly's Harvest",
+      "current": 0,
+      "total": 8
+    },
+    {
+      "id": "in-favor-of-the-light",
+      "name": "In Favor of the Light",
+      "level": "4",
+      "status": "active",
+      "progress": "Speak to Priestess Josetta",
+      "objective": "Speak to Priestess Josetta in Elwynn Forest"
+    },
+    {
+      "id": "bounty-on-garrick-padfoot",
+      "name": "Bounty on Garrick Padfoot",
+      "level": "5",
+      "status": "active",
+      "progress": "0/1",
+      "objective": "Garrick's Head",
+      "current": 0,
+      "total": 1
+    }
+  ],
+  "historical": [
+    {
+      "name": "Brotherhood of Thieves",
+      "status": "Previously ready for turn-in",
+      "note": "An earlier screenshot showed its objective ready for turn-in. Its absence from this cropped tracker does not prove it was handed in."
+    }
+  ]
+}

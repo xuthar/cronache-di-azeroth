@@ -2,7 +2,7 @@
 (() => {
   'use strict';
   const page=document.body.dataset.page;
-  const book='book.html?character=xuthar#x-lions-pride-hearth';
+  const book='book.html?character=xuthar#x-stormwind-arrival';
   if(page==='home'){
     const hero=document.querySelector('#main .hero');
     if(!hero||document.querySelector('.first-night'))return;

@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-camping-101-professions",
+      "day": "08",
+      "chapter": "5 November 2026 · The lessons beyond Northshire",
+      "title": "Herbs, embers and the road to Goldshire",
+      "location": "Elwynn Forest · 43.1, 65.0 · Quest tracker",
+      "type": "Screenshot-confirmed quest record",
+      "excerpt": "Two Camping 101 lessons enter Xuthar's quest log: raise Herbalism to skill 20 and learn Cooking from Tomas in Goldshire. The kobold-tracking quest remains ready to report.",
+      "text": [
+        "The newest screenshot of Xuthar's quest tracker, around coordinates 43.1, 65.0 in Elwynn Forest, shows two newly visible level 6 training quests. Camping 101: Herbalism instructs the traveller to raise the Herbalism profession skill to 20. Camping 101: Cooking directs him to learn Cooking from Tomas in Goldshire. They are assignments, not evidence that either profession has been learned or advanced.",
+        "Shhh! We're Hunting Kobolds (level 4) remains Ready for turn-in. Its six tracking objectives were previously fulfilled, but a final hand-in and reward have still not been shown.",
+        "Three other tasks remain active: Rest and Relaxation, to speak with Innkeeper Farley at the Lion's Pride Inn; Report to Goldshire, to bring Marshal McBride's Documents to Marshal Dughan; and In Favor of the Light, to speak with Priestess Josetta in Elwynn Forest.",
+        "The Adventurer, previously pointing to Sam Sarsparilla near Goldshire, is not visible in this cropped tracker. Its disappearance does not prove a completed mission. The last reported character level remains 6, independent of the levels shown next to quests.",
+        "The literary road now carries more than battles and letters. There is the scent of crushed leaves and the possibility of a warm cooking fire. Those are imagined motifs inspired by the new profession quests, not confirmation that Xuthar has gathered a single herb or spoken to Tomas."
+      ]
+    },
+    {
       "id": "xuthar-kobold-tracks-ready-inn",
       "day": "07",
       "chapter": "5 November 2026 · The tracks and the road to Goldshire",

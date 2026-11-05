@@ -4,7 +4,7 @@
  const page=document.body.dataset.page;
  if(!['gallery','home','xuthar'].includes(page))return;
  const albumId='goldshire-travel-gallery';
- const atlas='assets/img/xuthar-goldshire-hd.webp?v=20261105-hd-01';
+ const atlas=new URL('assets/img/xuthar-goldshire-hd.webp?v=20261105-image-path-fix-02', document.baseURI).href;
  const pics=[
   {title:'The Sixth Step',label:'11:36 · THE RECORDED VICTORY',detail:'The game chat confirms Bounty on Garrick Padfoot completed, 340 XP awarded and Xuthar reaching level six. Grape Manifest appears among the quests.'},
   {title:'Sunlight over the Fields',label:'11:36 · NORTHSHIRE',detail:'The priest stands in the clearing outside the stone walls; the forest, once dark, glows in daylight.'},

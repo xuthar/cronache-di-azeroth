@@ -362,11 +362,12 @@ window.CHRONICLES = {
       "type": "Player-reported adventure",
       "excerpt": "At level five, Xuthar faced the Defias, completed Brotherhood of Thieves and returned to the abbey to rest. Even the smallest victory deserves a quiet page.",
       "text": [
-        "Xuthar reached level 5 while exploring the outskirts of Northshire. In the dim fields under the trees he encountered Defias Thugs; the player's screenshot shows the armed bandits among the fields and fences. This is the next observed stage of his journey, after Echo Ridge.",
-        "The player reported completing Brotherhood of Thieves, the commission to gather twelve Red Burlap Bandanas. Whether Xuthar had already handed it in or received any reward was not stated, so this diary does not claim either event.",
+        "Xuthar Morvayne reached level 5 during his first session. An uploaded screenshot shows him near Defias Thugs in Northshire’s fenced fields, while earlier images record his progress at levels 2, 3 and 4. The eight-image launch-night album preserves those moments in order.",
+        "The player reported completing Brotherhood of Thieves, which required twelve Red Burlap Bandanas. The level 5 screenshot now confirms the objective was Ready for turn-in, not handed in at that photographed moment. A later delivery or reward has not been verified.",
         "Afterwards Xuthar returned to Northshire Abbey for a rest. The room is left to the novelist's imagination: warm candlelight, old stone, and the sound of a world moving beyond the walls. The fact of the rest is part of the player's report; the meditations on Light and Shadow are original roleplay fiction.",
-        "Level 5 and the Brotherhood of Thieves objective are the latest reported milestones. The status of earlier kobold and stolen-book quests has not been updated. No future travel or further victory is assumed.",
-        "Read the longer, literary continuation in Book I: Chapter VIII, Red Cloth Beneath the Trees, and Chapter IX, The Abbey's Vigil."
+        "The final screenshot also shows the Militia Hammer reward, a new Mining Consultant task (speak with Kelsey Fargo outside Echo Ridge Mine) and Skirmish at Echo Ridge (0/12 Kobold Laborers). Deputy Willem offers Milly Osworth and Bounty on Garrick Padfoot. These assignments are not yet recorded as completed.",
+        "Read the longer, literary continuation in Book I: Chapter VIII, Red Cloth Beneath the Trees, and Chapter IX, The Abbey's Vigil.",
+        "The real screenshots are available in the Gallery’s new first-night album. The quiet abbey interlude is player-reported, while its meditations and dialogue remain literary roleplay."
       ]
     },
     {
@@ -379,10 +380,11 @@ window.CHRONICLES = {
       "excerpt": "At midnight, the gates opened. Xuthar Morvayne stepped into a sea of adventurers and followed the first uncertain path towards Echo Ridge.",
       "text": [
         "5 November 2026. The first night in Forever began with a queue position of 524 and a choice: Roleplay. Then the gates yielded. Xuthar Morvayne appeared before Northshire Abbey among a vast crowd of new arrivals. Names filled the air, voices called to strangers, and the old stones seemed to tremble beneath a thousand possible futures.",
-        "He was a Human Priest in pale robes, his braids falling against his shoulders. At level two he fought wolves in the fields beyond the abbey. There was nothing glorious in it. That was why he remembered it: the first lessons of a traveller are rarely the ones a bard would choose.",
-        "By level three he stood before Marshal McBride. A Hallowed Letter pointed him towards the priestly trainer, whom he later found; Investigate Echo Ridge drew him farther into the woods. Beneath the old trees he fought kobold workers and recovered stolen books.",
+        "Eight screenshots show the crowd at Northshire Abbey, then Xuthar as a level 2 Human Priest fighting wolves. The Wolves Across the Border tracker reads 5/8 Tough Wolf Meat; the Kobold Camp Cleanup tracker initially reads 0/10 Kobold Vermin. These are snapshots of early progress, not the final outcomes.",
+        "At level 3, the chat confirms Kobold Camp Cleanup completed, awarding 170 experience, 25 copper and 100 Stormwind reputation. Marshal McBride offers Hallowed Letter and Investigate Echo Ridge; the Priest trainer was later found. At level 4, Xuthar’s quest tracker shows 9/10 Kobold Workers and 6/8 Stolen Books before the Defias chapter begins.",
         "At that point in the first shared Echo Ridge tracker, progress was five of ten Kobold Workers, five of eight Stolen Books, and zero of twelve Red Burlap Bandanas. These figures are a historical snapshot, not the latest status; the Defias objective was completed later in the same night.",
-        "For the literary telling, enter Book I, The Last Witness: Chapters IV–VII transform the same journey into a darker, more expansive story without changing the events known from play."
+        "For the literary telling, enter Book I, The Last Witness: Chapters IV–VII transform the same journey into a darker, more expansive story without changing the events known from play.",
+        "The original screenshots, lightly brightened and compressed for the website, are preserved in the Gallery under The Night Azeroth Awoke."
       ]
     },
     {

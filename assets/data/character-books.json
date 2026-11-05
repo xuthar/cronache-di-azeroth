@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "prologue",
+      "status": "journey-begun",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -118,13 +118,121 @@
           "signed": "Xuthar Morvayne · Fictional prologue"
         },
         {
+          "id": "x-live-1",
+          "chapter": "Chapter IV · The Night of the Gates",
+          "title": "Five hundred souls before the dawn",
+          "kind": "reported",
+          "paragraphs": [
+            "On the fifth day of November, in the first breath of a newborn era, the gates of Azeroth did not open at once. Beyond them waited a gathering of strangers, each bearing a name, a hunger, a history not yet told. Five hundred and twenty-four: the number burned upon the threshold as Xuthar stood in the queue, a man of ink and unanswered prayers among an unseen multitude.",
+            "He had crossed no battlefield. His blade had tasted no blood. And yet he sensed the curious weight of a beginning: the knowledge that an ordinary moment, once lived, could never be lived for the first time again.",
+            "The old ledger rested, in the story he carried within himself, beneath his travelling robes. Its warning had not changed: The last witness must not remember. He had chosen, against that command, to remember everything.",
+            "When the way cleared, he chose the company of those who wished not merely to fight in this world, but to inhabit it. Roleplay. The word was small. The promise behind it was immense."
+          ]
+        },
+        {
+          "id": "x-live-2",
+          "chapter": "Chapter IV · The Night of the Gates",
+          "title": "A name spoken into the world",
+          "kind": "reported",
+          "paragraphs": [
+            "He stood in pale robes edged in blue, with auburn braids falling against his shoulders and a weathered face beneath a stubborn brow. Xuthar Morvayne. At last the letters were no longer a name reserved on a page: they belonged to a living traveller standing on Azeroth's threshold.",
+            "Beyond the stone and rooftops lay the first blue of morning. It was too gentle a sky for prophecies. No thunder proclaimed him chosen; no host of angels knelt. There was only the quiet uncertainty that attends the first step.",
+            "A lesser chronicle might have called it the birth of a hero. Xuthar would have objected. Heroes were remembered for victories. He had come to learn how the forgotten survived the world's indifference.",
+            "And then, without ceremony, he entered."
+          ]
+        },
+        {
+          "id": "x-live-3",
+          "chapter": "Chapter V · The Abbey of a Thousand Voices",
+          "title": "Northshire did not sleep",
+          "kind": "reported",
+          "paragraphs": [
+            "He expected the Abbey of Northshire to greet him with bells, stone corridors and the discipline of early prayer. Instead, a sea of bodies surged across its green approaches. Travellers called out to one another; names floated above every head like banners in a wind no one else could see.",
+            "Some laughed. Some shouted that they had made it. Others stood as if afraid that moving would break the spell of arrival. A thousand private destinies collided beneath the same innocent sky, and for one impossible instant the world seemed to hold its breath around them.",
+            "Xuthar listened. A nameless crowd, his old teachers might have called it. But he had never believed in nameless crowds. There were only people whose names had not yet been learned.",
+            "He could scarcely see the road beneath their feet. It was not the solemn entrance imagined by a pilgrim. It was far better: the ungovernable, human music of a world beginning again."
+          ]
+        },
+        {
+          "id": "x-live-4",
+          "chapter": "Chapter V · The Abbey of a Thousand Voices",
+          "title": "The humblest of vows",
+          "kind": "reported",
+          "paragraphs": [
+            "Beyond the excitement lay the ordinary labour of Northshire: requests from neighbours, vermin in the fields, wolves among the grass, a marshal attempting to hold a troubled valley together with too few hands.",
+            "Xuthar was no master of shadow here. His power was young, his purse light, his knowledge incomplete. He could offer no grand miracle. What he could offer was his attention and the strength of two untested hands.",
+            "An old thought returned to him: the world is not saved only by those whose names are carved into stone. Sometimes it is kept alive by the person who answers when another calls for help.",
+            "So he went into the fields. The first deeds of his chronicle would be smaller than legends, and therefore, perhaps, more worthy of being told."
+          ]
+        },
+        {
+          "id": "x-live-5",
+          "chapter": "Chapter VI · Teeth Beneath the Green",
+          "title": "The wolves of the first morning",
+          "kind": "reported",
+          "paragraphs": [
+            "In the grass beyond the abbey, the first wolves waited. Nothing in their eyes resembled evil. They were hungry creatures, born into the same uncertain world as the man approaching them. Yet their teeth were real, and the danger they posed required an answer.",
+            "At the second measure of his growing strength, Xuthar faced them with the little magic a novice priest could command. Each encounter left the pulse beating hard in his throat. Each victory taught him how fragile a mortal body remained beneath a sacred robe.",
+            "He did not mistake survival for mastery. If anything, the struggle unsettled him: the Light could warm a dying hand, yet the same disciplined will could turn prayer towards violence.",
+            "Somewhere in his memory, the woman from the winter vigil asked that she not be forgotten. He carried her silence into the fields, and walked on."
+          ]
+        },
+        {
+          "id": "x-live-6",
+          "chapter": "Chapter VI · Teeth Beneath the Green",
+          "title": "Marshal McBride's summons",
+          "kind": "reported",
+          "paragraphs": [
+            "By the time Xuthar returned beneath Northshire's ancient stone, he had reached the third level of his apprenticeship. Marshal McBride waited near the abbey's threshold, a soldier whose work allowed little room for mystery and less for hesitation.",
+            "There were new matters to attend to: a hallowed letter that pointed towards the teachings of his own order, and a troubling request to investigate Echo Ridge. The name of that place seemed to hang in the air long after it was spoken.",
+            "Xuthar sought out the priestly trainer. There was comfort in the familiar gravity of the abbey, but no escape from the questions that had brought him there. A lesson could teach the shape of an incantation; it could not tell a man what his power ought to mean.",
+            "He left the quiet halls with a clearer road before him, not a clearer answer."
+          ]
+        },
+        {
+          "id": "x-live-7",
+          "chapter": "Chapter VII · Where the Earth Remembers",
+          "title": "The road to Echo Ridge",
+          "kind": "reported",
+          "paragraphs": [
+            "North of the monastery, the green earth darkened beneath towering trees. At Echo Ridge the cobolds laboured in the shadow of the slopes, digging and scuttling among rough camps. Their fires were small; the forest around them was vast.",
+            "Xuthar followed the work of an ordinary commission into a place that felt older than the abbey bells. The first kobold workers fell, not to a triumphant champion but to a novice learning to stand his ground. Beneath the roots, the earth yielded fragments of stolen books, mute witnesses to other hands and other lives.",
+            "He wondered who had owned them. A prayer book, perhaps; a merchant's ledger; a child's account of a summer that would never come again. The contents were still unknown, but the question itself was enough to make him bend and gather what he could.",
+            "From somewhere among the trees came the faint crackle of a cooking fire. The valley had ceased to be a starting zone. It had become a place with its own terrible, ordinary needs."
+          ]
+        },
+        {
+          "id": "x-live-8",
+          "chapter": "Chapter VII · Where the Earth Remembers",
+          "title": "The chronicle remains unfinished",
+          "kind": "reported",
+          "paragraphs": [
+            "The work at Echo Ridge was not done. Five of ten kobold workers had been defeated. Five of eight stolen books had been found. Elsewhere, the task of gathering twelve red burlap bandanas from the Defias still awaited its first mark.",
+            "He stood among the roots and dark grass at level three, the abbey behind him and the promise of unknown roads ahead. Nothing in the scene would have persuaded a passing stranger that history had begun to turn. There was no crown, no dragon, no empire falling beneath a blade.",
+            "But in a quieter chronicle, the measure of a life is different. A man who had sworn to preserve forgotten names had taken his first steps among people and creatures whom greater histories would overlook.",
+            "The night had opened its gates. The first pages were written. Beyond Echo Ridge, the unwritten world waited."
+          ]
+        },
+        {
+          "id": "x-live-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "What was witnessed, what is still to come",
+          "kind": "reported",
+          "paragraphs": [
+            "Player-reported gameplay, from screenshots and the traveller's own notes: Xuthar Morvayne entered Forever as a Human Priest on the Roleplay ruleset. The launch login screen showed queue position 524. His first arrival was at Northshire Abbey among a large crowd of players.",
+            "During this first session he fought wolves after reaching level 2; reached level 3 at Marshal McBride; saw the Hallowed Letter and Investigate Echo Ridge quests; and confirmed that he found the Priest trainer.",
+            "The latest shared Echo Ridge screenshot showed Rascally Rodents 5/8 Stolen Books, Investigate Echo Ridge 5/10 Kobold Workers, and Brotherhood of Thieves 0/12 Red Burlap Bandanas. Those objectives were still in progress at the time of that image.",
+            "The dialogue, thoughts, symbols and imagery in the preceding chapter are original roleplay fiction inspired by those events. No quest completion, new spell, reward or subsequent level has been assumed."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The first true footstep",
+          "title": "Beyond Echo Ridge",
           "kind": "pending",
           "paragraphs": [
-            "This page will be written after Xuthar's first real session in Forever.",
-            "Actual quests, travel, encounters and choices will become the factual foundation of the chapter. The thoughts and symbolism may be imagined, but the events themselves will not be invented."
+            "Xuthar's first steps are now recorded. The next pages will begin only when the traveller returns with new observations from Azeroth.",
+            "The quests at Echo Ridge remained unfinished in the last shared screenshot. Their outcome and the road beyond them are still unwritten."
           ],
           "link": "chronicle.html"
         }
@@ -282,5 +390,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastEditorialUpdate": "2026-11-05"
 }

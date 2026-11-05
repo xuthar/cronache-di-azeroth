@@ -22,8 +22,8 @@
             <div><b>Defias</b><span>Brotherhood of Thieves · Objective complete</span></div>
             <div><b>Northshire</b><span>Back at the abbey · Resting</span></div>
           </div>
-          <div class="first-night-links"><a href="${book}">Read Book I · Defias & the Abbey →</a><a class="secondary" href="journal.html#xuthar-level-six">Level 6 field journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest log · 2 ready / 4 active ↗</a></div>
-          <p class="first-night-fine">Player-reported character level 6. Latest quest screenshot: Milly's Harvest and Garrick Padfoot ready to report, four other assignments active. No quest hand-ins or rewards are inferred from the higher level. Narrative imagery is original roleplay fiction.</p>
+          <div class="first-night-links"><a href="${book}">Read Book I · Defias & the Abbey →</a><a class="secondary" href="journal.html#xuthar-kobold-tracks">Latest quest journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest log · 4 active · Kobold tracks 0/6 ↗</a></div>
+          <p class="first-night-fine">Player-reported character level 6. Latest screenshot: four quests visible and active, including six kobold tracks to follow (0/6). Earlier Milly’s Harvest and Garrick Padfoot ready-for-turn-in states remain archived; hand-ins are not inferred. Narrative imagery is original roleplay fiction.</p>
         </div>
         <figure class="first-night-figure"><img src="assets/images/gallery/stormwind-midnight.jpg" alt="Moody fantasy city under a dark sky, illustrative cover art" loading="lazy"><figcaption>Atmospheric archive artwork · Not a screenshot from this session</figcaption></figure>
       </div>`;
@@ -39,8 +39,8 @@
     panel.innerHTML=`
       <span class="first-night-overline">NEW · 5 NOVEMBER 2026 · THE FIRST PLAYED ADVENTURE</span>
       <h2 id="xu-first-session-title">From the Abbey’s silence to the roads ahead.</h2>
-      <p>Xuthar has reached character level 6 according to the player's latest report. After the wolves, kobolds, Defias and a quiet rest at Northshire Abbey, new assignments point toward Goldshire. The latest tracker shows two quests ready to turn in and four active. Chapter X introduces these possible roads without claiming he has already travelled them.</p>
-      <div class="first-night-links"><a href="book.html?character=xuthar#x-quests-northshire-goldshire">Read Chapter X · The roads ahead →</a><a href="journal.html#xuthar-level-six">Read the level 6 update →</a><a href="#xuthar-quests">See six current quests ↗</a></div>
+      <p>Xuthar has reached character level 6 according to the player's latest report. After the wolves, kobolds, Defias and a quiet rest at Northshire Abbey, new assignments point toward Goldshire. The latest tracker shows four active quests, including Shhh! We’re Hunting Kobolds (0/6 tracks). Chapter XII follows the mystery of the trail without claiming the tracks have been found.</p>
+      <div class="first-night-links"><a href="book.html?character=xuthar#x-kobold-tracks">Read Chapter XII · The kobold trail →</a><a href="journal.html#xuthar-kobold-tracks">Read the latest quest update →</a><a href="#xuthar-quests">See four visible quests ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);
   }

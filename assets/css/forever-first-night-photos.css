@@ -1,0 +1,41 @@
+/* Forever first-night screenshots · 5 November 2026.
+   The eight frame previews are an optimized player-supplied AVIF contact sheet,
+   avoiding 8 separate requests; no image-generation replacements. */
+.fn-gallery,.fn-gallery *, .fn-photo-dialog, .fn-photo-dialog *{box-sizing:border-box}
+.fn-gallery{scroll-margin-top:105px;margin:8px 0 52px;padding:clamp(20px,3.8vw,44px);border:1px solid #d0ac7b9c;border-radius:11px;background:linear-gradient(150deg,#17223b,#10192c 45%,#22203b);box-shadow:0 20px 60px #0008;position:relative;overflow:hidden}
+.fn-gallery:before{content:"";pointer-events:none;position:absolute;inset:0;background:radial-gradient(ellipse at 8% 0%,#ce9b6235,transparent 53%),radial-gradient(ellipse at 95% 80%,#8758c426,transparent 60%)}
+.fn-gallery>*{position:relative}
+.fn-gallery-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}
+.fn-gallery-heading h2{font:600 clamp(2.2rem,4.6vw,4.9rem)/1.04 Georgia,serif;letter-spacing:-.035em;color:#ffedcf;margin:10px 0 12px;text-shadow:0 6px 23px #0009}
+.fn-gallery-heading p{max-width:800px;font:1.02rem/1.75 Georgia,serif;color:#e3dce3;margin:0}
+.fn-overline{color:#e6c082;text-transform:uppercase;letter-spacing:.14em;font:800 .69rem/1.5 system-ui}
+.fn-gallery-link,.fn-see-photos{display:inline-flex;align-items:center;justify-content:center;gap:8px;color:#f7dba7!important;border:1px solid #c5a27391;padding:12px 16px;border-radius:5px;font:700 .78rem system-ui;text-decoration:none!important;background:#503b567d}
+.fn-gallery-link:hover,.fn-see-photos:hover{background:#744b83;color:#fff!important}
+.fn-gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.fn-shot-card{overflow:hidden;border:1px solid #bc9a7385;border-radius:6px;background:linear-gradient(145deg,#102035,#101726);box-shadow:0 9px 28px #0008}
+.fn-shot-button{display:block;width:100%;padding:0;border:0;background:#080f1a;cursor:pointer;overflow:hidden;position:relative}
+.fn-shot-button:focus-visible{outline:3px solid #f5dba8;outline-offset:-4px;z-index:2}
+.fn-photo-frame{display:block;width:100%;aspect-ratio:440 / 248;background-image:var(--fn-atlas);background-size:200% 400%;background-repeat:no-repeat;background-color:#101c27;transition:transform .45s ease;filter:contrast(1.05) saturate(1.08)}
+.fn-shot-button:hover .fn-photo-frame{transform:scale(1.04)}
+.fn-shot-caption{padding:16px 20px 23px}
+.fn-shot-number{font:800 .65rem/1.5 system-ui;letter-spacing:.13em;color:#e2bc83}
+.fn-shot-caption h3{color:#f6e7d6;font:500 clamp(1.35rem,2.2vw,1.9rem)/1.2 Georgia,serif;margin:6px 0 8px}
+.fn-shot-caption p{color:#c9d6dd;font:.81rem/1.65 system-ui;margin:0}
+.fn-shot-footnote{color:#aec0ce;font:.72rem/1.7 system-ui;margin:22px 0 0}
+.fn-photo-dialog{padding:0;border:1px solid #c9a46f;border-radius:8px;max-width:min(1050px,95vw);width:95vw;max-height:94vh;background:linear-gradient(145deg,#0e1c2d,#211c31);color:#fff3df;box-shadow:0 30px 100px #000e}
+.fn-photo-dialog::backdrop{background:#020613db;backdrop-filter:blur(5px)}
+.fn-dialog-inner{padding:clamp(12px,2.5vw,25px)}
+.fn-dialog-close{display:block;margin:0 0 11px auto;padding:9px 15px;background:#3b3151;border:1px solid #d2ad7e;border-radius:4px;color:#ffeacc;cursor:pointer}
+.fn-dialog-frame{max-width:900px;margin-inline:auto;box-shadow:0 9px 30px #000b;border:1px solid #b494638f}
+.fn-dialog-caption{text-align:center;color:#e0d6e2;font:.86rem/1.6 Georgia,serif;max-width:900px;margin:14px auto}
+.fn-dialog-navigation{display:flex;justify-content:space-between;gap:12px}
+.fn-dialog-navigation button{background:#172e41;color:#f4debb;border:1px solid #947a5d;border-radius:4px;padding:11px 16px;cursor:pointer}
+.fn-dialog-navigation button:hover,.fn-dialog-close:hover{background:#504168}
+.fn-hero-photo-link{display:block;position:relative;height:100%;width:100%;min-height:400px;color:inherit;text-decoration:none;overflow:hidden}
+.fn-hero-photo{height:100%;min-height:400px;aspect-ratio:auto;background-position:0% 0%!important;filter:contrast(1.15) saturate(1.08);transition:transform .45s}
+.fn-hero-photo-link:hover .fn-hero-photo{transform:scale(1.04)}
+.fn-hero-photo-caption{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:23px 20px;color:#ffe4b2;background:linear-gradient(0deg,#060d1def,transparent);font:800 .65rem/1.5 system-ui;letter-spacing:.08em}
+.fn-see-photos{font-size:.73rem}
+@media(max-width:760px){.fn-gallery-heading{flex-direction:column;align-items:start}.fn-gallery-grid{grid-template-columns:1fr}.fn-hero-photo-link,.fn-hero-photo{min-height:260px}.fn-gallery{padding:16px}.fn-shot-caption{padding:12px 16px 19px}}
+@media(max-width:420px){.fn-photo-dialog{width:98vw}.fn-dialog-navigation button{padding:9px 12px;font-size:.75rem}.fn-hero-photo-link,.fn-hero-photo{min-height:215px}}
+@media(prefers-reduced-motion:reduce){.fn-photo-frame,.fn-hero-photo{transition:none}}

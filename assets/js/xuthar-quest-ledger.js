@@ -39,7 +39,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is still at his last-confirmed character level 6. The latest quest screenshot shows Grape Manifest, The Adventurer, Report to Goldshire and In Favor of the Light. The journey has reached the Goldshire village area; quest hand-ins not shown remain unconfirmed.');
+   const lead=make('p','','Xuthar is still at his last-confirmed character level 6. The latest screenshot shows four quests ready for turn-in and two quests in progress at Elwynn Forest 42.5, 67.4. The journey has reached the Goldshire village area; quest hand-ins not shown remain unconfirmed.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Screenshot-confirmed completed'],[data.active.length,'Visible active']]){

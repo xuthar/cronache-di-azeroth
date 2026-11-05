@@ -4,7 +4,7 @@
   "recordedAt": "2026-11-05",
   "location": "Northshire Valley · 48.2, 42.9 at 11:36; later screenshots show the approach into Goldshire",
   "source": "Player-provided screenshots WoWScrnShot_110526_113639.jpg and later Elwynn/Goldshire travel photos",
-  "scope": "The listed quest states are a snapshot at 11:36 in-game screenshot. Later travel photos confirm arrival in the Goldshire village area, but show no quest dialogues. Bounty on Garrick Padfoot completion and level 6 are confirmed by game chat.",
+  "scope": "Last quest tracker dates from before the inn visit. Four later photos establish the visit to Lion's Pride Inn and a seated rest, without proving any quest turn-in, profession training, hearthstone binding or further level gain.",
   "readyForTurnIn": [],
   "active": [
     {
@@ -173,6 +173,23 @@
     {
       "place": "Goldshire village",
       "observation": "Blue-roofed houses, cobbled road and settlement buildings visible in later screenshots"
+    },
+    {
+      "place": "Lion's Pride Inn",
+      "observation": "Entered the inn; stood beside Farley, located Tomas the Cook and sat in a chair, shown across four screenshots. NPC conversations and quest completions are not visible."
     }
-  ]
+  ],
+  "innVisit": {
+    "recordedAt": "2026-11-05",
+    "timeRange": "12:32–12:38",
+    "place": "Lion's Pride Inn, Goldshire",
+    "entered": true,
+    "farleyLocated": true,
+    "tomasLocated": true,
+    "seated": true,
+    "farleyConversationConfirmed": false,
+    "cookingLearnedConfirmed": false,
+    "restAndRelaxationTurnInConfirmed": false,
+    "evidence": "Four player-supplied screenshots"
+  }
 }

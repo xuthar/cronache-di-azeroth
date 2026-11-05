@@ -39,7 +39,7 @@
     panel.innerHTML=`
       <span class="first-night-overline">NEW · 5 NOVEMBER 2026 · THE FIRST PLAYED ADVENTURE</span>
       <h2 id="xu-first-session-title">Back to Goldshire: the rain and the quiet room.</h2>
-      <p>The player screenshots now confirm level 8, Garments of the Light completed and Shipment to Stormwind handed in. After crossing Elwynn and enduring two defeats in Fargodeep Mine, Xuthar reached Stormwind, delivered several quests and learned Tailoring, Enchanting and Fishing, leaving Herbalism behind. Seven new photographs show his rainy journey home and his rest in a bed at Goldshire’s Lion’s Pride Inn. Named quests not separately documented remain unconfirmed.</p>
+      <p>The player screenshots now confirm level 8, Garments of the Light completed and Shipment to Stormwind handed in. After crossing Elwynn and enduring two defeats in Fargodeep Mine, Xuthar reached Stormwind, delivered several quests and learned Tailoring, Enchanting and Fishing, leaving Herbalism behind. Six distinct new photographs show his rainy journey home and his rest in a bed at Goldshire’s Lion’s Pride Inn. Named quests not separately documented remain unconfirmed.</p>
       <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Last Light Before Sleep →</a><a href="journal.html#xuthar-rainy-goldshire-rest">Read tonight’s Goldshire journal →</a><a href="#xuthar-quests">View current quest tracker ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);

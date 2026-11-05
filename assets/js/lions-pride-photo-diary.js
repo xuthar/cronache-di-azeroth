@@ -43,7 +43,7 @@
       button.append(frame(i));button.addEventListener('click',()=>open(i));
       const text=node('div','fn-shot-caption');text.append(node('span','fn-shot-number',(i+1)+' / 4 · '+p[1]));text.append(node('h3','',p[0]));text.append(node('p','',p[2]));card.append(button,text);grid.append(card);
     });
-    section.append(grid,dialog,node('p','fn-shot-footnote','Player-supplied screenshots, 5 November 2026. Compressed 480×270 pixel previews; original gameplay files remain separate. Being near Farley or Tomas does not prove completing their quests or learning professions.'));
+    section.append(grid,dialog,node('p','fn-shot-footnote','Player-supplied screenshots, 5 November 2026. Compressed 400×225 pixel previews; original gameplay files remain separate. Being near Farley or Tomas does not prove completing their quests or learning professions.'));
     root.prepend(section);
     if(location.hash==='#'+galleryId)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));
   }

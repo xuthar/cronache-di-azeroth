@@ -1,13 +1,12 @@
-/* Chronicles of Azeroth · 2026 launcher-style visual experience.
- * Runs after existing site modules, preserving live data, countdown, character roster and resources. */
+/* Chronicles of Azeroth · launch-night visual experience, now in the Forever era.
+ * Preserves live news, character roster, and the personal chronicle; no countdown. */
 (() => {
   'use strict';
   document.documentElement.classList.add('azeroth-launcher');
   const page = document.body.dataset.page;
   const main = document.querySelector('#main');
   if (!main) return;
-  const launchAt = Date.parse('2026-11-04T23:00:00Z');
-  const live = Date.now() >= launchAt;
+  const live = true; // The launch has happened; this is an editorial archive, not a server-state probe.
   const images = {
     hero:'assets/images/hero.webp',
     horizon:'assets/images/gallery/azure-crossroads.jpg',
@@ -45,19 +44,19 @@
     const kicker=copy.querySelector('.warfront-hero-kicker,.eyebrow');
     if(kicker)kicker.textContent='CHRONICLES OF AZEROTH  /  THE FOREVER ERA';
     const title=copy.querySelector('h1');
-    if(title)title.innerHTML=live?'The world is yours.<br><em>Make it legendary.</em>':'A new Azeroth awaits.<br><em>This time, Forever.</em>';
+    if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='Explore the world, find the forgotten roads and turn every journey into a story. A visual home for Forever, your characters and the wonders of Azeroth.';
+    if(lead)lead.textContent='5 November 2026. The gates of Azeroth opened, the Abbey of Northshire filled with voices, and Xuthar Morvayne took his first steps towards the shadows of Echo Ridge. This is no longer a countdown. This is the beginning of our story.';
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="forever.html">Enter WoW Forever ↗</a><a class="button" href="#launcher-news">Latest news ↓</a><a class="button launcher-ghost" href="chronicle.html">Living Chronicle ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-live-1">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
-    panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> GAME VERSION & STATUS</span>'+
-      '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Europe · The next chapter</small></div></div>'+
-      '<div class="launcher-game-status"><small>GAME STATUS · LIVE COUNTDOWN</small><strong>5 NOVEMBER 2026</strong><span>00:00 CET · Rome</span></div>'+
-      '<div class="launcher-panel-state">'+(live?'The gates of Azeroth are open':'Beta completed · The road to launch')+'</div>'+
-      '<a class="launcher-panel-button" href="forever.html">EXPLORE FOREVER <span aria-hidden="true">↗</span></a>'+
+    panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
+      '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
+      '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>First session recorded · Human Priest · Level 3<br>Northshire Abbey → Echo Ridge</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-live-1">OPEN THE FIRST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }
@@ -83,16 +82,16 @@
   featured.className='launcher-section launcher-featured wrap';
   featured.id='launcher-featured';
   featured.setAttribute('aria-label','Featured World of Warcraft stories');
-  featured.innerHTML=heading('01  /  FEATURED','Beyond the horizon.','The stories shaping our next great adventure.','forever.html#forever-news','All Forever news');
+  featured.innerHTML=heading('01  /  LAUNCH EDITION','The legend begins here.','The world has opened; the first true chapter belongs to Xuthar Morvayne.','book.html?character=xuthar#x-live-1','Read the chronicle');
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
-    category:'FEATURED STORY  ·  THE ROAD TO FOREVER',
-    name:live?'The Forever era has begun.':'The gates of Azeroth are opening.',
-    description:'5 November · 00:00 CET in Italy. One new beginning, a thousand roads and three adventurers whose stories are waiting to be written.',
-    url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero
+    category:'THE LAST WITNESS · FIRST PLAYED ADVENTURE',
+    name:'Xuthar Morvayne: Northshire awakens.',
+    description:'A crowded abbey. The first wolves. Marshal McBride. A priest’s oath, and a path into Echo Ridge. Enter the epic, illustrated literary chronicle inspired by the real first session.',
+    url:'book.html?character=xuthar#x-live-1',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
-  sides.append(imgCard(official[0],'launcher-news-secondary'),imgCard(official[2],'launcher-news-secondary'));
+  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'Northshire to Echo Ridge.',description:'The factual field journal from Xuthar’s very first night in Azeroth.',url:'journal.html#forever-first-night',image:images.forest},'launcher-news-secondary'));
   featureGrid.append(sides);featured.append(featureGrid);
   hero.insertAdjacentElement('afterend',featured);
 
@@ -128,23 +127,9 @@
 
   const command=document.createElement('section');
   command.className='launcher-section launcher-command wrap';command.id='launcher-command';
-  command.innerHTML=heading('03  /  FOREVER BULLETIN','The latest briefing.','Automatic Forever headlines and official sources, collected in one easy-to-read panel.','forever.html','Forever guide');
-  const currentCountdown=document.querySelector('.home-live.forever-command-center');
-  if(currentCountdown) {
-    command.append(currentCountdown);
-    // Move the ORIGINAL live countdown into the launcher Game Status cell.
-    // We move, never clone: existing IDs and the one-second ticker keep working.
-    const timeSection=currentCountdown.querySelector('.launch-time');
-    const statusCell=heroContent?.querySelector('.launcher-game-status');
-    if(timeSection && statusCell){
-      const statusLabel=document.createElement('small');
-      statusLabel.className='launcher-countdown-label';
-      statusLabel.textContent='GAME STATUS  /  COUNTDOWN TO FOREVER';
-      statusCell.replaceChildren(statusLabel,timeSection);
-      currentCountdown.querySelector('.launch-card')?.remove();
-      command.classList.add('launcher-command--news-only');
-    }
-  }
+  command.innerHTML=heading('03  /  FOREVER BULLETIN','The living world.','The latest Forever headlines and official sources, still refreshed automatically.','forever.html','Forever guide');
+  const liveNews=document.querySelector('.home-live.forever-command-center');
+  if(liveNews){command.append(liveNews);command.classList.add('launcher-command--news-only');}
   news.insertAdjacentElement('afterend',command);
 
   const characters=document.createElement('section');
@@ -163,7 +148,7 @@
   const destinations=[
     ['FOREVER','A world reborn','Launch updates, gameplay systems and the adventure ahead.','forever.html',images.horizon],
     ['THE LIVING CHRONICLE','Our progress','Three characters and their real journeys through Azeroth.','chronicle.html',images.forest],
-    ['THE LIVING BOOKS','Turn the pages','Read Xuthar’s first volume and browse two stories reserved for the future.','book.html?character=xuthar',images.goldshire],
+    ['THE LIVING BOOKS','The first chapter is here','Read the epic first-night adventure of Xuthar, with new pages added as the journey unfolds.','book.html?character=xuthar#x-live-1',images.goldshire],
     ['THE GALLERY','Worlds in pictures','Moments, landscapes and memories from Azeroth.','gallery.html',images.stormwind],
     ['XUTHAR MORVAYNE','The Last Witness','A complete roleplay biography, family mystery and in-game character guide.','xuthar.html',images.goldshire],
     ['RETAIL ARCHIVE','The heroes before Forever','A lifetime of characters and the roads already travelled.','retail.html',images.orgrimmar],
@@ -186,7 +171,7 @@
   spotlight.innerHTML=heading('06  /  MEDIA SPOTLIGHT','Scenes from the world.','A cinematic preview and snapshots from the archive.','gallery.html','Open gallery');
   const mediaGrid=document.createElement('div');mediaGrid.className='launcher-media-grid';
   [
-    {eyebrow:'LAUNCH SPOTLIGHT',title:'The final watch before Forever',desc:'Return to the featured video and celebrate the last hours before our next adventure.',url:'#forever-premiere',image:images.hero},
+    {eyebrow:'LAUNCH SPOTLIGHT',title:'The gates of Azeroth are open',desc:'Watch the featured launch video and celebrate the beginning of the Forever era.',url:'#forever-premiere',image:images.hero},
     {eyebrow:'PHOTO ARCHIVE',title:'Azeroth through our eyes',desc:'Explore the community gallery and moments on the road.',url:'gallery.html',image:images.collection}
   ].forEach(item=>{
     const a=document.createElement('a');a.href=item.url;a.className='launcher-media-tile';

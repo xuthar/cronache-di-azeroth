@@ -46,7 +46,7 @@
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (screenshot confirmed) · Latest quest-tracker snapshot');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (last confirmed earlier) · New Elwynn quest-tracker snapshot');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){

@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-kobold-tracks-ready-inn",
+      "day": "07",
+      "chapter": "5 November 2026 · The tracks and the road to Goldshire",
+      "title": "Six traces found; a warm inn awaits",
+      "location": "Elwynn Forest · Quest-tracker screenshot · 44.9, 62.0",
+      "type": "Screenshot-confirmed quest record",
+      "excerpt": "The kobold tracking objective is ready to turn in, and a new invitation leads Xuthar to Innkeeper Farley at Goldshire's Lion’s Pride Inn.",
+      "text": [
+        "A newer player-provided quest tracker, with coordinates 44.9, 62.0 visible, records a change in Shhh! We're Hunting Kobolds (level 4): the quest now reads Ready for turn-in. Previously it showed 0/6 Followed Kobold Tracks. The screenshot confirms all tracking objectives have been fulfilled; turning the quest in or receiving a reward is not shown.",
+        "A new level 5 assignment, Rest and Relaxation, directs Xuthar to speak with Innkeeper Farley at the Lion's Pride Inn. The image shows the objective, not that the priest has entered the inn or met Farley.",
+        "The Adventurer (level 6) still calls for Sam Sarsparilla near Goldshire. Report to Goldshire (level 5) requires delivery of Marshal McBride's Documents to Marshal Dughan in Goldshire, and In Favor of the Light (level 4) sends him to Priestess Josetta in Elwynn Forest. These three conversations or deliveries remain active in this screenshot.",
+        "Thus the visible snapshot contains one quest Ready for turn-in and four still active. No newer level is shown, so the last character level remains the player's previously reported level 6. Tasks absent from this cropped view have not been presumed completed or handed in.",
+        "Literary reflection: the earth had finally yielded its six hidden signs. Beyond the trees, the thought of a lantern-lit inn promised a different kind of respite. Yet Xuthar had not been seen crossing its threshold; the chronicle stopped, respectfully, at the edge of the road."
+      ]
+    },
+    {
       "id": "xuthar-kobold-tracks",
       "day": "06",
       "chapter": "5 November 2026 · The trail through Northshire",

@@ -39,10 +39,10 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is still at his last-confirmed character level 6. The latest screenshot shows four quests ready for turn-in and two quests in progress at Elwynn Forest 42.5, 67.4. The journey has reached the Goldshire village area; quest hand-ins not shown remain unconfirmed.');
+   const lead=make('p','','Xuthar is still at his last-confirmed character level 6. The latest screenshot shows four quests ready for turn-in and two quests in progress at Elwynn Forest 42.5, 67.4. Garments of the Light is confirmed completed by the player; quests marked ready still require turn-in.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Screenshot-confirmed completed'],[data.active.length,'Visible active']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Confirmed completions'],[data.active.length,'Visible active']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
@@ -51,7 +51,7 @@
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
      const completed=make('div','xql-confirmed');
-     completed.append(make('h3','xql-group-heading','Confirmed in game chat'));
+     completed.append(make('h3','xql-group-heading','Confirmed via game chat or player report'));
      data.confirmedCompleted.forEach(q=>{
        const item=make('p','xql-confirmed-item','✓ '+q.name+(Number.isFinite(q.experience)?' · '+q.experience+' XP':''));
        completed.append(item);

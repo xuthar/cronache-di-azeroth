@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. His first night has already become the opening chapter of a legend.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. His first journey has brought him to level eight and the streets of Stormwind, after the dangers of Fargodeep Mine.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
@@ -121,7 +121,7 @@
   const facts=$('div','forever-premiere-facts');
   [
     ['05 NOV','THE OPENING NIGHT'],
-    ['LEVEL 6','XUTHAR’S CURRENT LEVEL'],
+    ['LEVEL 8','XUTHAR’S CURRENT LEVEL'],
     ['ECHO RIDGE','THE FIRST CHAPTER']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');

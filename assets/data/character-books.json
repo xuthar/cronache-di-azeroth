@@ -184,7 +184,7 @@
           "kind": "reported",
           "paragraphs": [
             "By the time Xuthar returned beneath Northshire's ancient stone, he had reached the third level of his apprenticeship. Marshal McBride waited near the abbey's threshold, a soldier whose work allowed little room for mystery and less for hesitation.",
-            "There were new matters to attend to: a hallowed letter that pointed towards the teachings of his own order, and a troubling request to investigate Echo Ridge. The name of that place seemed to hang in the air long after it was spoken.",
+            "Kobold Camp Cleanup had been completed and rewarded; the log bore witness to that first small victory. There were new matters to attend to: a hallowed letter that pointed towards the teachings of his own order, and a troubling request to investigate Echo Ridge. The name of that place seemed to hang in the air long after it was spoken.",
             "Xuthar sought out the priestly trainer. There was comfort in the familiar gravity of the abbey, but no escape from the questions that had brought him there. A lesson could teach the shape of an incantation; it could not tell a man what his power ought to mean.",
             "He left the quiet halls with a clearer road before him, not a clearer answer."
           ]
@@ -244,7 +244,7 @@
           "kind": "reported",
           "paragraphs": [
             "The fight was not the stuff of tavern songs. There were no royal trumpets, no sweeping banners, no triumphant charge. There was only the rhythm of danger, the need to hold one enemy at a time, and the bitter knowledge that a priest's hands could be called upon for violence.",
-            "The red burlap bandanas were proof of the work entrusted to him. Twelve had been required for the Brotherhood of Thieves commission. By the end of his struggle the objective was complete, though the record does not yet tell whether he had returned it to its giver.",
+            "The red burlap bandanas were proof of the work entrusted to him. Twelve had been required for the Brotherhood of Thieves commission. By the end of his struggle the objective was complete, with the tracker later marking the objective Ready for turn-in. The hand-in itself has not yet been shown.",
             "He regarded those scraps of cloth and wondered what oath had once made the brotherhood worthy of its name. Men could bind themselves together for justice or for cruelty. Sometimes the difference became visible only to those standing in the path of their weapons.",
             "He had won no great war in that shadowed field. Yet he had learned something that a hundred sheltered sermons could scarcely teach: the darkest deeds were not always born of darkness alone."
           ]
@@ -279,10 +279,24 @@
           "title": "Level five · A completed commission · A moment of rest",
           "kind": "reported",
           "paragraphs": [
-            "Player-reported update, 5 November 2026: Xuthar Morvayne is now level 5. The owner reported completing the objectives of Brotherhood of Thieves, which required twelve Red Burlap Bandanas. The game did not provide a shared screenshot of the final tracker; this milestone is recorded on the player's word.",
-            "A screenshot showed Xuthar near Defias Thugs in the fields around Northshire. The owner subsequently reported that Xuthar had returned to Northshire Abbey and was taking a rest there. Mission turn-in, reward received, new spells and the status of other quests have not been confirmed.",
-            "The earlier Field Record preserves a previous screenshot snapshot: 5/10 Kobold Workers, 5/8 Stolen Books and 0/12 Red Burlap Bandanas before the Defias objective was completed. It is not a statement of current progress.",
+            "Player-reported update, 5 November 2026: Xuthar Morvayne is level 5. The owner reported completing the Brotherhood of Thieves objective (twelve Red Burlap Bandanas). A later screenshot independently confirms it was Ready for turn-in; handing it in was not yet shown.",
+            "An earlier screenshot places Xuthar near Defias Thugs. The player later reported resting at Northshire Abbey. Other screenshots confirm rewards from Kobold Camp Cleanup and the Militia Hammer from an interaction with Deputy Willem, but not a Brotherhood of Thieves turn-in or reward. No new spells are asserted.",
+            "Earlier snapshots show 5/10 and later 9/10 Kobold Workers, 5/8 and later 6/8 Stolen Books, and 0/12 bandanas before the Defias objective was completed. These figures document earlier progress, not the latest status. The final image also shows new assignments Mining Consultant and Skirmish at Echo Ridge.",
             "All introspection, invented dialogue, candle imagery and symbolic descriptions in Chapters VIII–IX are literary roleplay additions. Level 5, the Defias objective's completion, and the rest at Northshire Abbey come from the player's reported play."
+          ]
+        },
+        {
+          "id": "x-live-photo-record",
+          "chapter": "Illustrated Field Record · 5 November 2026",
+          "title": "Eight moments that witnessed the beginning",
+          "kind": "reported",
+          "paragraphs": [
+            "Eight screenshots from the launch-night session show a living Northshire: a dense crowd beneath the Abbey walls, a later gathering beside Deputy Willem, and Xuthar entering the woods to face Young Wolves and Timber Wolves. In the crowd one player calls, 'HERE WE ARE'. This was a shared beginning, not a solitary one.",
+            "The level 2 screenshot shows Wolves Across the Border at 5/8 Tough Wolf Meat, with Kobold Camp Cleanup at 0/10. At level 3, chat confirms Kobold Camp Cleanup completed, 170 experience, 25 copper and 100 Stormwind reputation; Marshal McBride's dialogue lists Hallowed Letter and Investigate Echo Ridge.",
+            "The level 4 image shows Investigate Echo Ridge at 9/10 Kobold Workers, Rascally Rodents at 6/8 Stolen Books, and Brotherhood of Thieves at 0/12 bandanas at that earlier point. Nearby kobolds and wolves are visible under the trees, alongside the light of Xuthar's magic.",
+            "Beyond the woods a screenshot places Xuthar in sight of Defias Thugs near fenced farm plots. At level 5 the final screenshot shows Deputy Willem, a Militia Hammer reward appearing in the log, and Brotherhood of Thieves marked Ready for turn-in; this confirms the objective was completed but not its delivery at that moment.",
+            "Other visible assignments at level 5 include Mining Consultant, to speak to Kelsey Fargo outside Echo Ridge Mine, and Skirmish at Echo Ridge, requiring 12 Kobold Laborers. Deputy Willem offers Milly Osworth and Bounty on Garrick Padfoot. These are available or active quests, not completed quests.",
+            "The player later reported resting at Northshire Abbey. These images corroborate stages of the journey, not every intervening action. The novel's thoughts, dialogue and symbols remain roleplay fiction."
           ]
         },
         {
@@ -291,8 +305,8 @@
           "title": "Beyond the Abbey's Silence",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar Morvayne is resting in Northshire Abbey at level 5, having completed the Brotherhood of Thieves objective. The next chapter will begin when his traveller next reports a real event in Azeroth.",
-            "The completion and turn-in of other quests, any rewards, new spells and the next destination have not been recorded; they will not be invented."
+            "Xuthar Morvayne is resting at Northshire Abbey at level 5. The Brotherhood of Thieves objective was complete and ready for turn-in in the last shared screenshot. A later hand-in has not yet been reported.",
+            "New tasks at Echo Ridge and Deputy Willem are visible in the quest log, but their outcomes have not been recorded."
           ],
           "link": "chronicle.html"
         }

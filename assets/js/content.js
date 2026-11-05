@@ -354,6 +354,20 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-level-six",
+      "day": "05",
+      "chapter": "5 November 2026 · A sixth step into Azeroth",
+      "title": "The Sixth Step of the Last Witness",
+      "location": "Northshire · Player-reported character milestone",
+      "type": "Player-reported adventure",
+      "excerpt": "Xuthar Morvayne has reached level 6. The next paths still lead towards Goldshire, while the latest quest-tracker record preserves two missions ready for turn-in and four active.",
+      "text": [
+        "The player confirmed that Xuthar Morvayne has reached character level 6 on 5 November 2026. This is a direct report made after the most recent quest-tracker screenshot, not a level-up image. The higher level is recorded without inventing a particular battle, reward, trainer visit or quest turn-in.",
+        "The preceding screenshot lists Milly's Harvest and Bounty on Garrick Padfoot as Ready for turn-in. The Adventurer, Follow That Kobold!, Report to Goldshire and In Favor of the Light are active in that same snapshot. Those quest states are preserved; level 6 alone does not prove that any one of them has been handed in.",
+        "Literary reflection: the sixth turning of the road was not announced by a herald. Xuthar felt only the slow accumulation of hard-won experience, the quiet weight of promises, and the inviting uncertainty of the world beyond the abbey walls. To a witness, even the smallest step deserves a line in the record."
+      ]
+    },
+    {
       "id": "xuthar-six-current-quests",
       "day": "04",
       "chapter": "5 November 2026 · New orders and unfinished journeys",

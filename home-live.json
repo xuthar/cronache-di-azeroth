@@ -2,13 +2,13 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-05T00:39:57.199Z"
+    "checkedAt": "2026-11-05T00:40:19.113Z"
   },
   "news": [
     {
       "title": "Obtain the Pouch of Violet Dust Toy - Increases Camp Benefits by 1 Hour",
       "url": "https://www.wowhead.com/news=383751/obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour",
-      "category": "Live",
+      "category": "Forever",
       "publishedAt": "2026-11-05T00:32:54.000Z"
     },
     {
@@ -30,12 +30,12 @@
       "publishedAt": "2026-11-04T22:05:13.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-05T00:39:57.199Z",
-  "generatedAt": "2026-11-05T00:39:57.192Z",
+  "newsUpdatedAt": "2026-11-05T00:40:19.113Z",
+  "generatedAt": "2026-11-05T00:40:19.107Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 04 Nov 2026 18:39:33 -0600",
+  "newsFeedBuiltAt": "Wed, 04 Nov 2026 18:40:00 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -354,6 +354,24 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-inside-lions-pride-inn",
+      "day": "10",
+      "chapter": "5 November 2026 · Goldshire, 12:32–12:38",
+      "title": "An hour by the hearth",
+      "location": "Lion’s Pride Inn · Goldshire, Elwynn Forest",
+      "type": "Screenshot-confirmed indoor visit",
+      "excerpt": "Xuthar crosses the threshold of the Lion’s Pride Inn, stands beside Innkeeper Farley, visits the room where Cook Tomas works and finally sits down to rest.",
+      "text": [
+        "Four player-supplied screenshots from 12:32 to 12:38 on 5 November 2026 show Xuthar Morvayne inside the Lion’s Pride Inn in Goldshire, confirming a genuine visit rather than merely the earlier quest directing him there.",
+        "At 12:32 the priest stands within the timbered common room. A large brick fireplace burns beside long tables and wooden chairs, while candles, bottles and casks illuminate the bar. Melika Isenstrider, marked Assistant Innkeeper, is visible near the seating area, and Innkeeper Farley can be seen towards the back.",
+        "At 12:33 Xuthar stands directly in front of Innkeeper Farley. Barkeep Dobbins and Brog Hamfist (General Supplies) are visible behind the counter. The image confirms proximity to the innkeeper, but does not show an opened dialogue, completed quest, registered hearthstone or new reward.",
+        "At 12:35 the priest reaches the kitchen area, where Tomas is clearly identified as Cook, and Toddrick as Butcher. The earlier Camping 101: Cooking quest requested learning Cooking from Tomas in Goldshire. This screenshot confirms locating Tomas, not whether Cooking was actually learned.",
+        "The final screenshot, taken at 12:38, records Xuthar seated on a chair in a quiet corner by the bar. Innkeeper Farley, Barkeep Dobbins and Brog Hamfist remain visible nearby. This is the first photographed moment of rest inside the Lion’s Pride Inn.",
+        "The last confirmed character level is 6. These interior photographs show no quest turn-in interface or new progression counters, so the quest ledger is not advanced solely on their basis. No addon or Blizzard API is involved in this manual record.",
+        "Literary interpretation: after the gathering at Northshire and the sunlit road to Goldshire, the warmth of the hearth offered the Last Witness a different kind of beginning. For once, the world asked nothing more of him than to sit, listen, and remember."
+      ]
+    },
+    {
       "id": "xuthar-first-steps-goldshire",
       "day": "09",
       "chapter": "5 November 2026 · The sunlit road to Goldshire",

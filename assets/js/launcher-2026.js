@@ -46,17 +46,17 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='5 November 2026. The gates of Azeroth opened, the Abbey of Northshire filled with voices, and Xuthar Morvayne took his first steps towards the shadows of Echo Ridge. This is no longer a countdown. This is the beginning of our story.';
+    if(lead)lead.textContent='5 November 2026. The gates of Azeroth opened, the Abbey of Northshire filled with voices, and Xuthar Morvayne began the journey through Echo Ridge. Now at level five, he has faced the Defias, completed Brotherhood of Thieves and returned to Northshire Abbey to rest. This is the beginning of our story.';
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-live-1">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-live-9">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>First session recorded · Human Priest · Level 3<br>Northshire Abbey → Echo Ridge</div>'+
-      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-live-1">OPEN THE FIRST CHAPTER <span aria-hidden="true">↗</span></a>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>Adventure recorded · Human Priest · Level 5<br>Defias objective complete → Northshire Abbey</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-live-9">OPEN THE FIRST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }
@@ -82,16 +82,16 @@
   featured.className='launcher-section launcher-featured wrap';
   featured.id='launcher-featured';
   featured.setAttribute('aria-label','Featured World of Warcraft stories');
-  featured.innerHTML=heading('01  /  LAUNCH EDITION','The legend begins here.','The world has opened; the first true chapter belongs to Xuthar Morvayne.','book.html?character=xuthar#x-live-1','Read the chronicle');
+  featured.innerHTML=heading('01  /  LAUNCH EDITION','The legend begins here.','The world has opened; the first true chapter belongs to Xuthar Morvayne.','book.html?character=xuthar#x-live-9','Read the chronicle');
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
     category:'THE LAST WITNESS · FIRST PLAYED ADVENTURE',
-    name:'Xuthar Morvayne: Northshire awakens.',
-    description:'A crowded abbey. The first wolves. Marshal McBride. A priest’s oath, and a path into Echo Ridge. Enter the epic, illustrated literary chronicle inspired by the real first session.',
-    url:'book.html?character=xuthar#x-live-1',image:images.stormwind
+    name:'Xuthar Morvayne: The red bandanas and the abbey.',
+    description:'From the opening-night crowds to the Defias fields: Xuthar reaches level five, completes Brotherhood of Thieves and returns to Northshire Abbey for a moment of stillness. Read Chapters VIII–IX.',
+    url:'book.html?character=xuthar#x-live-9',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
-  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'Northshire to Echo Ridge.',description:'The factual field journal from Xuthar’s very first night in Azeroth.',url:'journal.html#forever-first-night',image:images.forest},'launcher-news-secondary'));
+  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'The latest player-reported journal: Defias faced, mission objective complete, rest at the abbey.',url:'journal.html#northshire-abbey-rest',image:images.forest},'launcher-news-secondary'));
   featureGrid.append(sides);featured.append(featureGrid);
   hero.insertAdjacentElement('afterend',featured);
 
@@ -148,13 +148,13 @@
   const destinations=[
     ['FOREVER','A world reborn','Launch updates, gameplay systems and the adventure ahead.','forever.html',images.horizon],
     ['THE LIVING CHRONICLE','Our progress','Three characters and their real journeys through Azeroth.','chronicle.html',images.forest],
-    ['THE LIVING BOOKS','The first chapter is here','Read the epic first-night adventure of Xuthar, with new pages added as the journey unfolds.','book.html?character=xuthar#x-live-1',images.goldshire],
+    ['THE LIVING BOOKS','A new chapter is written','Follow Xuthar through the Defias fields and the silent halls of Northshire Abbey.','book.html?character=xuthar#x-live-9',images.goldshire],
     ['THE GALLERY','Worlds in pictures','Moments, landscapes and memories from Azeroth.','gallery.html',images.stormwind],
     ['XUTHAR MORVAYNE','The Last Witness','A complete roleplay biography, family mystery and in-game character guide.','xuthar.html',images.goldshire],
     ['RETAIL ARCHIVE','The heroes before Forever','A lifetime of characters and the roads already travelled.','retail.html',images.orgrimmar],
     ['CALENDAR','Never miss the next chapter','Important events, schedules and milestones.','calendar.html',images.ironforge],
     ['STORIES & LORE','Tales from Azeroth','Original short fiction and Warcraft background.','stories.html',images.forest],
-    ['TRAVEL JOURNAL','The road itself','Keep personal notes and memories of the journey.','journal.html',images.collection]
+    ['TRAVEL JOURNAL','The road itself','From the opening night to the latest quests: personal notes from the journey.','journal.html',images.collection]
   ];
   const explore=document.createElement('section');explore.className='launcher-section launcher-explore wrap';explore.id='launcher-explore';
   explore.innerHTML=heading('05  /  EXPLORE AZEROTH','Choose your next adventure.','Every door opens onto another corner of the Chronicle.');

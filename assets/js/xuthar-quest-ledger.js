@@ -39,7 +39,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar is level 6 by player report. The latest screenshot shows Shhh! We’re Hunting Kobolds ready for turn-in after the tracking objectives, and four active quests, including Rest and Relaxation at the Lion’s Pride Inn. Earlier screenshots remain archived.');
+   const lead=make('p','','Xuthar is level 6 by player report. The latest screenshot shows Shhh! We’re Hunting Kobolds ready for turn-in after the tracking objectives, and four active quests, including Rest and Relaxation: speak with Innkeeper Farley at the Lion’s Pride Inn. Earlier screenshots remain archived.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.readyForTurnIn.length,'Ready for turn-in'],[data.active.length,'Still active']]){

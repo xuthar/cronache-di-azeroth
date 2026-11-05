@@ -127,3 +127,14 @@ Six subsequent images show the sunlit grounds outside Northshire, the lion-heade
 - Script: `assets/js/goldshire-photo-diary.js`. This presentation has no in-game addon or Blizzard API access; quest observations remain manual.
 
 The previous journal/quest screenshots are historical snapshots. Only Garrick's bounty has a confirmed screenshot-based final hand-in in the new material.
+
+### Inside the Lion's Pride Inn — 5 November 2026 (four screenshots)
+
+Xuthar's arrival at the Lion's Pride Inn in Goldshire is **visually confirmed** by four player-supplied gameplay screenshots taken at 12:32, 12:33, 12:35 and 12:38. They show the fire-lit main room, the priest standing next to **Innkeeper Farley**, the kitchen area with **Tomas (Cook)** and **Toddrick (Butcher)**, and the priest **sitting in a chair** near the bar. Melika Isenstrider, Barkeep Dobbins and Brog Hamfist appear as named inhabitants.
+
+These photographs **do not confirm** an actual quest hand-in to Farley, an inn hearthstone binding, learning Cooking from Tomas, resting XP, an additional level, or any new reward. The four screenshots are preserved at `gallery.html#lions-pride-inn-gallery` as a responsive, keyboard-navigable gallery with an optimized 2×2 AVIF preview atlas. The contact sheet is stored as base64 in `assets/data/xuthar-lions-pride-four-atlas.b64`, with 400×225 previews from the original images `WoWScrnShot_110526_123214.jpg`, `123317.jpg`, `123507.jpg`, and `123823.jpg`. The full-resolution user files remain outside the published website.
+
+- Book: `book.html?character=xuthar#x-lions-pride-hearth` (Chapter XVI, **The Quiet Mercy of Fire**), followed by a separate factual field record.
+- Journal: `journal.html#xuthar-inside-lions-pride-inn`.
+- Homepage: latest photographic cover of Xuthar seated in the inn.
+- Galleries and links: `assets/js/lions-pride-photo-diary.js`. No automatic gameplay or Blizzard API tracking is implied.

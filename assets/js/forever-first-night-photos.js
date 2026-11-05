@@ -1,6 +1,6 @@
 /* Chronicles of Azeroth — visual records of Xuthar's first night.
-   Eight user-supplied screenshots are stored as an optimized AVIF contact sheet,
-   with lossless base64 transport. Frames retain their chronological order.
+   Eight user-supplied screenshots are displayed from a high-quality 2x4 WebP atlas,
+   with 1400x788 pixels per photograph (source photographs 1920x1080). Frames retain their chronological order.
    No client, addon, Blizzard authentication or external tracking is involved. */
 (() => {
   'use strict';
@@ -27,13 +27,15 @@
     node.setAttribute('aria-label',frames[i].detail);
     return node;
   };
-  const atlasUrl='assets/data/forever-first-night-atlas.b64?v=20261105-photos-01';
-  async function loadAtlas(){
-    const r=await fetch(atlasUrl,{cache:'force-cache'});
-    if(!r.ok)throw Error('Screenshot preview archive unavailable');
-    const b64=(await r.text()).trim();
-    if(!/^[A-Za-z0-9+/]+={0,2}$/.test(b64)||b64.length!==21964)throw Error('Invalid screenshot archive');
-    return 'data:image/avif;base64,'+b64;
+  const atlasUrl='assets/img/xuthar-northshire-hd.webp?v=20261105-hd-01';
+  function loadAtlas(){
+    return new Promise((resolve,reject)=>{
+      const img=new Image();
+      img.onload=()=>img.naturalWidth===2800&&img.naturalHeight===3152
+        ? resolve(atlasUrl) : reject(new Error('Unexpected Northshire image dimensions'));
+      img.onerror=()=>reject(new Error('Northshire high-quality images could not be loaded'));
+      img.src=atlasUrl;
+    });
   }
   function gallery(atlas){
     const root=document.querySelector('#main .body-space');
@@ -55,7 +57,7 @@
       button.addEventListener('click',()=>show(i));
     });
     sec.append(grid);
-    const foot=document.createElement('p');foot.className='fn-shot-footnote';foot.textContent='Source: player-provided screenshots, 5 November 2026. Previews are compressed and gently brightened for readability. Quest counters are historical snapshots; they do not imply later completion. No automatic Blizzard API sync is claimed.';
+    const foot=document.createElement('p');foot.className='fn-shot-footnote';foot.textContent='Source: original player-provided 1920×1080 screenshots, 5 November 2026. High-quality WebP previews: 1400×788 pixels each, retaining fine text and scenery. Quest counters are historical snapshots, not proof of later completion. No automatic Blizzard API sync.';
     sec.append(foot);
     const dialog=document.createElement('dialog');dialog.className='fn-photo-dialog';dialog.setAttribute('aria-label','Northshire first-night screenshots');
     const panel=document.createElement('div');panel.className='fn-dialog-inner';

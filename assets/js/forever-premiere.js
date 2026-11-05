@@ -121,7 +121,7 @@
   const facts=$('div','forever-premiere-facts');
   [
     ['05 NOV','THE OPENING NIGHT'],
-    ['LEVEL 3','XUTHAR’S FIRST SESSION'],
+    ['LEVEL 6','XUTHAR’S CURRENT LEVEL'],
     ['ECHO RIDGE','THE FIRST CHAPTER']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');

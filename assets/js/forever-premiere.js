@@ -1,7 +1,6 @@
 /* Chronicles of Azeroth — Forever premiere / 3 November 2026.
  * A click-to-play YouTube feature selected by the site owner.
- * Runs after the existing launcher module; all existing live-countdown nodes
- * stay in Game Status and all live news sources keep updating as before. */
+ * Launch completed: celebrate Xuthar's first adventure without a countdown. */
 (() => {
   'use strict';
   if(document.body.dataset.page !== 'home') return;
@@ -9,7 +8,6 @@
   const hero=main?.querySelector('.hero');
   if(!hero||document.querySelector('#forever-premiere')) return;
 
-  const launchAt=Date.parse('2026-11-04T23:00:00.000Z'); // 5 Nov 2026, 00:00 CET
   const videoId='n2Wg46fwmb0';
   const youtubeUrl='https://www.youtube.com/watch?v='+videoId;
   const $=(tag,className,text)=>{
@@ -25,7 +23,7 @@
   if(heroCopy) {
     heroSignal=$('div','forever-premiere-hero-signal');
     heroSignal.setAttribute('role','status');
-    heroSignal.innerHTML='<span class="forever-premiere-hero-pulse" aria-hidden="true"></span><span class="forever-premiere-hero-line">THE FINAL HOURS · THE WORLD IS CALLING</span>';
+    heroSignal.innerHTML='<span class="forever-premiere-hero-pulse" aria-hidden="true"></span><span class="forever-premiere-hero-line">FOREVER HAS BEGUN · XUTHAR MORVAYNE AWAKENS</span>';
     const title=heroCopy.querySelector('h1');
     if(title)title.insertAdjacentElement('beforebegin',heroSignal);
     else heroCopy.prepend(heroSignal);
@@ -44,12 +42,12 @@
   const topline=$('div','forever-premiere-topline');
   const topper=$('div','forever-premiere-topper');
   topper.append($('span','forever-premiere-eyebrow','WORLD OF WARCRAFT: FOREVER'));
-  topper.append($('span','forever-premiere-top-title','THE LAUNCH SPOTLIGHT'));
+  topper.append($('span','forever-premiere-top-title','THE WORLD HAS AWAKENED'));
   const status=$('span','forever-premiere-status');
   status.setAttribute('role','status');
   topper.append(status);
   topline.append(topper);
-  const topRight=$('span','forever-premiere-top-right','THE COUNTDOWN TO AZEROTH  ✦  05.11.2026');
+  const topRight=$('span','forever-premiere-top-right','WELCOME TO FOREVER  ✦  05.11.2026');
   topline.append(topRight);
   section.append(topline);
 
@@ -85,7 +83,7 @@
   playButton.setAttribute('aria-hidden','true');
   play.append(playButton);
   const playRibbon=$('span','forever-premiere-play-ribbon');
-  playRibbon.innerHTML='<small>FEATURED VIDEO  /  CLICK TO WATCH</small><strong>The last watch before Forever</strong><em>Play video  ↗</em>';
+  playRibbon.innerHTML='<small>FEATURED VIDEO  /  CLICK TO WATCH</small><strong>The night Azeroth awakened</strong><em>Play video  ↗</em>';
   play.append(playRibbon);
   stage.append(play);
   play.addEventListener('click',()=>{
@@ -110,21 +108,21 @@
   const story=$('aside','forever-premiere-story');
   const serial=$('div','forever-premiere-serial');
   serial.append($('span','forever-premiere-serial-mark','✦'));
-  serial.append($('span','','THE EVE OF A NEW ERA'));
+  serial.append($('span','','A NEW ERA IS BORN'));
   story.append(serial);
-  const title=$('h2','forever-premiere-headline','One last night. A thousand new roads.');
+  const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The beta is behind us. The gates are almost open. Soon every quest, every campfire, every forgotten path becomes the beginning of another story.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. His first night has already become the opening chapter of a legend.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
-  launchMeter.innerHTML='<span>GLOBAL OPENING · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>00:00 CET · Italy</small>';
+  launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
   story.append(launchMeter);
   const facts=$('div','forever-premiere-facts');
   [
-    ['1–60','THE JOURNEY'],
-    ['1,000+','NEW QUESTS'],
-    ['9','NEW DUNGEONS']
+    ['05 NOV','THE OPENING NIGHT'],
+    ['LEVEL 3','XUTHAR’S FIRST SESSION'],
+    ['ECHO RIDGE','THE FIRST CHAPTER']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');
     fact.append($('strong','',v),$('small','',caption));
@@ -132,10 +130,10 @@
   });
   story.append(facts);
   const cta=$('div','forever-premiere-cta');
-  const primary=$('a','forever-premiere-primary','Prepare for Forever  ↗');
+  const primary=$('a','forever-premiere-primary','Explore the new world  ↗');
   primary.href='forever.html';
   const secondary=$('a','forever-premiere-secondary','Xuthar’s first chapter  ↗');
-  secondary.href='book.html?character=xuthar';
+  secondary.href='book.html?character=xuthar#x-live-1';
   cta.append(primary,secondary);
   story.append(cta);
   const source=$('a','forever-premiere-source','Blizzard: What awaits in WoW Forever  ↗');
@@ -150,30 +148,7 @@
   section.append(note);
   hero.insertAdjacentElement('afterend',section);
 
-  // Short, time-aware launch messages. The real one-second countdown keeps
-  // running separately in the existing Game Status panel.
-  function updateLaunch(){
-    const seconds=Math.ceil((launchAt-Date.now())/1000);
-    if(seconds<=0){
-      heroSignal?.querySelector('.forever-premiere-hero-line')?.replaceChildren(document.createTextNode('FOREVER IS HERE · YOUR STORY BEGINS NOW'));
-      status.textContent='THE GATES ARE OPEN';
-      title.textContent='A new world. Your story begins.';
-      lead.textContent='The wait is over. Azeroth welcomes a new generation of stories, journeys and extraordinary discoveries. Take the long road—and make it yours.';
-      note.querySelector('strong').textContent='THE FOREVER ERA HAS BEGUN';
-      topRight.textContent='WELCOME TO FOREVER · 05.11.2026';
-    }else{
-      const hours=Math.floor(seconds/3600),days=Math.floor(hours/24);
-      let label;
-      if(seconds<=3600)label='THE FINAL HOUR · AZEROTH IS CALLING';
-      else if(seconds<=86400)label='LESS THAN 24 HOURS · THE WORLD IS CALLING';
-      else if(days===1)label='ONE DAY TO FOREVER · PREPARE YOUR JOURNEY';
-      else label='THE FINAL COUNTDOWN · AZEROTH AWAITS';
-      const line=heroSignal?.querySelector('.forever-premiere-hero-line');
-      if(line)line.textContent=label;
-      status.textContent=seconds<=86400?'FINAL 24 HOURS':'THE FINAL COUNTDOWN';
-    }
-  }
-  updateLaunch();
-  const timer=setInterval(updateLaunch,60000);
-  window.addEventListener('pagehide',()=>clearInterval(timer),{once:true});
+  // The launch is now a dated milestone, not a running timer.
+  status.textContent='THE GATES HAVE OPENED';
+  note.querySelector('strong').textContent='THE FOREVER ERA HAS BEGUN';
 })();

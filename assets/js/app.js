@@ -37,11 +37,11 @@
     home: () => `
       <section class="hero">
         <div class="wrap hero-content">
-          <span class="eyebrow">World of Warcraft Forever · A new beginning</span>
-          <h1>The road is calling.<br><em>This time, Forever.</em></h1>
-          <p>Three companions. A whole world to explore. Quests, professions, campfires and the freedom to take the long way home.</p>
+          <span class="eyebrow">World of Warcraft Forever · Launch day · 5 November 2026</span>
+          <h1>Azeroth has awakened.<br><em>The legend begins.</em></h1>
+          <p>The gates have opened. Xuthar Morvayne has entered Northshire, reached level 3 and followed the first shadows towards Echo Ridge. His story has begun.</p>
           <div class="buttons">
-            <a class="button primary" href="forever.html">Enter WoW Forever</a>
+            <a class="button primary" href="book.html?character=xuthar#x-live-1">Read Xuthar’s first chapter</a>
             <a class="button" href="forever.html#forever-roster">Meet our adventurers</a>
           </div>
           <div class="hero-note">The Forever chronicle of ${escape(data.author)}</div>
@@ -50,17 +50,17 @@
       <div class="wrap">
         <section class="section home-forever-news" aria-labelledby="editorial-updates-title">
           <div class="section-head">
-            <div><span class="eyebrow">The final countdown · 5 November 2026</span><h2 id="editorial-updates-title">Forever is almost here.</h2></div>
+            <div><span class="eyebrow">Launch day · 5 November 2026</span><h2 id="editorial-updates-title">The gates of Azeroth are open.</h2></div>
             <a class="text-link" href="forever.html#forever-news">All Forever updates →</a>
           </div>
           <div class="two-worlds">
-            <article class="world-card"><span class="eyebrow">The journey begins</span><h3>One new world. Countless stories.</h3><p>Follow the countdown to launch and prepare for the first evening in Azeroth.</p><a class="text-link" href="forever.html">The launch briefing →</a></article>
-            <article class="world-card"><span class="eyebrow">Our next adventurers</span><h3>Three names to remember.</h3><p>Xuthar Morvayne, Thorgar Ironbeard and Aelyndra Zephyrveil are ready to write a new chronicle.</p><a class="text-link" href="forever.html#forever-roster">Meet the Forever roster →</a></article>
+            <article class="world-card"><span class="eyebrow">The launch is here</span><h3>One new world. Countless stories.</h3><p>Forever has begun. Relive the opening night and the first footsteps of our Human Priest.</p><a class="text-link" href="forever.html">Explore the Forever era →</a></article>
+            <article class="world-card"><span class="eyebrow">Our heroes</span><h3>Three names to remember.</h3><p>Xuthar Morvayne has begun his journey. Thorgar Ironbeard and Aelyndra Zephyrveil await their first recorded adventures.</p><a class="text-link" href="forever.html#forever-roster">Meet the Forever roster →</a></article>
           </div>
         </section>
         <section class="section home-forever-focus" aria-labelledby="home-forever-focus-title">
           <div class="section-head">
-            <div><span class="eyebrow">How we will play Forever</span><h2 id="home-forever-focus-title">There is no need to hurry.</h2></div>
+            <div><span class="eyebrow">How we play Forever</span><h2 id="home-forever-focus-title">There is no need to hurry.</h2></div>
             <a class="text-link" href="forever.html#forever-journey">The personal journey →</a>
           </div>
           <div class="forever-home-pillars">
@@ -83,7 +83,7 @@
         </section>
         <section class="section home-lore" aria-labelledby="home-forever-lore-title">
           <div class="section-head">
-            <div><span class="eyebrow">Before the first quest</span><h2 id="home-forever-lore-title">The world behind Forever.</h2></div>
+            <div><span class="eyebrow">The legacy of Azeroth</span><h2 id="home-forever-lore-title">The world behind Forever.</h2></div>
             <a class="text-link" href="lore.html">Explore Warcraft history →</a>
           </div>
           <article class="world-card">

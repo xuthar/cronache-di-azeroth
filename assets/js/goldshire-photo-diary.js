@@ -4,7 +4,7 @@
  const page=document.body.dataset.page;
  if(!['gallery','home','xuthar'].includes(page))return;
  const albumId='goldshire-travel-gallery';
- const atlas='assets/data/xuthar-goldshire-seven-atlas.b64?v=20261105-goldshire-seven-01';
+ const atlas='assets/img/xuthar-goldshire-hd.webp?v=20261105-hd-01';
  const pics=[
   {title:'The Sixth Step',label:'11:36 · THE RECORDED VICTORY',detail:'The game chat confirms Bounty on Garrick Padfoot completed, 340 XP awarded and Xuthar reaching level six. Grape Manifest appears among the quests.'},
   {title:'Sunlight over the Fields',label:'11:36 · NORTHSHIRE',detail:'The priest stands in the clearing outside the stone walls; the forest, once dark, glows in daylight.'},
@@ -16,7 +16,15 @@
  ];
  const el=(tag,cls,txt)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x};
  const crop=(index,cls='')=>{const v=el('span','fn-photo-frame '+cls);v.style.backgroundPosition=((index%2)*100)+'% '+(Math.floor(index/2)/3*100)+'%';v.setAttribute('role','img');v.setAttribute('aria-label',pics[index].detail);return v;};
- async function load(){const response=await fetch(atlas,{cache:'force-cache'});if(!response.ok)throw Error('Goldshire photo atlas unavailable');const text=(await response.text()).trim();if(text.length!==7724||!/^[A-Za-z0-9+/]+={0,2}$/.test(text))throw Error('Invalid photo atlas');return 'data:image/avif;base64,'+text;}
+ function load(){
+  return new Promise((resolve,reject)=>{
+    const img=new Image();
+    img.onload=()=>img.naturalWidth===2800&&img.naturalHeight===3152
+      ? resolve(atlas) : reject(new Error('Unexpected Goldshire image dimensions'));
+    img.onerror=()=>reject(new Error('Goldshire photographs could not be loaded'));
+    img.src=atlas;
+  });
+ }
  function showAlbum(src){
   const root=document.querySelector('#main .body-space');if(!root||document.querySelector('#'+albumId))return;
   const section=el('section','fn-gallery goldshire-new-gallery');section.id=albumId;
@@ -52,7 +60,7 @@
     const detail=el('div','fn-shot-caption');detail.append(el('span','fn-shot-number',String(i+1).padStart(2,'0')+' / 07 · '+p.label));detail.append(el('h3','',p.title));detail.append(el('p','',p.detail));card.append(button,detail);grid.append(card);
   });
   section.insertBefore(grid,dialog);
-  section.append(el('p','fn-shot-footnote','Authentic screenshots supplied by the player. Compressed previews (320 × 180 pixels each); no AI replacements. The quest log and chat describe historical snapshots, not automatic game synchronization. No hand-in to Goldshire NPCs is assumed.'));
+  section.append(el('p','fn-shot-footnote','Authentic player-supplied 1920×1080 screenshots. High-quality 1400×788 WebP previews, not AI images. Quest and chat screenshots are historical snapshots; no automatic sync or unconfirmed hand-in is implied.'));
   root.prepend(section);
   if(location.hash==='#'+albumId)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));
  }

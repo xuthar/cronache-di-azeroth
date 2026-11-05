@@ -56,3 +56,6 @@
 .lpi-gallery .fn-shot-card{background:#231c1b;border-color:#b69a7475}
 .lpi-gallery .fn-shot-number{color:#f0c98b}
 .lpi-gallery .fn-shot-button:hover .lpi-photo-frame{transform:scale(1.035)}
+
+/* The latest home-page cover is the real photograph of Xuthar seated in the inn. */
+.fn-with-photo .lpi-hero-photo{background-size:200% 200%;background-position:100% 100%!important;aspect-ratio:16 / 9;min-height:0;filter:contrast(1.09) saturate(1.09)}

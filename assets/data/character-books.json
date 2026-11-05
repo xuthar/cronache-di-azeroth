@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-screenshot-confirmed",
+      "status": "level-8-goldshire-rainy-rest",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -522,6 +522,35 @@
             "Garments of the Light: 270 XP and Friar's Robes of the Light. Shipment to Stormwind: 800 XP, 150 Stormwind reputation, Oil of Olaf and 3 Silver 50 Copper. Earlier Bounty on Garrick Padfoot remains separately verified.",
             "At the final 20:24 screenshot, five active quests are shown. The quest levels, including level ten beside two assignments, must not be mistaken for Xuthar's character level.",
             "All internal thoughts and emotional imagery in these chapters are fictional roleplay interpretation; locations, defeats, rewards and missions are based on the screenshots. The original twelve screenshots have been received in this conversation but are not yet publicly hosted as website image files."
+          ]
+        },
+        {
+          "id": "x-rain-over-goldshire",
+          "chapter": "Chapter XX · Rain on the Road Home",
+          "title": "The Last Light Before Sleep",
+          "kind": "reported",
+          "paragraphs": [
+            "Stormwind had been all stone, stairs, storefronts and tall windows; the evening left its memory in the weight of small errands. Xuthar had spoken with people in the city, including the Gallina contact mentioned in the field report, and delivered several quests among the shops. The exact names and rewards of those later deliveries remain unrecorded.",
+            "There was a change that would outlast the day's coins and experience. Herbalism was set aside. In its place Xuthar learned Tailoring and Enchanting, two crafts that seemed suited to a priest travelling with little: cloth to mend, and quiet power woven into objects. He also learned Fishing. Those profession choices are confirmed by the player's own account; no profession skill ranks have yet been recorded.",
+            "In the photographs, the road turned inward again. Orange torchlight traced a stone tunnel; the way back passed guarded walkways, trees and the statues of Stormwind. The Last Witness departed not with a triumphal procession but with the ordinary steps of a traveller who wanted somewhere to rest.",
+            "Beyond the city the weather changed. Rain drew thin bright strokes through the night. Wet cobbles led him back toward the blue roofs of Goldshire, where scattered travellers still moved beneath the lanterns. The world had not become less dangerous; it had only grown quieter.",
+            "He returned to the Lion's Pride Inn. The last photograph shows him lying on an upstairs bed, the blue canopy stretched above him. For the game record, it proves a place and a pose; no logout, rested-experience gain, or new quest completion is inferred from it.",
+            "In the fictional thoughts of Xuthar Morvayne, the silence after the day's noise was almost a language. He remembered a wounded guard, the dust of Fargodeep Mine, the smell of ink and merchants' counters, and the deep water beneath Stormwind's bridges. Somewhere outside, rain kept falling. He did not need to remember every word spoken that day to know why he would rise again.",
+            "The Last Witness closed his eyes. Tomorrow could remain unwritten until it came."
+          ]
+        },
+        {
+          "id": "x-rain-over-goldshire-notes",
+          "chapter": "The Field Record · Evening of 5 November 2026",
+          "title": "City Errands, New Trades, Seven Images and a Rainy Bed",
+          "kind": "reported",
+          "paragraphs": [
+            "Source: the player's report and seven original gameplay screenshots, photographed between 20:24 and 21:34 on 5 November 2026. The pictures show a Stormwind canal dock, torchlit passages, the monumental stone bridge, rainy Elwynn roads, rainy Goldshire and Xuthar lying in an upstairs Lion's Pride Inn bed.",
+            "Player-confirmed profession changes: learned Tailoring and Enchanting; abandoned Herbalism; learned Fishing. Cooking and skill points were not reported and remain unverified.",
+            "Player-reported quest turn-ins in Stormwind, including a Gallina NPC and several shops. Exact quest titles, quest states after those turn-ins and any rewards are not legible in the new screenshots, so no extra named quest is counted as completed.",
+            "The most recent readable quest tracker remains the 20:24 Stormwind screenshot. Because later quest turn-ins and profession changes followed, the current active quest roster is unknown. Camping 101: Herbalism was formerly visible, but the profession has since been abandoned; the quest's outcome is not assumed.",
+            "Latest confirmed character level: 8, from earlier screenshots. The final picture documents lying in bed at the inn, not an automatic game logout or a rested XP result.",
+            "The prose of Chapter XX contains literary interpretation; the activity, locations and weather are anchored to screenshots or directly reported by the player. Original images remain unpublished on the website until a binary image upload can be verified."
           ]
         },
         {

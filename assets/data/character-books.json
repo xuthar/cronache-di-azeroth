@@ -348,13 +348,36 @@
           ]
         },
         {
+          "id": "x-kobold-tracks",
+          "chapter": "Chapter XII · The Earth Remembers",
+          "title": "The Unwritten Trail",
+          "kind": "reported",
+          "paragraphs": [
+            "The Abbey's old stones had taught Xuthar the weight of silence. The woodland earth, it seemed, could teach him something else. There were marks in the soil, slight and restless, and somewhere in their crooked pattern lay the promise of a story no human scribe had yet written.",
+            "He was asked to follow six traces of the kobolds. No victory song greeted the commission; no champion’s blade would be needed to read what the ground had kept. Only patience, attention, and a willingness to follow what others overlooked. As yet, not one of the six tracks had been recorded as followed.",
+            "Beyond the valley waited names he had only been asked to seek: Sam Sarsparilla, Marshal Dughan, and Priestess Josetta. Goldshire remained a destination in his quest log, not a journey already shown. He would make those meetings when the road, and the living chronicle, truly brought him to them.",
+            "‘A witness must first learn to look,’ the priest might have written in the margin of his old book. The sentence would be his own invention. The marks in the earth, however, belonged to Azeroth."
+          ]
+        },
+        {
+          "id": "x-kobold-tracks-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "A New Trail · Four Visible Quests",
+          "kind": "reported",
+          "paragraphs": [
+            "A player-supplied screenshot at approximately 49.5, 41.6 shows four current quests: Shhh! We're Hunting Kobolds (level 4, 0/6 Followed Kobold Tracks), The Adventurer (level 6, speak to Sam Sarsparilla near Goldshire), Report to Goldshire (level 5, deliver Marshal McBride's Documents to Marshal Dughan in Goldshire), and In Favor of the Light (level 4, speak to Priestess Josetta in Elwynn Forest).",
+            "None of the four visible quests is marked Ready for turn-in. In the preceding snapshot Milly's Harvest and Bounty on Garrick Padfoot were ready to be delivered, but their disappearance from this cropped image is not evidence of hand-in or quest reward. Follow That Kobold! was listed previously; no intermediate resolution is assumed.",
+            "The last confirmed character level is 6 from the player's report. The new screenshot contains objective progress only and does not prove an additional level. The descriptive prose in Chapter XII is an original literary interpretation, not a claim of completed tracked steps."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Road Beyond Northshire",
+          "title": "Beyond the Unwritten Trail",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar Morvayne has reached level 6 by player report. The latest quest screenshot still shows Milly's Harvest and Bounty on Garrick Padfoot ready for turn-in, with The Adventurer, Follow That Kobold!, Report to Goldshire and In Favor of the Light active. No change in those quest states has been reported.",
-            "The next chapter will follow only the player's actual further travels, quest deliveries and encounters. Quest rewards, hand-ins and new destinations are not inferred from reaching level six."
+            "Xuthar is level 6 according to the player. The latest quest screenshot shows Shhh! We're Hunting Kobolds at 0/6 Followed Kobold Tracks, together with The Adventurer, Report to Goldshire and In Favor of the Light. The new kobold trails have not yet been followed in the reported snapshot.",
+            "The earlier ready-for-turn-in states of Milly's Harvest and Bounty on Garrick Padfoot remain historical observations; their deliveries are not proven by their absence now. Further events await the player's next report."
           ],
           "link": "chronicle.html"
         }

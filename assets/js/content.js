@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-six-current-quests",
+      "day": "04",
+      "chapter": "5 November 2026 · New orders and unfinished journeys",
+      "title": "Two completed tasks, four roads still open",
+      "location": "Northshire and the road to Goldshire · Quest-tracker snapshot",
+      "type": "Screenshot-confirmed quest record",
+      "excerpt": "Milly’s Harvest and Garrick Padfoot are ready for turn-in. Four other missions now call Xuthar towards the abbey stables, Priestess Josetta and Goldshire.",
+      "text": [
+        "The latest cropped quest tracker at map coordinates approximately 51.4, 41.5 shows six listed quests. Two are Ready for turn-in: Milly’s Harvest (level 4) and Bounty on Garrick Padfoot (level 5). Their objectives are complete according to the tracker, but no completed hand-in or reward is visible.",
+        "Four assignments are active: The Adventurer (level 6), requiring a conversation with Sam Sarsparilla near Goldshire; Follow That Kobold! (level 4), directing Xuthar to Tordrin Sternblade by the stable behind Northshire’s Abbey; Report to Goldshire (level 5), asking him to take Marshal McBride’s Documents to Marshal Dughan in Goldshire; and In Favor of the Light (level 4), calling him to Priestess Josetta in Elwynn Forest.",
+        "The Big Picture (Elite) and Skirmish at Echo Ridge were marked Ready for turn-in in the preceding screenshot but no longer appear in this cropped tracker. Their absence does not prove hand-in. Brotherhood of Thieves had also previously been ready for turn-in; the player's later steps on that quest remain unconfirmed.",
+        "This screenshot changes the visible quest list; it does not establish that Xuthar reached character level 6. The number 6 beside The Adventurer is the quest's level.",
+        "Literary reflection: from the shelter of the abbey, the names of Goldshire and the unfinished harvest took on the gravity of promises. The world asked him to carry words as carefully as he carried faith. Whether he had yet crossed that road remains for the next real gameplay record."
+      ]
+    },
+    {
       "id": "xuthar-five-current-quests",
       "day": "03",
       "chapter": "5 November 2026 · The unfinished roads",

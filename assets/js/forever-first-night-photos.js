@@ -27,7 +27,7 @@
     node.setAttribute('aria-label',frames[i].detail);
     return node;
   };
-  const atlasUrl='assets/img/xuthar-northshire-hd.webp?v=20261105-hd-01';
+  const atlasUrl=new URL('assets/img/xuthar-northshire-hd.webp?v=20261105-image-path-fix-02', document.baseURI).href;
   function loadAtlas(){
     return new Promise((resolve,reject)=>{
       const img=new Image();

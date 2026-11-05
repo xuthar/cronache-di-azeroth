@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-six-visible-quests-01';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-level-six-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,13 +39,15 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','The tracker now shows Milly’s Harvest and Garrick Padfoot ready to report, while four missions remain active, including new roads towards Goldshire. These are the latest six visible quests — not automatically updated game statistics.');
+   const lead=make('p','','Xuthar is level 6 by player report. The latest quest screenshot shows Milly’s Harvest and Garrick Padfoot ready to report, while four missions remain active, including new roads towards Goldshire. These are the latest six visible quests — not automatically updated game statistics.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.readyForTurnIn.length,'Ready for turn-in'],[data.active.length,'Still active']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
+   const status=make('p','xql-level-note','Xuthar Morvayne · Character level '+(data.characterLevel||'unconfirmed')+' (player reported) · Quest list from latest screenshot');
+   head.append(status);
    head.append(metrics);root.append(head);
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [

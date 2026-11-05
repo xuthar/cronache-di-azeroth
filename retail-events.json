@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:36:13.079Z",
+  "updatedAt": "2026-11-05T10:35:48.319Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -607,6 +607,15 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=201"
+    },
+    {
+      "id": "wow-event-1120-1809421200000@wowlazymacros.com",
+      "title": "PvP Brawl: Classic Ashran",
+      "startAt": "2027-05-04T09:00:00.000Z",
+      "endAt": "2027-05-11T09:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=1120"
     }
   ]
 }

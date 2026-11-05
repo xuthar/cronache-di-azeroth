@@ -43,3 +43,8 @@
 /* The cinematic overlay must not block the real screenshot album link. */
 .azeroth-launcher .first-night-figure:after{pointer-events:none}
 .fn-hero-photo-link:focus-visible{outline:3px solid #f7d59f;outline-offset:-4px;z-index:2}
+
+/* Preserve the native 16:9 screenshot instead of stretching it to fill the editorial card. */
+.azeroth-launcher .first-night-figure.fn-with-photo{align-self:center;aspect-ratio:440 / 248;min-height:0;max-height:none;height:auto;width:100%}
+.azeroth-launcher .fn-with-photo .fn-hero-photo-link{min-height:0;height:100%;aspect-ratio:440 / 248}
+.azeroth-launcher .fn-with-photo .fn-hero-photo{min-height:0;height:100%;aspect-ratio:440 / 248}

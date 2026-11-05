@@ -354,6 +354,23 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-first-steps-goldshire",
+      "day": "09",
+      "chapter": "5 November 2026 · The sunlit road to Goldshire",
+      "title": "Beyond the lion gate",
+      "location": "Northshire Abbey to Goldshire · Player screenshots, 11:36–12:18",
+      "type": "Screenshot-confirmed travel and quest record",
+      "excerpt": "At level six Xuthar completes Bounty on Garrick Padfoot and receives 340 XP. After the stone lion and the forest road, he reaches the cobblestone streets and blue-roofed houses of Goldshire.",
+      "text": [
+        "A screenshot of the player interface around 11:36 provides decisive evidence: the game chat reads 'Bounty on Garrick Padfoot completed.' and 'Experience gained: 340.' It also confirms 'Congratulations, you have reached [Level 6]!' This replaces the previous uncertainty over whether that bounty had actually been turned in. The chat also shows the receipt of a Grape Manifest.",
+        "The quest tracker at Northshire Valley (48.2, 42.9) shows Grape Manifest, an objective to bring the document to Brother Neals at Northshire Abbey. The Adventurer still asks for Sam Sarsparilla near Goldshire. Report to Goldshire still requires taking Marshal McBride's Documents to Marshal Dughan. In Favor of the Light still asks Xuthar to speak with Priestess Josetta in Elwynn Forest.",
+        "The next images capture a remarkable change in mood. Xuthar crosses the abbey's archway, with a carved stone lion fountain beyond it. He continues along a broad, sunlit cobblestone road through Elwynn Forest. The trees, once dark and threatening, stand in golden light.",
+        "The sequence ends in the Goldshire village area, where blue-tiled roofs, chimneys, stables and village roads are clearly visible. This confirms the approach and arrival at the settlement; it does not by itself confirm a conversation with Innkeeper Farley, Marshal Dughan, Sam Sarsparilla or Priestess Josetta.",
+        "In the previous screenshot the quests Camping 101: Herbalism and Camping 101: Cooking called for Herbalism skill 20 and training from Tomas in Goldshire. These do not appear in the latest cropped tracker, but no screenshots confirm training or turn-in. Rest and Relaxation and Shhh! We're Hunting Kobolds were also previously active or ready and their eventual resolution remains unverified.",
+        "The images of Xuthar's journey from Northshire into Goldshire belong to the site's growing photographic archive. The story's internal thoughts, metaphors and imagined sensory impressions are fiction; the quest completion, level-up and photographed places are game evidence."
+      ]
+    },
+    {
       "id": "xuthar-camping-101-professions",
       "day": "08",
       "chapter": "5 November 2026 · The lessons beyond Northshire",

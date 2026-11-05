@@ -394,13 +394,36 @@
           ]
         },
         {
+          "id": "x-camping-101",
+          "chapter": "Chapter XIV · What the Earth Can Teach",
+          "title": "Leaves, Fire and Unwritten Roads",
+          "kind": "reported",
+          "paragraphs": [
+            "The forests around Elwynn had so far taught Xuthar to listen for danger: wolves beneath the trees, kobolds between the roots, men whose intentions were as sharp as their blades. Yet the green world guarded quieter teachings as well. Not every useful thing drawn from the earth was meant to harm another living soul.",
+            "Now two unfamiliar lessons waited in his journal. Herbalism asked that he learn the discipline of plants, raising his skill to twenty; Cooking called him to Goldshire, where Tomas could instruct him in the care of a simple hearth. The priest had learned neither lesson in the record yet. He had only received their invitations.",
+            "It pleased him, perhaps, that the same hands which summoned holy fire might someday crush a leaf to preserve life or prepare an evening's meal. There was dignity in a meal shared after a hard road and in the patient knowledge of a plant's name. Even a witness needed to eat, to heal, and to learn what grew beside the paths he walked.",
+            "Farley at the Lion's Pride Inn, Marshal Dughan and Priestess Josetta still waited on the pages of his quest log. Goldshire was close enough to call to him; its arrival, as yet, belonged to a chapter not written. He looked beyond the trees, and the road did not hurry him."
+          ]
+        },
+        {
+          "id": "x-camping-101-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Two Lessons in the Quest Log",
+          "kind": "reported",
+          "paragraphs": [
+            "In a player-provided tracker screenshot at 43.1, 65.0, Xuthar has two newly visible level 6 assignments: Camping 101: Herbalism — Raise your Herbalism skill to 20; and Camping 101: Cooking — Learn Cooking from Tomas in Goldshire. These are active tasks, not recorded training completions.",
+            "Shhh! We're Hunting Kobolds (level 4) remains Ready for turn-in. Rest and Relaxation (level 5) still points to Innkeeper Farley at the Lion's Pride Inn. Report to Goldshire (level 5) still requires delivery to Marshal Dughan; In Favor of the Light (level 4) still points to Priestess Josetta in Elwynn Forest.",
+            "Five active quests and one ready-for-turn-in quest appear in the crop. The Adventurer no longer appears, but no turn-in is inferred. Xuthar's last player-reported character level is 6. The atmosphere, imagined thoughts, herbs and cooking-fire imagery in the preceding chapter are literary invention inspired by the quest objectives."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "Where the Road Meets Goldshire",
+          "title": "The Hearth beyond the Forest",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar Morvayne is level 6 by the player's last report. The newest quest tracker shows Shhh! We're Hunting Kobolds ready to report, with Rest and Relaxation, The Adventurer, Report to Goldshire and In Favor of the Light still active.",
-            "The journey into the Lion's Pride Inn, conversation with Farley, dealings with Marshal Dughan or Priestess Josetta, and any final quest turn-in remain unwritten until the player reports them."
+            "The latest visible journal includes Camping 101: Herbalism (raise the skill to 20), Camping 101: Cooking (learn from Tomas in Goldshire), Rest and Relaxation, Report to Goldshire and In Favor of the Light. Shhh! We're Hunting Kobolds is still ready for turn-in.",
+            "The character's last reported level remains 6. No completed profession training, herb gathering, cooking lesson, inn arrival or quest hand-in can be assumed before the player's next report."
           ],
           "link": "chronicle.html"
         }

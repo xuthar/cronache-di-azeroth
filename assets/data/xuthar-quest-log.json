@@ -4,7 +4,7 @@
   "recordedAt": "2026-11-05",
   "location": "Northshire / Elwynn Forest · 51.4, 41.5 visible on screenshot",
   "source": "Player-provided quest-tracker screenshot (image 20261105-020322)",
-  "scope": "The six quests currently visible in this screenshot; a manual snapshot only, not Blizzard API data. Disappearance from the tracker does not establish quest turn-in.",
+  "scope": "Latest quest list is a manual screenshot snapshot; character level 6 was reported subsequently by the player. No inferred quest turn-ins or rewards.",
   "readyForTurnIn": [
     {
       "id": "millys-harvest",
@@ -128,5 +128,8 @@
         "total": 1
       }
     ]
-  }
+  },
+  "characterLevel": 6,
+  "characterLevelSource": "Player-reported in chat on 5 November 2026 after the latest quest tracker screenshot. Not screenshot-confirmed.",
+  "characterLevelRecordedAt": "2026-11-05"
 }

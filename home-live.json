@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-05T12:25:45.035Z"
+    "checkedAt": "2026-11-05T16:49:08.897Z"
   },
   "news": [
     {
-      "title": "Temporary Portals Replace Boats and Zeppelins Due to Bugs",
-      "url": "https://www.wowhead.com/news=383758/temporary-portals-replace-boats-and-zeppelins-due-to-bugs",
+      "title": "Wo:W: Forever Known Issues After Launch",
+      "url": "https://www.wowhead.com/news=383760/wo-w-forever-known-issues",
       "category": "Forever",
-      "publishedAt": "2026-11-05T06:45:40.000Z"
+      "publishedAt": "2026-11-05T16:32:18.000Z"
     },
     {
-      "title": "Blizzard Aware of Population Issues in Certain Areas",
-      "url": "https://www.wowhead.com/news=383757/blizzard-aware-of-population-issues-in-certain-areas",
-      "category": "Forever",
-      "publishedAt": "2026-11-05T06:41:36.000Z"
+      "title": "McDonald's Canada Offering WoW Game Time for Reward Points",
+      "url": "https://www.wowhead.com/news=383745/mcdonalds-canada-offering-wow-game-time-for-reward-points",
+      "category": "WoW",
+      "publishedAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "title": "The Great Outdoors Quest Bugged and How to Complete",
-      "url": "https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete",
-      "category": "Forever",
-      "publishedAt": "2026-11-05T01:04:04.000Z"
+      "title": "Mythic Venomous Abyss Caches Replaced by Open World Gear in Talebound Rewards",
+      "url": "https://www.wowhead.com/news=383746/mythic-venomous-abyss-caches-replaced-by-open-world-gear-in-talebound-rewards",
+      "category": "PTR",
+      "publishedAt": "2026-11-05T15:00:00.000Z"
     },
     {
-      "title": "Official Warcraft Twitch Stream Showing Heat Map of Level Ups",
-      "url": "https://www.wowhead.com/news=383750/official-warcraft-twitch-stream-showing-heat-map-of-level-ups",
+      "title": "Earn 700 Discord Orbs with New WoW: Forever Quest",
+      "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest",
       "category": "Forever",
-      "publishedAt": "2026-11-05T00:51:34.000Z"
+      "publishedAt": "2026-11-05T14:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-05T12:25:45.035Z",
-  "generatedAt": "2026-11-05T12:25:45.029Z",
+  "newsUpdatedAt": "2026-11-05T16:49:08.897Z",
+  "generatedAt": "2026-11-05T16:49:08.889Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 05 Nov 2026 06:25:31 -0600",
+  "newsFeedBuiltAt": "Thu, 05 Nov 2026 10:49:08 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

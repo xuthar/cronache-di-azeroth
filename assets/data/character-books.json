@@ -312,13 +312,37 @@
           ]
         },
         {
+          "id": "x-quests-northshire-goldshire",
+          "chapter": "Chapter X · Letters and Unfinished Harvests",
+          "title": "The Names Beyond the Abbey",
+          "kind": "reported",
+          "paragraphs": [
+            "The Abbey of Northshire had not yet released Xuthar from its quiet obligations. Beneath the shelter of stone and tree, the smallest errands waited with the patience of unwritten vows. Someone had gathered the harvest that Milly had feared lost. Elsewhere, Garrick Padfoot's name remained upon a bounty; the task's objective was complete, though no reward had yet been shown.",
+            "And now the world was asking him to carry words rather than to wield them. Marshal McBride had documents intended for Marshal Dughan in Goldshire. Near that same settlement, Sam Sarsparilla awaited an adventurer. Beyond the abbey's stables waited Tordrin Sternblade; somewhere in Elwynn Forest, Priestess Josetta stood at the far end of a road of faith.",
+            "No triumphant trumpet sounded above these new assignments. Some wanted a conversation, some a message delivered, others a duty acknowledged. Xuthar, who had spent the night learning how often a life could be forgotten, began to understand that a name written on an errand could be the beginning of a stranger's story.",
+            "He had not yet been seen walking into Goldshire in the chronicles that survived. The next road, like the next page, remained untraveled in the record. Still the letters waited, and the Last Witness knew better than to mistake waiting for emptiness."
+          ]
+        },
+        {
+          "id": "x-quest-snapshot-020322",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "The Abbey Roads · Six Visible Quests",
+          "kind": "reported",
+          "paragraphs": [
+            "Screenshot snapshot near 51.4, 41.5: Milly's Harvest (level 4) and Bounty on Garrick Padfoot (level 5) both read Ready for turn-in. The objective requirements are complete in the tracker, but hand-in and rewards are not shown.",
+            "Four active assignments are visible: The Adventurer (level 6), Speak to Sam Sarsparilla near Goldshire; Follow That Kobold! (level 4), Speak to Tordrin Sternblade near the stable behind Northshire's Abbey; Report to Goldshire (level 5), Take Marshal McBride's Documents to Marshal Dughan in Goldshire; and In Favor of the Light (level 4), Speak to Priestess Josetta in Elwynn Forest.",
+            "The Big Picture (Elite) and Skirmish at Echo Ridge were previously marked Ready for turn-in, but do not appear on this later cropped tracker. Their absence is not sufficient to confirm completion of their turn-in. Likewise, no new level is inferred merely from a level 6 quest appearing.",
+            "Only the listed quest states are screenshot-confirmed. The inner thoughts and atmospheric imagery of Chapter X are original literary roleplay inspired by the quest descriptions."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Five Unfinished Roads",
+          "title": "The Road Beyond Northshire",
           "kind": "pending",
           "paragraphs": [
-            "At the most recently shared quest-tracker snapshot, The Big Picture (Elite) and Skirmish at Echo Ridge are Ready for turn-in. Milly's Harvest remains at 0/8, Bounty on Garrick Padfoot remains at 0/1 Garrick's Head, and In Favor of the Light calls Xuthar towards Priestess Josetta in Elwynn Forest.",
-            "The Brotherhood of Thieves objective was ready for turn-in in an earlier screenshot, but its subsequent delivery is not independently confirmed. The next chapter will only record a quest hand-in or further travel when the player reports it."
+            "The most recent screenshot lists two missions ready for turn-in: Milly's Harvest and Bounty on Garrick Padfoot. The Adventurer, Follow That Kobold!, Report to Goldshire and In Favor of the Light remain active and direct Xuthar to conversations in Northshire and Goldshire.",
+            "No journey to Goldshire, completed hand-in of The Big Picture or Skirmish at Echo Ridge, change of character level or additional reward has been confirmed. Further pages will follow the player's actual next adventures."
           ],
           "link": "chronicle.html"
         }

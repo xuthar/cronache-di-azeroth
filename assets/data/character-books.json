@@ -371,13 +371,36 @@
           ]
         },
         {
+          "id": "x-kobold-tracks-ready-inn",
+          "chapter": "Chapter XIII · Six Signs and a Distant Lantern",
+          "title": "The Trail Falls Silent",
+          "kind": "reported",
+          "paragraphs": [
+            "The forest had guarded its secret beneath roots and fallen leaves, but six hidden signs had finally been found. Xuthar could now return with the answer entrusted to him; the matter of the kobold tracks was ready to be reported. There was no trumpet, no ceremonial procession, only the soft certainty that attention had won where impatience would have failed.",
+            "Beyond the dark woodland, the road spoke of another kind of refuge. At the Lion's Pride Inn, an innkeeper named Farley awaited a visitor. Somewhere in the same wider world, Sam Sarsparilla, Marshal Dughan and Priestess Josetta waited for words, documents or the footsteps of a travelling priest.",
+            "He imagined warmth behind the tavern's windows: bread, voices, the ordinary mercy of a roof against the weather. Whether he had entered those rooms remained unknown. The imagined glow was not yet a memory, and a witness must never confuse the two.",
+            "The road ahead would not vanish because he paused to study it. Somewhere beyond Northshire stood Goldshire, with its unanswered invitations and the first possibility of feeling, for one evening, less like a stranger in an immense new world."
+          ]
+        },
+        {
+          "id": "x-kobold-tracks-ready-inn-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Ready to Report · A New Innkeeper's Invitation",
+          "kind": "reported",
+          "paragraphs": [
+            "The latest player-provided quest screenshot, at approximately 44.9, 62.0, shows Shhh! We're Hunting Kobolds (level 4) as Ready for turn-in. The preceding screenshot recorded 0/6 Followed Kobold Tracks. This new status establishes objective completion but does not establish quest delivery or receipt of rewards.",
+            "Rest and Relaxation (level 5) is a newly visible active quest: Speak with Innkeeper Farley at the Lion's Pride Inn. The Adventurer (level 6) still points to Sam Sarsparilla near Goldshire. Report to Goldshire (level 5) requires taking Marshal McBride's Documents to Marshal Dughan. In Favor of the Light (level 4) directs Xuthar to Priestess Josetta in Elwynn Forest.",
+            "The newest screenshot shows one mission ready for turn-in and four active. Character level 6 comes from the player's earlier report, not this crop. The inn has not been shown visited; characters have not been shown contacted. The preceding literary passage is fiction grounded in these pending objectives."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "Beyond the Unwritten Trail",
+          "title": "Where the Road Meets Goldshire",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar is level 6 according to the player. The latest quest screenshot shows Shhh! We're Hunting Kobolds at 0/6 Followed Kobold Tracks, together with The Adventurer, Report to Goldshire and In Favor of the Light. The new kobold trails have not yet been followed in the reported snapshot.",
-            "The earlier ready-for-turn-in states of Milly's Harvest and Bounty on Garrick Padfoot remain historical observations; their deliveries are not proven by their absence now. Further events await the player's next report."
+            "Xuthar Morvayne is level 6 by the player's last report. The newest quest tracker shows Shhh! We're Hunting Kobolds ready to report, with Rest and Relaxation, The Adventurer, Report to Goldshire and In Favor of the Light still active.",
+            "The journey into the Lion's Pride Inn, conversation with Farley, dealings with Marshal Dughan or Priestess Josetta, and any final quest turn-in remain unwritten until the player reports them."
           ],
           "link": "chronicle.html"
         }

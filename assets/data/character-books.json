@@ -417,13 +417,40 @@
           ]
         },
         {
+          "id": "x-goldshire-road",
+          "chapter": "Chapter XV · The Sun beyond the Abbey",
+          "title": "Where the Lion Watches",
+          "kind": "reported",
+          "paragraphs": [
+            "The morning had changed its colour. Where once the forest had hung above Xuthar in folds of dark green, sunlight now poured through its branches like molten gold. He stood upon the threshold of the abbey, at the place where the old lion watched over water and stone, and felt the world stretch far beyond the walls that had sheltered his first uncertain prayers.",
+            "The name Garrick Padfoot had passed from an unfinished summons into the record of a deed accomplished. The bounty was completed, the ledger had marked its reward, and the novice had crossed the sixth threshold of his growing strength. Three hundred and forty measures of hard-earned experience: an ordinary number, perhaps, but not to the man who had begun with nothing but his name.",
+            "Another document travelled with him now: a Grape Manifest, a humble list that must find its way to Brother Neals. He had learned that the world was stitched together less by prophecies than by errands entrusted from one mortal hand to another. Each name in the task book was a door. Most had yet to open.",
+            "Beyond the archway, the road through Elwynn curled beneath immense trees. The cobblestones held the day's warmth. Strangers passed in the opposite direction; from somewhere unseen came the faint rhythm of a settlement going about its business. He followed the road because the world, at last, was asking him to travel rather than merely survive.",
+            "Goldshire appeared not as a fortress of heroes but as a place people had built to live in. Blue roofs rose above timbered walls; a chimney leaned above the street; a horse waited by the stables. Between the buildings lay sunlight, conversation, and the promise of a doorway left open.",
+            "Xuthar paused in the village road. He had reached a new place, but had not yet been recorded speaking to the innkeeper, the marshal or the others whose names waited in his journal. A lesser scribe might have hurried ahead and filled the silence with invented victories. The Last Witness understood the greater duty: to let an unwritten conversation remain unwritten.",
+            "Thus did the first road out of Northshire find its destination. No crown was placed upon his brow. No dark god stirred in its sleep. Yet the world had become larger, and in the growing light, the young priest could feel the quiet beginning of another chapter."
+          ]
+        },
+        {
+          "id": "x-goldshire-road-notes",
+          "chapter": "The Field Record · 5 November 2026",
+          "title": "Seven Photographs · Bounty, Fountain and Goldshire",
+          "kind": "reported",
+          "paragraphs": [
+            "Player-supplied screenshot at 11:36: Bounty on Garrick Padfoot is explicitly marked completed in chat, awarding 340 XP. The same chat confirms Xuthar has reached character level 6. This is stronger evidence than the preceding ready-for-turn-in state and resolves that one earlier uncertainty. The chat also shows a Grape Manifest received.",
+            "Visible quest tracker at Northshire Valley 48.2, 42.9: Grape Manifest — bring the document to Brother Neals in Northshire Abbey; The Adventurer — speak with Sam Sarsparilla near Goldshire; Report to Goldshire — deliver Marshal McBride's Documents to Marshal Dughan; In Favor of the Light — speak with Priestess Josetta in Elwynn Forest. Other quest entries partly visible or absent from the crop are not automatically marked completed.",
+            "Additional photographs show the large carved stone-lion fountain beyond the Northshire archway, the sunlit road of Elwynn Forest, and Xuthar walking through the village area of Goldshire with its blue-roofed buildings and nearby stables. These photographs are travel evidence, not proof of meetings with quest givers.",
+            "The earlier Camping 101 Herbalism (skill 20) and Cooking (learn from Tomas) objectives, as well as Rest and Relaxation and the ready-to-report kobold-tracking quest, have no new confirmed turn-ins in these seven images. The literary tone in Chapter XV is fiction based on the observed journey."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Hearth beyond the Forest",
+          "title": "The Voices beyond Goldshire",
           "kind": "pending",
           "paragraphs": [
-            "The latest visible journal includes Camping 101: Herbalism (raise the skill to 20), Camping 101: Cooking (learn from Tomas in Goldshire), Rest and Relaxation, Report to Goldshire and In Favor of the Light. Shhh! We're Hunting Kobolds is still ready for turn-in.",
-            "The character's last reported level remains 6. No completed profession training, herb gathering, cooking lesson, inn arrival or quest hand-in can be assumed before the player's next report."
+            "Xuthar Morvayne has reached the Goldshire village area at level 6. The game chat shows Bounty on Garrick Padfoot completed for 340 XP. A Grape Manifest appears in the visible quest tracker, along with The Adventurer, Report to Goldshire and In Favor of the Light.",
+            "Goldshire's roads and buildings are now photographed. Future conversations with Innkeeper Farley, Marshal Dughan, Sam Sarsparilla and Priestess Josetta will be recorded only when actually witnessed or reported."
           ],
           "link": "chronicle.html"
         }

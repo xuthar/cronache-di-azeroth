@@ -354,6 +354,21 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-five-current-quests",
+      "day": "03",
+      "chapter": "5 November 2026 · The unfinished roads",
+      "title": "Five tasks upon the Abbey's ledger",
+      "location": "Northshire Valley · Quest tracker snapshot",
+      "type": "Screenshot-confirmed quest record",
+      "excerpt": "Two assignments ready for turn-in and three still active. A patient priest learns that a journey is made of promises kept — and promises still awaiting an answer.",
+      "text": [
+        "The newest screenshot shows five quests recorded in Northshire Valley at approximately 47.6, 39.8. The Big Picture (Elite), a level 3+ quest, and Skirmish at Echo Ridge, a level 5 quest, are both explicitly marked Ready for turn-in. This verifies objective completion only, not a hand-in, quest reward or extra level.",
+        "Milly's Harvest, level 4, shows 0/8 Milly's Harvest. In Favor of the Light, level 4, asks the Priest to speak with Priestess Josetta in Elwynn Forest. Bounty on Garrick Padfoot, level 5, shows 0/1 Garrick's Head. None of these three are marked complete in the screenshot.",
+        "The earlier Brotherhood of Thieves commission had been marked ready for turn-in in another screenshot. It does not appear in this cropped list; its absence alone is not proof of a later hand-in. These images provide successive snapshots, never automatic game synchronization.",
+        "In the novel, each unfinished quest is another name waiting to be remembered. Yet the record itself remains plain: two ready to report, three still calling, and the road beyond Northshire not yet written."
+      ]
+    },
+    {
       "id": "northshire-abbey-rest",
       "day": "02",
       "chapter": "5 November 2026 · The road and the rest",

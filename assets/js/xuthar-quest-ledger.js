@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-stormwind-level-eight-01';
+ const source='assets/data/xuthar-quest-log.json?v=20261105-rainy-rest-quests-02';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,14 +39,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','The latest confirmed character level is 8. The Stormwind quest tracker at 20:24 lists five active missions: Wine Shop Advert, The Jasperlode Mine, Rare Books (Elite), Further Concerns and Camping 101: Herbalism. Garments of the Light and Shipment to Stormwind were completed earlier today. Older quests not visible are not assumed delivered.');
+   const lead=make('p','','Xuthar remains level 8. Later in the evening, the player reports Stormwind quest deliveries, learning Tailoring and Enchanting, abandoning Herbalism, and learning Fishing. The newest readable quest tracker is still from 20:24, before those changes. The list below is historical, not the current live quest log.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Confirmed completions'],[data.readyForTurnIn.length,'Ready in latest tracker'],[data.active.length,'Active in latest tracker']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Named confirmed completions'],[data.lastSeenQuestTracker?.length||0,'Quests shown at 20:24']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Level '+(data.characterLevel||'unconfirmed')+' · 5 November 2026 · Stormwind Trade District');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Level '+(data.characterLevel||'unconfirmed')+' · 5 November 2026 · Resting at Lion's Pride Inn, Goldshire');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -60,20 +60,20 @@
    }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
-     [data.readyForTurnIn,'Ready to report','xql-group-ready',true],
-     [data.active,'On the quest log','xql-group-active',false]
+     [data.readyForTurnIn,'Ready for turn-in · current status unknown','xql-group-ready',true],
+     [data.lastSeenQuestTracker||data.active,'Last readable tracker · 20:24 (not live)','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
-     if(items.length===0)grid.append(make('p','xql-empty','No quest marked ready for turn-in in this screenshot. Older quest states remain archived.'));
+     if(items.length===0)grid.append(make('p','xql-empty','No later quest-tracker screenshot was supplied after the Stormwind deliveries. Current ready-for-turn-in status is unknown.'));
      items.forEach(q=>grid.append(questCard(q,ready)));
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Latest screenshot: Stormwind Trade District (63.1, 74.6), at 20:24. Earlier screenshots show level 7 after Garments of the Light (270 XP), level 8 after Shipment to Stormwind (800 XP), and two deaths in Fargodeep Mine. Five active quests are visible. Four previously ready quests are archived without claiming a hand-in. No automatic Blizzard API synchronization is claimed.');
+   const foot=make('p','xql-provenance','The last readable quest tracker was at 20:24 in Stormwind. Afterwards, the player reported unspecified quest deliveries, a change from Herbalism to Tailoring and Enchanting, learning Fishing, and returning to Goldshire to sleep while rain fell outside. These updates do not establish the final status of specific quests, including Camping 101: Herbalism. No automatic Blizzard API synchronization is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-goldshire-road-notes';root.append(book);
+   book.href='book.html?character=xuthar#x-rain-over-goldshire';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

@@ -1,0 +1,32 @@
+/* Northshire quest log — quest snapshot / player reported 5 November 2026 */
+.xql-section,.xql-section *{box-sizing:border-box}
+.xql-section{scroll-margin-top:90px;position:relative;overflow:hidden;border:1px solid #ccab7488;background:linear-gradient(132deg,#0c1826,#1d2334 55%,#211a31);border-radius:9px;padding:clamp(20px,3.6vw,44px);margin:22px auto 46px;width:min(100% - 32px,1170px);box-shadow:0 15px 50px #0008}
+.xql-section::before{content:"";pointer-events:none;position:absolute;inset:0;background:radial-gradient(ellipse at 12% 0%,#b57f3b22,transparent 52%),radial-gradient(ellipse at 95% 85%,#ac75cb17,transparent 53%)}
+.xql-section>*{position:relative}
+.xql-overline{font:800 .68rem/1.5 system-ui;letter-spacing:.15em;color:#dfba7e}
+.xql-intro h2{font:500 clamp(2.1rem,4vw,3.6rem)/1.1 Georgia,serif;color:#fff0d2;margin:12px 0}
+.xql-intro p{font:1rem/1.7 Georgia,serif;color:#dfd8df;max-width:900px;margin:0 0 18px}
+.xql-metrics{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 26px}
+.xql-metric{min-width:160px;display:flex;align-items:center;gap:13px;padding:13px 17px;border:1px solid #ad92666c;border-radius:5px;background:#0813259e}
+.xql-metric strong{font:600 2.1rem/1 Georgia,serif;color:#f1c986}
+.xql-metric span{max-width:125px;font:.75rem/1.4 system-ui;color:#d4cbd9}
+.xql-board{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.xql-group-heading{color:#efd4a9;font:500 1.65rem/1.2 Georgia,serif;margin:0 0 14px}
+.xql-list{display:grid;gap:12px}
+.xql-quest{background:#0b182adb;border:1px solid #bcaa8973;border-radius:5px;padding:17px;min-width:0}
+.xql-quest.xql-ready{border-color:#b4a86c91;background:linear-gradient(150deg,#172331,#19202a)}
+.xql-quest-head{display:flex;align-items:center;gap:11px}
+.xql-level{flex:none;font:700 .66rem/1 system-ui;letter-spacing:.05em;border:1px solid #ad8e5f;color:#f5dbab;padding:6px 8px;border-radius:3px}
+.xql-quest h3{color:#fff0dc;font:500 1.21rem/1.2 Georgia,serif;margin:0}
+.xql-state{color:#ddbbb6;font:700 .73rem/1.35 system-ui;margin:13px 0 7px}
+.xql-state-ready{color:#e9ce84}
+.xql-objective{color:#c9d0d9;font:.77rem/1.6 system-ui;margin:0}
+.xql-meter{height:7px;margin-top:12px;background:#364257;border-radius:99px;overflow:hidden}
+.xql-meter-fill{display:block;height:100%;background:#c4a26b;border-radius:99px}
+.xql-count{display:block;color:#bdc8d3;font:700 .71rem/1.5 system-ui;margin-top:7px}
+.xql-provenance{color:#bdc3d0;font:.76rem/1.6 system-ui;margin:24px 0 14px}
+.xql-book-link{display:inline-block;color:#f4d9b1!important;border-bottom:1px solid #d3b47b;padding-bottom:4px;font:.79rem system-ui;text-decoration:none!important}
+.xql-book-link:hover{color:#fff!important}
+.xql-error{color:#e1c3b8}
+@media(max-width:860px){.xql-board{grid-template-columns:1fr}.xql-section{width:calc(100% - 28px)}}
+@media(max-width:480px){.xql-quest-head{align-items:flex-start}.xql-section{padding:17px;margin-inline:auto}.xql-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.xql-metric{min-width:0;gap:8px;padding:10px}.xql-metric strong{font-size:1.7rem}}

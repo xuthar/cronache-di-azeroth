@@ -314,11 +314,11 @@
         {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "Beyond the Abbey's Silence",
+          "title": "The Five Unfinished Roads",
           "kind": "pending",
           "paragraphs": [
-            "Xuthar Morvayne is resting at Northshire Abbey at level 5. The Brotherhood of Thieves objective was complete and ready for turn-in in the last shared screenshot. A later hand-in has not yet been reported.",
-            "New tasks at Echo Ridge and Deputy Willem are visible in the quest log, but their outcomes have not been recorded."
+            "At the most recently shared quest-tracker snapshot, The Big Picture (Elite) and Skirmish at Echo Ridge are Ready for turn-in. Milly's Harvest remains at 0/8, Bounty on Garrick Padfoot remains at 0/1 Garrick's Head, and In Favor of the Light calls Xuthar towards Priestess Josetta in Elwynn Forest.",
+            "The Brotherhood of Thieves objective was ready for turn-in in an earlier screenshot, but its subsequent delivery is not independently confirmed. The next chapter will only record a quest hand-in or further travel when the player reports it."
           ],
           "link": "chronicle.html"
         }

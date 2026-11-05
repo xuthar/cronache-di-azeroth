@@ -22,8 +22,8 @@
             <div><b>Defias</b><span>Brotherhood of Thieves · Objective complete</span></div>
             <div><b>Northshire</b><span>Back at the abbey · Resting</span></div>
           </div>
-          <div class="first-night-links"><a href="${book}">Read Book I · Defias & the Abbey →</a><a class="secondary" href="journal.html#northshire-abbey-rest">Read the latest field journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest log · 2 ready / 3 active ↗</a></div>
-          <p class="first-night-fine">Player-reported: level 5, Brotherhood of Thieves objective complete, resting at Northshire Abbey. Narrative imagery is original roleplay fiction; quest hand-in and rewards remain unconfirmed.</p>
+          <div class="first-night-links"><a href="${book}">Read Book I · Defias & the Abbey →</a><a class="secondary" href="journal.html#northshire-abbey-rest">Read the latest field journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest log · 2 ready / 4 active ↗</a></div>
+          <p class="first-night-fine">Player-reported: level 5 last confirmed, Brotherhood of Thieves objective previously complete. Latest quest tracker: Milly's Harvest and Garrick Padfoot ready to report, four other assignments still active. Quest deliveries and extra levels are not inferred. Narrative imagery is original roleplay fiction.</p>
         </div>
         <figure class="first-night-figure"><img src="assets/images/gallery/stormwind-midnight.jpg" alt="Moody fantasy city under a dark sky, illustrative cover art" loading="lazy"><figcaption>Atmospheric archive artwork · Not a screenshot from this session</figcaption></figure>
       </div>`;
@@ -38,9 +38,9 @@
     panel.setAttribute('aria-labelledby','xu-first-session-title');
     panel.innerHTML=`
       <span class="first-night-overline">NEW · 5 NOVEMBER 2026 · THE FIRST PLAYED ADVENTURE</span>
-      <h2 id="xu-first-session-title">From the Defias fields to the abbey's silence.</h2>
-      <p>Now level 5, Xuthar has crossed the launch-night crowds of Northshire, fought wolves and kobolds, faced the Defias and completed the Brotherhood of Thieves objective. He has returned to Northshire Abbey to rest. The living novel now includes Chapters VIII–IX, a victory and the silence that follows.</p>
-      <div class="first-night-links"><a href="${book}">Open the latest chapters →</a><a href="journal.html#northshire-abbey-rest">Read the latest session record →</a><a href="#xuthar-quests">See five current quests ↗</a></div>
+      <h2 id="xu-first-session-title">From the Abbey’s silence to the roads ahead.</h2>
+      <p>Xuthar’s last confirmed character level is 5. After the wolves, kobolds, Defias and a quiet rest at Northshire Abbey, new assignments point toward Goldshire. The latest tracker shows two quests ready to turn in and four active. Chapter X introduces these possible roads without claiming he has already travelled them.</p>
+      <div class="first-night-links"><a href="book.html?character=xuthar#x-quests-northshire-goldshire">Read Chapter X · The roads ahead →</a><a href="journal.html#northshire-abbey-rest">Read the latest session record →</a><a href="#xuthar-quests">See six current quests ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);
   }

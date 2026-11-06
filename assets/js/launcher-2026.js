@@ -46,7 +46,7 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at his last confirmed level eight. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. No new quest, route or level is confirmed yet: today’s adventure is still unwritten.';
+    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at his last confirmed level eight. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. The first Day Two quest tracker records The Jasperlode Mine, Rare Books (Elite) and Further Concerns still in progress. No new completion or level-up is shown.';
     const buttons=copy.querySelector('.buttons');
     if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-day-two-opening">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');

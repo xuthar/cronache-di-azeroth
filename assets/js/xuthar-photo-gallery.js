@@ -10,75 +10,88 @@
   ];
   const main = document.querySelector("#main");
   if (!main) return;
-  main.className="xg-main";
-  main.innerHTML="";
-  const esc = value => String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const wrap=document.createElement("div");
-  wrap.className="wrap xg-wrap";
-  wrap.innerHTML='<header class="xg-heading"><div class="xg-eyebrow">CHRONICLES OF AZEROTH · THE LAST WITNESS</div><h1>Xuthar’s <em>Photo Chronicle</em></h1><p>Real gameplay. Real memories. Every image is presented in its original proportions, with no stretched atlas crops. Select a photograph to inspect the full-resolution file.</p><div class="xg-summary"><span><b>33</b> original files</span><span><b>2</b> days recorded</span><span><b>1920 × 1080</b> landscape captures</span></div></header><nav class="xg-tabs" aria-label="Photo archive categories"><a href="#xuthar-day-two-photos">Day Two · 6 Nov</a><a href="#xuthar-day-one-photos">Day One · 5 Nov</a><a href="#xuthar-diary-evidence">Diary & missions</a></nav>';
-  const bySource = new Map(photos.map((p,i)=>[p.src,i]));
-  const make=(tag,cls,content)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(content!==undefined)e.textContent=content;return e};
-  groups.forEach(g=>{
-    const sec=make("section","xg-section");sec.id=g.id;
-    const head=make("header","xg-section-head");
-    head.innerHTML='<div><div class="xg-eyebrow">'+esc(g.label)+'</div><h2>'+esc(g.heading)+'</h2></div><p>'+esc(g.note)+'</p>';
-    const cards=make("div","xg-grid");
-    photos.filter(p=>p.group===g.kind).forEach(photo=>{
-      const card=make("article","xg-card");
-      if(photo.group==="evidence") card.classList.add("xg-evidence");
-      const trigger=make("button","xg-photo-button");trigger.type="button";trigger.setAttribute("aria-label","View full image: "+photo.title);
-      const img=make("img","xg-photo");img.src=photo.src;img.alt=photo.title+". "+photo.desc;img.loading="lazy";img.decoding="async";
-      if(photo.group!=="evidence"){img.width=1920;img.height=1080}
-      img.addEventListener("error",()=>{card.classList.add("xg-error");trigger.disabled=true;trigger.textContent="Image unavailable";});
-      trigger.append(img);
-      trigger.addEventListener("click",()=>openPhoto(bySource.get(photo.src)));
-      const content=make("div","xg-copy");
-      const meta=make("span","xg-meta",photo.group==="day1"?"5 November · "+photo.time:photo.group==="day2"?"6 November · "+photo.time:"Diary or quest record");
-      const title=make("h3","",photo.title);
-      const desc=make("p","",photo.desc);
-      const link=make("a","xg-original","Open original image ↗");link.href=photo.src;link.target="_blank";link.rel="noopener";
-      content.append(meta,title,desc,link);card.append(trigger,content);cards.append(card);
-    });
-    sec.append(head,cards);wrap.append(sec);
-  });
-  // Keep links from earlier site versions pointing to the correct day-one section.
-  for(const old of ["forever-first-night-gallery","goldshire-travel-gallery","lions-pride-inn-gallery"]){
-    const marker=make("span","xg-legacy-anchor");marker.id=old;document.getElementById("xuthar-day-one-photos").prepend(marker);
-  }
-  const note=make("p","xg-provenance","The archive shows the original files uploaded by the player. No new victories, rewards or quest hand-ins are inferred from images without an explicit in-game confirmation.");
-  wrap.append(note);main.append(wrap);
+  main.className = "xg-main";
+  main.replaceChildren();
 
-  let selected=0;
-  const dialog=make("dialog","xg-lightbox");dialog.setAttribute("aria-label","Full-screen photo viewer");
-  const panel=make("div","xg-lightbox-panel");
-  const top=make("div","xg-lightbox-top"),number=make("span","xg-count"),close=make("button","xg-close","Close ×");
-  close.type="button";close.addEventListener("click",()=>dialog.close());top.append(number,close);
-  const image=make("img","xg-large");image.alt="";
-  const text=make("div","xg-lightbox-description");
-  const actions=make("div","xg-lightbox-actions");
-  const back=make("button","","← Previous"),next=make("button","","Next →");
-  back.type=next.type="button";
-  back.addEventListener("click",()=>show((selected+photos.length-1)%photos.length));
-  next.addEventListener("click",()=>show((selected+1)%photos.length));
-  const original=make("a","xg-full-link","View original file ↗");original.rel="noopener";original.target="_blank";
-  actions.append(back,original,next);panel.append(top,image,text,actions);dialog.append(panel);document.body.append(dialog);
-  function show(i){
-    if(!Number.isInteger(i)||i<0||i>=photos.length)return;
-    selected=i;const p=photos[i];
-    image.src=p.src;image.alt=p.title+". "+p.desc;
-    text.textContent=p.title+" — "+p.desc;
-    original.href=p.src;
-    number.textContent=(selected+1)+" / "+photos.length+" · "+(p.group==="evidence"?"DOCUMENT":"ORIGINAL SCREENSHOT");
+  const make = (tag, cls, value) => {
+    const el = document.createElement(tag);
+    if (cls) el.className = cls;
+    if (value !== undefined) el.textContent = value;
+    return el;
+  };
+  const wrap = make("div","wrap xg-wrap");
+  const heading = make("header","xg-heading");
+  heading.append(
+    make("div","xg-eyebrow","CHRONICLES OF AZEROTH · THE LAST WITNESS"),
+    make("h1","","Original Screenshot Archive"),
+    make("p","","No compressed contact sheets, no cropped previews and no stretched images. The screenshots are listed as individual files: click Open original to view each one directly in your browser at its native proportions.")
+  );
+  const summary = make("div","xg-summary");
+  for (const [count,label] of [[25,"Full HD gameplay captures"],[8,"Diary and quest records"],[33,"Original files preserved"]]) {
+    const item=make("span","");
+    item.append(make("b","",String(count)),document.createTextNode(" "+label));
+    summary.append(item);
   }
-  function openPhoto(i){
-    show(i);if(!dialog.open)dialog.showModal();
+  heading.append(summary);
+  const tabs = make("nav","xg-tabs");
+  tabs.setAttribute("aria-label","Archive categories");
+  for(const [hash,title] of [
+    ["#xuthar-day-two-photos","Day Two · 6 Nov"],
+    ["#xuthar-day-one-photos","Day One · 5 Nov"],
+    ["#xuthar-diary-evidence","Quest and diary records"]
+  ]) {
+    const a=make("a","",title);a.href=hash;tabs.append(a);
   }
-  dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close()});
-  dialog.addEventListener("keydown",event=>{
-    if(event.key==="ArrowLeft"){event.preventDefault();show((selected+photos.length-1)%photos.length)}
-    else if(event.key==="ArrowRight"){event.preventDefault();show((selected+1)%photos.length)}
-  });
-  // Deep links continue to work, including links to legacy gallery anchors.
-  const hash=location.hash.slice(1);
-  if(hash){const el=document.getElementById(hash);if(el)requestAnimationFrame(()=>el.scrollIntoView({block:"start"}))}
+  wrap.append(heading,tabs);
+
+  for (const group of groups) {
+    const section=make("section","xg-section");section.id=group.id;
+    const header=make("header","xg-section-head");
+    const words=make("div","");
+    words.append(make("div","xg-eyebrow",group.label),make("h2","",group.heading));
+    header.append(words,make("p","",group.note));
+    const list=make("div","xg-file-list");
+    const entries=photos.filter(p=>p.group===group.kind);
+    entries.forEach((photo,index)=>{
+      const article=make("article","xg-file");
+      const fileIcon=make("span","xg-file-icon",photo.group==="evidence"?"▤":"▧");
+      fileIcon.setAttribute("aria-hidden","true");
+      const info=make("div","xg-file-info");
+      const metadata=photo.group==="day1"?"5 November 2026 · "+photo.time:
+        photo.group==="day2"?"6 November 2026 · "+photo.time:"Diary / quest record";
+      info.append(
+        make("span","xg-file-meta",String(index+1).padStart(2,"0")+" · "+metadata),
+        make("h3","",photo.title),
+        make("p","",photo.desc)
+      );
+      const actions=make("div","xg-file-actions");
+      const open=make("a","xg-open","Open original ↗");
+      open.href=photo.src;open.target="_blank";open.rel="noopener noreferrer";
+      open.setAttribute("aria-label","Open original file: "+photo.title);
+      const save=make("a","xg-save","Save file");
+      save.href=photo.src;save.download=photo.src.split("/").pop();
+      save.setAttribute("aria-label","Save original file: "+photo.title);
+      actions.append(open,save);
+      article.append(fileIcon,info,actions);
+      list.append(article);
+    });
+    section.append(header,list);
+    wrap.append(section);
+  }
+
+  const historic=document.getElementById("xuthar-day-one-photos");
+  for (const oldId of ["forever-first-night-gallery","goldshire-travel-gallery","lions-pride-inn-gallery"]) {
+    const marker=make("span","xg-legacy-anchor");
+    marker.id=oldId;
+    historic.prepend(marker);
+  }
+  wrap.append(make("p","xg-provenance",
+    "The source files are preserved at their original uploaded resolution. They open directly in the browser, outside the site's layout. The archive does not assert undocumented quest completions, victories or level gains."
+  ));
+  main.append(wrap);
+  const hash=decodeURIComponent(location.hash.slice(1));
+  if(hash) {
+    const target=document.getElementById(hash);
+    if(target) requestAnimationFrame(()=>target.scrollIntoView({block:"start"}));
+  }
 })();

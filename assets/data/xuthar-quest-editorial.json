@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updated": "2026-11-06",
   "language": "en",
-  "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay.",
+  "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
     {
       "id": 6,
@@ -38,6 +38,11 @@
       "id": 35,
       "objective": "Report to Guard Thomas at the eastern Elwynn bridge.",
       "source": "player-screenshot"
+    },
+    {
+      "id": 40,
+      "objective": "Respond to the reports of murlocs disturbing streams and residents in eastern Elwynn.",
+      "source": "quest-briefing-general"
     },
     {
       "id": 47,
@@ -120,9 +125,44 @@
       "source": "player-screenshot"
     },
     {
+      "id": 239,
+      "objective": "Carry the alarm about mounting gnoll and thief pressure at Westbrook Garrison.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 332,
+      "objective": "Help spread word about the Gallina wine shop in Stormwind.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 333,
+      "objective": "Assist Harlan with his need for supplies in Stormwind.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 334,
+      "objective": "Take Thurman's forgotten shears to the Larson Clothiers in the Mage Quarter.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 783,
+      "objective": "Answer the call to help defend Northshire against local dangers.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 1097,
+      "objective": "Speak with Grimand Elmore in Stormwind about a delivery.",
+      "source": "player-screenshot"
+    },
+    {
       "id": 2158,
       "objective": "Rest and recover at the Lion's Pride Inn in Goldshire.",
       "source": "player-screenshot-and-quest-briefing"
+    },
+    {
+      "id": 3103,
+      "objective": "Follow the priest-training message delivered in the Hallowed Letter.",
+      "source": "quest-briefing-general"
     },
     {
       "id": 3903,
@@ -140,6 +180,16 @@
       "source": "quest-briefing"
     },
     {
+      "id": 5261,
+      "objective": "Speak with Eagan Peltskinner about Northshire's growing wolf problem.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 5623,
+      "objective": "Answer the invitation to learn more about the priest's path of the Light.",
+      "source": "quest-briefing-general"
+    },
+    {
       "id": 5624,
       "objective": "Complete the priest's trial of the Light, which rewarded the Friar's Robes of the Light.",
       "source": "player-screenshot-confirmed-reward"
@@ -155,14 +205,74 @@
       "source": "quest-briefing"
     },
     {
+      "id": 91752,
+      "objective": "Investigate why kobolds are carrying pictures addressed to Narf.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 91758,
+      "objective": "Follow the reported kobold carrying a large sack away from the mine.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 91772,
+      "objective": "Use the tracking kit to follow the kobold trail.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 91775,
+      "objective": "Recover Brother Paxton's missing books during the Fargodeep Mine investigation.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 92124,
+      "objective": "Speak to assistant Daniel to take inventory of the missing books.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 95998,
+      "objective": "Begin the introductory camping and outdoor-adventure instruction.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 96047,
+      "objective": "Complete the introductory First Aid camping assignment.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 96050,
+      "objective": "Complete the Fishing camping assignment.",
+      "source": "player-screenshot-and-quest-briefing"
+    },
+    {
+      "id": 96626,
+      "objective": "Complete the introductory Cooking camping assignment.",
+      "source": "quest-briefing-general"
+    },
+    {
       "id": 99127,
       "objective": "Collect seven Half-Eaten Fish.",
       "source": "player-screenshot"
     },
     {
+      "id": 99128,
+      "objective": "Help address the murloc menace around Crystal Lake.",
+      "source": "quest-briefing-general"
+    },
+    {
+      "id": 99129,
+      "objective": "Talk with Remy about the murloc problem.",
+      "source": "quest-briefing"
+    },
+    {
       "id": 99130,
       "objective": "Collect six Vials of Animal Blood and eighteen Duskweed Petals.",
       "source": "player-screenshot"
+    },
+    {
+      "id": 99131,
+      "objective": "Complete the bait-related errand involving Mathers.",
+      "source": "quest-briefing-general"
     },
     {
       "id": 99143,

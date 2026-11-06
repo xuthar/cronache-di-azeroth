@@ -15,7 +15,7 @@
           <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
           <p class="day-two-evidence">The 15:36 tracker shows six ongoing quests, including An Enticing Offer at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Later photographs show Xuthar crossing a river and exploring woodland near a Forest Spider. Earlier lake quests are no longer visible; their completion is not verified. Character level remains 8.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-river-and-woods">Read Chapter XXIII ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a></div>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-river-and-woods">Read Chapter XXIII ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
@@ -46,7 +46,7 @@
             <div><b>New trades</b><span>Tailoring · Enchanting · Fishing</span></div>
             <div><b>Goldshire</b><span>Rainy night · Resting at Lion’s Pride Inn</span></div>
           </div>
-          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-rainy-goldshire-rest">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 8 ↗</a></div>
+          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 8 ↗</a></div>
           <p class="first-night-fine">Screenshots confirm levels seven and eight, Garments of the Light (270 XP and Friar’s Robes of the Light), and Shipment to Stormwind (800 XP). Two deaths in Fargodeep Mine and Stormwind arrival are documented. Some later Stormwind quest deliveries are player-reported but their exact titles and rewards remain unknown; the 20:24 quest tracker is historical. The final photographs show rain outside Goldshire and Xuthar resting in a bed. Literary imagery remains original fiction.</p>
         </div>
         <figure class="first-night-figure"><img src="assets/images/gallery/stormwind-midnight.jpg" alt="Moody fantasy city under a dark sky, illustrative cover art" loading="lazy"><figcaption>Atmospheric archive artwork · Not a screenshot from this session</figcaption></figure>

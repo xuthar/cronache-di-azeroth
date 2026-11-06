@@ -370,6 +370,21 @@ window.CHRONICLES = {
       ]
     },
     {
+      "id": "xuthar-diary-survival-6nov",
+      "day": "17",
+      "chapter": "6 November 2026 · Retrospective in-game diary",
+      "title": "Three Percent Left · A Murloc's Memory",
+      "location": "Elwynn Forest · Map and diary overview",
+      "type": "In-game diary screenshot · Character history",
+      "excerpt": "At level eight, Xuthar's diary recalls a 3% escape against two Murlocs, a death today, and a Murloc Streamrunner noted as having killed him twice (not necessarily both today).",
+      "text": [
+        "A new in-game diary page labels the level-eight period 'Elwynn Forest, today'. The report summarizes one death and a close call on 6 November. Xuthar's character level remains eight.",
+        "The diary records Xuthar escaping a fight against two Murlocs with only 3% health remaining. A separate opponent card says a Murloc Streamrunner killed him twice, but provides no individual dates for the two deaths.",
+        "This is retrospective diary information, not direct proof that the 15:27 Crystal Lake screenshot of a Murloc shows this exact near-death battle. No newly completed mission, skill gain or extra level-up is inferred.",
+        "The geographic map is useful for contextualizing the Goldshire/Crystal Lake route, but it does not itself establish the exact coordinates of every encounter. See the book's 6 November retrospective field record."
+      ]
+    },
+    {
       "id": "xuthar-day-two-opening",
       "day": "15",
       "chapter": "6 November 2026 · Day Two · First quest tracker",
@@ -399,6 +414,22 @@ window.CHRONICLES = {
         "Seven image files (six new distinct views) record the return route: the Stormwind dock, orange-lit tunnel, stone bridge and statues; later the night road of Elwynn Forest is wet with rain. Goldshire's inn and houses appear under blue roofs, with lanterns shining through the weather.",
         "In the final photograph, Xuthar lies on an upstairs bed at the Lion's Pride Inn; the player says he is staying for the night. A new character level, successful quest turn-in, logout or rested experience is not inferred from the photograph.",
         "This quiet ending becomes Chapter XX of The Last Witness, with literary interpretation explicitly distinguished from the actual game record."
+      ]
+    },
+    {
+      "id": "xuthar-diary-level5-to7",
+      "day": "12a",
+      "chapter": "5 November 2026 · Retrospective in-game diary · Levels 5–7",
+      "title": "A First Green, a First Bag, and the Narrowest Escapes",
+      "location": "Northshire Valley · Goldshire · Fargodeep Mine",
+      "type": "In-game diary reconstruction",
+      "excerpt": "The new diary captures a 6% Defias escape, Sandriana encountered at levels six and seven, Friar's Robes as the first green item, Book Bag as the first bag, and 1% retreats from Kobolds.",
+      "text": [
+        "At level five on 5 November, Xuthar fought around Northshire Valley and the Vineyards. A diary note says he escaped a Defias Thug and two other enemies with 6% of his health. The level-five record displays 14 minutes in Elwynn Forest.",
+        "At level six, the diary mentions about ten minutes fighting in Northshire Valley, then errands at Goldshire and fighting near Crystal Lake. The name Sandriana first appeared in Elwynn Forest and would be seen again at level seven. No dialogue or party membership is established from the diary.",
+        "At level seven, the diary explicitly calls Friar's Robes of the Light the first green-quality item and Book Bag the first bag. It mentions escapes involving a Kobold Tunneler and a Kobold Miner, each with just 1% of health left. The source does not establish the bag's quest origin.",
+        "Reported zone-time fragments include 14 minutes in Elwynn at level five, 2 hours 7 minutes at level six, 31 minutes in Elwynn and 3 minutes in Stormwind at level seven. The level-eight grouping shows 1 hour 26 minutes in Stormwind and 50 minutes in Elwynn; those are diary displays, not a verified all-time playtime total.",
+        "The 5 November diary summary refers to a death and three close calls, while separate in-game screenshots earlier captured two death screens in Fargodeep Mine. Those source accounts are preserved independently rather than forced into one unsupported count."
       ]
     },
     {

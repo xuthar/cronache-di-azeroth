@@ -694,7 +694,7 @@
             "Evening of 6 November 2026: the player confirms that Xuthar Morvayne, a Human Priest in WoW Forever EU, has reached character level ten. The precise time, place and quest associated with this level-up remain unrecorded. Nothing in the earlier 18:41 quest tracker establishes the later level itself.",
             "For the living chronicle, the threshold marks a new kind of record: the player has supplied a direct link to Xuthar's character page in Blizzard's official Forever EU Armory.",
             "Official character link: https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
-            "The page's full live content could not be independently read in this update. Its existence as a supplied URL does not mean that the site's automatic Blizzard API synchronization is active. A public profile fetch using authorized Blizzard developer credentials and the provisional profile-forever-eu namespace is still required.",
+            "On 6 November 2026 at 20:40 UTC, an authorized read-only GitHub Actions probe obtained a Blizzard OAuth token (HTTP 200) and fetched the EU Forever profile (HTTP 200). It verified the name Xuthar Morvayne and level 10. The separate automatic importer remains disabled, and no quest, gear, profession or achievement details have been synchronized.",
             "The latest verified quest snapshot remains the 18:41 screenshot with ten active missions. No missions are marked completed merely because Xuthar gained a level.",
             "In the fictional voice of the Last Witness: 'To leave a name among the records is not to be remembered. Memory begins when someone opens the book.'"
           ]

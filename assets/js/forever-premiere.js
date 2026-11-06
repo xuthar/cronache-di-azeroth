@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. He begins Day Two on 6 November 2026 at his last confirmed level eight. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; at Crystal Lake, five new photographs document fishing, new lake quests, and a level-seven Murloc; Camping 101: Fishing is ready to turn in.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. He begins Day Two on 6 November 2026 at his last confirmed level eight. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; after the Crystal Lake outing he crossed a river and entered wooded Elwynn terrain. The 15:36 tracker shows six ongoing quests, including An Enticing Offer. The former lake quests are no longer shown; no hand-in is claimed.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
@@ -133,7 +133,7 @@
   const primary=$('a','forever-premiere-primary','Explore the new world  ↗');
   primary.href='forever.html';
   const secondary=$('a','forever-premiere-secondary','Xuthar’s first chapter  ↗');
-  secondary.href='book.html?character=xuthar#x-day-two-crystal-lake';
+  secondary.href='book.html?character=xuthar#x-day-two-river-and-woods';
   cta.append(primary,secondary);
   story.append(cta);
   const source=$('a','forever-premiere-source','Blizzard: What awaits in WoW Forever  ↗');

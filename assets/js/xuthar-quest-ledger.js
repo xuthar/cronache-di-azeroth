@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261106-enticing-offer-1536';
+ const source='assets/data/xuthar-quest-log.json?v=20261106-level9-ten-quests';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -37,16 +37,16 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
-   const title=make('h2','','The roads still calling.');
+    const title=make('h2','','Ten roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','The latest readable quest tracker from 15:36 shows six ongoing quests, led by An Enticing Offer: 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Later photographs show Xuthar crossing a river and moving into woodland near a Forest Spider. The lake errands and Camping 101: Fishing are absent from this cropped tracker; their delivery or completion is not established. Xuthar remains level 8.');
+    const lead=make('p','','The latest tracker at 18:41 on 6 November shows TEN active missions. Five newly seen titles include The Escape, Elmore\'s Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Xuthar is LEVEL 9, directly confirmed by the player after the screenshot. Neither the character level nor the zone appears in this cropped tracker, and a Westfall quest destination does not prove travel there. Previous lake quests absent from the crop are unverified.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Visible ongoing quests']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests in latest tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · Level '+(data.characterLevel||'unconfirmed')+' · Quest tracker 39.9, 80.1 · 15:36');
+    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (player-confirmed) · Quest tracker 59.6, 69.4 · 18:41');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -61,7 +61,7 @@
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
      [data.readyForTurnIn,'Ready for turn-in · current cropped tracker','xql-group-ready',true],
-     [data.active,'Visible ongoing quests · 15:36 tracker','xql-group-active',false]
+     [data.active,'Ongoing quests · 18:41 tracker','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
@@ -70,10 +70,22 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Source: quest tracker at 15:36 with six ongoing missions, then river photograph at 15:54 and forest photograph at 16:31 on 6 November. The cropped tracker does not show the former Crystal Lake quests or the fishing hand-in. Missing entries are NOT evidence of completion. No level-up, spider kill, quest reward or automatic Blizzard API synchronization is claimed.');
+    if(Array.isArray(data.unverifiedAfterLatestCrop)&&data.unverifiedAfterLatestCrop.length){
+      const box=make('div','xql-unverified');
+      box.append(make('h3','xql-group-heading','Earlier missions · outcome not yet verified'));
+      box.append(make('p','xql-empty','Missing from this cropped tracker does not mean completed, delivered or abandoned.'));
+      const ul=make('ul','xql-unverified-list');
+      data.unverifiedAfterLatestCrop.forEach(q=>{
+        const li=make('li','');
+        li.append(make('strong','',q.name),document.createTextNode(' · '+q.lastSeen));
+        ul.append(li);
+      });
+      box.append(ul);root.append(box);
+    }
+    const foot=make('p','xql-provenance','Source: player quest screenshot image(20261106-184152).png showing ten active missions, coordinates 59.6, 69.4. Xuthar\'s level 9 is confirmed separately by the player, not visible in the cropped quest screenshot. An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent; their outcomes are unverified. Manual transcription only, no official API synchronization claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-day-two-river-and-woods';root.append(book);
+    book.href='book.html?character=xuthar#x-day-two-ten-quests-field-record';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

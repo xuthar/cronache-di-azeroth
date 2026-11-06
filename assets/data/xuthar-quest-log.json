@@ -1459,6 +1459,10 @@
     "publicProfile": "not independently confirmed",
     "oauthCredentials": "No credentials supplied via chat; configure only as GitHub Secrets",
     "workflowState": "existing importer disabled pending manual safety gates",
-    "note": "Community testing reports both successful profiles and 404 on EU on 6 Nov; do not claim synchronized data without verified result."
+    "note": "Community testing reports both successful profiles and 404 on EU on 6 Nov; do not claim synchronized data without verified result.",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
+    "linkProvidedByPlayer": true,
+    "liveProfileRead": "not possible to verify using available web access in this turn",
+    "blizzardApiResult": "not requested (GitHub workflow gate disabled; OAuth credentials not configured)"
   }
 }

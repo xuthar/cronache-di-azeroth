@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-day-two-opened",
+      "status": "level-8-day-two-quest-tracker",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -556,15 +556,29 @@
         {
           "id": "x-day-two-opening",
           "chapter": "Chapter XXI · Day Two, 6 November 2026",
-          "title": "When the Rain Has Passed",
-          "kind": "pending",
+          "title": "Three Roads Still Calling",
+          "kind": "reported",
           "paragraphs": [
-            "The first day's final image is still: an upstairs bed at the Lion's Pride Inn and rain beyond the walls of Goldshire. Here, on 6 November, a new page of Xuthar Morvayne's journey is opened. The road beyond the door remains unrecorded.",
-            "He has reached level eight. Tailoring and Enchanting have replaced Herbalism; Fishing has joined his quieter skills. The exact status of several quests, after yesterday's Stormwind deliveries, is still awaiting a fresh look at the journal.",
-            "In the fictional voice of the Last Witness: 'A name deserves to be remembered, even if its greatest act today is only to begin again.'",
-            "THIS CHAPTER IS OPEN: no login, first quest, route, achievement, profession progress, change in weather or new level has yet been confirmed on 6 November. The next gameplay screenshot or player report will become the next real passage of this living story."
+            "The rain had accompanied the last journey home. The second day of Xuthar Morvayne's chronicle begins not with a victory, but with a fresh look at the roads still asking for his attention.",
+            "On 6 November, the first supplied in-game quest tracker showed three unfinished tasks: The Jasperlode Mine (quest level 10), Rare Books (Elite, quest level 7+) and Further Concerns (quest level 10). The objective list appeared at interface coordinates 43.3, 65.9. No new character level is visible; level eight remains the last confirmed milestone.",
+            "Far away lay Jasperlode's dark tunnels. Two books remained unfound: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words, both shown as zero of one. Elsewhere, Guard Thomas still awaited the conversation requested by Marshal Dughan.",
+            "In the literary voice of the Last Witness: 'Not every summons asks for strength. Some ask for attention; others for the patience to arrive.'",
+            "Field record: the screenshot confirms only those three visible active quests. The zone name, subsequent travel, combat, hand-ins and further skill progression are unknown. We will write them only when they happen."
           ],
           "link": "journal.html#xuthar-day-two-opening"
+        },
+        {
+          "id": "x-day-two-first-tracker-notes",
+          "chapter": "Field Record · 6 November 2026",
+          "title": "Three Active Quests · Evidence Snapshot",
+          "kind": "reported",
+          "paragraphs": [
+            "Source: first player-supplied screenshot of the All Objectives quest panel on 6 November 2026 (image(9).png). Visible interface coordinates: 43.3, 65.9; the zone label and character level are not shown.",
+            "The Jasperlode Mine [10]: Scout through the Jasperlode Mine.",
+            "Rare Books (Elite) [7+]: Geomancy for Curious Young Wizards 0/1; Arcane Explainer: Magical Stuff in Simple Words 0/1.",
+            "Further Concerns [10]: Marshal Dughan wants Xuthar to speak with Guard Thomas.",
+            "No objective shown as complete; no quest hand-in or newly earned XP is visible. Last confirmed character level remains eight. Profession information remains Tailoring, Enchanting and Fishing from the previous evening's direct report."
+          ]
         },
         {
           "id": "x-future",

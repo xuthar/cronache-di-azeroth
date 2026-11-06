@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T14:38:24.730Z"
+    "checkedAt": "2026-11-06T15:03:36.719Z"
   },
   "news": [
+    {
+      "title": "Four New Key Art Pieces for WoW: Forever Launch",
+      "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T15:00:00.000Z"
+    },
     {
       "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
       "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383777/renamed-tortollan-npcs-and-venomous-abyss-tuning-patch-12-1-5-hotfixes",
       "category": "Live",
       "publishedAt": "2026-11-06T02:16:07.000Z"
-    },
-    {
-      "title": "Massive Nerfs to The Venomous Abyss Raid - Large Nerfs to Ula'tek on Every Difficulty",
-      "url": "https://www.wowhead.com/news=383776/massive-nerfs-to-the-venomous-abyss-raid-large-nerfs-to-ulatek-on-every",
-      "category": "Live",
-      "publishedAt": "2026-11-06T00:26:53.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T14:38:24.730Z",
-  "generatedAt": "2026-11-06T14:38:24.725Z",
+  "newsUpdatedAt": "2026-11-06T15:03:36.719Z",
+  "generatedAt": "2026-11-06T15:03:36.705Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 08:38:03 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 09:03:27 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

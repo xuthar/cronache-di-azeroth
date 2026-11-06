@@ -285,7 +285,7 @@
     ]
   },
   "characterLevel": 10,
-  "characterLevelSource": "Direct player report 'ok sono livello 10 cosa facciamo ora' on 2026-11-06 at approximately 21:08 Europe/Rome. No screenshot of level-up supplied. This confirms reported level only; not the time/location of levelling or any quest reward.",
+  "characterLevelSource": "Official Blizzard Forever EU read-only API probe on 6 November 2026 (OAuth HTTP 200; profile HTTP 200; Xuthar Morvayne name matched; level 10), consistent with player's report.",
   "characterLevelRecordedAt": "2026-11-06",
   "confirmedCompleted": [
     {
@@ -1431,7 +1431,7 @@
     "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
     "recordedAt": "2026-11-06"
   },
-  "characterLevelConfirmation": "player-direct-report",
+  "characterLevelConfirmation": "official-api-read-only-probe-and-player-report",
   "levelMilestonesReported": [
     {
       "level": 9,
@@ -1453,16 +1453,32 @@
   ],
   "officialArmoryCheck": {
     "checkedDate": "2026-11-06",
-    "eligibility": "Level-10 minimum met by player report",
+    "eligibility": "Level 10 verified via official Blizzard API",
     "gameRegion": "eu",
     "characterSlug": "xuthar-morvayne",
-    "publicProfile": "not independently confirmed",
-    "oauthCredentials": "No credentials supplied via chat; configure only as GitHub Secrets",
-    "workflowState": "existing importer disabled pending manual safety gates",
+    "publicProfile": "Authenticated official EU Forever profile request returned HTTP 200 and matched Xuthar Morvayne at level 10.",
+    "oauthCredentials": "Blizzard Client ID and Secret are present in GitHub Actions Secrets; values were not exposed in logs.",
+    "workflowState": "Read-only probe passed. Automatic importer remains disabled pending explicit activation of GitHub Actions gate variables.",
     "note": "Community testing reports both successful profiles and 404 on EU on 6 Nov; do not claim synchronized data without verified result.",
     "url": "https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
     "linkProvidedByPlayer": true,
-    "liveProfileRead": "not possible to verify using available web access in this turn",
-    "blizzardApiResult": "not requested (GitHub workflow gate disabled; OAuth credentials not configured)"
+    "liveProfileRead": "Verified in GitHub Actions using authorized OAuth client (no public UI scraping).",
+    "blizzardApiResult": "OAUTH_HTTP_200; PROFILE_HTTP_200; name matched; level 10; no publication.",
+    "apiProbe": {
+      "workflow": "Probe Blizzard Forever EU profile (read only)",
+      "runId": 42290259280,
+      "runUrl": "https://github.com/xuthar/cronache-di-azeroth/actions/runs/42290259280",
+      "checkedAt": "2026-11-06T20:40:08Z",
+      "region": "eu",
+      "namespace": "profile-forever-eu",
+      "slug": "xuthar-morvayne",
+      "oauthHttpStatus": 200,
+      "profileHttpStatus": 200,
+      "nameMatched": true,
+      "level": 10,
+      "result": "verified-read-only",
+      "publishedToSite": false,
+      "synchronizedAutomatically": false
+    }
   }
 }

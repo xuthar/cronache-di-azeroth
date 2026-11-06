@@ -138,3 +138,15 @@ These photographs **do not confirm** an actual quest hand-in to Farley, an inn h
 - Journal: `journal.html#xuthar-inside-lions-pride-inn`.
 - Homepage: latest photographic cover of Xuthar seated in the inn.
 - Galleries and links: `assets/js/lions-pride-photo-diary.js`. No automatic gameplay or Blizzard API tracking is implied.
+
+## The Last Witness — continuous novel, not a play log
+
+Xuthar Morvayne's ongoing novel is stored as the `xuthar` volume in `assets/data/character-books.json`; `assets/js/character-book.js` provides the page-turning reading interface. The narrative is in English.
+
+**Permanent editorial rule:** Information from the player (quest progress, levels, screenshots, journals, destinations, discoveries, professions and other play details) is research material for a continuous, fictionalized biography. It is never narrated as information supplied by a player, screenshot, tracker, API response, verification, or site editor. Within the novel, use third-person literary prose (with occasional first-person diary passages), scenes, emotional progression, natural dialogue, ambience, and continuity. The story reads like a real fantasy book, not a status report.
+
+Preserve confirmed milestones and chronology; never quietly claim an unobserved quest completion, location, party member or reward as an official game fact. Fictional dialogue, introspection, motives and sensory atmosphere are welcome, but they belong to the **novel's imaginative layer**, not the underlying official quest record. If a detail cannot yet be safely placed in chronology, leave it for later instead of describing the uncertainty inside the novel. Keep provenance, status counts and debugging details outside the novel, in the separate quest archive and data sources.
+
+The reader's existing chapter `id` anchors are durable deep links; keep them when revising or moving chapters. Weave new quest-based narrative scenes into their chronological place, rather than adding detached end-of-book quest reports. A future session should extend the book as one uninterrupted life, from childhood and formative years through each day's adventures. Other characters' volumes remain independent.
+
+For printing, ensure all prose can flow without clipping; do not place technical data or mission-ID lists inside the book itself.

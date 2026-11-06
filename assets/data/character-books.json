@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "editorialPolicy": "Fictional backstory is separate from player-reported or verified in-game events. Never invent gameplay progress. Append chapters only after user provides real session evidence; use chronicle chronology and preserve unknowns.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-goldshire-rainy-rest",
+      "status": "level-8-day-two-opened",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -554,6 +554,19 @@
           ]
         },
         {
+          "id": "x-day-two-opening",
+          "chapter": "Chapter XXI · Day Two, 6 November 2026",
+          "title": "When the Rain Has Passed",
+          "kind": "pending",
+          "paragraphs": [
+            "The first day's final image is still: an upstairs bed at the Lion's Pride Inn and rain beyond the walls of Goldshire. Here, on 6 November, a new page of Xuthar Morvayne's journey is opened. The road beyond the door remains unrecorded.",
+            "He has reached level eight. Tailoring and Enchanting have replaced Herbalism; Fishing has joined his quieter skills. The exact status of several quests, after yesterday's Stormwind deliveries, is still awaiting a fresh look at the journal.",
+            "In the fictional voice of the Last Witness: 'A name deserves to be remembered, even if its greatest act today is only to begin again.'",
+            "THIS CHAPTER IS OPEN: no login, first quest, route, achievement, profession progress, change in weather or new level has yet been confirmed on 6 November. The next gameplay screenshot or player report will become the next real passage of this living story."
+          ],
+          "link": "journal.html#xuthar-day-two-opening"
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
           "title": "Beyond the Light of the Hearth",
@@ -719,5 +732,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-05"
+  "lastEditorialUpdate": "2026-11-06"
 }

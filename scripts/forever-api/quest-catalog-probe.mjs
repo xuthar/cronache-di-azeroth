@@ -20,6 +20,16 @@ async function main(){
       const d=await response.json();
       const keys=Object.keys(d).filter(k=>['id','title','name','description','requirements','objectives','rewards','area','zone','level','category','completion_text','suggested_players','is_repeatable'].includes(k));
       console.log('QUEST_ID_'+questId+'_FIELDS: '+keys.join(','));
+      for(const field of ['requirements','rewards','area','category']){
+        const val=d[field];
+        if(!val||typeof val!=='object')continue;
+        const fields=Object.keys(val).slice(0,18);
+        console.log('QUEST_ID_'+questId+'_'+field.toUpperCase()+'_KEYS: '+fields.join(','));
+        for(const key of ['description','text','objective','objectives','complete','completion_text']){
+          const v=val[key];
+          if(typeof v==='string')console.log('QUEST_ID_'+questId+'_'+field.toUpperCase()+'_'+key.toUpperCase()+': '+v.slice(0,150).replace(/\\s+/g,' '));
+        }
+      }
       for(const key of ['title','name','description','requirements','objectives','completion_text']){
         const v=d[key];
         const text=typeof v==='string'?v:typeof v==='object'?(v?.en_GB||v?.en_US||''):'';

@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261106-api-level10-verified';
+ const source='assets/data/xuthar-quest-log.json?v=20261106-2059-guard-thomas';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -37,21 +37,21 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
-    const title=make('h2','','Ten roads still calling.');
+    const title=make('h2','','Seven roads and a tenth threshold.');
    title.id='xql-heading';
-    const lead=make('p','','The latest tracker at 18:41 on 6 November shows TEN active missions. Five newly seen titles include The Escape, Elmore\'s Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Xuthar has now reached LEVEL 10, confirmed directly by the player after this quest screenshot. Neither the character level nor the zone appears in this cropped tracker, and a Westfall quest destination does not prove travel there. Previous lake quests absent from the crop are unverified.');
+    const lead=make('p','','The 20:59 character screenshot confirms level 10 next to Guard Thomas in Elwynn Forest and completion of Further Concerns. The latest visible objective list has seven active missions, including Riverpaw Gnoll Bounty, WANTED: Hogger, Stormpike\'s Delivery and Report to Gryan Stoutmantle. The Jasperlode Mine was ready for turn-in at 20:33, but its subsequent delivery is not established. Rare Books shows Arcane Explainer found while Geomancy remains missing. Quest destinations in Loch Modan and Westfall do not establish travel there.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests in latest tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (Blizzard API + player confirmed) · Last quest screenshot 59.6, 69.4 · 18:41');
+    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (20:59 screenshot + official profile) · Guard Thomas, Elwynn Forest · 73.9, 72.2');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
      const completed=make('div','xql-confirmed');
-     completed.append(make('h3','xql-group-heading','Confirmed via game chat or player report'));
+     completed.append(make('h3','xql-group-heading','Verified completed missions'));
      data.confirmedCompleted.forEach(q=>{
        const item=make('p','xql-confirmed-item','✓ '+q.name+(Number.isFinite(q.experience)?' · '+q.experience+' XP':''));
        completed.append(item);
@@ -60,8 +60,8 @@
    }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
-     [data.readyForTurnIn,'Ready for turn-in · current cropped tracker','xql-group-ready',true],
-     [data.active,'Ongoing quests · 18:41 tracker','xql-group-active',false]
+     [data.readyForTurnIn,'Ready for turn-in · latest visible list','xql-group-ready',true],
+     [data.active,'Ongoing quests · 20:59 tracker','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
@@ -82,10 +82,10 @@
       });
       box.append(ul);root.append(box);
     }
-    const foot=make('p','xql-provenance','Source: player quest screenshot image(20261106-184152).png showing ten active missions, coordinates 59.6, 69.4. Xuthar\'s level 10 has been verified through Blizzard's official EU Forever profile API (OAuth 200, profile 200), but is not visible in the cropped quest screenshot. An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent; their outcomes are unverified. Manual transcription only, no official API synchronization claimed.');
+    const foot=make('p','xql-provenance','Evidence: WoWScrnShot_110626_205922.jpg shows the level-ten milestone, completed Further Concerns, seven active missions and the Guard Thomas location in Elwynn. WoWScrnShot_110626_203303.jpg independently shows The Jasperlode Mine ready to report. Historical missions omitted from the latest objective list are not automatically marked complete or abandoned. The manual field ledger remains separate from the automated Blizzard completed-quest archive.');
    root.append(foot);
-   const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-    book.href='book.html?character=xuthar#x-day-two-ten-quests-field-record';root.append(book);
+   const book=make('a','xql-book-link','Continue The Last Witness ↗');
+    book.href='book.html?character=xuthar#x-level-ten-armory';root.append(book);
     const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
     armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
     armory.target='_blank';armory.rel='noopener noreferrer';

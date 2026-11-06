@@ -221,7 +221,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261106-first-quest-tracker',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261106-crystal-lake-chapter22',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

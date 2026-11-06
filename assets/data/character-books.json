@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-through-tenth-threshold",
+      "status": "ongoing-novel-second-day-ten-thresholds",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -25,7 +25,7 @@
           "paragraphs": [
             "There are no monuments here for kings. No chronicles of victorious armies. These pages belong to the ones who passed unnoticed through rain, wheat and winter, whose names the world scarcely bothered to learn.",
             "Xuthar Morvayne was not born with a prophecy. He was born with questions, and eventually he learned that even a question may become a burden when it asks too much of the living.",
-            "This book begins before the first real journey in World of Warcraft: Forever. Once the player enters Azeroth, later chapters will grow from actual sessions, then be transformed into fiction without changing what truly happened."
+            "The world would call him many things before his journey was done: priest, wanderer, fool, perhaps even hero. This was not a book about the names others gave him. It was the story of the man who walked beneath them, carrying a memory that refused to die."
           ]
         },
         {
@@ -38,8 +38,7 @@
             "As a child, Xuthar thought the work tedious. A good story surely required a king, a battle, a victory. His mother corrected him one evening by placing an empty page beside the record of a life no one remembered. 'Which of these', she asked, 'will be easier for the world to forget?'",
             "The boy did not answer. That was the first lesson he kept."
           ],
-          "image": "assets/images/gallery/stormwind-midnight.jpg",
-          "caption": "Archive illustration · Not an in-game visit."
+          "image": "assets/images/gallery/stormwind-midnight.jpg"
         },
         {
           "id": "x-ch1b",
@@ -63,8 +62,7 @@
             "The words remained after her breath did not. He waited for the familiar reassurance of the Light. Instead he found a silence so complete that it seemed to be listening back.",
             "He did not know her name. That ignorance followed him farther than any road."
           ],
-          "image": "assets/images/gallery/goldshire-after-dark.jpg",
-          "caption": "Atmospheric illustration · The vigil is fictional."
+          "image": "assets/images/gallery/goldshire-after-dark.jpg"
         },
         {
           "id": "x-ch2b",
@@ -89,8 +87,7 @@
             "Then he saw his own name. Beside it, no date of birth. Only a sentence: The last witness must not remember.",
             "The words frightened him less than the possibility that he would believe them without proof."
           ],
-          "image": "assets/images/gallery/moonlit-gathering.jpg",
-          "caption": "Illustrative archive scene · The magical ledger is original roleplay fiction."
+          "image": "assets/images/gallery/moonlit-gathering.jpg"
         },
         {
           "id": "x-ch3b",
@@ -115,7 +112,7 @@
             "I shall not call it truth merely because it speaks. Somewhere beyond these walls are villages, roads and people who will never be written into history. I do not yet know where my own path begins.",
             "If a life must end, let at least its name endure."
           ],
-          "signed": "Xuthar Morvayne · Fictional prologue"
+          "signed": "Xuthar Morvayne"
         },
         {
           "id": "x-live-1",
@@ -123,10 +120,10 @@
           "title": "Five hundred souls before the dawn",
           "kind": "reported",
           "paragraphs": [
-            "On the fifth day of November, in the first breath of a newborn era, the gates of Azeroth did not open at once. Beyond them waited a gathering of strangers, each bearing a name, a hunger, a history not yet told. Five hundred and twenty-four: the number burned upon the threshold as Xuthar stood in the queue, a man of ink and unanswered prayers among an unseen multitude.",
+            "In the first hours of that November dawn, the gates of Azeroth seemed to hold a world of restless souls on the other side. Strangers had gathered from countless roads, each carrying a name, a hunger, a history not yet told. Xuthar Morvayne waited among them, a man of ink and unanswered prayers.",
             "He had crossed no battlefield. His blade had tasted no blood. And yet he sensed the curious weight of a beginning: the knowledge that an ordinary moment, once lived, could never be lived for the first time again.",
             "The old ledger rested, in the story he carried within himself, beneath his travelling robes. Its warning had not changed: The last witness must not remember. He had chosen, against that command, to remember everything.",
-            "When the way cleared, he chose the company of those who wished not merely to fight in this world, but to inhabit it. Roleplay. The word was small. The promise behind it was immense."
+            "When the way opened, he went forward with the others. Some were searching for glory, some for fellowship, some only for another place to begin. Xuthar sought a life in which no name was too small to remember."
           ]
         },
         {
@@ -184,7 +181,7 @@
           "kind": "reported",
           "paragraphs": [
             "By the time Xuthar returned beneath Northshire's ancient stone, he had reached the third level of his apprenticeship. Marshal McBride waited near the abbey's threshold, a soldier whose work allowed little room for mystery and less for hesitation.",
-            "Kobold Camp Cleanup had been completed and rewarded; the log bore witness to that first small victory. There were new matters to attend to: a hallowed letter that pointed towards the teachings of his own order, and a troubling request to investigate Echo Ridge. The name of that place seemed to hang in the air long after it was spoken.",
+            "The danger among the kobolds had been driven back, and McBride offered the novice his first hard-earned thanks. More work followed: a hallowed letter bearing the familiar weight of his calling, and a troubling request to investigate Echo Ridge. The name of that place seemed to hang in the air long after it was spoken.",
             "Xuthar sought out the priestly trainer. There was comfort in the familiar gravity of the abbey, but no escape from the questions that had brought him there. A lesson could teach the shape of an incantation; it could not tell a man what his power ought to mean.",
             "He left the quiet halls with a clearer road before him, not a clearer answer."
           ]
@@ -207,10 +204,23 @@
           "title": "The chronicle remains unfinished",
           "kind": "reported",
           "paragraphs": [
-            "The work at Echo Ridge was not done. Five of ten kobold workers had been defeated. Five of eight stolen books had been found. Elsewhere, the task of gathering twelve red burlap bandanas from the Defias still awaited its first mark.",
+            "Echo Ridge was not done with him. There were still kobold workers at the edge of the mine, still stolen books hidden among the roots, still dangerous men in red cloth farther across the valley. He had recovered a few pieces of what was missing, but an unfinished task had a way of growing heavier in the mind.",
             "He stood among the roots and dark grass at level three, the abbey behind him and the promise of unknown roads ahead. Nothing in the scene would have persuaded a passing stranger that history had begun to turn. There was no crown, no dragon, no empire falling beneath a blade.",
             "But in a quieter chronicle, the measure of a life is different. A man who had sworn to preserve forgotten names had taken his first steps among people and creatures whom greater histories would overlook.",
             "The night had opened its gates. The first pages were written. Beyond Echo Ridge, the unwritten world waited."
+          ]
+        },
+        {
+          "id": "x-quest-story-echo-ridge",
+          "chapter": "Chapter VII · Where the Earth Remembers",
+          "title": "What Echo Ridge Did Not Tell",
+          "kind": "fiction",
+          "paragraphs": [
+            "The mouth of Echo Ridge Mine seemed to breathe with another creature's lungs. Xuthar heard the tapping of picks before he saw torchlight, a restless music of stone and fear in the dark.",
+            "From the mouth of the mine, the earth seemed to breathe with another creature's lungs. Xuthar heard the tapping of picks before he saw the flicker of torchlight. The kobolds had dug passages beneath a mountain that no longer felt certain of itself, and the darkness gave back every sound twice.",
+            "A younger priest might have called the place a nest of monsters. Xuthar could not ignore the buckets, the tired tools, the hurried marks scratched into the stone. Fear and cruelty were not the same thing, although fear could become cruel when it held a weapon. The road had asked him to oppose the threat; his journal asked him what had caused it.",
+            "At the last bend, where the mine narrowed into shadow, he touched his finger to a seam of cold rock. He imagined the mountain remembering every hand that had struck it. He had come to drive danger away from Northshire. He left with a more troubling question: who would remember those who had never learned any other home?",
+            "And in the book he carried beside the cloth and the needle, he wrote: 'An echo is only a voice the world has refused to let die.'"
           ]
         },
         {
@@ -233,7 +243,7 @@
             "Beyond the safer paths of Northshire, the fields lay beneath the long shadows of ancient trees. The land still bore the patient furrows of honest hands, but the men who watched those furrows had come with other intentions. Defias thugs stood among the fences, their red insignia as stark as wounds against the green.",
             "Xuthar halted before the first of them. Until now he had struggled against hunger given the shape of a wolf, or against the restless labour of kobolds beneath a hill. These were men. Their anger had a history; their threats could be understood in words. That knowledge did not make them harmless.",
             "The novice priest felt his heartbeat climb, yet he did not turn away. He had reached the fifth step of his growing strength, and the world was already asking whether his compassion could survive the need to resist another human being.",
-            "The later in-game diary fills in a danger the first photographs could not quantify. At level five, beyond the protected Northshire paths, Xuthar escaped a Defias Thug and two other foes with only six percent of his health left. In the fictional memory of the Last Witness, the forest became very quiet at that number: six breaths out of a hundred, and still another road to walk.",
+            "In the thick of the struggle, a Defias thug and two companions pressed him so hard that he escaped with scarcely six heartbeats of strength left in a hundred. The woods became very quiet then. He leaned against a tree, felt the blood beating in his ears, and wondered whether survival always sounded so much like fear.",
             "Above the fields, the branches moved like dark fingers against the sky. No voice announced the correct path. The choice, like all the difficult choices to come, belonged to him."
           ]
         },
@@ -244,7 +254,7 @@
           "kind": "reported",
           "paragraphs": [
             "The fight was not the stuff of tavern songs. There were no royal trumpets, no sweeping banners, no triumphant charge. There was only the rhythm of danger, the need to hold one enemy at a time, and the bitter knowledge that a priest's hands could be called upon for violence.",
-            "The red burlap bandanas were proof of the work entrusted to him. Twelve had been required for the Brotherhood of Thieves commission. By the end of his struggle the objective was complete, with the tracker later marking the objective Ready for turn-in. The hand-in itself has not yet been shown.",
+            "The red burlap bandanas were proof of the work entrusted to him. Twelve had been required to answer the Brotherhood of Thieves, and twelve now lay in his care. What reward might follow mattered less than the troubled fields behind him, where ordinary people had learned to mistrust strangers in red.",
             "He regarded those scraps of cloth and wondered what oath had once made the brotherhood worthy of its name. Men could bind themselves together for justice or for cruelty. Sometimes the difference became visible only to those standing in the path of their weapons.",
             "He had won no great war in that shadowed field. Yet he had learned something that a hundred sheltered sermons could scarcely teach: the darkest deeds were not always born of darkness alone."
           ]
@@ -317,7 +327,7 @@
             "The Abbey of Northshire had not yet released Xuthar from its quiet obligations. Beneath the shelter of stone and tree, the smallest errands waited with the patience of unwritten vows. Someone had gathered the harvest that Milly had feared lost. Elsewhere, Garrick Padfoot's name remained upon a bounty; the task's objective was complete, though no reward had yet been shown.",
             "And now the world was asking him to carry words rather than to wield them. Marshal McBride had documents intended for Marshal Dughan in Goldshire. Near that same settlement, Sam Sarsparilla awaited an adventurer. Beyond the abbey's stables waited Tordrin Sternblade; somewhere in Elwynn Forest, Priestess Josetta stood at the far end of a road of faith.",
             "No triumphant trumpet sounded above these new assignments. Some wanted a conversation, some a message delivered, others a duty acknowledged. Xuthar, who had spent the night learning how often a life could be forgotten, began to understand that a name written on an errand could be the beginning of a stranger's story.",
-            "He had not yet been seen walking into Goldshire in the chronicles that survived. The next road, like the next page, remained untraveled in the record. Still the letters waited, and the Last Witness knew better than to mistake waiting for emptiness."
+            "Beyond Northshire lay Goldshire, its people still strangers and its roofs only a promise on the road. The letters waited in his bag, and Xuthar knew better than to mistake a long pause for the end of a journey. Every road begins before the traveller takes it."
           ]
         },
         {
@@ -339,8 +349,8 @@
           "paragraphs": [
             "Some journeys announce themselves with the roar of dragons or the fall of a king. Xuthar Morvayne's sixth milestone was quieter. A novice priest, once lost among the countless names outside Northshire Abbey, had found the strength to take one more step across a world vast enough to swallow legends.",
             "He thought of the wolves in the dark grass, the kobolds beneath Echo Ridge and the red-clad men haunting the fields. Each had taught him something different about fear. But the living world offered lessons beyond combat: names to remember, letters to carry, strangers waiting patiently for a word.",
-            "A new retrospective note remembers around ten minutes fighting in Northshire Valley, later journeys to Goldshire and Crystal Lake, and a name worth preserving: Sandriana. The diary says Xuthar first saw Sandriana at level six in Elwynn Forest and encountered that name again at level seven. It tells us nothing yet of a conversation or shared quest; the encounter is a thread, not a story invented in its place.",
-            "The roads towards Goldshire remained promises rather than passages recorded. The old ledger gave no prophecy of what lay beyond the abbey. It offered only a blank page and the solemn freedom to fill it one witnessed moment at a time.",
+            "During those days the name Sandriana crossed his path in Elwynn. He saw her more than once, a figure moving through the same immense woodland without asking to become part of his fate. Xuthar had learned to treasure such glimpses. The world was made not only of companions, but of lives that brushed against one's own and went on.",
+            "Goldshire still waited farther along the road. The old ledger offered no prophecy of what lay beyond the abbey. It offered only an empty page and the solemn freedom to fill it when the next day arrived.",
             "At level six, Xuthar was neither master of Light nor child of Shadow. He was simply a man who had begun—and who chose to keep going."
           ]
         },
@@ -351,9 +361,9 @@
           "kind": "reported",
           "paragraphs": [
             "The Abbey's old stones had taught Xuthar the weight of silence. The woodland earth, it seemed, could teach him something else. There were marks in the soil, slight and restless, and somewhere in their crooked pattern lay the promise of a story no human scribe had yet written.",
-            "He was asked to follow six traces of the kobolds. No victory song greeted the commission; no champion’s blade would be needed to read what the ground had kept. Only patience, attention, and a willingness to follow what others overlooked. As yet, not one of the six tracks had been recorded as followed.",
-            "Beyond the valley waited names he had only been asked to seek: Sam Sarsparilla, Marshal Dughan, and Priestess Josetta. Goldshire remained a destination in his quest log, not a journey already shown. He would make those meetings when the road, and the living chronicle, truly brought him to them.",
-            "‘A witness must first learn to look,’ the priest might have written in the margin of his old book. The sentence would be his own invention. The marks in the earth, however, belonged to Azeroth."
+            "He followed the slight disturbances left by the kobolds, searching for six marks that might reveal where they had passed. No champion's blade was needed to read what the ground had kept, only patience, attention and the willingness to kneel where others would stride past.",
+            "Beyond the valley waited names he had yet to know: Sam Sarsparilla, Marshal Dughan and Priestess Josetta. Goldshire beckoned with those unfinished encounters. He carried their names beside his own, as though remembering a stranger might already be the beginning of helping them.",
+            "A witness must first learn to look, he wrote in the margin of the old book. The words looked plain enough. He wondered how many years it would take to understand them."
           ]
         },
         {
@@ -375,7 +385,7 @@
           "paragraphs": [
             "The forest had guarded its secret beneath roots and fallen leaves, but six hidden signs had finally been found. Xuthar could now return with the answer entrusted to him; the matter of the kobold tracks was ready to be reported. There was no trumpet, no ceremonial procession, only the soft certainty that attention had won where impatience would have failed.",
             "Beyond the dark woodland, the road spoke of another kind of refuge. At the Lion's Pride Inn, an innkeeper named Farley awaited a visitor. Somewhere in the same wider world, Sam Sarsparilla, Marshal Dughan and Priestess Josetta waited for words, documents or the footsteps of a travelling priest.",
-            "He imagined warmth behind the tavern's windows: bread, voices, the ordinary mercy of a roof against the weather. Whether he had entered those rooms remained unknown. The imagined glow was not yet a memory, and a witness must never confuse the two.",
+            "He imagined warmth behind the tavern's windows: bread, voices, the ordinary mercy of a roof against the weather. The thought was enough to set him moving. One could follow a trail for duty, but sometimes a man followed the road simply because he was tired of being cold.",
             "The road ahead would not vanish because he paused to study it. Somewhere beyond Northshire stood Goldshire, with its unanswered invitations and the first possibility of feeling, for one evening, less like a stranger in an immense new world."
           ]
         },
@@ -397,9 +407,9 @@
           "kind": "reported",
           "paragraphs": [
             "The forests around Elwynn had so far taught Xuthar to listen for danger: wolves beneath the trees, kobolds between the roots, men whose intentions were as sharp as their blades. Yet the green world guarded quieter teachings as well. Not every useful thing drawn from the earth was meant to harm another living soul.",
-            "Now two unfamiliar lessons waited in his journal. Herbalism asked that he learn the discipline of plants, raising his skill to twenty; Cooking called him to Goldshire, where Tomas could instruct him in the care of a simple hearth. The priest had learned neither lesson in the record yet. He had only received their invitations.",
+            "Two unfamiliar disciplines now called to him. Herbalism offered the patient study of plants; cooking promised the art of taking what the earth gave and making it sustaining. Tomas, in Goldshire, knew the language of the hearth. Xuthar was only beginning to understand how much he had to learn.",
             "It pleased him, perhaps, that the same hands which summoned holy fire might someday crush a leaf to preserve life or prepare an evening's meal. There was dignity in a meal shared after a hard road and in the patient knowledge of a plant's name. Even a witness needed to eat, to heal, and to learn what grew beside the paths he walked.",
-            "Farley at the Lion's Pride Inn, Marshal Dughan and Priestess Josetta still waited on the pages of his quest log. Goldshire was close enough to call to him; its arrival, as yet, belonged to a chapter not written. He looked beyond the trees, and the road did not hurry him."
+            "Farley at the Lion's Pride Inn, Marshal Dughan and Priestess Josetta waited somewhere beyond the paths he knew. Goldshire was close enough that he could almost picture its chimneys. He looked toward the trees, and the road did not hurry him."
           ]
         },
         {
@@ -424,7 +434,7 @@
             "Another document travelled with him now: a Grape Manifest, a humble list that must find its way to Brother Neals. He had learned that the world was stitched together less by prophecies than by errands entrusted from one mortal hand to another. Each name in the task book was a door. Most had yet to open.",
             "Beyond the archway, the road through Elwynn curled beneath immense trees. The cobblestones held the day's warmth. Strangers passed in the opposite direction; from somewhere unseen came the faint rhythm of a settlement going about its business. He followed the road because the world, at last, was asking him to travel rather than merely survive.",
             "Goldshire appeared not as a fortress of heroes but as a place people had built to live in. Blue roofs rose above timbered walls; a chimney leaned above the street; a horse waited by the stables. Between the buildings lay sunlight, conversation, and the promise of a doorway left open.",
-            "Xuthar paused in the village road. He had reached a new place, but had not yet been recorded speaking to the innkeeper, the marshal or the others whose names waited in his journal. A lesser scribe might have hurried ahead and filled the silence with invented victories. The Last Witness understood the greater duty: to let an unwritten conversation remain unwritten.",
+            "Xuthar paused in the village road. He had reached a place full of other people's lives, and there was no need to lay claim to them all at once. He listened to a stable door opening, a distant voice near the square, the patient splash of water. To know a place, he suspected, one must first allow it to remain itself.",
             "Thus did the first road out of Northshire find its destination. No crown was placed upon his brow. No dark god stirred in its sleep. Yet the world had become larger, and in the growing light, the young priest could feel the quiet beginning of another chapter."
           ]
         },
@@ -440,6 +450,19 @@
           ]
         },
         {
+          "id": "x-quest-story-vineyards",
+          "chapter": "Chapter XV · The Sun beyond the Abbey",
+          "title": "The Harvest the Thieves Could Not Keep",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Northshire vineyards should have been a place of patient seasons. Instead the furrows carried the nervous silence of people who had learned to look for red bandanas between the vines.",
+            "Northshire Vineyards should have smelled of summer, even in November. The vines held the memory of ripening fruit in their empty branches. Between the rows, people had learned to walk quietly, because the Defias had begun to mistake every man's labour for something they were owed.",
+            "Milly did not ask Xuthar to become a hero. She asked whether he knew what it meant to watch a season disappear into someone else's hands. He thought of the monastery ledgers, of names recorded without their hunger or weariness. He promised no miracle. He only told her that a harvest deserved to belong to the hands that had tended it.",
+            "The grape manifest seemed an absurdly small conclusion to such trouble: an inventory, a signature, an ordinary piece of paper. Yet when it reached its proper destination, Xuthar imagined that it carried more than fruit. It carried proof that a woman had worked, that her work had mattered, and that a gang of thieves had not managed to erase her.",
+            "At dusk he closed the ledger without writing the thieves' names first. This was Milly's story. Let her name stand at the beginning."
+          ]
+        },
+        {
           "id": "x-lions-pride-hearth",
           "chapter": "Chapter XVI · The Quiet Mercy of Fire",
           "title": "The Inn Where Time Stood Still",
@@ -448,8 +471,8 @@
             "He had thought the road ended where the roofs of Goldshire rose between the trees. But a village was not the end of a journey. It was an invitation: a hundred ordinary lives gathered beneath timber and slate, each carrying a story the world would never consider worthy of a chronicle.",
             "When Xuthar entered the Lion's Pride Inn, the first thing he met was warmth. Firelight breathed from a wide red-brick hearth. Beneath heavy dark beams, candle flames trembled above weathered tables; barrels slept along the walls and glass bottles caught the glow as though some small stars had fallen to earth.",
             "There was no battle to be fought inside those walls. Instead there were people whose trades gave the place its name and purpose: Farley, the innkeeper; Melika Isenstrider among the chairs; Dobbins behind the bar; Brog Hamfist keeping his goods within reach. They were not the kind of names sung by bards. That was precisely why the Last Witness would remember them.",
-            "Xuthar approached Farley, the keeper of the threshold between the dangerous road and the safety of a borrowed roof. Whatever words passed, if any, were not preserved by the images of that hour. A witness who invents a conversation has lost his calling before he has begun it.",
-            "A little farther within, the room changed its voice. The wood creaked beneath his boots, and the warmth deepened around a working hearth. Tomas, a cook, stood beside the kitchen fire; Toddrick the butcher laboured among the ordinary provisions of ordinary people. A new commission had called Xuthar toward the art of cooking, yet there was no record that he had learned it that afternoon. He had merely reached the man who might teach him.",
+            "Xuthar approached Farley, the keeper of the threshold between the dangerous road and the safety of a borrowed roof. The innkeeper had the practised stillness of a man who had seen every kind of weary traveller come through his door. Xuthar found comfort in that unremarkable welcome.",
+            "A little farther within, the room changed its voice. The wood creaked beneath his boots, and the warmth deepened around a working hearth. Tomas, a cook, stood by the kitchen fire; Toddrick the butcher laboured among ordinary provisions. Xuthar thought of how much there was to learn from hands that kept a town fed, even when the hands of warriors received all the praise.",
             "Then, at last, he sat.",
             "No triumph was announced. No chorus of soldiers hailed his return. The chair was plain, the company mixed, the air heavy with smoke, bread and the imagined murmur of conversations whose words he could not make out. His travelling robes fell still against the worn floorboards, and beside him rested the silence he had brought from Northshire.",
             "For a moment he allowed his thoughts to wander toward every small life outside the inn: a farmhand beneath the trees, a merchant counting coins, a stranger taking the same forest road for the first time. Each would one day be forgotten by someone. Xuthar could not save them all from that fate. Perhaps he could, at least, refuse to let their stories vanish without a witness.",
@@ -476,10 +499,23 @@
           "kind": "reported",
           "paragraphs": [
             "In Elwynn Forest, the road did not hurry its travellers. There were strangers sitting together around a campfire, their names flickering above the cobbles like little flags carried through the woodland.",
-            "The next photograph was quieter. Water opened between wooded banks; beside a tree waited Guard Roberts. The priest had come to learn that tending another person could be a kind of courage, even when the right words were difficult to find.",
-            "Earlier, the player had solved the strange obstacle of Garments of the Light: the correct rank of Lesser Heal mattered. In the Lion's Pride Inn at 18:46, the game chat finally confirmed the quest completed. Xuthar received Friar's Robes of the Light and 270 experience, while the character reached level seven.",
-            "The later diary names those robes as the very first green-quality item Xuthar received. It also identifies his first bag as a Book Bag, gained during level seven. The source of that bag is not established. In the fiction, he might have found it fitting: a priest whose road was measured in stories had earned something in which to carry them.",
+            "Water opened between wooded banks; beside a tree waited Guard Roberts. The priest had come to learn that tending another person could be a kind of courage, even when the right words were difficult to find.",
+            "The trial known as Garments of the Light had taught him that care could falter through the smallest misjudgement. He returned to the precise prayer, the gentler touch of Lesser Heal, and at last completed what had been asked of him. The Friar's Robes of the Light became his reward; with them came another step forward in his apprenticeship, the seventh.",
+            "They were the first finely wrought green robes that the road had brought him. Around the same time he acquired a Book Bag, so perfectly suited to his strange vocation that it almost seemed a quiet jest of fate: the keeper of forgotten names had been given another place to carry words.",
             "For the fictional Last Witness, the lesson was more enduring than the reward: mercy was not merely an ideal written in scripture. It was a spell chosen with care, and a person on the other end of it."
+          ]
+        },
+        {
+          "id": "x-quest-story-garments",
+          "chapter": "Chapter XVII · The Mercy of Water",
+          "title": "The Light That Did Not Demand Belief",
+          "kind": "fiction",
+          "paragraphs": [
+            "The robe lay folded across his hands. There was nothing extraordinary in the cloth itself, and yet the gift seemed to ask a question the priest had carried for years: could a man doubt the Light and still serve its mercy?",
+            "The robe did not feel like a victory. It was only cloth, carefully made, and yet its seams seemed to demand that Xuthar remember what he had once believed. He had learned to question the promises of the Light, but he had not forgotten how to answer another person's pain.",
+            "He recalled the lesson as though it were spoken beside a quiet hearth: heal first; ask about deserving later. No revelation had descended to reward him. No prophecy had named him necessary. What remained was the smaller, harder discipline of kindness without certainty.",
+            "His new garment was green by the reckoning of adventurers. To Xuthar it was the colour of the space between two convictions. He could wear it without surrendering his doubts, just as he could keep his needle and repair a tear without claiming to repair the world.",
+            "That night, beneath the fold of the robe, he wrote a single line in his journal: 'Mercy has never asked me to be right. It only asks that I do not turn away.'"
           ]
         },
         {
@@ -488,11 +524,11 @@
           "title": "Two Falls Beneath the Earth",
           "kind": "reported",
           "paragraphs": [
-            "The sunlit woods gave way to Fargodeep Mine, where supports and rough carts divided the dark into narrow strips. Kobold Miners and a Rumbler were visible in the passages. The game would not let him forget their strength.",
-            "At 19:04 the screen declared his first recorded death there. A few minutes later, at 19:07, the same message returned. Both defeats were preserved in screenshots. The Last Witness was not yet strong enough to make the mine obey his plans.",
-            "The diary remembers another kind of narrow escape: once from a Kobold Tunneler and another foe, and once from a Kobold Miner and another, both with barely one percent of life remaining. These retrospective close calls enrich the record of the mine, but their exact position relative to the two death screenshots cannot be proven.",
-            "In the earlier tracker, Kobold Candles showed four of eight Large Candles and Gold Dust Exchange showed seven of ten Gold Dust. Book Return (Elite) showed six Lost Books but not the remaining illustrated book. A later tracker marked these quests ready for turn-in, but the screenshots do not independently confirm their delivery.",
-            "In the roleplay chronicle, defeat becomes a mark in the margin rather than something erased: two reminders that surviving Azeroth means understanding when to turn back."
+            "The sunlit woods gave way to Fargodeep Mine, where supports and rough carts divided the dark into narrow strips. Kobold Miners moved through the passages, and a Rumbler troubled the depths. Their strength was written in the way the earth seemed to shake around them.",
+            "Twice the mine overwhelmed him. The first fall left the cold taste of helplessness in his mouth; the second came before he had learned how to bear the first. He discovered that even a priest could not speak his way out of every darkness.",
+            "Yet there had been narrow escapes as well: a Kobold Tunneler on one path, a Miner on another, each leaving him with scarcely a heartbeat of strength. He learned the difference between courage and the foolishness of staying one moment too long.",
+            "He had come seeking candles, gold dust and missing books. Some lay already in his bag, others still beyond his grasp, guarded by creatures who did not care what names he had written in his ledger. Each step farther into the mine meant weighing the cost of one more errand against the value of getting home alive.",
+            "Defeat left its marks on him, though none could be seen beneath the robe. He did not erase them from memory. A life told only through victories would be a dishonest life."
           ]
         },
         {
@@ -502,10 +538,23 @@
           "kind": "reported",
           "paragraphs": [
             "After the mine, stone replaced soil. A torchlit passage opened on the streets of Stormwind; high timbered buildings faced the cobbles, and the Trade District buzzed with the ordinary business of people who had never seen a hero arrive.",
-            "At 19:26, beside Morgan Pestle, the game chat recorded the completion of Shipment to Stormwind: 800 experience, 150 Stormwind reputation, Oil of Olaf and three silver fifty copper. In that same moment, Xuthar reached level eight.",
-            "Later, he walked to the city canals. One photograph shows the priest alone at the edge of a wooden dock; another faces him as fishing trainers and quiet waters stand behind. No additional achievement is claimed from this visit.",
-            "The Last Witness, in our imagined reading of the day, might have wondered whether a large city could remember each of its small lives. He had seen crowds around a fire, a wounded guard beside water, dangers underground, and now lanterns reflected from stone. There was more to witness than victory.",
-            "His latest 20:24 quest tracker lists Wine Shop Advert, The Jasperlode Mine, Rare Books (Elite), Further Concerns and Camping 101: Herbalism as active. Previous quests missing from the crop remain historically recorded, not automatically completed."
+            "At Morgan Pestle's door the small shipment of candles finally found the hands for which it had been intended. The errand brought him a modest reward, a little favour in the eyes of Stormwind and the strange satisfaction of having carried a promise safely across the road. He had grown stronger too; by the time the city opened around him, he had reached the eighth stage of his journey.",
+            "Later he walked beside the canals, pausing at the edge of a wooden dock where the water held the city upside down. Fishing teachers and passers-by moved somewhere behind him. He watched the reflections instead, thinking of all the names hidden by the windows above.",
+            "He wondered whether a city could truly remember the people who kept it alive. He had seen crowds around a fire, a guard beside the water, dangers underground, and now lanterns reflected from stone. There was more here to witness than victory.",
+            "Stormwind offered errands as numerous as its streets. A wine shop needed attention; the Jasperlode Mine waited beyond the walls; rare books were still missing; Guard Thomas awaited word; the teachings of herbalism had not yet settled into habit. Xuthar let their names rest in his thoughts as the light changed over the Trade District."
+          ]
+        },
+        {
+          "id": "x-quest-story-candles",
+          "chapter": "Chapter XIX · Lanterns of the Capital",
+          "title": "Candles for a Distant Window",
+          "kind": "fiction",
+          "paragraphs": [
+            "Before the great towers of Stormwind rose into view, Xuthar had already learned the worth of a humble errand. A small parcel of candles was enough to make him responsible for someone else's waiting night.",
+            "The roads between Goldshire and Stormwind were full of grander things than a box of candles: rumours of soldiers, merchants counting their losses, priests hurrying toward promises they could not keep. Xuthar carried his small parcel without ceremony. Somewhere in the city, Morgan was waiting for a shipment that another person had not been able to deliver.",
+            "The box had no gold seal. Nothing about its contents suggested destiny. That was precisely why he guarded it so carefully. In a world where every war asked for the sacrifice of ordinary people, the ordinary errand was a quiet act of resistance.",
+            "As the towers appeared beyond the last stretch of road, he pictured windows lighting one by one. A candle could not reveal every truth. It could not hold back the Shadow forever. But it might give a stranger enough time to finish a letter, or mend a sleeve, or remember a home they were afraid of forgetting.",
+            "When his footsteps crossed the stone of Stormwind, Xuthar did not imagine a triumphal procession. He imagined one small flame placed on a table, and another night made bearable."
           ]
         },
         {
@@ -539,12 +588,12 @@
           "title": "The Last Light Before Sleep",
           "kind": "reported",
           "paragraphs": [
-            "Stormwind had been all stone, stairs, storefronts and tall windows; the evening left its memory in the weight of small errands. Xuthar had spoken with people in the city, including the Gallina contact mentioned in the field report, and delivered several quests among the shops. The exact names and rewards of those later deliveries remain unrecorded.",
-            "There was a change that would outlast the day's coins and experience. Herbalism was set aside. In its place Xuthar learned Tailoring and Enchanting, two crafts that seemed suited to a priest travelling with little: cloth to mend, and quiet power woven into objects. He also learned Fishing. Those profession choices are confirmed by the player's own account; no profession skill ranks have yet been recorded.",
-            "In the photographs, the road turned inward again. Orange torchlight traced a stone tunnel; the way back passed guarded walkways, trees and the statues of Stormwind. The Last Witness departed not with a triumphal procession but with the ordinary steps of a traveller who wanted somewhere to rest.",
+            "Stormwind had been all stone, stairs, storefronts and tall windows; the evening left its memory in the weight of small errands. Xuthar passed through shops, carried messages and attended to the concerns of people whose lives went on while kingdoms made their speeches. Among the names was Gallina's, another ordinary fragment to be kept in his ledger.",
+            "A choice made that day would outlast its coins. He set aside Herbalism and turned toward Tailoring and Enchanting, two crafts suited to a priest travelling with little: cloth to mend, and quiet power woven into objects. Fishing, too, joined his new disciplines. He could not learn every trade of the world, but he might choose those that made his hands useful.",
+            "The road bent inward again. Orange torchlight traced a stone tunnel; the way back passed guarded walkways, trees and the statues of Stormwind. He left the capital not with a triumphal procession but with the ordinary steps of a traveller who wanted somewhere to rest.",
             "Beyond the city the weather changed. Rain drew thin bright strokes through the night. Wet cobbles led him back toward the blue roofs of Goldshire, where scattered travellers still moved beneath the lanterns. The world had not become less dangerous; it had only grown quieter.",
-            "He returned to the Lion's Pride Inn. The last photograph shows him lying on an upstairs bed, the blue canopy stretched above him. For the game record, it proves a place and a pose; no logout, rested-experience gain, or new quest completion is inferred from it.",
-            "In the fictional thoughts of Xuthar Morvayne, the silence after the day's noise was almost a language. He remembered a wounded guard, the dust of Fargodeep Mine, the smell of ink and merchants' counters, and the deep water beneath Stormwind's bridges. Somewhere outside, rain kept falling. He did not need to remember every word spoken that day to know why he would rise again.",
+            "He returned to the Lion's Pride Inn. Upstairs, beneath the soft blue canopy of a bed, the weight of the day finally settled across him. He was not thinking of glory. He was thinking of the comfort of a roof and the kindness of having survived long enough to sleep.",
+            "The silence after the day's noise was almost a language. He remembered the guard beside the water, the dust of Fargodeep Mine, the smell of ink and merchants' counters, and the deep canals beneath Stormwind's bridges. Somewhere outside, rain kept falling. He did not need to remember every word spoken that day to understand why he would rise again.",
             "The Last Witness closed his eyes. Tomorrow could remain unwritten until it came."
           ]
         },
@@ -567,10 +616,10 @@
           "kind": "reported",
           "paragraphs": [
             "The rain had accompanied the last journey home. The second day of Xuthar Morvayne's chronicle begins not with a victory, but with a fresh look at the roads still asking for his attention.",
-            "On 6 November, the first supplied in-game quest tracker showed three unfinished tasks: The Jasperlode Mine (quest level 10), Rare Books (Elite, quest level 7+) and Further Concerns (quest level 10). The objective list appeared at interface coordinates 43.3, 65.9. No new character level is visible; level eight remains the last confirmed milestone.",
+            "Morning brought back the unfinished responsibilities of the road: Jasperlode's uncertain tunnels, two rare books that had gone missing, and Marshal Dughan's concerns that must be carried to Guard Thomas. Xuthar had slept, but the world had not ceased asking for help.",
             "Far away lay Jasperlode's dark tunnels. Two books remained unfound: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words, both shown as zero of one. Elsewhere, Guard Thomas still awaited the conversation requested by Marshal Dughan.",
             "In the literary voice of the Last Witness: 'Not every summons asks for strength. Some ask for attention; others for the patience to arrive.'",
-            "Field record: the screenshot confirms only those three visible active quests. The zone name, subsequent travel, combat, hand-ins and further skill progression are unknown. We will write them only when they happen."
+            "He fastened the ledger and stepped toward daylight. A journey did not always announce its next trial. More often it waited, patient and ordinary, beyond the first bend."
           ],
           "link": "journal.html#xuthar-day-two-opening"
         },
@@ -592,13 +641,13 @@
           "kind": "reported",
           "paragraphs": [
             "The rain of the previous night was only a memory on the road out of Goldshire. By afternoon Xuthar was standing beside a pale canvas tent and a small fire. Other travellers wandered through the trees; Sam Sarsparilla stood at the entrance to the camp. The priest had not yet found a reason to hurry.",
-            "By the next photograph, a tiny camera icon had appeared beside the minimap. The tooltip read Xuthar Camera, and the chat reported that a screenshot had been saved. Now this quiet place, too, could become a page in the Chronicles.",
-            "At Crystal Lake, water opened under the autumn-coloured trees. The dock was busy with anglers and visitors; Lee Brown stood by the boards. Two new errands had entered the quest log: A Net Disaster, asking for seven Half-Eaten Fish, and Bottles and Baubles, asking for six Shiny Junk. Their acceptance is visible in the chat at about 15:12.",
+            "A small camera charm now accompanied his travels, a means of holding a scene in memory when words would not come. Xuthar glanced once at the curious device, then turned his attention back to the trees. He had carried too many forgotten names to trust any single way of remembering.",
+            "At Crystal Lake, water opened under the autumn-coloured trees. The dock was busy with anglers and visitors; Lee Brown stood by the boards. Two new troubles drew Xuthar's attention: fish left half-eaten in the shallows, and small pieces of bright refuse scattered where they should not have been. Someone needed them gathered, and the shore offered no easy answers.",
             "Xuthar cast his line along the grassy shore. The bobbers lay across the shallows, and other fishers watched the water. For a while the world was all reeds, wood and little circles spreading on the lake.",
-            "But the shores were no refuge from danger. By 15:27 the screenshot showed a level-seven Murloc directly before him. The quest tracker recorded four of six Shiny Junk and two of seven Half-Eaten Fish; Camping 101: Fishing was now ready for turn-in, while the Enchanting and Tailoring training errands remained open.",
-            "A separate retrospective diary view from 6 November tells of a fight against two Murlocs from which Xuthar escaped with only three percent health. The same view mentions a death that day and says a Murloc Streamrunner has killed him twice, but does not provide timestamps for both Streamrunner deaths. The photograph of a Murloc at 15:27 is not enough to identify it as the exact same near-death encounter.",
-            "For the Last Witness in the fictional telling, even a stolen scrap or a half-eaten fish might become testimony: a tiny remnant of what somebody had done, carried away by the current. The real record is simpler. Xuthar stood by the lake, fished, gathered some quest items and faced a Murloc. No victory or completed hand-in is claimed.",
-            "The page ends where the photograph ends, with another step still to take."
+            "But the shores were no refuge from danger. A murloc emerged before him, its ragged silhouette breaking the peaceful picture of the lake. Xuthar had already gathered a little of the curious rubbish and a few fragments of fish; his training with the fishing line had begun to find its rhythm. Enchanting and Tailoring, however, still waited on his patient work.",
+            "Once, facing two murlocs, he barely escaped with the smallest remnant of his strength. The Streamrunners, creatures of the water's edge, had also taught him the price of a moment's carelessness. He did not know whether the lake was warning him away or demanding that he learn to listen.",
+            "Even a stolen scrap or a half-eaten fish might become testimony: a tiny remnant of what somebody had done, carried away by the current. Xuthar stood by the lake, fished, gathered what he could and faced the danger before him. He had not come to demand that the water reveal everything at once.",
+            "When he left the shore, the water kept its remaining secrets."
           ]
         },
         {
@@ -631,12 +680,12 @@
           "title": "Beyond the Shimmering Water",
           "kind": "reported",
           "paragraphs": [
-            "The small victories of Crystal Lake had not emptied the forest of its riddles. In the afternoon, a new task appeared in the record: An Enticing Offer. Six vials of animal blood, eighteen Duskweed petals — such ordinary and unsettling things to gather for a stranger's purpose. The visible tracker marked one vial collected and not a single petal.",
-            "Xuthar's other obligations still followed him: Enchanting and Tailoring to skill twenty, Jasperlode Mine to scout, two rare books yet to find, and Guard Thomas still waiting for the word of Marshal Dughan. The ledger did not explain what had become of the lake errands that had appeared earlier. Their silence was not proof of their completion.",
-            "By 15:54 the road had yielded to water. A later photograph places the priest moving through a broad stream, afternoon light scattered into amber along the surface. No map label or quest result appears. It is simply an image of a traveller crossing a river.",
-            "At 16:31, the water has become woodland again. Xuthar stands beneath tall branches, while a Forest Spider is visible ahead between the trunks. The screenshot tells us nothing of a fight or of an outcome; not every creature in the forest becomes a defeated enemy.",
-            "In the fictional reflections of the Last Witness, a river is the one page that erases its writing as soon as it is made. He leaves no footprint in the water, and yet his crossing changes the story. Somewhere beyond the trees another name may be waiting to be remembered.",
-            "Chapter XXIII closes at the forest edge. Xuthar is still level eight; the next journey and the fate of the new quest are unwritten."
+            "The small victories of Crystal Lake had not emptied the forest of its riddles. A new errand asked him to collect vials of animal blood and Duskweed petals, such ordinary and unsettling things to gather for a stranger's purpose. He carried one vial already; the petals still waited beneath the trees.",
+            "Other obligations followed him: the crafts of Enchanting and Tailoring, Jasperlode Mine to scout, rare books to find and Guard Thomas still waiting for the word of Marshal Dughan. The ledger offered no easy order in which to honour them all.",
+            "The road yielded to water. Xuthar stepped into a broad stream while afternoon light scattered into amber along the surface. The current lifted the hem of his robe. He felt the pull of the river and kept moving.",
+            "Beyond the shallows, tall branches enclosed the way again. A forest spider waited between the trunks, a patient part of the woodland that needed no priest to explain its presence.",
+            "A river was the one page that erased its writing as soon as it was made. He left no footprint in the water, and yet the crossing had changed the day. Somewhere beyond the trees another name might be waiting to be remembered.",
+            "The last trees held the light for a moment, then let the evening deepen. Xuthar walked on, the scent of wet earth following him."
           ]
         },
         {
@@ -652,6 +701,19 @@
           ]
         },
         {
+          "id": "x-quest-story-river",
+          "chapter": "Chapter XXIII · The River Keeps No Footprints",
+          "title": "What the River Refused to Return",
+          "kind": "fiction",
+          "paragraphs": [
+            "The stream carried all manner of small, neglected things: fish that had fed another creature, bright scraps of lost belongings, and the roots of plants whose names were spoken only when somebody needed them.",
+            "Xuthar bent at the water's edge and saw a thousand fragments of sky trembling across the current. A half-eaten fish, a glimmering piece of rubbish, the trace of a plant growing in the damp shadows: these were the objects a road might ask him to gather. None seemed worthy of a place in a history book.",
+            "But the lake had no opinion of worthiness. It held what fell into it: the remnants of meals, the glitter of lost possessions, roots that tasted the mud. The priest wondered which of those things had once been precious to someone. An object became important, he thought, the moment a person began looking for it.",
+            "He imagined gathering each small testimony carefully rather than merely ticking a count. The six trinkets, the fish, the vials and the petals belonged to different errands, but each asked the same question: what do people leave behind when they cross a place and cannot remain there?",
+            "The water did not answer. It never had. Xuthar rose, dried the edges of his journal and decided to keep asking. A witness, after all, was not someone who knew everything. A witness was someone who refused to stop looking."
+          ]
+        },
+        {
           "id": "x-day-two-ten-quests-field-record",
           "chapter": "Chapter XXIII · The River Keeps No Footprints",
           "title": "Ten Threads across Elwynn",
@@ -664,8 +726,21 @@
           ]
         },
         {
+          "id": "x-quest-story-lovers",
+          "chapter": "Chapter XXIV · Between the Houses",
+          "title": "An Unseen Road Between Two Houses",
+          "kind": "fiction",
+          "paragraphs": [
+            "Two households in Elwynn had guarded an old bitterness so long that their children had inherited it like a boundary wall. Love found a way to grow between the stones, and almost immediately the world asked it to hide.",
+            "The feud between two houses had survived so long that no one seemed able to explain what had begun it. The children inherited the bitterness as they inherited the fields. Every path across Elwynn led to a boundary, and every boundary had acquired a story about why it must never be crossed.",
+            "Xuthar heard of Maybell and Tommy Joe through errands that looked insignificant when written on a quest list: a note, a visit to an elder, a little kelp, an apothecary's peculiar preparation. In another person's hands they might have been nothing more than tasks. Together they formed a map of human hope.",
+            "The invisibility liquor promised no reconciliation. It could only grant a little time in which two young people might meet without being seen. Xuthar found the idea both sad and tender: that affection should have to borrow the power of magic simply to walk down a road.",
+            "He recorded no ending for the lovers. Whether their families softened, whether the night remained kind, whether courage lasted until morning—those were stories that only they could tell. The priest closed his notebook and wrote beneath their names: 'A love that must hide is still a light.'"
+          ]
+        },
+        {
           "id": "x-level-ten-armory",
-          "chapter": "Chapter XXIV · Ten Steps Toward the Light",
+          "chapter": "Chapter XXV · Ten Steps Toward the Light",
           "title": "The Tenth Threshold",
           "kind": "reported",
           "paragraphs": [
@@ -674,84 +749,6 @@
             "He remembered the first gathering at Northshire Abbey, the warmth of the Lion's Pride hearth, and the rain on the road home. Each memory belonged to a different version of the same man: the uncertain arrival, the frightened survivor, the patient keeper of names.",
             "He opened the Morvayne ledger. Its old warning was still there, written in fading letters: The last witness must not remember. Xuthar traced the words with one finger and thought of all he would have lost by obeying them.",
             "Ten thresholds were only a beginning. Beyond them lay lives not yet met, roads not yet walked, a darkness he was still learning to question. He dipped his pen and began another page."
-          ]
-        },
-        {
-          "id": "x-quest-story-echo-ridge",
-          "chapter": "Chapter XXV · The Echo Beneath the Stone",
-          "title": "What Echo Ridge Did Not Tell",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original roleplay fiction inspired by the Blizzard-completed missions Kobold Camp Cleanup (7), Investigate Echo Ridge (15), and Skirmish at Echo Ridge (21). The mine's atmosphere, the imagined words and the sequence below are literary inventions, not a reconstruction of the player's exact combat or quest order.",
-            "From the mouth of the mine, the earth seemed to breathe with another creature's lungs. Xuthar heard the tapping of picks before he saw the flicker of torchlight. The kobolds had dug passages beneath a mountain that no longer felt certain of itself, and the darkness gave back every sound twice.",
-            "A younger priest might have called the place a nest of monsters. Xuthar could not ignore the buckets, the tired tools, the hurried marks scratched into the stone. Fear and cruelty were not the same thing, although fear could become cruel when it held a weapon. The road had asked him to oppose the threat; his journal asked him what had caused it.",
-            "At the last bend, where the mine narrowed into shadow, he touched his finger to a seam of cold rock. He imagined the mountain remembering every hand that had struck it. He had come to drive danger away from Northshire. He left with a more troubling question: who would remember those who had never learned any other home?",
-            "And in the book he carried beside the cloth and the needle, he wrote: 'An echo is only a voice the world has refused to let die.'"
-          ]
-        },
-        {
-          "id": "x-quest-story-vineyards",
-          "chapter": "Chapter XXVI · Grapes Under a Borrowed Sky",
-          "title": "The Harvest the Thieves Could Not Keep",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original fiction inspired by Brotherhood of Thieves (18), Milly's Harvest (3904), and Grape Manifest (3905), which appear as completed in Blizzard's profile. The real in-game diary separately documents a near-fatal Defias encounter; this fictional scene does not claim to depict that particular fight.",
-            "Northshire Vineyards should have smelled of summer, even in November. The vines held the memory of ripening fruit in their empty branches. Between the rows, people had learned to walk quietly, because the Defias had begun to mistake every man's labour for something they were owed.",
-            "Milly did not ask Xuthar to become a hero. She asked whether he knew what it meant to watch a season disappear into someone else's hands. He thought of the monastery ledgers, of names recorded without their hunger or weariness. He promised no miracle. He only told her that a harvest deserved to belong to the hands that had tended it.",
-            "The grape manifest seemed an absurdly small conclusion to such trouble: an inventory, a signature, an ordinary piece of paper. Yet when it reached its proper destination, Xuthar imagined that it carried more than fruit. It carried proof that a woman had worked, that her work had mattered, and that a gang of thieves had not managed to erase her.",
-            "At dusk he closed the ledger without writing the thieves' names first. This was Milly's story. Let her name stand at the beginning."
-          ]
-        },
-        {
-          "id": "x-quest-story-candles",
-          "chapter": "Chapter XXVII · Light for the City",
-          "title": "Candles for a Distant Window",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original fiction inspired by Kobold Candles (60) and Shipment to Stormwind (61), both recorded complete by Blizzard. The latter's delivery and the player's arrival in Stormwind are independently documented, but the invented dialogue and thoughts below are literary.",
-            "The roads between Goldshire and Stormwind were full of grander things than a box of candles: rumours of soldiers, merchants counting their losses, priests hurrying toward promises they could not keep. Xuthar carried his small parcel without ceremony. Somewhere in the city, Morgan was waiting for a shipment that another person had not been able to deliver.",
-            "The box had no gold seal. Nothing about its contents suggested destiny. That was precisely why he guarded it so carefully. In a world where every war asked for the sacrifice of ordinary people, the ordinary errand was a quiet act of resistance.",
-            "As the towers appeared beyond the last stretch of road, he pictured windows lighting one by one. A candle could not reveal every truth. It could not hold back the Shadow forever. But it might give a stranger enough time to finish a letter, or mend a sleeve, or remember a home they were afraid of forgetting.",
-            "When his footsteps crossed the stone of Stormwind, Xuthar did not imagine a triumphal procession. He imagined one small flame placed on a table, and another night made bearable."
-          ]
-        },
-        {
-          "id": "x-quest-story-garments",
-          "chapter": "Chapter XXVIII · The Needle and the Light",
-          "title": "The Light That Did Not Demand Belief",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original fiction inspired by the priest missions In Favor of the Light (5623) and Garments of the Light (5624). The player screenshots confirm the latter completion and the Friar's Robes of the Light reward. The interior monologue below is invented roleplay, not Blizzard canon.",
-            "The robe did not feel like a victory. It was only cloth, carefully made, and yet its seams seemed to demand that Xuthar remember what he had once believed. He had learned to question the promises of the Light, but he had not forgotten how to answer another person's pain.",
-            "He recalled the lesson as though it were spoken beside a quiet hearth: heal first; ask about deserving later. No revelation had descended to reward him. No prophecy had named him necessary. What remained was the smaller, harder discipline of kindness without certainty.",
-            "His new garment was green by the reckoning of adventurers. To Xuthar it was the colour of the space between two convictions. He could wear it without surrendering his doubts, just as he could keep his needle and repair a tear without claiming to repair the world.",
-            "That night, beneath the fold of the robe, he wrote a single line in his journal: 'Mercy has never asked me to be right. It only asks that I do not turn away.'"
-          ]
-        },
-        {
-          "id": "x-quest-story-lovers",
-          "chapter": "Chapter XXIX · The Road No One Was Allowed to Walk",
-          "title": "An Unseen Road Between Two Houses",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original fiction inspired by Young Lovers (106), Note to William (107), Speak with Gramma (111), Collecting Kelp (112), and The Escape (114), all marked complete by Blizzard. The objective to carry an invisibility liquor to Maybell also appears in the player's quest tracker. This tale is not a record of Xuthar meeting the lovers in person.",
-            "The feud between two houses had survived so long that no one seemed able to explain what had begun it. The children inherited the bitterness as they inherited the fields. Every path across Elwynn led to a boundary, and every boundary had acquired a story about why it must never be crossed.",
-            "Xuthar heard of Maybell and Tommy Joe through errands that looked insignificant when written on a quest list: a note, a visit to an elder, a little kelp, an apothecary's peculiar preparation. In another person's hands they might have been nothing more than tasks. Together they formed a map of human hope.",
-            "The invisibility liquor promised no reconciliation. It could only grant a little time in which two young people might meet without being seen. Xuthar found the idea both sad and tender: that affection should have to borrow the power of magic simply to walk down a road.",
-            "He recorded no ending for the lovers. Whether their families softened, whether the night remained kind, whether courage lasted until morning—those were stories that only they could tell. The priest closed his notebook and wrote beneath their names: 'A love that must hide is still a light.'"
-          ]
-        },
-        {
-          "id": "x-quest-story-river",
-          "chapter": "Chapter XXX · Small Things Found in Water",
-          "title": "What the River Refused to Return",
-          "kind": "fiction",
-          "paragraphs": [
-            "EDITORIAL NOTE · Original fiction inspired by A Net Disaster (99127), An Enticing Offer (99130), and Bottles and Baubles (99143), all now returned as completed by Blizzard. Earlier player screenshots show their objectives and partial progress at Crystal Lake. Completion dates, exact turns-in and the scene below are not established by the screenshots.",
-            "Xuthar bent at the water's edge and saw a thousand fragments of sky trembling across the current. A half-eaten fish, a glimmering piece of rubbish, the trace of a plant growing in the damp shadows: these were the objects a road might ask him to gather. None seemed worthy of a place in a history book.",
-            "But the lake had no opinion of worthiness. It held what fell into it: the remnants of meals, the glitter of lost possessions, roots that tasted the mud. The priest wondered which of those things had once been precious to someone. An object became important, he thought, the moment a person began looking for it.",
-            "He imagined gathering each small testimony carefully rather than merely ticking a count. The six trinkets, the fish, the vials and the petals belonged to different errands, but each asked the same question: what do people leave behind when they cross a place and cannot remain there?",
-            "The water did not answer. It never had. Xuthar rose, dried the edges of his journal and decided to keep asking. A witness, after all, was not someone who knew everything. A witness was someone who refused to stop looking."
           ]
         },
         {

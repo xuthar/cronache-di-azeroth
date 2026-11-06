@@ -49,7 +49,7 @@
           <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 8 ↗</a></div>
           <p class="first-night-fine">Screenshots confirm levels seven and eight, Garments of the Light (270 XP and Friar’s Robes of the Light), and Shipment to Stormwind (800 XP). Two deaths in Fargodeep Mine and Stormwind arrival are documented. Some later Stormwind quest deliveries are player-reported but their exact titles and rewards remain unknown; the 20:24 quest tracker is historical. The final photographs show rain outside Goldshire and Xuthar resting in a bed. Literary imagery remains original fiction.</p>
         </div>
-        <figure class="first-night-figure"><img src="assets/images/gallery/stormwind-midnight.jpg" alt="Moody fantasy city under a dark sky, illustrative cover art" loading="lazy"><figcaption>Atmospheric archive artwork · Not a screenshot from this session</figcaption></figure>
+        <figure class="first-night-figure first-night-figure--original"><a href="gallery.html#xuthar-day-one-photos" aria-label="Open Xuthar’s original screenshots"><img src="assets/images/forever-screenshots/day-01/202433.jpg" width="1920" height="1080" alt="Original screenshot: Xuthar stands on the wooden dock by the Stormwind canal" loading="lazy"><figcaption>ORIGINAL GAMEPLAY · STORMWIND, 5 NOVEMBER 2026 · OPEN PHOTO CHRONICLE ↗</figcaption></a></figure>
       </div>`;
     hero.insertAdjacentElement('afterend',section);
     section.insertAdjacentElement('beforebegin',dayTwoPanel());

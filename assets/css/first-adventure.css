@@ -178,3 +178,40 @@
 .first-night-figure--original>a>img{width:100%;height:100%;object-fit:contain;object-position:center;filter:none;transform:none}
 .first-night-figure--original:after{display:none}
 .first-night-figure--original figcaption{bottom:0;left:0;right:0;padding:18px 16px 12px;background:linear-gradient(0deg,#091321e8,#09132100);font-weight:700;letter-spacing:.04em}
+
+
+/* Original-photo guard — 6 Nov 2026.
+   Never stretch a 16:9 gameplay capture to match the height of adjacent text. */
+.azeroth-launcher .first-night .first-night-visuals{
+  display:flex;flex-direction:column;align-self:center;gap:14px;min-width:0;width:100%;max-width:100%;overflow:hidden
+}
+.azeroth-launcher .first-night .first-night-figure--original{
+  position:relative;display:block;align-self:auto;width:100%;height:auto;min-height:0;max-height:none;aspect-ratio:16 / 9;overflow:hidden;margin:0
+}
+.azeroth-launcher .first-night .first-night-figure--original>a{
+  position:relative;display:block;width:100%;height:auto;aspect-ratio:16 / 9;overflow:hidden
+}
+.azeroth-launcher .first-night .first-night-figure--original img{
+  display:block;width:100%;height:auto;max-width:100%;aspect-ratio:16 / 9;object-fit:contain;object-position:center;image-rendering:auto;filter:none;transform:none
+}
+.azeroth-launcher .first-night .first-night-photo-pair{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0
+}
+.azeroth-launcher .first-night .first-night-photo-mini{
+  min-width:0;display:block;overflow:hidden;background:#0d1724;border:1px solid #bea27770;border-radius:5px;text-decoration:none;color:#ead7b2
+}
+.azeroth-launcher .first-night .first-night-photo-mini img{
+  display:block;width:100%;height:auto;aspect-ratio:16 / 9;object-fit:contain;object-position:center;image-rendering:auto;filter:none;transform:none
+}
+.azeroth-launcher .first-night .first-night-photo-mini span{
+  display:block;padding:10px 12px;font:700 .68rem/1.4 system-ui;letter-spacing:.03em
+}
+.azeroth-launcher .first-night .first-night-photo-mini:hover,.azeroth-launcher .first-night .first-night-photo-mini:focus-visible{
+  outline:2px solid #edcc91;outline-offset:-2px
+}
+@media(max-width:820px){
+ .azeroth-launcher .first-night .first-night-visuals{order:-1;align-self:stretch}
+}
+@media(max-width:460px){
+ .azeroth-launcher .first-night .first-night-photo-pair{grid-template-columns:1fr}
+}

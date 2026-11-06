@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-day-two-crystal-lake-fishing",
+      "status": "level-8-day-two-enticing-offer-woodland",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -644,14 +644,42 @@
           ]
         },
         {
+          "id": "x-day-two-river-and-woods",
+          "chapter": "Chapter XXIII · The River Keeps No Footprints",
+          "title": "Beyond the Shimmering Water",
+          "kind": "reported",
+          "paragraphs": [
+            "The small victories of Crystal Lake had not emptied the forest of its riddles. In the afternoon, a new task appeared in the record: An Enticing Offer. Six vials of animal blood, eighteen Duskweed petals — such ordinary and unsettling things to gather for a stranger's purpose. The visible tracker marked one vial collected and not a single petal.",
+            "Xuthar's other obligations still followed him: Enchanting and Tailoring to skill twenty, Jasperlode Mine to scout, two rare books yet to find, and Guard Thomas still waiting for the word of Marshal Dughan. The ledger did not explain what had become of the lake errands that had appeared earlier. Their silence was not proof of their completion.",
+            "By 15:54 the road had yielded to water. A later photograph places the priest moving through a broad stream, afternoon light scattered into amber along the surface. No map label or quest result appears. It is simply an image of a traveller crossing a river.",
+            "At 16:31, the water has become woodland again. Xuthar stands beneath tall branches, while a Forest Spider is visible ahead between the trunks. The screenshot tells us nothing of a fight or of an outcome; not every creature in the forest becomes a defeated enemy.",
+            "In the fictional reflections of the Last Witness, a river is the one page that erases its writing as soon as it is made. He leaves no footprint in the water, and yet his crossing changes the story. Somewhere beyond the trees another name may be waiting to be remembered.",
+            "Chapter XXIII closes at the forest edge. Xuthar is still level eight; the next journey and the fate of the new quest are unwritten."
+          ]
+        },
+        {
+          "id": "x-day-two-enticing-field-record",
+          "chapter": "Field Record · 6 November 2026 · 15:36–16:31",
+          "title": "An Enticing Offer · The River and the Forest Spider",
+          "kind": "reported",
+          "paragraphs": [
+            "Evidence: three player-uploaded screenshots: image(20261106-153654).png (343×418 quest-tracker crop at 15:36), WoWScrnShot_110626_155448.jpg (1920×1080 river scene at 15:54), and WoWScrnShot_110626_163117.jpg (1920×1080 woodland at 16:31).",
+            "Quest tracker at displayed 39.9, 80.1: An Enticing Offer [7] in progress, 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. The zone name is not shown in the crop.",
+            "Other visible objectives: Camping 101: Enchanting [6] and Tailoring [6], each raise skill to 20; The Jasperlode Mine [10], scout the mine; Rare Books (Elite) [7+], both required books 0/1; Further Concerns [10], speak with Guard Thomas.",
+            "The previous Crystal Lake tracker at 15:27 had shown Bottles and Baubles at 4/6 Shiny Junk, A Net Disaster at 2/7 Half-Eaten Fish, and Camping 101: Fishing ready for turn-in. None of those is visible in the 15:36 crop. This does NOT prove they were turned in, abandoned or completed.",
+            "At 15:54 Xuthar is shown moving through a river with bright sunlight reflecting on the water; no quest UI appears. At 16:31 he is seen in a wooded landscape with Forest Spider visible in the distance; no combat completion or kill is shown.",
+            "Character level remains last confirmed 8. The quest-level numbers 7, 6, 10 and 7+ are not the character level. These images are preserved as user-supplied originals but are not yet uploaded as binary photos to the public website."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Road Beyond Crystal Lake",
+          "title": "The Unfinished Offer",
           "kind": "pending",
           "paragraphs": [
-            "At the latest documented milestone on 6 November, Xuthar Morvayne remains a level-eight Human Priest near Crystal Lake. He has seven visible quests in progress and Camping 101: Fishing ready for turn-in. No new hand-in, level-up or map departure is claimed.",
-            "Four retrospective diary screenshots now preserve his earlier near-death escapes, the name Sandriana, his first green-quality robes and first bag, and a separate sixth-of-November Murloc close call. The detailed evidence appears in the corresponding field records.",
-            "The living chronicle will continue only when new game screenshots or player reports confirm the next action. The original diary PNGs remain conversation evidence and are not yet hosted as public website images."
+            "The last supplied outdoor image from 6 November shows level-eight Xuthar in Elwynn Forest, where a Forest Spider is visible among the trees. A previous screenshot showed him crossing a river, and the 15:36 quest tracker recorded An Enticing Offer at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal.",
+            "Six quests are visible in the latest readable tracker. Older Crystal Lake quests are no longer shown but their completion, turn-in or abandonment is unverified. No level-up or Forest Spider kill is claimed.",
+            "The Last Witness will write the next page when the player confirms the next action."
           ],
           "link": "chronicle.html"
         }

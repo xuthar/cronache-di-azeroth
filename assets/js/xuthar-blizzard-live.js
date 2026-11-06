@@ -4,7 +4,6 @@
   'use strict';
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
   const armory='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
-  const dataLink='https://github.com/xuthar/cronache-di-azeroth/blob/live-blizzard/forever-progress.json';
   const page=document.body.dataset.page;
   if(!['home','xuthar'].includes(page))return;
 
@@ -98,10 +97,11 @@
     }
     const detail=elem('p','blizz-live-meta','Data source: verified Blizzard EU API · daily around 08:21 UTC. Waiting for published profile.');
     const links=elem('div','blizz-live-links');
-    for(const [href,caption] of [[armory,'Official character Armory ↗'],[dataLink,'View published API snapshot ↗']]){
-      const a=elem('a','',caption);
-      a.href=href;a.target='_blank';a.rel='noopener noreferrer';links.append(a);
-    }
+    const officialLink=elem('a','','Official character Armory ↗');
+    officialLink.href=armory;
+    officialLink.target='_blank';
+    officialLink.rel='noopener noreferrer';
+    links.append(officialLink);
     const activity=elem('div','blizz-live-activity');
     section.append(top,stats,activity,detail,links);
     return {section,tag,values,detail,activity};

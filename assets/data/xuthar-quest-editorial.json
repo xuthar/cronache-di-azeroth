@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-06",
+  "language": "en",
+  "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay.",
+  "objectives": [
+    {
+      "id": 6,
+      "objective": "Bring Garrick Padfoot to justice after his attacks on Northshire farmers and merchants.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 7,
+      "objective": "Clear the kobolds occupying the northern Northshire woods.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 15,
+      "objective": "Investigate the kobold camp at Echo Ridge Mine.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 18,
+      "objective": "Confront the Defias Brotherhood thieves threatening Northshire.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 21,
+      "objective": "Help clear the Echo Ridge Mine kobolds.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 33,
+      "objective": "Collect the tough wolf meat requested in Northshire.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 35,
+      "objective": "Report to Guard Thomas at the eastern Elwynn bridge.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 47,
+      "objective": "Collect Gold Dust from the local kobolds.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 54,
+      "objective": "Report to Goldshire regarding the safety of Northshire and Elwynn.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 60,
+      "objective": "Gather large candles sought by the apothecary.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 61,
+      "objective": "Carry the candle shipment to Morgan in Stormwind.",
+      "source": "quest-briefing-and-player-screenshot"
+    },
+    {
+      "id": 62,
+      "objective": "Investigate the kobold-infested Fargodeep Mine.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 76,
+      "objective": "Scout the Jasperlode Mine and report your findings.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 84,
+      "objective": "Deliver the pie to Billy Maclure.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 85,
+      "objective": "Help recover Bernice's missing necklace.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 86,
+      "objective": "Arrange a pie for Billy to learn what happened to the necklace.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 87,
+      "objective": "Recover Bernice's Necklace from Goldtooth.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 88,
+      "objective": "Obtain the Brass Collar from the pig named Princess.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 106,
+      "objective": "Help the young lovers separated by the rival Stonefield and Maclure families.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 107,
+      "objective": "Bring the note to William Pestle at the Lion's Pride Inn.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 111,
+      "objective": "Speak with Gramma about the separated young lovers.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 112,
+      "objective": "Collect the kelp needed for an invisibility liquor.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 114,
+      "objective": "Take the Invisibility Liquor to Maybell Maclure.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 2158,
+      "objective": "Rest and recover at the Lion's Pride Inn in Goldshire.",
+      "source": "player-screenshot-and-quest-briefing"
+    },
+    {
+      "id": 3903,
+      "objective": "Find and speak with Milly Osworth about the Northshire vineyard trouble.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 3904,
+      "objective": "Recover Milly Osworth's grape harvest from the Defias in Northshire.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 3905,
+      "objective": "Bring the Grape Manifest to Brother Neals.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 5624,
+      "objective": "Complete the priest's trial of the Light, which rewarded the Friar's Robes of the Light.",
+      "source": "player-screenshot-confirmed-reward"
+    },
+    {
+      "id": 91743,
+      "objective": "Recover books damaged or taken by kobolds in Northshire.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 91745,
+      "objective": "Speak with mining apprentice Kelsey Fargo outside the mine.",
+      "source": "quest-briefing"
+    },
+    {
+      "id": 99127,
+      "objective": "Collect seven Half-Eaten Fish.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 99130,
+      "objective": "Collect six Vials of Animal Blood and eighteen Duskweed Petals.",
+      "source": "player-screenshot"
+    },
+    {
+      "id": 99143,
+      "objective": "Collect six Shiny Junk items.",
+      "source": "player-screenshot"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "echo-ridge-ash",
+      "title": "What Echo Ridge Did Not Tell",
+      "subtitle": "An expedition beneath the mountain",
+      "questIds": [
+        7,
+        15,
+        21
+      ],
+      "bookAnchor": "x-quest-story-echo-ridge",
+      "teaser": "The kobolds called the mine their home. The priest heard something different in the noise of the picks: a warning that the mountain had been opened too deeply."
+    },
+    {
+      "id": "the-stolen-harvest",
+      "title": "The Harvest the Thieves Could Not Keep",
+      "subtitle": "Northshire Vineyards",
+      "questIds": [
+        18,
+        3904,
+        3905
+      ],
+      "bookAnchor": "x-quest-story-vineyards",
+      "teaser": "A woman who had planted grapes was left to bargain with men who had never planted anything. Xuthar could not rescue the summer, but he could save the record of its harvest."
+    },
+    {
+      "id": "candles-to-stormwind",
+      "title": "Candles for a Distant Window",
+      "subtitle": "From Elwynn to the canals of Stormwind",
+      "questIds": [
+        60,
+        61
+      ],
+      "bookAnchor": "x-quest-story-candles",
+      "teaser": "Between the forest and the great city a box of humble candles passed from one pair of hands to another. Not every precious light burns in a chapel."
+    },
+    {
+      "id": "the-cloth-of-mercy",
+      "title": "The Light That Did Not Demand Belief",
+      "subtitle": "A priest's trial",
+      "questIds": [
+        5623,
+        5624
+      ],
+      "bookAnchor": "x-quest-story-garments",
+      "teaser": "The Light asked for a simple gesture, not a declaration. Xuthar discovered that compassion might outlive certainty."
+    },
+    {
+      "id": "the-unseen-lover",
+      "title": "An Unseen Road Between Two Houses",
+      "subtitle": "Elwynn's separated lovers",
+      "questIds": [
+        106,
+        107,
+        111,
+        112,
+        114
+      ],
+      "bookAnchor": "x-quest-story-lovers",
+      "teaser": "Two households had turned affection into a feud. A borrowed bottle of invisibility did not mend their bitterness, but it could keep a meeting possible."
+    },
+    {
+      "id": "river-glass",
+      "title": "What the River Refused to Return",
+      "subtitle": "The Crystal Lake errands",
+      "questIds": [
+        99127,
+        99130,
+        99143
+      ],
+      "bookAnchor": "x-quest-story-river",
+      "teaser": "The lake yielded half-eaten fish, broken trinkets and strange ingredients. Every object was evidence that the water had kept someone else's story."
+    }
+  ]
+}

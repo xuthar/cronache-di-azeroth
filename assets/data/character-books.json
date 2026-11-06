@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-10-armory-link-supplied",
+      "status": "level-10-verified-quest-archive-six-fiction-chapters",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -697,6 +697,84 @@
             "On 6 November 2026 at 20:40 UTC, an authorized read-only GitHub Actions probe obtained a Blizzard OAuth token (HTTP 200) and fetched the EU Forever profile (HTTP 200). It verified the name Xuthar Morvayne and level 10. The separate automatic importer remains disabled, and no quest, gear, profession or achievement details have been synchronized.",
             "The latest verified quest snapshot remains the 18:41 screenshot with ten active missions. No missions are marked completed merely because Xuthar gained a level.",
             "In the fictional voice of the Last Witness: 'To leave a name among the records is not to be remembered. Memory begins when someone opens the book.'"
+          ]
+        },
+        {
+          "id": "x-quest-story-echo-ridge",
+          "chapter": "Chapter XXV · The Echo Beneath the Stone",
+          "title": "What Echo Ridge Did Not Tell",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original roleplay fiction inspired by the Blizzard-completed missions Kobold Camp Cleanup (7), Investigate Echo Ridge (15), and Skirmish at Echo Ridge (21). The mine's atmosphere, the imagined words and the sequence below are literary inventions, not a reconstruction of the player's exact combat or quest order.",
+            "From the mouth of the mine, the earth seemed to breathe with another creature's lungs. Xuthar heard the tapping of picks before he saw the flicker of torchlight. The kobolds had dug passages beneath a mountain that no longer felt certain of itself, and the darkness gave back every sound twice.",
+            "A younger priest might have called the place a nest of monsters. Xuthar could not ignore the buckets, the tired tools, the hurried marks scratched into the stone. Fear and cruelty were not the same thing, although fear could become cruel when it held a weapon. The road had asked him to oppose the threat; his journal asked him what had caused it.",
+            "At the last bend, where the mine narrowed into shadow, he touched his finger to a seam of cold rock. He imagined the mountain remembering every hand that had struck it. He had come to drive danger away from Northshire. He left with a more troubling question: who would remember those who had never learned any other home?",
+            "And in the book he carried beside the cloth and the needle, he wrote: 'An echo is only a voice the world has refused to let die.'"
+          ]
+        },
+        {
+          "id": "x-quest-story-vineyards",
+          "chapter": "Chapter XXVI · Grapes Under a Borrowed Sky",
+          "title": "The Harvest the Thieves Could Not Keep",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original fiction inspired by Brotherhood of Thieves (18), Milly's Harvest (3904), and Grape Manifest (3905), which appear as completed in Blizzard's profile. The real in-game diary separately documents a near-fatal Defias encounter; this fictional scene does not claim to depict that particular fight.",
+            "Northshire Vineyards should have smelled of summer, even in November. The vines held the memory of ripening fruit in their empty branches. Between the rows, people had learned to walk quietly, because the Defias had begun to mistake every man's labour for something they were owed.",
+            "Milly did not ask Xuthar to become a hero. She asked whether he knew what it meant to watch a season disappear into someone else's hands. He thought of the monastery ledgers, of names recorded without their hunger or weariness. He promised no miracle. He only told her that a harvest deserved to belong to the hands that had tended it.",
+            "The grape manifest seemed an absurdly small conclusion to such trouble: an inventory, a signature, an ordinary piece of paper. Yet when it reached its proper destination, Xuthar imagined that it carried more than fruit. It carried proof that a woman had worked, that her work had mattered, and that a gang of thieves had not managed to erase her.",
+            "At dusk he closed the ledger without writing the thieves' names first. This was Milly's story. Let her name stand at the beginning."
+          ]
+        },
+        {
+          "id": "x-quest-story-candles",
+          "chapter": "Chapter XXVII · Light for the City",
+          "title": "Candles for a Distant Window",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original fiction inspired by Kobold Candles (60) and Shipment to Stormwind (61), both recorded complete by Blizzard. The latter's delivery and the player's arrival in Stormwind are independently documented, but the invented dialogue and thoughts below are literary.",
+            "The roads between Goldshire and Stormwind were full of grander things than a box of candles: rumours of soldiers, merchants counting their losses, priests hurrying toward promises they could not keep. Xuthar carried his small parcel without ceremony. Somewhere in the city, Morgan was waiting for a shipment that another person had not been able to deliver.",
+            "The box had no gold seal. Nothing about its contents suggested destiny. That was precisely why he guarded it so carefully. In a world where every war asked for the sacrifice of ordinary people, the ordinary errand was a quiet act of resistance.",
+            "As the towers appeared beyond the last stretch of road, he pictured windows lighting one by one. A candle could not reveal every truth. It could not hold back the Shadow forever. But it might give a stranger enough time to finish a letter, or mend a sleeve, or remember a home they were afraid of forgetting.",
+            "When his footsteps crossed the stone of Stormwind, Xuthar did not imagine a triumphal procession. He imagined one small flame placed on a table, and another night made bearable."
+          ]
+        },
+        {
+          "id": "x-quest-story-garments",
+          "chapter": "Chapter XXVIII · The Needle and the Light",
+          "title": "The Light That Did Not Demand Belief",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original fiction inspired by the priest missions In Favor of the Light (5623) and Garments of the Light (5624). The player screenshots confirm the latter completion and the Friar's Robes of the Light reward. The interior monologue below is invented roleplay, not Blizzard canon.",
+            "The robe did not feel like a victory. It was only cloth, carefully made, and yet its seams seemed to demand that Xuthar remember what he had once believed. He had learned to question the promises of the Light, but he had not forgotten how to answer another person's pain.",
+            "He recalled the lesson as though it were spoken beside a quiet hearth: heal first; ask about deserving later. No revelation had descended to reward him. No prophecy had named him necessary. What remained was the smaller, harder discipline of kindness without certainty.",
+            "His new garment was green by the reckoning of adventurers. To Xuthar it was the colour of the space between two convictions. He could wear it without surrendering his doubts, just as he could keep his needle and repair a tear without claiming to repair the world.",
+            "That night, beneath the fold of the robe, he wrote a single line in his journal: 'Mercy has never asked me to be right. It only asks that I do not turn away.'"
+          ]
+        },
+        {
+          "id": "x-quest-story-lovers",
+          "chapter": "Chapter XXIX · The Road No One Was Allowed to Walk",
+          "title": "An Unseen Road Between Two Houses",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original fiction inspired by Young Lovers (106), Note to William (107), Speak with Gramma (111), Collecting Kelp (112), and The Escape (114), all marked complete by Blizzard. The objective to carry an invisibility liquor to Maybell also appears in the player's quest tracker. This tale is not a record of Xuthar meeting the lovers in person.",
+            "The feud between two houses had survived so long that no one seemed able to explain what had begun it. The children inherited the bitterness as they inherited the fields. Every path across Elwynn led to a boundary, and every boundary had acquired a story about why it must never be crossed.",
+            "Xuthar heard of Maybell and Tommy Joe through errands that looked insignificant when written on a quest list: a note, a visit to an elder, a little kelp, an apothecary's peculiar preparation. In another person's hands they might have been nothing more than tasks. Together they formed a map of human hope.",
+            "The invisibility liquor promised no reconciliation. It could only grant a little time in which two young people might meet without being seen. Xuthar found the idea both sad and tender: that affection should have to borrow the power of magic simply to walk down a road.",
+            "He recorded no ending for the lovers. Whether their families softened, whether the night remained kind, whether courage lasted until morning—those were stories that only they could tell. The priest closed his notebook and wrote beneath their names: 'A love that must hide is still a light.'"
+          ]
+        },
+        {
+          "id": "x-quest-story-river",
+          "chapter": "Chapter XXX · Small Things Found in Water",
+          "title": "What the River Refused to Return",
+          "kind": "fiction",
+          "paragraphs": [
+            "EDITORIAL NOTE · Original fiction inspired by A Net Disaster (99127), An Enticing Offer (99130), and Bottles and Baubles (99143), all now returned as completed by Blizzard. Earlier player screenshots show their objectives and partial progress at Crystal Lake. Completion dates, exact turns-in and the scene below are not established by the screenshots.",
+            "Xuthar bent at the water's edge and saw a thousand fragments of sky trembling across the current. A half-eaten fish, a glimmering piece of rubbish, the trace of a plant growing in the damp shadows: these were the objects a road might ask him to gather. None seemed worthy of a place in a history book.",
+            "But the lake had no opinion of worthiness. It held what fell into it: the remnants of meals, the glitter of lost possessions, roots that tasted the mud. The priest wondered which of those things had once been precious to someone. An object became important, he thought, the moment a person began looking for it.",
+            "He imagined gathering each small testimony carefully rather than merely ticking a count. The six trinkets, the fish, the vials and the petals belonged to different errands, but each asked the same question: what do people leave behind when they cross a place and cannot remain there?",
+            "The water did not answer. It never had. Xuthar rose, dried the edges of his journal and decided to keep asking. A witness, after all, was not someone who knew everything. A witness was someone who refused to stop looking."
           ]
         },
         {

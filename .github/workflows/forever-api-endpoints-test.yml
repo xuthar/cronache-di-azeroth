@@ -1,0 +1,33 @@
+name: Probe WoW Forever EU character subendpoints (read only)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/forever-api-endpoints-test.yml'
+permissions:
+  contents: read
+concurrency:
+  group: forever-eu-endpoints-probe
+  cancel-in-progress: true
+jobs:
+  probe:
+    name: Test quests, professions, equipment and other endpoints
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check probe syntax
+        run: node --check scripts/forever-api/endpoints-probe.mjs
+      - name: Query official EU profile subendpoints in read-only diagnostic mode
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          FOREVER_PROFILE_NAMESPACE: ${{ vars.FOREVER_PROFILE_NAMESPACE }}
+          FOREVER_XUTHAR_SLUG: ${{ vars.FOREVER_XUTHAR_SLUG }}
+        run: node scripts/forever-api/endpoints-probe.mjs

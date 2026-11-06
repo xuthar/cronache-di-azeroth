@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updated": "2026-11-06",
-  "editorialPolicy": "Fictional backstory is separate from player-reported or verified in-game events. Never invent gameplay progress. Append chapters only after user provides real session evidence; use chronicle chronology and preserve unknowns.",
+  "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
       "id": "xuthar",
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-10-verified-quest-archive-six-fiction-chapters",
+      "status": "living-novel-through-tenth-threshold",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -215,14 +215,13 @@
         },
         {
           "id": "x-live-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "First-night snapshot before the Defias",
+          "chapter": "Chapter VII · Where the Earth Remembers",
+          "title": "The Silence between the Pines",
           "kind": "reported",
           "paragraphs": [
-            "Player-reported gameplay, from screenshots and the traveller's own notes: Xuthar Morvayne entered Forever as a Human Priest on the Roleplay ruleset. The launch login screen showed queue position 524. His first arrival was at Northshire Abbey among a large crowd of players.",
-            "During this first session he fought wolves after reaching level 2; reached level 3 at Marshal McBride; saw the Hallowed Letter and Investigate Echo Ridge quests; and confirmed that he found the Priest trainer.",
-            "The latest shared Echo Ridge screenshot showed Rascally Rodents 5/8 Stolen Books, Investigate Echo Ridge 5/10 Kobold Workers, and Brotherhood of Thieves 0/12 Red Burlap Bandanas. Those objectives were still in progress at the time of that image.",
-            "The dialogue, thoughts, symbols and imagery in the preceding chapter are original roleplay fiction inspired by those events. No quest completion, new spell, reward or subsequent level has been assumed."
+            "At Northshire Abbey, the first great crowd slowly loosened into individual journeys. Xuthar remembered the faces he had passed, the restless voices, the wolves stirring beyond the green, and the first summons that brought him before Marshal McBride. A letter awaited him, bearing the familiar demands of his calling. The road to Echo Ridge waited too.",
+            "There were books missing in the woods and kobold workers beneath the earth. Some of the scattered pages had found their way into his hands; others still lay beyond his reach. Red-clad thieves troubled the fields farther off, their insignia a warning against the illusion that all dangers walked on four legs.",
+            "The priest returned his attention to the ledger. One name could be written in a heartbeat, but learning the story beneath it might take a lifetime. He closed the cover on an unfinished day, knowing the valley would ask him to begin again."
           ]
         },
         {
@@ -276,40 +275,37 @@
         },
         {
           "id": "x-live-notes-2",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Level five · A completed commission · A moment of rest",
+          "chapter": "Chapter IX · The Abbey's Vigil",
+          "title": "The Cost of Twelve Red Ribbons",
           "kind": "reported",
           "paragraphs": [
-            "Player-reported update, 5 November 2026: Xuthar Morvayne is level 5. The owner reported completing the Brotherhood of Thieves objective (twelve Red Burlap Bandanas). A later screenshot independently confirms it was Ready for turn-in; handing it in was not yet shown.",
-            "An earlier screenshot places Xuthar near Defias Thugs. The player later reported resting at Northshire Abbey. Other screenshots confirm rewards from Kobold Camp Cleanup and the Militia Hammer from an interaction with Deputy Willem, but not a Brotherhood of Thieves turn-in or reward. No new spells are asserted.",
-            "Earlier snapshots show 5/10 and later 9/10 Kobold Workers, 5/8 and later 6/8 Stolen Books, and 0/12 bandanas before the Defias objective was completed. These figures document earlier progress, not the latest status. The final image also shows new assignments Mining Consultant and Skirmish at Echo Ridge.",
-            "All introspection, invented dialogue, candle imagery and symbolic descriptions in Chapters VIII–IX are literary roleplay additions. Level 5, the Defias objective's completion, and the rest at Northshire Abbey come from the player's reported play."
+            "The red bandanas lay together like the remnants of some ill-starred festival. Twelve tokens taken from men who had made fear their trade. Xuthar could recall how close the fight had brought him to the edge: one desperate retreat had left him with scarcely any strength to stand. It was an ugly kind of lesson, and he had learned it without applause.",
+            "Back at the Abbey, his thoughts turned from the Defias to the unfinished work among the kobolds. The mine still demanded a reckoning; the stolen books still called for patient hands. Deputy Willem's modest reward and the weight of a militia hammer were almost absurd beside the enormity of the world outside.",
+            "He rested beneath stone that had endured longer than any one life. Five stages of learning had brought him here, but he could feel how little they amounted to. He thought of those who had sent him into danger, and of those who never learned whether the messenger returned.",
+            "A candle burned down on the nearest table. In its dwindling light the shadows seemed less like enemies than questions, and Xuthar had always been more afraid of easy answers."
           ]
         },
         {
           "id": "x-live-photo-record",
-          "chapter": "Illustrated Field Record · 5 November 2026",
-          "title": "Eight moments that witnessed the beginning",
+          "chapter": "Chapter IX · The Abbey's Vigil",
+          "title": "The Valley of Many Beginnings",
           "kind": "reported",
           "paragraphs": [
-            "Eight screenshots from the launch-night session show a living Northshire: a dense crowd beneath the Abbey walls, a later gathering beside Deputy Willem, and Xuthar entering the woods to face Young Wolves and Timber Wolves. In the crowd one player calls, 'HERE WE ARE'. This was a shared beginning, not a solitary one.",
-            "The level 2 screenshot shows Wolves Across the Border at 5/8 Tough Wolf Meat, with Kobold Camp Cleanup at 0/10. At level 3, chat confirms Kobold Camp Cleanup completed, 170 experience, 25 copper and 100 Stormwind reputation; Marshal McBride's dialogue lists Hallowed Letter and Investigate Echo Ridge.",
-            "The level 4 image shows Investigate Echo Ridge at 9/10 Kobold Workers, Rascally Rodents at 6/8 Stolen Books, and Brotherhood of Thieves at 0/12 bandanas at that earlier point. Nearby kobolds and wolves are visible under the trees, alongside the light of Xuthar's magic.",
-            "Beyond the woods a screenshot places Xuthar in sight of Defias Thugs near fenced farm plots. At level 5 the final screenshot shows Deputy Willem, a Militia Hammer reward appearing in the log, and Brotherhood of Thieves marked Ready for turn-in; this confirms the objective was completed but not its delivery at that moment.",
-            "Other visible assignments at level 5 include Mining Consultant, to speak to Kelsey Fargo outside Echo Ridge Mine, and Skirmish at Echo Ridge, requiring 12 Kobold Laborers. Deputy Willem offers Milly Osworth and Bounty on Garrick Padfoot. These are available or active quests, not completed quests.",
-            "The player later reported resting at Northshire Abbey. These images corroborate stages of the journey, not every intervening action. The novel's thoughts, dialogue and symbols remain roleplay fiction."
+            "Northshire had been a multitude before it became a place. At the Abbey gate the gathered travellers called out in disbelief at their own arrival. By the time Xuthar ventured toward the timber wolves and the kobold camps, the shouting had faded behind him, replaced by the rustle of leaves and the hard scrape of desperate work.",
+            "Marshal McBride gave him reasons to return and new reasons to leave. Deputy Willem, who stood where the road met the Abbey's protection, knew the names of local threats as a farmer knows the names of storms. A priest might carry a hallowed letter in one pocket and a worn weapon in the other; neither promised that the next bend would be kind.",
+            "He passed fenced plots and glimpsed Defias men where ordinary labour should have been safe. Their scarves were red, and the fields had begun to fear that colour. The stolen books from Echo Ridge seemed suddenly part of the same story: people taking what did not belong to them, then expecting the world to become accustomed to the loss.",
+            "By the time he reached the Abbey again, Xuthar had crossed from the first nervous strength of a novice to the greater weariness of a man who had fought and survived. He did not know all the names of those who had travelled beside him. That ignorance, more than his bruises, troubled him."
           ]
         },
         {
           "id": "x-quest-snapshot-020025",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "The quests that still called his name",
+          "chapter": "Chapter X · Letters and Unfinished Harvests",
+          "title": "Promises Waiting at the Abbey Gate",
           "kind": "reported",
           "paragraphs": [
-            "One more screenshot of the Northshire Valley objective tracker records five quests on Xuthar Morvayne's current list. Two are marked Ready for turn-in: The Big Picture (Elite), a level 3+ elite quest, and Skirmish at Echo Ridge, a level 5 quest. This indicates their objectives are complete, not that rewards have been claimed or the quests handed in.",
-            "Milly's Harvest is still at 0/8 Milly's Harvest. In Favor of the Light asks Xuthar to speak to Priestess Josetta in Elwynn Forest. Bounty on Garrick Padfoot is still at 0/1 Garrick's Head. No further progress has been reported on these three assignments.",
-            "These facts belong to a new player-supplied screenshot of the quest tracker, with coordinates approximately 47.6, 39.8 visible near Northshire Valley. It does not establish new experience, level, inventory, a defeated boss or additional rewards.",
-            "In the literary memory of the abbey, the words of unfinished promises might have weighed upon the young priest as heavily as any sword. Some roads waited for a messenger's footsteps; some for a harvest; others for the courage to face a named outlaw. But the facts remain simple: the tasks were visible, the destinations were yet unwritten, and the Last Witness had not reached the end of his story."
+            "Some errands end when the last enemy falls. Others begin only then. The threat of Echo Ridge had been answered in part, and the valley had its own questions about the work that remained. Xuthar found himself moving between the Abbey's familiar walls and the fields where neighbours had learned to count on small acts of courage.",
+            "Milly's harvest lay under the threat of thieves. Garrick Padfoot had made himself a name whispered with anger. Farther away, a priestess awaited a young traveller whose faith had already acquired fractures. Xuthar carried these obligations without pretending they were equal; hunger, justice and belief each weighed differently on the heart.",
+            "He looked out from the old stone toward the green country beyond. The paths branched like lines in a palm. Not every promise could be fulfilled in the same hour, but all of them had been made to somebody. That was reason enough not to forget."
           ]
         },
         {
@@ -326,14 +322,13 @@
         },
         {
           "id": "x-quest-snapshot-020322",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "The Abbey Roads · Six Visible Quests",
+          "chapter": "Chapter X · Letters and Unfinished Harvests",
+          "title": "Four Names Beyond Northshire",
           "kind": "reported",
           "paragraphs": [
-            "Screenshot snapshot near 51.4, 41.5: Milly's Harvest (level 4) and Bounty on Garrick Padfoot (level 5) both read Ready for turn-in. The objective requirements are complete in the tracker, but hand-in and rewards are not shown.",
-            "Four active assignments are visible: The Adventurer (level 6), Speak to Sam Sarsparilla near Goldshire; Follow That Kobold! (level 4), Speak to Tordrin Sternblade near the stable behind Northshire's Abbey; Report to Goldshire (level 5), Take Marshal McBride's Documents to Marshal Dughan in Goldshire; and In Favor of the Light (level 4), Speak to Priestess Josetta in Elwynn Forest.",
-            "The Big Picture (Elite) and Skirmish at Echo Ridge were previously marked Ready for turn-in, but do not appear on this later cropped tracker. Their absence is not sufficient to confirm completion of their turn-in. Likewise, no new level is inferred merely from a level 6 quest appearing.",
-            "Only the listed quest states are screenshot-confirmed. The inner thoughts and atmospheric imagery of Chapter X are original literary roleplay inspired by the quest descriptions."
+            "The vineyards had demanded his attention, as had the outlaw Garrick. By the time Xuthar stood again among Northshire's old stones, the worst of those immediate burdens had begun to loosen. A harvest could be returned to the people who tended it; a frightened valley could believe, briefly, that justice had not entirely deserted the road.",
+            "New names waited beyond the shelter of the Abbey. Sam Sarsparilla was to be found near Goldshire. Marshal Dughan awaited documents from McBride. Tordrin Sternblade had business with the kobold trails, and Priestess Josetta waited somewhere farther along the path of the Light. To another traveller these might have seemed a dreary chain of errands. To Xuthar, each name opened a door onto a life not yet understood.",
+            "He tucked the papers against his chest. Paper had always been his family's burden. Now he began to suspect it might also be his way through the world."
           ]
         },
         {
@@ -363,13 +358,13 @@
         },
         {
           "id": "x-kobold-tracks-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "A New Trail · Four Visible Quests",
+          "chapter": "Chapter XII · The Earth Remembers",
+          "title": "Writing in the Soil",
           "kind": "reported",
           "paragraphs": [
-            "A player-supplied screenshot at approximately 49.5, 41.6 shows four current quests: Shhh! We're Hunting Kobolds (level 4, 0/6 Followed Kobold Tracks), The Adventurer (level 6, speak to Sam Sarsparilla near Goldshire), Report to Goldshire (level 5, deliver Marshal McBride's Documents to Marshal Dughan in Goldshire), and In Favor of the Light (level 4, speak to Priestess Josetta in Elwynn Forest).",
-            "None of the four visible quests is marked Ready for turn-in. In the preceding snapshot Milly's Harvest and Bounty on Garrick Padfoot were ready to be delivered, but their disappearance from this cropped image is not evidence of hand-in or quest reward. Follow That Kobold! was listed previously; no intermediate resolution is assumed.",
-            "The last confirmed character level is 6 from the player's report. The new screenshot contains objective progress only and does not prove an additional level. The descriptive prose in Chapter XII is an original literary interpretation, not a claim of completed tracked steps."
+            "A broken twig, a bruise in the moss, a small mark pressed into damp soil: the kobolds left their own language behind them. Xuthar had been trained to interpret holy texts, but these signs required no doctrine, only the humility to look closely.",
+            "Beyond the last trail lay the broader world of Elwynn. The road toward Goldshire promised messages to deliver, a marshal to find and a priestess whose questions might be harder to answer than those of a soldier. He followed the marks slowly, unwilling to trade attention for speed.",
+            "The old ledger in his satchel contained page upon page of names. It had never taught him to hear a footstep after the foot had gone. That was a lesson the forest offered freely."
           ]
         },
         {
@@ -386,13 +381,13 @@
         },
         {
           "id": "x-kobold-tracks-ready-inn-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Ready to Report · A New Innkeeper's Invitation",
+          "chapter": "Chapter XIII · Six Signs and a Distant Lantern",
+          "title": "When the Trail Gives Up Its Secret",
           "kind": "reported",
           "paragraphs": [
-            "The latest player-provided quest screenshot, at approximately 44.9, 62.0, shows Shhh! We're Hunting Kobolds (level 4) as Ready for turn-in. The preceding screenshot recorded 0/6 Followed Kobold Tracks. This new status establishes objective completion but does not establish quest delivery or receipt of rewards.",
-            "Rest and Relaxation (level 5) is a newly visible active quest: Speak with Innkeeper Farley at the Lion's Pride Inn. The Adventurer (level 6) still points to Sam Sarsparilla near Goldshire. Report to Goldshire (level 5) requires taking Marshal McBride's Documents to Marshal Dughan. In Favor of the Light (level 4) directs Xuthar to Priestess Josetta in Elwynn Forest.",
-            "The newest screenshot shows one mission ready for turn-in and four active. Character level 6 comes from the player's earlier report, not this crop. The inn has not been shown visited; characters have not been shown contacted. The preceding literary passage is fiction grounded in these pending objectives."
+            "Six signs lay behind him now. What had begun as nearly invisible scratches in the woodland had become a path he could follow, its meaning no longer buried beneath leaves. He had not needed a grand revelation. He had needed patience and enough daylight to keep searching.",
+            "Beyond the trees another kind of promise awaited him. Goldshire, with its timbered roofs and warm hearths, called to the part of him that was simply tired. At the Lion's Pride Inn stood a man named Farley, keeper of beds, meals and the temporary peace that strangers buy with honest coin.",
+            "There were letters still to carry and names still to seek. Xuthar tightened his satchel and started toward the village. The tracks in the forest could wait for another day; for once, his own footsteps mattered more."
           ]
         },
         {
@@ -409,13 +404,13 @@
         },
         {
           "id": "x-camping-101-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Two Lessons in the Quest Log",
+          "chapter": "Chapter XIV · What the Earth Can Teach",
+          "title": "Two Lessons for Mortal Hands",
           "kind": "reported",
           "paragraphs": [
-            "In a player-provided tracker screenshot at 43.1, 65.0, Xuthar has two newly visible level 6 assignments: Camping 101: Herbalism — Raise your Herbalism skill to 20; and Camping 101: Cooking — Learn Cooking from Tomas in Goldshire. These are active tasks, not recorded training completions.",
-            "Shhh! We're Hunting Kobolds (level 4) remains Ready for turn-in. Rest and Relaxation (level 5) still points to Innkeeper Farley at the Lion's Pride Inn. Report to Goldshire (level 5) still requires delivery to Marshal Dughan; In Favor of the Light (level 4) still points to Priestess Josetta in Elwynn Forest.",
-            "Five active quests and one ready-for-turn-in quest appear in the crop. The Adventurer no longer appears, but no turn-in is inferred. Xuthar's last player-reported character level is 6. The atmosphere, imagined thoughts, herbs and cooking-fire imagery in the preceding chapter are literary invention inspired by the quest objectives."
+            "It had taken surprisingly little time for Xuthar to discover how much a priest must know beyond prayer. A road was not always a test of courage. Sometimes it asked for fire, food, clean bandages and an understanding of the leaves growing at one's feet.",
+            "He considered the quiet disciplines of herbalism and cooking. Tomas, in Goldshire, knew what could be made from an ordinary hearth; the woodland knew the names of plants to anyone patient enough to learn them. Those pursuits sounded modest beside the dangers of Echo Ridge, but Xuthar could not call them unimportant.",
+            "He had watched people die with prayers on their lips. What use was faith, he wondered, if it had no hands with which to mend a sleeve, feed the hungry or prepare a place to rest?"
           ]
         },
         {
@@ -435,14 +430,13 @@
         },
         {
           "id": "x-goldshire-road-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Seven Photographs · Bounty, Fountain and Goldshire",
+          "chapter": "Chapter XV · The Sun beyond the Abbey",
+          "title": "The Lion at the Threshold",
           "kind": "reported",
           "paragraphs": [
-            "Player-supplied screenshot at 11:36: Bounty on Garrick Padfoot is explicitly marked completed in chat, awarding 340 XP. The same chat confirms Xuthar has reached character level 6. This is stronger evidence than the preceding ready-for-turn-in state and resolves that one earlier uncertainty. The chat also shows a Grape Manifest received.",
-            "Visible quest tracker at Northshire Valley 48.2, 42.9: Grape Manifest — bring the document to Brother Neals in Northshire Abbey; The Adventurer — speak with Sam Sarsparilla near Goldshire; Report to Goldshire — deliver Marshal McBride's Documents to Marshal Dughan; In Favor of the Light — speak with Priestess Josetta in Elwynn Forest. Other quest entries partly visible or absent from the crop are not automatically marked completed.",
-            "Additional photographs show the large carved stone-lion fountain beyond the Northshire archway, the sunlit road of Elwynn Forest, and Xuthar walking through the village area of Goldshire with its blue-roofed buildings and nearby stables. These photographs are travel evidence, not proof of meetings with quest givers.",
-            "The earlier Camping 101 Herbalism (skill 20) and Cooking (learn from Tomas) objectives, as well as Rest and Relaxation and the ready-to-report kobold-tracking quest, have no new confirmed turn-ins in these seven images. The literary tone in Chapter XV is fiction based on the observed journey."
+            "Garrick Padfoot's reign of petty terror had ended. It did not make Xuthar proud in the way old ballads described pride. He thought instead of the people who could walk their own fields without listening for a cutthroat at every fence.",
+            "The grape manifest remained a small, stubborn symbol of all the labour the Defias had tried to erase. He carried it toward the Abbey as carefully as he might carry an injured bird. Farther along waited the road to Goldshire, bright beneath the trees, watched over by a stone lion and a fountain whose waters went on falling regardless of human trouble.",
+            "The roofs of Goldshire emerged in blue and silver. Stables, chimneys and walls stood in the sunlight. Xuthar slowed, letting the sounds of the village reach him one by one. A new place had opened before him, and he did not yet know which of its people would remain in his memory."
           ]
         },
         {
@@ -465,15 +459,14 @@
         },
         {
           "id": "x-lions-pride-hearth-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Four Photographs from the Lion’s Pride Inn",
+          "chapter": "Chapter XVI · The Quiet Mercy of Fire",
+          "title": "The People Who Kept the Hearth",
           "kind": "reported",
           "paragraphs": [
-            "Screenshot 12:32: Xuthar inside the Lion’s Pride Inn in Goldshire. Large brick fireplace, tables, candles and barrels; Melika Isenstrider is visible as Assistant Innkeeper and Innkeeper Farley appears beyond the bar.",
-            "Screenshot 12:33: Xuthar standing immediately beside Innkeeper Farley. Barkeep Dobbins and Brog Hamfist (General Supplies) are visible. No dialogue window, reward or quest turn-in is shown.",
-            "Screenshot 12:35: Xuthar in the kitchen, close to Tomas (Cook) and Toddrick (Butcher). His earlier Camping 101: Cooking quest tasked him with learning Cooking from Tomas; this image establishes the visit to the cook, not a skill learned.",
-            "Screenshot 12:38: Xuthar seated in the common room near the bar. Innkeeper Farley, Barkeep Dobbins and Brog Hamfist are visible. This documents actual rest by sitting in the tavern, not necessarily a changed inn bind point, in-game rested XP or Rest and Relaxation quest completion.",
-            "Four user-supplied original gameplay screenshots are presented in a compressed four-frame AVIF preview atlas on the site gallery. All internal reflections and sensory images in Chapter XVI are literary roleplay, not direct claims about game actions."
+            "The Lion's Pride Inn had its own order of life. Farley kept watch over the arriving travellers; Melika moved among the tables, and Dobbins worked behind the bar. Brog Hamfist's provisions promised the sort of practical rescue a tired adventurer might need more urgently than a blessing.",
+            "In the kitchen the fire was a different creature. Tomas worked near the place where bread and broth could return strength to the living, while Toddrick stood among the plain necessities of a butcher's craft. Xuthar lingered there, struck by how much of a village's safety depended on people no ballad would ever celebrate.",
+            "Later he found a chair in the common room. The great brick hearth gave warmth without asking what wars he had survived. When he sat, his shoulders finally remembered their weariness.",
+            "He had crossed a valley of wolves, mines and thieves to reach this ordinary room. It seemed to him then that an inn was a kind of mercy: a place that did not demand to know who you had been before it gave you shelter."
           ]
         },
         {
@@ -517,30 +510,27 @@
         },
         {
           "id": "x-evening-20261105-notes",
-          "chapter": "The Field Record · 5 November 2026",
-          "title": "Levels Seven and Eight · Twelve New Screenshots",
+          "chapter": "Chapter XIX · Lanterns of the Capital",
+          "title": "A City of Small Miracles",
           "kind": "reported",
           "paragraphs": [
-            "Evidence: twelve new player-supplied 1920×1080 gameplay screenshots, taken between 13:49 and 20:24 on 5 November 2026. They cover a forest-road gathering, Crystal Lake with Guard Roberts, the priest quest reward, two deaths in Fargodeep Mine, the Stormwind Trade District and canals.",
-            "Verified level changes: level seven at 18:46:51 and level eight at 19:26:24, both visible in the game chat. Garments of the Light and Shipment to Stormwind are explicitly confirmed as completed.",
-            "Garments of the Light: 270 XP and Friar's Robes of the Light. Shipment to Stormwind: 800 XP, 150 Stormwind reputation, Oil of Olaf and 3 Silver 50 Copper. Earlier Bounty on Garrick Padfoot remains separately verified.",
-            "At the final 20:24 screenshot, five active quests are shown. The quest levels, including level ten beside two assignments, must not be mistaken for Xuthar's character level.",
-            "All internal thoughts and emotional imagery in these chapters are fictional roleplay interpretation; locations, defeats, rewards and missions are based on the screenshots. The original twelve screenshots have been received in this conversation but are not yet publicly hosted as website image files."
+            "The capital greeted him with shopfronts, stone bridges and water as dark as polished glass. For the first time in days, Xuthar could walk among hundreds of lives without the forest pressing close about him. He had reached the eighth measure of his growing skill, but the city made every achievement seem small.",
+            "The priest's trial had given him the Friar's Robes of the Light, and a parcel of candles had brought him to Morgan Pestle. Neither event resembled the turning of an age. To Xuthar, however, there was something astonishing about arriving at the place where an ordinary stranger expected him.",
+            "He passed the canals and the wooden docks where anglers worked beneath the city walls. Somewhere close by, books and modest rewards changed hands. There were more errands than daylight, more names than paper, more ways to spend a life than any one traveller could follow.",
+            "The water beneath the bridges reflected the lamps in fragments. Xuthar leaned over the edge and wondered how many of those lights would still be burning when he returned."
           ]
         },
         {
           "id": "x-retrospective-diary-5nov",
-          "chapter": "Retrospective Field Record · 5 November 2026",
-          "title": "Six Percent, One Percent, and Two Firsts",
+          "chapter": "Chapter XIX · Lanterns of the Capital",
+          "title": "The Narrow Margins of Survival",
           "kind": "reported",
           "paragraphs": [
-            "The player supplied four screenshots from an in-game diary covering Xuthar's levels five through eight. This page records the diary's wording as retrospective evidence, not an invented quest log. It can add context without rewriting previously confirmed rewards or deaths.",
-            "LEVEL 5 · Elwynn Forest: the diary recalls fighting around Northshire Valley and the Vineyards and escaping a Defias Thug plus two other attackers with only 6% health. A level-five diary grouping shows 14 minutes in Elwynn Forest.",
-            "LEVEL 6 · Northshire and Elwynn: roughly ten minutes fighting in Northshire Valley, errands around Goldshire and near Crystal Lake. The diary says Sandriana was first seen in Elwynn Forest at level six, and encountered again at level seven. Its level-six entry shows 2 hours 7 minutes in Elwynn Forest. No NPC dialogue or grouping with Sandriana is established.",
-            "LEVEL 7 · Elwynn and Fargodeep: the first green-quality piece was Friar's Robes of the Light, already confirmed as a reward for Garments of the Light. The first bag was a Book Bag, whose source remains unknown. Xuthar survived encounters with a Kobold Tunneler and another foe, and a Kobold Miner and another, with about 1% health each time. The diary summarizes three close calls. It displays 31 minutes in Elwynn Forest and 3 minutes in Stormwind City in this grouping.",
-            "LEVEL 8 · Stormwind Trade District: reached on 5 November and separately confirmed by level-up chat. The diary mentions about twenty minutes of rest in Stormwind and displays 1 hour 26 minutes in Stormwind City and 50 minutes in Elwynn Forest. These are displayed diary times, not a verified complete /played total.",
-            "COUNTING CAUTION: the diary's summary for 5 November mentions one death, whereas two separately supplied Fargodeep screenshots show the 'You died' state at 19:04 and 19:07. Both observations are preserved with their source context. No definitive total is inferred by trying to reconcile different summary methods.",
-            "Image references (user uploads): image(20261106-145948).png, image(20261106-145929).png and image(20261106-145907).png. Images are supporting evidence in the conversation, not currently published as binary assets on the website."
+            "Of the first eight stages of his journey, Xuthar remembered the near defeats more vividly than his successes. Once, among Defias blades in the vineyards, he had fled with scarcely a breath left in his lungs. Later, within Fargodeep's cramped passageways, two separate encounters left him one heartbeat from collapse.",
+            "The mine itself had taken him down twice. That was not a detail he wished to conceal. He remembered the helplessness of defeat and the humiliating discovery that pride could not keep a living body upright. Every return to the road was an act of stubbornness, not invincibility.",
+            "The new green robes of his priestly calling and a book bag carried along his travels seemed almost comically mundane beside such danger. Yet they were things he could touch, mend and keep. Not all tokens of growth needed to shine.",
+            "Sandriana was one of the names that had crossed his path in Elwynn, then appeared in his travels again. Xuthar wondered how many such brief crossings would remain only that: a glimpse of another life moving through the same world.",
+            "By the time the towers of Stormwind cast long shadows over the streets, he had learned that survival was less a great gift than a series of fragile bargains with the next moment."
           ]
         },
         {
@@ -560,16 +550,14 @@
         },
         {
           "id": "x-rain-over-goldshire-notes",
-          "chapter": "The Field Record · Evening of 5 November 2026",
-          "title": "City Errands, New Trades, Six New Views and a Rainy Bed",
+          "chapter": "Chapter XX · Rain on the Road Home",
+          "title": "The Room Above the Common Fire",
           "kind": "reported",
           "paragraphs": [
-            "Source: the player's report and seven supplied gameplay image files between 20:24 and 21:34 on 5 November 2026. One dock photograph exactly duplicates a previously submitted image, leaving six newly distinct scenes. These show a Stormwind canal dock, torchlit passages, the monumental stone bridge, rainy Elwynn roads, rainy Goldshire and Xuthar lying in an upstairs Lion's Pride Inn bed.",
-            "Player-confirmed profession changes: learned Tailoring and Enchanting; abandoned Herbalism; learned Fishing. Cooking and skill points were not reported and remain unverified.",
-            "Player-reported quest turn-ins in Stormwind, including a Gallina NPC and several shops. Exact quest titles, quest states after those turn-ins and any rewards are not legible in the new screenshots, so no extra named quest is counted as completed.",
-            "The most recent readable quest tracker remains the 20:24 Stormwind screenshot. Because later quest turn-ins and profession changes followed, the current active quest roster is unknown. Camping 101: Herbalism was formerly visible, but the profession has since been abandoned; the quest's outcome is not assumed.",
-            "Latest confirmed character level: 8, from earlier screenshots. The final picture documents lying in bed at the inn, not an automatic game logout or a rested XP result.",
-            "The prose of Chapter XX contains literary interpretation; the activity, locations and weather are anchored to screenshots or directly reported by the player. Original images remain unpublished on the website until a binary image upload can be verified."
+            "The city's shops and canals faded behind him as the road bent toward Elwynn. His hands had learned new work: to draw thread through cloth, to set quiet enchantments into objects, to cast a line into still water. Herbalism, for a while a possible path, he had set aside. A traveller could not carry every life he might have lived.",
+            "Rain followed him beyond the stone and into the trees. Torches burned along the guarded paths, their reflections trembling on wet ground. The statues at the great bridge gave way to the familiar shapes of Goldshire, where travellers still crossed the village in the late hour.",
+            "Upstairs at the Lion's Pride Inn, Xuthar lay beneath a blue canopy and listened to the world settle around him. Somewhere below, the common room still breathed with conversation and the scrape of chairs. He thought of the valleys, the mine, and the city that had stood between this bed and the morning.",
+            "He had saved no kingdom. He had remembered a few more names. On this first long night, that was enough."
           ]
         },
         {
@@ -588,15 +576,13 @@
         },
         {
           "id": "x-day-two-first-tracker-notes",
-          "chapter": "Field Record · 6 November 2026",
-          "title": "Three Active Quests · Evidence Snapshot",
+          "chapter": "Chapter XXI · The Morning after Rain",
+          "title": "Three Unanswered Calls",
           "kind": "reported",
           "paragraphs": [
-            "Source: first player-supplied screenshot of the All Objectives quest panel on 6 November 2026 (image(9).png). Visible interface coordinates: 43.3, 65.9; the zone label and character level are not shown.",
-            "The Jasperlode Mine [10]: Scout through the Jasperlode Mine.",
-            "Rare Books (Elite) [7+]: Geomancy for Curious Young Wizards 0/1; Arcane Explainer: Magical Stuff in Simple Words 0/1.",
-            "Further Concerns [10]: Marshal Dughan wants Xuthar to speak with Guard Thomas.",
-            "No objective shown as complete; no quest hand-in or newly earned XP is visible. Last confirmed character level remains eight. Profession information remains Tailoring, Enchanting and Fishing from the previous evening's direct report."
+            "Morning did not return the forest to innocence. Beyond the last houses of Goldshire, the Jasperlode Mine waited in the hills, its passages promising more darkness than a priest could measure from the road. He had already learned what a mine could take from an unprepared traveller.",
+            "Two rare books had become objects of a different search: Geomancy for Curious Young Wizards and the wonderfully solemn Arcane Explainer: Magical Stuff in Simple Words. Their names amused him; the thought of books lost to danger did not.",
+            "Marshal Dughan's concerns drew his thoughts toward Guard Thomas, somewhere in the reaches of Elwynn. Three directions, three reasons to leave the warmth behind. Xuthar fastened his satchel and listened to the day beginning outside."
           ]
         },
         {
@@ -617,30 +603,26 @@
         },
         {
           "id": "x-day-two-crystal-lake-notes",
-          "chapter": "The Field Record · 6 November 2026 · Crystal Lake",
-          "title": "Five Full-Resolution Screenshots · Quest Counts and Camera",
+          "chapter": "Chapter XXII · Where the Lake Holds Its Secrets",
+          "title": "The Lake and Its Unclaimed Things",
           "kind": "reported",
           "paragraphs": [
-            "Five user-uploaded 1920×1080 JPEG screenshots from 15:05–15:27 on 6 November 2026 document the Goldshire camp and Crystal Lake outing. Originals are preserved separately and have not been uploaded as image files to GitHub Pages.",
-            "15:05, Goldshire (45.0, 63.3): Xuthar (level 8) is beside a canvas tent and campfire. Sam Sarsparilla is visible near the entrance. The picture does not prove who placed the tent.",
-            "15:06, Goldshire: the Xuthar Camera minimap button is visible and chat says a screenshot was saved. The camera button is therefore confirmed to work in this session.",
-            "15:12, Crystal Lake (47.6, 62.5): the quest log shows two newly accepted quests. A Net Disaster requires seven Half-Eaten Fish; Bottles and Baubles requires six Shiny Junk. Both initially appear 0/7 and 0/6. Lee Brown is visible on the fishing dock.",
-            "15:13, Crystal Lake (48.2, 62.8): Xuthar casts Fishing at the lakeshore. The single frame does not prove a caught fish.",
-            "15:27, Crystal Lake (54.8, 65.7): Xuthar faces a level-seven Murloc. Bottles and Baubles is 4/6 Shiny Junk, A Net Disaster is 2/7 Half-Eaten Fish, and Camping 101: Fishing is marked 'Ready for turn-in'. The screenshot shows no quest hand-in.",
-            "Other missions visible: Camping 101: Enchanting and Camping 101: Tailoring (raise skill to 20), The Jasperlode Mine (level 10), Rare Books (Elite, level 7+, both books 0/1), and Further Concerns (level 10, speak to Guard Thomas). These numbers are quest levels, not Xuthar's character level, which remains 8. No new completion or XP reward is claimed."
+            "Outside Goldshire, a canvas tent and a small campfire stood among the trees. Sam Sarsparilla was nearby, another name in the great living inventory of Elwynn. Xuthar paused in the gathering warmth, then followed the road toward Crystal Lake.",
+            "The lake lay quiet beneath the branches. Lee Brown stood near the fishing dock, while other visitors cast their lines and waited for the water to answer. Xuthar joined them, the line drifting across the shallows as the world narrowed to ripples and reeds.",
+            "The shore carried its own troubles. Murlocs prowled the water; half-eaten fish and glittering pieces of rubbish seemed to tell of a place unsettled by careless hands and hungry creatures. Xuthar gathered what he could, and the work of learning to fish drew closer to completion.",
+            "The patient hours beside the water offered a different lesson from the mines. He could not command the lake, only approach it. He wondered whether the people who lived nearby had learned the same truth long before he arrived."
           ]
         },
         {
           "id": "x-retrospective-diary-6nov",
-          "chapter": "Field Record · 6 November 2026 · Retrospective Diary",
-          "title": "A Murloc's Memory and the Price of Three Percent",
+          "chapter": "Chapter XXII · Where the Lake Holds Its Secrets",
+          "title": "Three Breaths from the Water",
           "kind": "reported",
           "paragraphs": [
-            "Source: user-uploaded in-game diary screenshot image(10).png. The diary labels the new day 'Elwynn Forest, today' and summarizes a death and a close call. Xuthar remains level eight in the photograph.",
-            "The diary describes escaping a confrontation with two Murlocs with 3% health remaining. It also attaches the note 'Murloc Streamrunner killed you twice' to an enemy illustration. These are distinct pieces of information: the latter is not timestamped, so both Streamrunner deaths cannot safely be assigned to 6 November.",
-            "The level-eight map shows Elwynn Forest landmarks including Northshire and Goldshire, along with an encounter marker. The screenshots of Crystal Lake taken at 15:27 show a level-seven Murloc near Xuthar, but the diary does not prove that particular photograph documents the three-percent escape.",
-            "The earlier record of two Fargodeep deaths on 5 November remains separate from the diary summaries. No completed quest, new character level, fishing reward or newly visited area is inferred from this diary view.",
-            "The story keeps one unresolved question: can the Last Witness learn to recognize danger before the world asks for almost all of his remaining strength?"
+            "The murlocs did not care whether the intruder wore priestly cloth or carried a ledger of dead names. Their weapons were crude, their movements sudden, and the water made poor footing for a man already tired from travelling.",
+            "At one terrible moment Xuthar escaped two attackers with scarcely three breaths out of a hundred left to him. He had known the brink in the vineyards and beneath the mines. He recognized it now by the same cold sensation: a world growing too large for the body entrusted to him.",
+            "The creatures of the lake had also brought him the humiliation of defeat. He would not give those moments the grandeur of martyrdom. Fear was more honest than that.",
+            "When he looked back at the wavering reeds, he felt no triumph. He felt the frightening sweetness of still being able to walk away."
           ]
         },
         {
@@ -659,44 +641,39 @@
         },
         {
           "id": "x-day-two-enticing-field-record",
-          "chapter": "Field Record · 6 November 2026 · 15:36–16:31",
-          "title": "An Enticing Offer · The River and the Forest Spider",
+          "chapter": "Chapter XXIII · The River Keeps No Footprints",
+          "title": "A Vial, a Petal, a Crossing",
           "kind": "reported",
           "paragraphs": [
-            "Evidence: three player-uploaded screenshots: image(20261106-153654).png (343×418 quest-tracker crop at 15:36), WoWScrnShot_110626_155448.jpg (1920×1080 river scene at 15:54), and WoWScrnShot_110626_163117.jpg (1920×1080 woodland at 16:31).",
-            "Quest tracker at displayed 39.9, 80.1: An Enticing Offer [7] in progress, 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. The zone name is not shown in the crop.",
-            "Other visible objectives: Camping 101: Enchanting [6] and Tailoring [6], each raise skill to 20; The Jasperlode Mine [10], scout the mine; Rare Books (Elite) [7+], both required books 0/1; Further Concerns [10], speak with Guard Thomas.",
-            "The previous Crystal Lake tracker at 15:27 had shown Bottles and Baubles at 4/6 Shiny Junk, A Net Disaster at 2/7 Half-Eaten Fish, and Camping 101: Fishing ready for turn-in. None of those is visible in the 15:36 crop. This does NOT prove they were turned in, abandoned or completed.",
-            "At 15:54 Xuthar is shown moving through a river with bright sunlight reflecting on the water; no quest UI appears. At 16:31 he is seen in a wooded landscape with Forest Spider visible in the distance; no combat completion or kill is shown.",
-            "Character level remains last confirmed 8. The quest-level numbers 7, 6, 10 and 7+ are not the character level. These images are preserved as user-supplied originals but are not yet uploaded as binary photos to the public website."
+            "An unusual errand now drew him beyond the lake: vials of animal blood, Duskweed petals and the questions such ingredients invited. The work belonged to a world where remedies and poisons could begin with the same plant, and Xuthar had not yet learned how to distinguish every good intention from a dangerous bargain.",
+            "He moved through broad water while the afternoon sun turned the current to copper. The river touched the hem of his robe and erased his footprints as quickly as he made them. For a while there was nothing but his breathing, the light, and the weight of an unfinished task.",
+            "Beyond the river the trees gathered closer. A forest spider waited among the trunks, still as a mark on a page. Xuthar did not approach every creature as an enemy. Some were simply part of the world he hoped to understand.",
+            "Behind him lay the fishing dock and the half-answered requests of Crystal Lake. Ahead waited books, mines, craftwork and a messenger's duty. The river carried neither his doubts nor his unfinished promises away."
           ]
         },
         {
           "id": "x-day-two-ten-quests-field-record",
-          "chapter": "Field Record · 6 November 2026 · 18:41",
-          "title": "Ten Roads, a Ninth Level",
+          "chapter": "Chapter XXIII · The River Keeps No Footprints",
+          "title": "Ten Threads across Elwynn",
           "kind": "reported",
           "paragraphs": [
-            "At the latest cropped in-game quest tracker, coordinates 59.6, 69.4, ten active quest names are visible. The screenshot filename is image(20261106-184152).png; the zone name and Xuthar's character level are not shown in the crop.",
-            "Xuthar Morvayne has reached LEVEL 9, as the player explicitly clarified after supplying the screenshot. The precise moment, location, and experience reward of the level-up are not established by these images. This is a direct player report, not an independent screenshot or Blizzard API confirmation.",
-            "Newly visible quest titles: The Escape [7] — bring Invisibility Liquor to Maybell Maclure; Elmore's Task [15] — talk to Grimand Elmore; Report to Gryan Stoutmantle [10] — speak to Gryan at Sentinel Hill in Westfall; Goldtooth [8] — Bernice's Necklace 0/1; Princess Must Die! [9] — Brass Collar 0/1.",
-            "Still present: Camping 101: Enchanting [6] and Tailoring [6] — each skill to 20; The Jasperlode Mine [10] — scout the mine; Rare Books (Elite) [7+] — Geomancy for Curious Young Wizards 0/1, Arcane Explainer: Magical Stuff in Simple Words 0/1; Further Concerns [10] — talk to Guard Thomas.",
-            "Westfall is the stated destination of Report to Gryan Stoutmantle, not proof Xuthar has entered Westfall. Elmore's Task is quest level 15; Xuthar is level 9.",
-            "An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent from this crop. Their last observed objectives remain in the historical log; there is no confirmed completion, abandonment or hand-in. The new screenshot shows no rewards or freshly completed quests."
+            "As the hours passed, the tenth part of his day's work seemed to divide into ten different roads. The young lovers of the Stonefield and Maclure families needed help; Elmore had an errand awaiting him; a message sought Gryan Stoutmantle beyond the forests of Elwynn. Goldtooth guarded a necklace, and the boar called Princess had become an unexpected source of danger.",
+            "His work with Tailoring and Enchanting remained unfinished. The Jasperlode Mine and its dark passages still called, as did the pair of rare books and the message meant for Guard Thomas. The needs of other people multiplied faster than Xuthar could answer them.",
+            "By then he had climbed another stage of his apprenticeship, his ninth. Yet the growing strength in his hands did not solve the problem of choosing where those hands were needed most.",
+            "He closed the ledger and looked toward the west. A name on a map was not a place he had walked. There was still a long way between a summons and the journey itself."
           ]
         },
         {
           "id": "x-level-ten-armory",
           "chapter": "Chapter XXIV · Ten Steps Toward the Light",
-          "title": "A Name in the Armory",
+          "title": "The Tenth Threshold",
           "kind": "reported",
           "paragraphs": [
-            "Evening of 6 November 2026: the player confirms that Xuthar Morvayne, a Human Priest in WoW Forever EU, has reached character level ten. The precise time, place and quest associated with this level-up remain unrecorded. Nothing in the earlier 18:41 quest tracker establishes the later level itself.",
-            "For the living chronicle, the threshold marks a new kind of record: the player has supplied a direct link to Xuthar's character page in Blizzard's official Forever EU Armory.",
-            "Official character link: https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
-            "On 6 November 2026 at 20:40 UTC, an authorized read-only GitHub Actions probe obtained a Blizzard OAuth token (HTTP 200) and fetched the EU Forever profile (HTTP 200). It verified the name Xuthar Morvayne and level 10. The separate automatic importer remains disabled, and no quest, gear, profession or achievement details have been synchronized.",
-            "The latest verified quest snapshot remains the 18:41 screenshot with ten active missions. No missions are marked completed merely because Xuthar gained a level.",
-            "In the fictional voice of the Last Witness: 'To leave a name among the records is not to be remembered. Memory begins when someone opens the book.'"
+            "By the evening of the second day, Xuthar had crossed the tenth threshold of his apprenticeship. No trumpet sounded for him. No great bell rang over Elwynn to announce that another novice had grown a little stronger.",
+            "He had come through wolves and thieves, the raw stone of mines, the dangers of murloc waters and the long paved roads to Stormwind. Some encounters had ended in success; others had dropped him helpless before the world. All of them had left marks deeper than the numbers by which travellers measured themselves.",
+            "He remembered the first gathering at Northshire Abbey, the warmth of the Lion's Pride hearth, and the rain on the road home. Each memory belonged to a different version of the same man: the uncertain arrival, the frightened survivor, the patient keeper of names.",
+            "He opened the Morvayne ledger. Its old warning was still there, written in fading letters: The last witness must not remember. Xuthar traced the words with one finger and thought of all he would have lost by obeying them.",
+            "Ten thresholds were only a beginning. Beyond them lay lives not yet met, roads not yet walked, a darkness he was still learning to question. He dipped his pen and began another page."
           ]
         },
         {
@@ -779,13 +756,14 @@
         },
         {
           "id": "x-future",
-          "chapter": "The Living Chronicle",
-          "title": "The Road Beyond Level Ten",
-          "kind": "pending",
+          "chapter": "Epilogue · The Unwritten Road",
+          "title": "What the Next Dawn May Bring",
+          "kind": "fiction",
           "paragraphs": [
-            "Xuthar is level ten by direct report from the player. The official EU Forever Armory link has been supplied and added to the public Chronicle.",
-            "The last readable quest-tracker screenshot was taken at 18:41 and lists ten ongoing missions. No additional completed quest or new location has been confirmed.",
-            "The next part of the living chronicle will be based on actual gameplay screenshots, player notes or a successful authenticated read of Blizzard's Forever character profile."
+            "At the edge of the latest page, the ink thinned. Xuthar sat with the ledger open, his belongings close at hand, listening to distant footsteps and the restless sounds of a world that had never waited for any one man.",
+            "Somewhere beyond Elwynn a western road turned toward unfamiliar fields. In the east, old mines held their darkness. And scattered between those distant places were people who had yet to know his name, though one day their stories might be written beside his.",
+            "He did not call the empty pages a failure. A life was not complete because it had been neatly described. It was complete only when its last road had truly ended, and he had not reached that road.",
+            "Xuthar closed the book gently. The last witness was still alive. That was enough to promise another chapter."
           ],
           "link": "chronicle.html"
         }

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T13:34:23.581Z"
+    "checkedAt": "2026-11-06T14:32:54.500Z"
   },
   "news": [
+    {
+      "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
+    },
     {
       "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
       "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383776/massive-nerfs-to-the-venomous-abyss-raid-large-nerfs-to-ulatek-on-every",
       "category": "Live",
       "publishedAt": "2026-11-06T00:26:53.000Z"
-    },
-    {
-      "title": "Massive Mythic Coiled Altar Nerfs Removes 1 Soulcoiler Add From Each Spawn",
-      "url": "https://www.wowhead.com/news=383775/massive-mythic-coiled-altar-nerfs-removes-1-soulcoiler-add-from-each-spawn",
-      "category": "Live",
-      "publishedAt": "2026-11-06T00:25:48.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T13:34:23.581Z",
-  "generatedAt": "2026-11-06T13:34:23.527Z",
+  "newsUpdatedAt": "2026-11-06T14:32:54.499Z",
+  "generatedAt": "2026-11-06T14:32:54.493Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 07:34:19 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 08:32:24 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

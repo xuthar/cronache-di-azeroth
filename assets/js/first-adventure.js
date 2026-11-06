@@ -14,7 +14,7 @@
         <div>
           <h2 id="xuthar-day-two-title">Another day.<br><em>Another unwritten road.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
-          <p class="day-two-evidence">The next action, current weather and active quest list have not yet been verified. The story will grow from the player's next in-game report, not assumptions.</p>
+          <p class="day-two-evidence">The first Day Two screenshot records three active quests: The Jasperlode Mine, Rare Books (Elite) and Further Concerns. Their outcomes, today's weather and any level-up are not yet confirmed.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-opening">Open Chapter XXI ↗</a><a href="journal.html#xuthar-day-two-opening">Day Two field journal ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">

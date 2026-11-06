@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T17:29:05.132Z"
+    "checkedAt": "2026-11-06T18:44:01.138Z"
   },
   "news": [
     {
-      "title": "New Battle.net Icons for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383772/new-battle-net-icons-for-wow-forever",
+      "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic",
       "category": "Forever",
-      "publishedAt": "2026-11-06T16:00:00.000Z"
+      "publishedAt": "2026-11-06T18:34:57.000Z"
     },
     {
-      "title": "Four New Key Art Pieces for WoW: Forever Launch",
-      "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T15:00:00.000Z"
+      "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
+      "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir",
+      "category": "WoW",
+      "publishedAt": "2026-11-06T18:31:23.000Z"
     },
     {
-      "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T14:00:00.000Z"
+      "title": "Ula'tek Nerfed on All Difficulties - Hotfixes Now Live",
+      "url": "https://www.wowhead.com/news=383783/ulatek-nerfed-on-all-difficulties-hotfixes-now-live",
+      "category": "Live",
+      "publishedAt": "2026-11-06T18:17:07.000Z"
     },
     {
-      "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
-      "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news",
+      "title": "Major QoL Update to Popular Alliance Quest in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383782/major-qol-update-to-popular-alliance-quest-in-wow-forever",
       "category": "Forever",
-      "publishedAt": "2026-11-06T02:36:06.000Z"
+      "publishedAt": "2026-11-06T17:30:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T17:29:05.131Z",
-  "generatedAt": "2026-11-06T17:29:05.126Z",
+  "newsUpdatedAt": "2026-11-06T18:44:01.138Z",
+  "generatedAt": "2026-11-06T18:44:01.132Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 11:28:41 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 12:43:57 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

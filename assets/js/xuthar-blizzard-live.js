@@ -23,6 +23,49 @@
       }).format(new Date(unix*1000))+' (Italy)';
     } catch {return 'unavailable';}
   }
+  function showOfficialProgress(data, mount){
+    if(!data||typeof data!=='object')return;
+    const quests=data.quests;
+    const summary=elem('div','blizz-live-activity-summary');
+    summary.append(elem('h3','','Verified character progress'));
+    const counts=elem('div','blizz-live-progress-counts');
+    for(const [label,value] of [
+      ['QUESTS IN PROGRESS',quests?.inProgressCount],
+      ['COMPLETED QUEST IDS',quests?.completedCount],
+      ['PRIMARY PROFESSIONS',data.professions?.primaryCount],
+      ['SECONDARY PROFESSIONS',data.professions?.secondaryCount],
+      ['EQUIPPED ITEMS',data.equipment?.equippedCount],
+      ['REPUTATIONS',data.reputations?.trackedCount],
+      ['ACHIEVEMENT ENTRIES',data.achievements?.trackedCount]
+    ]){
+      if(!Number.isInteger(value)||value<0)continue;
+      const chip=elem('div','blizz-live-progress-chip');
+      chip.append(elem('strong','',String(value)),elem('span','',label));
+      counts.append(chip);
+    }
+    summary.append(counts);
+    const items=Array.isArray(quests?.inProgress)?quests.inProgress:[];
+    if(items.length){
+      const title=elem('h4','','Current quests recorded by Blizzard');
+      summary.append(title);
+      const ul=elem('ul','blizz-live-quest-list');
+      const visible=page==='home'?items.slice(0,4):items;
+      for(const q of visible){
+        if(!Number.isInteger(q?.id)||q.id<=0)continue;
+        const li=elem('li','',typeof q.name==='string'&&q.name?q.name:'Quest #'+q.id);
+        ul.append(li);
+      }
+      summary.append(ul);
+      if(page==='home'&&items.length>4){
+        const more=elem('a','blizz-live-more','View all '+items.length+' official active quests ↗');
+        more.href='xuthar.html#blizzard-official-profile';
+        summary.append(more);
+      }
+    }
+    summary.append(elem('p','blizz-live-caution',
+      'This is an official snapshot, not a quest hand-in history. Missing quests are not automatically marked completed or abandoned. The manually documented Chronicle remains separate.'));
+    mount.replaceChildren(summary);
+  }
   function makePanel(){
     const section=elem('section','blizz-live wrap');
     section.id='blizzard-official-profile';
@@ -59,8 +102,9 @@
       const a=elem('a','',caption);
       a.href=href;a.target='_blank';a.rel='noopener noreferrer';links.append(a);
     }
-    section.append(top,stats,detail,links);
-    return {section,tag,values,detail};
+    const activity=elem('div','blizz-live-activity');
+    section.append(top,stats,activity,detail,links);
+    return {section,tag,values,detail,activity};
   }
   function run(){
     const anchor=page==='home'?document.querySelector('#xuthar-day-two'):document.querySelector('#main .xu-hero');
@@ -80,6 +124,7 @@
         ui.values.race.textContent=profile.race||'—';
         ui.values.className.textContent=profile.className||'—';
         ui.values.ruleset.textContent=profile.ruleset||'—';
+        showOfficialProgress(profile.officialDetails,ui.activity);
         ui.tag.textContent='Official profile verified';
         ui.tag.classList.add('blizz-live-ok');
         ui.detail.textContent='Last published Blizzard check: '+formattedTime(data.exportedAt||profile.checkedAt)+

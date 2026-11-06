@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261106-level9-ten-quests';
+ const source='assets/data/xuthar-quest-log.json?v=20261106-level10-armory-link';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,14 +39,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
     const title=make('h2','','Ten roads still calling.');
    title.id='xql-heading';
-    const lead=make('p','','The latest tracker at 18:41 on 6 November shows TEN active missions. Five newly seen titles include The Escape, Elmore\'s Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Xuthar is LEVEL 9, directly confirmed by the player after the screenshot. Neither the character level nor the zone appears in this cropped tracker, and a Westfall quest destination does not prove travel there. Previous lake quests absent from the crop are unverified.');
+    const lead=make('p','','The latest tracker at 18:41 on 6 November shows TEN active missions. Five newly seen titles include The Escape, Elmore\'s Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Xuthar has now reached LEVEL 10, confirmed directly by the player after this quest screenshot. Neither the character level nor the zone appears in this cropped tracker, and a Westfall quest destination does not prove travel there. Previous lake quests absent from the crop are unverified.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests in latest tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (player-confirmed) · Quest tracker 59.6, 69.4 · 18:41');
+    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (player-confirmed) · Last quest screenshot 59.6, 69.4 · 18:41');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -82,10 +82,14 @@
       });
       box.append(ul);root.append(box);
     }
-    const foot=make('p','xql-provenance','Source: player quest screenshot image(20261106-184152).png showing ten active missions, coordinates 59.6, 69.4. Xuthar\'s level 9 is confirmed separately by the player, not visible in the cropped quest screenshot. An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent; their outcomes are unverified. Manual transcription only, no official API synchronization claimed.');
+    const foot=make('p','xql-provenance','Source: player quest screenshot image(20261106-184152).png showing ten active missions, coordinates 59.6, 69.4. Xuthar\'s level 10 is confirmed separately by the player, not visible in the cropped quest screenshot. An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent; their outcomes are unverified. Manual transcription only, no official API synchronization claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
     book.href='book.html?character=xuthar#x-day-two-ten-quests-field-record';root.append(book);
+    const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
+    armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
+    armory.target='_blank';armory.rel='noopener noreferrer';
+    root.append(armory);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

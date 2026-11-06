@@ -202,3 +202,18 @@
  .xu-dossier .xu-quickbio-head{align-items:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.xu-dossier *, .xu-dossier *:before{scroll-behavior:auto;transition:none!important}}
+
+/* Xuthar's documented survival record, transcribed from the in-game diary. */
+.xu-dossier .xu-survival{padding:clamp(20px,3vw,32px);border:1px solid #c9a77955;border-radius:8px;background:linear-gradient(140deg,#18283b,#1c2235 70%,#122b37)}
+.xu-dossier .xu-survival-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:24px}
+.xu-dossier .xu-survival-grid article{padding:20px 17px;border:1px solid #d5bd8c5c;border-radius:6px;background:#0a1728b5;min-width:0}
+.xu-dossier .xu-survival-grid span{display:block;color:#a9d6dc;font:700 .61rem/1.5 system-ui;letter-spacing:.13em}
+.xu-dossier .xu-survival-grid strong{display:block;margin:14px 0 10px;color:#efd2a1;font:600 clamp(1.6rem,2.5vw,2.6rem)/1.1 Georgia,serif}
+.xu-dossier .xu-survival-grid h3{margin:0 0 11px;color:#f5e4d1;font:500 1.18rem/1.3 Georgia,serif}
+.xu-dossier .xu-survival-grid p{margin:0;color:#c5d1d9;font:.83rem/1.65 system-ui}
+.xu-dossier .xu-survival-foot{margin:18px 0 14px;color:#aabcca;font:.78rem/1.7 system-ui}
+.xu-dossier .xu-survival-links{display:flex;gap:13px;flex-wrap:wrap}
+.xu-dossier .xu-survival-links a{display:inline-block;padding:10px 13px;border:1px solid #d8b77c76;border-radius:4px;color:#f7dcad;font:700 .78rem system-ui;text-decoration:none}
+.xu-dossier .xu-survival-links a:hover{background:#d8b77c27;color:#fff}
+@media(max-width:1150px){.xu-dossier .xu-survival-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.xu-dossier .xu-survival-grid{grid-template-columns:1fr}.xu-dossier .xu-survival{padding:18px}}

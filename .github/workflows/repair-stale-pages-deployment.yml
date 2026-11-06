@@ -1,0 +1,23 @@
+name: Repair stale GitHub Pages deployment
+on:
+  push:
+    paths:
+      - ".github/workflows/repair-stale-pages-deployment.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+jobs:
+  cancel-stale-deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel the stalled GitHub Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${{ github.repository }}/pages/deployments/dfdaabd9767ea89f3d3c96b81022576f7cf61a4d/cancel"
+      - name: Verify Pages API status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/pages/deployments/dfdaabd9767ea89f3d3c96b81022576f7cf61a4d"

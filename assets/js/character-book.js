@@ -28,9 +28,8 @@
     img.decoding='async';img.loading='lazy';return img;
   }
   function kindLabel(kind){
-    return kind==='pending' ? 'NEXT CHAPTER · NOT YET PLAYED'
-      : kind==='verified' ? 'VERIFIED GAMEPLAY' : kind==='reported' ? 'PLAYER-REPORTED ADVENTURE'
-      : 'ORIGINAL ROLEPLAY FICTION';
+    if(volume?.id==='xuthar')return kind==='pending' ? 'A LIFE STILL UNFOLDING' : 'THE BOOK OF FORGOTTEN NAMES';
+    return kind==='pending' ? 'THE ROAD AHEAD' : 'A CHRONICLE OF AZEROTH';
   }
   function bookPage(page,index,printMode=false){
     const outer=make('article','book-page book-kind-'+(page.type||page.kind));
@@ -54,7 +53,9 @@
     } else if(page.type==='contents') {
       inside.append(make('span','book-page-kicker','THE TABLE OF CONTENTS'));
       inside.append(make('h2','book-toc-title','Within these pages'));
-      inside.append(make('p','book-toc-intro','The story begins in imagined memory. Every adventure recorded after launch will be distinguished from the fictional prologue.'));
+      inside.append(make('p','book-toc-intro',volume.id==='xuthar'
+        ? 'From the forgotten names of a quiet childhood to the distant roads of Elwynn, the life of Xuthar Morvayne unfolds one chapter at a time.'
+        : 'An unfolding tale of memory, choice and the roads still waiting.'));
       const toc=make('ol','book-toc-list');
       const seen=new Set();
       volume.pages.forEach((p,i)=>{
@@ -71,12 +72,12 @@
         toc.append(li);
       });
       inside.append(toc);
-      inside.append(make('div','book-toc-note','A book that grows only when its traveller has taken another step.'));
+      inside.append(make('div','book-toc-note','A life is never finished while another road remains.'));
     } else if(page.type==='endpaper'){
       outer.classList.add('book-endpaper');
       inside.append(make('span','book-endmark',volume.symbol));
       inside.append(make('h2','','The story continues.'));
-      inside.append(make('p','','The next page is waiting for a real journey.'));
+      inside.append(make('p','','Beyond the last line, the road continues.'));
     } else {
       inside.append(make('span','book-page-kicker',page.chapter||'THE CHRONICLE'));
       inside.append(make('h2','book-page-title',page.title||'Untitled'));
@@ -221,7 +222,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261106-completed-missions-chapters-xxv-xxx',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261106-xuthar-novel-v2',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

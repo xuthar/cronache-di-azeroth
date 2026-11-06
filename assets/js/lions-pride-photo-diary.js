@@ -57,7 +57,7 @@
   }
   function featuredInn(url){
     const figure=document.querySelector('.first-night-figure');
-    if(!figure)return;
+    if(!figure || figure.classList.contains('first-night-figure--original'))return; // Never overwrite real single-photo layout with a stretched contact sheet.
     figure.dataset.featuredAlbum='inn';
     figure.classList.add('fn-with-photo');
     figure.style.setProperty('--fn-atlas','url("'+url+'")');

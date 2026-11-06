@@ -1,12 +1,49 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-05",
+  "recordedAt": "2026-11-06",
   "location": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
-  "source": "Player report of Stormwind quest deliveries, profession changes and Goldshire overnight rest; seven player-supplied 1920×1080 screenshots of the route and rainy Goldshire (20:24–21:34); earlier Stormwind quest tracker remains the latest readable mission list.",
-  "scope": "After the 20:24 Stormwind quest-tracker snapshot, player reports handing in some quests at Stormwind near Renato Gallina and in various shops, but no exact completed quest names or rewards are established by the new screenshots. Tailoring and Enchanting were learned as main professions, Herbalism abandoned, Fishing learned. Xuthar returned to Goldshire and lay in a bed at Lion's Pride Inn while rain fell outside. The last screenshot-backed level remains 8. Current quest list after these deliveries is NOT shown; do not treat older last-seen missions as current or missing missions as completed.",
+  "source": "User-provided in-game All Objectives screenshot (6 Nov 2026), showing three quest titles and their current objectives at displayed coordinates 43.3, 65.9; no visible zone label or current character level.",
+  "scope": "Day Two screenshot directly confirms only three visible active quests: The Jasperlode Mine (10), Rare Books (Elite) (7+) and Further Concerns (10). No turn-in or completion is shown, and the quest levels are not Xuthar's character level. Status of quests not in the cropped picture is not established; last independently confirmed character level remains 8.",
   "readyForTurnIn": [],
-  "active": [],
+  "active": [
+    {
+      "id": "the-jasperlode-mine",
+      "name": "The Jasperlode Mine",
+      "level": "10",
+      "status": "active",
+      "progress": "Scout through the Jasperlode Mine",
+      "objective": "Scout through the Jasperlode Mine."
+    },
+    {
+      "id": "rare-books-elite",
+      "name": "Rare Books (Elite)",
+      "level": "7+",
+      "status": "active",
+      "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
+      "objectives": [
+        {
+          "name": "Geomancy for Curious Young Wizards",
+          "current": 0,
+          "total": 1
+        },
+        {
+          "name": "Arcane Explainer: Magical Stuff in Simple Words",
+          "current": 0,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "further-concerns",
+      "name": "Further Concerns",
+      "level": "10",
+      "status": "active",
+      "progress": "Speak with Guard Thomas",
+      "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
+    }
+  ],
   "historical": [
     {
       "name": "Further Concerns",
@@ -114,7 +151,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "goldshire-rest-20261105-213455",
+  "snapshotId": "day02-20261106-quest-tracker-433-659",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -492,6 +529,13 @@
       "description": "Xuthar resting in a bed at Lion's Pride Inn",
       "uploadedByPlayer": true,
       "publishedOnSite": false
+    },
+    {
+      "filename": "image(9).png",
+      "description": "Day Two screenshot at UI coordinates 43.3, 65.9. Three ongoing quests visible: The Jasperlode Mine, Rare Books (Elite), Further Concerns.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06"
     }
   ],
   "latestReportAt": "2026-11-05T21:34:55+01:00",
@@ -544,7 +588,7 @@
     "readyForTurnIn": [],
     "at": "2026-11-05T20:24:23+01:00"
   },
-  "questsAfterProfessionChange": "Unknown. Last readable tracker was at 20:24, before later Stormwind hand-ins and profession changes.",
+  "questsAfterProfessionChange": "Three active quest entries explicitly visible in 6 Nov screenshot; no information on omitted quests or hand-ins.",
   "reportedQuestActivity": [
     {
       "area": "Stormwind City",
@@ -645,7 +689,7 @@
       "id": "day-02-20261106",
       "title": "Day Two · The morning after the rain",
       "date": "2026-11-06",
-      "status": "opened-by-player",
+      "status": "first-quest-tracker-recorded",
       "characterLevelAtOpening": 8,
       "startPoint": "Lion's Pride Inn, Goldshire (last confirmed location at 21:34 the previous night)",
       "professionsAtOpening": {
@@ -660,17 +704,41 @@
           "Herbalism"
         ]
       },
-      "questState": "unverified since the Stormwind turn-ins on 5 November; await new quest tracker",
+      "questState": "Three visible active quests at UI coordinates 43.3, 65.9; incomplete objectives; no turn-ins shown; other quests unknown.",
       "newQuestCompletions": [],
       "newTravelMilestones": [],
       "newCharacterLevel": null,
-      "inGameActionsVerified": false,
+      "inGameActionsVerified": true,
       "source": "Player stated on 6 November 2026 that a new day of WoW Forever begins; no current-session gameplay evidence supplied yet",
-      "storyScope": "Opening an editorial day does not prove the character has logged in, risen from bed or departed Goldshire"
+      "storyScope": "Opening an editorial day does not prove the character has logged in, risen from bed or departed Goldshire",
+      "screenshotEvidence": [
+        "image(9).png"
+      ],
+      "firstVerifiedEvent": {
+        "type": "quest-tracker",
+        "date": "2026-11-06",
+        "coordinates": "43.3, 65.9",
+        "zone": "not shown",
+        "visibleActiveQuests": [
+          "The Jasperlode Mine",
+          "Rare Books (Elite)",
+          "Further Concerns"
+        ],
+        "newQuestCompletions": [],
+        "source": "User screenshot of All Objectives"
+      }
     }
   ],
   "currentSessionId": "day-02-20261106",
-  "currentSessionStatus": "opened-by-player",
+  "currentSessionStatus": "first-quest-tracker-recorded",
   "currentChronicleDate": "2026-11-06",
-  "dayTwoOpeningNote": "Session two opened on 6 November 2026. Preserve level 8 and last documented location Goldshire inn from 5 November; do not infer weather today, new activities, quest completions, level ups or login."
+  "dayTwoOpeningNote": "The first 6 November screenshot shows three ongoing quests. Xuthar's level remains last confirmed 8, professions unchanged from yesterday's player report, and no new quest completions are shown.",
+  "previousQuestSnapshotId": "goldshire-rest-20261105-213455",
+  "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
+  "currentQuestTrackerLocation": {
+    "shownCoordinates": "43.3, 65.9",
+    "zone": "not visible in screenshot",
+    "at": "2026-11-06",
+    "placeVerified": false
+  }
 }

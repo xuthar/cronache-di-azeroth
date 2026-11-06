@@ -2,11 +2,64 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-06",
-  "location": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
-  "source": "User-provided in-game All Objectives screenshot (6 Nov 2026), showing three quest titles and their current objectives at displayed coordinates 43.3, 65.9; no visible zone label or current character level.",
-  "scope": "Day Two screenshot directly confirms only three visible active quests: The Jasperlode Mine (10), Rare Books (Elite) (7+) and Further Concerns (10). No turn-in or completion is shown, and the quest levels are not Xuthar's character level. Status of quests not in the cropped picture is not established; last independently confirmed character level remains 8.",
-  "readyForTurnIn": [],
+  "location": "Crystal Lake · Elwynn Forest · 54.8, 65.7 (latest screenshot)",
+  "source": "Five full-size 1920×1080 in-game screenshots supplied by player at Goldshire and Crystal Lake between 15:05 and 15:27 on 6 Nov 2026. Screenshot image 2 shows Xuthar Camera button and 'Screenshot salvato' message; images 3 and 4 document accepted fishing-related quests and casting fishing; image 5 shows Murloc combat and updated objectives.",
+  "scope": "Last screenshot at Crystal Lake 54.8,65.7 shows 7 ongoing quests plus Camping 101: Fishing ready for turn-in. Bottles and Baubles: Shiny Junk 4/6; A Net Disaster: Half-Eaten Fish 2/7. Camping 101 Enchanting and Tailoring remain skill-to-20 tasks. Jasperlode, Rare Books (Elite), Further Concerns remain active. Fishing ready is NOT a delivered/completed quest. Character level 8 is visible. Xuthar Camera minimap button and saved screenshot chat message are shown. No quest reward or hand-in is confirmed.",
+  "readyForTurnIn": [
+    {
+      "id": "camping-101-fishing",
+      "name": "Camping 101: Fishing",
+      "level": "6",
+      "status": "ready-for-turn-in",
+      "progress": "Ready for turn-in",
+      "objective": "Raise Fishing skill to 20.",
+      "targetSkill": 20,
+      "note": "Latest screenshot at 15:27:50 shows Ready for turn-in; reward and actual hand-in not confirmed."
+    }
+  ],
   "active": [
+    {
+      "id": "bottles-and-baubles",
+      "name": "Bottles and Baubles",
+      "level": "7",
+      "status": "active",
+      "progress": "4/6 Shiny Junk",
+      "objective": "Collect 6 Shiny Junk.",
+      "current": 4,
+      "total": 6,
+      "acceptedAt": "15:12:39",
+      "source": "6 Nov Crystal Lake in-game screenshot; last count 4/6 at 15:27."
+    },
+    {
+      "id": "a-net-disaster",
+      "name": "A Net Disaster",
+      "level": "7",
+      "status": "active",
+      "progress": "2/7 Half-Eaten Fish",
+      "objective": "Collect 7 Half-Eaten Fish.",
+      "current": 2,
+      "total": 7,
+      "acceptedAt": "15:12:33",
+      "source": "6 Nov Crystal Lake in-game screenshot; last count 2/7 at 15:27."
+    },
+    {
+      "id": "camping-101-enchanting",
+      "name": "Camping 101: Enchanting",
+      "level": "6",
+      "status": "active",
+      "progress": "Raise Enchanting skill to 20",
+      "objective": "Raise your Enchanting skill to 20.",
+      "targetSkill": 20
+    },
+    {
+      "id": "camping-101-tailoring",
+      "name": "Camping 101: Tailoring",
+      "level": "6",
+      "status": "active",
+      "progress": "Raise Tailoring skill to 20",
+      "objective": "Raise your Tailoring skill to 20.",
+      "targetSkill": 20
+    },
     {
       "id": "the-jasperlode-mine",
       "name": "The Jasperlode Mine",
@@ -21,7 +74,7 @@
       "level": "7+",
       "status": "active",
       "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
-      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
+      "objective": "Collect both books: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
       "objectives": [
         {
           "name": "Geomancy for Curious Young Wizards",
@@ -151,7 +204,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "day02-20261106-quest-tracker-433-659",
+  "snapshotId": "day02-20261106-crystal-lake-152750",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -288,6 +341,14 @@
     {
       "place": "Lion's Pride Inn, night rest",
       "observation": "Player photograph at 21:34 shows Xuthar reclining on an upstairs bed. This confirms lying down, not necessarily logging out or earning rested experience."
+    },
+    {
+      "place": "Goldshire outdoor camp · 6 Nov 2026",
+      "observation": "A white tent and campfire near Goldshire with Sam Sarsparilla visible; Xuthar Camera button appears by minimap in the next shot."
+    },
+    {
+      "place": "Crystal Lake · 6 Nov 2026",
+      "observation": "Fishing at lakeside and dock by Lee Brown; two quest acceptances, Murloc combat, Camping 101 Fishing ready for turn-in."
     }
   ],
   "innVisit": {
@@ -536,6 +597,46 @@
       "uploadedByPlayer": true,
       "publishedOnSite": false,
       "date": "2026-11-06"
+    },
+    {
+      "filename": "WoWScrnShot_110626_150517.jpg",
+      "description": "Xuthar beside a tent and campfire; Sam Sarsparilla visible. Level 8.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06",
+      "gameTime": "15:05"
+    },
+    {
+      "filename": "WoWScrnShot_110626_150619.jpg",
+      "description": "Xuthar Camera minimap button visible with tooltip; game chat confirms a screenshot saved to WoW Forever Screenshots folder.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06",
+      "gameTime": "15:06"
+    },
+    {
+      "filename": "WoWScrnShot_110626_151253.jpg",
+      "description": "Fishing dock with Lee Brown; player accepts A Net Disaster and Bottles and Baubles. Objectives 0/7 Half-Eaten Fish and 0/6 Shiny Junk.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06",
+      "gameTime": "15:12"
+    },
+    {
+      "filename": "WoWScrnShot_110626_151346.jpg",
+      "description": "Xuthar casts Fishing along the lakeshore with fishing bobber visible; no successful catch assumed from the frame.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06",
+      "gameTime": "15:13"
+    },
+    {
+      "filename": "WoWScrnShot_110626_152750.jpg",
+      "description": "Xuthar confronts level 7 Murloc. Quest tracker shows Shiny Junk 4/6, Half-Eaten Fish 2/7, and Camping 101 Fishing ready for turn-in.",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "date": "2026-11-06",
+      "gameTime": "15:27"
     }
   ],
   "latestReportAt": "2026-11-05T21:34:55+01:00",
@@ -588,7 +689,7 @@
     "readyForTurnIn": [],
     "at": "2026-11-05T20:24:23+01:00"
   },
-  "questsAfterProfessionChange": "Three active quest entries explicitly visible in 6 Nov screenshot; no information on omitted quests or hand-ins.",
+  "questsAfterProfessionChange": "Eight explicitly visible in latest tracker: seven active, Fishing quest ready to turn in; no additional hand-in confirmed.",
   "reportedQuestActivity": [
     {
       "area": "Stormwind City",
@@ -689,7 +790,7 @@
       "id": "day-02-20261106",
       "title": "Day Two · The morning after the rain",
       "date": "2026-11-06",
-      "status": "first-quest-tracker-recorded",
+      "status": "active-day-two-lake-exploration",
       "characterLevelAtOpening": 8,
       "startPoint": "Lion's Pride Inn, Goldshire (last confirmed location at 21:34 the previous night)",
       "professionsAtOpening": {
@@ -704,15 +805,24 @@
           "Herbalism"
         ]
       },
-      "questState": "Three visible active quests at UI coordinates 43.3, 65.9; incomplete objectives; no turn-ins shown; other quests unknown.",
+      "questState": "Seven active quests and Camping 101: Fishing ready for turn-in at Crystal Lake 54.8, 65.7 (15:27 on 6 Nov).",
       "newQuestCompletions": [],
-      "newTravelMilestones": [],
+      "newTravelMilestones": [
+        "Goldshire outdoor camp",
+        "Crystal Lake fishing dock",
+        "Crystal Lake lakeside Murloc encounter"
+      ],
       "newCharacterLevel": null,
       "inGameActionsVerified": true,
       "source": "Player stated on 6 November 2026 that a new day of WoW Forever begins; no current-session gameplay evidence supplied yet",
       "storyScope": "Opening an editorial day does not prove the character has logged in, risen from bed or departed Goldshire",
       "screenshotEvidence": [
-        "image(9).png"
+        "image(9).png",
+        "WoWScrnShot_110626_150517.jpg",
+        "WoWScrnShot_110626_150619.jpg",
+        "WoWScrnShot_110626_151253.jpg",
+        "WoWScrnShot_110626_151346.jpg",
+        "WoWScrnShot_110626_152750.jpg"
       ],
       "firstVerifiedEvent": {
         "type": "quest-tracker",
@@ -726,19 +836,108 @@
         ],
         "newQuestCompletions": [],
         "source": "User screenshot of All Objectives"
-      }
+      },
+      "professionProgress": {
+        "Fishing": "Camping 101: Fishing ready for turn-in, hand-in not confirmed",
+        "Tailoring": "Camping 101: Tailoring skill 20 objective still active",
+        "Enchanting": "Camping 101: Enchanting skill 20 objective still active"
+      },
+      "lastSeenAt": "15:27",
+      "lastObservedArea": "Crystal Lake · Elwynn Forest"
     }
   ],
   "currentSessionId": "day-02-20261106",
-  "currentSessionStatus": "first-quest-tracker-recorded",
+  "currentSessionStatus": "active-day-two-lake-exploration",
   "currentChronicleDate": "2026-11-06",
-  "dayTwoOpeningNote": "The first 6 November screenshot shows three ongoing quests. Xuthar's level remains last confirmed 8, professions unchanged from yesterday's player report, and no new quest completions are shown.",
+  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8.",
   "previousQuestSnapshotId": "goldshire-rest-20261105-213455",
   "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
   "currentQuestTrackerLocation": {
-    "shownCoordinates": "43.3, 65.9",
-    "zone": "not visible in screenshot",
-    "at": "2026-11-06",
-    "placeVerified": false
-  }
+    "shownCoordinates": "54.8, 65.7",
+    "zone": "Crystal Lake",
+    "at": "2026-11-06 15:27",
+    "placeVerified": true
+  },
+  "previousQuestSnapshot": {
+    "snapshotId": "day02-20261106-quest-tracker-433-659",
+    "active": [
+      {
+        "id": "the-jasperlode-mine",
+        "name": "The Jasperlode Mine",
+        "level": "10",
+        "status": "active",
+        "progress": "Scout through the Jasperlode Mine",
+        "objective": "Scout through the Jasperlode Mine."
+      },
+      {
+        "id": "rare-books-elite",
+        "name": "Rare Books (Elite)",
+        "level": "7+",
+        "status": "active",
+        "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+        "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
+        "objectives": [
+          {
+            "name": "Geomancy for Curious Young Wizards",
+            "current": 0,
+            "total": 1
+          },
+          {
+            "name": "Arcane Explainer: Magical Stuff in Simple Words",
+            "current": 0,
+            "total": 1
+          }
+        ]
+      },
+      {
+        "id": "further-concerns",
+        "name": "Further Concerns",
+        "level": "10",
+        "status": "active",
+        "progress": "Speak with Guard Thomas",
+        "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
+      }
+    ],
+    "readyForTurnIn": [],
+    "scope": "Day Two screenshot directly confirms only three visible active quests: The Jasperlode Mine (10), Rare Books (Elite) (7+) and Further Concerns (10). No turn-in or completion is shown, and the quest levels are not Xuthar's character level. Status of quests not in the cropped picture is not established; last independently confirmed character level remains 8.",
+    "source": "User-provided in-game All Objectives screenshot (6 Nov 2026), showing three quest titles and their current objectives at displayed coordinates 43.3, 65.9; no visible zone label or current character level.",
+    "recordedAt": "2026-11-06"
+  },
+  "gameplayDay2Timeline": [
+    {
+      "id": "camp-1505",
+      "time": "15:05",
+      "place": "Goldshire (45.0, 63.3)",
+      "event": "Xuthar beside a tent and campfire; Sam Sarsparilla visible. Level 8.",
+      "source": "WoWScrnShot_110626_150517.jpg"
+    },
+    {
+      "id": "camera-1506",
+      "time": "15:06",
+      "place": "Goldshire (45.0, 63.3)",
+      "event": "Xuthar Camera minimap button visible with tooltip; game chat confirms a screenshot saved to WoW Forever Screenshots folder.",
+      "source": "WoWScrnShot_110626_150619.jpg"
+    },
+    {
+      "id": "lake-1512",
+      "time": "15:12",
+      "place": "Crystal Lake (47.6, 62.5)",
+      "event": "Fishing dock with Lee Brown; player accepts A Net Disaster and Bottles and Baubles. Objectives 0/7 Half-Eaten Fish and 0/6 Shiny Junk.",
+      "source": "WoWScrnShot_110626_151253.jpg"
+    },
+    {
+      "id": "fishing-1513",
+      "time": "15:13",
+      "place": "Crystal Lake (48.2, 62.8)",
+      "event": "Xuthar casts Fishing along the lakeshore with fishing bobber visible; no successful catch assumed from the frame.",
+      "source": "WoWScrnShot_110626_151346.jpg"
+    },
+    {
+      "id": "murloc-1527",
+      "time": "15:27",
+      "place": "Crystal Lake (54.8, 65.7)",
+      "event": "Xuthar confronts level 7 Murloc. Quest tracker shows Shiny Junk 4/6, Half-Eaten Fish 2/7, and Camping 101 Fishing ready for turn-in.",
+      "source": "WoWScrnShot_110626_152750.jpg"
+    }
+  ]
 }

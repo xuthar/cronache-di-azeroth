@@ -199,12 +199,12 @@
  .book-print-pages{display:block!important;color:#24201e!important}
  .book-print-cover-heading{font:700 10pt Georgia,serif;text-align:center;color:#5d513f;margin:0 0 8mm}
  .book-print-pages>.book-page{
-   display:block!important;min-height:255mm!important;height:255mm!important;width:100%!important;
+   display:block!important;min-height:240mm!important;height:auto!important;width:100%!important;
    margin:0!important;padding:0!important;page-break-after:always!important;
-   break-after:page!important;overflow:hidden!important;border:1px solid #c6baa5!important;
+   break-after:page!important;overflow:visible!important;border:1px solid #c6baa5!important;
    background:#f9f3e7!important;box-shadow:none!important;
  }
- .book-print-pages>.book-page .book-page-inner{min-height:250mm!important;height:250mm!important;padding:20mm!important;box-shadow:none!important}
+ .book-print-pages>.book-page .book-page-inner{min-height:235mm!important;height:auto!important;padding:17mm!important;box-shadow:none!important}
  .book-print-pages .book-cover .book-page-inner{background:#223047!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
  .book-print-pages .book-cover{background:#223047!important}
  .book-print-pages .book-cover-ink{padding:40mm 20mm}

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T20:15:12.096Z"
+    "checkedAt": "2026-11-06T20:15:50.056Z"
   },
   "news": [
+    {
+      "title": "Blizzard Fixing Issues Causing Duplicates of NPCs and Mobs",
+      "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T20:11:48.000Z"
+    },
     {
       "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir",
       "category": "WoW",
       "publishedAt": "2026-11-06T18:31:23.000Z"
-    },
-    {
-      "title": "Ula'tek Nerfed on All Difficulties - Hotfixes Now Live",
-      "url": "https://www.wowhead.com/news=383783/ulatek-nerfed-on-all-difficulties-hotfixes-now-live",
-      "category": "Live",
-      "publishedAt": "2026-11-06T18:17:07.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T20:15:12.096Z",
-  "generatedAt": "2026-11-06T20:15:12.089Z",
+  "newsUpdatedAt": "2026-11-06T20:15:50.056Z",
+  "generatedAt": "2026-11-06T20:15:50.036Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 14:14:56 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 14:15:49 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

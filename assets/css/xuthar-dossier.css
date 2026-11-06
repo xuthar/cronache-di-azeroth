@@ -233,3 +233,20 @@
 .xu-dossier .xu-photo-archive-link:hover{background:#50425b;color:white}
 @media(max-width:900px){.xu-dossier .xu-photo-highlight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.xu-dossier .xu-photo-highlight-grid{grid-template-columns:1fr}}
+
+
+/* Text-only dossier collections: screenshots open as separate original files. */
+.xu-dossier .xu-photo-archive-choices{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0;
+}
+.xu-dossier .xu-photo-archive-choices a{
+  display:flex;flex-direction:column;gap:10px;min-width:0;padding:23px 20px;
+  border:1px solid #d0b17c76;border-radius:8px;background:linear-gradient(140deg,#172c3e,#1c2537);
+  text-decoration:none;box-shadow:0 9px 22px #0004;
+}
+.xu-dossier .xu-photo-archive-choices a:hover,
+.xu-dossier .xu-photo-archive-choices a:focus-visible{outline:2px solid #e7c791;outline-offset:2px;background:#354053}
+.xu-dossier .xu-photo-archive-choices span{font:750 .66rem/1.4 system-ui;color:#d8c08e;letter-spacing:.12em}
+.xu-dossier .xu-photo-archive-choices strong{font:550 1.7rem/1.18 Georgia,serif;color:#ffead0}
+.xu-dossier .xu-photo-archive-choices small{font:.82rem/1.55 system-ui;color:#c3cfdd}
+@media(max-width:850px){.xu-dossier .xu-photo-archive-choices{grid-template-columns:1fr}}

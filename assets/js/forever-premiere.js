@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. On 6 November 2026, Xuthar has reached level ten, as directly confirmed by the player. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; after the Crystal Lake outing he crossed a river and entered wooded Elwynn terrain. The latest 18:41 tracker shows ten ongoing quests, while the status of missing earlier quests remains unverified.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. On 6 November 2026, Xuthar has reached level ten, as directly confirmed by the player. After a rainy night at the Lion's Pride Inn, he explored Crystal Lake, crossed a river, and entered the wooded Elwynn terrain. His official EU Forever Armory URL has now been supplied by the player, although authenticated API synchronization is not yet enabled. The latest 18:41 tracker shows ten ongoing quests, while the status of missing earlier quests remains unverified.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';

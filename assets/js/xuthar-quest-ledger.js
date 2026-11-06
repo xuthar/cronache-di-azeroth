@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261105-rainy-rest-quests-02';
+ const source='assets/data/xuthar-quest-log.json?v=20261106-day2-first-tracker-01';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -36,17 +36,17 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Day Two has opened on 6 November 2026, with Xuthar still last confirmed at level 8 and the Lion's Pride Inn in Goldshire. Tailoring, Enchanting and Fishing are learned; Herbalism was abandoned yesterday. The newest readable quest tracker remains the 5 November 20:24 Stormwind snapshot, before subsequent deliveries. The historical list below is not a live report of today's quests.');
+   const lead=make('p','','Day Two has its first documented quest tracker. Three active quests are visible at 43.3, 65.9: The Jasperlode Mine, Rare Books (Elite) and Further Concerns. The image does not show completed missions, a new character level or the zone name. Level 8 remains Xuthar’s last confirmed character level. Quests absent from this crop are not assumed completed.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Named confirmed completions'],[data.lastSeenQuestTracker?.length||0,'Quests shown at 20:24']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Previously confirmed completions'],[data.active?.length||0,'Active quests in today’s screenshot']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two (6 November 2026) · Last verified level '+(data.characterLevel||'unconfirmed')+' · Last seen: Lion's Pride Inn, Goldshire');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · Last confirmed character level '+(data.characterLevel||'unconfirmed')+' · UI coordinates 43.3, 65.9');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -61,19 +61,19 @@
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
      [data.readyForTurnIn,'Ready for turn-in · current status unknown','xql-group-ready',true],
-     [data.lastSeenQuestTracker||data.active,'Last readable tracker · 20:24 (not live)','xql-group-active',false]
+     [data.active,'Day Two · Active in latest screenshot','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
-     if(items.length===0)grid.append(make('p','xql-empty','No later quest-tracker screenshot was supplied after the Stormwind deliveries. Current ready-for-turn-in status is unknown.'));
+No quest marked ready for turn-in in this screenshot; other quest states are not verified.
      items.forEach(q=>grid.append(questCard(q,ready)));
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','The last readable quest tracker was at 20:24 in Stormwind. Afterwards, the player reported unspecified quest deliveries, a change from Herbalism to Tailoring and Enchanting, learning Fishing, and returning to Goldshire to sleep while rain fell outside. These updates do not establish the final status of specific quests, including Camping 101: Herbalism. No automatic Blizzard API synchronization is claimed.');
+   const foot=make('p','xql-provenance','Source: player-supplied quest tracker screenshot dated 6 November 2026, showing three quests at UI coordinates 43.3, 65.9. This is a cropped tracker view: no new quest completion, reward, level-up, or confirmed zone. Quest level 10 and 7+ labels must not be confused with Xuthar’s character level. Blizzard API synchronization is not claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-rain-over-goldshire';root.append(book);
+   book.href='book.html?character=xuthar#x-day-two-opening';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

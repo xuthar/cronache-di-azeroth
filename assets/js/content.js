@@ -354,6 +354,21 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-day-two-opening",
+      "day": "15",
+      "chapter": "6 November 2026 · Day Two · Opening entry",
+      "title": "The morning after the rain",
+      "location": "Last confirmed · Lion's Pride Inn, Goldshire",
+      "type": "New session opened · Awaiting gameplay",
+      "excerpt": "The second day of Xuthar's Forever journey begins. Level 8, Tailoring, Enchanting and Fishing are the confirmed starting facts; new quests and adventures await documentation.",
+      "text": [
+        "The first night's final photograph showed Xuthar lying in an upstairs bed at the Lion's Pride Inn while rain fell over Goldshire. On 6 November, the player announced the start of the second day in WoW Forever.",
+        "Last confirmed character level: 8. Known professions: Tailoring and Enchanting (primary) and Fishing (secondary). Herbalism was abandoned on the previous evening. The exact state of the quest log after Stormwind's later deliveries remains unknown.",
+        "The next location, weather, gameplay actions and completed quests of Day Two have not yet been provided. This record opens a blank page; it does not claim Xuthar has already left the inn, logged in or gained experience.",
+        "In the literary chronicle, the first day's sound of rain fades into the possibility of another journey. The facts of this new day will be added only when the player experiences and records them."
+      ]
+    },
+    {
       "id": "xuthar-rainy-goldshire-rest",
       "day": "14",
       "chapter": "5 November 2026 · Stormwind to Goldshire, 20:24–21:34",

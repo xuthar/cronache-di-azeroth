@@ -8,7 +8,6 @@
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
   const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261106-first-archive';
-  const fullLink='https://github.com/xuthar/cronache-di-azeroth/blob/live-blizzard/forever-progress.json';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);
@@ -33,47 +32,31 @@
       hour:'2-digit',minute:'2-digit'
     }).format(unix*1000)+' (Italy)';
   };
-  const describeNote=(src)=>{
-    if(String(src).includes('player-screenshot'))return 'Objective from player-supplied in-game evidence, paraphrased.';
-    if(src==='quest-briefing')return 'Objective paraphrased from the official Blizzard quest briefing.';
-    return 'Objective summarized from documented quest context.';
-  };
-  function missionCard(group,notesById,storiesByQuest,newIds){
+  // Keep every Blizzard completion ID for verification and search, but display one
+  // readable card per quest title/region; variant IDs stay out of the public UI.
+  function missionCard(group,notesById,storiesByQuest){
     const first=group.entries[0],ids=group.entries.map(x=>x.id);
-    const card=make('article','qm-mission');card.id='quest-'+first.id;
-    card.dataset.search=(group.title+' '+group.area+' '+ids.join(' ')+' '+group.entries.map(x=>x.briefing||'').join(' ')).toLowerCase();
-    card.dataset.region=group.area;
     const note=ids.map(id=>notesById.get(id)).find(Boolean)||null;
-    card.dataset.hasObjective=String(!!note);
+    const briefing=group.entries.find(x=>typeof x.briefing==='string'&&x.briefing.trim())?.briefing;
+    const description=note?.objective||briefing||
+      'This quest is confirmed completed by Blizzard; its description is not yet available.';
+    const card=make('article','qm-mission');
+    card.id='quest-'+first.id;
+    card.dataset.search=(group.title+' '+group.area+' '+ids.join(' ')+' '+description).toLowerCase();
+    card.dataset.region=group.area;
     const head=make('header','qm-mission-head'),left=make('div','');
     text(left,'span','qm-mission-area',group.area);
     text(left,'h3','',group.title);
-    head.append(left,make('span','qm-verified','✓ BLIZZARD VERIFIED'));
+    head.append(left,make('span','qm-verified','✓ Completed'));
     card.append(head);
-    const meta=make('div','qm-mission-description');
-    meta.textContent=ids.length===1?'Quest ID '+ids[0]+' · Officially completed; completion time not supplied.':
-      ids.length+' separate completed IDs share this title: '+ids.join(', ')+'. These may represent variants, not separate story events.';
-    card.append(meta);
-    const goal=make('div','qm-mission-goal');
-    text(goal,'strong','','Objective / achieved outcome');
-    text(goal,'p','',note?.objective||'Blizzard marks this mission as completed. Its precise task checklist is not available from this verified API snapshot.');
-    text(goal,'small','',note?describeNote(note.source):
-      'Verified completion status; specific objective not independently verified.');
-    card.append(goal);
-    const actions=make('div','qm-mission-links');
+    text(card,'p','qm-mission-description',description);
+    text(card,'span','qm-mission-id','Quest ID '+first.id);
     const story=ids.map(id=>storiesByQuest.get(id)).find(Boolean);
-    if(story)actions.append(link('Read the related adventure ↗','book.html?character=xuthar#'+story.bookAnchor));
-    const questLink='https://www.wowhead.com/forever/quest='+first.id;
-    actions.append(link('Quest reference ↗',questLink,'',true));
-    if(newIds.some(id=>ids.includes(id)))actions.append(make('span','','New since previous verified snapshot'));
-    card.append(actions);
-    const details=make('details',''),summary=make('summary','','Source notes & quest context');
-    const more=make('div','qm-mission-extra');
-    const sample=group.entries.find(x=>typeof x.briefing==='string'&&x.briefing)||null;
-    if(sample)text(more,'p','','Official quest briefing (brief extract): '+sample.briefing);
-    else text(more,'p','','Blizzard confirms the completion ID, but public quest-description metadata is unavailable.');
-    text(more,'small','','Primary source: EU Forever /quests/completed. Title, area and briefing: Blizzard static-forever-eu. The exact completion timestamp, objective counters and rewards actually received are not supplied here.');
-    details.append(summary,more);card.append(details);
+    if(story){
+      const actions=make('div','qm-mission-links');
+      actions.append(link('Read the related adventure ↗','book.html?character=xuthar#'+story.bookAnchor));
+      card.append(actions);
+    }
     return card;
   }
   function storyCards(episodes,completed){
@@ -107,7 +90,6 @@
       Array.isArray(quests?.completedQuestIds)&&Array.isArray(quests?.completedQuestDetails);
     if(!sourceValid)throw Error('Official completed quest archive is not yet available.');
     const completed=new Set(quests.completedQuestIds.filter(Number.isInteger));
-    const newIds=(quests.newlyObservedCompletedIds||[]).filter(x=>completed.has(x));
     const notesById=new Map((editorial?.objectives||[]).filter(x=>Number.isInteger(x.id)).map(x=>[x.id,x]));
     const episodeList=Array.isArray(editorial?.episodes)?editorial.episodes:[];
     const storyByQuest=new Map;
@@ -124,25 +106,26 @@
       a.area.localeCompare(b.area,'en')||a.title.localeCompare(b.title,'en'));
     mount.replaceChildren();
     const stats=make('div','qm-stats');
-    for(const [value,name] of [[completed.size,'Completed quest IDs'],[groups.length,'Distinct quest titles'],
-      [episodeList.filter(e=>e.questIds.some(id=>completed.has(id))).length,'Original quest adventures'],
-      [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Current active quests']]){
+    for(const [value,name] of [
+      [groups.length,'Completed missions'],
+      [episodeList.filter(e=>e.questIds.some(id=>completed.has(id))).length,'Related adventures'],
+      [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Active quests']
+    ]){
       const stat=make('div','qm-stat');
       text(stat,'strong','',String(value));text(stat,'span','',name);stats.append(stat);
     }
     mount.append(stats);
     const note=make('p','qm-note');
-    note.textContent='Official Blizzard snapshot: '+timeLabel(feedData.exportedAt)+
-      '. Several Camping quests have multiple completed variant IDs, grouped by title. Historical completion dates and exact objective counters are unavailable. A story fragment is creative interpretation, not an in-game combat log.';
+    note.textContent='Official Blizzard record updated '+timeLabel(feedData.exportedAt)+
+      '. Completed missions are listed once by title. Blizzard does not provide the exact time each quest was finished.';
     mount.append(note,storyCards(episodeList,completed));
     const section=make('section','qm-section');section.id='mission-record';
     const sectionHead=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','THE LAST WITNESS / OFFICIAL QUEST LEDGER');
     text(heading,'h2','','The record of completed deeds');
-    const description=newIds.length?
-      newIds.length+' additional completed IDs were first observed compared with the preceding official snapshot. This does not identify their exact completion times.':
-      'All records shown are confirmed in the latest Blizzard snapshot. No new completion time is inferred from a missing quest.';
-    sectionHead.append(heading,make('p','',description));section.append(sectionHead);
+    sectionHead.append(heading,make('p','',
+      'Each quest appears as a simple completed record: title, description and reference ID.'));
+    section.append(sectionHead);
     const controls=make('div','qm-controls');
     const search=make('div','qm-control'),searchLabel=text(search,'label','','Search missions, regions or quest IDs');
     const searchInput=make('input','');searchInput.type='search';searchInput.placeholder='Search the completed archive…';searchInput.id='qm-search';searchLabel.htmlFor=searchInput.id;search.append(searchInput);
@@ -152,13 +135,11 @@
       const opt=make('option','',z);opt.value=z;select.append(opt);
     }
     zoneFilter.append(select);
-    const onlyNotes=make('label','qm-filter-check');
-    const checkbox=make('input','');checkbox.type='checkbox';onlyNotes.append(checkbox,document.createTextNode('Documented objectives only'));
-    controls.append(search,zoneFilter,onlyNotes);section.append(controls);
+    controls.append(search,zoneFilter);section.append(controls);
     const resultCount=make('p','qm-results-note');resultCount.setAttribute('role','status');
     section.append(resultCount);
     const list=make('div','qm-mission-grid');
-    const cards=groups.map(x=>missionCard(x,notesById,storyByQuest,newIds));
+    const cards=groups.map(x=>missionCard(x,notesById,storyByQuest));
     list.append(...cards);section.append(list);
     const apply=()=>{
       const needle=searchInput.value.trim().toLowerCase();
@@ -166,20 +147,17 @@
       for(const card of cards){
         const matchText=!needle||card.dataset.search.includes(needle);
         const matchRegion=select.value==='All regions'||card.dataset.region===select.value;
-        const matchGoal=!checkbox.checked||card.dataset.hasObjective==='true';
-        card.hidden=!(matchText&&matchRegion&&matchGoal);
+        card.hidden=!(matchText&&matchRegion);
         if(!card.hidden)visible++;
       }
-      resultCount.textContent='Showing '+visible+' of '+groups.length+' distinct missions · '+completed.size+' verified completed IDs.';
+      resultCount.textContent='Showing '+visible+' of '+groups.length+' completed missions.';
     };
     searchInput.addEventListener('input',apply);
     select.addEventListener('change',apply);
-    checkbox.addEventListener('change',apply);
     apply();
     mount.append(section);
     const footer=make('p','qm-source');
-    footer.append(document.createTextNode('Completed flags: official Blizzard EU Forever profile API · Titles and story context: official static quest catalog · Objective summaries: attributed player evidence or editorial paraphrases. '));
-    footer.append(link('View official snapshot ↗',fullLink,'',true),document.createTextNode(' · '));
+    footer.append(document.createTextNode('Completion status: official Blizzard EU Forever API. Mission summaries: Blizzard quest information and documented gameplay. Story chapters are original fiction. '));
     footer.append(link('Xuthar on Blizzard Armory ↗',sourceLink,'',true));
     mount.append(footer);
     const hash=location.hash.slice(1);

@@ -356,16 +356,17 @@ window.CHRONICLES = {
     {
       "id": "xuthar-day-two-opening",
       "day": "15",
-      "chapter": "6 November 2026 · Day Two · Opening entry",
-      "title": "The morning after the rain",
-      "location": "Last confirmed · Lion's Pride Inn, Goldshire",
-      "type": "New session opened · Awaiting gameplay",
-      "excerpt": "The second day of Xuthar's Forever journey begins. Level 8, Tailoring, Enchanting and Fishing are the confirmed starting facts; new quests and adventures await documentation.",
+      "chapter": "6 November 2026 · Day Two · First quest tracker",
+      "title": "Three roads still calling",
+      "location": "In-game coordinates 43.3, 65.9 · zone not visible",
+      "type": "In-game screenshot · active quests",
+      "excerpt": "The first Day Two quest screenshot shows The Jasperlode Mine, Rare Books (Elite) and Further Concerns in progress. Level 8 remains the latest confirmed level.",
       "text": [
-        "The first night's final photograph showed Xuthar lying in an upstairs bed at the Lion's Pride Inn while rain fell over Goldshire. On 6 November, the player announced the start of the second day in WoW Forever.",
-        "Last confirmed character level: 8. Known professions: Tailoring and Enchanting (primary) and Fishing (secondary). Herbalism was abandoned on the previous evening. The exact state of the quest log after Stormwind's later deliveries remains unknown.",
-        "The next location, weather, gameplay actions and completed quests of Day Two have not yet been provided. This record opens a blank page; it does not claim Xuthar has already left the inn, logged in or gained experience.",
-        "In the literary chronicle, the first day's sound of rain fades into the possibility of another journey. The facts of this new day will be added only when the player experiences and records them."
+        "The second day follows the rainy overnight rest at the Lion's Pride Inn in Goldshire. In the first screenshot of 6 November, Xuthar's objectives panel shows three active quests at UI coordinates 43.3, 65.9. The cropped image does not identify the current zone or establish a new character level.",
+        "The Jasperlode Mine (level 10) still asks Xuthar to scout through the mine.",
+        "Rare Books (Elite, level 7+) requires both Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words. Both are at 0 of 1 in the screenshot.",
+        "Further Concerns (level 10) still asks Xuthar to speak with Guard Thomas on Marshal Dughan's behalf.",
+        "These are mission levels, not the character level. The latest confirmed character level remains 8. No quest turn-in, reward, profession gain or new travel milestone can be inferred from this screenshot; missions not appearing in this crop remain unverified."
       ]
     },
     {

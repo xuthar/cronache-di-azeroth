@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T21:14:26.929Z"
+    "checkedAt": "2026-11-06T21:17:31.647Z"
   },
   "news": [
+    {
+      "title": "Upcoming Pet Changes for Hunters and Warlocks in WoW: Forever - Upcoming Class Tuning for November 10th",
+      "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T21:13:27.000Z"
+    },
     {
       "title": "Raid Rewards and PvP Balance - Crix Interview on WoW: Forever",
       "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-06T19:08:08.000Z"
-    },
-    {
-      "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T18:34:57.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T21:14:26.929Z",
-  "generatedAt": "2026-11-06T21:14:26.877Z",
+  "newsUpdatedAt": "2026-11-06T21:17:31.646Z",
+  "generatedAt": "2026-11-06T21:17:31.583Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 15:14:26 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 15:17:31 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

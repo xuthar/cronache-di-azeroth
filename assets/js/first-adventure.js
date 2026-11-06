@@ -13,16 +13,16 @@
       <div class="day-two-layout">
         <div>
           <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
-          <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
-          <p class="day-two-evidence">The 15:36 tracker shows six ongoing quests, including An Enticing Offer at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Later photographs show Xuthar crossing a river and exploring woodland near a Forest Spider. Earlier lake quests are no longer visible; their completion is not verified. Character level remains 8.</p>
+          <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The player has confirmed Xuthar is now level 9. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
+          <p class="day-two-evidence">The newest tracker at 18:41 shows ten active quests, including The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die! Xuthar is level 9 by direct player report. The cropped quest list does not show the character level, location name or completed hand-ins.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-river-and-woods">Read Chapter XXIII ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
-          <strong>LVL 8</strong>
+          <strong>LVL 9</strong>
           <p>LATEST PHOTOGRAPHED AREA</p>
           <b>Woodland · Elwynn Forest</b>
-          <small>Latest photos: 6 November, 16:31. Quest tracker: 15:36; six active missions.</small>
+          <small>Latest quest tracker: 6 November, 18:41 · 10 active quests. Level 9 confirmed by player.</small>
         </aside>
       </div>
       <div class="day-two-photostory" aria-label="Selected photographs from day two">
@@ -55,14 +55,14 @@
         <div class="first-night-copy">
           <span class="first-night-overline">5 November 2026 · Xuthar Morvayne's living chronicle</span>
           <h2 id="first-night-title">The world awoke.<br><em>The Last Witness endures.</em></h2>
-          <p class="first-night-lead">The gates yielded to a sea of travellers. Xuthar Morvayne entered Northshire, faced wolves and kobolds, and walked into the shadowed fields of the Defias. Now level eight, confirmed by in-game chat, Xuthar has completed Bounty on Garrick Padfoot, Garments of the Light and Shipment to Stormwind. Beyond the stone lion of Northshire, he has reached Goldshire and entered the Lion’s Pride Inn. There he stood beside Innkeeper Farley, found Tomas the Cook, and finally sat down by the glowing hearth. His road has continued past Guard Roberts, two defeats in Fargodeep Mine, and the stone walls and canals of Stormwind. After several reported Stormwind quest hand-ins, he has learned Tailoring, Enchanting and Fishing, abandoning Herbalism. At nightfall he returned through the rain to Goldshire and lay down in an upstairs room at Lion’s Pride Inn. The living chronicle continues tomorrow.</p>
+          <p class="first-night-lead">The gates yielded to a sea of travellers. Xuthar Morvayne entered Northshire, faced wolves and kobolds, and walked into the shadowed fields of the Defias. During his first day he reached level eight, confirmed by in-game chat, and completed Bounty on Garrick Padfoot, Garments of the Light and Shipment to Stormwind. Beyond the stone lion of Northshire, he has reached Goldshire and entered the Lion’s Pride Inn. There he stood beside Innkeeper Farley, found Tomas the Cook, and finally sat down by the glowing hearth. His road has continued past Guard Roberts, two defeats in Fargodeep Mine, and the stone walls and canals of Stormwind. After several reported Stormwind quest hand-ins, he has learned Tailoring, Enchanting and Fishing, abandoning Herbalism. At nightfall he returned through the rain to Goldshire and lay down in an upstairs room at Lion’s Pride Inn. The living chronicle continues tomorrow.</p>
           <blockquote class="first-night-quote">“He had come to remember those whom the world would forget. He did not yet know that the world had begun to remember him.”</blockquote>
           <div class="first-night-steps" aria-label="First session milestones">
-            <div><b>Level 8</b><span>Human Priest · Confirmed in game chat</span></div>
+            <div><b>Level 9</b><span>Human Priest · Player confirmed, 6 Nov</span></div>
             <div><b>New trades</b><span>Tailoring · Enchanting · Fishing</span></div>
             <div><b>Goldshire</b><span>Rainy night · Resting at Lion’s Pride Inn</span></div>
           </div>
-          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 8 ↗</a></div>
+          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 9 ↗</a></div>
           <p class="first-night-fine">Screenshots confirm levels seven and eight, Garments of the Light (270 XP and Friar’s Robes of the Light), and Shipment to Stormwind (800 XP). Two deaths in Fargodeep Mine and Stormwind arrival are documented. Some later Stormwind quest deliveries are player-reported but their exact titles and rewards remain unknown; the 20:24 quest tracker is historical. The final photographs show rain outside Goldshire and Xuthar resting in a bed. Literary imagery remains original fiction.</p>
         </div>
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">
@@ -111,7 +111,7 @@
     panel.innerHTML=`
       <span class="first-night-overline">NEW · 5 NOVEMBER 2026 · THE FIRST PLAYED ADVENTURE</span>
       <h2 id="xu-first-session-title">Back to Goldshire: the rain and the quiet room.</h2>
-      <p>The player screenshots now confirm level 8, Garments of the Light completed and Shipment to Stormwind handed in. After crossing Elwynn and enduring two defeats in Fargodeep Mine, Xuthar reached Stormwind, delivered several quests and learned Tailoring, Enchanting and Fishing, leaving Herbalism behind. Six distinct new photographs show his rainy journey home and his rest in a bed at Goldshire’s Lion’s Pride Inn. Named quests not separately documented remain unconfirmed.</p>
+      <p>Earlier screenshots confirm level 8 on 5 November, Garments of the Light completed and Shipment to Stormwind handed in. The player has since confirmed level 9 on 6 November. After crossing Elwynn and enduring two defeats in Fargodeep Mine, Xuthar reached Stormwind, delivered several quests and learned Tailoring, Enchanting and Fishing, leaving Herbalism behind. Six distinct new photographs show his rainy journey home and his rest in a bed at Goldshire’s Lion’s Pride Inn. Named quests not separately documented remain unconfirmed.</p>
       <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Last Light Before Sleep →</a><a href="journal.html#xuthar-rainy-goldshire-rest">Read tonight’s Goldshire journal →</a><a href="#xuthar-quests">View last documented quest tracker ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);

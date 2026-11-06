@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-day-two-enticing-offer-woodland",
+      "status": "level-9-day-two-ten-quest-tracker",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -672,14 +672,27 @@
           ]
         },
         {
+          "id": "x-day-two-ten-quests-field-record",
+          "chapter": "Field Record · 6 November 2026 · 18:41",
+          "title": "Ten Roads, a Ninth Level",
+          "kind": "reported",
+          "paragraphs": [
+            "At the latest cropped in-game quest tracker, coordinates 59.6, 69.4, ten active quest names are visible. The screenshot filename is image(20261106-184152).png; the zone name and Xuthar's character level are not shown in the crop.",
+            "Xuthar Morvayne has reached LEVEL 9, as the player explicitly clarified after supplying the screenshot. The precise moment, location, and experience reward of the level-up are not established by these images. This is a direct player report, not an independent screenshot or Blizzard API confirmation.",
+            "Newly visible quest titles: The Escape [7] — bring Invisibility Liquor to Maybell Maclure; Elmore's Task [15] — talk to Grimand Elmore; Report to Gryan Stoutmantle [10] — speak to Gryan at Sentinel Hill in Westfall; Goldtooth [8] — Bernice's Necklace 0/1; Princess Must Die! [9] — Brass Collar 0/1.",
+            "Still present: Camping 101: Enchanting [6] and Tailoring [6] — each skill to 20; The Jasperlode Mine [10] — scout the mine; Rare Books (Elite) [7+] — Geomancy for Curious Young Wizards 0/1, Arcane Explainer: Magical Stuff in Simple Words 0/1; Further Concerns [10] — talk to Guard Thomas.",
+            "Westfall is the stated destination of Report to Gryan Stoutmantle, not proof Xuthar has entered Westfall. Elmore's Task is quest level 15; Xuthar is level 9.",
+            "An Enticing Offer, Bottles and Baubles, A Net Disaster and Camping 101: Fishing are absent from this crop. Their last observed objectives remain in the historical log; there is no confirmed completion, abandonment or hand-in. The new screenshot shows no rewards or freshly completed quests."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "The Living Chronicle",
-          "title": "The Unfinished Offer",
+          "title": "The Roads Beyond Level Nine",
           "kind": "pending",
           "paragraphs": [
-            "The last supplied outdoor image from 6 November shows level-eight Xuthar in Elwynn Forest, where a Forest Spider is visible among the trees. A previous screenshot showed him crossing a river, and the 15:36 quest tracker recorded An Enticing Offer at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal.",
-            "Six quests are visible in the latest readable tracker. Older Crystal Lake quests are no longer shown but their completion, turn-in or abandonment is unverified. No level-up or Forest Spider kill is claimed.",
-            "The Last Witness will write the next page when the player confirms the next action."
+            "As of 6 November, Xuthar Morvayne is level nine by direct player confirmation. Ten active quests appear in the 18:41 quest tracker, including several errands leading toward future journeys. The character's exact current location and the level-up time are not shown.",
+            "No quest is presumed completed merely because it disappeared from the cropped tracker. The story will continue from the next verified adventure."
           ],
           "link": "chronicle.html"
         }

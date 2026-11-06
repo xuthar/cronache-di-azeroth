@@ -12,17 +12,17 @@
       <div class="day-two-signal"><span class="day-two-indicator" aria-hidden="true"></span> DAY TWO IS OPEN · 6 NOVEMBER 2026</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="xuthar-day-two-title">Another day.<br><em>Another unwritten road.</em></h2>
+          <h2 id="xuthar-day-two-title">Day Two.<br><em>The lake remembers.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
-          <p class="day-two-evidence">The first Day Two screenshot records three active quests: The Jasperlode Mine, Rare Books (Elite) and Further Concerns. Their outcomes, today's weather and any level-up are not yet confirmed.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-opening">Open Chapter XXI ↗</a><a href="journal.html#xuthar-day-two-opening">Day Two field journal ↗</a></div>
+          <p class="day-two-evidence">New screenshots confirm the Goldshire camp, Xuthar Camera working, Fishing at Crystal Lake, and a Murloc encounter. As of 15:27, seven quests are in progress and Camping 101: Fishing is ready for turn-in (not handed in). Character level remains 8.</p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-crystal-lake">Read Chapter XXII ↗</a><a href="journal.html#xuthar-day-two-crystal-lake">Crystal Lake journal ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
           <strong>LVL 8</strong>
-          <p>LAST CONFIRMED PLACE</p>
-          <b>Lion's Pride Inn · Goldshire</b>
-          <small>End-of-day evidence: 5 November, 21:34. New session actions pending.</small>
+          <p>LATEST CONFIRMED PLACE</p>
+          <b>Crystal Lake · Elwynn Forest</b>
+          <small>Latest evidence: 6 November, 15:27. Fishing ready for hand-in; lake quests in progress.</small>
         </aside>
       </div>`;
     return section;

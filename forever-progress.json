@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1793998625,
+  "exportedAt": 1793998748,
   "characters": [
     {
       "id": "xuthar",
@@ -22,7 +22,7 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1793998625
+      "checkedAt": 1793998748
     }
   ],
   "events": []

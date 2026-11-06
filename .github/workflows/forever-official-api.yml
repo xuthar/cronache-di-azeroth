@@ -1,7 +1,8 @@
 name: Forever official Blizzard API sync
 on:
   schedule:
-    - cron: '21 */6 * * *'
+    # Daily at 08:21 UTC (09:21 CET / 10:21 CEST); GitHub may delay scheduled runs.
+    - cron: '21 8 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -28,12 +29,14 @@ jobs:
         env:
           BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
           BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
-          FOREVER_API_ENABLED: ${{ vars.FOREVER_API_ENABLED }}
-          FOREVER_NAMESPACE_VERIFIED: ${{ vars.FOREVER_NAMESPACE_VERIFIED }}
+          # Authorized after successful read-only OAuth and EU profile HTTP 200 on 6 Nov.
+          # Keep only Xuthar enabled; other profiles are not verified.
+          FOREVER_API_ENABLED: 'true'
+          FOREVER_NAMESPACE_VERIFIED: 'true'
           FOREVER_PROFILE_NAMESPACE: ${{ vars.FOREVER_PROFILE_NAMESPACE }}
           FOREVER_XUTHAR_SLUG: ${{ vars.FOREVER_XUTHAR_SLUG }}
-          FOREVER_THORGAR_SLUG: ${{ vars.FOREVER_THORGAR_SLUG }}
-          FOREVER_AELYNDRA_SLUG: ${{ vars.FOREVER_AELYNDRA_SLUG }}
+          FOREVER_THORGAR_SLUG: ''
+          FOREVER_AELYNDRA_SLUG: ''
         run: node scripts/forever-api/sync.mjs "$RUNNER_TEMP/forever-progress.json"
       - name: Publish verified data only
         shell: bash

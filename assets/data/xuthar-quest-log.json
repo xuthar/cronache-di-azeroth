@@ -4,7 +4,7 @@
   "recordedAt": "2026-11-06",
   "location": "Quest tracker coordinates 59.6, 69.4; current zone not shown in cropped screenshot. One mission points to Sentinel Hill, Westfall.",
   "source": "Player-uploaded image(20261106-184152).png, cropped in-game quest tracker showing ten active quests and coordinates 59.6, 69.4. Filename indicates 18:41 on 6 Nov 2026; no character portrait or zone label.",
-  "scope": "Ten quests visibly active. Five appear for first time in this supplied tracker: The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Camping 101: Enchanting, Camping 101: Tailoring, Jasperlode Mine, Rare Books (Elite), Further Concerns continue. An Enticing Offer and three earlier Crystal Lake missions are not visible: do not infer completion, abandonment, reward or turn-in. No level-up confirmed; last documented character level 8.",
+  "scope": "Ten quests visibly active. Five appear for first time in this supplied tracker: The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Camping 101: Enchanting, Camping 101: Tailoring, Jasperlode Mine, Rare Books (Elite), Further Concerns continue. An Enticing Offer and three earlier Crystal Lake missions are not visible: do not infer completion, abandonment, reward or turn-in. Level 9 confirmed directly by player after this screenshot; the cropped quest tracker does not display the character level.",
   "readyForTurnIn": [],
   "active": [
     {
@@ -284,9 +284,9 @@
       }
     ]
   },
-  "characterLevel": 8,
-  "characterLevelSource": "Screenshot WoWScrnShot_110526_192624.jpg: chat says 'Congratulations, you have reached [Level 8]!' near Morgan Pestle in Stormwind; WoWScrnShot_110526_184652.jpg separately confirms level 7.",
-  "characterLevelRecordedAt": "2026-11-05",
+  "characterLevel": 9,
+  "characterLevelSource": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
+  "characterLevelRecordedAt": "2026-11-06",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -908,7 +908,7 @@
         "Elwynn watercourse crossing",
         "Forest exploration with Forest Spider in sight"
       ],
-      "newCharacterLevel": null,
+      "newCharacterLevel": 9,
       "inGameActionsVerified": true,
       "source": "Player stated on 6 November 2026 that a new day of WoW Forever begins; no current-session gameplay evidence supplied yet",
       "storyScope": "Opening an editorial day does not prove the character has logged in, risen from bed or departed Goldshire",
@@ -943,13 +943,15 @@
         "Enchanting": "Camping 101: Enchanting skill 20 objective still active"
       },
       "lastSeenAt": "18:41 (screenshot filename)",
-      "lastObservedArea": "Quest tracker 59.6, 69.4; zone not shown"
+      "lastObservedArea": "Quest tracker 59.6, 69.4; zone not shown",
+      "characterLevelLatest": 9,
+      "levelNineSource": "Direct player correction on 6 Nov; location and exact level-up time not established"
     }
   ],
   "currentSessionId": "day-02-20261106",
   "currentSessionStatus": "evening-quest-tracker-ten-ongoing",
   "currentChronicleDate": "2026-11-06",
-  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new turn-in or level-up, earlier missing quests remain unverified.",
+  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
   "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
   "currentQuestTrackerLocation": {
@@ -1420,6 +1422,22 @@
           "latestStatus": "not visible; turn-in unknown"
         }
       ]
+    }
+  ],
+  "previousConfirmedLevel": {
+    "level": 8,
+    "source": "Screenshot WoWScrnShot_110526_192624.jpg: chat says 'Congratulations, you have reached [Level 8]!' near Morgan Pestle in Stormwind; WoWScrnShot_110526_184652.jpg separately confirms level 7.",
+    "recordedAt": "2026-11-05"
+  },
+  "characterLevelConfirmation": "player-direct-report",
+  "levelMilestonesReported": [
+    {
+      "level": 9,
+      "date": "2026-11-06",
+      "source": "Player explicitly corrected the level to 9",
+      "location": "unknown",
+      "levelUpTime": "unknown",
+      "xp": "unknown"
     }
   ]
 }

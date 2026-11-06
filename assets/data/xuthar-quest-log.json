@@ -2,45 +2,31 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-06",
-  "location": "Crystal Lake · Elwynn Forest · 54.8, 65.7 (latest screenshot)",
-  "source": "Five full-size 1920×1080 in-game screenshots supplied by player at Goldshire and Crystal Lake between 15:05 and 15:27 on 6 Nov 2026. Screenshot image 2 shows Xuthar Camera button and 'Screenshot salvato' message; images 3 and 4 document accepted fishing-related quests and casting fishing; image 5 shows Murloc combat and updated objectives.",
-  "scope": "Last screenshot at Crystal Lake 54.8,65.7 shows 7 ongoing quests plus Camping 101: Fishing ready for turn-in. Bottles and Baubles: Shiny Junk 4/6; A Net Disaster: Half-Eaten Fish 2/7. Camping 101 Enchanting and Tailoring remain skill-to-20 tasks. Jasperlode, Rare Books (Elite), Further Concerns remain active. Fishing ready is NOT a delivered/completed quest. Character level 8 is visible. Xuthar Camera minimap button and saved screenshot chat message are shown. No quest reward or hand-in is confirmed.",
-  "readyForTurnIn": [
-    {
-      "id": "camping-101-fishing",
-      "name": "Camping 101: Fishing",
-      "level": "6",
-      "status": "ready-for-turn-in",
-      "progress": "Ready for turn-in",
-      "objective": "Raise Fishing skill to 20.",
-      "targetSkill": 20,
-      "note": "Latest screenshot at 15:27:50 shows Ready for turn-in; reward and actual hand-in not confirmed."
-    }
-  ],
+  "location": "Elwynn Forest area · quest tracker 39.9, 80.1 (zone label not visible); later outdoor scenes show a river and forest",
+  "source": "Three player-supplied screenshots from 6 November 2026: cropped quest tracker image(20261106-153654).png at 15:36, river WoWScrnShot_110626_155448.jpg at 15:54, forest WoWScrnShot_110626_163117.jpg at 16:31.",
+  "scope": "Latest readable mission panel was captured at 15:36, showing six visible active quests. An Enticing Offer: 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Camping 101 Enchanting and Tailoring: raise skills to 20; Jasperlode Mine: scout; Rare Books (Elite): both books 0/1; Further Concerns: speak to Guard Thomas. The two later photos show a river crossing and forest travel with a Forest Spider visible, not later quest status. Older lake quests and the fishing ready-for-turn-in state are NOT shown in the new crop; no delivery/completion is inferred. Character level last confirmed remains eight.",
+  "readyForTurnIn": [],
   "active": [
     {
-      "id": "bottles-and-baubles",
-      "name": "Bottles and Baubles",
+      "id": "an-enticing-offer",
+      "name": "An Enticing Offer",
       "level": "7",
       "status": "active",
-      "progress": "4/6 Shiny Junk",
-      "objective": "Collect 6 Shiny Junk.",
-      "current": 4,
-      "total": 6,
-      "acceptedAt": "15:12:39",
-      "source": "6 Nov Crystal Lake in-game screenshot; last count 4/6 at 15:27."
-    },
-    {
-      "id": "a-net-disaster",
-      "name": "A Net Disaster",
-      "level": "7",
-      "status": "active",
-      "progress": "2/7 Half-Eaten Fish",
-      "objective": "Collect 7 Half-Eaten Fish.",
-      "current": 2,
-      "total": 7,
-      "acceptedAt": "15:12:33",
-      "source": "6 Nov Crystal Lake in-game screenshot; last count 2/7 at 15:27."
+      "progress": "1/6 Vial of Animal Blood; 0/18 Duskweed Petal",
+      "objective": "Collect 6 Vials of Animal Blood and 18 Duskweed Petals.",
+      "objectives": [
+        {
+          "name": "Vial of Animal Blood",
+          "current": 1,
+          "total": 6
+        },
+        {
+          "name": "Duskweed Petal",
+          "current": 0,
+          "total": 18
+        }
+      ],
+      "source": "Quest tracker screenshot at 39.9, 80.1 on 6 Nov, 15:36."
     },
     {
       "id": "camping-101-enchanting",
@@ -74,7 +60,7 @@
       "level": "7+",
       "status": "active",
       "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
-      "objective": "Collect both books: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
+      "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
       "objectives": [
         {
           "name": "Geomancy for Curious Young Wizards",
@@ -204,7 +190,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "day02-20261106-crystal-lake-152750",
+  "snapshotId": "day02-20261106-enticing-offer-153654",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -349,6 +335,14 @@
     {
       "place": "Crystal Lake · 6 Nov 2026",
       "observation": "Fishing at lakeside and dock by Lee Brown; two quest acceptances, Murloc combat, Camping 101 Fishing ready for turn-in."
+    },
+    {
+      "place": "Elwynn watercourse · 6 Nov 15:54",
+      "observation": "Xuthar photographed moving in a shallow river with bright golden reflections; location not more precisely documented."
+    },
+    {
+      "place": "Woodland with Forest Spider · 6 Nov 16:31",
+      "observation": "Forest exploration: a Forest Spider level/nameplate visible ahead; no kill, loot, or quest completion confirmed."
     }
   ],
   "innVisit": {
@@ -669,6 +663,30 @@
       "uploadedByPlayer": true,
       "publishedOnSite": false,
       "reference": "diary-retrospective"
+    },
+    {
+      "filename": "image(20261106-153654).png",
+      "description": "An Enticing Offer [7] seen in progress with 1/6 Vial of Animal Blood, 0/18 Duskweed Petal. Five other active quests remain visible. Lake quests no longer shown; status unknown.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "gameTime": "15:36"
+    },
+    {
+      "filename": "WoWScrnShot_110626_155448.jpg",
+      "description": "Xuthar wades through or crosses a wide stream, low sunlight reflected on the water. No UI or quest completion visible.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "gameTime": "15:54"
+    },
+    {
+      "filename": "WoWScrnShot_110626_163117.jpg",
+      "description": "Xuthar moves through wooded terrain. A Forest Spider nameplate is visible ahead; no combat outcome shown.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "gameTime": "16:31"
     }
   ],
   "latestReportAt": "2026-11-05T21:34:55+01:00",
@@ -721,7 +739,7 @@
     "readyForTurnIn": [],
     "at": "2026-11-05T20:24:23+01:00"
   },
-  "questsAfterProfessionChange": "Eight explicitly visible in latest tracker: seven active, Fishing quest ready to turn in; no additional hand-in confirmed.",
+  "questsAfterProfessionChange": "Six visible active quests at 15:36, three earlier lake quests not visible and not assumed delivered. No readable quest tracker at 15:54 or 16:31.",
   "reportedQuestActivity": [
     {
       "area": "Stormwind City",
@@ -822,7 +840,7 @@
       "id": "day-02-20261106",
       "title": "Day Two · The morning after the rain",
       "date": "2026-11-06",
-      "status": "active-day-two-lake-exploration",
+      "status": "forest-exploration-after-enticing-offer",
       "characterLevelAtOpening": 8,
       "startPoint": "Lion's Pride Inn, Goldshire (last confirmed location at 21:34 the previous night)",
       "professionsAtOpening": {
@@ -837,12 +855,14 @@
           "Herbalism"
         ]
       },
-      "questState": "Seven active quests and Camping 101: Fishing ready for turn-in at Crystal Lake 54.8, 65.7 (15:27 on 6 Nov).",
+      "questState": "At 15:36 six active quests visible, including An Enticing Offer 1/6 Vial of Animal Blood, 0/18 Duskweed Petal. Fishing and other lake quests absent, delivery not verified.",
       "newQuestCompletions": [],
       "newTravelMilestones": [
         "Goldshire outdoor camp",
         "Crystal Lake fishing dock",
-        "Crystal Lake lakeside Murloc encounter"
+        "Crystal Lake lakeside Murloc encounter",
+        "Elwynn watercourse crossing",
+        "Forest exploration with Forest Spider in sight"
       ],
       "newCharacterLevel": null,
       "inGameActionsVerified": true,
@@ -854,7 +874,10 @@
         "WoWScrnShot_110626_150619.jpg",
         "WoWScrnShot_110626_151253.jpg",
         "WoWScrnShot_110626_151346.jpg",
-        "WoWScrnShot_110626_152750.jpg"
+        "WoWScrnShot_110626_152750.jpg",
+        "image(20261106-153654).png",
+        "WoWScrnShot_110626_155448.jpg",
+        "WoWScrnShot_110626_163117.jpg"
       ],
       "firstVerifiedEvent": {
         "type": "quest-tracker",
@@ -874,25 +897,68 @@
         "Tailoring": "Camping 101: Tailoring skill 20 objective still active",
         "Enchanting": "Camping 101: Enchanting skill 20 objective still active"
       },
-      "lastSeenAt": "15:27",
-      "lastObservedArea": "Crystal Lake · Elwynn Forest"
+      "lastSeenAt": "16:31",
+      "lastObservedArea": "Woodland in Elwynn Forest (exact location not shown)"
     }
   ],
   "currentSessionId": "day-02-20261106",
-  "currentSessionStatus": "active-day-two-lake-exploration",
+  "currentSessionStatus": "forest-exploration-after-enticing-offer",
   "currentChronicleDate": "2026-11-06",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded.",
   "previousQuestSnapshotId": "goldshire-rest-20261105-213455",
   "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
   "currentQuestTrackerLocation": {
-    "shownCoordinates": "54.8, 65.7",
-    "zone": "Crystal Lake",
-    "at": "2026-11-06 15:27",
-    "placeVerified": true
+    "shownCoordinates": "39.9, 80.1",
+    "zone": "not shown in cropped tracker; prior gameplay Elwynn Forest",
+    "at": "2026-11-06 15:36",
+    "placeVerified": false
   },
   "previousQuestSnapshot": {
-    "snapshotId": "day02-20261106-quest-tracker-433-659",
+    "snapshotId": "day02-20261106-crystal-lake-152750",
+    "location": "Crystal Lake · Elwynn Forest · 54.8, 65.7 (latest screenshot)",
     "active": [
+      {
+        "id": "bottles-and-baubles",
+        "name": "Bottles and Baubles",
+        "level": "7",
+        "status": "active",
+        "progress": "4/6 Shiny Junk",
+        "objective": "Collect 6 Shiny Junk.",
+        "current": 4,
+        "total": 6,
+        "acceptedAt": "15:12:39",
+        "source": "6 Nov Crystal Lake in-game screenshot; last count 4/6 at 15:27."
+      },
+      {
+        "id": "a-net-disaster",
+        "name": "A Net Disaster",
+        "level": "7",
+        "status": "active",
+        "progress": "2/7 Half-Eaten Fish",
+        "objective": "Collect 7 Half-Eaten Fish.",
+        "current": 2,
+        "total": 7,
+        "acceptedAt": "15:12:33",
+        "source": "6 Nov Crystal Lake in-game screenshot; last count 2/7 at 15:27."
+      },
+      {
+        "id": "camping-101-enchanting",
+        "name": "Camping 101: Enchanting",
+        "level": "6",
+        "status": "active",
+        "progress": "Raise Enchanting skill to 20",
+        "objective": "Raise your Enchanting skill to 20.",
+        "targetSkill": 20
+      },
+      {
+        "id": "camping-101-tailoring",
+        "name": "Camping 101: Tailoring",
+        "level": "6",
+        "status": "active",
+        "progress": "Raise Tailoring skill to 20",
+        "objective": "Raise your Tailoring skill to 20.",
+        "targetSkill": 20
+      },
       {
         "id": "the-jasperlode-mine",
         "name": "The Jasperlode Mine",
@@ -907,7 +973,7 @@
         "level": "7+",
         "status": "active",
         "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
-        "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
+        "objective": "Collect both books: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
         "objectives": [
           {
             "name": "Geomancy for Curious Young Wizards",
@@ -930,10 +996,20 @@
         "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
       }
     ],
-    "readyForTurnIn": [],
-    "scope": "Day Two screenshot directly confirms only three visible active quests: The Jasperlode Mine (10), Rare Books (Elite) (7+) and Further Concerns (10). No turn-in or completion is shown, and the quest levels are not Xuthar's character level. Status of quests not in the cropped picture is not established; last independently confirmed character level remains 8.",
-    "source": "User-provided in-game All Objectives screenshot (6 Nov 2026), showing three quest titles and their current objectives at displayed coordinates 43.3, 65.9; no visible zone label or current character level.",
-    "recordedAt": "2026-11-06"
+    "readyForTurnIn": [
+      {
+        "id": "camping-101-fishing",
+        "name": "Camping 101: Fishing",
+        "level": "6",
+        "status": "ready-for-turn-in",
+        "progress": "Ready for turn-in",
+        "objective": "Raise Fishing skill to 20.",
+        "targetSkill": 20,
+        "note": "Latest screenshot at 15:27:50 shows Ready for turn-in; reward and actual hand-in not confirmed."
+      }
+    ],
+    "scope": "Last screenshot at Crystal Lake 54.8,65.7 shows 7 ongoing quests plus Camping 101: Fishing ready for turn-in. Bottles and Baubles: Shiny Junk 4/6; A Net Disaster: Half-Eaten Fish 2/7. Camping 101 Enchanting and Tailoring remain skill-to-20 tasks. Jasperlode, Rare Books (Elite), Further Concerns remain active. Fishing ready is NOT a delivered/completed quest. Character level 8 is visible. Xuthar Camera minimap button and saved screenshot chat message are shown. No quest reward or hand-in is confirmed.",
+    "source": "Five full-size 1920×1080 in-game screenshots supplied by player at Goldshire and Crystal Lake between 15:05 and 15:27 on 6 Nov 2026. Screenshot image 2 shows Xuthar Camera button and 'Screenshot salvato' message; images 3 and 4 document accepted fishing-related quests and casting fishing; image 5 shows Murloc combat and updated objectives."
   },
   "gameplayDay2Timeline": [
     {
@@ -970,6 +1046,27 @@
       "place": "Crystal Lake (54.8, 65.7)",
       "event": "Xuthar confronts level 7 Murloc. Quest tracker shows Shiny Junk 4/6, Half-Eaten Fish 2/7, and Camping 101 Fishing ready for turn-in.",
       "source": "WoWScrnShot_110626_152750.jpg"
+    },
+    {
+      "id": "quest-enticing-1536",
+      "time": "15:36",
+      "place": "Quest tracker 39.9, 80.1 (zone not visible)",
+      "event": "An Enticing Offer [7] seen in progress with 1/6 Vial of Animal Blood, 0/18 Duskweed Petal. Five other active quests remain visible. Lake quests no longer shown; status unknown.",
+      "source": "image(20261106-153654).png"
+    },
+    {
+      "id": "river-1554",
+      "time": "15:54",
+      "place": "Elwynn Forest watercourse (exact map point not shown)",
+      "event": "Xuthar wades through or crosses a wide stream, low sunlight reflected on the water. No UI or quest completion visible.",
+      "source": "WoWScrnShot_110626_155448.jpg"
+    },
+    {
+      "id": "forest-spider-1631",
+      "time": "16:31",
+      "place": "Elwynn Forest woodland (exact map point not shown)",
+      "event": "Xuthar moves through wooded terrain. A Forest Spider nameplate is visible ahead; no combat outcome shown.",
+      "source": "WoWScrnShot_110626_163117.jpg"
     }
   ],
   "diaryReconstruction": {
@@ -1142,5 +1239,22 @@
     ],
     "timingCaveat": "Displayed zone times are per diary grouping, not a complete all-session or cumulative played-time ledger. Do not add across levels without definition.",
     "sourceStatus": "four uploaded diary screenshots; not uploaded as binary images to the public website"
-  }
+  },
+  "unverifiedAfterLatestCrop": [
+    {
+      "name": "Bottles and Baubles",
+      "lastSeen": "4/6 Shiny Junk at 15:27",
+      "latestStatus": "not visible; delivery unknown"
+    },
+    {
+      "name": "A Net Disaster",
+      "lastSeen": "2/7 Half-Eaten Fish at 15:27",
+      "latestStatus": "not visible; delivery unknown"
+    },
+    {
+      "name": "Camping 101: Fishing",
+      "lastSeen": "Ready for turn-in at 15:27",
+      "latestStatus": "not visible; turn-in unknown"
+    }
+  ]
 }

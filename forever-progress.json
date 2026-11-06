@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1793999376,
+  "exportedAt": 1793999470,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1793999376,
+      "checkedAt": 1793999470,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1793999376,
+          "snapshotAt": 1793999470,
           "inProgressCount": 8,
           "completedCount": 87,
           "inProgress": [
@@ -167,7 +167,7 @@
         "achievements": {
           "trackedCount": 7
         },
-        "profileCheckedAt": 1793999376
+        "profileCheckedAt": 1793999470
       }
     }
   ],

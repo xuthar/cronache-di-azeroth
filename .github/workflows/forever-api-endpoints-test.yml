@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/forever-api-endpoints-test.yml'
+      - 'scripts/forever-api/endpoints-probe.mjs'
 permissions:
   contents: read
 concurrency:

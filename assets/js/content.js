@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-level-ten-official-armory",
+      "day": "20",
+      "chapter": "6 November 2026 · Level 10 · Armory threshold",
+      "title": "A Name in the Armory · Xuthar Reaches Level Ten",
+      "location": "Forever EU · exact leveling location unknown",
+      "type": "Direct player report · Official profile link",
+      "excerpt": "Xuthar Morvayne reaches level 10. His official EU Forever Armory URL is now recorded; Blizzard API synchronization is still awaiting a verified authenticated profile response.",
+      "text": [
+        "The player has confirmed level 10 on the evening of 6 November 2026, after the latest supplied quest screenshot at 18:41. The time and location of the level-up are not documented.",
+        "Blizzard official EU Forever Armory profile supplied by player: https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
+        "The official Armory website is known to list characters from level 10 onward after logout. The specific character page could not be read through the web tool in this session; it is therefore a reference URL, not independently verified profile data.",
+        "The existing Forever importer on GitHub is still disabled pending developer credentials and successful namespace verification. It has not read or published Xuthar's gear, skills, achievements or completed quests.",
+        "The 18:41 quest list remains the latest confirmed mission snapshot with ten active quests; reaching level 10 does not prove any particular quest was completed."
+      ]
+    },
+    {
       "id": "xuthar-day-two-ten-quests-level-nine",
       "day": "19",
       "chapter": "6 November 2026 · Level 9 · 18:41 quest tracker",

@@ -1,0 +1,63 @@
+name: Validate Xuthar completed quest archive
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/validate-missions.yml'
+      - 'missions.html'
+      - 'assets/js/xuthar-missions.js'
+      - 'assets/css/xuthar-missions.css'
+      - 'assets/data/xuthar-quest-editorial.json'
+      - 'assets/data/character-books.json'
+      - 'assets/js/character-book.js'
+      - 'scripts/forever-api/sync.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify all completed-quest JavaScript syntax
+        run: |
+          node --check assets/js/xuthar-missions.js
+          node --check assets/js/app.js
+          node --check assets/js/character-book.js
+          node --check scripts/forever-api/sync.mjs
+          node --check assets/js/first-adventure.js
+      - name: Verify editorial quest stories, anchors, HTML and data shapes
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync} from 'node:fs';
+          import assert from 'node:assert/strict';
+          const read=p=>readFileSync(p,'utf8');
+          const ed=JSON.parse(read('assets/data/xuthar-quest-editorial.json'));
+          const books=JSON.parse(read('assets/data/character-books.json'));
+          const volume=books.volumes.find(v=>v.id==='xuthar');
+          assert(volume,'Xuthar Living Book must exist');
+          const pages=new Set(volume.pages.map(x=>x.id));
+          const noteIds=new Set;
+          for(const note of ed.objectives){
+            assert(Number.isInteger(note.id)&&note.id>0);
+            assert(note.objective && typeof note.objective==='string');
+            assert(!noteIds.has(note.id),'No duplicate objective notes');
+            noteIds.add(note.id);
+          }
+          for(const episode of ed.episodes){
+            assert(pages.has(episode.bookAnchor),'Missing Living Book chapter '+episode.bookAnchor);
+            assert(episode.questIds.length>0,'Story must have quest references');
+            assert(volume.pages.find(p=>p.id===episode.bookAnchor)?.kind==='fiction','Literary story must be labelled fiction');
+          }
+          assert(read('missions.html').includes('data-page="missions"'));
+          assert(read('assets/js/app.js').includes("['missions','Completed Quests','missions.html']"));
+          assert(read('assets/js/xuthar-missions.js').includes('completedQuestDetails'));
+          assert(read('scripts/forever-api/sync.mjs').includes('static-forever-eu'));
+          console.log('Archive verified: '+ed.objectives.length+' objective notes, '+ed.episodes.length+' fictional chapters');
+          NODE

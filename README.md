@@ -150,3 +150,5 @@ Preserve confirmed milestones and chronology; never quietly claim an unobserved 
 The reader's existing chapter `id` anchors are durable deep links; keep them when revising or moving chapters. Weave new quest-based narrative scenes into their chronological place, rather than adding detached end-of-book quest reports. A future session should extend the book as one uninterrupted life, from childhood and formative years through each day's adventures. Other characters' volumes remain independent.
 
 For printing, ensure all prose can flow without clipping; do not place technical data or mission-ID lists inside the book itself.
+
+**Xuthar character continuity:** Carro Steelcave is Xuthar Morvayne's established friend, a hunter accompanied by his pet cat. First represented within the living novel at Stormwind's canal arches in the chapter `x-stormwind-canals-dusk`. Keep Carro as a recurring supporting character as future actual shared adventures are observed; do not turn anticipated meetings into a completed game event before they occur.

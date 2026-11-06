@@ -39,14 +39,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 5 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','Xuthar remains level 8. Later in the evening, the player reports Stormwind quest deliveries, learning Tailoring and Enchanting, abandoning Herbalism, and learning Fishing. The newest readable quest tracker is still from 20:24, before those changes. The list below is historical, not the current live quest log.');
+   const lead=make('p','','Day Two has opened on 6 November 2026, with Xuthar still last confirmed at level 8 and the Lion's Pride Inn in Goldshire. Tailoring, Enchanting and Fishing are learned; Herbalism was abandoned yesterday. The newest readable quest tracker remains the 5 November 20:24 Stormwind snapshot, before subsequent deliveries. The historical list below is not a live report of today's quests.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Named confirmed completions'],[data.lastSeenQuestTracker?.length||0,'Quests shown at 20:24']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Level '+(data.characterLevel||'unconfirmed')+' · 5 November 2026 · Resting at Lion's Pride Inn, Goldshire');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two (6 November 2026) · Last verified level '+(data.characterLevel||'unconfirmed')+' · Last seen: Lion's Pride Inn, Goldshire');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){

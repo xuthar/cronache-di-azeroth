@@ -354,6 +354,21 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-day-two-ten-quests-level-nine",
+      "day": "19",
+      "chapter": "6 November 2026 · Level 9 · 18:41 quest tracker",
+      "title": "Ten Open Paths · Xuthar Reaches Level Nine",
+      "location": "Tracker coordinates 59.6, 69.4 · zone not shown",
+      "type": "Manual quest record · player-confirmed character level",
+      "excerpt": "Xuthar is now level 9 (player confirmed). Ten active quests are visible, including The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!.",
+      "text": [
+        "Player confirmation establishes Xuthar Morvayne at level 9. The exact time of level-up and its location are not shown. Do not infer an XP reward.",
+        "The latest cropped quest tracker lists ten ongoing missions at 59.6, 69.4. Newly seen titles: The Escape (deliver Invisibility Liquor to Maybell Maclure); Elmore's Task (talk to Grimand Elmore); Report to Gryan Stoutmantle (speak to Gryan at Sentinel Hill, Westfall); Goldtooth (Bernice's Necklace 0/1); Princess Must Die! (Brass Collar 0/1).",
+        "Still active: Camping 101: Enchanting and Tailoring (skill goals 20), The Jasperlode Mine, Rare Books (Elite) (both books 0/1), Further Concerns (talk to Guard Thomas).",
+        "An Enticing Offer, A Net Disaster, Bottles and Baubles and Camping 101: Fishing are not visible in the newest crop; their outcomes are unknown. The quest's Westfall destination is not evidence of travel into Westfall. No new completion is asserted."
+      ]
+    },
+    {
       "id": "xuthar-day-two-enticing-offer-river",
       "day": "18",
       "chapter": "6 November 2026 · Elwynn Forest, 15:36–16:31",

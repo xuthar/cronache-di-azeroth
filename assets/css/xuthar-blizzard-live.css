@@ -26,3 +26,19 @@
 .blizz-live-links a:hover,.blizz-live-links a:focus-visible{background:#715680;color:#fff}
 @media(max-width:820px){.blizz-live-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.blizz-live-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.blizz-live-stat{padding:12px}.blizz-live-links a{width:100%;justify-content:center}}
+
+/* Daily Blizzard quest/profession overview. No quest-completion inference. */
+.blizz-live-activity{margin:0 0 20px}
+.blizz-live-activity-summary{border-top:1px solid #c3a47768;padding-top:20px}
+.blizz-live-activity h3{font:500 clamp(1.2rem,2vw,1.75rem)/1.25 Georgia,serif;color:#fce8c9;margin:0 0 16px}
+.blizz-live-progress-counts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:23px}
+.blizz-live-progress-chip{display:flex;flex-direction:column;gap:6px;min-width:0;padding:12px 10px;border:1px solid #bbab8267;border-radius:7px;background:#0b1b2dcc}
+.blizz-live-progress-chip strong{font:600 clamp(1.35rem,2.3vw,2rem)/1 Georgia,serif;color:#f8daaa}
+.blizz-live-progress-chip span{font:700 .62rem/1.4 system-ui;letter-spacing:.07em;color:#bacddb}
+.blizz-live-activity h4{font:600 1rem/1.45 system-ui;color:#f2dfc6;margin:0 0 11px}
+.blizz-live-quest-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;padding:0;list-style:none;margin:0 0 15px}
+.blizz-live-quest-list li{min-width:0;overflow-wrap:anywhere;padding:9px 11px;border-left:2px solid #cbb18a;background:#0e2131;border-radius:0 5px 5px 0;font:.83rem/1.5 system-ui;color:#d6e4e7}
+.blizz-live-activity .blizz-live-caution{margin:14px 0 0;max-width:none;font:.75rem/1.65 system-ui;color:#aebfd1}
+.blizz-live-more{display:inline-block;margin-bottom:5px;color:#ecd5af;font:700 .81rem/1.4 system-ui}
+@media(max-width:960px){.blizz-live-progress-counts{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.blizz-live-progress-counts{grid-template-columns:repeat(2,minmax(0,1fr))}.blizz-live-quest-list{grid-template-columns:1fr}}

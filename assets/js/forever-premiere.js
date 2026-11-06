@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. He begins Day Two on 6 November 2026 at his last confirmed level eight. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; after the Crystal Lake outing he crossed a river and entered wooded Elwynn terrain. The 15:36 tracker shows six ongoing quests, including An Enticing Offer. The former lake quests are no longer shown; no hand-in is claimed.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. On 6 November 2026, Xuthar has reached level nine, as directly confirmed by the player. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; after the Crystal Lake outing he crossed a river and entered wooded Elwynn terrain. The latest 18:41 tracker shows ten ongoing quests, while the status of missing earlier quests remains unverified.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
@@ -121,7 +121,7 @@
   const facts=$('div','forever-premiere-facts');
   [
     ['05 NOV','THE OPENING NIGHT'],
-    ['LEVEL 8','XUTHAR’S CURRENT LEVEL'],
+    ['LEVEL 9','XUTHAR’S CURRENT LEVEL'],
     ['DAY TWO','6 NOVEMBER · CHRONICLE OPEN']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');

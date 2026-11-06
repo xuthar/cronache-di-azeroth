@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T18:50:19.456Z"
+    "checkedAt": "2026-11-06T20:11:14.788Z"
   },
   "news": [
+    {
+      "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T19:08:08.000Z"
+    },
     {
       "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
       "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383783/ulatek-nerfed-on-all-difficulties-hotfixes-now-live",
       "category": "Live",
       "publishedAt": "2026-11-06T18:17:07.000Z"
-    },
-    {
-      "title": "Major QoL Update to Popular Alliance Quest in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383782/major-qol-update-to-popular-alliance-quest-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T17:30:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T18:50:19.456Z",
-  "generatedAt": "2026-11-06T18:50:19.393Z",
+  "newsUpdatedAt": "2026-11-06T20:11:14.788Z",
+  "generatedAt": "2026-11-06T20:11:14.783Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 12:50:19 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 14:11:07 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

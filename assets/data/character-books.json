@@ -29,6 +29,20 @@
           ]
         },
         {
+          "id": "x-prologue",
+          "chapter": "Prologue · The Last Witness",
+          "title": "The things no one remembers",
+          "kind": "fiction",
+          "paragraphs": [
+            "There are silences that belong to peace, and others that grow where a name should have been. For years I mistook the first for the second.",
+            "A woman died with my hand in hers. She did not ask to be spared. She asked not to disappear. I did not know her name. I have carried the shame of that ignorance longer than I carried her body from the room.",
+            "Now my bag contains little: a robe mended too often, a needle, a book whose pages refuse to remain empty and the uneasy possibility that something waits for me in the silence.",
+            "I shall not call it truth merely because it speaks. Somewhere beyond these walls are villages, roads and people who will never be written into history. I do not yet know where my own path begins.",
+            "If a life must end, let at least its name endure."
+          ],
+          "signed": "Xuthar Morvayne"
+        },
+        {
           "id": "x-ch1a",
           "chapter": "Chapter I · Before the road",
           "title": "The house of missing names",
@@ -99,20 +113,6 @@
             "He decided to listen to people whose names would never become landmarks. He would keep records of campsites, old stories and small kindnesses. The Shadow would be a tool used with fear and care, never a master to whom he gave his judgment.",
             "Before leaving, he wrote one rule on the inside cover: No answer is sacred enough to be spared a question."
           ]
-        },
-        {
-          "id": "x-prologue",
-          "chapter": "Prologue · The Last Witness",
-          "title": "The things no one remembers",
-          "kind": "fiction",
-          "paragraphs": [
-            "There are silences that belong to peace, and others that grow where a name should have been. For years I mistook the first for the second.",
-            "A woman died with my hand in hers. She did not ask to be spared. She asked not to disappear. I did not know her name. I have carried the shame of that ignorance longer than I carried her body from the room.",
-            "Now my bag contains little: a robe mended too often, a needle, a book whose pages refuse to remain empty and the uneasy possibility that something waits for me in the silence.",
-            "I shall not call it truth merely because it speaks. Somewhere beyond these walls are villages, roads and people who will never be written into history. I do not yet know where my own path begins.",
-            "If a life must end, let at least its name endure."
-          ],
-          "signed": "Xuthar Morvayne"
         },
         {
           "id": "x-live-1",
@@ -383,7 +383,7 @@
           "title": "The Trail Falls Silent",
           "kind": "reported",
           "paragraphs": [
-            "The forest had guarded its secret beneath roots and fallen leaves, but six hidden signs had finally been found. Xuthar could now return with the answer entrusted to him; the matter of the kobold tracks was ready to be reported. There was no trumpet, no ceremonial procession, only the soft certainty that attention had won where impatience would have failed.",
+            "The forest had guarded its secret beneath roots and fallen leaves, but six hidden signs had finally been found. Xuthar could return with the answer entrusted to him. There was no trumpet, no ceremonial procession, only the soft certainty that attention had won where impatience would have failed.",
             "Beyond the dark woodland, the road spoke of another kind of refuge. At the Lion's Pride Inn, an innkeeper named Farley awaited a visitor. Somewhere in the same wider world, Sam Sarsparilla, Marshal Dughan and Priestess Josetta waited for words, documents or the footsteps of a travelling priest.",
             "He imagined warmth behind the tavern's windows: bread, voices, the ordinary mercy of a roof against the weather. The thought was enough to set him moving. One could follow a trail for duty, but sometimes a man followed the road simply because he was tired of being cold.",
             "The road ahead would not vanish because he paused to study it. Somewhere beyond Northshire stood Goldshire, with its unanswered invitations and the first possibility of feeling, for one evening, less like a stranger in an immense new world."
@@ -430,7 +430,7 @@
           "kind": "reported",
           "paragraphs": [
             "The morning had changed its colour. Where once the forest had hung above Xuthar in folds of dark green, sunlight now poured through its branches like molten gold. He stood upon the threshold of the abbey, at the place where the old lion watched over water and stone, and felt the world stretch far beyond the walls that had sheltered his first uncertain prayers.",
-            "The name Garrick Padfoot had passed from an unfinished summons into the record of a deed accomplished. The bounty was completed, the ledger had marked its reward, and the novice had crossed the sixth threshold of his growing strength. Three hundred and forty measures of hard-earned experience: an ordinary number, perhaps, but not to the man who had begun with nothing but his name.",
+            "The name Garrick Padfoot had passed from an unfinished summons into a deed accomplished. The outlaw would trouble the valley no more, and the novice had crossed another threshold in his growing strength. McBride's thanks were modest; the relief of those living along the road mattered far more.",
             "Another document travelled with him now: a Grape Manifest, a humble list that must find its way to Brother Neals. He had learned that the world was stitched together less by prophecies than by errands entrusted from one mortal hand to another. Each name in the task book was a door. Most had yet to open.",
             "Beyond the archway, the road through Elwynn curled beneath immense trees. The cobblestones held the day's warmth. Strangers passed in the opposite direction; from somewhere unseen came the faint rhythm of a settlement going about its business. He followed the road because the world, at last, was asking him to travel rather than merely survive.",
             "Goldshire appeared not as a fortress of heroes but as a place people had built to live in. Blue roofs rose above timbered walls; a chimney leaned above the street; a horse waited by the stables. Between the buildings lay sunlight, conversation, and the promise of a doorway left open.",
@@ -502,7 +502,7 @@
             "Water opened between wooded banks; beside a tree waited Guard Roberts. The priest had come to learn that tending another person could be a kind of courage, even when the right words were difficult to find.",
             "The trial known as Garments of the Light had taught him that care could falter through the smallest misjudgement. He returned to the precise prayer, the gentler touch of Lesser Heal, and at last completed what had been asked of him. The Friar's Robes of the Light became his reward; with them came another step forward in his apprenticeship, the seventh.",
             "They were the first finely wrought green robes that the road had brought him. Around the same time he acquired a Book Bag, so perfectly suited to his strange vocation that it almost seemed a quiet jest of fate: the keeper of forgotten names had been given another place to carry words.",
-            "For the fictional Last Witness, the lesson was more enduring than the reward: mercy was not merely an ideal written in scripture. It was a spell chosen with care, and a person on the other end of it."
+            "For Xuthar, the lesson was more enduring than the robe or the reward: mercy was not merely an ideal written in scripture. It was a prayer chosen with care, and a living person on the other end of it."
           ]
         },
         {
@@ -611,14 +611,14 @@
         },
         {
           "id": "x-day-two-opening",
-          "chapter": "Chapter XXI · Day Two, 6 November 2026",
+          "chapter": "Chapter XXI · The Morning after Rain",
           "title": "Three Roads Still Calling",
           "kind": "reported",
           "paragraphs": [
-            "The rain had accompanied the last journey home. The second day of Xuthar Morvayne's chronicle begins not with a victory, but with a fresh look at the roads still asking for his attention.",
+            "The rain had accompanied him home, and the memory of it seemed to linger in the room even after the morning light returned. Xuthar woke with the peculiar weariness of a man who had travelled farther in one day than he had expected of himself.",
             "Morning brought back the unfinished responsibilities of the road: Jasperlode's uncertain tunnels, two rare books that had gone missing, and Marshal Dughan's concerns that must be carried to Guard Thomas. Xuthar had slept, but the world had not ceased asking for help.",
-            "Far away lay Jasperlode's dark tunnels. Two books remained unfound: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words, both shown as zero of one. Elsewhere, Guard Thomas still awaited the conversation requested by Marshal Dughan.",
-            "In the literary voice of the Last Witness: 'Not every summons asks for strength. Some ask for attention; others for the patience to arrive.'",
+            "Jasperlode's dark tunnels waited in the distance. Two books remained unfound: Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words. Their names sounded absurdly cheerful for works that had somehow found their way into danger. Elsewhere, Guard Thomas still awaited the word of Marshal Dughan.",
+            "Not every summons asks for strength, Xuthar thought. Some ask for attention; others for the patience to arrive.",
             "He fastened the ledger and stepped toward daylight. A journey did not always announce its next trial. More often it waited, patient and ordinary, beyond the first bend."
           ],
           "link": "journal.html#xuthar-day-two-opening"
@@ -707,7 +707,7 @@
           "kind": "fiction",
           "paragraphs": [
             "The stream carried all manner of small, neglected things: fish that had fed another creature, bright scraps of lost belongings, and the roots of plants whose names were spoken only when somebody needed them.",
-            "Xuthar bent at the water's edge and saw a thousand fragments of sky trembling across the current. A half-eaten fish, a glimmering piece of rubbish, the trace of a plant growing in the damp shadows: these were the objects a road might ask him to gather. None seemed worthy of a place in a history book.",
+            "Xuthar bent at the water's edge and saw fragments of sky trembling across the current. The things gathered there seemed too small to deserve a place in history: the remains of an interrupted meal, a glimmer of forgotten silver, and dark flowers rooted in the wet earth.",
             "But the lake had no opinion of worthiness. It held what fell into it: the remnants of meals, the glitter of lost possessions, roots that tasted the mud. The priest wondered which of those things had once been precious to someone. An object became important, he thought, the moment a person began looking for it.",
             "He imagined gathering each small testimony carefully rather than merely ticking a count. The six trinkets, the fish, the vials and the petals belonged to different errands, but each asked the same question: what do people leave behind when they cross a place and cannot remain there?",
             "The water did not answer. It never had. Xuthar rose, dried the edges of his journal and decided to keep asking. A witness, after all, was not someone who knew everything. A witness was someone who refused to stop looking."
@@ -719,7 +719,7 @@
           "title": "Ten Threads across Elwynn",
           "kind": "reported",
           "paragraphs": [
-            "As the hours passed, the tenth part of his day's work seemed to divide into ten different roads. The young lovers of the Stonefield and Maclure families needed help; Elmore had an errand awaiting him; a message sought Gryan Stoutmantle beyond the forests of Elwynn. Goldtooth guarded a necklace, and the boar called Princess had become an unexpected source of danger.",
+            "As afternoon leaned toward evening, his obligations multiplied into ten different roads. The young lovers of the Stonefield and Maclure families needed help; Elmore had an errand awaiting him; a message sought Gryan Stoutmantle beyond the forests of Elwynn. Goldtooth guarded a necklace, and the boar called Princess had become an unexpected source of danger.",
             "His work with Tailoring and Enchanting remained unfinished. The Jasperlode Mine and its dark passages still called, as did the pair of rare books and the message meant for Guard Thomas. The needs of other people multiplied faster than Xuthar could answer them.",
             "By then he had climbed another stage of his apprenticeship, his ninth. Yet the growing strength in his hands did not solve the problem of choosing where those hands were needed most.",
             "He closed the ledger and looked toward the west. A name on a map was not a place he had walked. There was still a long way between a summons and the journey itself."
@@ -732,8 +732,8 @@
           "kind": "fiction",
           "paragraphs": [
             "Two households in Elwynn had guarded an old bitterness so long that their children had inherited it like a boundary wall. Love found a way to grow between the stones, and almost immediately the world asked it to hide.",
-            "The feud between two houses had survived so long that no one seemed able to explain what had begun it. The children inherited the bitterness as they inherited the fields. Every path across Elwynn led to a boundary, and every boundary had acquired a story about why it must never be crossed.",
-            "Xuthar heard of Maybell and Tommy Joe through errands that looked insignificant when written on a quest list: a note, a visit to an elder, a little kelp, an apothecary's peculiar preparation. In another person's hands they might have been nothing more than tasks. Together they formed a map of human hope.",
+            "Every path across the Stonefield and Maclure lands ended at some invisible boundary. No one could agree where the old resentment had begun, but everyone knew exactly where it must be defended. The young were expected to honour a feud they had never chosen.",
+            "Xuthar came to know the names Maybell and Tommy Joe through a trail of small requests: a note, an elder's advice, a little kelp and an apothecary's peculiar preparation. Individually they were nothing remarkable. Together they formed a map of stubborn, human hope.",
             "The invisibility liquor promised no reconciliation. It could only grant a little time in which two young people might meet without being seen. Xuthar found the idea both sad and tender: that affection should have to borrow the power of magic simply to walk down a road.",
             "He recorded no ending for the lovers. Whether their families softened, whether the night remained kind, whether courage lasted until morning—those were stories that only they could tell. The priest closed his notebook and wrote beneath their names: 'A love that must hide is still a light.'"
           ]

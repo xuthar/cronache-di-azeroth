@@ -1,9 +1,29 @@
 {
   "schemaVersion": 1,
   "source": "BlizzardOfficialAPI",
-  "status": "awaiting-support",
-  "exportedAt": null,
+  "status": "active",
   "apiRegion": "eu",
-  "characters": [],
+  "exportedAt": 1793998205,
+  "characters": [
+    {
+      "id": "xuthar",
+      "name": "Xuthar Morvayne",
+      "gameName": "Xuthar Morvayne",
+      "ruleset": "Roleplay",
+      "race": "Human",
+      "className": "Priest",
+      "level": 10,
+      "zone": "",
+      "subzone": "",
+      "xp": null,
+      "xpMax": null,
+      "questsCompleted": null,
+      "zones": null,
+      "professions": [],
+      "firstSeenAt": null,
+      "lastSeenAt": null,
+      "checkedAt": 1793998205
+    }
+  ],
   "events": []
 }

@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-day-two-crystal-lake",
+      "day": "16",
+      "chapter": "6 November 2026 · Crystal Lake, 15:05–15:27",
+      "title": "A Day Beside the Water · Fishing and Murlocs",
+      "location": "Goldshire camp → Crystal Lake · Elwynn Forest",
+      "type": "In-game photographs · New quests and fishing",
+      "excerpt": "Xuthar Camera works! From a Goldshire campsite, Xuthar travels to Crystal Lake, learns two new lake errands, fishes and faces a level-seven Murloc. Fishing training quest is ready for turn-in.",
+      "text": [
+        "At 15:05–15:06, two photographs show Xuthar at a small camp and pale tent outside Goldshire, with Sam Sarsparilla nearby. The Xuthar Camera minimap tooltip is visible; chat confirms a screenshot was saved to WoW Forever's Screenshots folder.",
+        "At Crystal Lake the dock by Lee Brown is crowded with fishers. At 15:12 the chat confirms acceptance of A Net Disaster (7 Half-Eaten Fish) and Bottles and Baubles (6 Shiny Junk).",
+        "At 15:13 Xuthar casts his fishing line from the lakeshore. No specific catch can be inferred from the still frame.",
+        "At 15:27, near Crystal Lake coordinates 54.8, 65.7, the priest confronts a level 7 Murloc. The tracker shows 4/6 Shiny Junk and 2/7 Half-Eaten Fish. Camping 101: Fishing is marked ready for turn-in, but no delivery or reward is shown.",
+        "Camping 101: Enchanting and Tailoring are still open (skill 20 goals), as are The Jasperlode Mine, Rare Books (Elite) and Further Concerns. Last character level visible is 8. These are original user screenshots; they are not yet hosted in the site's online photo gallery."
+      ]
+    },
+    {
       "id": "xuthar-day-two-opening",
       "day": "15",
       "chapter": "6 November 2026 · Day Two · First quest tracker",

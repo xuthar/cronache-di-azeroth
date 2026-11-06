@@ -354,6 +354,21 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-quests-completed-book-of-deeds",
+      "day": "21",
+      "chapter": "6 November 2026 · Official quest archive · Living Book",
+      "title": "A Book of Deeds · The Missions Xuthar Carried Home",
+      "location": "Northshire Valley · Elwynn Forest · Stormwind · Forever EU",
+      "type": "Official completed quest IDs + original roleplay fiction",
+      "excerpt": "Blizzard confirms 87 completed quest IDs (57 different titles). A new archive organizes the verified missions, objective evidence and six creative stories from the road.",
+      "text": [
+        "Xuthar Morvayne's official EU Forever profile returned 87 completed quest IDs. The static Blizzard quest catalog resolves their titles and short briefing text. Five Camping quest groups contain multiple variants, so these 87 IDs correspond to 57 distinct quest titles in the first snapshot.",
+        "The completed mission status is a verified Blizzard API record, but the specific day and minute of each hand-in is unknown. Whenever exact quest objectives were visible in player screenshots or clearly described in official mission briefings, the new Completed Quest Archive provides a careful objective summary. Other entries clearly note that the exact checklist is not known.",
+        "Six original literary chapters — Echo Ridge, Northshire Vineyards, the candle shipment to Stormwind, a priest's garments, the separated lovers of Elwynn and the Crystal Lake errands — bring Xuthar's quest history into the Living Book. They are invented roleplay scenes based on completed quest premises, not reconstructed events or Blizzard lore.",
+        "Browse the new archive at missions.html. It refreshes using the same daily verified Blizzard profile snapshot, while the player-reported quest journal remains a separate source."
+      ]
+    },
+    {
       "id": "xuthar-level-ten-official-armory",
       "day": "20",
       "chapter": "6 November 2026 · Level 10 · Armory threshold",

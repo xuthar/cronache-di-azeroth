@@ -46,7 +46,7 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at the newly reported level nine. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. After fishing at Crystal Lake, new photographs document a river crossing and a quiet forest path. The 18:41 mission tracker shows ten active quests, including five new names. Xuthar has reached level 9, confirmed directly by the player; the outcomes of older unseen quests remain unverified.';
+    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at the newly reported level ten. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. After fishing at Crystal Lake, new photographs document a river crossing and a quiet forest path. The 18:41 mission tracker shows ten active quests, including five new names. Xuthar has reached level 10, confirmed directly by the player; the outcomes of older unseen quests remain unverified.';
     const buttons=copy.querySelector('.buttons');
     if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-day-two-river-and-woods">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
@@ -55,7 +55,7 @@
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY TWO · Human Priest · Level 9<br>18:41 tracker · 10 active quests</div>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY TWO · Human Priest · Level 10<br>18:41 tracker · 10 active quests</div>'+
       '<a class="launcher-panel-button" href="book.html?character=xuthar#x-day-two-river-and-woods">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
@@ -91,7 +91,7 @@
     url:'book.html?character=xuthar#x-day-two-river-and-woods',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
-  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'Day Two: from Crystal Lake to a forest path, with ten active quests visible at 18:41 and level nine confirmed by the player.',url:'journal.html#xuthar-day-two-enticing-offer-river',image:images.forest},'launcher-news-secondary'));
+  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'Day Two: from Crystal Lake to a forest path, with ten active quests visible at 18:41 and level ten confirmed by the player.',url:'journal.html#xuthar-day-two-enticing-offer-river',image:images.forest},'launcher-news-secondary'));
   featureGrid.append(sides);featured.append(featureGrid);
   hero.insertAdjacentElement('afterend',featured);
 

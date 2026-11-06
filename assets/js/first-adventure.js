@@ -13,7 +13,7 @@
       <div class="day-two-layout">
         <div>
           <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
-          <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The player has confirmed Xuthar is now level 10. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
+          <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. Xuthar is level 10, now verified by the official Blizzard EU Forever profile API. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
           <p class="day-two-evidence">The newest tracker at 18:41 shows ten active quests, including The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die! Xuthar has now reached level 10, confirmed directly by the player. The cropped quest list does not show the character level, location name or completed hand-ins.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-level-ten-armory">Level 10 · Armory milestone ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a><a href="https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne" target="_blank" rel="noopener noreferrer">Xuthar · Official EU Armory ↗</a></div>
         </div>
@@ -22,7 +22,7 @@
           <strong>LVL 10</strong>
           <p>LATEST PHOTOGRAPHED AREA</p>
           <b>Woodland · Elwynn Forest</b>
-          <small>Latest quest tracker: 6 November, 18:41 · 10 active quests. Level 10 confirmed by player.</small>
+          <small>Latest quest tracker: 6 November, 18:41 · 10 active quests. Level 10 verified via Blizzard API (6 November).</small>
         </aside>
       </div>
       <div class="day-two-photostory" aria-label="Selected photographs from day two">
@@ -58,7 +58,7 @@
           <p class="first-night-lead">The gates yielded to a sea of travellers. Xuthar Morvayne entered Northshire, faced wolves and kobolds, and walked into the shadowed fields of the Defias. During his first day he reached level eight, confirmed by in-game chat, and completed Bounty on Garrick Padfoot, Garments of the Light and Shipment to Stormwind. Beyond the stone lion of Northshire, he has reached Goldshire and entered the Lion’s Pride Inn. There he stood beside Innkeeper Farley, found Tomas the Cook, and finally sat down by the glowing hearth. His road has continued past Guard Roberts, two defeats in Fargodeep Mine, and the stone walls and canals of Stormwind. After several reported Stormwind quest hand-ins, he has learned Tailoring, Enchanting and Fishing, abandoning Herbalism. At nightfall he returned through the rain to Goldshire and lay down in an upstairs room at Lion’s Pride Inn. The living chronicle continues tomorrow.</p>
           <blockquote class="first-night-quote">“He had come to remember those whom the world would forget. He did not yet know that the world had begun to remember him.”</blockquote>
           <div class="first-night-steps" aria-label="First session milestones">
-            <div><b>Level 10</b><span>Human Priest · Player confirmed, 6 Nov</span></div>
+            <div><b>Level 10</b><span>Human Priest · Verified by Blizzard API</span></div>
             <div><b>New trades</b><span>Tailoring · Enchanting · Fishing</span></div>
             <div><b>Goldshire</b><span>Rainy night · Resting at Lion’s Pride Inn</span></div>
           </div>

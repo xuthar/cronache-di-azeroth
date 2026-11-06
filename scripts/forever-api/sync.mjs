@@ -3,7 +3,7 @@
  * Read only. Never fall back to Retail/Classic or rewrite manual quest records.
  * Secrets and OAuth tokens must never be logged or exported.
  */
-import {writeFile} from 'node:fs/promises';
+import {readFile,writeFile} from 'node:fs/promises';
 const env=process.env;
 const roster=[
   ['xuthar','Xuthar Morvayne','FOREVER_XUTHAR_SLUG'],
@@ -36,6 +36,68 @@ function sanitizedQuest(entry){
   if(!id)return null;
   return {id,name:name||null};
 }
+
+function editorialExcerpt(text){
+  const clean=String(text||'').replace(/<[^>]*>/g,' ').replace(/\{name\}/gi,'Xuthar')
+    .replace(/\{class\}/gi,'priest').replace(/\s+/g,' ').trim();
+  if(!clean)return null;
+  const words=clean.split(' ').slice(0,24).join(' ');
+  return words.length>170?words.slice(0,167).trimEnd()+'…':(words.length<clean.length?words+'…':words);
+}
+async function questStaticCatalog(ids,token,previousById){
+  if(!Array.isArray(ids))return null;
+  const entries=new Array(ids.length);
+  let next=0,verified=0,unavailable=0;
+  async function worker(){
+    while(next<ids.length){
+      const index=next++;
+      const id=ids[index];
+      const existing=previousById.get(id)||null;
+      const url=new URL('https://eu.api.blizzard.com/data/wow/quest/'+id);
+      url.searchParams.set('namespace','static-forever-eu');
+      url.searchParams.set('locale','en_GB');
+      try{
+        const response=await fetch(url,{
+          headers:{Authorization:'Bearer '+token,Accept:'application/json'},
+          signal:AbortSignal.timeout(12000)
+        });
+        if(!response.ok)throw Error('Static quest metadata unavailable');
+        const q=await response.json();
+        if(Number(q?.id)!==id)throw Error('Static quest ID mismatch');
+        const title=localized(q?.title)||localized(q?.name);
+        if(!title)throw Error('Static quest name missing');
+        const area=localized(q?.area?.name)||localized(q?.category?.name)||null;
+        entries[index]={
+          id,title:title.slice(0,140),area,briefing:editorialExcerpt(q?.description),
+          objective:null,objectiveSource:null,
+          metadataSource:'BlizzardStaticForeverEU'
+        };
+        verified++;
+      }catch{
+        if(existing&&typeof existing.title==='string'&&existing.title){
+          entries[index]={id,title:existing.title,area:existing.area||null,
+            briefing:existing.briefing||null,objective:null,objectiveSource:null,
+            metadataSource:'PreviouslyVerifiedBlizzardStaticForeverEU'};
+        }else{
+          entries[index]={id,title:null,area:null,briefing:null,
+            objective:null,objectiveSource:null,metadataSource:'Unresolved'};
+        }
+        unavailable++;
+      }
+    }
+  }
+  await Promise.all(Array.from({length:Math.min(4,ids.length)},()=>worker()));
+  console.log('Static quest catalog: '+verified+' resolved; '+unavailable+' unavailable or reused from previous.');
+  return entries;
+}
+async function previousSnapshot(path){
+  if(!path)return null;
+  try{
+    const data=JSON.parse(await readFile(path,'utf8'));
+    return data?.source==='BlizzardOfficialAPI'&&data?.apiRegion==='eu' ? data : null;
+  }catch{return null}
+}
+
 async function main(){
   const output=process.argv[2];
   if(!output)throw Error('Output path missing.');
@@ -58,6 +120,7 @@ async function main(){
   });
   if(typeof auth.access_token!=='string')throw Error('OAuth token missing.');
   const checkedAt=Math.floor(Date.now()/1000),profiles=[];
+  const previous=await previousSnapshot(process.argv[3]);
   const get=async(characterSlug,path='')=>{
     const url=new URL('https://eu.api.blizzard.com/profile/wow/character/'+encodeURIComponent(characterSlug)+path);
     url.searchParams.set('namespace',namespace);
@@ -101,14 +164,31 @@ async function main(){
     const gearCount=count(equipment,'equipped_items');
     const reputationCount=count(reputations,'reputations');
     const achievementCount=count(achievements,'achievements');
+    const completedQuestIds=completedArray?Array.from(new Set(completedArray.map(q=>
+      refId(q?.quest||q)||(Number.isInteger(q)&&q>0?q:null)
+    ).filter(Number.isInteger))).sort((a,b)=>a-b):null;
+    const previousProfile=previous?.characters?.find(p=>p?.id===c.id);
+    const prevQuest=previousProfile?.officialDetails?.quests;
+    const oldIds=Array.isArray(prevQuest?.completedQuestIds)?
+      new Set(prevQuest.completedQuestIds.filter(Number.isInteger)):null;
+    const previousById=new Map(
+      (prevQuest?.completedQuestDetails||[]).filter(q=>Number.isInteger(q?.id))
+        .map(q=>[q.id,q])
+    );
+    const completedQuestDetails=completedQuestIds ?
+      await questStaticCatalog(completedQuestIds,auth.access_token,previousById):null;
+    const newlyObservedCompletedIds=oldIds&&completedQuestIds?
+      completedQuestIds.filter(id=>!oldIds.has(id)):null;
     const questSummary={
       source:'BlizzardOfficialAPI',
       snapshotAt:checkedAt,
       inProgressCount:activeArray?activeArray.length:null,
       completedCount:completedArray?completedArray.length:null,
       inProgress:activeArray?activeArray.map(sanitizedQuest).filter(Boolean):null,
-      completedQuestIds:completedArray?completedArray.map(q=>refId(q?.quest||q)||(
-        Number.isInteger(q)&&q>0?q:null)).filter(Number.isInteger):null,
+      completedQuestIds,
+      completedQuestDetails,
+      newlyObservedCompletedIds,
+      comparedWithSnapshotAt:oldIds?previous.exportedAt:null,
       interpretation:'Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten.'
     };
     const officialDetails={

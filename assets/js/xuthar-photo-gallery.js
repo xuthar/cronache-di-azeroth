@@ -9,89 +9,93 @@
     {id:"xuthar-diary-evidence",label:"IN-GAME DOCUMENTATION",heading:"Diaries & Quest Records",kind:"evidence",note:"Eight original reference screenshots"}
   ];
   const main = document.querySelector("#main");
-  if (!main) return;
-  main.className = "xg-main";
+  if(!main)return;
+  main.className="xg-main";
   main.replaceChildren();
-
-  const make = (tag, cls, value) => {
-    const el = document.createElement(tag);
-    if (cls) el.className = cls;
-    if (value !== undefined) el.textContent = value;
+  const make=(tag,className,text)=>{
+    const el=document.createElement(tag);
+    if(className)el.className=className;
+    if(text!==undefined)el.textContent=text;
     return el;
   };
-  const wrap = make("div","wrap xg-wrap");
-  const heading = make("header","xg-heading");
-  heading.append(
-    make("div","xg-eyebrow","CHRONICLES OF AZEROTH · THE LAST WITNESS"),
-    make("h1","","Original Screenshot Archive"),
-    make("p","","No compressed contact sheets, no cropped previews and no stretched images. The screenshots are listed as individual files: click Open original to view each one directly in your browser at its native proportions.")
+  const wrap=make("div","wrap xg-wrap");
+  const header=make("header","xg-heading");
+  header.append(
+    make("p","xg-eyebrow","CHRONICLES OF AZEROTH · XUTHAR MORVAYNE"),
+    make("h1","","The Photographic Chronicle"),
+    make("p","xg-intro","Real moments, preserved in full. Every thumbnail comes from a separate original screenshot — never from a stretched collage. Open any image for the complete file.")
   );
-  const summary = make("div","xg-summary");
-  for (const [count,label] of [[25,"Full HD gameplay captures"],[8,"Diary and quest records"],[33,"Original files preserved"]]) {
-    const item=make("span","");
-    item.append(make("b","",String(count)),document.createTextNode(" "+label));
-    summary.append(item);
+  const stats=make("div","xg-summary");
+  for(const [number,label] of [[25,"Gameplay photographs"],[8,"In-game records"],[33,"Original files"]]){
+    const stat=make("span","");
+    stat.append(make("b","",String(number)),document.createTextNode(label));
+    stats.append(stat);
   }
-  heading.append(summary);
-  const tabs = make("nav","xg-tabs");
-  tabs.setAttribute("aria-label","Archive categories");
-  for(const [hash,title] of [
+  header.append(stats);
+  const nav=make("nav","xg-tabs");
+  nav.setAttribute("aria-label","Photo collections");
+  for(const [anchor,label] of [
     ["#xuthar-day-two-photos","Day Two · 6 Nov"],
     ["#xuthar-day-one-photos","Day One · 5 Nov"],
-    ["#xuthar-diary-evidence","Quest and diary records"]
-  ]) {
-    const a=make("a","",title);a.href=hash;tabs.append(a);
+    ["#xuthar-diary-evidence","Diaries & missions"]
+  ]){
+    const link=make("a","",label);link.href=anchor;nav.append(link);
   }
-  wrap.append(heading,tabs);
-
-  for (const group of groups) {
+  wrap.append(header,nav);
+  for(const group of groups){
     const section=make("section","xg-section");section.id=group.id;
-    const header=make("header","xg-section-head");
-    const words=make("div","");
-    words.append(make("div","xg-eyebrow",group.label),make("h2","",group.heading));
-    header.append(words,make("p","",group.note));
-    const list=make("div","xg-file-list");
-    const entries=photos.filter(p=>p.group===group.kind);
-    entries.forEach((photo,index)=>{
-      const article=make("article","xg-file");
-      const fileIcon=make("span","xg-file-icon",photo.group==="evidence"?"▤":"▧");
-      fileIcon.setAttribute("aria-hidden","true");
-      const info=make("div","xg-file-info");
-      const metadata=photo.group==="day1"?"5 November 2026 · "+photo.time:
-        photo.group==="day2"?"6 November 2026 · "+photo.time:"Diary / quest record";
-      info.append(
-        make("span","xg-file-meta",String(index+1).padStart(2,"0")+" · "+metadata),
-        make("h3","",photo.title),
-        make("p","",photo.desc)
+    const sectionHead=make("div","xg-section-head");
+    const titles=make("div","");
+    titles.append(make("span","xg-eyebrow",group.label),make("h2","",group.heading));
+    sectionHead.append(titles,make("p","",group.note));
+    const grid=make("div","xg-photo-grid"+(group.kind==="evidence"?" xg-photo-grid--evidence":""));
+    for(const [i,p] of photos.filter(x=>x.group===group.kind).entries()){
+      const card=make("figure","xg-photo-card");
+      const anchor=make("a","xg-photo-view");
+      anchor.href=p.src;
+      anchor.target="_blank";anchor.rel="noopener noreferrer";
+      anchor.setAttribute("aria-label","View original photograph: "+p.title);
+      const frame=make("span","xg-photo-frame");
+      const img=make("img","xg-photo-img");
+      img.src=p.src;img.alt=p.title+". "+p.desc;
+      img.loading="lazy";img.decoding="async";
+      if(group.kind!=="evidence"){img.width=1920;img.height=1080}
+      img.addEventListener("error",()=>{
+        frame.classList.add("xg-photo-error");
+        img.remove();
+        frame.append(make("span","xg-photo-error-message","Preview unavailable · open original file"));
+      });
+      frame.append(img);anchor.append(frame);
+      const caption=make("figcaption","xg-photo-details");
+      const meta=group.kind==="day1"?"5 Nov · "+p.time:
+        group.kind==="day2"?"6 Nov · "+p.time:"Diary / quest evidence";
+      caption.append(
+        make("span","xg-photo-meta",String(i+1).padStart(2,"0")+" · "+meta),
+        make("h3","",p.title),
+        make("p","",p.desc)
       );
-      const actions=make("div","xg-file-actions");
-      const open=make("a","xg-open","Open original ↗");
-      open.href=photo.src;open.target="_blank";open.rel="noopener noreferrer";
-      open.setAttribute("aria-label","Open original file: "+photo.title);
-      const save=make("a","xg-save","Save file");
-      save.href=photo.src;save.download=photo.src.split("/").pop();
-      save.setAttribute("aria-label","Save original file: "+photo.title);
-      actions.append(open,save);
-      article.append(fileIcon,info,actions);
-      list.append(article);
-    });
-    section.append(header,list);
-    wrap.append(section);
+      const actions=make("div","xg-photo-actions");
+      const full=make("a","xg-original-link","View full size ↗");
+      full.href=p.src;full.target="_blank";full.rel="noopener noreferrer";
+      const save=make("a","xg-save-link","Save original");
+      save.href=p.src;save.download=p.src.split("/").pop();
+      actions.append(full,save);caption.append(actions);
+      card.append(anchor,caption);grid.append(card);
+    }
+    section.append(sectionHead,grid);wrap.append(section);
   }
-
+  // Legacy deep links continue to reach Day One, with no legacy photo atlas.
   const historic=wrap.querySelector("#xuthar-day-one-photos");
-  for (const oldId of ["forever-first-night-gallery","goldshire-travel-gallery","lions-pride-inn-gallery"]) {
-    const marker=make("span","xg-legacy-anchor");
-    marker.id=oldId;
-    historic.prepend(marker);
+  for(const oldId of ["forever-first-night-gallery","goldshire-travel-gallery","lions-pride-inn-gallery"]){
+    const marker=make("span","xg-legacy-anchor");marker.id=oldId;historic.prepend(marker);
   }
   wrap.append(make("p","xg-provenance",
-    "The source files are preserved at their original uploaded resolution. They open directly in the browser, outside the site's layout. The archive does not assert undocumented quest completions, victories or level gains."
+    "Original in-game captures and documentary screenshots. The interface preserves the image proportions, does not crop the originals, and does not infer undocumented quest completions or achievements."
   ));
   main.append(wrap);
-  const hash=decodeURIComponent(location.hash.slice(1));
-  if(hash) {
+  const hash=location.hash.slice(1);
+  if(hash){
     const target=document.getElementById(hash);
-    if(target) requestAnimationFrame(()=>target.scrollIntoView({block:"start"}));
+    if(target)requestAnimationFrame(()=>target.scrollIntoView({block:"start"}));
   }
 })();

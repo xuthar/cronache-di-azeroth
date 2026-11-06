@@ -25,6 +25,11 @@ jobs:
           node-version: '22'
       - name: Validate importer syntax
         run: node --check scripts/forever-api/sync.mjs
+      - name: Load previous verified Blizzard snapshot
+        shell: bash
+        run: |
+          git fetch origin live-blizzard --depth=1
+          git show origin/live-blizzard:forever-progress.json > "$RUNNER_TEMP/previous.json"
       - name: Query official API only if verified and authorized
         env:
           BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
@@ -37,7 +42,7 @@ jobs:
           FOREVER_XUTHAR_SLUG: ${{ vars.FOREVER_XUTHAR_SLUG }}
           FOREVER_THORGAR_SLUG: ''
           FOREVER_AELYNDRA_SLUG: ''
-        run: node scripts/forever-api/sync.mjs "$RUNNER_TEMP/forever-progress.json"
+        run: node scripts/forever-api/sync.mjs "$RUNNER_TEMP/forever-progress.json" "$RUNNER_TEMP/previous.json"
       - name: Publish verified data only
         shell: bash
         run: |
@@ -47,8 +52,6 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git fetch origin live-blizzard --depth=1
-          git show origin/live-blizzard:forever-progress.json > "$RUNNER_TEMP/previous.json"
           if cmp -s "$RUNNER_TEMP/previous.json" "$RUNNER_TEMP/forever-progress.json"; then
             echo "Official profile data unchanged."
             exit 0

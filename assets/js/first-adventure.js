@@ -12,17 +12,17 @@
       <div class="day-two-signal"><span class="day-two-indicator" aria-hidden="true"></span> DAY TWO IS OPEN · 6 NOVEMBER 2026</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="xuthar-day-two-title">Day Two.<br><em>The lake remembers.</em></h2>
+          <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
-          <p class="day-two-evidence">New screenshots confirm the Goldshire camp, Xuthar Camera working, Fishing at Crystal Lake, and a Murloc encounter. As of 15:27, seven quests are in progress and Camping 101: Fishing is ready for turn-in (not handed in). Character level remains 8.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-crystal-lake">Read Chapter XXII ↗</a><a href="journal.html#xuthar-day-two-crystal-lake">Crystal Lake journal ↗</a></div>
+          <p class="day-two-evidence">The 15:36 tracker shows six ongoing quests, including An Enticing Offer at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Later photographs show Xuthar crossing a river and exploring woodland near a Forest Spider. Earlier lake quests are no longer visible; their completion is not verified. Character level remains 8.</p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-river-and-woods">Read Chapter XXIII ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
           <strong>LVL 8</strong>
-          <p>LATEST CONFIRMED PLACE</p>
-          <b>Crystal Lake · Elwynn Forest</b>
-          <small>Latest evidence: 6 November, 15:27. Fishing ready for hand-in; lake quests in progress.</small>
+          <p>LATEST PHOTOGRAPHED AREA</p>
+          <b>Woodland · Elwynn Forest</b>
+          <small>Latest photos: 6 November, 16:31. Quest tracker: 15:36; six active missions.</small>
         </aside>
       </div>`;
     return section;

@@ -79,7 +79,7 @@
     wrap.append(section);
   }
 
-  const historic=document.getElementById("xuthar-day-one-photos");
+  const historic=wrap.querySelector("#xuthar-day-one-photos");
   for (const oldId of ["forever-first-night-gallery","goldshire-travel-gallery","lions-pride-inn-gallery"]) {
     const marker=make("span","xg-legacy-anchor");
     marker.id=oldId;

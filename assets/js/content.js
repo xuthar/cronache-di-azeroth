@@ -354,6 +354,22 @@ window.CHRONICLES = {
   ],
   "journal": [
     {
+      "id": "xuthar-day-two-enticing-offer-river",
+      "day": "18",
+      "chapter": "6 November 2026 · Elwynn Forest, 15:36–16:31",
+      "title": "An Enticing Offer · The River and the Forest",
+      "location": "Elwynn Forest · quest marker 39.9, 80.1 · river and woodland",
+      "type": "Screenshot-backed quest tracker and two landscape photographs",
+      "excerpt": "An Enticing Offer appears at 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Xuthar continues through a glowing river and into woodland where a Forest Spider is visible.",
+      "text": [
+        "At 15:36 the player's objective panel (shown at 39.9, 80.1) lists An Enticing Offer [7] with 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Also visible: Camping 101: Enchanting, Camping 101: Tailoring, The Jasperlode Mine, Rare Books (Elite) and Further Concerns. All six are ongoing.",
+        "The previously visible lake missions Bottles and Baubles (last 4/6 Shiny Junk), A Net Disaster (last 2/7 Half-Eaten Fish) and Camping 101: Fishing (last ready for turn-in) are absent from this cropped tracker. Their later state is not verified; no extra completion is inferred.",
+        "At 15:54 Xuthar is photographed in a shallow watercourse under bright afternoon reflections. The photo has no UI showing progress or a precise location.",
+        "At 16:31 Xuthar is photographed among large trees with a Forest Spider's nameplate visible ahead. There is no evidence of a kill, loot, or quest turn-in.",
+        "Xuthar's last confirmed character level is still 8. The new chapter XXIII uses fictional introspection to connect these verified moments, clearly separating events from narrative invention."
+      ]
+    },
+    {
       "id": "xuthar-day-two-crystal-lake",
       "day": "16",
       "chapter": "6 November 2026 · Crystal Lake, 15:05–15:27",

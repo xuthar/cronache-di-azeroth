@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/forever-quest-catalog-probe.yml'
+      - 'scripts/forever-api/quest-catalog-probe.mjs'
 permissions:
   contents: read
 jobs:

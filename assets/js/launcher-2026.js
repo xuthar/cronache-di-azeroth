@@ -46,17 +46,17 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at his last confirmed level eight. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. The first Day Two quest tracker records The Jasperlode Mine, Rare Books (Elite) and Further Concerns still in progress. No new completion or level-up is shown.';
+    if(lead)lead.textContent='6 November 2026 · Day Two is open. Xuthar Morvayne begins a new page in the living chronicle at his last confirmed level eight. Yesterday he crossed Elwynn and Stormwind, learned Tailoring, Enchanting and Fishing, and returned to the Lion's Pride Inn in Goldshire for the night. Today's Crystal Lake photographs show Xuthar fishing, a working Xuthar Camera minimap button and a Murloc confrontation. A Net Disaster is 2/7 and Bottles and Baubles 4/6; Camping 101: Fishing is ready for turn-in. Xuthar remains level 8.';
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-day-two-opening">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-day-two-crystal-lake">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY TWO OPEN · Human Priest · Level 8<br>Last confirmed at Lion's Pride Inn · Goldshire</div>'+
-      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-day-two-opening">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY TWO OPEN · Human Priest · Level 8<br>Latest: Crystal Lake · Fishing ready for turn-in</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-day-two-crystal-lake">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }
@@ -86,12 +86,12 @@
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
     category:'THE LAST WITNESS · FIRST PLAYED ADVENTURE',
-    name:'Xuthar Morvayne: Day Two begins.',
-    description:'6 November: the second day of the Last Witness opens at level eight after a rainy night in Goldshire. Chapter XXI is ready to receive new, verified adventures.',
-    url:'book.html?character=xuthar#x-day-two-opening',image:images.stormwind
+    name:'Xuthar Morvayne: Along the waters of Crystal Lake.',
+    description:'6 November: the Last Witness visits the Goldshire camp, casts his fishing line at Crystal Lake and faces a Murloc. Fishing quest ready for turn-in; the Chronicle reaches Chapter XXII.',
+    url:'book.html?character=xuthar#x-day-two-crystal-lake',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
-  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'Day Two opens on 6 November. The last recorded moment remains the rainy night at the Lion's Pride Inn.',url:'journal.html#xuthar-day-two-opening',image:images.forest},'launcher-news-secondary'));
+  sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'Day Two: Goldshire campsite, Crystal Lake fishing and seven active quests. Camping 101: Fishing is ready for turn-in.',url:'journal.html#xuthar-day-two-crystal-lake',image:images.forest},'launcher-news-secondary'));
   featureGrid.append(sides);featured.append(featureGrid);
   hero.insertAdjacentElement('afterend',featured);
 

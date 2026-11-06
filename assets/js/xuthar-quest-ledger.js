@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261106-crystal-lake-152750';
+ const source='assets/data/xuthar-quest-log.json?v=20261106-enticing-offer-1536';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -39,14 +39,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
    const title=make('h2','','The roads still calling.');
    title.id='xql-heading';
-   const lead=make('p','','The newest Day Two screenshots show Xuthar fishing at Crystal Lake and confronting a level 7 Murloc. As of 15:27, seven quests are in progress and Camping 101: Fishing is ready for turn-in. Bottles and Baubles has 4/6 Shiny Junk; A Net Disaster has 2/7 Half-Eaten Fish. Xuthar Camera is confirmed working in-game. Character level remains 8.');
+   const lead=make('p','','The latest readable quest tracker from 15:36 shows six ongoing quests, led by An Enticing Offer: 1/6 Vial of Animal Blood and 0/18 Duskweed Petal. Later photographs show Xuthar crossing a river and moving into woodland near a Forest Spider. The lake errands and Camping 101: Fishing are absent from this cropped tracker; their delivery or completion is not established. Xuthar remains level 8.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.readyForTurnIn?.length||0,'Ready for turn-in'],[data.active?.length||0,'In progress']]){
+   for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Visible ongoing quests']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · Level '+(data.characterLevel||'unconfirmed')+' · Crystal Lake 54.8, 65.7 · 15:27');
+   const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · Level '+(data.characterLevel||'unconfirmed')+' · Quest tracker 39.9, 80.1 · 15:36');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
@@ -60,8 +60,8 @@
    }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
-     [data.readyForTurnIn,'Ready for turn-in · awaiting delivery','xql-group-ready',true],
-     [data.active,'In progress · Crystal Lake tracker','xql-group-active',false]
+     [data.readyForTurnIn,'Ready for turn-in · current cropped tracker','xql-group-ready',true],
+     [data.active,'Visible ongoing quests · 15:36 tracker','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
@@ -70,10 +70,10 @@
      group.append(grid);board.append(group);
    }
    root.append(board);
-   const foot=make('p','xql-provenance','Source: five screenshots from 6 November 2026, Goldshire and Crystal Lake, 15:05–15:27. Last tracker: Bottles and Baubles 4/6 Shiny Junk, A Net Disaster 2/7 Half-Eaten Fish, Camping 101: Fishing ready for turn-in. This does not prove a Fishing hand-in, quest reward or level-up. Xuthar Camera screenshot button is visible and chat confirms successful saving. No automatic Blizzard API synchronization is claimed.');
+   const foot=make('p','xql-provenance','Source: quest tracker at 15:36 with six ongoing missions, then river photograph at 15:54 and forest photograph at 16:31 on 6 November. The cropped tracker does not show the former Crystal Lake quests or the fishing hand-in. Missing entries are NOT evidence of completion. No level-up, spider kill, quest reward or automatic Blizzard API synchronization is claimed.');
    root.append(foot);
    const book=make('a','xql-book-link','Read the field notes in Xuthar’s book ↗');
-   book.href='book.html?character=xuthar#x-day-two-crystal-lake';root.append(book);
+   book.href='book.html?character=xuthar#x-day-two-river-and-woods';root.append(book);
    const anchor=page==='xuthar'?document.querySelector('.xu-first-night'):document.querySelector('#main .body-space header');
    if(page==='xuthar'){
      if(anchor)anchor.insertAdjacentElement('afterend',root);

@@ -2,67 +2,56 @@
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
   "recordedAt": "2026-11-06",
-  "location": "Quest tracker coordinates 59.6, 69.4; current zone not shown in cropped screenshot. One mission points to Sentinel Hill, Westfall.",
-  "source": "Player-uploaded image(20261106-184152).png, cropped in-game quest tracker showing ten active quests and coordinates 59.6, 69.4. Filename indicates 18:41 on 6 Nov 2026; no character portrait or zone label.",
-  "scope": "Ten quests visibly active. Five appear for first time in this supplied tracker: The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die!. Camping 101: Enchanting, Camping 101: Tailoring, Jasperlode Mine, Rare Books (Elite), Further Concerns continue. An Enticing Offer and three earlier Crystal Lake missions are not visible: do not infer completion, abandonment, reward or turn-in. Level 9 confirmed directly by player after this screenshot; the cropped quest tracker does not display the character level.",
+  "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
+  "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
+  "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
   "readyForTurnIn": [],
   "active": [
     {
-      "id": "the-escape",
-      "name": "The Escape",
-      "level": "7",
+      "id": "riverpaw-gnoll-bounty",
+      "name": "Riverpaw Gnoll Bounty",
+      "level": "10",
       "status": "active",
-      "progress": "Take the Invisibility Liquor to Maybell Maclure",
-      "objective": "Take the Invisibility Liquor to Maybell Maclure.",
-      "source": "Quest tracker 6 Nov 18:41; no delivery shown."
+      "progress": "0/8 Painted Gnoll Armband",
+      "objective": "Collect eight Painted Gnoll Armbands.",
+      "objectives": [
+        {
+          "name": "Painted Gnoll Armband",
+          "current": 0,
+          "total": 8
+        }
+      ]
     },
     {
-      "id": "elmores-task",
-      "name": "Elmore's Task",
+      "id": "wanted-hogger",
+      "name": "WANTED: \"Hogger\" (Elite)",
+      "level": "11+",
+      "status": "active",
+      "progress": "0/1 Huge Gnoll Claw",
+      "objective": "Obtain a Huge Gnoll Claw.",
+      "objectives": [
+        {
+          "name": "Huge Gnoll Claw",
+          "current": 0,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "stormpikes-delivery",
+      "name": "Stormpike's Delivery",
       "level": "15",
       "status": "active",
-      "progress": "Speak with Grimand Elmore",
-      "objective": "Speak with Grimand Elmore.",
-      "source": "Quest tracker 6 Nov 18:41; quest level 15, not the character level."
+      "progress": "Deliver the package for Stormpike in Loch Modan",
+      "objective": "Deliver Stormpike's package to Mountaineer Stormpike in Loch Modan."
     },
     {
       "id": "report-to-gryan-stoutmantle",
       "name": "Report to Gryan Stoutmantle",
       "level": "10",
       "status": "active",
-      "progress": "Speak to Gryan Stoutmantle at Sentinel Hill in Westfall",
-      "objective": "Talk to Gryan Stoutmantle, usually found in the stone tower on Sentinel Hill, off the road in central Westfall.",
-      "source": "Quest tracker 6 Nov 18:41; destination in Westfall does not establish that Xuthar has travelled there."
-    },
-    {
-      "id": "goldtooth",
-      "name": "Goldtooth",
-      "level": "8",
-      "status": "active",
-      "progress": "0/1 Bernice's Necklace",
-      "objective": "Recover Bernice's Necklace.",
-      "objectives": [
-        {
-          "name": "Bernice's Necklace",
-          "current": 0,
-          "total": 1
-        }
-      ]
-    },
-    {
-      "id": "princess-must-die",
-      "name": "Princess Must Die!",
-      "level": "9",
-      "status": "active",
-      "progress": "0/1 Brass Collar",
-      "objective": "Acquire a Brass Collar.",
-      "objectives": [
-        {
-          "name": "Brass Collar",
-          "current": 0,
-          "total": 1
-        }
-      ]
+      "progress": "Talk to Gryan Stoutmantle at Sentinel Hill in Westfall",
+      "objective": "Speak with Gryan Stoutmantle at Sentinel Hill in Westfall. The destination does not confirm travel to Westfall."
     },
     {
       "id": "camping-101-enchanting",
@@ -83,19 +72,11 @@
       "targetSkill": 20
     },
     {
-      "id": "the-jasperlode-mine",
-      "name": "The Jasperlode Mine",
-      "level": "10",
-      "status": "active",
-      "progress": "Scout through the Jasperlode Mine",
-      "objective": "Scout through the Jasperlode Mine."
-    },
-    {
       "id": "rare-books-elite",
       "name": "Rare Books (Elite)",
       "level": "7+",
       "status": "active",
-      "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words",
+      "progress": "0/1 Geomancy for Curious Young Wizards; 1/1 Arcane Explainer: Magical Stuff in Simple Words",
       "objective": "Collect Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words.",
       "objectives": [
         {
@@ -105,18 +86,10 @@
         },
         {
           "name": "Arcane Explainer: Magical Stuff in Simple Words",
-          "current": 0,
+          "current": 1,
           "total": 1
         }
       ]
-    },
-    {
-      "id": "further-concerns",
-      "name": "Further Concerns",
-      "level": "10",
-      "status": "active",
-      "progress": "Speak with Guard Thomas",
-      "objective": "Marshal Dughan wants Xuthar to speak with Guard Thomas."
     }
   ],
   "historical": [
@@ -226,7 +199,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "day02-20261106-184152-westfall-directed-quests",
+  "snapshotId": "day02-20261106-205922-guard-thomas-lvl10",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -285,8 +258,8 @@
     ]
   },
   "characterLevel": 10,
-  "characterLevelSource": "Official Blizzard Forever EU read-only API probe on 6 November 2026 (OAuth HTTP 200; profile HTTP 200; Xuthar Morvayne name matched; level 10), consistent with player's report.",
-  "characterLevelRecordedAt": "2026-11-06",
+  "characterLevelSource": "WoWScrnShot_110626_205922.jpg visible level 10 notification at 20:59:16 in game chat and on screen, next to Guard Thomas; corroborated by official Blizzard API.",
+  "characterLevelRecordedAt": "2026-11-06 20:59:16 (screenshot time)",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -313,6 +286,16 @@
       "rewardItem": "Oil of Olaf",
       "money": "3 Silver, 50 Copper",
       "evidence": "WoWScrnShot_110526_192624.jpg: quest completed in chat, XP 800, Stormwind reputation +150, Oil of Olaf received, 3 Silver 50 Copper."
+    },
+    {
+      "id": "further-concerns",
+      "name": "Further Concerns",
+      "experience": 420,
+      "reputation": {
+        "faction": "Stormwind",
+        "value": 50
+      },
+      "evidence": "WoWScrnShot_110626_205922.jpg: 'Further Concerns completed' in game chat immediately beside Guard Thomas, followed by 420 XP and Stormwind reputation +50."
     }
   ],
   "travelMilestones": [
@@ -379,6 +362,22 @@
     {
       "place": "Woodland with Forest Spider · 6 Nov 16:31",
       "observation": "Forest exploration: a Forest Spider level/nameplate visible ahead; no kill, loot, or quest completion confirmed."
+    },
+    {
+      "place": "Stormwind canal bridges, revisit",
+      "observation": "18:20–18:36 dusk; Sewer Beast visible from bridge, Carro Steelcave and cat nearby. No interaction or battle inferred."
+    },
+    {
+      "place": "Jasperlode Mine",
+      "observation": "20:33 interior; Jasperlode and Tower of Azora discovered; related scouting quest ready for turn-in."
+    },
+    {
+      "place": "Guard Thomas, Elwynn Forest",
+      "observation": "20:59 completion of Further Concerns, level 10 achieved with +420 XP, +50 Stormwind reputation."
+    },
+    {
+      "place": "Woodland stream at night",
+      "observation": "23:30 nighttime river crossing shown; exact location uncertain."
     }
   ],
   "innVisit": {
@@ -1480,5 +1479,92 @@
       "publishedToSite": false,
       "synchronizedAutomatically": false
     }
-  }
+  },
+  "latestTrackerTime": "2026-11-06 20:59:22 (screenshot time; local zone not encoded)",
+  "previousObservedQuestTracker": {
+    "snapshotId": "day02-20261106-184152-westfall-directed-quests",
+    "source": "Screenshot at 18:41, partially cropped",
+    "active": [
+      {
+        "name": "The Escape",
+        "level": "7",
+        "progress": "Take the Invisibility Liquor to Maybell Maclure"
+      },
+      {
+        "name": "Elmore's Task",
+        "level": "15",
+        "progress": "Speak with Grimand Elmore"
+      },
+      {
+        "name": "Report to Gryan Stoutmantle",
+        "level": "10",
+        "progress": "Speak to Gryan Stoutmantle at Sentinel Hill in Westfall"
+      },
+      {
+        "name": "Goldtooth",
+        "level": "8",
+        "progress": "0/1 Bernice's Necklace"
+      },
+      {
+        "name": "Princess Must Die!",
+        "level": "9",
+        "progress": "0/1 Brass Collar"
+      },
+      {
+        "name": "Camping 101: Enchanting",
+        "level": "6",
+        "progress": "Raise Enchanting skill to 20"
+      },
+      {
+        "name": "Camping 101: Tailoring",
+        "level": "6",
+        "progress": "Raise Tailoring skill to 20"
+      },
+      {
+        "name": "The Jasperlode Mine",
+        "level": "10",
+        "progress": "Scout through the Jasperlode Mine"
+      },
+      {
+        "name": "Rare Books (Elite)",
+        "level": "7+",
+        "progress": "0/1 Geomancy for Curious Young Wizards; 0/1 Arcane Explainer: Magical Stuff in Simple Words"
+      },
+      {
+        "name": "Further Concerns",
+        "level": "10",
+        "progress": "Speak with Guard Thomas"
+      }
+    ],
+    "observedAt": "2026-11-06 18:41"
+  },
+  "mostRecentReadyObservation": {
+    "mission": "The Jasperlode Mine",
+    "observedAt": "2026-11-06 20:33",
+    "source": "WoWScrnShot_110626_203303.jpg",
+    "status": "Ready for turn-in",
+    "note": "Not shown handed in; not assumed still ready at 20:59."
+  },
+  "verifiedLocationObservations": [
+    {
+      "place": "Stormwind City canals",
+      "time": "18:20–18:36",
+      "evidence": "Three screenshots show canal and bridge, Sewer Beast in water, Carro Steelcave and cat near city patrol. No Sewer Beast fight or conversation with Carro is evidenced."
+    },
+    {
+      "place": "Jasperlode Mine",
+      "time": "20:33",
+      "evidence": "Interior with green webs, wooden supports and tracks. Discovery of Jasperlode Mine and Tower of Azora in game chat, The Jasperlode Mine ready for turn-in."
+    },
+    {
+      "place": "Elwynn Forest, near Guard Thomas",
+      "time": "20:59",
+      "evidence": "Level 10; Further Concerns completed; map around 73.9 72.2."
+    },
+    {
+      "place": "Wooded stream at night",
+      "time": "23:30",
+      "evidence": "Xuthar walking through water, lantern visible; precise map location not shown."
+    }
+  ]
 }

@@ -250,3 +250,22 @@
 .xu-dossier .xu-photo-archive-choices strong{font:550 1.7rem/1.18 Georgia,serif;color:#ffead0}
 .xu-dossier .xu-photo-archive-choices small{font:.82rem/1.55 system-ui;color:#c3cfdd}
 @media(max-width:850px){.xu-dossier .xu-photo-archive-choices{grid-template-columns:1fr}}
+
+
+/* Dedicated photo exhibition for Xuthar: natural 16:9 screenshots with no cropping. */
+.xu-dossier .xu-curated-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:26px 0 19px;align-items:start}
+.xu-dossier .xu-curated-card{min-width:0;margin:0;background:#0d1c2e;border:1px solid #c9aa7973;border-radius:9px;overflow:hidden;box-shadow:0 12px 24px #0005}
+.xu-dossier .xu-curated-card>a{display:block;width:100%;height:auto;line-height:0;overflow:hidden;background:#081321}
+.xu-dossier .xu-curated-card img{
+ display:block;width:100%;max-width:100%;height:auto !important;min-height:0 !important;
+ max-height:none !important;aspect-ratio:auto !important;object-fit:contain;object-position:center;
+ transform:none !important;filter:none !important;image-rendering:auto
+}
+.xu-dossier .xu-curated-card figcaption{padding:16px 17px 19px}
+.xu-dossier .xu-curated-card figcaption span{display:block;font:800 .64rem/1.4 system-ui;letter-spacing:.1em;color:#d9bd90}
+.xu-dossier .xu-curated-card figcaption strong{display:block;margin:7px 0;color:#f8e9cc;font:500 1.18rem/1.3 Georgia,serif}
+.xu-dossier .xu-curated-card figcaption p{font:.8rem/1.6 system-ui;color:#bdccda;margin:0}
+.xu-dossier .xu-curated-card>a:hover,.xu-dossier .xu-curated-card>a:focus-visible{outline:3px solid #e7c78d;outline-offset:-3px}
+.xu-dossier .xu-curated-links{display:flex;flex-wrap:wrap;gap:10px}
+@media(max-width:980px){.xu-dossier .xu-curated-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.xu-dossier .xu-curated-grid{grid-template-columns:1fr}}

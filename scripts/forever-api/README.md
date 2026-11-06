@@ -29,7 +29,15 @@ The job remains disabled by default and runs every 6 hours when configured. It a
 
 ## Current Xuthar limitation
 
-At his player-confirmed **level 6 on 5 November 2026**, Xuthar is expected to remain absent from the public profile API, even if the namespace already works for higher-level characters. Manual progress records and screenshot evidence remain separate until the API can read his own profile. No unconfirmed quest completions or new levels are invented.
+On **6 November 2026**, the player confirmed **Xuthar Morvayne is level 10** and supplied the direct official EU Forever Armory URL:
+
+https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne
+
+This URL is stored in the site as an official character reference, **not** as proof of a successful API read. The page could not be independently fetched during the update. A 404 from the Forever EU profile API may reflect propagation delay or issues in Blizzard's evolving endpoint, not necessarily that the character does not exist.
+
+**Importer status:** a GitHub Actions run at 19:29 UTC on 6 Nov returned: `Forever API not verified/enabled; no Blizzard requests, no publication.` The required workflow variables `FOREVER_API_ENABLED` and `FOREVER_NAMESPACE_VERIFIED` were empty at the time. The importer is intentionally still disabled. No gear, quest, profession or achievement data has been synchronized. The existing quest ledger remains a manual, screenshot-based source of truth.
+
+**Next check:** after Xuthar logs out, view the Armory URL and try a read-only profile request using a Blizzard developer client stored in GitHub Secrets. The provisional URL is `GET https://eu.api.blizzard.com/profile/wow/character/xuthar-morvayne?namespace=profile-forever-eu&locale=en_GB`. Only enable the two workflow gates after the request is authenticated, the namespace is verified and the returned profile matches Xuthar Morvayne. Never paste client secrets into chat or commit them to source files.
 
 ## Privacy and limitations
 

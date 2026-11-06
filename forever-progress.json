@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1793998748,
+  "exportedAt": 1793998877,
   "characters": [
     {
       "id": "xuthar",
@@ -17,12 +17,158 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": null,
+      "questsCompleted": 87,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1793998748
+      "checkedAt": 1793998877,
+      "officialDetails": {
+        "quests": {
+          "source": "BlizzardOfficialAPI",
+          "snapshotAt": 1793998877,
+          "inProgressCount": 8,
+          "completedCount": 87,
+          "inProgress": [
+            {
+              "id": 176,
+              "name": "WANTED: \"Hogger\""
+            },
+            {
+              "id": 11,
+              "name": "Riverpaw Gnoll Bounty"
+            },
+            {
+              "id": 353,
+              "name": "Stormpike's Delivery"
+            },
+            {
+              "id": 109,
+              "name": "Report to Gryan Stoutmantle"
+            },
+            {
+              "id": 94774,
+              "name": "Divine Grace"
+            },
+            {
+              "id": 91777,
+              "name": "Rare Books"
+            },
+            {
+              "id": 97917,
+              "name": "Camping 101: Enchanting"
+            },
+            {
+              "id": 97925,
+              "name": "Camping 101: Tailoring"
+            }
+          ],
+          "completedQuestIds": [
+            5261,
+            3903,
+            3905,
+            54,
+            61,
+            33,
+            107,
+            47,
+            106,
+            62,
+            111,
+            21,
+            15,
+            84,
+            85,
+            76,
+            7,
+            40,
+            86,
+            334,
+            112,
+            6,
+            60,
+            87,
+            239,
+            114,
+            333,
+            88,
+            1097,
+            35,
+            18,
+            783,
+            332,
+            2158,
+            3103,
+            5623,
+            96646,
+            96658,
+            96630,
+            96628,
+            96634,
+            96656,
+            96659,
+            96652,
+            96655,
+            96638,
+            96661,
+            96626,
+            96627,
+            96629,
+            3904,
+            96101,
+            5624,
+            95998,
+            96604,
+            96605,
+            91758,
+            92124,
+            91741,
+            91743,
+            91745,
+            91752,
+            91772,
+            91775,
+            96606,
+            96607,
+            96608,
+            96047,
+            96050,
+            97956,
+            97965,
+            97903,
+            97931,
+            97967,
+            97904,
+            97932,
+            97919,
+            97920,
+            97942,
+            97943,
+            97955,
+            99127,
+            99128,
+            99129,
+            99130,
+            99131,
+            99143
+          ],
+          "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
+        },
+        "professions": {
+          "primaryCount": 2,
+          "secondaryCount": 3
+        },
+        "equipment": {
+          "equippedCount": 7
+        },
+        "reputations": {
+          "trackedCount": 4
+        },
+        "achievements": {
+          "trackedCount": 7
+        },
+        "profileCheckedAt": 1793998877
+      }
     }
   ],
   "events": []

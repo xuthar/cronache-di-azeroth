@@ -65,7 +65,7 @@
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
-No quest marked ready for turn-in in this screenshot; other quest states are not verified.
+      if(items.length===0)grid.append(make('p','xql-empty','No quest marked ready for turn-in in this screenshot; other quest states are not verified.'));
      items.forEach(q=>grid.append(questCard(q,ready)));
      group.append(grid);board.append(group);
    }

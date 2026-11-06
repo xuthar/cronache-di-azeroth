@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T20:52:27.816Z"
+    "checkedAt": "2026-11-06T20:52:52.266Z"
   },
   "news": [
+    {
+      "title": "Raid Rewards and PvP Balance - Crix Interview on WoW: Forever",
+      "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-06T20:52:14.000Z"
+    },
     {
       "title": "Blizzard Fixing Issues Causing Duplicates of NPCs and Mobs",
       "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic",
       "category": "Forever",
       "publishedAt": "2026-11-06T18:34:57.000Z"
-    },
-    {
-      "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
-      "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir",
-      "category": "WoW",
-      "publishedAt": "2026-11-06T18:31:23.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T20:52:27.816Z",
-  "generatedAt": "2026-11-06T20:52:27.808Z",
+  "newsUpdatedAt": "2026-11-06T20:52:52.265Z",
+  "generatedAt": "2026-11-06T20:52:52.194Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 14:52:09 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 14:52:51 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

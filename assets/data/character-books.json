@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "ongoing-novel-second-day-ten-thresholds",
+      "status": "living-novel-through-jasperlode-guard-thomas-night-stream",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -714,8 +714,21 @@
           ]
         },
         {
+          "id": "x-stormwind-canals-dusk",
+          "chapter": "Chapter XXIV · Beneath the Stone of Stormwind",
+          "title": "The Beast Beneath the Bridges",
+          "kind": "reported",
+          "paragraphs": [
+            "The city held the evening light differently from the forest. In Stormwind, the sun lingered on battlements and the high edges of roofs while the canals below grew dark. Xuthar walked along the water where the towers cast their reflections like broken swords. A narrow wooden landing stood beside a stone arch, and a small boat rocked against its moorings. He remembered the river beyond Elwynn and wondered why a city needed to imprison its water between walls.",
+            "Farther along the canal, something moved beneath the surface. A Sewer Beast, broad-backed and pale against the deep blue, disturbed the water near the timbers. The priest watched from the bridge rather than reach for violence. Not everything strange was his enemy; sometimes the wiser question was why a creature had found a home where others had poured their forgotten things.",
+            "He passed under another stone arch, where barrels stood close to the wall and the patrols kept their measured watch. Nearby was a hunter named Carro Steelcave, accompanied by a cat that moved with an animal's indifference to human business. The brief crossing of strangers left no grand revelation, only the quiet knowledge that the city carried a thousand lives around him, each occupied with its own road.",
+            "By then the sunlight had turned copper above the towers. Beneath it, the water had grown almost black. Xuthar took one final look toward the bridge and moved on, carrying the image of that half-hidden creature in his thoughts. Stormwind was full of magnificent monuments, but the forgotten things always seemed to gather below them.",
+            "He had once believed the purpose of a witness was to write down what the world had seen. The canals taught him another possibility: that some lives survived precisely because nobody had troubled to look."
+          ]
+        },
+        {
           "id": "x-day-two-ten-quests-field-record",
-          "chapter": "Chapter XXIII · The River Keeps No Footprints",
+          "chapter": "Chapter XXIV · Beneath the Stone of Stormwind",
           "title": "Ten Threads across Elwynn",
           "kind": "reported",
           "paragraphs": [
@@ -727,7 +740,7 @@
         },
         {
           "id": "x-quest-story-lovers",
-          "chapter": "Chapter XXIV · Between the Houses",
+          "chapter": "Chapter XXV · Between the Houses",
           "title": "An Unseen Road Between Two Houses",
           "kind": "fiction",
           "paragraphs": [
@@ -739,16 +752,45 @@
           ]
         },
         {
-          "id": "x-level-ten-armory",
-          "chapter": "Chapter XXV · Ten Steps Toward the Light",
-          "title": "The Tenth Threshold",
+          "id": "x-jasperlode-dark-gallery",
+          "chapter": "Chapter XXVI · The Depths of Jasperlode",
+          "title": "Where the Webs Hold Their Breath",
           "kind": "reported",
           "paragraphs": [
-            "By the evening of the second day, Xuthar had crossed the tenth threshold of his apprenticeship. No trumpet sounded for him. No great bell rang over Elwynn to announce that another novice had grown a little stronger.",
-            "He had come through wolves and thieves, the raw stone of mines, the dangers of murloc waters and the long paved roads to Stormwind. Some encounters had ended in success; others had dropped him helpless before the world. All of them had left marks deeper than the numbers by which travellers measured themselves.",
-            "He remembered the first gathering at Northshire Abbey, the warmth of the Lion's Pride hearth, and the rain on the road home. Each memory belonged to a different version of the same man: the uncertain arrival, the frightened survivor, the patient keeper of names.",
-            "He opened the Morvayne ledger. Its old warning was still there, written in fading letters: The last witness must not remember. Xuthar traced the words with one finger and thought of all he would have lost by obeying them.",
-            "Ten thresholds were only a beginning. Beyond them lay lives not yet met, roads not yet walked, a darkness he was still learning to question. He dipped his pen and began another page."
+            "By the time Xuthar reached Jasperlode, he had learned to distrust the easy promise of a mine entrance. Fargodeep had already taught him how quickly a narrow passage could swallow courage. Yet the dark opening drew him onward. Somewhere along the road he had marked the lands of the Tower of Azora, another name added to the widening map of his life, and now the old timber supports of Jasperlode rose before him like ribs inside a buried creature.",
+            "The air changed beneath the beams. Pale webbing draped the roof and crept across the walls, heavy enough to make the lantern glow look sickly green. Wooden tracks curled away underfoot, vanishing between supports and stones. In the shadows lay strange pale, wormlike shapes; farther ahead the darkness offered no promise that the passage was empty.",
+            "He followed the winding gallery without pretending that the mine belonged to him. The timbers creaked, the air felt old and stale, and the webbed walls made even the sound of his breathing seem unwelcome. Once he might have hurried simply to escape. Instead he forced himself to look carefully: at the tracks cut through the earth, at the abandoned workmanship, at the patient occupation of things that thrived in silence.",
+            "At last he had seen enough to carry word of Jasperlode beyond its entrance. That did not mean every danger within had been answered, nor that the earth had surrendered its secrets. It meant only that he could speak of the place without imagining it.",
+            "As he turned toward the distant light, he thought of the missing books that still troubled his journey. Stone and paper were not so different after all. Both kept traces of hands long gone; both could hide what people preferred not to remember."
+          ]
+        },
+        {
+          "id": "x-level-ten-armory",
+          "chapter": "Chapter XXVII · The Tenth Threshold",
+          "title": "The Man beside the Road",
+          "kind": "reported",
+          "paragraphs": [
+            "Evening gathered under the vast trees of Elwynn. The path near Guard Thomas was darkening, and the wooden fences along the roadside seemed to hold back the forest only by courtesy. Xuthar came upon the guard with a message that had travelled farther than its few words: Marshal Dughan's concern for the eastern reaches of the kingdom.",
+            "There was no courtly ceremony in the exchange. A soldier stood at his post, a priest brought news, and the countryside went on breathing around them. Yet when the errand was fulfilled, Xuthar felt the familiar change that follows a hard-won lesson. At that quiet roadside meeting, he crossed the tenth threshold of his apprenticeship.",
+            "He did not become a different man. His fears did not vanish, his unanswered questions did not resolve, and the old Morvayne ledger offered no revelation. But the hands that had first trembled among Northshire's wolves were steadier now. Those same hands had held a fishing line, gathered books, carried candles and learned to shape cloth and enchantment.",
+            "Other troubles waited nearby. Gnolls were stirring along the river, and the name Hogger had become a warning passed between travellers. Xuthar had not settled those dangers. He knew better than to confuse the drawing of a blade with the ending of a threat.",
+            "Farther afield, other names summoned him: Gryan Stoutmantle in Westfall, and the road to Loch Modan with a delivery intended for Stormpike. Even the books he hunted were not all accounted for. One of the missing volumes, Arcane Explainer, had found its way into his care, while the companion work on geomancy remained beyond his reach.",
+            "He remembered the gates of Northshire, the candles beneath the Abbey stone, the terror of the mine, the orange light above Stormwind's canals. Each memory belonged to a different hour of the same brief life, but together they had made something no number could measure.",
+            "Xuthar rested a hand upon his ledger. The old warning was still there: The last witness must not remember. For the first time, he almost smiled at it. The world could keep its commands. There were too many names still waiting to be written."
+          ]
+        },
+        {
+          "id": "x-stream-midnight-return",
+          "chapter": "Chapter XXVIII · The Quiet Water after Dusk",
+          "title": "The River That Remembered Nothing",
+          "kind": "reported",
+          "paragraphs": [
+            "Long after the last gold of evening had disappeared from the treetops, Xuthar found himself in shallow water again. The forest stood close on either bank, its enormous trunks dark against a sky almost lost between the leaves. Farther along the path, a single lantern made a small, defiant promise of warmth.",
+            "He waded through the stream slowly. The water was black except where pale blue flecks of light trembled across its surface. Each step disturbed a little of the reflected sky and sent it travelling toward the shore. In the daytime he might have watched for a path or a sign; now there was only the sound of water moving around his boots.",
+            "He had crossed ten thresholds of learning, but the night cared nothing for them. Here he was only a weary priest standing between two banks, with more questions than answers and a book that grew heavier whenever he tried to forget what he had seen.",
+            "Perhaps the strangest thing about memory was how little the world depended upon it. Stormwind's waters would flow without him. The mines would remain dark. The wolves and the gnolls would go on living and hunting and dying. Yet in his mind, each small encounter had begun to take a place beside the names of his childhood.",
+            "He thought of the nameless woman whose final request had once changed his life. No one had told him where such a promise ended. Perhaps it never ended. Perhaps one simply went on gathering fragments until the hand that held the pen could do so no longer.",
+            "Xuthar reached the shallower water and looked once toward the distant lantern. There would be another road tomorrow, another name, another chance to fail or to show mercy. Behind him the stream settled, smooth and untroubled, as though no one had crossed it at all."
           ]
         },
         {

@@ -15,11 +15,11 @@
           <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The player has confirmed Xuthar is now level 10. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
           <p class="day-two-evidence">The newest tracker at 18:41 shows ten active quests, including The Escape, Elmore's Task, Report to Gryan Stoutmantle, Goldtooth and Princess Must Die! Xuthar has now reached level 10, confirmed directly by the player. The cropped quest list does not show the character level, location name or completed hand-ins.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-river-and-woods">Read Chapter XXIII ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a></div>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-level-ten-armory">Level 10 · Armory milestone ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a><a href="https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne" target="_blank" rel="noopener noreferrer">Xuthar · Official EU Armory ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
-          <strong>LVL 9</strong>
+          <strong>LVL 10</strong>
           <p>LATEST PHOTOGRAPHED AREA</p>
           <b>Woodland · Elwynn Forest</b>
           <small>Latest quest tracker: 6 November, 18:41 · 10 active quests. Level 10 confirmed by player.</small>
@@ -62,7 +62,7 @@
             <div><b>New trades</b><span>Tailoring · Enchanting · Fishing</span></div>
             <div><b>Goldshire</b><span>Rainy night · Resting at Lion’s Pride Inn</span></div>
           </div>
-          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 10 ↗</a></div>
+          <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Rain →</a><a class="secondary" href="journal.html#xuthar-day-two-enticing-offer-river">Latest travel journal →</a><a class="secondary" href="xuthar.html#xuthar-quests">Quest record · Level 10 ↗</a><a class="secondary" href="https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne" target="_blank" rel="noopener noreferrer">Official Armory ↗</a></div>
           <p class="first-night-fine">Screenshots confirm levels seven and eight, Garments of the Light (270 XP and Friar’s Robes of the Light), and Shipment to Stormwind (800 XP). Two deaths in Fargodeep Mine and Stormwind arrival are documented. Some later Stormwind quest deliveries are player-reported but their exact titles and rewards remain unknown; the 20:24 quest tracker is historical. The final photographs show rain outside Goldshire and Xuthar resting in a bed. Literary imagery remains original fiction.</p>
         </div>
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">

@@ -48,7 +48,7 @@
     const head=make('header','qm-mission-head'),left=make('div','');
     text(left,'span','qm-mission-area',group.area);
     text(left,'h3','',group.title);
-    head.append(left,text(make('span','qm-verified'),'span','', '✓ BLIZZARD VERIFIED'));
+    head.append(left,make('span','qm-verified','✓ BLIZZARD VERIFIED'));
     card.append(head);
     const meta=make('div','qm-mission-description');
     meta.textContent=ids.length===1?'Quest ID '+ids[0]+' · Officially completed; completion time not supplied.':
@@ -65,7 +65,7 @@
     if(story)actions.append(link('Read the related adventure ↗','book.html?character=xuthar#'+story.bookAnchor));
     const questLink='https://www.wowhead.com/forever/quest='+first.id;
     actions.append(link('Quest reference ↗',questLink,'',true));
-    if(newIds.some(id=>ids.includes(id)))actions.append(text(make('span','','New since previous verified snapshot'),'span',''));
+    if(newIds.some(id=>ids.includes(id)))actions.append(make('span','','New since previous verified snapshot'));
     card.append(actions);
     const details=make('details',''),summary=make('summary','','Source notes & quest context');
     const more=make('div','qm-mission-extra');

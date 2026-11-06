@@ -637,6 +637,38 @@
       "publishedOnSite": false,
       "date": "2026-11-06",
       "gameTime": "15:27"
+    },
+    {
+      "filename": "image(20261106-145948).png",
+      "description": "In-game diary Level 5: Northshire and 6% health escape from Defias attackers.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "reference": "diary-retrospective"
+    },
+    {
+      "filename": "image(20261106-145929).png",
+      "description": "In-game diary Level 6: Goldshire/Crystal Lake and Sandriana first encountered.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "reference": "diary-retrospective"
+    },
+    {
+      "filename": "image(20261106-145907).png",
+      "description": "In-game diary Level 7: first green item and bag, close calls with Kobolds.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "reference": "diary-retrospective"
+    },
+    {
+      "filename": "image(10).png",
+      "description": "In-game diary Level 8: Stormwind, current-day Murloc close call, Streamrunner death note.",
+      "date": "2026-11-06",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false,
+      "reference": "diary-retrospective"
     }
   ],
   "latestReportAt": "2026-11-05T21:34:55+01:00",
@@ -849,7 +881,7 @@
   "currentSessionId": "day-02-20261106",
   "currentSessionStatus": "active-day-two-lake-exploration",
   "currentChronicleDate": "2026-11-06",
-  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8.",
+  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded.",
   "previousQuestSnapshotId": "goldshire-rest-20261105-213455",
   "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
   "currentQuestTrackerLocation": {
@@ -939,5 +971,176 @@
       "event": "Xuthar confronts level 7 Murloc. Quest tracker shows Shiny Junk 4/6, Half-Eaten Fish 2/7, and Camping 101 Fishing ready for turn-in.",
       "source": "WoWScrnShot_110626_152750.jpg"
     }
-  ]
+  ],
+  "diaryReconstruction": {
+    "reportDate": "2026-11-06",
+    "source": "Four screenshots of in-game character diary/map, uploaded 6 November 2026. The words 'today' and 'yesterday' are interpreted relative to 6 November.",
+    "images": [
+      {
+        "filename": "image(20261106-145948).png",
+        "section": "Level 5"
+      },
+      {
+        "filename": "image(20261106-145929).png",
+        "section": "Level 6"
+      },
+      {
+        "filename": "image(20261106-145907).png",
+        "section": "Level 7"
+      },
+      {
+        "filename": "image(10).png",
+        "section": "Level 8"
+      }
+    ],
+    "levelMilestones": [
+      {
+        "level": 5,
+        "date": "2026-11-05",
+        "zone": "Elwynn Forest",
+        "events": [
+          "Early road in Northshire Valley, then quests around Northshire Vineyards",
+          "Escaped a Defias Thug and two other enemies at 6% health"
+        ],
+        "displayedZoneTime": [
+          {
+            "zone": "Elwynn Forest",
+            "duration": "14 min"
+          }
+        ],
+        "confidence": "text explicitly visible in in-game diary screenshot"
+      },
+      {
+        "level": 6,
+        "date": "2026-11-05",
+        "zone": "Northshire Valley / Elwynn Forest",
+        "events": [
+          "About ten minutes fighting in Northshire Valley",
+          "Quests around Goldshire and fighting near Crystal Lake",
+          "First diary-recorded encounter with Sandriana in Elwynn Forest; diary says she was encountered again at level 7"
+        ],
+        "displayedZoneTime": [
+          {
+            "zone": "Elwynn Forest",
+            "duration": "2 h 07 min"
+          }
+        ],
+        "confidence": "diary screenshot; date and counts are per displayed diary grouping"
+      },
+      {
+        "level": 7,
+        "date": "2026-11-05",
+        "zone": "Elwynn Forest",
+        "events": [
+          "Quests around Goldshire then fighting near Fargodeep Mine",
+          "First green-quality item awarded: Friar's Robes of the Light",
+          "First bag awarded: Book Bag",
+          "Escaped encounters involving Kobold Tunneler and Kobold Miner with about 1% health",
+          "A third close call is summarized by the diary"
+        ],
+        "displayedZoneTime": [
+          {
+            "zone": "Elwynn Forest",
+            "duration": "31 min"
+          },
+          {
+            "zone": "Stormwind City",
+            "duration": "3 min"
+          }
+        ],
+        "confidence": "in-game diary screenshots; a game-chat screenshot independently confirms the robe reward"
+      },
+      {
+        "level": 8,
+        "date": "2026-11-05",
+        "zone": "Stormwind City · Trade District",
+        "events": [
+          "Reached level 8 on 5 November in Stormwind Trade District",
+          "Diary mentions about twenty minutes resting in Stormwind",
+          "Overnight route later led to Goldshire (separately shown)"
+        ],
+        "displayedZoneTime": [
+          {
+            "zone": "Stormwind City",
+            "duration": "1 h 26 min"
+          },
+          {
+            "zone": "Elwynn Forest",
+            "duration": "50 min"
+          }
+        ],
+        "confidence": "in-game diary screenshot and previously supplied level-up screenshot"
+      }
+    ],
+    "survivalEvents": [
+      {
+        "id": "defias-level5-6pct",
+        "date": "2026-11-05",
+        "atLevel": 5,
+        "place": "Elwynn Forest",
+        "kind": "close-call",
+        "details": "Escaped a Defias Thug and two additional attackers with 6% health remaining."
+      },
+      {
+        "id": "kobold-tunneler-level7-1pct",
+        "date": "2026-11-05",
+        "atLevel": 7,
+        "place": "Elwynn Forest near Fargodeep Mine",
+        "kind": "close-call",
+        "details": "Escaped a Kobold Tunneler and another attacker with approximately 1% health remaining."
+      },
+      {
+        "id": "kobold-miner-level7-1pct",
+        "date": "2026-11-05",
+        "atLevel": 7,
+        "place": "Elwynn Forest near Fargodeep Mine",
+        "kind": "close-call",
+        "details": "Escaped a Kobold Miner and another attacker with approximately 1% health remaining."
+      },
+      {
+        "id": "murloc-level8-3pct",
+        "date": "2026-11-06",
+        "atLevel": 8,
+        "place": "Elwynn Forest / Crystal Lake area",
+        "kind": "close-call",
+        "details": "Escaped an encounter against two Murlocs with 3% health remaining."
+      }
+    ],
+    "opponentMemory": {
+      "name": "Murloc Streamrunner",
+      "deathCountShown": 2,
+      "period": "not specified in the diary note",
+      "note": "The note reads 'killed you twice'; do not attribute both deaths to today without timestamps."
+    },
+    "deathReporting": {
+      "diaryForNov5": "one death in the 5 November diary summary",
+      "previouslySuppliedFargodeepScreenshots": "Two separate death-screen captures from 19:04 and 19:07 on 5 November",
+      "diaryForNov6": "one death in the 6 November summary, by the time this diary view was captured",
+      "reconciliation": "The diary summary and earlier capture count differ; retain source-specific statements and do not invent a single definitive lifetime death total."
+    },
+    "encounterMemory": {
+      "name": "Sandriana",
+      "firstSeenAtLevel": 6,
+      "seenAgainAtLevel": 7,
+      "place": "Elwynn Forest",
+      "note": "The diary says 'first saw Sandriana' and 'you'd meet again at level 7'; no conversation, group or relationship is inferred."
+    },
+    "firstMilestones": [
+      {
+        "kind": "green-quality-item",
+        "name": "Friar's Robes of the Light",
+        "atLevel": 7,
+        "quest": "Garments of the Light",
+        "verification": "In-game diary and quest completion chat screenshot"
+      },
+      {
+        "kind": "bag",
+        "name": "Book Bag",
+        "atLevel": 7,
+        "verification": "In-game diary screenshot; quest reward source is not identified"
+      }
+    ],
+    "timingCaveat": "Displayed zone times are per diary grouping, not a complete all-session or cumulative played-time ledger. Do not add across levels without definition.",
+    "sourceStatus": "four uploaded diary screenshots; not uploaded as binary images to the public website"
+  }
 }

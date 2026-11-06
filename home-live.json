@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-05T22:24:55.308Z"
+    "checkedAt": "2026-11-06T02:46:45.557Z"
   },
   "news": [
     {
-      "title": "Blizzard Investigating Issues with Certain Escort Quests in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383771/blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever",
+      "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
+      "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news",
       "category": "Forever",
-      "publishedAt": "2026-11-05T20:23:47.000Z"
+      "publishedAt": "2026-11-06T02:36:06.000Z"
     },
     {
-      "title": "New Prerequisites Required for Ruins of Lordaeron Dungeon Quests in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383769/new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-05T18:51:44.000Z"
+      "title": "Renamed Tortollan NPCs and Venomous Abyss Tuning - Patch 12.1.5 Hotfixes",
+      "url": "https://www.wowhead.com/news=383777/renamed-tortollan-npcs-and-venomous-abyss-tuning-patch-12-1-5-hotfixes",
+      "category": "Live",
+      "publishedAt": "2026-11-06T02:16:07.000Z"
     },
     {
-      "title": "The Weekly Reset with Taliesin and Evitel: Forever Forever? Talebound and More",
-      "url": "https://www.wowhead.com/news=383691/the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more",
-      "category": "WoW",
-      "publishedAt": "2026-11-05T17:00:00.000Z"
+      "title": "Massive Nerfs to The Venomous Abyss Raid - Large Nerfs to Ula'tek on Every Difficulty",
+      "url": "https://www.wowhead.com/news=383776/massive-nerfs-to-the-venomous-abyss-raid-large-nerfs-to-ulatek-on-every",
+      "category": "Live",
+      "publishedAt": "2026-11-06T00:26:53.000Z"
     },
     {
-      "title": "How to Phase to See Group Members After Joining New Group",
-      "url": "https://www.wowhead.com/news=383761/how-to-phase-to-see-group-members-after-joining-new-group",
-      "category": "Forever",
-      "publishedAt": "2026-11-05T16:36:51.000Z"
+      "title": "Massive Mythic Coiled Altar Nerfs Removes 1 Soulcoiler Add From Each Spawn",
+      "url": "https://www.wowhead.com/news=383775/massive-mythic-coiled-altar-nerfs-removes-1-soulcoiler-add-from-each-spawn",
+      "category": "Live",
+      "publishedAt": "2026-11-06T00:25:48.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-05T22:24:55.308Z",
-  "generatedAt": "2026-11-05T22:24:55.301Z",
+  "newsUpdatedAt": "2026-11-06T02:46:45.557Z",
+  "generatedAt": "2026-11-06T02:46:45.552Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 05 Nov 2026 16:24:40 -0600",
+  "newsFeedBuiltAt": "Thu, 05 Nov 2026 20:46:18 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

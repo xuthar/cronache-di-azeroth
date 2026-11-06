@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "level-8-day-two-quest-tracker",
+      "status": "level-8-day-two-crystal-lake-fishing",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -578,6 +578,36 @@
             "Rare Books (Elite) [7+]: Geomancy for Curious Young Wizards 0/1; Arcane Explainer: Magical Stuff in Simple Words 0/1.",
             "Further Concerns [10]: Marshal Dughan wants Xuthar to speak with Guard Thomas.",
             "No objective shown as complete; no quest hand-in or newly earned XP is visible. Last confirmed character level remains eight. Profession information remains Tailoring, Enchanting and Fishing from the previous evening's direct report."
+          ]
+        },
+        {
+          "id": "x-day-two-crystal-lake",
+          "chapter": "Chapter XXII · Where the Lake Holds Its Secrets",
+          "title": "Nets Beneath the Water",
+          "kind": "reported",
+          "paragraphs": [
+            "The rain of the previous night was only a memory on the road out of Goldshire. By afternoon Xuthar was standing beside a pale canvas tent and a small fire. Other travellers wandered through the trees; Sam Sarsparilla stood at the entrance to the camp. The priest had not yet found a reason to hurry.",
+            "By the next photograph, a tiny camera icon had appeared beside the minimap. The tooltip read Xuthar Camera, and the chat reported that a screenshot had been saved. Now this quiet place, too, could become a page in the Chronicles.",
+            "At Crystal Lake, water opened under the autumn-coloured trees. The dock was busy with anglers and visitors; Lee Brown stood by the boards. Two new errands had entered the quest log: A Net Disaster, asking for seven Half-Eaten Fish, and Bottles and Baubles, asking for six Shiny Junk. Their acceptance is visible in the chat at about 15:12.",
+            "Xuthar cast his line along the grassy shore. The bobbers lay across the shallows, and other fishers watched the water. For a while the world was all reeds, wood and little circles spreading on the lake.",
+            "But the shores were no refuge from danger. By 15:27 the screenshot showed a level-seven Murloc directly before him. The quest tracker recorded four of six Shiny Junk and two of seven Half-Eaten Fish; Camping 101: Fishing was now ready for turn-in, while the Enchanting and Tailoring training errands remained open.",
+            "For the Last Witness in the fictional telling, even a stolen scrap or a half-eaten fish might become testimony: a tiny remnant of what somebody had done, carried away by the current. The real record is simpler. Xuthar stood by the lake, fished, gathered some quest items and faced a Murloc. No victory or completed hand-in is claimed.",
+            "The page ends where the photograph ends, with another step still to take."
+          ]
+        },
+        {
+          "id": "x-day-two-crystal-lake-notes",
+          "chapter": "The Field Record · 6 November 2026 · Crystal Lake",
+          "title": "Five Full-Resolution Screenshots · Quest Counts and Camera",
+          "kind": "reported",
+          "paragraphs": [
+            "Five user-uploaded 1920×1080 JPEG screenshots from 15:05–15:27 on 6 November 2026 document the Goldshire camp and Crystal Lake outing. Originals are preserved separately and have not been uploaded as image files to GitHub Pages.",
+            "15:05, Goldshire (45.0, 63.3): Xuthar (level 8) is beside a canvas tent and campfire. Sam Sarsparilla is visible near the entrance. The picture does not prove who placed the tent.",
+            "15:06, Goldshire: the Xuthar Camera minimap button is visible and chat says a screenshot was saved. The camera button is therefore confirmed to work in this session.",
+            "15:12, Crystal Lake (47.6, 62.5): the quest log shows two newly accepted quests. A Net Disaster requires seven Half-Eaten Fish; Bottles and Baubles requires six Shiny Junk. Both initially appear 0/7 and 0/6. Lee Brown is visible on the fishing dock.",
+            "15:13, Crystal Lake (48.2, 62.8): Xuthar casts Fishing at the lakeshore. The single frame does not prove a caught fish.",
+            "15:27, Crystal Lake (54.8, 65.7): Xuthar faces a level-seven Murloc. Bottles and Baubles is 4/6 Shiny Junk, A Net Disaster is 2/7 Half-Eaten Fish, and Camping 101: Fishing is marked 'Ready for turn-in'. The screenshot shows no quest hand-in.",
+            "Other missions visible: Camping 101: Enchanting and Camping 101: Tailoring (raise skill to 20), The Jasperlode Mine (level 10), Rare Books (Elite, level 7+, both books 0/1), and Further Concerns (level 10, speak to Guard Thomas). These numbers are quest levels, not Xuthar's character level, which remains 8. No new completion or XP reward is claimed."
           ]
         },
         {

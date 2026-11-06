@@ -1,44 +1,52 @@
-/* The Last Witness — original file archive. No embedded images or contact sheets. */
-body[data-page="gallery"]{background:#101724;color:#eee3d4}
-body[data-page="gallery"] .xg-main{min-height:62vh}
-.xg-wrap{padding:clamp(25px,4.5vw,70px) 0 80px}
-.xg-heading{max-width:1160px;padding:clamp(25px,4vw,44px);border-radius:15px;background:linear-gradient(125deg,#263049,#121e31 57%,#292239);border:1px solid #d0ad755e;box-shadow:0 15px 50px #0006}
-.xg-eyebrow{font:800 .72rem/1.4 system-ui;letter-spacing:.14em;color:#e0bd87}
-.xg-heading h1{font:600 clamp(2.2rem,5vw,4.7rem)/1.08 Georgia,serif;color:#ffe9c7;margin:15px 0 18px;letter-spacing:-.03em}
-.xg-heading p{font:1rem/1.7 system-ui;max-width:840px;color:#d6dfe8;margin:0}
-.xg-summary{display:flex;gap:11px;flex-wrap:wrap;margin-top:24px}
-.xg-summary span{display:inline-flex;align-items:center;gap:7px;padding:9px 13px;border:1px solid #e0c48b5c;border-radius:8px;color:#e4e2dc;background:#fff1;font:.81rem/1.4 system-ui}
-.xg-summary b{color:#fce3b5;font-size:.96rem}
-.xg-tabs{display:flex;flex-wrap:wrap;gap:11px;margin:25px 0 35px}
-.xg-tabs a{border:1px solid #bd9b757f;background:#1b2a3e;color:#f2e7d9;border-radius:8px;padding:11px 17px;font:700 .84rem/1.5 system-ui;text-decoration:none}
-.xg-tabs a:hover,.xg-tabs a:focus-visible{background:#354766;color:#fff}
-.xg-section{margin:0 0 45px;scroll-margin-top:35px}
-.xg-section-head{display:flex;justify-content:space-between;align-items:end;gap:22px;border-bottom:1px solid #c7a67566;padding:0 0 16px;margin-bottom:17px}
-.xg-section-head h2{font:500 clamp(1.55rem,3vw,2.35rem)/1.2 Georgia,serif;color:#f5dfbf;margin:8px 0 0}
-.xg-section-head>p{margin:0;color:#b4c6d1;font:.82rem/1.5 system-ui;text-align:right}
-.xg-file-list{display:grid;grid-template-columns:1fr;gap:9px}
-.xg-file{min-width:0;display:grid;grid-template-columns:50px minmax(0,1fr) auto;gap:16px;align-items:center;border:1px solid #b99b6c50;background:linear-gradient(110deg,#1b2b3e,#192438);border-radius:9px;padding:15px 18px;box-shadow:0 5px 15px #0003}
-.xg-file-icon{display:flex;justify-content:center;align-items:center;width:48px;height:48px;border:1px solid #dbb77f60;border-radius:8px;background:#132137;color:#e3c38b;font:500 1.55rem Georgia,serif}
-.xg-file-info{min-width:0}
-.xg-file-meta{display:block;color:#c1b39e;letter-spacing:.11em;font:750 .65rem/1.45 system-ui;text-transform:uppercase}
-.xg-file-info h3{font:600 1.18rem/1.28 Georgia,serif;color:#fce7c4;margin:5px 0}
-.xg-file-info p{font:.83rem/1.55 system-ui;color:#b7c6d6;margin:0}
-.xg-file-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
-.xg-file-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:39px;padding:9px 12px;border:1px solid #d9b67c8c;border-radius:6px;text-decoration:none;font:750 .77rem/1.4 system-ui;white-space:nowrap}
-.xg-open{color:#ffebcf;background:#67507550}
-.xg-save{color:#d5e7e3;background:#182e3b}
-.xg-file-actions a:hover,.xg-file-actions a:focus-visible{background:#705e80;color:#fff;outline:2px solid #e9cc93;outline-offset:1px}
-.xg-legacy-anchor{display:block;position:relative;top:-40px}
-.xg-provenance{border-top:1px solid #c7a67555;padding-top:21px;color:#b1c2d1;font:.84rem/1.65 system-ui}
-@media(max-width:760px){
- .xg-section-head{align-items:start;flex-direction:column;gap:7px}
- .xg-section-head>p{text-align:left}
- .xg-file{grid-template-columns:42px minmax(0,1fr);gap:12px;padding:14px}
- .xg-file-icon{width:42px;height:42px}
- .xg-file-actions{grid-column:2;justify-content:flex-start}
+
+/* Xuthar photographic chronicle · original files · true aspect ratios. */
+body[data-page="gallery"]{background:#0e1726;color:#f1e7d9}
+body[data-page="gallery"] .xg-main{min-height:60vh}
+.xg-wrap{padding:clamp(26px,5vw,70px) 0 85px}
+.xg-heading{position:relative;max-width:1180px;padding:clamp(24px,4vw,45px);background:linear-gradient(116deg,#252f49,#111e30 57%,#30253b);border:1px solid #d1af7a66;border-radius:13px;box-shadow:0 22px 55px #0006}
+.xg-eyebrow{display:block;color:#d9be96;font:800 .68rem/1.5 system-ui;letter-spacing:.15em}
+.xg-heading h1{font:500 clamp(2.3rem,5.4vw,5.1rem)/1.06 Georgia,serif;letter-spacing:-.035em;margin:13px 0 16px;color:#fff0d4}
+.xg-heading .xg-intro{font:.99rem/1.72 system-ui;color:#d5dfeb;max-width:850px;margin:0}
+.xg-summary{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}
+.xg-summary span{display:inline-flex;align-items:center;gap:9px;border-radius:7px;padding:9px 13px;border:1px solid #caaa7d64;background:#ffffff0a;color:#e7e3df;font:.8rem/1.45 system-ui}
+.xg-summary b{color:#fbe2b8;font-size:1rem}
+.xg-tabs{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 42px}
+.xg-tabs a{display:inline-block;border-radius:6px;padding:11px 17px;background:#23324b;border:1px solid #d0b38d75;color:#f6e8d5;font:700 .84rem/1.5 system-ui;text-decoration:none}
+.xg-tabs a:hover,.xg-tabs a:focus-visible{background:#4d4463;color:#fff}
+.xg-section{margin:0 0 57px;scroll-margin-top:30px}
+.xg-section-head{display:flex;justify-content:space-between;align-items:end;gap:17px;border-bottom:1px solid #cba9795c;padding-bottom:17px;margin-bottom:21px}
+.xg-section-head h2{font:500 clamp(1.8rem,3vw,2.65rem)/1.18 Georgia,serif;color:#f9e4c6;margin:7px 0 0}
+.xg-section-head>p{margin:0;color:#abbccf;font:.81rem/1.5 system-ui;text-align:right}
+.xg-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:18px}
+.xg-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid #d1ae7b68;background:#17253a;border-radius:9px;box-shadow:0 10px 24px #0005}
+.xg-photo-view{display:block;width:100%;height:auto;background:#090f1b;text-decoration:none;overflow:hidden;line-height:0}
+.xg-photo-frame{display:flex;align-items:center;justify-content:center;width:100%;aspect-ratio:16/9;background:#091524;overflow:hidden}
+.xg-photo-img{
+ display:block;width:100%;max-width:100%;height:auto !important;min-height:0 !important;
+ max-height:none !important;aspect-ratio:auto !important;object-fit:contain;object-position:center;
+ filter:none !important;transform:none !important;image-rendering:auto
 }
-@media(max-width:470px){
- .xg-file-actions a{flex:1}
- .xg-summary span{width:100%}
+.xg-photo-grid--evidence .xg-photo-frame{aspect-ratio:4/3;padding:10px}
+.xg-photo-grid--evidence .xg-photo-img{width:auto !important;height:auto !important;max-width:100%;max-height:100% !important;object-fit:contain}
+.xg-photo-view:hover,.xg-photo-view:focus-visible{outline:3px solid #f2ce8e;outline-offset:-3px}
+.xg-photo-details{padding:16px 17px 19px}
+.xg-photo-meta{display:block;color:#d6bd92;font:800 .65rem/1.4 system-ui;letter-spacing:.09em;text-transform:uppercase}
+.xg-photo-details h3{font:500 1.28rem/1.25 Georgia,serif;margin:9px 0 7px;color:#ffead1}
+.xg-photo-details>p{min-height:41px;font:.82rem/1.58 system-ui;color:#bacbda;margin:0}
+.xg-photo-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;padding-top:13px;border-top:1px solid #c7ae8742}
+.xg-photo-actions a{font:700 .77rem/1.4 system-ui;color:#f4d8ab;text-decoration:none}
+.xg-photo-actions a:hover{text-decoration:underline}
+.xg-photo-actions .xg-save-link{color:#b3ccd8}
+.xg-photo-error{min-height:115px;color:#f4d1b4}
+.xg-photo-error-message{display:block;padding:20px;text-align:center;font:.83rem/1.5 system-ui}
+.xg-legacy-anchor{display:block;position:relative;top:-45px}
+.xg-provenance{border-top:1px solid #c6a7794d;padding-top:22px;color:#acbdcc;font:.83rem/1.7 system-ui}
+@media(max-width:1050px){.xg-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:665px){
+ .xg-photo-grid{grid-template-columns:1fr}
+ .xg-wrap{padding-top:24px}
+ .xg-section-head{display:block}
+ .xg-section-head>p{text-align:left;margin-top:8px}
  .xg-tabs a{flex:1;text-align:center}
+ .xg-photo-details>p{min-height:0}
 }

@@ -24,6 +24,22 @@
           <b>Woodland · Elwynn Forest</b>
           <small>Latest photos: 6 November, 16:31. Quest tracker: 15:36; six active missions.</small>
         </aside>
+      </div>
+      <div class="day-two-photostory" aria-label="Selected photographs from day two">
+        <div class="story-photo-heading">
+          <div><span>ORIGINAL PHOTOGRAPHS · 6 NOVEMBER</span><h3>The road beyond Crystal Lake</h3></div>
+          <a href="gallery.html#xuthar-day-two-photos">See all seven photographs ↗</a>
+        </div>
+        <div class="story-photo-grid story-photo-grid--two">
+          <figure class="story-photo">
+            <a href="assets/images/forever-screenshots/day-02/155448.jpg" target="_blank" rel="noopener" aria-label="Open original 15:54 river screenshot"><img src="assets/images/forever-screenshots/day-02/155448.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Xuthar crossing the stream in Elwynn Forest in the warm afternoon light"></a>
+            <figcaption><span>15:54 · ELWYNN FOREST</span><strong>Crossing the river</strong></figcaption>
+          </figure>
+          <figure class="story-photo">
+            <a href="assets/images/forever-screenshots/day-02/163117.jpg" target="_blank" rel="noopener" aria-label="Open original 16:31 forest screenshot"><img src="assets/images/forever-screenshots/day-02/163117.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Xuthar walking beneath tall trees with a Forest Spider visible ahead"></a>
+            <figcaption><span>16:31 · THE WOODLAND</span><strong>Among the old trees</strong></figcaption>
+          </figure>
+        </div>
       </div>`;
     return section;
   }
@@ -52,15 +68,35 @@
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">
           <span class="first-night-archive-kicker">THE LAST WITNESS · PHOTO RECORDS</span>
           <h3 id="first-night-archive-title">Every journey leaves a trace.</h3>
-          <p>The original screenshots are preserved in a separate, chronological archive. They are no longer embedded or stretched inside the story.</p>
+          <p>A few selected moments accompany the story below. All 33 original files remain in a chronological archive, each available in full resolution.</p>
           <div class="first-night-archive-counters" aria-label="Archive collections">
             <a href="gallery.html#xuthar-day-one-photos"><strong>18</strong><span>Day One · 5 November</span></a>
             <a href="gallery.html#xuthar-day-two-photos"><strong>7</strong><span>Day Two · 6 November</span></a>
             <a href="gallery.html#xuthar-diary-evidence"><strong>8</strong><span>In-game diary & quests</span></a>
           </div>
           <a class="first-night-archive-open" href="gallery.html#xuthar-day-one-photos">Explore the original archive ↗</a>
-          <small>33 original files · Each opens separately at its native dimensions.</small>
+          <small>33 original files · Select a photograph to open its full-size original.</small>
         </aside>
+      </div>
+      <div class="first-night-photostory" aria-label="Selected original photographs from day one">
+        <div class="story-photo-heading">
+          <div><span>ORIGINAL PHOTOGRAPHS · 5 NOVEMBER</span><h3>The first night in Azeroth</h3></div>
+          <a href="gallery.html#xuthar-day-one-photos">Browse Day One ↗</a>
+        </div>
+        <div class="story-photo-grid story-photo-grid--three">
+          <figure class="story-photo">
+            <a href="assets/images/forever-screenshots/day-01/202433.jpg" target="_blank" rel="noopener" aria-label="Open original Stormwind canal photo"><img src="assets/images/forever-screenshots/day-01/202433.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Xuthar at the wooden canal dock in Stormwind"></a>
+            <figcaption><span>20:24 · STORMWIND</span><strong>By the canal</strong></figcaption>
+          </figure>
+          <figure class="story-photo">
+            <a href="assets/images/forever-screenshots/day-01/213316.jpg" target="_blank" rel="noopener" aria-label="Open original Goldshire rain photo"><img src="assets/images/forever-screenshots/day-01/213316.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Rain over the buildings and cobbled road in Goldshire"></a>
+            <figcaption><span>21:33 · GOLDSHIRE</span><strong>The rain returns</strong></figcaption>
+          </figure>
+          <figure class="story-photo">
+            <a href="assets/images/forever-screenshots/day-01/213455.jpg" target="_blank" rel="noopener" aria-label="Open original Lion's Pride Inn sleeping photo"><img src="assets/images/forever-screenshots/day-01/213455.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Xuthar resting on an upstairs bed inside the Lion's Pride Inn"></a>
+            <figcaption><span>21:34 · LION'S PRIDE INN</span><strong>The end of the first day</strong></figcaption>
+          </figure>
+        </div>
       </div>`;
     hero.insertAdjacentElement('afterend',section);
     section.insertAdjacentElement('beforebegin',dayTwoPanel());

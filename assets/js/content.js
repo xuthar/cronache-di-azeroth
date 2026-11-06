@@ -360,12 +360,12 @@ window.CHRONICLES = {
       "title": "A Name in the Armory · Xuthar Reaches Level Ten",
       "location": "Forever EU · exact leveling location unknown",
       "type": "Direct player report · Official profile link",
-      "excerpt": "Xuthar Morvayne reaches level 10. His official EU Forever Armory URL is now recorded; Blizzard API synchronization is still awaiting a verified authenticated profile response.",
+      "excerpt": "Blizzard's official API confirmed Xuthar Morvayne at level 10 (OAuth 200, profile 200). The secure test succeeded; automatic synchronization remains disabled.",
       "text": [
         "The player has confirmed level 10 on the evening of 6 November 2026, after the latest supplied quest screenshot at 18:41. The time and location of the level-up are not documented.",
         "Blizzard official EU Forever Armory profile supplied by player: https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne",
-        "The official Armory website is known to list characters from level 10 onward after logout. The specific character page could not be read through the web tool in this session; it is therefore a reference URL, not independently verified profile data.",
-        "The existing Forever importer on GitHub is still disabled pending developer credentials and successful namespace verification. It has not read or published Xuthar's gear, skills, achievements or completed quests.",
+        "The player's EU Forever Armory URL now has a confirmed corresponding Blizzard API profile. A read-only GitHub Actions test on 6 November 2026 at 20:40 UTC obtained OAuth HTTP 200 and profile HTTP 200, matched Xuthar Morvayne, and returned level 10. No credentials or access tokens were displayed.",
+        "The existing recurring Forever importer on GitHub remains disabled pending explicit activation. The separate probe verified only the official profile identity and level; it did not publish character data or synchronize gear, skills, achievements or completed quests.",
         "The 18:41 quest list remains the latest confirmed mission snapshot with ten active quests; reaching level 10 does not prove any particular quest was completed."
       ]
     },

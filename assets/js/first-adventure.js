@@ -3,6 +3,30 @@
   'use strict';
   const page=document.body.dataset.page;
   const book='book.html?character=xuthar#x-rain-over-goldshire';
+  function dayTwoPanel(){
+    const section=document.createElement('section');
+    section.id='xuthar-day-two';
+    section.className='day-two-panel wrap';
+    section.setAttribute('aria-labelledby','xuthar-day-two-title');
+    section.innerHTML=`
+      <div class="day-two-signal"><span class="day-two-indicator" aria-hidden="true"></span> DAY TWO IS OPEN · 6 NOVEMBER 2026</div>
+      <div class="day-two-layout">
+        <div>
+          <h2 id="xuthar-day-two-title">Another day.<br><em>Another unwritten road.</em></h2>
+          <p>After a rainy night at the Lion's Pride Inn in Goldshire, the second day of Xuthar Morvayne's Forever chronicle is officially open. The last confirmed character level is 8. Tailoring, Enchanting and Fishing are learned; Herbalism has been left behind.</p>
+          <p class="day-two-evidence">The next action, current weather and active quest list have not yet been verified. The story will grow from the player's next in-game report, not assumptions.</p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-day-two-opening">Open Chapter XXI ↗</a><a href="journal.html#xuthar-day-two-opening">Day Two field journal ↗</a></div>
+        </div>
+        <aside class="day-two-status" aria-label="Confirmed starting facts">
+          <span>THE LAST WITNESS · SESSION 02</span>
+          <strong>LVL 8</strong>
+          <p>LAST CONFIRMED PLACE</p>
+          <b>Lion's Pride Inn · Goldshire</b>
+          <small>End-of-day evidence: 5 November, 21:34. New session actions pending.</small>
+        </aside>
+      </div>`;
+    return section;
+  }
   if(page==='home'){
     const hero=document.querySelector('#main .hero');
     if(!hero||document.querySelector('.first-night'))return;
@@ -28,6 +52,7 @@
         <figure class="first-night-figure"><img src="assets/images/gallery/stormwind-midnight.jpg" alt="Moody fantasy city under a dark sky, illustrative cover art" loading="lazy"><figcaption>Atmospheric archive artwork · Not a screenshot from this session</figcaption></figure>
       </div>`;
     hero.insertAdjacentElement('afterend',section);
+    section.insertAdjacentElement('beforebegin',dayTwoPanel());
   }
   if(page==='xuthar'){
     const opening=document.querySelector('.xu-opening');
@@ -43,5 +68,6 @@
       <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Last Light Before Sleep →</a><a href="journal.html#xuthar-rainy-goldshire-rest">Read tonight’s Goldshire journal →</a><a href="#xuthar-quests">View current quest tracker ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);
+    panel.insertAdjacentElement('beforebegin',dayTwoPanel());
   }
 })();

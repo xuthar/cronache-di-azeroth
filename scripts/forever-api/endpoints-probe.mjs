@@ -11,6 +11,7 @@ const namespace=env.FOREVER_PROFILE_NAMESPACE?.trim();
 const slug=env.FOREVER_XUTHAR_SLUG?.trim();
 const sections=[
   "quests",
+  "quests/completed",
   "professions",
   "equipment",
   "reputations",
@@ -34,6 +35,7 @@ function safeShape(section,data){
   console.log("SHAPE_"+section.toUpperCase()+": "+(keys.join(",")||"no-recognized-fields"));
   const candidates={
     quests:["completed","in_progress","quests","completed_quests"],
+    "quests/completed":["quests","completed_quests","completed"],
     professions:["primary","secondary","primaries","secondaries","professions"],
     equipment:["equipped_items","equipment"],
     reputations:["reputations","factions"],

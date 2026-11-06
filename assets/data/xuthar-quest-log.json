@@ -284,8 +284,8 @@
       }
     ]
   },
-  "characterLevel": 9,
-  "characterLevelSource": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
+  "characterLevel": 10,
+  "characterLevelSource": "Direct player report 'ok sono livello 10 cosa facciamo ora' on 2026-11-06 at approximately 21:08 Europe/Rome. No screenshot of level-up supplied. This confirms reported level only; not the time/location of levelling or any quest reward.",
   "characterLevelRecordedAt": "2026-11-06",
   "confirmedCompleted": [
     {
@@ -908,7 +908,7 @@
         "Elwynn watercourse crossing",
         "Forest exploration with Forest Spider in sight"
       ],
-      "newCharacterLevel": 9,
+      "newCharacterLevel": 10,
       "inGameActionsVerified": true,
       "source": "Player stated on 6 November 2026 that a new day of WoW Forever begins; no current-session gameplay evidence supplied yet",
       "storyScope": "Opening an editorial day does not prove the character has logged in, risen from bed or departed Goldshire",
@@ -944,14 +944,16 @@
       },
       "lastSeenAt": "18:41 (screenshot filename)",
       "lastObservedArea": "Quest tracker 59.6, 69.4; zone not shown",
-      "characterLevelLatest": 9,
-      "levelNineSource": "Direct player correction on 6 Nov; location and exact level-up time not established"
+      "characterLevelLatest": 10,
+      "levelNineSource": "Direct player correction on 6 Nov; location and exact level-up time not established",
+      "levelTenSource": "Player direct statement, 6 November evening. Location and precise level-up time unverified.",
+      "apiMilestone": "At level 10, public Armory eligibility; successful API fetch still unverified. Workflow OFF pending credentials and verification."
     }
   ],
   "currentSessionId": "day-02-20261106",
   "currentSessionStatus": "evening-quest-tracker-ten-ongoing",
   "currentChronicleDate": "2026-11-06",
-  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified.",
+  "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
   "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
   "currentQuestTrackerLocation": {
@@ -1425,9 +1427,9 @@
     }
   ],
   "previousConfirmedLevel": {
-    "level": 8,
-    "source": "Screenshot WoWScrnShot_110526_192624.jpg: chat says 'Congratulations, you have reached [Level 8]!' near Morgan Pestle in Stormwind; WoWScrnShot_110526_184652.jpg separately confirms level 7.",
-    "recordedAt": "2026-11-05"
+    "level": 9,
+    "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
+    "recordedAt": "2026-11-06"
   },
   "characterLevelConfirmation": "player-direct-report",
   "levelMilestonesReported": [
@@ -1438,6 +1440,25 @@
       "location": "unknown",
       "levelUpTime": "unknown",
       "xp": "unknown"
+    },
+    {
+      "level": 10,
+      "date": "2026-11-06",
+      "source": "Player directly confirmed level 10 at approximately 21:08 Europe/Rome",
+      "location": "not established",
+      "levelUpTime": "not established",
+      "xp": "unknown",
+      "apiStatus": "Awaiting public Armory/API read after logout, not verified"
     }
-  ]
+  ],
+  "officialArmoryCheck": {
+    "checkedDate": "2026-11-06",
+    "eligibility": "Level-10 minimum met by player report",
+    "gameRegion": "eu",
+    "characterSlug": "xuthar-morvayne",
+    "publicProfile": "not independently confirmed",
+    "oauthCredentials": "No credentials supplied via chat; configure only as GitHub Secrets",
+    "workflowState": "existing importer disabled pending manual safety gates",
+    "note": "Community testing reports both successful profiles and 404 on EU on 6 Nov; do not claim synchronized data without verified result."
+  }
 }

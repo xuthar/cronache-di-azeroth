@@ -221,7 +221,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261105-rainy-goldshire-chapter20',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261106-day-two-opening',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

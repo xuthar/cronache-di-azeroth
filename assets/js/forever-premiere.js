@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. He begins Day Two on 6 November 2026 at his last confirmed level eight. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; the next adventures remain to be written.');
+  const lead=$('p','forever-premiere-lead','The launch is history; the adventure is real. While thousands gathered in Northshire, Xuthar Morvayne stepped into Azeroth as a Human Priest. He begins Day Two on 6 November 2026 at his last confirmed level eight. His last recorded stop was the Lion's Pride Inn in Goldshire after a night of rain; three ongoing quests have been recorded in the first Day Two screenshot.');
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';

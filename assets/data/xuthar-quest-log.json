@@ -1573,6 +1573,39 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-furlbrow-new-westfall-quests",
+      "day": "2026-11-07",
+      "time": "13:41:31 screenshot filename",
+      "eventType": "quest-acceptance-observed",
+      "title": "New Westfall quests · a recipe and a missing heirloom",
+      "location": "Westfall · Furlbrow's Wagon · 60.1, 20.1",
+      "newlyVisibleQuests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        }
+      ],
+      "otherActiveQuest": "Report to Gryan Stoutmantle",
+      "objectiveStates": {
+        "furlbrowsPocketWatch": "0/1",
+        "aSimpleCompass": "0/1",
+        "tailoringCamping101": "skill 20 still listed",
+        "enchantingCamping101": "skill 20 still listed"
+      },
+      "notEstablished": [
+        "Any of seven missions completed",
+        "Tailoring 101 completed",
+        "Gryan report delivered",
+        "Character level-up"
+      ],
+      "chapterId": "x-westfall-fields-harvest-watchers",
+      "source": "Screenshot image(20261107-134131).png"
+    },
+    {
       "id": "2026-11-07-westfall-harvest-watchers-field",
       "day": "2026-11-07",
       "eventType": "travel-discovery-observation",
@@ -1692,20 +1725,40 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
-    "observedAt": "2026-11-07 10:38:59 (screenshot filename local timestamp)",
-    "screenshot": "image(20261107-103859).png",
-    "zone": "Elwynn Forest, western gnoll area (zone inferred from quest and position; not named in screenshot crop)",
+    "id": "2026-11-07-westfall-furlbrow-seven-active-134131",
+    "day": "2026-11-07",
+    "observedAt": "2026-11-07 13:41:31 (screenshot filename, not upload time)",
+    "screenshot": "image(20261107-134131).png",
+    "zone": "Westfall · around Furlbrow's Wagon (near western Elwynn border)",
     "coordinates": {
-      "x": 28.5,
-      "y": 83.2
+      "x": 60.1,
+      "y": 20.1
     },
     "visibleQuests": [
+      {
+        "id": 36,
+        "name": "Westfall Stew",
+        "level": 10,
+        "description": "Verna Furlbrow asks Xuthar to deliver her Westfall Stew recipe to Salma Saldean",
+        "status": "in-progress",
+        "objectiveType": "delivery",
+        "target": "Salma Saldean"
+      },
+      {
+        "id": 64,
+        "name": "The Forgotten Heirloom",
+        "level": 12,
+        "description": "Recover Furlbrow's Pocket Watch",
+        "current": 0,
+        "total": 1,
+        "item": "Furlbrow's Pocket Watch",
+        "status": "in-progress"
+      },
       {
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Speak with Gryan Stoutmantle in Sentinel Hill, Westfall",
+        "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
         "status": "in-progress"
       },
       {
@@ -1720,16 +1773,6 @@
         "name": "Stormpike's Delivery",
         "level": 15,
         "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
-        "status": "in-progress"
-      },
-      {
-        "id": 11,
-        "name": "Riverpaw Gnoll Bounty",
-        "level": 10,
-        "description": "Collect 8 Painted Gnoll Armbands",
-        "current": 3,
-        "total": 8,
-        "item": "Painted Gnoll Armband",
         "status": "in-progress"
       },
       {
@@ -1750,9 +1793,10 @@
         "status": "in-progress"
       }
     ],
-    "scope": "Only the six quests visible in this crop are recorded; absence of Hogger, Divine Grace, Rare Books, or any other previous quest is not evidence of completion or abandonment. Riverpaw Gnoll Bounty was subsequently reported completed on 7 November; the 3/8 figure remains a historical screenshot, not current progress.",
-    "hoggerKill": "Hogger defeated by Xuthar and 4 allies, reported earlier on 7 November; quest delivery status not independently confirmed.",
-    "playerObservation": "Low perceived drop rate for Painted Gnoll Armbands after collecting 3 of 8.",
+    "scope": "Seven objectives visible at Westfall 60.1,20.1; quest status and progress are as shown at screenshot timestamp. Do not infer unlisted quests completed/abandoned. This screenshot's filename time (13:41) PRECEDES the separately shared pumpkin-field screenshot (14:09), despite being uploaded afterward. No confirmation of completed Tailoring 101 despite earlier bag crafting.",
+    "earlierScreenshot": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
+    "priorRiverpawCompletion": "Player-reported 8/8 completion on 7 Nov, still preserved in currentQuestUpdates",
+    "nextDestination": "Salma Saldean (Westfall Stew delivery), then Gryan Stoutmantle (report); no hand-in verified",
     "lastConfirmedLevelFromEarlierSnapshot": 10
   },
   "currentQuestUpdates": {
@@ -1834,14 +1878,17 @@
   "currentJourney": {
     "chapter": "Westfall · The Watchers in the Wheat",
     "status": "Returned to Westfall; observing fields with Harvest Watchers after Stormwind errands, staves training and Tailoring bag crafting",
-    "nextConfirmedQuest": "Report to Gryan Stoutmantle is not yet confirmed turned in",
+    "nextConfirmedQuest": "Report to Gryan Stoutmantle still active in latest quest snapshot (13:41)",
     "latestVisualEvidence": "WoWScrnShot_110726_140912.jpg",
     "stage": "Westfall pumpkin fields amid Harvest Watchers",
     "latestPlayerReportedZone": "Westfall",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "New bags crafted, number/capacity/skill unspecified. Screenshot shows a level 14 Harvest Watcher, not combat or completion of quest.",
-    "latestScreenshot": "WoWScrnShot_110726_140912.jpg"
+    "latestScreenshot": "WoWScrnShot_110726_140912.jpg",
+    "questUpdate": "New active quests Westfall Stew and The Forgotten Heirloom at the Furlbrows; Report to Gryan Stoutmantle still active at 13:41; no turn-in shown",
+    "latestQuestScreenshot": "image(20261107-134131).png",
+    "chronologyNote": "The latest submitted quest panel screenshot was captured at 13:41, before the 14:09 Westfall Harvest Watchers field photo; latest photographed zone remains Westfall."
   },
   "currentEquipmentReports": [
     {
@@ -1855,5 +1902,73 @@
       "itemEquipped": "not confirmed",
       "source": "player report"
     }
-  ]
+  ],
+  "priorVisibleObjectiveSnapshots": [
+    {
+      "id": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
+      "observedAt": "2026-11-07 10:38:59 (screenshot filename local timestamp)",
+      "screenshot": "image(20261107-103859).png",
+      "zone": "Elwynn Forest, western gnoll area (zone inferred from quest and position; not named in screenshot crop)",
+      "coordinates": {
+        "x": 28.5,
+        "y": 83.2
+      },
+      "visibleQuests": [
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Speak with Gryan Stoutmantle in Sentinel Hill, Westfall",
+          "status": "in-progress"
+        },
+        {
+          "id": 97917,
+          "name": "Camping 101: Enchanting",
+          "level": 6,
+          "description": "Raise Enchanting skill to 20",
+          "status": "in-progress"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+          "status": "in-progress"
+        },
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty",
+          "level": 10,
+          "description": "Collect 8 Painted Gnoll Armbands",
+          "current": 3,
+          "total": 8,
+          "item": "Painted Gnoll Armband",
+          "status": "in-progress"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings",
+          "level": 15,
+          "description": "Find A Simple Compass",
+          "current": 0,
+          "total": 1,
+          "item": "A Simple Compass",
+          "status": "in-progress"
+        },
+        {
+          "id": 97925,
+          "name": "Camping 101: Tailoring",
+          "level": 6,
+          "description": "Raise Tailoring skill to 20",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Only the six quests visible in this crop are recorded; absence of Hogger, Divine Grace, Rare Books, or any other previous quest is not evidence of completion or abandonment. Riverpaw Gnoll Bounty was subsequently reported completed on 7 November; the 3/8 figure remains a historical screenshot, not current progress.",
+      "hoggerKill": "Hogger defeated by Xuthar and 4 allies, reported earlier on 7 November; quest delivery status not independently confirmed.",
+      "playerObservation": "Low perceived drop rate for Painted Gnoll Armbands after collecting 3 of 8.",
+      "lastConfirmedLevelFromEarlierSnapshot": 10
+    }
+  ],
+  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
+  "latestQuestTrackerLocation": "Westfall, Furlbrow's Wagon area (60.1, 20.1; 13:41 screenshot)"
 }

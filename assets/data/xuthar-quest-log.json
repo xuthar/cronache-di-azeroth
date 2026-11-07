@@ -961,7 +961,7 @@
   "currentChronicleDate": "2026-11-07",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Goldshire · returned from Westfall by Hearthstone on 7 Nov 2026 (player report)",
+  "lastConfirmedLocation": "Eastern Elwynn Forest · 74.0,55.0 (18:18 screenshot; Eastvale questing region)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1586,6 +1586,31 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-elwynn-eastvale-11-active-181804",
+      "day": "2026-11-07",
+      "time": "18:18:04 from screenshot filename",
+      "eventType": "questing-area-and-progress-snapshot",
+      "title": "Eastern Elwynn: Eastvale quests begun, Westfall Stew ingredients gathered",
+      "location": "Elwynn Forest, 74.0,55.0 · Eastvale region",
+      "confirmedObservations": [
+        "11 visible active quests",
+        "New eastward-forest quests related to Rolf, frontier prowlers/bears, logging and lost tools",
+        "Red Linen Goods at 2/6",
+        "Westfall Stew all four ingredient sets at 3/3, awaiting confirmed hand-in",
+        "Goretusk Liver Pie at 2/8, Harvest Watchers at 0/20",
+        "Furlbrow heirloom 0/1, Gryan report still pending"
+      ],
+      "source": "Screenshot image(20261107-181804).png",
+      "storyChapterId": "x-eastvale-woods-and-rolf",
+      "unconfirmed": [
+        "Arrival at Eastvale Logging Camp building",
+        "Any of the new quests turned in",
+        "Westfall Stew handed to Salma",
+        "Wand purchased",
+        "Other previously listed quests completed"
+      ]
+    },
+    {
       "id": "2026-11-07-camping-101-enchanting-completed",
       "day": "2026-11-07",
       "eventType": "quest-completed-player-report",
@@ -1832,18 +1857,102 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-westfall-nine-quest-164338",
+    "id": "2026-11-07-elwynn-eastvale-11-active-181804",
     "day": "2026-11-07",
-    "observedAt": "2026-11-07 16:43:38 (screenshot filename; position/zone not visible in crop)",
-    "screenshot": "image(20261107-164338).png",
-    "zone": "Westfall (based on player-reported questing location; screenshot crop does not show map coordinates)",
-    "coordinates": null,
+    "observedAt": "2026-11-07 18:18:04 (screenshot filename)",
+    "screenshot": "image(20261107-181804).png",
+    "zone": "Elwynn Forest · eastern woods / Eastvale questing region (exact Eastvale Logging Camp arrival not proven by screenshot)",
+    "coordinates": {
+      "x": 74,
+      "y": 55
+    },
     "visibleQuests": [
+      {
+        "id": null,
+        "name": "Discover Rolf's Fate",
+        "level": 10,
+        "description": "Search the murloc village for Rolf and signs of his death",
+        "status": "in-progress",
+        "note": "No evidence that Rolf's fate has been discovered."
+      },
+      {
+        "id": null,
+        "name": "Protect the Frontier",
+        "level": 10,
+        "description": "Slay Prowlers and Young Forest Bears",
+        "status": "in-progress",
+        "objectives": [
+          {
+            "name": "Prowler slain",
+            "current": 0,
+            "total": 8
+          },
+          {
+            "name": "Young Forest Bear slain",
+            "current": 0,
+            "total": 5
+          }
+        ]
+      },
+      {
+        "id": null,
+        "name": "Downstream",
+        "level": 10,
+        "description": "Recover three waterlogged tools",
+        "status": "in-progress",
+        "objectives": [
+          {
+            "name": "Waterlogged Axe",
+            "current": 0,
+            "total": 1
+          },
+          {
+            "name": "Waterlogged Saw",
+            "current": 0,
+            "total": 1
+          },
+          {
+            "name": "Waterlogged Toolbox",
+            "current": 0,
+            "total": 1
+          }
+        ]
+      },
+      {
+        "id": null,
+        "name": "Good Steel",
+        "level": 7,
+        "description": "Collect four Mining Tools",
+        "current": 0,
+        "total": 4,
+        "item": "Mining Tools",
+        "status": "in-progress"
+      },
+      {
+        "id": null,
+        "name": "A Bundle of Trouble",
+        "level": 9,
+        "description": "Collect eight Bundles of Wood",
+        "current": 0,
+        "total": 8,
+        "item": "Bundle of Wood",
+        "status": "in-progress"
+      },
+      {
+        "id": null,
+        "name": "Red Linen Goods",
+        "level": 9,
+        "description": "Collect six Red Linen Bandanas",
+        "current": 2,
+        "total": 6,
+        "item": "Red Linen Bandana",
+        "status": "in-progress"
+      },
       {
         "id": null,
         "name": "The Killing Fields",
         "level": 15,
-        "description": "Slay 20 Harvest Watchers",
+        "description": "Slay twenty Harvest Watchers",
         "current": 0,
         "total": 20,
         "item": "Harvest Watcher slain",
@@ -1853,7 +1962,7 @@
         "id": null,
         "name": "Goretusk Liver Pie",
         "level": 12,
-        "description": "Gather 8 Goretusk Livers",
+        "description": "Collect eight Goretusk Livers",
         "current": 2,
         "total": 8,
         "item": "Goretusk Liver",
@@ -1863,8 +1972,10 @@
         "id": null,
         "name": "Westfall Stew",
         "level": 13,
-        "description": "Gather the ingredients for Westfall Stew",
+        "description": "Gather the four ingredients for Salma Saldean's Westfall Stew",
         "status": "in-progress",
+        "objectiveItemsComplete": true,
+        "readyForTurnInBasedOnVisibleItems": true,
         "objectives": [
           {
             "name": "Stringy Vulture Meat",
@@ -1873,7 +1984,7 @@
           },
           {
             "name": "Murloc Eye",
-            "current": 2,
+            "current": 3,
             "total": 3
           },
           {
@@ -1886,7 +1997,8 @@
             "current": 3,
             "total": 3
           }
-        ]
+        ],
+        "note": "All required items show complete, but screenshot does not show the quest turned in or a reward."
       },
       {
         "id": 64,
@@ -1902,47 +2014,15 @@
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
-        "status": "in-progress"
-      },
-      {
-        "id": 97917,
-        "name": "Camping 101: Enchanting",
-        "level": 6,
-        "description": "Raise your Enchanting skill to 20",
-        "status": "in-progress"
-      },
-      {
-        "id": 353,
-        "name": "Stormpike's Delivery",
-        "level": 15,
-        "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
-        "status": "in-progress"
-      },
-      {
-        "id": 399,
-        "name": "Humble Beginnings",
-        "level": 15,
-        "description": "Find A Simple Compass",
-        "current": 0,
-        "total": 1,
-        "item": "A Simple Compass",
-        "status": "in-progress"
-      },
-      {
-        "id": 97925,
-        "name": "Camping 101: Tailoring",
-        "level": 6,
-        "description": "Raise your Tailoring skill to 20",
+        "description": "Talk to Gryan Stoutmantle at Sentinel Hill in Westfall",
         "status": "in-progress"
       }
     ],
-    "scope": "Nine quests in the 16:43 quest screenshot. Exact zone coordinates not shown. Westfall Stew 11/12 ingredients (3/3 Stringy Vulture Meat, 2/3 Murloc Eye, 3/3 Goretusk Snout, 3/3 Okra); Goretusk Liver Pie 2/8; The Killing Fields 0/20; heirloom 0/1; Gryan report and skills still pending. Shortly afterward, player reports using Hearthstone to return to Goldshire toward Stormwind. Do not infer rest, sale, wand purchase, or profession training as completed. Camping 101: Enchanting was later reported completed (7 Nov); the displayed in-progress quest is historical to 16:43 and its original snapshot remains unchanged.",
-    "previousSnapshotId": "2026-11-07-westfall-nine-active-141136",
+    "scope": "Only the eleven quests visible in the screenshot crop are recorded as visible. Absence of prior quests from screenshot does not indicate their completion/abandonment. Camping 101: Enchanting completed later than the prior 16:43 snapshot by explicit player report; not visible in this crop. Camping 101: Tailoring, Stormpike's Delivery and Humble Beginnings not visible: no new inference. All four Westfall Stew item targets read 3/3, but quest hand-in is unconfirmed. Exact Eastvale Logging Camp coordinates are not shown; location 74.0,55.0 in eastern Elwynn.",
     "characterLevel": 11,
-    "levelConfirmation": "Direct player report and official Blizzard EU snapshot earlier in the day",
-    "postSnapshotTravel": "Hearthstone to Goldshire; intending to head towards Stormwind",
-    "archivedAt": "2026-11-07"
+    "previousSnapshotId": "2026-11-07-westfall-nine-quest-164338",
+    "objectiveReadyButQuestUnfinished": "Westfall Stew: 12/12 ingredients, delivery pending",
+    "narrativeChapterId": "x-eastvale-woods-and-rolf"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -1979,6 +2059,37 @@
       "handInLocation": "not reported",
       "storyChapterId": "x-enchanting-first-threshold",
       "note": "This post-screenshot player confirmation supersedes the 16:43 historical active quest status. Do not rewrite the screenshot, infer recipe/item changes or claim confirmed API completion."
+    },
+    "westfallStew": {
+      "name": "Westfall Stew",
+      "status": "all-objectives-complete-awaiting-turn-in",
+      "recordedAt": "2026-11-07 18:18:04",
+      "source": "image(20261107-181804).png",
+      "completedObjectives": [
+        {
+          "name": "Stringy Vulture Meat",
+          "current": 3,
+          "total": 3
+        },
+        {
+          "name": "Murloc Eye",
+          "current": 3,
+          "total": 3
+        },
+        {
+          "name": "Goretusk Snout",
+          "current": 3,
+          "total": 3
+        },
+        {
+          "name": "Okra",
+          "current": 3,
+          "total": 3
+        }
+      ],
+      "delivered": false,
+      "deliveryVerified": false,
+      "note": "All 12 ingredients checked complete in 18:18 tracker; quest delivery and reward not confirmed. Exact last Murloc Eye acquisition location/time unknown."
     }
   },
   "latestMapObservations": [
@@ -2044,23 +2155,23 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Quiet Art of Enchantment",
-    "status": "Following return to Goldshire from Westfall, Xuthar has completed Camping 101: Enchanting. Exact location of completion and subsequent Stormwind errands or wand purchase are not established.",
+    "chapter": "Eastvale · The Eastern Forest",
+    "status": "Questing in eastern Elwynn near Eastvale; 11 visible missions. Westfall Stew ingredients all gathered but not delivered.",
     "nextConfirmedQuest": "Report to Gryan Stoutmantle remains active in latest 16:43 screenshot.",
-    "latestVisualEvidence": "image(20261107-164338).png",
-    "stage": "Goldshire · just returned by Hearthstone, preparing for Stormwind",
-    "latestPlayerReportedZone": "Elwynn Forest · Goldshire",
+    "latestVisualEvidence": "image(20261107-181804).png",
+    "stage": "Eastern Elwynn Forest at 74.0,55.0 · Eastvale region",
+    "latestPlayerReportedZone": "Elwynn Forest · Eastvale area",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "Latest screenshot of nine Westfall objectives is historical 14:11; level 11 subsequently confirmed. No changes to quest states or points inferred.",
-    "latestScreenshot": "image(20261107-164338).png",
-    "questUpdate": "Westfall Stew 3/3 vulture meat, 2/3 murloc eyes, 3/3 goretusk snouts, 3/3 okra; Goretusk Liver Pie 2/8; The Killing Fields 0/20; The Forgotten Heirloom 0/1; Report to Gryan Stoutmantle still active.",
-    "latestQuestScreenshot": "image(20261107-164338).png",
+    "latestScreenshot": "image(20261107-181804).png",
+    "questUpdate": "Eastvale quests active: Discover Rolf's Fate, Protect the Frontier (0/8,0/5), Downstream (0/1 each tool), Good Steel 0/4, A Bundle of Trouble 0/8, Red Linen Goods 2/6; Westfall Stew ingredients 12/12, hand-in pending.",
+    "latestQuestScreenshot": "image(20261107-181804).png",
     "chronologyNote": "The 16:43 Westfall quest tracker predates the player's Hearthstone return to Goldshire. Arrival in Stormwind and completion of errands are not reported.",
     "characterLevel": 11,
     "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
-    "storyChapter": "Chapter XXXVII · The Quiet Art of Enchantment",
-    "latestPlayerReportedLocation": "Goldshire (after Hearthstone; no subsequent arrival confirmed)",
+    "storyChapter": "Chapter XXXVIII · Beneath the Eastern Boughs",
+    "latestPlayerReportedLocation": "74.0, 55.0 in eastern Elwynn; exact camp arrival not proven",
     "forthcomingErrands": [
       "Free up bag space",
       "Rest",
@@ -2069,11 +2180,11 @@
       "Handle profession-related commissions/supplies (not yet confirmed)"
     ],
     "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
-    "notesOnQuestStates": "The 16:43 Westfall screenshot still contains Camping 101: Enchanting as active because it predates the player's completion report. Camping 101: Tailoring has not been reported completed.",
-    "nextPlannedQuestingArea": "Eastvale Logging Camp, eastern Elwynn Forest",
-    "nextPlannedQuestingAreaStatus": "planned, not yet arrived",
+    "notesOnQuestStates": "Enchanting Camping 101 was separately reported complete and is absent from this crop; Tailoring and other previously active quests absent from crop cannot be inferred finished.",
+    "nextPlannedQuestingArea": "Eastvale questing area, now reached vicinity",
+    "nextPlannedQuestingAreaStatus": "eastern Elwynn area evidenced; exact logging camp not confirmed",
     "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
-    "currentQuestingPlan": "Eastvale before Westfall (user preference)"
+    "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries"
   },
   "currentEquipmentReports": [
     {
@@ -2345,10 +2456,123 @@
       "previousFurlbrowSnapshot": "2026-11-07-westfall-furlbrow-seven-active-134131",
       "lastConfirmedLevelFromEarlierSnapshot": 10,
       "nextDestination": "Report to Gryan Stoutmantle still active; recipe/food ingredient quests active nearby."
+    },
+    {
+      "id": "2026-11-07-westfall-nine-quest-164338",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 16:43:38 (screenshot filename; position/zone not visible in crop)",
+      "screenshot": "image(20261107-164338).png",
+      "zone": "Westfall (based on player-reported questing location; screenshot crop does not show map coordinates)",
+      "coordinates": null,
+      "visibleQuests": [
+        {
+          "id": null,
+          "name": "The Killing Fields",
+          "level": 15,
+          "description": "Slay 20 Harvest Watchers",
+          "current": 0,
+          "total": 20,
+          "item": "Harvest Watcher slain",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Goretusk Liver Pie",
+          "level": 12,
+          "description": "Gather 8 Goretusk Livers",
+          "current": 2,
+          "total": 8,
+          "item": "Goretusk Liver",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Westfall Stew",
+          "level": 13,
+          "description": "Gather the ingredients for Westfall Stew",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Stringy Vulture Meat",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Murloc Eye",
+              "current": 2,
+              "total": 3
+            },
+            {
+              "name": "Goretusk Snout",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Okra",
+              "current": 3,
+              "total": 3
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
+          "status": "in-progress"
+        },
+        {
+          "id": 97917,
+          "name": "Camping 101: Enchanting",
+          "level": 6,
+          "description": "Raise your Enchanting skill to 20",
+          "status": "in-progress"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+          "status": "in-progress"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings",
+          "level": 15,
+          "description": "Find A Simple Compass",
+          "current": 0,
+          "total": 1,
+          "item": "A Simple Compass",
+          "status": "in-progress"
+        },
+        {
+          "id": 97925,
+          "name": "Camping 101: Tailoring",
+          "level": 6,
+          "description": "Raise your Tailoring skill to 20",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Nine quests in the 16:43 quest screenshot. Exact zone coordinates not shown. Westfall Stew 11/12 ingredients (3/3 Stringy Vulture Meat, 2/3 Murloc Eye, 3/3 Goretusk Snout, 3/3 Okra); Goretusk Liver Pie 2/8; The Killing Fields 0/20; heirloom 0/1; Gryan report and skills still pending. Shortly afterward, player reports using Hearthstone to return to Goldshire toward Stormwind. Do not infer rest, sale, wand purchase, or profession training as completed. Camping 101: Enchanting was later reported completed (7 Nov); the displayed in-progress quest is historical to 16:43 and its original snapshot remains unchanged.",
+      "previousSnapshotId": "2026-11-07-westfall-nine-active-141136",
+      "characterLevel": 11,
+      "levelConfirmation": "Direct player report and official Blizzard EU snapshot earlier in the day",
+      "postSnapshotTravel": "Hearthstone to Goldshire; intending to head towards Stormwind",
+      "archivedAt": "2026-11-07"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-nine-quest-164338",
-  "latestQuestTrackerLocation": "Quest panel recorded in Westfall on 7 Nov at 16:43; exact coordinate unavailable",
+  "latestQuestTrackerSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
+  "latestQuestTrackerLocation": "Elwynn Forest 74.0, 55.0; eastern approach to Eastvale Logging Camp questing region",
   "lastLevelMilestone": {
     "level": 11,
     "date": "2026-11-07",
@@ -2366,13 +2590,16 @@
       "destination": "Eastvale Logging Camp",
       "region": "Elwynn Forest (eastern area)",
       "intention": "Do a few quests at Eastvale Logging Camp before returning to Westfall",
-      "state": "planned-not-yet-confirmed-arrival",
+      "state": "in-progress-eastvale-forest-region-observed",
       "questAcceptances": [],
       "questCompletions": [],
       "locationLastConfirmed": "Goldshire (player-reported Hearthstone return)",
       "continuity": "After completing Camping 101: Enchanting and taking a break from Westfall's unfinished objectives, Xuthar plans to visit Eastvale. Actual journey and specific quests have yet to occur.",
       "source": "Direct user plan on 7 November 2026",
-      "narrativeGuidance": "Foreshadow as a possible new road only; do not narrate actual travel or quest completions before evidence."
+      "narrativeGuidance": "Foreshadow as a possible new road only; do not narrate actual travel or quest completions before evidence.",
+      "locationNowObserved": "Elwynn Forest, 74.0,55.0, on approach to Eastvale; camp's exact arrival is not separately established",
+      "questingProgress": "At least six Eastvale/eastern-Elwynn quests visible and in progress by 18:18. No new quest completes.",
+      "arrivalEvidence": "Screenshot image(20261107-181804).png shows nearby coordinates and area quests; not an exact camp entrance screenshot"
     }
   ]
 }

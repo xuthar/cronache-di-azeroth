@@ -217,3 +217,29 @@
  .book-print-pages .book-leaf-number{margin-top:auto}
  .book-print-pages .book-kind-pending{color:#6c5246}
 }
+
+/* Short, readable leaves: narrative chapters now continue across several numbered pages. */
+.book-continued-title{
+ color:#694e3c;font:600 clamp(1.15rem,1.5vw,1.42rem)/1.28 Georgia,serif;
+ letter-spacing:-.015em;margin:14px 0 20px;
+ padding-bottom:10px;border-bottom:1px solid #c2ac8b7d;
+}
+.book-page--continued .book-prose p:first-child:first-letter{
+ float:none;font:inherit;color:inherit;margin:0;
+}
+.book-chapter-part{
+ margin-top:auto;display:block;text-align:center;
+ color:#8c735d;font:italic .76rem/1.4 Georgia,serif;
+ padding-top:14px;
+}
+.book-chapter-part+.book-leaf-number{margin-top:0;padding-top:6px}
+.book-toc-list{gap:8px}
+.book-toc-list li{padding-bottom:7px}
+@media(max-width:710px){
+ .book-continued-title{font-size:1.16rem;margin:10px 0 14px}
+ .book-chapter-part{font-size:.69rem}
+}
+@media print{
+ .book-print-pages .book-chapter-part{font-size:9pt!important}
+ .book-print-pages .book-continued-title{font-size:18pt!important}
+}

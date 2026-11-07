@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-westfall-nine-active';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-level-eleven-novel';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -47,9 +47,19 @@
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · 7 November 2026 · Westfall at '+(data.latestVisibleObjectives?.coordinates?.x??'?')+', '+(data.latestVisibleObjectives?.coordinates?.y??'?')+' (14:11 quest screenshot). Character level '+(data.characterLevel||'unconfirmed')+' last confirmed on 6 November.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below is a historical 14:11 observation near Westfall '+(data.latestVisibleObjectives?.coordinates?.x??'?')+', '+(data.latestVisibleObjectives?.coordinates?.y??'?')+'.');
    head.append(status);
    head.append(metrics);root.append(head);
+   if(data.lastLevelMilestone?.level===11){
+      const levelPanel=make('div','xql-confirmed');
+      levelPanel.id='xuthar-level-eleven';
+      levelPanel.append(make('h3','xql-group-heading','7 November · The Eleventh Threshold'));
+      levelPanel.append(make('p','xql-confirmed-item','✓ LEVEL 11 · Xuthar Morvayne · verified by direct player confirmation and Blizzard EU official API.'));
+      levelPanel.append(make('p','xql-level-note','Exact level-up time, location and earned experience are not assumed. Existing quest statuses remain unchanged.'));
+      const link=make('a','xql-book-link','Read Chapter XXXV · The Weight of Another Dawn ↗');
+      link.href='book.html?character=xuthar#x-westfall-eleventh-threshold';levelPanel.append(link);
+      root.append(levelPanel);
+   }
    // Today's new zone and crafting notes are separate from the older quest tracker.
    if(Array.isArray(data.latestPlayerMilestones)){
       const field=data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-westfall-harvest-watchers-field');
@@ -178,7 +188,7 @@
     const foot=make('p','xql-provenance','Evidence: WoWScrnShot_110626_205922.jpg shows the level-ten milestone, completed Further Concerns, seven active missions and the Guard Thomas location in Elwynn. WoWScrnShot_110626_203303.jpg independently shows The Jasperlode Mine ready to report. Historical missions omitted from the latest objective list are not automatically marked complete or abandoned. The manual field ledger remains separate from the automated Blizzard completed-quest archive.');
    root.append(foot);
    const book=make('a','xql-book-link','Continue The Last Witness ↗');
-    book.href='book.html?character=xuthar#x-westfall-fields-harvest-watchers';root.append(book);
+    book.href='book.html?character=xuthar#x-westfall-eleventh-threshold';root.append(book);
     const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
     armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
     armory.target='_blank';armory.rel='noopener noreferrer';
@@ -192,6 +202,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-level-eleven')requestAnimationFrame(()=>document.getElementById('xuthar-level-eleven')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-westfall-harvest-watchers')requestAnimationFrame(()=>document.getElementById('xuthar-westfall-harvest-watchers')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-staves-training')requestAnimationFrame(()=>document.getElementById('xuthar-staves-training')?.scrollIntoView({block:'center'}));
    if(location.hash==='#riverpaw-completion-status')requestAnimationFrame(()=>document.getElementById('riverpaw-completion-status')?.scrollIntoView({block:'center'}));

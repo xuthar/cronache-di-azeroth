@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-through-jasperlode-guard-thomas-night-stream",
+      "status": "living-novel-through-hogger-five-adventurers",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -795,6 +795,22 @@
           ]
         },
         {
+          "id": "x-hogger-five-against-one",
+          "chapter": "Chapter XXIX · Five Against the Gnoll",
+          "title": "The Fall of Hogger",
+          "kind": "fiction",
+          "paragraphs": [
+            "The road west from Elwynn seemed to change with every mile. The forest did not end all at once. It grew thinner by degrees, surrendering little patches of sky to the wind, until even the shadows under its branches looked less certain. Beyond the western approaches waited Westfall, a country whose name had already begun to gather the weight of unfinished promises. But before Xuthar could follow that road, another name stood across it: Hogger.",
+            "He had heard the name spoken with the care people reserved for a wound that had not closed. A gnoll large enough to turn a traveller's courage into doubt, a menace whose threat had carried far beyond his own patch of wilderness. Xuthar knew better than to imagine that a single priest, however stubborn, could silence every danger. This time, he was not alone.",
+            "Four other adventurers stood with him. They had their own reasons for being there, their own histories and the private fears that no stranger could read in a face. Xuthar did not pretend to know them. For the space of one dangerous encounter, it was enough that five people had chosen to stand together rather than leave one another to the beast.",
+            "Hogger came upon them like a piece of the wild given anger and teeth. The space between the travellers tightened. There was a breath in which everyone seemed to understand how quickly a plan could fail; then the battle began, and the world contracted to movement, pain, and the narrow distance between helping a companion and losing them.",
+            "Xuthar reached for the Shadow as he had learned to do: carefully, without mistaking its eagerness for wisdom. Darkness stirred at the edges of his thoughts, offering a hundred terrible certainties. He gave them none of his trust. Somewhere in the confusion, another of the five held fast, and another found the strength to remain where fear urged retreat. The priest did not count the blows. He counted the moments in which they still fought together.",
+            "There was nothing clean or noble about the noise of the struggle. No song rose above it; no unseen herald declared that history was being made. And when Hogger finally fell, the silence seemed stranger than the violence that had preceded it. The five remained standing. The gnoll did not.",
+            "Xuthar looked at the others. They were not names for his ledger yet, though perhaps one day they might be. They were four lives that had briefly crossed his own, four witnesses to a victory which belonged to none of them alone. He knew too well how easily a story could turn many hands into the legend of one. He would not do that to them.",
+            "The news still had to be carried to those waiting beyond the battlefield, and the western road had not grown shorter. Xuthar opened his journal, steadied the page against the wind, and wrote only what he could bear to remember: Five stood together. Hogger fell. Then he closed the book and turned his face toward the road."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -962,5 +978,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-06"
+  "lastEditorialUpdate": "2026-11-07"
 }

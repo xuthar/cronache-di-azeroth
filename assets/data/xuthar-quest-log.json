@@ -961,7 +961,7 @@
   "currentChronicleDate": "2026-11-07",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Elwynn Forest · riverside near murloc village 76.2,84.2 (20:55:11 screenshot)",
+  "lastConfirmedLocation": "Tower of Azora · interior lower chamber, Elwynn Forest (21:51:41 screenshot)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1595,26 +1595,65 @@
   ],
   "latestPlayerMilestones": [
     {
-      "id": "2026-11-07-elwynn-collector-enchanting-ready-204536",
+      "id": "2026-11-07-azora-ground-floor-hamish-215141",
       "day": "2026-11-07",
-      "time": "20:45:36",
-      "eventType": "intermediate-quest-snapshot",
-      "title": "The Collector and three completed Enchanting-related duties",
-      "location": "Elwynn Forest 68.0,43.2",
-      "source": "image(20261107-204536).png",
-      "newVisibleQuest": "The Collector (to Marshal Dughan in Goldshire)",
-      "countedAsHandedInUnderUserRule": [
-        "An Enchanting Lesson",
-        "Delicate Instruments",
-        "Stolen Enchanting Supplies"
+      "time": "21:51:41",
+      "eventType": "exploration-landmark",
+      "title": "Back inside the Tower of Azora, near Hamish Bergwort",
+      "location": "Tower of Azora · lower stone-walled chamber with a spiral staircase",
+      "source": "WoWScrnShot_110726_215141.jpg",
+      "confirmedFacts": [
+        "Xuthar is inside a lower stone-walled room of the Tower of Azora",
+        "Hamish Bergwort is visible, marked with a quest-related icon",
+        "Servants of Azora and another player are visible",
+        "Books, flasks, desks and staircase visible"
       ],
-      "active": [
-        "Deliver Thomas' Report",
-        "The Collector"
+      "notEstablished": [
+        "Hamish Bergwort quest accepted or completed",
+        "NPC dialogue",
+        "Character level changed beyond 12",
+        "Changes in previous quest tracker"
       ],
-      "stewMurlocEyeCount": "2/3",
-      "chronology": "After 18:39 Eastvale readiness, before 20:55 murloc river",
-      "narrativeChapterId": "x-eastvale-murloc-river-level-twelve"
+      "storyChapterId": "x-tower-of-azora-and-evening-river"
+    },
+    {
+      "id": "2026-11-07-elwynn-river-silence-213930",
+      "day": "2026-11-07",
+      "time": "21:39:30",
+      "eventType": "exploration-riverside",
+      "title": "An untroubled stretch of the river at night",
+      "location": "Elwynn Forest · forested riverbank (exact coordinates not shown)",
+      "source": "WoWScrnShot_110726_213930.jpg",
+      "confirmedFacts": [
+        "Xuthar stands alone on a quiet Elwynn riverbank in the evening",
+        "Dark water, trees, reeds and a bend in the river are visible"
+      ],
+      "notEstablished": [
+        "Quest progress",
+        "Fishing or gathering performed",
+        "Specific map coordinates"
+      ],
+      "storyChapterId": "x-tower-of-azora-and-evening-river"
+    },
+    {
+      "id": "2026-11-07-azora-upper-library-212359",
+      "day": "2026-11-07",
+      "time": "21:23:59",
+      "eventType": "exploration-landmark",
+      "title": "The arcane upper floor of the Tower of Azora",
+      "location": "Tower of Azora · upper wooden gallery, Elwynn Forest",
+      "source": "WoWScrnShot_110726_212359.jpg",
+      "confirmedFacts": [
+        "Xuthar stands on the upper wood-floored gallery of Tower of Azora",
+        "Theocritus, Mage of Tower Azora, and Servants of Azora are visible",
+        "Shelves of books, green-glowing flasks, desks, windows and an open central stairwell appear"
+      ],
+      "notEstablished": [
+        "Quest accepted or handed in at the tower",
+        "Dialogue spoken with Theocritus or any scholar",
+        "New spell, wand or reward received"
+      ],
+      "storyChapterId": "x-tower-of-azora-and-evening-river"
     },
     {
       "id": "2026-11-07-eastvale-murlocs-level-12-205511",
@@ -1647,22 +1686,26 @@
       "storyChapterId": "x-eastvale-murloc-river-level-twelve"
     },
     {
-      "id": "2026-11-07-eastvale-camp-183857",
+      "id": "2026-11-07-elwynn-collector-enchanting-ready-204536",
       "day": "2026-11-07",
-      "time": "18:38:57",
-      "eventType": "landscape-observation",
-      "title": "The living timber camp of Eastvale",
-      "location": "Eastvale Logging Camp area, Elwynn Forest",
-      "source": "WoWScrnShot_110726_183857.jpg",
-      "confirmedFacts": [
-        "Xuthar stands among logging camp buildings, stacks of timber, cut trunks, a well and forested paths",
-        "Warm dusk light illuminates the large wooden sawmill/logging structures"
+      "time": "20:45:36",
+      "eventType": "intermediate-quest-snapshot",
+      "title": "The Collector and three completed Enchanting-related duties",
+      "location": "Elwynn Forest 68.0,43.2",
+      "source": "image(20261107-204536).png",
+      "newVisibleQuest": "The Collector (to Marshal Dughan in Goldshire)",
+      "countedAsHandedInUnderUserRule": [
+        "An Enchanting Lesson",
+        "Delicate Instruments",
+        "Stolen Enchanting Supplies"
       ],
-      "notEstablished": [
-        "Talked to a quest giver in this particular screenshot",
-        "Any turn-in or earned XP in this image"
+      "active": [
+        "Deliver Thomas' Report",
+        "The Collector"
       ],
-      "storyChapterId": "x-eastvale-camp-sawdust-and-roads"
+      "stewMurlocEyeCount": "2/3",
+      "chronology": "After 18:39 Eastvale readiness, before 20:55 murloc river",
+      "narrativeChapterId": "x-eastvale-murloc-river-level-twelve"
     },
     {
       "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
@@ -1699,6 +1742,24 @@
       ]
     },
     {
+      "id": "2026-11-07-eastvale-camp-183857",
+      "day": "2026-11-07",
+      "time": "18:38:57",
+      "eventType": "landscape-observation",
+      "title": "The living timber camp of Eastvale",
+      "location": "Eastvale Logging Camp area, Elwynn Forest",
+      "source": "WoWScrnShot_110726_183857.jpg",
+      "confirmedFacts": [
+        "Xuthar stands among logging camp buildings, stacks of timber, cut trunks, a well and forested paths",
+        "Warm dusk light illuminates the large wooden sawmill/logging structures"
+      ],
+      "notEstablished": [
+        "Talked to a quest giver in this particular screenshot",
+        "Any turn-in or earned XP in this image"
+      ],
+      "storyChapterId": "x-eastvale-camp-sawdust-and-roads"
+    },
+    {
       "id": "2026-11-07-elwynn-eastvale-11-active-181804",
       "day": "2026-11-07",
       "time": "18:18:04 from screenshot filename",
@@ -1722,6 +1783,69 @@
         "Wand purchased",
         "Other previously listed quests completed"
       ]
+    },
+    {
+      "id": "2026-11-07-westfall-nine-active-food-harvest",
+      "day": "2026-11-07",
+      "time": "14:11:36",
+      "eventType": "quest-progress-snapshot",
+      "title": "The duties of Westfall · nine quests and the harvest",
+      "location": "Westfall · 60.7,27.2",
+      "screenshot": "image(20261107-141136).png",
+      "newVisibleObjectives": [
+        "The Killing Fields (0/20 Harvest Watchers)",
+        "Goretusk Liver Pie (2/8 Goretusk Livers)",
+        "Westfall Stew (ingredient stage; Okra complete, others incomplete)"
+      ],
+      "unchangedIncomplete": [
+        "The Forgotten Heirloom (0/1 pocket watch)",
+        "Report to Gryan Stoutmantle",
+        "Camping 101: Enchanting",
+        "Stormpike's Delivery",
+        "Humble Beginnings (0/1 compass)",
+        "Camping 101: Tailoring"
+      ],
+      "notEstablished": [
+        "Harvest Watcher kills",
+        "All stew ingredients collected",
+        "Report handed to Gryan",
+        "Profession skill goals reached",
+        "Character level-up"
+      ],
+      "storyChapterId": "x-westfall-fields-harvest-watchers"
+    },
+    {
+      "id": "2026-11-07-furlbrow-new-westfall-quests",
+      "day": "2026-11-07",
+      "time": "13:41:31 screenshot filename",
+      "eventType": "quest-acceptance-observed",
+      "title": "New Westfall quests · a recipe and a missing heirloom",
+      "location": "Westfall · Furlbrow's Wagon · 60.1, 20.1",
+      "newlyVisibleQuests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        }
+      ],
+      "otherActiveQuest": "Report to Gryan Stoutmantle",
+      "objectiveStates": {
+        "furlbrowsPocketWatch": "0/1",
+        "aSimpleCompass": "0/1",
+        "tailoringCamping101": "skill 20 still listed",
+        "enchantingCamping101": "skill 20 still listed"
+      },
+      "notEstablished": [
+        "Any of seven missions completed",
+        "Tailoring 101 completed",
+        "Gryan report delivered",
+        "Character level-up"
+      ],
+      "chapterId": "x-westfall-fields-harvest-watchers",
+      "source": "Screenshot image(20261107-134131).png"
     },
     {
       "id": "2026-11-07-camping-101-enchanting-completed",
@@ -1786,69 +1910,6 @@
       "xp": "Not supplied",
       "questsAffected": "None inferred from level change",
       "storyChapterId": "x-westfall-eleventh-threshold"
-    },
-    {
-      "id": "2026-11-07-westfall-nine-active-food-harvest",
-      "day": "2026-11-07",
-      "time": "14:11:36",
-      "eventType": "quest-progress-snapshot",
-      "title": "The duties of Westfall · nine quests and the harvest",
-      "location": "Westfall · 60.7,27.2",
-      "screenshot": "image(20261107-141136).png",
-      "newVisibleObjectives": [
-        "The Killing Fields (0/20 Harvest Watchers)",
-        "Goretusk Liver Pie (2/8 Goretusk Livers)",
-        "Westfall Stew (ingredient stage; Okra complete, others incomplete)"
-      ],
-      "unchangedIncomplete": [
-        "The Forgotten Heirloom (0/1 pocket watch)",
-        "Report to Gryan Stoutmantle",
-        "Camping 101: Enchanting",
-        "Stormpike's Delivery",
-        "Humble Beginnings (0/1 compass)",
-        "Camping 101: Tailoring"
-      ],
-      "notEstablished": [
-        "Harvest Watcher kills",
-        "All stew ingredients collected",
-        "Report handed to Gryan",
-        "Profession skill goals reached",
-        "Character level-up"
-      ],
-      "storyChapterId": "x-westfall-fields-harvest-watchers"
-    },
-    {
-      "id": "2026-11-07-furlbrow-new-westfall-quests",
-      "day": "2026-11-07",
-      "time": "13:41:31 screenshot filename",
-      "eventType": "quest-acceptance-observed",
-      "title": "New Westfall quests · a recipe and a missing heirloom",
-      "location": "Westfall · Furlbrow's Wagon · 60.1, 20.1",
-      "newlyVisibleQuests": [
-        {
-          "id": 36,
-          "name": "Westfall Stew"
-        },
-        {
-          "id": 64,
-          "name": "The Forgotten Heirloom"
-        }
-      ],
-      "otherActiveQuest": "Report to Gryan Stoutmantle",
-      "objectiveStates": {
-        "furlbrowsPocketWatch": "0/1",
-        "aSimpleCompass": "0/1",
-        "tailoringCamping101": "skill 20 still listed",
-        "enchantingCamping101": "skill 20 still listed"
-      },
-      "notEstablished": [
-        "Any of seven missions completed",
-        "Tailoring 101 completed",
-        "Gryan report delivered",
-        "Character level-up"
-      ],
-      "chapterId": "x-westfall-fields-harvest-watchers",
-      "source": "Screenshot image(20261107-134131).png"
     },
     {
       "id": "2026-11-07-westfall-harvest-watchers-field",
@@ -2354,23 +2415,23 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Night Near the Eastern River",
-    "status": "At Eastvale by dusk and at the murloc riverside by night, Xuthar is level 12 (visible in screenshot). Downstream ready for turn-in and Deliver Thomas' Report active; other Eastvale quest hand-ins unverified.",
+    "chapter": "The Tower of Azora at Night",
+    "status": "Xuthar reached the Tower of Azora upper gallery at 21:23, paused beside an Elwynn river at 21:39, and was inside the lower tower room with Hamish Bergwort visible at 21:51. No quest interaction confirmed by these images.",
     "nextConfirmedQuest": "Downstream ready for hand-in; Deliver Thomas' Report active (return to Goldshire), plus ongoing Westfall objectives.",
-    "latestVisualEvidence": "WoWScrnShot_110726_205511.jpg",
-    "stage": "Elwynn Forest · eastern riverside murloc settlement · 76.2,84.2 · 20:55",
-    "latestPlayerReportedZone": "Elwynn Forest",
+    "latestVisualEvidence": "WoWScrnShot_110726_215141.jpg",
+    "stage": "Tower of Azora · lower chamber · 21:51",
+    "latestPlayerReportedZone": "Elwynn Forest · Tower of Azora",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
-    "latestScreenshot": "WoWScrnShot_110726_205514.jpg",
+    "latestScreenshot": "WoWScrnShot_110726_215141.jpg",
     "questUpdate": "At 18:39 completed by convention: Protect the Frontier, Good Steel, Red Linen Goods. At 20:45: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies. At 20:55: Downstream. The Collector and Deliver Thomas' Report still active. Latest Westfall Stew Murloc Eye 2/3.",
     "latestQuestScreenshot": "WoWScrnShot_110726_205511.jpg",
-    "chronologyNote": "18:38:57 dusk at Eastvale logging camp, 18:39:27 three ready for turn-in, 20:55:11 level 12 and riverside murloc village; character's exact level-up event not shown.",
+    "chronologyNote": "20:55 riverside murlocs and level 12; 21:23 Tower of Azora upper floor; 21:39 peaceful Elwynn river; 21:51 Tower of Azora lower floor. Latest QUEST panel remains the 20:55 screenshot; later photos do not change quest statuses.",
     "characterLevel": 12,
     "levelStatus": "Level 12 confirmed in-game screenshot; last checked Blizzard EU official profile level 11",
-    "storyChapter": "Chapter XLI · Where the River Keeps Its Names",
-    "latestPlayerReportedLocation": "Elwynn Forest · 76.2,84.2 (20:55 screenshot)",
+    "storyChapter": "Chapter XLII · The Tower of Unanswered Questions",
+    "latestPlayerReportedLocation": "Tower of Azora · lower chamber (21:51 photo; no map coords)",
     "forthcomingErrands": [
       "Free up bag space",
       "Rest",
@@ -2379,9 +2440,9 @@
       "Handle profession-related commissions/supplies (not yet confirmed)"
     ],
     "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
-    "notesOnQuestStates": "Per player standing convention Ready for turn-in counts as completed/delivered in the manual Chronicle. The source screenshots still show the actual UI status; no official API claim.",
+    "notesOnQuestStates": "Player rule Ready for turn-in = completed for Chronicle, with official Blizzard archive independent; the tower scenes show no accepted or turned-in quests.",
     "nextPlannedQuestingArea": "Eastvale questing area, now reached vicinity",
-    "nextPlannedQuestingAreaStatus": "eastern Elwynn area evidenced; exact logging camp not confirmed",
+    "nextPlannedQuestingAreaStatus": "Tower of Azora visited in the evening, after Eastvale exploration",
     "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
     "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries",
     "reportingRule": "Every Ready for turn-in quest counted completed/delivered in Chronicle under player preference. Blizzard completed IDs remain independent.",

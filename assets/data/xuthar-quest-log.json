@@ -958,7 +958,7 @@
   "currentChronicleDate": "2026-11-06",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Westfall · first farmland road after the Elwynn border (7 Nov 2026 12:08 screenshot; no coordinates shown)",
+  "lastConfirmedLocation": "Westfall · golden cultivated fields with pumpkins and Harvest Watchers (screenshot 7 Nov 2026 14:09)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1573,6 +1573,51 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-westfall-harvest-watchers-field",
+      "day": "2026-11-07",
+      "eventType": "travel-discovery-observation",
+      "location": "Westfall · farm fields / pumpkin patch",
+      "title": "The fields of Westfall and the Harvest Watchers",
+      "observedScreenshot": "WoWScrnShot_110726_140912.jpg",
+      "screenshotTime": "14:09:12 (screenshot filename)",
+      "screenshotDescription": "Xuthar stands in vast furrowed golden fields with pumpkins, a barn, farm cottage, red-leafed trees and numerous Harvest Watchers moving around the farmland. The targeted Harvest Watcher at the bottom right is level 14.",
+      "confirmedFacts": [
+        "Xuthar is back in Westfall after a detour to Stormwind",
+        "Harvest Watcher level 14 visible",
+        "Xuthar is observing the pumpkin fields"
+      ],
+      "notEstablished": [
+        "Harvest Watcher combat or kills",
+        "Harvest Watcher quest pickup or turn-in",
+        "Arrival at Sentinel Hill",
+        "Conversation with Gryan Stoutmantle",
+        "Any character level-up"
+      ],
+      "source": "User-provided screenshot from 7 November",
+      "storyChapterId": "x-westfall-fields-harvest-watchers"
+    },
+    {
+      "id": "2026-11-07-tailoring-crafted-bags",
+      "day": "2026-11-07",
+      "eventType": "profession-crafting",
+      "location": "Stormwind (during tailoring errands; place of actual crafting not directly shown)",
+      "title": "Xuthar crafted bags with Tailoring",
+      "craft": "Tailoring",
+      "itemCategory": "bags",
+      "itemCount": null,
+      "bagSize": null,
+      "skillLevel": null,
+      "achievement": "Player reported crafting multiple bags and acquiring more inventory space",
+      "notEstablished": [
+        "Number of bags",
+        "Bag slot capacity",
+        "Exact recipe",
+        "Tailoring 20 completed"
+      ],
+      "source": "Direct user report, 7 November 2026, before resuming the Westfall journey",
+      "storyChapterId": "x-stormwind-return-first-staff"
+    },
+    {
       "id": "2026-11-07-stormwind-tailor-shop-crowd",
       "day": "2026-11-07",
       "eventType": "city-visit-roleplay",
@@ -1785,18 +1830,18 @@
     }
   ],
   "latestPhotographedZone": "Westfall",
-  "latestPhotographedAt": "2026-11-07 12:08:08",
+  "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Westfall · First Crossing",
-    "status": "Among a crowd at the tailor shop; continuing errands following staves training",
-    "nextConfirmedQuest": "Report to Gryan Stoutmantle remains the next planned turn-in, not yet confirmed",
-    "latestVisualEvidence": "WoWScrnShot_110726_120808.jpg",
-    "stage": "Stormwind tailoring shop",
-    "latestPlayerReportedZone": "Stormwind City",
+    "chapter": "Westfall · The Watchers in the Wheat",
+    "status": "Returned to Westfall; observing fields with Harvest Watchers after Stormwind errands, staves training and Tailoring bag crafting",
+    "nextConfirmedQuest": "Report to Gryan Stoutmantle is not yet confirmed turned in",
+    "latestVisualEvidence": "WoWScrnShot_110726_140912.jpg",
+    "stage": "Westfall pumpkin fields amid Harvest Watchers",
+    "latestPlayerReportedZone": "Westfall",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
-    "note": "Previously confirmed first arrival to Westfall remains in the historical timeline. No new quest hand-ins or level change inferred.",
-    "latestScreenshot": "WoWScrnShot_110726_125958.jpg"
+    "note": "New bags crafted, number/capacity/skill unspecified. Screenshot shows a level 14 Harvest Watcher, not combat or completion of quest.",
+    "latestScreenshot": "WoWScrnShot_110726_140912.jpg"
   },
   "currentEquipmentReports": [
     {

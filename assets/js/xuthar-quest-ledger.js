@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-azora-tower-night';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-azora-dedicated';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -57,9 +57,9 @@
       const panel=make('div','xql-confirmed');panel.id='xuthar-tower-azora';
       panel.append(make('h3','xql-group-heading','7 November · Tower of Azora · 21:23–21:51'));
       panel.append(make('p','xql-confirmed-item','21:23 · Upper tower gallery, Theocritus and the scholarly chambers · 21:39 · Quiet Elwynn riverbank · 21:51 · Lower tower chamber near Hamish Bergwort.'));
-      panel.append(make('p','xql-level-note','Three new exploration moments documented. No additional accepted or completed quest is inferred. Level 12 remains confirmed; last quest tracker shown at 20:55.'));
-      const link=make('a','xql-book-link','Read Chapter XLII · Where the Stars Were Kept in Glass ↗');
-      link.href='book.html?character=xuthar#x-tower-of-azora-and-evening-river';
+      panel.append(make('p','xql-level-note','Three exploration moments documented (upper gallery, riverbank, lower chamber). Chapter XLIII expands this same visit as a literary scene, not an additional quest or journey. Level 12 remains confirmed; last quest tracker shown at 20:55.'));
+      const link=make('a','xql-book-link','Read Chapter XLIII · The Silence Between the Stars ↗');
+      link.href='book.html?character=xuthar#x-tower-of-azora-dedicated';
       panel.append(link);root.append(panel);
    }
       if(data.questCompletionByConvention?.count){

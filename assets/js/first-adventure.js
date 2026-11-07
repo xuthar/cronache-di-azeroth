@@ -53,13 +53,15 @@
             <a href="book.html?character=xuthar#x-eastvale-woods-and-rolf">Read Chapter XXXVIII · The Wood That Kept Its Secrets ↗</a>
             <a href="xuthar.html#xuthar-latest-quests">View the 11 eastern-forest objectives ↗</a>
           </div>
-          <p><strong>18:39 · The price of a safer road.</strong> Protect the Frontier, Good Steel and Red Linen Goods now all show Ready for turn-in. The frontier has been made safer and the requested materials gathered, but the quests still await their formal return. Rolf remains missing, the waterlogged tools and bundles of wood are uncollected, and the obligations in Westfall remain unfinished.</p>
+          <p><strong>18:38 · Among the sawmills.</strong> In the warm evening light Xuthar passed through Eastvale's logging camp, among cut trunks, a well, wooden workshops and enormous forest trees. The camp itself is now part of the witnessed journey, not simply an intended destination.</p>
+          <p><strong>18:39 · Three duties completed.</strong> Protect the Frontier, Good Steel and Red Linen Goods are counted as completed and delivered under the standing Chronicle convention: Ready for turn-in means finished. Rolf, the waterlogged tools and bundles of wood were still unresolved in this earlier record, and Westfall duties remained unfinished.</p>
           <div class="day-two-links">
             <a href="book.html?character=xuthar#x-eastvale-frontier-unfinished-return">Read Chapter XXXIX · The Price of a Safer Road ↗</a>
-            <a href="xuthar.html#xuthar-eastvale-ready">Three quests ready for turn-in ↗</a>
+            <a href="xuthar.html#xuthar-eastvale-ready">Three quests completed · Chronicle ↗</a>
           </div>
-          <p><strong>18:38 · Among the sawmills.</strong> In the warm evening light Xuthar passed through Eastvale's logging camp, among cut trunks, a well, wooden workshops and enormous forest trees. The camp itself is now part of the witnessed journey, not simply an intended destination.</p>
-          <p><strong>20:55 · The murloc riverside.</strong> At 76.2, 84.2 in eastern Elwynn, Xuthar is visibly level 12. Murloc huts burn with torchlight beside the water, and other travellers move through the woods. Downstream is ready for turn-in after recovery of the waterlogged tools, while Deliver Thomas' Report calls him back to Marshal Dughan in Goldshire. No hand-in of the earlier three Eastvale quests is inferred.</p>
+          <p><strong>20:45 · The hidden work of enchantment.</strong> In eastern Elwynn at 68.0, 43.2, three missions are completed according to the Chronicle rule: An Enchanting Lesson, Delicate Instruments and Stolen Enchanting Supplies. The Collector has also appeared and requires a schedule delivered to Marshal Dughan in Goldshire; Deliver Thomas' Report is still active.</p>
+          <div class="day-two-links"><a href="xuthar.html#xuthar-enchanting-three">Three Enchanting quests completed ↗</a></div>
+          <p><strong>20:55 · The murloc riverside.</strong> At 76.2, 84.2 in eastern Elwynn, Xuthar is visibly level 12. Murloc huts burn with torchlight beside the water, and other travellers move through the woods. Downstream counts as completed and delivered after the recovery of the waterlogged tools. Deliver Thomas' Report remains active for Marshal Dughan in Goldshire. The earlier Eastvale and Enchanting duties also count as completed under the Chronicle convention.</p>
           <p><strong>Westfall Stew · A changing inventory count.</strong> Earlier tracker snapshots showed 3/3 Murloc Eyes; the 20:55 image shows 2/3. The conflicting counts are preserved without inventing an explanation. All other ingredients remain at 3/3 and the quest is still active.</p>
           <div class="day-two-links">
             <a href="book.html?character=xuthar#x-eastvale-camp-sawdust-and-roads">Read Chapter XL · Where Timber Met the Dusk ↗</a>
@@ -73,7 +75,7 @@
           <strong>THE EASTERN RIVER</strong>
           <p>MURLOC SETTLEMENT · NIGHT ON THE WATER</p>
           <b>Level 12 · 7 November · 20:55</b>
-          <small>Downstream ready for hand-in; Thomas report active. Westfall Stew shows 2/3 Murloc Eyes in the newest screenshot.</small>
+          <small>Seven Eastvale and Enchanting quests counted completed by Chronicle convention. Thomas report active; Westfall Stew shows 2/3 Murloc Eyes.</small>
         </aside>
       </div>`;
     return section;

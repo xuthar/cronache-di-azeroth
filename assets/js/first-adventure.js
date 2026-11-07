@@ -26,12 +26,13 @@
           </div>
           <p><strong>A return to Stormwind.</strong> After his first crossing into Westfall, Xuthar travelled back to Stormwind on errands, learned how to wield staves and obtained a new, as-yet-unnamed staff. His visit to Gryan Stoutmantle remains ahead.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-stormwind-return-first-staff">Read Chapter XXXII · The Staff and the City ↗</a></div>
-          <p><strong>14:09 · Westfall's Harvest Watchers.</strong> After crafting bags with Tailoring and finishing his Stormwind visit, Xuthar returned to the golden fields. A farm of pumpkins, weathered buildings and dangerous level-14 Harvest Watchers now lies before him. This is a sighting, not a recorded victory.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Read Chapter XXXIII · The Watchers in the Wheat ↗</a></div>
-          <p><strong>13:41 · Two stories from the Furlbrows.</strong> At the broken wagon near the Westfall border, Xuthar's new tasks are to bring Verna Furlbrow's stew recipe to Salma Saldean and recover a family pocket watch from the pumpkin farm. Both are still unfinished; the report to Gryan Stoutmantle also remains active.</p>
+          <p><strong>13:41 · The Furlbrows' requests.</strong> At their wagon Xuthar discovered two family burdens: a stew recipe to deliver and a missing pocket watch. Both the Furlbrows and the unfinished report to Gryan belong to the new Westfall journey.</p>
+          <p><strong>14:09 · Westfall's Harvest Watchers.</strong> After crafting bags with Tailoring and finishing his Stormwind visit, Xuthar returned to the pumpkin fields, where dangerous level-14 Harvest Watchers guard the golden farmland. This is a sighting, not a recorded victory.</p>
+          <p><strong>14:11 · Nine open quests.</strong> A new stage of Westfall Stew calls for ingredients (Okra 3/3); Goretusk Liver Pie stands at 2/8; The Killing Fields asks for 20 Harvest Watchers, with none yet slain. Gryan's report and the missing Furlbrow heirloom are still unfinished.</p>
           <div class="day-two-links">
-            <a href="xuthar.html#xuthar-latest-quests">View 7 active Westfall quests ↗</a>
-            <a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Read the Furlbrows and the Watchers · Chapter XXXIII ↗</a>
+            <a href="xuthar.html#xuthar-latest-quests">See the 9 active Westfall quests ↗</a>
+            <a href="book.html?character=xuthar#x-westfall-hunger-harvest-tasks">Read Chapter XXXIV · The Hunger Beneath the Gold ↗</a>
+            <a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Earlier: Chapter XXXIII · The Watchers in the Wheat ↗</a>
           </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>

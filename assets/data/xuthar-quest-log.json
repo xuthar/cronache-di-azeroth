@@ -1586,6 +1586,40 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
+      "day": "2026-11-07",
+      "time": "18:39:27",
+      "eventType": "objectives-ready-for-turn-in",
+      "title": "Eastvale frontier: three objectives ready for turn-in",
+      "location": "Eastern Elwynn Forest, Eastvale area",
+      "source": "image(20261107-183927).png",
+      "objectivesReady": [
+        "Protect the Frontier",
+        "Good Steel",
+        "Red Linen Goods"
+      ],
+      "unfinishedMissions": [
+        "Discover Rolf's Fate",
+        "Downstream (0/1 axe, saw, toolbox)",
+        "A Bundle of Trouble (0/8)",
+        "The Killing Fields (0/20)",
+        "Goretusk Liver Pie (2/8)",
+        "The Forgotten Heirloom (0/1)",
+        "Report to Gryan Stoutmantle"
+      ],
+      "preparedForFutureDelivery": [
+        "Westfall Stew 12/12 ingredients, not turned in"
+      ],
+      "storyChapterId": "x-eastvale-frontier-unfinished-return",
+      "notEstablished": [
+        "Any of the three quest hand-ins",
+        "Any quest rewards",
+        "Rolf's fate",
+        "Current exact player location",
+        "Level-up beyond 11"
+      ]
+    },
+    {
       "id": "2026-11-07-elwynn-eastvale-11-active-181804",
       "day": "2026-11-07",
       "time": "18:18:04 from screenshot filename",
@@ -1857,42 +1891,41 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-elwynn-eastvale-11-active-181804",
+    "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
     "day": "2026-11-07",
-    "observedAt": "2026-11-07 18:18:04 (screenshot filename)",
-    "screenshot": "image(20261107-181804).png",
-    "zone": "Elwynn Forest · eastern woods / Eastvale questing region (exact Eastvale Logging Camp arrival not proven by screenshot)",
-    "coordinates": {
-      "x": 74,
-      "y": 55
-    },
+    "observedAt": "2026-11-07 18:39:27 (screenshot filename)",
+    "screenshot": "image(20261107-183927).png",
+    "zone": "Elwynn Forest · eastern Eastvale questing region",
+    "coordinates": null,
+    "coordinateNote": "Top location text partly clipped; exact coordinate intentionally not asserted.",
     "visibleQuests": [
       {
         "id": null,
         "name": "Discover Rolf's Fate",
         "level": 10,
         "description": "Search the murloc village for Rolf and signs of his death",
-        "status": "in-progress",
-        "note": "No evidence that Rolf's fate has been discovered."
+        "status": "in-progress"
       },
       {
         "id": null,
         "name": "Protect the Frontier",
         "level": 10,
-        "description": "Slay Prowlers and Young Forest Bears",
-        "status": "in-progress",
+        "description": "Eliminate prowlers and Young Forest Bears threatening the eastern frontier",
+        "status": "ready-for-turn-in",
+        "readyForTurnIn": true,
         "objectives": [
           {
             "name": "Prowler slain",
-            "current": 0,
-            "total": 8
+            "required": 8,
+            "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
           },
           {
             "name": "Young Forest Bear slain",
-            "current": 0,
-            "total": 5
+            "required": 5,
+            "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
           }
-        ]
+        ],
+        "note": "Ready for turn-in is visible, but no hand-in or reward confirmed."
       },
       {
         "id": null,
@@ -1922,11 +1955,12 @@
         "id": null,
         "name": "Good Steel",
         "level": 7,
-        "description": "Collect four Mining Tools",
-        "current": 0,
-        "total": 4,
+        "description": "Recover four Mining Tools",
+        "status": "ready-for-turn-in",
+        "readyForTurnIn": true,
+        "totalRequired": 4,
         "item": "Mining Tools",
-        "status": "in-progress"
+        "note": "Ready for turn-in indicates objective complete, but reward and hand-in not verified."
       },
       {
         "id": null,
@@ -1942,17 +1976,18 @@
         "id": null,
         "name": "Red Linen Goods",
         "level": 9,
-        "description": "Collect six Red Linen Bandanas",
-        "current": 2,
-        "total": 6,
+        "description": "Recover six Red Linen Bandanas",
+        "status": "ready-for-turn-in",
+        "readyForTurnIn": true,
+        "totalRequired": 6,
         "item": "Red Linen Bandana",
-        "status": "in-progress"
+        "note": "Ready for turn-in; no hand-in verified."
       },
       {
         "id": null,
         "name": "The Killing Fields",
         "level": 15,
-        "description": "Slay twenty Harvest Watchers",
+        "description": "Slay 20 Harvest Watchers",
         "current": 0,
         "total": 20,
         "item": "Harvest Watcher slain",
@@ -1972,7 +2007,7 @@
         "id": null,
         "name": "Westfall Stew",
         "level": 13,
-        "description": "Gather the four ingredients for Salma Saldean's Westfall Stew",
+        "description": "Gather ingredients for Salma Saldean's Westfall Stew",
         "status": "in-progress",
         "objectiveItemsComplete": true,
         "readyForTurnInBasedOnVisibleItems": true,
@@ -1998,7 +2033,7 @@
             "total": 3
           }
         ],
-        "note": "All required items show complete, but screenshot does not show the quest turned in or a reward."
+        "note": "All four sets of ingredient ticks green; hand-in not confirmed."
       },
       {
         "id": 64,
@@ -2014,15 +2049,14 @@
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Talk to Gryan Stoutmantle at Sentinel Hill in Westfall",
+        "description": "Talk to Gryan Stoutmantle at Sentinel Hill",
         "status": "in-progress"
       }
     ],
-    "scope": "Only the eleven quests visible in the screenshot crop are recorded as visible. Absence of prior quests from screenshot does not indicate their completion/abandonment. Camping 101: Enchanting completed later than the prior 16:43 snapshot by explicit player report; not visible in this crop. Camping 101: Tailoring, Stormpike's Delivery and Humble Beginnings not visible: no new inference. All four Westfall Stew item targets read 3/3, but quest hand-in is unconfirmed. Exact Eastvale Logging Camp coordinates are not shown; location 74.0,55.0 in eastern Elwynn.",
+    "scope": "11 missions visible at screenshot time 18:39. Three explicitly say Ready for turn-in: Protect the Frontier, Good Steel, Red Linen Goods. This is NOT a completed-quest hand-in. Westfall Stew ingredient objectives are green 3/3 for all four, but quest still active. Downstream 0/1 for each item; A Bundle of Trouble 0/8; Rolf fate still pending; Goretusk Liver Pie 2/8; Killing Fields 0/20; heirloom 0/1; report pending. Quests absent from crop must not be inferred completed or abandoned.",
+    "previousSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
     "characterLevel": 11,
-    "previousSnapshotId": "2026-11-07-westfall-nine-quest-164338",
-    "objectiveReadyButQuestUnfinished": "Westfall Stew: 12/12 ingredients, delivery pending",
-    "narrativeChapterId": "x-eastvale-woods-and-rolf"
+    "storyChapterId": "x-eastvale-frontier-unfinished-return"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2090,6 +2124,39 @@
       "delivered": false,
       "deliveryVerified": false,
       "note": "All 12 ingredients checked complete in 18:18 tracker; quest delivery and reward not confirmed. Exact last Murloc Eye acquisition location/time unknown."
+    },
+    "protectTheFrontier": {
+      "name": "Protect the Frontier",
+      "status": "ready-for-turn-in",
+      "observedAt": "2026-11-07 18:39:27",
+      "source": "image(20261107-183927).png",
+      "objectiveComplete": true,
+      "questTurnedIn": false,
+      "reward": "not confirmed",
+      "questId": null,
+      "storyChapterId": "x-eastvale-frontier-unfinished-return"
+    },
+    "goodSteel": {
+      "name": "Good Steel",
+      "status": "ready-for-turn-in",
+      "observedAt": "2026-11-07 18:39:27",
+      "source": "image(20261107-183927).png",
+      "objectiveComplete": true,
+      "questTurnedIn": false,
+      "reward": "not confirmed",
+      "questId": null,
+      "storyChapterId": "x-eastvale-frontier-unfinished-return"
+    },
+    "redLinenGoods": {
+      "name": "Red Linen Goods",
+      "status": "ready-for-turn-in",
+      "observedAt": "2026-11-07 18:39:27",
+      "source": "image(20261107-183927).png",
+      "objectiveComplete": true,
+      "questTurnedIn": false,
+      "reward": "not confirmed",
+      "questId": null,
+      "storyChapterId": "x-eastvale-frontier-unfinished-return"
     }
   },
   "latestMapObservations": [
@@ -2155,22 +2222,22 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Eastvale · The Eastern Forest",
-    "status": "Questing in eastern Elwynn near Eastvale; 11 visible missions. Westfall Stew ingredients all gathered but not delivered.",
-    "nextConfirmedQuest": "Report to Gryan Stoutmantle remains active in latest 16:43 screenshot.",
-    "latestVisualEvidence": "image(20261107-181804).png",
-    "stage": "Eastern Elwynn Forest at 74.0,55.0 · Eastvale region",
+    "chapter": "Eastvale · Work Among the Trees",
+    "status": "Eastvale objectives for Protect the Frontier, Good Steel and Red Linen Goods are ready for turn-in as of 18:39; no hand-in confirmed.",
+    "nextConfirmedQuest": "Deliver the three ready-for-turn-in Eastvale objectives when convenient; Rolf's Fate, Downstream, A Bundle of Trouble remain open.",
+    "latestVisualEvidence": "image(20261107-183927).png",
+    "stage": "Elwynn Forest · Eastvale questing area · 18:39",
     "latestPlayerReportedZone": "Elwynn Forest · Eastvale area",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
-    "note": "Latest screenshot of nine Westfall objectives is historical 14:11; level 11 subsequently confirmed. No changes to quest states or points inferred.",
-    "latestScreenshot": "image(20261107-181804).png",
-    "questUpdate": "Eastvale quests active: Discover Rolf's Fate, Protect the Frontier (0/8,0/5), Downstream (0/1 each tool), Good Steel 0/4, A Bundle of Trouble 0/8, Red Linen Goods 2/6; Westfall Stew ingredients 12/12, hand-in pending.",
-    "latestQuestScreenshot": "image(20261107-181804).png",
+    "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
+    "latestScreenshot": "image(20261107-183927).png",
+    "questUpdate": "Protect the Frontier, Good Steel, Red Linen Goods ready for turn-in (not handed in). Discover Rolf's Fate open; Downstream 0/3 items, A Bundle of Trouble 0/8; Westfall Stew 12/12 gathered but still active. Westfall earlier objectives unchanged.",
+    "latestQuestScreenshot": "image(20261107-183927).png",
     "chronologyNote": "The 16:43 Westfall quest tracker predates the player's Hearthstone return to Goldshire. Arrival in Stormwind and completion of errands are not reported.",
     "characterLevel": 11,
     "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
-    "storyChapter": "Chapter XXXVIII · Beneath the Eastern Boughs",
+    "storyChapter": "Chapter XXXIX · Work Among the Trees",
     "latestPlayerReportedLocation": "74.0, 55.0 in eastern Elwynn; exact camp arrival not proven",
     "forthcomingErrands": [
       "Free up bag space",
@@ -2569,10 +2636,178 @@
       "levelConfirmation": "Direct player report and official Blizzard EU snapshot earlier in the day",
       "postSnapshotTravel": "Hearthstone to Goldshire; intending to head towards Stormwind",
       "archivedAt": "2026-11-07"
+    },
+    {
+      "id": "2026-11-07-elwynn-eastvale-11-active-181804",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 18:18:04 (screenshot filename)",
+      "screenshot": "image(20261107-181804).png",
+      "zone": "Elwynn Forest · eastern woods / Eastvale questing region (exact Eastvale Logging Camp arrival not proven by screenshot)",
+      "coordinates": {
+        "x": 74,
+        "y": 55
+      },
+      "visibleQuests": [
+        {
+          "id": null,
+          "name": "Discover Rolf's Fate",
+          "level": 10,
+          "description": "Search the murloc village for Rolf and signs of his death",
+          "status": "in-progress",
+          "note": "No evidence that Rolf's fate has been discovered."
+        },
+        {
+          "id": null,
+          "name": "Protect the Frontier",
+          "level": 10,
+          "description": "Slay Prowlers and Young Forest Bears",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Prowler slain",
+              "current": 0,
+              "total": 8
+            },
+            {
+              "name": "Young Forest Bear slain",
+              "current": 0,
+              "total": 5
+            }
+          ]
+        },
+        {
+          "id": null,
+          "name": "Downstream",
+          "level": 10,
+          "description": "Recover three waterlogged tools",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Waterlogged Axe",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Waterlogged Saw",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Waterlogged Toolbox",
+              "current": 0,
+              "total": 1
+            }
+          ]
+        },
+        {
+          "id": null,
+          "name": "Good Steel",
+          "level": 7,
+          "description": "Collect four Mining Tools",
+          "current": 0,
+          "total": 4,
+          "item": "Mining Tools",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "A Bundle of Trouble",
+          "level": 9,
+          "description": "Collect eight Bundles of Wood",
+          "current": 0,
+          "total": 8,
+          "item": "Bundle of Wood",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Red Linen Goods",
+          "level": 9,
+          "description": "Collect six Red Linen Bandanas",
+          "current": 2,
+          "total": 6,
+          "item": "Red Linen Bandana",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "The Killing Fields",
+          "level": 15,
+          "description": "Slay twenty Harvest Watchers",
+          "current": 0,
+          "total": 20,
+          "item": "Harvest Watcher slain",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Goretusk Liver Pie",
+          "level": 12,
+          "description": "Collect eight Goretusk Livers",
+          "current": 2,
+          "total": 8,
+          "item": "Goretusk Liver",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Westfall Stew",
+          "level": 13,
+          "description": "Gather the four ingredients for Salma Saldean's Westfall Stew",
+          "status": "in-progress",
+          "objectiveItemsComplete": true,
+          "readyForTurnInBasedOnVisibleItems": true,
+          "objectives": [
+            {
+              "name": "Stringy Vulture Meat",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Murloc Eye",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Goretusk Snout",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Okra",
+              "current": 3,
+              "total": 3
+            }
+          ],
+          "note": "All required items show complete, but screenshot does not show the quest turned in or a reward."
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Talk to Gryan Stoutmantle at Sentinel Hill in Westfall",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Only the eleven quests visible in the screenshot crop are recorded as visible. Absence of prior quests from screenshot does not indicate their completion/abandonment. Camping 101: Enchanting completed later than the prior 16:43 snapshot by explicit player report; not visible in this crop. Camping 101: Tailoring, Stormpike's Delivery and Humble Beginnings not visible: no new inference. All four Westfall Stew item targets read 3/3, but quest hand-in is unconfirmed. Exact Eastvale Logging Camp coordinates are not shown; location 74.0,55.0 in eastern Elwynn.",
+      "characterLevel": 11,
+      "previousSnapshotId": "2026-11-07-westfall-nine-quest-164338",
+      "objectiveReadyButQuestUnfinished": "Westfall Stew: 12/12 ingredients, delivery pending",
+      "narrativeChapterId": "x-eastvale-woods-and-rolf"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
-  "latestQuestTrackerLocation": "Elwynn Forest 74.0, 55.0; eastern approach to Eastvale Logging Camp questing region",
+  "latestQuestTrackerSnapshotId": "2026-11-07-elwynn-eastvale-three-ready-183927",
+  "latestQuestTrackerLocation": "Eastern Elwynn Forest / Eastvale; location numbers partly cropped in 18:39 screenshot",
   "lastLevelMilestone": {
     "level": 11,
     "date": "2026-11-07",

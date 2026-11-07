@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-ready-counts-completed';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-tower-azora';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -38,9 +38,9 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
-    const title=make('h2','','The twelfth threshold · Night by the river.');
+    const title=make('h2','','The Tower of Azora · Questions after dark.');
    title.id='xql-heading';
-    const lead=make('p','','At 20:55 Xuthar Morvayne is level 12 at the eastern Elwynn riverbank (76.2, 84.2). Under the standing Chronicle rule, every Ready for turn-in quest counts as completed and delivered. Downstream and six earlier Eastvale and Enchanting duties therefore count as finished in the manual journey; The Collector and Deliver Thomas Report remain open. The Westfall Stew tracker shows Murloc Eye 2/3, contrasting with earlier 3/3 screenshots.');
+    const lead=make('p','','After reaching level 12 beside the eastern river, Xuthar visited the Tower of Azora at 21:23, paused beside a quieter riverbank at 21:39, then entered the tower’s lower chambers at 21:51. Theocritus and Hamish Bergwort were visible in the tower; no new quest interaction is confirmed. The latest quest-objective screenshot remains the earlier 20:55 record, with the Chronicle rule counting Ready for turn-in as completed and delivered.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
@@ -50,7 +50,19 @@
     const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Level 12 confirmed by the in-game portrait at 20:55. Blizzard EU API snapshot last checked at level 11. Latest quest screenshot: Elwynn Forest 76.2, 84.2.');
    head.append(status);
    head.append(metrics);root.append(head);
-   if(data.questCompletionByConvention?.count){
+   const towerScenes=Array.isArray(data.latestPlayerMilestones)
+      ?data.latestPlayerMilestones.filter(m=>['2026-11-07-azora-upper-library-212359','2026-11-07-elwynn-river-silence-213930','2026-11-07-azora-ground-floor-hamish-215141'].includes(m.id))
+      :[];
+   if(towerScenes.length===3){
+      const panel=make('div','xql-confirmed');panel.id='xuthar-tower-azora';
+      panel.append(make('h3','xql-group-heading','7 November · Tower of Azora · 21:23–21:51'));
+      panel.append(make('p','xql-confirmed-item','21:23 · Upper tower gallery, Theocritus and the scholarly chambers · 21:39 · Quiet Elwynn riverbank · 21:51 · Lower tower chamber near Hamish Bergwort.'));
+      panel.append(make('p','xql-level-note','Three new exploration moments documented. No additional accepted or completed quest is inferred. Level 12 remains confirmed; last quest tracker shown at 20:55.'));
+      const link=make('a','xql-book-link','Read Chapter XLII · Where the Stars Were Kept in Glass ↗');
+      link.href='book.html?character=xuthar#x-tower-of-azora-and-evening-river';
+      panel.append(link);root.append(panel);
+   }
+      if(data.questCompletionByConvention?.count){
       const panel=make('div','xql-confirmed');panel.id='xuthar-completed-by-convention';
       panel.append(make('h3','xql-group-heading','Completed quests · Standing Chronicle convention'));
       panel.append(make('p','xql-confirmed-item',data.questCompletionByConvention.names.join(' · ')));
@@ -293,6 +305,7 @@
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
    if(location.hash==='#xuthar-enchanting-three')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-three')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-completed-by-convention')requestAnimationFrame(()=>document.getElementById('xuthar-completed-by-convention')?.scrollIntoView({block:'center'}));
+   if(location.hash==='#xuthar-tower-azora')requestAnimationFrame(()=>document.getElementById('xuthar-tower-azora')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-twelve')requestAnimationFrame(()=>document.getElementById('xuthar-level-twelve')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-ready')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-ready')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-next')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-next')?.scrollIntoView({block:'center'}));

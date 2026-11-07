@@ -1587,5 +1587,69 @@
       "officialVerification": "pending",
       "bookChapterId": "x-hogger-five-against-one"
     }
-  ]
+  ],
+  "latestVisibleObjectives": {
+    "id": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
+    "observedAt": "2026-11-07 10:38:59 (screenshot filename local timestamp)",
+    "screenshot": "image(20261107-103859).png",
+    "zone": "Elwynn Forest, western gnoll area (zone inferred from quest and position; not named in screenshot crop)",
+    "coordinates": {
+      "x": 28.5,
+      "y": 83.2
+    },
+    "visibleQuests": [
+      {
+        "id": 109,
+        "name": "Report to Gryan Stoutmantle",
+        "level": 10,
+        "description": "Speak with Gryan Stoutmantle in Sentinel Hill, Westfall",
+        "status": "in-progress"
+      },
+      {
+        "id": 97917,
+        "name": "Camping 101: Enchanting",
+        "level": 6,
+        "description": "Raise Enchanting skill to 20",
+        "status": "in-progress"
+      },
+      {
+        "id": 353,
+        "name": "Stormpike's Delivery",
+        "level": 15,
+        "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+        "status": "in-progress"
+      },
+      {
+        "id": 11,
+        "name": "Riverpaw Gnoll Bounty",
+        "level": 10,
+        "description": "Collect 8 Painted Gnoll Armbands",
+        "current": 3,
+        "total": 8,
+        "item": "Painted Gnoll Armband",
+        "status": "in-progress"
+      },
+      {
+        "id": 399,
+        "name": "Humble Beginnings",
+        "level": 15,
+        "description": "Find A Simple Compass",
+        "current": 0,
+        "total": 1,
+        "item": "A Simple Compass",
+        "status": "in-progress"
+      },
+      {
+        "id": 97925,
+        "name": "Camping 101: Tailoring",
+        "level": 6,
+        "description": "Raise Tailoring skill to 20",
+        "status": "in-progress"
+      }
+    ],
+    "scope": "Only the six quests visible in this crop are recorded; absence of Hogger, Divine Grace, Rare Books, or any other previous quest is not evidence of completion or abandonment.",
+    "hoggerKill": "Hogger defeated by Xuthar and 4 allies, reported earlier on 7 November; quest delivery status not independently confirmed.",
+    "playerObservation": "Low perceived drop rate for Painted Gnoll Armbands after collecting 3 of 8.",
+    "lastConfirmedLevelFromEarlierSnapshot": 10
+  }
 }

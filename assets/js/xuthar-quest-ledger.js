@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-stormwind-staves';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-westfall-watchers';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -50,6 +50,21 @@
     const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (20:59 screenshot + official profile) · Guard Thomas, Elwynn Forest · 73.9, 72.2');
    head.append(status);
    head.append(metrics);root.append(head);
+   // Today's new zone and crafting notes are separate from the older quest tracker.
+   if(Array.isArray(data.latestPlayerMilestones)){
+      const field=data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-westfall-harvest-watchers-field');
+      const bags=data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-tailoring-crafted-bags');
+      if(field||bags){
+        const area=make('div','xql-confirmed');area.id='xuthar-westfall-harvest-watchers';
+        area.append(make('h3','xql-group-heading','7 November · Return to Westfall · The golden fields'));
+        if(field)area.append(make('p','xql-confirmed-item','14:09 · Xuthar stands among pumpkin fields and Harvest Watchers. A targeted Harvest Watcher is level 14; no combat or quest completion is established.'));
+        if(bags)area.append(make('p','xql-confirmed-item','Tailoring · Xuthar crafted bags and gained inventory space. Bag quantity, capacity, recipes and exact Tailoring level are not established.'));
+        const a=make('a','xql-book-link','Read Chapter XXXIII · The Watchers in the Wheat ↗');
+        a.href='book.html?character=xuthar#x-westfall-fields-harvest-watchers';area.append(a);
+        area.append(make('p','xql-level-note','The report to Gryan Stoutmantle still awaits a confirmed hand-in.'));
+        root.append(area);
+      }
+   }
    // Latest visible screenshot is separate from the previous complete 6 Nov tracker.
    const visible=data.latestVisibleObjectives;
    if(visible && Array.isArray(visible.visibleQuests)){
@@ -175,6 +190,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-westfall-harvest-watchers')requestAnimationFrame(()=>document.getElementById('xuthar-westfall-harvest-watchers')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-staves-training')requestAnimationFrame(()=>document.getElementById('xuthar-staves-training')?.scrollIntoView({block:'center'}));
    if(location.hash==='#riverpaw-completion-status')requestAnimationFrame(()=>document.getElementById('riverpaw-completion-status')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-latest-quests')requestAnimationFrame(()=>document.getElementById('xuthar-latest-quests')?.scrollIntoView({block:'start'}));

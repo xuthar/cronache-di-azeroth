@@ -51,7 +51,20 @@
     }));
   }
   function buildLeaves(compact=false){
-    const chapterLeaves=volume.pages.flatMap(p=>paginateChapter(p,compact));
+    // Multiple named story sections may belong to one numbered chapter.
+    // Preserve their original anchors, but display the chapter heading only once.
+    const sectionTotals=new Map(),sectionPositions=new Map();
+    for(const p of volume.pages)sectionTotals.set(p.chapter,(sectionTotals.get(p.chapter)||0)+1);
+    const chapterLeaves=volume.pages.flatMap(p=>{
+      const sectionIndex=(sectionPositions.get(p.chapter)||0)+1;
+      sectionPositions.set(p.chapter,sectionIndex);
+      return paginateChapter(p,compact).map(leaf=>({
+        ...leaf,
+        sectionIndex,
+        sectionCount:sectionTotals.get(p.chapter),
+        isChapterOpening:sectionIndex===1&&!leaf.continuation
+      }));
+    });
     const chapterList=[],seen=new Set();
     for(const p of volume.pages){
       if(seen.has(p.chapter))continue;
@@ -129,11 +142,20 @@
       inside.append(make('h2','','The story continues.'));
       inside.append(make('p','','Beyond the last line, the road continues.'));
     } else {
-      if(page.continuation)outer.classList.add('book-page--continued');
-      inside.append(make('span','book-page-kicker',page.chapter||'THE CHRONICLE'));
-      if(page.continuation)inside.append(make('h2','book-continued-title',page.title||'The story continues'));
-      else inside.append(make('h2','book-page-title',page.title||'Untitled'));
-      if(!page.continuation)inside.append(make('div','book-page-type',kindLabel(page.kind)));
+      if(page.continuation){
+        // Running continuation only: no reprinted chapter number or story title.
+        outer.classList.add('book-page--continued');
+        inside.append(make('span','book-page-kicker book-running-head','CONTINUED · '+page.part+' / '+page.partTotal));
+      }else if(page.sectionIndex>1){
+        // A genuine new section in the same chapter, not a second chapter opening.
+        outer.classList.add('book-page--section');
+        inside.append(make('span','book-page-kicker','SECTION '+page.sectionIndex+' OF '+page.sectionCount));
+        inside.append(make('h2','book-section-heading',page.title||'Untitled'));
+      }else{
+        inside.append(make('span','book-page-kicker',page.chapter||'THE CHRONICLE'));
+        inside.append(make('h2','book-page-title',page.title||'Untitled'));
+        inside.append(make('div','book-page-type',kindLabel(page.kind)));
+      }
       if(page.image) {
         const frame=make('figure','book-figure');
         const img=makeImage(page.image,page.caption||'Illustrative archive image');
@@ -150,7 +172,7 @@
         inside.append(link);
       }
       if(page.signed)inside.append(make('p','book-signature','— '+page.signed));
-      if(page.partTotal>1)inside.append(make('span','book-chapter-part','Chapter page '+page.part+' of '+page.partTotal));
+      if(page.partTotal>1)inside.append(make('span','book-chapter-part','Page '+page.part+' of '+page.partTotal+(page.sectionCount>1?' · Section '+page.sectionIndex+'/'+page.sectionCount:'')));
     }
     inside.append(make('span','book-leaf-number',index===0?'THE COVER':page.type==='contents'?'CONTENTS '+page.tocPageNumber+'/'+page.tocPageCount:page.type==='endpaper'?'THE ROAD AHEAD':String(index-(leaves.filter(p=>p.type==='contents').length)).padStart(2,'0')));
     if(printMode)outer.querySelectorAll('img').forEach(img=>img.loading='eager');
@@ -290,7 +312,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261107-azora-dedicated',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261108-book-clean-headings',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

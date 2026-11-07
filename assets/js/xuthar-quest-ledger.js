@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-eastvale-planned';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-eastvale-first-quests';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -38,16 +38,16 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
-    const title=make('h2','','The long road home, with Westfall unfinished.');
+    const title=make('h2','','The eastern forest holds new names.');
    title.id='xql-heading';
-    const lead=make('p','','After a demanding afternoon in Westfall, Xuthar gathered eleven of twelve ingredients for Westfall Stew, but the last Murloc Eye eluded him. With his bags crowded and rest overdue, he used a Hearthstone to return to Goldshire. Stormwind is the intended next stop for supplies, profession errands and a wand; none of those purchases or errands has yet been confirmed. All nine objectives recorded at 16:43 remain as a historical screenshot; Camping 101: Enchanting was subsequently completed.');
+    const lead=make('p','','From the fields of Westfall and the return to Goldshire by Hearthstone, Xuthar has taken the eastern road to the woods around Eastvale. At 18:18, eleven quests are visible, including searches for Rolf, missing tools and timber, and dangers along the frontier. All twelve Westfall Stew ingredients are gathered, but delivery to Salma has not yet been reported. Camping 101: Enchanting remains player-confirmed complete.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Quests shown · 16:43 history'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 18:18'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below records Westfall at 16:43, before the reported Hearthstone return to Goldshire; exact coordinates are not shown in that screenshot.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The latest visible quest tracker records eastern Elwynn at 74.0, 55.0 at 18:18, in the Eastvale questing area; arrival inside the logging camp is not independently established.');
    head.append(status);
    head.append(metrics);root.append(head);
    if(Array.isArray(data.plannedItinerary)){
@@ -55,9 +55,12 @@
       if(eastvale){
          const plan=make('div','xql-confirmed');
          plan.id='xuthar-eastvale-next';
-         plan.append(make('h3','xql-group-heading','Next destination · Eastvale Logging Camp'));
-         plan.append(make('p','xql-confirmed-item','Xuthar plans to complete some quests in eastern Elwynn Forest before returning to Westfall.'));
-         plan.append(make('p','xql-level-note','Planned route only: arrival, new quests and completions have not yet been documented. Westfall objectives remain unfinished.'));
+         plan.append(make('h3','xql-group-heading','Eastvale · Eastern Elwynn · 18:18'));
+         plan.append(make('p','xql-confirmed-item','Xuthar has reached the eastern forest around Eastvale. Eleven visible missions include Rolf’s fate, frontier prowlers and bears, waterlogged tools, mining equipment, wood and red linen bandanas.'));
+         plan.append(make('p','xql-level-note','Recorded position 74.0, 55.0 · Eastvale-area questing confirmed, exact logging camp arrival not established. Westfall Stew has all ingredients, but the hand-in is still pending.'));
+         const link=make('a','xql-book-link','Read Chapter XXXVIII · The Wood That Kept Its Secrets ↗');
+         link.href='book.html?character=xuthar#x-eastvale-woods-and-rolf';
+         plan.append(link);
          root.append(plan);
       }
    }
@@ -91,7 +94,7 @@
    if(returnHome){
      const panel=make('div','xql-confirmed');panel.id='xuthar-hearthstone-return';
      panel.append(make('h3','xql-group-heading','7 November · Hearthstone to Goldshire'));
-     panel.append(make('p','xql-confirmed-item','✓ Returned to Goldshire by Hearthstone after a difficult day collecting items in Westfall. The last stew ingredient still missing is 1 Murloc Eye.'));
+     panel.append(make('p','xql-confirmed-item','✓ Returned to Goldshire by Hearthstone after a difficult day in Westfall. At that moment one Murloc Eye was missing; by the later 18:18 screenshot all ingredients have been gathered.'));
      panel.append(make('p','xql-level-note','Rest, clearing bags, buying a wand and profession errands are planned. Reaching Stormwind or completing those tasks has not yet been reported.'));
      const link=make('a','xql-book-link','Read Chapter XXXVI · The Weight of What Remains ↗');
      link.href='book.html?character=xuthar#x-hearthstone-goldshire-return';panel.append(link);
@@ -127,19 +130,20 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Westfall · Nine active quests · 16:43'));
+     recent.append(make('h3','xql-group-heading','7 November · Eastern Elwynn · Eleven visible quests · 18:18'));
      const place=visible.coordinates?'Position '+visible.coordinates.x+', '+visible.coordinates.y+' · ':'Location coordinates not visible · ';
-     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' active quests at 16:43, before Xuthar returned to Goldshire. Missing quests are not automatically marked complete.');
+     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' missions visible at 18:18. Their objectives are recorded exactly as shown; missions absent from this cropped list are not automatically marked complete.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const laterEnchantingDone=q.id===97917&&data.currentQuestUpdates?.camping101Enchanting?.status==='completed-player-reported';
-       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':''));
+       const stewIngredientsDone=q.name==='Westfall Stew'&&q.objectiveItemsComplete===true;
+       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':'')+(stewIngredientsDone?' · ✓ 12/12 ingredients ready; return to Salma still pending':''));
        recent.append(line);
        if(Array.isArray(q.objectives))for(const o of q.objectives){
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','The earlier Furlbrow recipe-delivery quest has given way to a new ingredient-gathering objective. Its exact turn-in and rewards are not independently confirmed. Enchanting and Tailoring still appeared in progress in this older screenshot, but Enchanting was completed later on 7 November. Tailoring has not been reported completed.'));
+     recent.append(make('p','xql-level-note','Westfall Stew has all twelve requested ingredient items, but its quest hand-in is not verified. The earlier 16:43 snapshots are archived; Camping 101: Enchanting was completed later by player report. No missing quests are assumed finished.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');

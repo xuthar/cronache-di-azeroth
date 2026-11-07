@@ -28,6 +28,11 @@
           <div class="day-two-links"><a href="book.html?character=xuthar#x-stormwind-return-first-staff">Read Chapter XXXII · The Staff and the City ↗</a></div>
           <p><strong>14:09 · Westfall's Harvest Watchers.</strong> After crafting bags with Tailoring and finishing his Stormwind visit, Xuthar returned to the golden fields. A farm of pumpkins, weathered buildings and dangerous level-14 Harvest Watchers now lies before him. This is a sighting, not a recorded victory.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Read Chapter XXXIII · The Watchers in the Wheat ↗</a></div>
+          <p><strong>13:41 · Two stories from the Furlbrows.</strong> At the broken wagon near the Westfall border, Xuthar's new tasks are to bring Verna Furlbrow's stew recipe to Salma Saldean and recover a family pocket watch from the pumpkin farm. Both are still unfinished; the report to Gryan Stoutmantle also remains active.</p>
+          <div class="day-two-links">
+            <a href="xuthar.html#xuthar-latest-quests">View 7 active Westfall quests ↗</a>
+            <a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Read the Furlbrows and the Watchers · Chapter XXXIII ↗</a>
+          </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">

@@ -1566,5 +1566,26 @@
       "time": "23:30",
       "evidence": "Xuthar walking through water, lantern visible; precise map location not shown."
     }
+  ],
+  "latestPlayerMilestones": [
+    {
+      "id": "2026-11-07-hogger-party-of-five",
+      "day": "2026-11-07",
+      "title": "Hogger defeated by a party of five",
+      "eventType": "boss-kill",
+      "subject": "Hogger",
+      "questId": 176,
+      "participants": {
+        "character": "Xuthar Morvayne",
+        "otherAdventurers": 4,
+        "namesKnown": []
+      },
+      "confirmedAction": "The player reports that Xuthar and four other adventurers killed Hogger.",
+      "questStatus": "The player is going to turn in WANTED: \"Hogger\"; completion/turn-in not yet confirmed by the refreshed Blizzard API snapshot.",
+      "zone": "Western Elwynn approach to Westfall (exact encounter position not independently established)",
+      "playerReportSource": "Direct report in conversation on 7 November 2026",
+      "officialVerification": "pending",
+      "bookChapterId": "x-hogger-five-against-one"
+    }
   ]
 }

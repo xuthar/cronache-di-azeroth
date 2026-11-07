@@ -15,9 +15,12 @@
           <h2 id="hogger-milestone-title">Five against one.<br><em>Hogger has fallen.</em></h2>
           <p>On the western road from Elwynn, Xuthar joined four other adventurers to face Hogger. The gnoll fell to their combined strength. Their names may yet be learned; the story remembers every member of the company, not a solitary hero.</p>
           <p class="day-two-evidence">The victory is recorded. Xuthar is returning to deliver WANTED: “Hogger”; the quest hand-in remains pending until the official Blizzard quest archive confirms it.</p>
+          <p><strong>Riverpaw Gnoll Bounty completed.</strong> The long hunt south of Westbrook is over: Xuthar has gathered all eight Painted Gnoll Armbands. The achievement is part of his journey toward Westfall, while Blizzard's published quest status will update on its own schedule.</p>
           <div class="day-two-links">
             <a href="book.html?character=xuthar#x-hogger-five-against-one">Read Chapter XXIX · The Fall of Hogger ↗</a>
             <a href="xuthar.html#hogger-party-five">Battle and quest status ↗</a>
+            <a href="book.html?character=xuthar#x-riverpaw-painted-armbands">Read Chapter XXX · The Painted Proof ↗</a>
+            <a href="xuthar.html#riverpaw-completion-status">Riverpaw quest completed · 8/8 ↗</a>
           </div>
         </div>
         <aside class="day-two-status">
@@ -25,7 +28,7 @@
           <strong>5 / 5</strong>
           <p>ADVENTURERS STOOD TOGETHER</p>
           <b>Hogger defeated</b>
-          <small>Four companions joined Xuthar. Quest hand-in checked separately against Blizzard.</small>
+          <small>Hogger fell to five adventurers · Riverpaw Gnoll Bounty completed (8/8).</small>
         </aside>
       </div>`;
     return section;

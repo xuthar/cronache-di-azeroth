@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-06T22:39:30.164Z"
+    "checkedAt": "2026-11-07T02:05:27.863Z"
   },
   "news": [
+    {
+      "title": "Venomous Abyss Raid Hotfixes Now Live - Patch 12.1.5 Hotfixes for November 6",
+      "url": "https://www.wowhead.com/news=383795/venomous-abyss-raid-hotfixes-now-live-patch-12-1-5-hotfixes-for-november-6",
+      "category": "Live",
+      "publishedAt": "2026-11-07T01:22:17.000Z"
+    },
+    {
+      "title": "Many Class, Dungeon and Quest Fixes - WoW: Forever Hotfixes for November 6th",
+      "url": "https://www.wowhead.com/news=383794/many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th",
+      "category": "Forever",
+      "publishedAt": "2026-11-07T01:07:50.000Z"
+    },
     {
       "title": "Upcoming Pet Changes in WoW: Forever - Upcoming Class Tuning for November 10th",
       "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-06T20:52:14.000Z"
-    },
-    {
-      "title": "Blizzard Fixing Issues Causing Duplicates of NPCs and Mobs",
-      "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T20:11:48.000Z"
-    },
-    {
-      "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-06T19:08:08.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-06T22:39:30.164Z",
-  "generatedAt": "2026-11-06T22:39:30.156Z",
+  "newsUpdatedAt": "2026-11-07T02:05:27.863Z",
+  "generatedAt": "2026-11-07T02:05:27.825Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 06 Nov 2026 16:39:09 -0600",
+  "newsFeedBuiltAt": "Fri, 06 Nov 2026 20:05:27 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

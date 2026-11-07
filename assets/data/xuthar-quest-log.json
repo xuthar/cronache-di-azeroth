@@ -1573,6 +1573,20 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-stormwind-tailor-shop-crowd",
+      "day": "2026-11-07",
+      "eventType": "city-visit-roleplay",
+      "location": "Stormwind City, tailoring shop",
+      "title": "A crowded visit to the tailor shop",
+      "observedScreenshot": "WoWScrnShot_110726_125958.jpg",
+      "screenshotTime": "12:59:58 local screenshot filename",
+      "screenshotDescription": "Busy wooden shop with racks of colourful cloth, numerous adventurers and NPCs Antonio Bolero (Tailoring Recipes), Alexandra Bolero (Tailoring Supplies), Lawrence Schneider (Journeyman Tailor), Giorgio Bolero (Artisan Tailor). Xuthar stands among the visitors in his robes, with a long weapon visible on his back.",
+      "playerComment": "The tailoring shop is crowded and Xuthar will wait for his turn.",
+      "questStatus": "Camping 101: Tailoring skill 20 target previously observed; no skill increase, training purchase or quest completion confirmed by this screenshot.",
+      "storyChapterId": "x-stormwind-return-first-staff",
+      "authorialInterpretation": "A quiet waiting scene suitable for the city chapter, without invented merchant transactions."
+    },
+    {
       "id": "2026-11-07-stormwind-errands-staves-training",
       "day": "2026-11-07",
       "title": "Return to Stormwind · Staves learned · New staff",
@@ -1774,14 +1788,15 @@
   "latestPhotographedAt": "2026-11-07 12:08:08",
   "currentJourney": {
     "chapter": "Westfall · First Crossing",
-    "status": "Returned to Stormwind to attend to errands and learned to use staves; new staff obtained",
+    "status": "Among a crowd at the tailor shop; continuing errands following staves training",
     "nextConfirmedQuest": "Report to Gryan Stoutmantle remains the next planned turn-in, not yet confirmed",
     "latestVisualEvidence": "WoWScrnShot_110726_120808.jpg",
-    "stage": "Stormwind revisit after Westfall entry",
+    "stage": "Stormwind tailoring shop",
     "latestPlayerReportedZone": "Stormwind City",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
-    "note": "Previously confirmed first arrival to Westfall remains in the historical timeline. No new quest hand-ins or level change inferred."
+    "note": "Previously confirmed first arrival to Westfall remains in the historical timeline. No new quest hand-ins or level change inferred.",
+    "latestScreenshot": "WoWScrnShot_110726_125958.jpg"
   },
   "currentEquipmentReports": [
     {

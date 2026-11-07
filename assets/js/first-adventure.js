@@ -47,6 +47,7 @@
             <a href="book.html?character=xuthar#x-enchanting-first-threshold">Read Chapter XXXVII · What the Ordinary Things Remember ↗</a>
             <a href="xuthar.html#xuthar-enchanting-completed">Enchanting quest completion ↗</a>
           </div>
+          <p><strong>Next route · Eastvale Logging Camp.</strong> Before resuming the unfinished Westfall journeys, Xuthar plans to take on a few quests in eastern Elwynn Forest. This is the route he intends to follow, not a journey already completed. The next part of The Last Witness will unfold when he arrives and his new experiences are known.</p>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">

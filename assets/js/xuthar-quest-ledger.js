@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-azora-dedicated';
+ const source='assets/data/xuthar-quest-log.json?v=20261108-level-thirteen';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,14 +40,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','The Tower of Azora · Questions after dark.');
    title.id='xql-heading';
-    const lead=make('p','','After reaching level 12 beside the eastern river, Xuthar visited the Tower of Azora at 21:23, paused beside a quieter riverbank at 21:39, then entered the tower’s lower chambers at 21:51. Theocritus and Hamish Bergwort were visible in the tower; no new quest interaction is confirmed. The latest quest-objective screenshot remains the earlier 20:55 record, with the Chronicle rule counting Ready for turn-in as completed and delivered.');
+    const lead=make('p','','After reaching level 12 beside the eastern river, Xuthar visited the Tower of Azora. He subsequently confirmed level 13, though the exact time and location of that level-up are unknown. No new quest is inferred from his new level. The latest quest-objective screenshot remains the 20:55 record from 7 November, with Ready for turn-in counting as completed in the personal Chronicle.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Level 12 confirmed by the in-game portrait at 20:55. Blizzard EU API snapshot last checked at level 11. Latest quest screenshot: Elwynn Forest 76.2, 84.2.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 13 confirmed directly by player, with no exact level-up location/time. Previous in-game screenshot showed level 12. Latest Blizzard EU snapshot checked showed level 11. Quest screenshot: 7 November at 20:55, Elwynn Forest 76.2, 84.2.');
    head.append(status);
    head.append(metrics);root.append(head);
    const towerScenes=Array.isArray(data.latestPlayerMilestones)
@@ -57,7 +57,7 @@
       const panel=make('div','xql-confirmed');panel.id='xuthar-tower-azora';
       panel.append(make('h3','xql-group-heading','7 November · Tower of Azora · 21:23–21:51'));
       panel.append(make('p','xql-confirmed-item','21:23 · Upper tower gallery, Theocritus and the scholarly chambers · 21:39 · Quiet Elwynn riverbank · 21:51 · Lower tower chamber near Hamish Bergwort.'));
-      panel.append(make('p','xql-level-note','Three exploration moments documented (upper gallery, riverbank, lower chamber). Chapter XLIII expands this same visit as a literary scene, not an additional quest or journey. Level 12 remains confirmed; last quest tracker shown at 20:55.'));
+      panel.append(make('p','xql-level-note','Three exploration moments documented (upper gallery, riverbank, lower chamber). Chapter XLIII expands the same visit; level 13 was later reported separately. Last quest tracker remains the 20:55 level-12 screenshot.'));
       const link=make('a','xql-book-link','Read Chapter XLIII · The Silence Between the Stars ↗');
       link.href='book.html?character=xuthar#x-tower-of-azora-dedicated';
       panel.append(link);root.append(panel);
@@ -79,7 +79,16 @@
       link.href='book.html?character=xuthar#x-eastvale-murloc-river-level-twelve';
       panel.append(link);root.append(panel);
    }
-      if(data.characterLevel===12){
+      if(data.characterLevel>=13){
+      const latest=make('div','xql-confirmed');latest.id='xuthar-level-thirteen';
+      latest.append(make('h3','xql-group-heading','Level 13 · Xuthar Morvayne'));
+      latest.append(make('p','xql-confirmed-item','✓ Level 13 confirmed directly by Xuthar · exact level-up date, time and location not documented.'));
+      latest.append(make('p','xql-level-note','The official Blizzard EU snapshot last checked was level 11. The 20:55 quest screenshot from 7 November still records level 12 at that earlier moment. No new quest completion is inferred.'));
+      const chapterLink=make('a','xql-book-link','Read Chapter XLIV · A Measure of the Unseen ↗');
+      chapterLink.href='book.html?character=xuthar#x-thirteenth-threshold';latest.append(chapterLink);
+      root.append(latest);
+   }
+   if(data.latestPlayerMilestones?.some(m=>m.id==='2026-11-07-eastvale-murlocs-level-12-205511')){
       const milestone=make('div','xql-confirmed');milestone.id='xuthar-level-twelve';
       milestone.append(make('h3','xql-group-heading','7 November · Level 12 · By the murloc river'));
       milestone.append(make('p','xql-confirmed-item','✓ LEVEL 12 · shown at 20:55 · Elwynn Forest 76.2, 84.2. Last checked Blizzard EU snapshot showed level 11.'));
@@ -306,6 +315,7 @@
    if(location.hash==='#xuthar-enchanting-three')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-three')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-completed-by-convention')requestAnimationFrame(()=>document.getElementById('xuthar-completed-by-convention')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-tower-azora')requestAnimationFrame(()=>document.getElementById('xuthar-tower-azora')?.scrollIntoView({block:'center'}));
+   if(location.hash==='#xuthar-level-thirteen')requestAnimationFrame(()=>document.getElementById('xuthar-level-thirteen')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-twelve')requestAnimationFrame(()=>document.getElementById('xuthar-level-twelve')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-ready')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-ready')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-next')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-next')?.scrollIntoView({block:'center'}));

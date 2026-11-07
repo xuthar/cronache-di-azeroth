@@ -1595,6 +1595,28 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-elwynn-collector-enchanting-ready-204536",
+      "day": "2026-11-07",
+      "time": "20:45:36",
+      "eventType": "intermediate-quest-snapshot",
+      "title": "The Collector and three completed Enchanting-related duties",
+      "location": "Elwynn Forest 68.0,43.2",
+      "source": "image(20261107-204536).png",
+      "newVisibleQuest": "The Collector (to Marshal Dughan in Goldshire)",
+      "countedAsHandedInUnderUserRule": [
+        "An Enchanting Lesson",
+        "Delicate Instruments",
+        "Stolen Enchanting Supplies"
+      ],
+      "active": [
+        "Deliver Thomas' Report",
+        "The Collector"
+      ],
+      "stewMurlocEyeCount": "2/3",
+      "chronology": "After 18:39 Eastvale readiness, before 20:55 murloc river",
+      "narrativeChapterId": "x-eastvale-murloc-river-level-twelve"
+    },
+    {
       "id": "2026-11-07-eastvale-murlocs-level-12-205511",
       "day": "2026-11-07",
       "time": "20:55:11–20:55:14",
@@ -1987,7 +2009,9 @@
             "status": "objective-ready; loot visible in chat at 20:54:43"
           }
         ],
-        "note": "Ready for turn-in. No hand-in/reward indicated. Screenshot chat explicitly records Waterlogged Toolbox received at 20:54:43."
+        "note": "Ready for turn-in. No hand-in/reward indicated. Screenshot chat explicitly records Waterlogged Toolbox received at 20:54:43.",
+        "countedAsCompletedByUserConvention": true,
+        "conventionStatus": "completed-delivered-for-manual-chronicle"
       },
       {
         "id": null,
@@ -2162,47 +2186,109 @@
     },
     "protectTheFrontier": {
       "name": "Protect the Frontier",
-      "status": "ready-for-turn-in",
+      "status": "completed-by-user-ready-convention",
       "observedAt": "2026-11-07 18:39:27",
       "source": "image(20261107-183927).png",
       "objectiveComplete": true,
-      "questTurnedIn": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
       "reward": "not confirmed",
       "questId": null,
-      "storyChapterId": "x-eastvale-frontier-unfinished-return"
+      "storyChapterId": "x-eastvale-frontier-unfinished-return",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "evidence": "image(20261107-183927).png",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
     },
     "goodSteel": {
       "name": "Good Steel",
-      "status": "ready-for-turn-in",
+      "status": "completed-by-user-ready-convention",
       "observedAt": "2026-11-07 18:39:27",
       "source": "image(20261107-183927).png",
       "objectiveComplete": true,
-      "questTurnedIn": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
       "reward": "not confirmed",
       "questId": null,
-      "storyChapterId": "x-eastvale-frontier-unfinished-return"
+      "storyChapterId": "x-eastvale-frontier-unfinished-return",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "evidence": "image(20261107-183927).png",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
     },
     "redLinenGoods": {
       "name": "Red Linen Goods",
-      "status": "ready-for-turn-in",
+      "status": "completed-by-user-ready-convention",
       "observedAt": "2026-11-07 18:39:27",
       "source": "image(20261107-183927).png",
       "objectiveComplete": true,
-      "questTurnedIn": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
       "reward": "not confirmed",
       "questId": null,
-      "storyChapterId": "x-eastvale-frontier-unfinished-return"
+      "storyChapterId": "x-eastvale-frontier-unfinished-return",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "evidence": "image(20261107-183927).png",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
     },
     "downstream": {
       "name": "Downstream",
-      "status": "ready-for-turn-in",
+      "status": "completed-by-user-ready-convention",
       "observedAt": "2026-11-07 20:55:11",
       "source": "WoWScrnShot_110726_205511.jpg",
       "objectiveComplete": true,
-      "questTurnedIn": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
       "reward": "not confirmed",
-      "note": "Waterlogged Toolbox looted, all downstream tool objectives ready. No quest delivery confirmed.",
-      "storyChapterId": "x-eastvale-murloc-river-level-twelve"
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed.",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "evidence": "WoWScrnShot_110726_205511.jpg"
+    },
+    "anEnchantingLesson": {
+      "name": "An Enchanting Lesson",
+      "status": "completed-by-user-ready-convention",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
+      "evidence": "image(20261107-204536).png",
+      "observedAt": "2026-11-07 20:45:36",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
+    },
+    "delicateInstruments": {
+      "name": "Delicate Instruments",
+      "status": "completed-by-user-ready-convention",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
+      "evidence": "image(20261107-204536).png",
+      "observedAt": "2026-11-07 20:45:36",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
+    },
+    "stolenEnchantingSupplies": {
+      "name": "Stolen Enchanting Supplies",
+      "status": "completed-by-user-ready-convention",
+      "completionPolicy": "Ready for turn-in treated as handed in according to user's standing rule",
+      "countedAsDelivered": true,
+      "observedScreenshotStatus": "ready-for-turn-in",
+      "officialApiVerified": false,
+      "questTurnedIn": "assumed under player's reporting convention, not independently evidenced by screenshot",
+      "evidence": "image(20261107-204536).png",
+      "observedAt": "2026-11-07 20:45:36",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve",
+      "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
     }
   },
   "latestMapObservations": [
@@ -2278,7 +2364,7 @@
     "staffName": "Unspecified",
     "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
     "latestScreenshot": "WoWScrnShot_110726_205514.jpg",
-    "questUpdate": "Downstream ready for turn-in; Deliver Thomas' Report to Marshal Dughan active. Prior Eastvale quests no longer visible, no hand-ins inferred. Westfall Stew latest 2/3 Murloc Eye conflicts with prior 3/3. Level 12 confirmed in-game.",
+    "questUpdate": "At 18:39 completed by convention: Protect the Frontier, Good Steel, Red Linen Goods. At 20:45: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies. At 20:55: Downstream. The Collector and Deliver Thomas' Report still active. Latest Westfall Stew Murloc Eye 2/3.",
     "latestQuestScreenshot": "WoWScrnShot_110726_205511.jpg",
     "chronologyNote": "18:38:57 dusk at Eastvale logging camp, 18:39:27 three ready for turn-in, 20:55:11 level 12 and riverside murloc village; character's exact level-up event not shown.",
     "characterLevel": 12,
@@ -2293,11 +2379,13 @@
       "Handle profession-related commissions/supplies (not yet confirmed)"
     ],
     "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
-    "notesOnQuestStates": "Enchanting Camping 101 was separately reported complete and is absent from this crop; Tailoring and other previously active quests absent from crop cannot be inferred finished.",
+    "notesOnQuestStates": "Per player standing convention Ready for turn-in counts as completed/delivered in the manual Chronicle. The source screenshots still show the actual UI status; no official API claim.",
     "nextPlannedQuestingArea": "Eastvale questing area, now reached vicinity",
     "nextPlannedQuestingAreaStatus": "eastern Elwynn area evidenced; exact logging camp not confirmed",
     "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
-    "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries"
+    "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries",
+    "reportingRule": "Every Ready for turn-in quest counted completed/delivered in Chronicle under player preference. Blizzard completed IDs remain independent.",
+    "before2055": "20:45 at 68.0,43.2: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies ready (counted completed); The Collector and Deliver Thomas' Report active"
   },
   "currentEquipmentReports": [
     {
@@ -2886,7 +2974,9 @@
               "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
             }
           ],
-          "note": "Ready for turn-in is visible, but no hand-in or reward confirmed."
+          "note": "Ready for turn-in is visible, but no hand-in or reward confirmed.",
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
         },
         {
           "id": null,
@@ -2921,7 +3011,9 @@
           "readyForTurnIn": true,
           "totalRequired": 4,
           "item": "Mining Tools",
-          "note": "Ready for turn-in indicates objective complete, but reward and hand-in not verified."
+          "note": "Ready for turn-in indicates objective complete, but reward and hand-in not verified.",
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
         },
         {
           "id": null,
@@ -2942,7 +3034,9 @@
           "readyForTurnIn": true,
           "totalRequired": 6,
           "item": "Red Linen Bandana",
-          "note": "Ready for turn-in; no hand-in verified."
+          "note": "Ready for turn-in; no hand-in verified.",
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
         },
         {
           "id": null,
@@ -3018,6 +3112,155 @@
       "previousSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
       "characterLevel": 11,
       "storyChapterId": "x-eastvale-frontier-unfinished-return"
+    },
+    {
+      "id": "2026-11-07-elwynn-collector-enchanting-ready-204536",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 20:45:36 (screenshot filename)",
+      "screenshot": "image(20261107-204536).png",
+      "zone": "Elwynn Forest, 68.0,43.2",
+      "coordinates": {
+        "x": 68,
+        "y": 43.2
+      },
+      "characterLevel": "not visible in cropped tracker; level 12 shown independently at 20:55",
+      "visibleQuests": [
+        {
+          "id": null,
+          "name": "The Collector",
+          "level": 10,
+          "description": "Give The Collector's Schedule to Marshal Dughan in Goldshire",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "An Enchanting Lesson",
+          "level": 7,
+          "description": "Ready for turn-in",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
+        },
+        {
+          "id": null,
+          "name": "Delicate Instruments",
+          "level": 8,
+          "description": "Ready for turn-in",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
+        },
+        {
+          "id": null,
+          "name": "Stolen Enchanting Supplies",
+          "level": 10,
+          "description": "Ready for turn-in",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "countedAsCompletedByUserConvention": true,
+          "conventionStatus": "completed-delivered-for-manual-chronicle"
+        },
+        {
+          "id": null,
+          "name": "Deliver Thomas' Report",
+          "level": 10,
+          "description": "Report to Marshal Dughan in Goldshire",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "The Killing Fields",
+          "level": 15,
+          "description": "Slay 20 Harvest Watchers",
+          "current": 0,
+          "total": 20,
+          "item": "Harvest Watcher slain",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Goretusk Liver Pie",
+          "level": 12,
+          "description": "Collect 8 Goretusk Livers",
+          "current": 2,
+          "total": 8,
+          "item": "Goretusk Liver",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Westfall Stew",
+          "level": 13,
+          "description": "Gather four sets of ingredients",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Stringy Vulture Meat",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Murloc Eye",
+              "current": 2,
+              "total": 3
+            },
+            {
+              "name": "Goretusk Snout",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Okra",
+              "current": 3,
+              "total": 3
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Talk to Gryan Stoutmantle at Sentinel Hill",
+          "status": "in-progress"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "description": "Deliver package to Mountaineer Stormpike",
+          "status": "in-progress"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings",
+          "level": 15,
+          "description": "Find A Simple Compass",
+          "current": 0,
+          "total": 1,
+          "item": "A Simple Compass",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Historical intermediate 20:45 screenshot precedes last 20:55 riverbank snapshot. Raw UI ready-for-turn-in preserved; personal convention explicitly equates it to completed/handed-in in manual chronicle. The Collector and Deliver Thomas' Report still active. Westfall Stew Murloc Eye 2/3 also visible at 20:45; previous 18:39 screenshot was 3/3; do not invent reason.",
+      "interpretedCompletedQuests": [
+        "An Enchanting Lesson",
+        "Delicate Instruments",
+        "Stolen Enchanting Supplies"
+      ],
+      "nextSnapshotId": "2026-11-07-eastvale-murloc-river-nine-205511",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve"
     }
   ],
   "latestQuestTrackerSnapshotId": "2026-11-07-eastvale-murloc-river-nine-205511",
@@ -3050,5 +3293,28 @@
       "questingProgress": "At least six Eastvale/eastern-Elwynn quests visible and in progress by 18:18. No new quest completes.",
       "arrivalEvidence": "Screenshot image(20261107-181804).png shows nearby coordinates and area quests; not an exact camp entrance screenshot"
     }
-  ]
+  ],
+  "questCompletionPolicy": {
+    "id": "xuthar-ready-means-delivered",
+    "effectiveFrom": "2026-11-07",
+    "label": "Ready for turn-in = quest completed and handed in for Xuthar's manual chronicle",
+    "explanation": "Per explicit player preference, any screenshot showing Ready for turn-in is treated as fully completed and delivered in Xuthar's manual quest ledger and fictional book. Preserve raw UI snapshot status verbatim. Do not claim Blizzard API verified hand-in unless the official completedQuestIds confirms it.",
+    "scope": "manual quest updates, book and site presentation; not BlizzardOfficialAPI live snapshot or archival raw screenshot"
+  },
+  "questCompletionByConvention": {
+    "source": "User explicit rule: consider always quests with Ready for turn-in as handed in",
+    "names": [
+      "Protect the Frontier",
+      "Good Steel",
+      "Red Linen Goods",
+      "An Enchanting Lesson",
+      "Delicate Instruments",
+      "Stolen Enchanting Supplies",
+      "Downstream"
+    ],
+    "count": 7,
+    "officialApiVerified": false,
+    "recordedAt": "2026-11-07",
+    "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only"
+  }
 }

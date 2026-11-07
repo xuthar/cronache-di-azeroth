@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-riverpaw-three-of-eight';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-riverpaw-completed';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,7 +40,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','On the western road: new objectives.');
    title.id='xql-heading';
-    const lead=make('p','','The 20:59 character screenshot confirms level 10 next to Guard Thomas in Elwynn Forest and completion of Further Concerns. The latest visible objective list has seven active missions, including Riverpaw Gnoll Bounty, WANTED: Hogger, Stormpike\'s Delivery and Report to Gryan Stoutmantle. The Jasperlode Mine was ready for turn-in at 20:33, but its subsequent delivery is not established. Rare Books shows Arcane Explainer found while Geomancy remains missing. Quest destinations in Loch Modan and Westfall do not establish travel there.');
+    const lead=make('p','','Xuthar defeated Hogger alongside four adventurers and subsequently completed Riverpaw Gnoll Bounty on 7 November. His last shared objective list in western Elwynn showed 3/8 Painted Gnoll Armbands before the mission was finished. The older 6 November objective list is retained below as history; other quests remain open or unverified until a newer snapshot establishes their fate.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests · 6 Nov historical tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
@@ -59,10 +59,28 @@
      const note=make('p','xql-level-note','Position 28.5, 83.2 · Latest screenshot shows '+visible.visibleQuests.length+' quests. Only what is visible is recorded; missing quests are not automatically marked complete.'));
      recent.append(note);
      for(const q of visible.visibleQuests){
-       const line=make('p','xql-confirmed-item',q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')); 
+       const done=q.id===11&&data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
+       const line=make('p','xql-confirmed-item',q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||'')+' (earlier screenshot)':'')+(done?' · ✓ now completed (player reported)':'')); 
        recent.append(line);
      }
-     recent.append(make('p','xql-level-note','Riverpaw Gnoll Bounty: 3 of 8 Painted Gnoll Armbands gathered. Continue against Riverpaw Runts and Outrunners, or return to this mission later.'));
+     recent.append(make('p','xql-level-note','The 3/8 Riverpaw count belongs to the earlier screenshot. The subsequent completion is recorded separately; the remaining visible quests are not assumed finished.'));
+     const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
+     if(completed){
+       const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');
+       state.id='riverpaw-completion-status';
+       recent.append(state);
+       const link=make('a','xql-book-link','Read Chapter XXX · What the Gnolls Leave Behind ↗');
+       link.href='book.html?character=xuthar#x-riverpaw-painted-armbands';
+       recent.append(link);
+       fetch(officialFeed,{cache:'no-store',headers:{Accept:'application/json'}})
+         .then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();})
+         .then(feed=>{
+           const char=Array.isArray(feed.characters)?feed.characters.find(c=>c.name==='Xuthar Morvayne'):null;
+           if(feed.source!=='BlizzardOfficialAPI'||feed.apiRegion!=='eu'||!char)return;
+           const ids=char.officialDetails?.quests?.completedQuestIds;
+           if(Array.isArray(ids)&&ids.includes(11))state.textContent='✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 · confirmed by Blizzard official quest ID 11.';
+         }).catch(()=>{});
+     }
      root.append(recent);
    }
    // New gameplay reports are separated from the historical 6 Nov quest-tracker snapshot.
@@ -104,7 +122,7 @@
    }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
-     [data.readyForTurnIn,'Ready for turn-in · latest visible list','xql-group-ready',true],
+     [data.readyForTurnIn,'Ready for turn-in · historical 6 Nov list','xql-group-ready',true],
      [data.active,'Earlier in-progress quests · 6 Nov 20:59','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
@@ -143,6 +161,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#riverpaw-completion-status')requestAnimationFrame(()=>document.getElementById('riverpaw-completion-status')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-latest-quests')requestAnimationFrame(()=>document.getElementById('xuthar-latest-quests')?.scrollIntoView({block:'start'}));
    if(location.hash==='#hogger-party-five')requestAnimationFrame(()=>document.getElementById('hogger-party-five')?.scrollIntoView({block:'start'}));
  }

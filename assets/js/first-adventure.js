@@ -9,10 +9,10 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE TOWER OF AZORA</div>
+      <div class="day-two-signal">NEW JOURNEY · THE THIRTEENTH THRESHOLD</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="westfall-arrival-title">Beyond the river.<br><em>The tower keeps its questions.</em></h2>
+          <h2 id="westfall-arrival-title">Beyond Azora.<br><em>The witness keeps walking.</em></h2>
           <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
           <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
             <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
@@ -75,14 +75,19 @@
             <a href="book.html?character=xuthar#x-tower-of-azora-and-evening-river">Earlier: Chapter XLII · Where the Stars Were Kept in Glass ↗</a>
             <a href="xuthar.html#xuthar-tower-azora">The Tower of Azora · Exploration record ↗</a>
           </div>
-          <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
+          <p><strong>Level 13 · The road beyond Azora.</strong> Xuthar has confirmed his next level, a new threshold after the river and the arcane tower. His exact level-up location and time are unknown, so the chronicle preserves the milestone without inventing a battle, quest or encounter.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-thirteenth-threshold">Read Chapter XLIV · A Measure of the Unseen ↗</a>
+            <a href="xuthar.html#xuthar-level-thirteen">Level 13 · Character milestone ↗</a>
+          </div>
+                    <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XLIII</span>
-          <strong>TOWER OF AZORA</strong>
-          <p>THE LIBRARY · MEMORY · LIGHT AND SHADOW</p>
-          <b>Level 12 · 7 November · 21:51</b>
-          <small>Evening exploration; quest progress unchanged. The last quest screenshot remains from 20:55.</small>
+          <span>THE LAST WITNESS · CHAPTER XLIV</span>
+          <strong>LEVEL THIRTEEN</strong>
+          <p>THE ROAD AHEAD · MEMORY · LIGHT AND SHADOW</p>
+          <b>Level 13 · latest player confirmation</b>
+          <small>Level 13 reported by Xuthar; the exact moment and place of levelling are unknown. Last quest screenshot remains from 20:55 on 7 November.</small>
         </aside>
       </div>`;
     return section;

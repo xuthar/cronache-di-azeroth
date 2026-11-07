@@ -42,7 +42,12 @@
             <a href="book.html?character=xuthar#x-hearthstone-goldshire-return">Read Chapter XXXVI · The Weight of What Remains ↗</a>
             <a href="xuthar.html#xuthar-hearthstone-return">Hearthstone and quest status ↗</a>
           </div>
-                    <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
+                    <p><strong>7 November · Enchanting's first threshold.</strong> Xuthar has completed Camping 101: Enchanting, reaching the skill-20 objective. Its completion is confirmed by the traveller, while the older Blizzard snapshot has not yet caught up. New understanding has grown in his hands as well as his magic; the wand and other errands are still unconfirmed.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-enchanting-first-threshold">Read Chapter XXXVII · What the Ordinary Things Remember ↗</a>
+            <a href="xuthar.html#xuthar-enchanting-completed">Enchanting quest completion ↗</a>
+          </div>
+          <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
           <span>THE LAST WITNESS · CHAPTER XXXVI</span>

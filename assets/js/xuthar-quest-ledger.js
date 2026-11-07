@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-level12-murloc-river';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-ready-counts-completed';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -12,7 +12,7 @@
    const lvl=make('span','xql-level','LV '+quest.level);
    const title=make('h3','',quest.name);
    head.append(lvl,title);card.append(head);
-   const state=make('p','xql-state'+(ready?' xql-state-ready':''),ready?'✓ Ready for turn-in':'● In progress');
+   const state=make('p','xql-state'+(ready?' xql-state-ready':''),ready?'✓ Completed · Chronicle convention':'● In progress');
    card.append(state);
    const objective=make('p','xql-objective',quest.objective||quest.progress);
    card.append(objective);
@@ -40,17 +40,34 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','The twelfth threshold · Night by the river.');
    title.id='xql-heading';
-    const lead=make('p','','At 20:55 Xuthar Morvayne is level 12 at the eastern Elwynn riverbank (76.2, 84.2). Downstream is ready for turn-in, and Deliver Thomas’ Report now asks for a visit to Marshal Dughan in Goldshire. Other Eastvale quests previously ready at 18:39 are absent from the latest crop, so hand-ins cannot be assumed. Westfall Stew shows Murloc Eye 2/3 again, although earlier screenshots showed 3/3; the discrepancy has no confirmed explanation.');
+    const lead=make('p','','At 20:55 Xuthar Morvayne is level 12 at the eastern Elwynn riverbank (76.2, 84.2). Under the standing Chronicle rule, every Ready for turn-in quest counts as completed and delivered. Downstream and six earlier Eastvale and Enchanting duties therefore count as finished in the manual journey; The Collector and Deliver Thomas Report remain open. The Westfall Stew tracker shows Murloc Eye 2/3, contrasting with earlier 3/3 screenshots.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
     const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Level 12 confirmed by the in-game portrait at 20:55. Blizzard EU API snapshot last checked at level 11. Latest quest screenshot: Elwynn Forest 76.2, 84.2.');
    head.append(status);
    head.append(metrics);root.append(head);
-   if(data.characterLevel===12){
+   if(data.questCompletionByConvention?.count){
+      const panel=make('div','xql-confirmed');panel.id='xuthar-completed-by-convention';
+      panel.append(make('h3','xql-group-heading','Completed quests · Standing Chronicle convention'));
+      panel.append(make('p','xql-confirmed-item',data.questCompletionByConvention.names.join(' · ')));
+      panel.append(make('p','xql-level-note','Ready for turn-in counts as completed and delivered in the personal Chronicle, as requested by Xuthar. Raw screenshot wording is preserved in historical data; official Blizzard completion remains separate.'));
+      root.append(panel);
+   }
+   const enchantingPhoto=Array.isArray(data.priorVisibleObjectiveSnapshots)?data.priorVisibleObjectiveSnapshots.find(p=>p.id==='2026-11-07-elwynn-collector-enchanting-ready-204536'):null;
+   if(enchantingPhoto){
+      const panel=make('div','xql-confirmed');panel.id='xuthar-enchanting-three';
+      panel.append(make('h3','xql-group-heading','20:45 · Enchanting duties · Completed'));
+      panel.append(make('p','xql-confirmed-item','An Enchanting Lesson · Delicate Instruments · Stolen Enchanting Supplies'));
+      panel.append(make('p','xql-level-note','All three are considered delivered under the Chronicle rule. The Collector and Deliver Thomas Report remain open for Marshal Dughan in Goldshire. Westfall Stew shows Murloc Eye 2/3.'));
+      const link=make('a','xql-book-link','Read the river night · Chapter XLI ↗');
+      link.href='book.html?character=xuthar#x-eastvale-murloc-river-level-twelve';
+      panel.append(link);root.append(panel);
+   }
+      if(data.characterLevel===12){
       const milestone=make('div','xql-confirmed');milestone.id='xuthar-level-twelve';
       milestone.append(make('h3','xql-group-heading','7 November · Level 12 · By the murloc river'));
       milestone.append(make('p','xql-confirmed-item','✓ LEVEL 12 · shown at 20:55 · Elwynn Forest 76.2, 84.2. Last checked Blizzard EU snapshot showed level 11.'));
@@ -62,9 +79,9 @@
       if(data.latestVisibleObjectives?.visibleQuests?.some(q=>q.readyForTurnIn)){
       const readyNames=data.latestVisibleObjectives.visibleQuests.filter(q=>q.readyForTurnIn).map(q=>q.name);
       const readyPanel=make('div','xql-confirmed');readyPanel.id='xuthar-eastvale-ready';
-      readyPanel.append(make('h3','xql-group-heading','Downstream · Ready for turn-in · 20:55'));
+      readyPanel.append(make('h3','xql-group-heading','Downstream · Completed · 20:55'));
       readyPanel.append(make('p','xql-confirmed-item',readyNames.join(' · ')));
-      readyPanel.append(make('p','xql-level-note','Waterlogged tools are accounted for and Downstream shows Ready for turn-in. The quest giver has not yet confirmed a hand-in.'));
+      readyPanel.append(make('p','xql-level-note','Downstream counts as completed and delivered by the Chronicle rule. The source screenshot reads Ready for turn-in; separate official API confirmation is not claimed.'));
       const link=make('a','xql-book-link','Read Chapter XLI · The Fires Across the Water ↗');
       link.href='book.html?character=xuthar#x-eastvale-murloc-river-level-twelve';
       readyPanel.append(link);root.append(readyPanel);
@@ -75,8 +92,8 @@
          const plan=make('div','xql-confirmed');
          plan.id='xuthar-eastvale-next';
          plan.append(make('h3','xql-group-heading','Earlier in Eastvale · Three quests ready · 18:39'));
-         plan.append(make('p','xql-confirmed-item','At 18:39 Protect the Frontier, Good Steel and Red Linen Goods were ready for turn-in. Their omission from the 20:55 quest crop does not prove hand-in.'));
-         plan.append(make('p','xql-level-note','This is the 18:39 milestone. Later, Downstream became ready for turn-in and a report to Marshal Dughan appeared; the exact outcome of the Rolf inquiry is unverified. Status of the wood-bundle quest after 18:39 is unknown.'));
+         plan.append(make('p','xql-confirmed-item','At 18:39 Protect the Frontier, Good Steel and Red Linen Goods showed Ready for turn-in, which means completed and delivered in this Chronicle.'));
+         plan.append(make('p','xql-level-note','These three duties count as completed at 18:39. Later, three Enchanting-related duties and Downstream were also completed under the same rule. Thomas Report and The Collector remain active; Rolf and the wood-bundle quest cannot be inferred completed from their absence.'));
          const link=make('a','xql-book-link','Read Chapter XXXIX · The Price of a Safer Road ↗');
          link.href='book.html?character=xuthar#x-eastvale-frontier-unfinished-return';
          plan.append(link);
@@ -151,18 +168,18 @@
      recent.id='xuthar-latest-quests';
      recent.append(make('h3','xql-group-heading','7 November · Elwynn Riverbank · Nine visible quests · 20:55'));
      const place=visible.coordinates?'Position '+visible.coordinates.x+', '+visible.coordinates.y+' · ':'Location coordinates not visible · ';
-     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' quests visible at 20:55, after Eastvale camp and the 18:39 objectives. Downstream ready for turn-in; absent earlier missions are not assumed completed.');
+     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' quests visible at 20:55, after Eastvale camp and the 18:39 objectives. Downstream counts completed by user convention; only earlier missions explicitly showing Ready for turn-in count completed.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const laterEnchantingDone=q.id===97917&&data.currentQuestUpdates?.camping101Enchanting?.status==='completed-player-reported';
        const stewIngredientsDone=q.name==='Westfall Stew'&&q.objectiveItemsComplete===true;
-       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':'')+(q.readyForTurnIn?' · ✓ READY FOR TURN-IN (not handed in)':'')+(stewIngredientsDone?' · ✓ 12/12 ingredients ready; return to Salma still pending':''));
+       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':'')+(q.readyForTurnIn?' · ✓ COMPLETED & DELIVERED (Chronicle convention)':'')+(stewIngredientsDone?' · ✓ 12/12 ingredients ready; return to Salma still pending':''));
        recent.append(line);
        if(Array.isArray(q.objectives))for(const o of q.objectives){
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','At 20:55 Downstream is ready for turn-in, Deliver Thomas’ Report is active and Westfall Stew shows 2/3 Murloc Eyes, despite earlier 3/3 records. The three Eastvale quests that were ready at 18:39 are absent from the latest list; their hand-in status is unverified. Prior screenshots are preserved.'));
+     recent.append(make('p','xql-level-note','Downstream is counted completed at 20:55. Deliver Thomas Report remains active, and Westfall Stew shows 2/3 Murloc Eyes despite earlier 3/3 records. The three Eastvale quests from 18:39 and three Enchanting duties from 20:45 are also counted completed by the standing player rule. Original UI snapshots are preserved.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');
@@ -235,7 +252,7 @@
    }
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
-     [data.readyForTurnIn,'Ready for turn-in · historical 6 Nov list','xql-group-ready',true],
+     [data.readyForTurnIn,'Completed · historical 6 Nov Ready list','xql-group-ready',true],
      [data.active,'Earlier in-progress quests · 6 Nov 20:59','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
@@ -274,6 +291,8 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-enchanting-three')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-three')?.scrollIntoView({block:'center'}));
+   if(location.hash==='#xuthar-completed-by-convention')requestAnimationFrame(()=>document.getElementById('xuthar-completed-by-convention')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-twelve')requestAnimationFrame(()=>document.getElementById('xuthar-level-twelve')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-ready')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-ready')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-next')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-next')?.scrollIntoView({block:'center'}));

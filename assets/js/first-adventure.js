@@ -9,10 +9,10 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE EASTERN WOODS</div>
+      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE RIVERSIDE AFTER DARK</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="westfall-arrival-title">Beyond Goldshire.<br><em>The eastern woods have stories.</em></h2>
+          <h2 id="westfall-arrival-title">Beyond Eastvale.<br><em>The river keeps its names.</em></h2>
           <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
           <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
             <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
@@ -58,14 +58,22 @@
             <a href="book.html?character=xuthar#x-eastvale-frontier-unfinished-return">Read Chapter XXXIX · The Price of a Safer Road ↗</a>
             <a href="xuthar.html#xuthar-eastvale-ready">Three quests ready for turn-in ↗</a>
           </div>
+          <p><strong>18:38 · Among the sawmills.</strong> In the warm evening light Xuthar passed through Eastvale's logging camp, among cut trunks, a well, wooden workshops and enormous forest trees. The camp itself is now part of the witnessed journey, not simply an intended destination.</p>
+          <p><strong>20:55 · The murloc riverside.</strong> At 76.2, 84.2 in eastern Elwynn, Xuthar is visibly level 12. Murloc huts burn with torchlight beside the water, and other travellers move through the woods. Downstream is ready for turn-in after recovery of the waterlogged tools, while Deliver Thomas' Report calls him back to Marshal Dughan in Goldshire. No hand-in of the earlier three Eastvale quests is inferred.</p>
+          <p><strong>Westfall Stew · A changing inventory count.</strong> Earlier tracker snapshots showed 3/3 Murloc Eyes; the 20:55 image shows 2/3. The conflicting counts are preserved without inventing an explanation. All other ingredients remain at 3/3 and the quest is still active.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-eastvale-camp-sawdust-and-roads">Read Chapter XL · Where Timber Met the Dusk ↗</a>
+            <a href="book.html?character=xuthar#x-eastvale-murloc-river-level-twelve">Read Chapter XLI · The Fires Across the Water ↗</a>
+            <a href="xuthar.html#xuthar-level-twelve">See the level 12 milestone ↗</a>
+          </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XXXIX</span>
-          <strong>EASTERN ELWYNN</strong>
-          <p>EASTVALE QUESTING REGION · THE WOODS AHEAD</p>
-          <b>Eastern forest · 7 November · 18:39</b>
-          <small>Three Eastvale quests ready for turn-in; Westfall Stew ingredients are complete. No quest hand-in claimed.</small>
+          <span>THE LAST WITNESS · CHAPTER XLI</span>
+          <strong>THE EASTERN RIVER</strong>
+          <p>MURLOC SETTLEMENT · NIGHT ON THE WATER</p>
+          <b>Level 12 · 7 November · 20:55</b>
+          <small>Downstream ready for hand-in; Thomas report active. Westfall Stew shows 2/3 Murloc Eyes in the newest screenshot.</small>
         </aside>
       </div>`;
     return section;

@@ -1569,6 +1569,24 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-riverpaw-gnoll-bounty-finished",
+      "day": "2026-11-07",
+      "title": "Riverpaw Gnoll Bounty completed",
+      "eventType": "quest-completion",
+      "questId": 11,
+      "questName": "Riverpaw Gnoll Bounty",
+      "requiredItems": 8,
+      "questStatus": "Reported completed by the player after the earlier 3/8 screenshot; hand-in details, reward and XP were not supplied.",
+      "playerReportSource": "Direct user message 'completata' following discussion of Riverpaw Gnoll Bounty on 7 November 2026.",
+      "officialVerification": "pending (last checked published Blizzard snapshot predates user report)",
+      "previousScreenshotProgress": {
+        "current": 3,
+        "total": 8,
+        "item": "Painted Gnoll Armband"
+      },
+      "bookChapterId": "x-riverpaw-painted-armbands"
+    },
+    {
       "id": "2026-11-07-hogger-party-of-five",
       "day": "2026-11-07",
       "title": "Hogger defeated by a party of five",
@@ -1647,9 +1665,23 @@
         "status": "in-progress"
       }
     ],
-    "scope": "Only the six quests visible in this crop are recorded; absence of Hogger, Divine Grace, Rare Books, or any other previous quest is not evidence of completion or abandonment.",
+    "scope": "Only the six quests visible in this crop are recorded; absence of Hogger, Divine Grace, Rare Books, or any other previous quest is not evidence of completion or abandonment. Riverpaw Gnoll Bounty was subsequently reported completed on 7 November; the 3/8 figure remains a historical screenshot, not current progress.",
     "hoggerKill": "Hogger defeated by Xuthar and 4 allies, reported earlier on 7 November; quest delivery status not independently confirmed.",
     "playerObservation": "Low perceived drop rate for Painted Gnoll Armbands after collecting 3 of 8.",
     "lastConfirmedLevelFromEarlierSnapshot": 10
+  },
+  "currentQuestUpdates": {
+    "riverpawGnollBounty": {
+      "id": 11,
+      "name": "Riverpaw Gnoll Bounty",
+      "status": "completed-player-reported",
+      "reportedAt": "2026-11-07",
+      "itemsCollected": 8,
+      "itemsRequired": 8,
+      "officialStatus": "awaiting updated Blizzard snapshot",
+      "rewards": "not reported",
+      "handoffLocation": "not confirmed",
+      "priorScreenshotId": "2026-11-07-elwynn-gnoll-armbands-3-of-8"
+    }
   }
 }

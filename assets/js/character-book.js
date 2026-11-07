@@ -22,12 +22,12 @@
   // One source chapter becomes several short reading leaves; the JSON narrative stays untouched.
   // Mobile deliberately shows shorter pages than the two-page desktop spread.
   const TOC_PER_LEAF=8;
-  let leaves=[],current=0,volume=null;
+  let leaves=[],current=0,focused=0,volume=null;
   function paginateChapter(chapter,compact=false){
     const paragraphs=Array.isArray(chapter.paragraphs)?chapter.paragraphs:[];
     if(!paragraphs.length)return [{...chapter,type:'chapter',sourceId:chapter.id,sourceParagraphStart:0,part:1,partTotal:1}];
-    const maxCharacters=compact?570:820;
-    const maxParagraphs=compact?1:2;
+    const maxCharacters=compact==='print'?1550:compact?570:820;
+    const maxParagraphs=compact==='print'?4:compact?1:2;
     const parts=[];let group=[],characters=0,start=0;
     for(let i=0;i<paragraphs.length;i++){
       const text=String(paragraphs[i]);
@@ -143,7 +143,7 @@
       const body=make('div','book-prose');
       for(const paragraph of page.paragraphs||[]) body.append(make('p','',paragraph));
       inside.append(body);
-      if(page.kind==='pending'){
+      if(page.kind==='pending'&&(!page.partTotal||page.part===page.partTotal)){
         const link=make('a','book-next-writing-link','View the character dossier →');
         link.href=volume.dossier;
         inside.append(link);
@@ -187,11 +187,12 @@
     previous.disabled=current===0;
     next.disabled=current+count>=leaves.length;
     counter.textContent=status();progress.textContent=status();
-    const active=leaves[current];
+    focused=Math.max(current,Math.min(preferredIndex,current+count-1,leaves.length-1));
+    const active=leaves[focused];
     const selected=active.type==='chapter'?active.chapter:'';
     if(selected && [...chapters.options].some(x=>x.value===selected))chapters.value=selected;
     else chapters.value='';
-    updateUrl(Math.max(current,Math.min(preferredIndex,current+count-1,leaves.length-1)));
+    updateUrl(focused);
   }
   function goto(i){
     const target=getSpreadIndex(i);
@@ -237,7 +238,7 @@
     printRoot.replaceChildren();
     printRoot.append(make('div','book-print-cover-heading','CHRONICLES OF AZEROTH  ·  '+volume.name));
     // Fixed desktop-sized print pagination; changing screen size does not rewrite print pages.
-    buildLeaves(false).forEach((p,i)=>printRoot.append(bookPage(p,i,true)));
+    buildLeaves('print').forEach((p,i)=>printRoot.append(bookPage(p,i,true)));
     const requestedIndex=currentFromHash();
     current=getSpreadIndex(requestedIndex);
     render('',requestedIndex);
@@ -267,7 +268,7 @@
   },{passive:true});
   mobile.addEventListener('change',()=>{
     if(!volume)return;
-    const selected=leaves[current]||leaves[0];
+    const selected=leaves[focused]||leaves[current]||leaves[0];
     const sourceId=selected?.sourceId||selected?.id;
     const paragraph=selected?.sourceParagraphStart||0;
     leaves=buildLeaves(mobile.matches);

@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-eastvale-ready-quests';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-level12-murloc-river';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -38,26 +38,35 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
-    const title=make('h2','','The eastern frontier: three duties nearly fulfilled.');
+    const title=make('h2','','The twelfth threshold · Night by the river.');
    title.id='xql-heading';
-    const lead=make('p','','Three missions now show Ready for turn-in at Eastvale: Protect the Frontier, Good Steel and Red Linen Goods. Their tasks are done, but the quest hand-ins have not been confirmed. The search for Rolf, the waterlogged tools and the wood bundles remain unfinished. Westfall Stew has all twelve ingredients, waiting to be delivered. Camping 101: Enchanting remains separately confirmed complete.');
+    const lead=make('p','','At 20:55 Xuthar Morvayne is level 12 at the eastern Elwynn riverbank (76.2, 84.2). Downstream is ready for turn-in, and Deliver Thomas’ Report now asks for a visit to Marshal Dughan in Goldshire. Other Eastvale quests previously ready at 18:39 are absent from the latest crop, so hand-ins cannot be assumed. Westfall Stew shows Murloc Eye 2/3 again, although earlier screenshots showed 3/3; the discrepancy has no confirmed explanation.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 18:39'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. Latest quest screenshot: eastern Elwynn, 18:39. Eleven quests are visible; three are ready for turn-in. Precise coordinates are cropped in this image.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Level 12 confirmed by the in-game portrait at 20:55. Blizzard EU API snapshot last checked at level 11. Latest quest screenshot: Elwynn Forest 76.2, 84.2.');
    head.append(status);
    head.append(metrics);root.append(head);
-   if(data.latestVisibleObjectives?.visibleQuests?.some(q=>q.readyForTurnIn)){
+   if(data.characterLevel===12){
+      const milestone=make('div','xql-confirmed');milestone.id='xuthar-level-twelve';
+      milestone.append(make('h3','xql-group-heading','7 November · Level 12 · By the murloc river'));
+      milestone.append(make('p','xql-confirmed-item','✓ LEVEL 12 · shown at 20:55 · Elwynn Forest 76.2, 84.2. Last checked Blizzard EU snapshot showed level 11.'));
+      milestone.append(make('p','xql-level-note','The exact level-up time and place are unknown. Verification is from the game screenshot, with official profile synchronization pending.'));
+      const levelLink=make('a','xql-book-link','Read Chapter XLI · The Fires Across the Water ↗');
+      levelLink.href='book.html?character=xuthar#x-eastvale-murloc-river-level-twelve';
+      milestone.append(levelLink);root.append(milestone);
+   }
+      if(data.latestVisibleObjectives?.visibleQuests?.some(q=>q.readyForTurnIn)){
       const readyNames=data.latestVisibleObjectives.visibleQuests.filter(q=>q.readyForTurnIn).map(q=>q.name);
       const readyPanel=make('div','xql-confirmed');readyPanel.id='xuthar-eastvale-ready';
-      readyPanel.append(make('h3','xql-group-heading','Eastvale · Ready for turn-in · Not yet delivered'));
+      readyPanel.append(make('h3','xql-group-heading','Downstream · Ready for turn-in · 20:55'));
       readyPanel.append(make('p','xql-confirmed-item',readyNames.join(' · ')));
-      readyPanel.append(make('p','xql-level-note','Objectives are done but quest givers have not confirmed hand-ins. This is not yet a completed-quest archive entry.'));
-      const link=make('a','xql-book-link','Read Chapter XXXIX · The Price of a Safer Road ↗');
-      link.href='book.html?character=xuthar#x-eastvale-frontier-unfinished-return';
+      readyPanel.append(make('p','xql-level-note','Waterlogged tools are accounted for and Downstream shows Ready for turn-in. The quest giver has not yet confirmed a hand-in.'));
+      const link=make('a','xql-book-link','Read Chapter XLI · The Fires Across the Water ↗');
+      link.href='book.html?character=xuthar#x-eastvale-murloc-river-level-twelve';
       readyPanel.append(link);root.append(readyPanel);
    }
    if(Array.isArray(data.plannedItinerary)){
@@ -65,9 +74,9 @@
       if(eastvale){
          const plan=make('div','xql-confirmed');
          plan.id='xuthar-eastvale-next';
-         plan.append(make('h3','xql-group-heading','Eastvale · Three quests ready · 18:39'));
-         plan.append(make('p','xql-confirmed-item','Xuthar has finished field objectives for Protect the Frontier, Good Steel and Red Linen Goods. All three are ready for turn-in, not yet handed in.'));
-         plan.append(make('p','xql-level-note','Eastvale questing area, latest coordinates partly cropped. Rolf remains missing; the three waterlogged tools and eight wood bundles remain outstanding. Westfall Stew is also awaiting delivery.'));
+         plan.append(make('h3','xql-group-heading','Earlier in Eastvale · Three quests ready · 18:39'));
+         plan.append(make('p','xql-confirmed-item','At 18:39 Protect the Frontier, Good Steel and Red Linen Goods were ready for turn-in. Their omission from the 20:55 quest crop does not prove hand-in.'));
+         plan.append(make('p','xql-level-note','This is the 18:39 milestone. Later, Downstream became ready for turn-in and a report to Marshal Dughan appeared; the exact outcome of the Rolf inquiry is unverified. Status of the wood-bundle quest after 18:39 is unknown.'));
          const link=make('a','xql-book-link','Read Chapter XXXIX · The Price of a Safer Road ↗');
          link.href='book.html?character=xuthar#x-eastvale-frontier-unfinished-return';
          plan.append(link);
@@ -104,7 +113,7 @@
    if(returnHome){
      const panel=make('div','xql-confirmed');panel.id='xuthar-hearthstone-return';
      panel.append(make('h3','xql-group-heading','7 November · Hearthstone to Goldshire'));
-     panel.append(make('p','xql-confirmed-item','✓ Returned to Goldshire by Hearthstone after a difficult day in Westfall. At that moment one Murloc Eye was missing; by the later 18:18 screenshot all ingredients have been gathered.'));
+     panel.append(make('p','xql-confirmed-item','✓ Returned to Goldshire by Hearthstone after a difficult day in Westfall. The stew showed 3/3 Murloc Eyes at 18:18 and 18:39 but 2/3 in the 20:55 screenshot. The reason for this difference is unknown.'));
      panel.append(make('p','xql-level-note','Rest, clearing bags, buying a wand and profession errands are planned. Reaching Stormwind or completing those tasks has not yet been reported.'));
      const link=make('a','xql-book-link','Read Chapter XXXVI · The Weight of What Remains ↗');
      link.href='book.html?character=xuthar#x-hearthstone-goldshire-return';panel.append(link);
@@ -140,9 +149,9 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Eastern Elwynn · Eleven visible quests · 18:39'));
+     recent.append(make('h3','xql-group-heading','7 November · Elwynn Riverbank · Nine visible quests · 20:55'));
      const place=visible.coordinates?'Position '+visible.coordinates.x+', '+visible.coordinates.y+' · ':'Location coordinates not visible · ';
-     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' missions visible at 18:39. Three are ready for turn-in; no hand-in is confirmed. Missing missions are not assumed completed.');
+     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' quests visible at 20:55, after Eastvale camp and the 18:39 objectives. Downstream ready for turn-in; absent earlier missions are not assumed completed.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const laterEnchantingDone=q.id===97917&&data.currentQuestUpdates?.camping101Enchanting?.status==='completed-player-reported';
@@ -153,7 +162,7 @@
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','Protect the Frontier, Good Steel and Red Linen Goods have their objectives finished but still await delivery. Westfall Stew has its ingredients ready for delivery. Earlier screenshots remain preserved, and unseen missions are not assumed completed.'));
+     recent.append(make('p','xql-level-note','At 20:55 Downstream is ready for turn-in, Deliver Thomas’ Report is active and Westfall Stew shows 2/3 Murloc Eyes, despite earlier 3/3 records. The three Eastvale quests that were ready at 18:39 are absent from the latest list; their hand-in status is unverified. Prior screenshots are preserved.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');
@@ -265,6 +274,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-level-twelve')requestAnimationFrame(()=>document.getElementById('xuthar-level-twelve')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-ready')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-ready')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-eastvale-next')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-next')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-enchanting-completed')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-completed')?.scrollIntoView({block:'center'}));

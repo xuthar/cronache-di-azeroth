@@ -1573,6 +1573,36 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-westfall-nine-active-food-harvest",
+      "day": "2026-11-07",
+      "time": "14:11:36",
+      "eventType": "quest-progress-snapshot",
+      "title": "The duties of Westfall · nine quests and the harvest",
+      "location": "Westfall · 60.7,27.2",
+      "screenshot": "image(20261107-141136).png",
+      "newVisibleObjectives": [
+        "The Killing Fields (0/20 Harvest Watchers)",
+        "Goretusk Liver Pie (2/8 Goretusk Livers)",
+        "Westfall Stew (ingredient stage; Okra complete, others incomplete)"
+      ],
+      "unchangedIncomplete": [
+        "The Forgotten Heirloom (0/1 pocket watch)",
+        "Report to Gryan Stoutmantle",
+        "Camping 101: Enchanting",
+        "Stormpike's Delivery",
+        "Humble Beginnings (0/1 compass)",
+        "Camping 101: Tailoring"
+      ],
+      "notEstablished": [
+        "Harvest Watcher kills",
+        "All stew ingredients collected",
+        "Report handed to Gryan",
+        "Profession skill goals reached",
+        "Character level-up"
+      ],
+      "storyChapterId": "x-westfall-fields-harvest-watchers"
+    },
+    {
       "id": "2026-11-07-furlbrow-new-westfall-quests",
       "day": "2026-11-07",
       "time": "13:41:31 screenshot filename",
@@ -1725,24 +1755,67 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-westfall-furlbrow-seven-active-134131",
+    "id": "2026-11-07-westfall-nine-active-141136",
     "day": "2026-11-07",
-    "observedAt": "2026-11-07 13:41:31 (screenshot filename, not upload time)",
-    "screenshot": "image(20261107-134131).png",
-    "zone": "Westfall · around Furlbrow's Wagon (near western Elwynn border)",
+    "observedAt": "2026-11-07 14:11:36 (image filename timestamp)",
+    "screenshot": "image(20261107-141136).png",
+    "zone": "Westfall · cultivated fields near Saldean's Farm",
     "coordinates": {
-      "x": 60.1,
-      "y": 20.1
+      "x": 60.7,
+      "y": 27.2
     },
     "visibleQuests": [
       {
-        "id": 36,
-        "name": "Westfall Stew",
-        "level": 10,
-        "description": "Verna Furlbrow asks Xuthar to deliver her Westfall Stew recipe to Salma Saldean",
+        "id": null,
+        "name": "The Killing Fields",
+        "level": 15,
+        "description": "Slay 20 Harvest Watchers",
+        "current": 0,
+        "total": 20,
+        "item": "Harvest Watcher slain",
         "status": "in-progress",
-        "objectiveType": "delivery",
-        "target": "Salma Saldean"
+        "note": "Quest ID not verified from screenshot."
+      },
+      {
+        "id": null,
+        "name": "Goretusk Liver Pie",
+        "level": 12,
+        "description": "Gather 8 Goretusk Livers",
+        "current": 2,
+        "total": 8,
+        "item": "Goretusk Liver",
+        "status": "in-progress",
+        "note": "Quest ID not verified from screenshot."
+      },
+      {
+        "id": null,
+        "name": "Westfall Stew",
+        "level": 13,
+        "description": "Gather the ingredients for Westfall Stew",
+        "status": "in-progress",
+        "objectives": [
+          {
+            "name": "Stringy Vulture Meat",
+            "current": 1,
+            "total": 3
+          },
+          {
+            "name": "Murloc Eye",
+            "current": 0,
+            "total": 3
+          },
+          {
+            "name": "Goretusk Snout",
+            "current": 1,
+            "total": 3
+          },
+          {
+            "name": "Okra",
+            "current": 3,
+            "total": 3
+          }
+        ],
+        "note": "Ingredient-gathering stage, distinct from the preceding level-10 recipe-delivery stage; no claim of reward or exact quest ID."
       },
       {
         "id": 64,
@@ -1758,14 +1831,14 @@
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
+        "description": "Speak with Gryan Stoutmantle on Sentinel Hill",
         "status": "in-progress"
       },
       {
         "id": 97917,
         "name": "Camping 101: Enchanting",
         "level": 6,
-        "description": "Raise Enchanting skill to 20",
+        "description": "Raise your Enchanting skill to 20",
         "status": "in-progress"
       },
       {
@@ -1789,15 +1862,15 @@
         "id": 97925,
         "name": "Camping 101: Tailoring",
         "level": 6,
-        "description": "Raise Tailoring skill to 20",
+        "description": "Raise your Tailoring skill to 20",
         "status": "in-progress"
       }
     ],
-    "scope": "Seven objectives visible at Westfall 60.1,20.1; quest status and progress are as shown at screenshot timestamp. Do not infer unlisted quests completed/abandoned. This screenshot's filename time (13:41) PRECEDES the separately shared pumpkin-field screenshot (14:09), despite being uploaded afterward. No confirmation of completed Tailoring 101 despite earlier bag crafting.",
-    "earlierScreenshot": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
-    "priorRiverpawCompletion": "Player-reported 8/8 completion on 7 Nov, still preserved in currentQuestUpdates",
-    "nextDestination": "Salma Saldean (Westfall Stew delivery), then Gryan Stoutmantle (report); no hand-in verified",
-    "lastConfirmedLevelFromEarlierSnapshot": 10
+    "scope": "Nine visible quests only at 60.7,27.2 in Westfall screenshot 14:11. The prior level-10 Westfall Stew recipe delivery is not visible, but the new level-13 ingredient-collecting step is visible; do not mark delivery as officially completed solely from a change in the tracker. Previous quest snapshots are historical. Current level not visible in screenshot. Harvest Watcher 0/20 must not be confused with the earlier sighting at 14:09. Enchanting and Tailoring skills to 20 remain active, despite reported bag crafting.",
+    "previousSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
+    "previousFurlbrowSnapshot": "2026-11-07-westfall-furlbrow-seven-active-134131",
+    "lastConfirmedLevelFromEarlierSnapshot": 10,
+    "nextDestination": "Report to Gryan Stoutmantle still active; recipe/food ingredient quests active nearby."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -1877,18 +1950,18 @@
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
     "chapter": "Westfall · The Watchers in the Wheat",
-    "status": "Returned to Westfall; observing fields with Harvest Watchers after Stormwind errands, staves training and Tailoring bag crafting",
-    "nextConfirmedQuest": "Report to Gryan Stoutmantle still active in latest quest snapshot (13:41)",
-    "latestVisualEvidence": "WoWScrnShot_110726_140912.jpg",
-    "stage": "Westfall pumpkin fields amid Harvest Watchers",
+    "status": "Nine active quests visible at 14:11; preparing Westfall Stew, collecting Goretusk liver and observing Harvest Watchers while Gryan report remains pending",
+    "nextConfirmedQuest": "Report to Gryan Stoutmantle still active as of 14:11",
+    "latestVisualEvidence": "image(20261107-141136).png",
+    "stage": "Westfall · Saldean-area fields / harvest and cooking tasks",
     "latestPlayerReportedZone": "Westfall",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "New bags crafted, number/capacity/skill unspecified. Screenshot shows a level 14 Harvest Watcher, not combat or completion of quest.",
-    "latestScreenshot": "WoWScrnShot_110726_140912.jpg",
-    "questUpdate": "New active quests Westfall Stew and The Forgotten Heirloom at the Furlbrows; Report to Gryan Stoutmantle still active at 13:41; no turn-in shown",
-    "latestQuestScreenshot": "image(20261107-134131).png",
-    "chronologyNote": "The latest submitted quest panel screenshot was captured at 13:41, before the 14:09 Westfall Harvest Watchers field photo; latest photographed zone remains Westfall."
+    "latestScreenshot": "image(20261107-141136).png",
+    "questUpdate": "The Killing Fields 0/20; Goretusk Liver Pie 2/8; Westfall Stew ingredients 1/3 vulture meat, 0/3 murloc eye, 1/3 goretusk snout, 3/3 okra; Furlbrow's Pocket Watch 0/1",
+    "latestQuestScreenshot": "image(20261107-141136).png",
+    "chronologyNote": "13:41 Furlbrow quest screenshot, 14:09 field image, then 14:11 nine-quest Westfall screenshot."
   },
   "currentEquipmentReports": [
     {
@@ -1967,8 +2040,83 @@
       "hoggerKill": "Hogger defeated by Xuthar and 4 allies, reported earlier on 7 November; quest delivery status not independently confirmed.",
       "playerObservation": "Low perceived drop rate for Painted Gnoll Armbands after collecting 3 of 8.",
       "lastConfirmedLevelFromEarlierSnapshot": 10
+    },
+    {
+      "id": "2026-11-07-westfall-furlbrow-seven-active-134131",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 13:41:31 (screenshot filename, not upload time)",
+      "screenshot": "image(20261107-134131).png",
+      "zone": "Westfall · around Furlbrow's Wagon (near western Elwynn border)",
+      "coordinates": {
+        "x": 60.1,
+        "y": 20.1
+      },
+      "visibleQuests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew",
+          "level": 10,
+          "description": "Verna Furlbrow asks Xuthar to deliver her Westfall Stew recipe to Salma Saldean",
+          "status": "in-progress",
+          "objectiveType": "delivery",
+          "target": "Salma Saldean"
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
+          "status": "in-progress"
+        },
+        {
+          "id": 97917,
+          "name": "Camping 101: Enchanting",
+          "level": 6,
+          "description": "Raise Enchanting skill to 20",
+          "status": "in-progress"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+          "status": "in-progress"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings",
+          "level": 15,
+          "description": "Find A Simple Compass",
+          "current": 0,
+          "total": 1,
+          "item": "A Simple Compass",
+          "status": "in-progress"
+        },
+        {
+          "id": 97925,
+          "name": "Camping 101: Tailoring",
+          "level": 6,
+          "description": "Raise Tailoring skill to 20",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Seven objectives visible at Westfall 60.1,20.1; quest status and progress are as shown at screenshot timestamp. Do not infer unlisted quests completed/abandoned. This screenshot's filename time (13:41) PRECEDES the separately shared pumpkin-field screenshot (14:09), despite being uploaded afterward. No confirmation of completed Tailoring 101 despite earlier bag crafting.",
+      "earlierScreenshot": "2026-11-07-elwynn-gnoll-armbands-3-of-8",
+      "priorRiverpawCompletion": "Player-reported 8/8 completion on 7 Nov, still preserved in currentQuestUpdates",
+      "nextDestination": "Salma Saldean (Westfall Stew delivery), then Gryan Stoutmantle (report); no hand-in verified",
+      "lastConfirmedLevelFromEarlierSnapshot": 10
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
-  "latestQuestTrackerLocation": "Westfall, Furlbrow's Wagon area (60.1, 20.1; 13:41 screenshot)"
+  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-nine-active-141136",
+  "latestQuestTrackerLocation": "Westfall cultivated fields, 60.7, 27.2 (14:11 screenshot)"
 }

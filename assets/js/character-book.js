@@ -27,7 +27,7 @@
     const paragraphs=Array.isArray(chapter.paragraphs)?chapter.paragraphs:[];
     if(!paragraphs.length)return [{...chapter,type:'chapter',sourceId:chapter.id,sourceParagraphStart:0,part:1,partTotal:1}];
     const maxCharacters=compact==='print'?1550:compact?570:820;
-    const maxParagraphs=compact==='print'?4:compact?1:2;
+    const maxParagraphs=compact==='print'?4:2;
     const parts=[];let group=[],characters=0,start=0;
     for(let i=0;i<paragraphs.length;i++){
       const text=String(paragraphs[i]);
@@ -84,6 +84,7 @@
   function bookPage(page,index,printMode=false){
     const outer=make('article','book-page book-kind-'+(page.type||page.kind));
     outer.dataset.leaf=page.id;
+    if(page.type==='chapter')outer.setAttribute('aria-label',(page.chapter||'Chapter')+(page.partTotal>1?' · reading page '+page.part+' of '+page.partTotal:''));
     const inside=make('div','book-page-inner');
     outer.append(inside);
     if(page.type==='cover'){

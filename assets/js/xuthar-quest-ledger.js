@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-hogger-party-five';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-riverpaw-three-of-eight';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -37,19 +37,34 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · QUEST LEDGER · 6 NOVEMBER 2026');
-    const title=make('h2','','Seven roads and a tenth threshold.');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
+    const title=make('h2','','On the western road: new objectives.');
    title.id='xql-heading';
     const lead=make('p','','The 20:59 character screenshot confirms level 10 next to Guard Thomas in Elwynn Forest and completion of Further Concerns. The latest visible objective list has seven active missions, including Riverpaw Gnoll Bounty, WANTED: Hogger, Stormpike\'s Delivery and Report to Gryan Stoutmantle. The Jasperlode Mine was ready for turn-in at 20:33, but its subsequent delivery is not established. Rare Books shows Arcane Explainer found while Geomancy remains missing. Quest destinations in Loch Modan and Westfall do not establish travel there.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests in latest tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests · 6 Nov historical tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
     const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (20:59 screenshot + official profile) · Guard Thomas, Elwynn Forest · 73.9, 72.2');
    head.append(status);
    head.append(metrics);root.append(head);
+   // Latest visible screenshot is separate from the previous complete 6 Nov tracker.
+   const visible=data.latestVisibleObjectives;
+   if(visible && Array.isArray(visible.visibleQuests)){
+     const recent=make('div','xql-confirmed');
+     recent.id='xuthar-latest-quests';
+     recent.append(make('h3','xql-group-heading','7 November · Western Elwynn · Latest visible objectives'));
+     const note=make('p','xql-level-note','Position 28.5, 83.2 · Latest screenshot shows '+visible.visibleQuests.length+' quests. Only what is visible is recorded; missing quests are not automatically marked complete.'));
+     recent.append(note);
+     for(const q of visible.visibleQuests){
+       const line=make('p','xql-confirmed-item',q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')); 
+       recent.append(line);
+     }
+     recent.append(make('p','xql-level-note','Riverpaw Gnoll Bounty: 3 of 8 Painted Gnoll Armbands gathered. Continue against Riverpaw Runts and Outrunners, or return to this mission later.'));
+     root.append(recent);
+   }
    // New gameplay reports are separated from the historical 6 Nov quest-tracker snapshot.
    if(Array.isArray(data.latestPlayerMilestones)){
      data.latestPlayerMilestones.forEach(m=>{
@@ -90,7 +105,7 @@
    const board=make('div','xql-board');
    for(const [items,label,cls,ready] of [
      [data.readyForTurnIn,'Ready for turn-in · latest visible list','xql-group-ready',true],
-     [data.active,'Ongoing quests · 20:59 tracker','xql-group-active',false]
+     [data.active,'Earlier in-progress quests · 6 Nov 20:59','xql-group-active',false]
    ]){
      const group=make('div','xql-group '+cls);group.append(make('h3','xql-group-heading',label));
      const grid=make('div','xql-list');
@@ -114,7 +129,7 @@
     const foot=make('p','xql-provenance','Evidence: WoWScrnShot_110626_205922.jpg shows the level-ten milestone, completed Further Concerns, seven active missions and the Guard Thomas location in Elwynn. WoWScrnShot_110626_203303.jpg independently shows The Jasperlode Mine ready to report. Historical missions omitted from the latest objective list are not automatically marked complete or abandoned. The manual field ledger remains separate from the automated Blizzard completed-quest archive.');
    root.append(foot);
    const book=make('a','xql-book-link','Continue The Last Witness ↗');
-    book.href='book.html?character=xuthar#x-hogger-five-against-one';root.append(book);
+    book.href='book.html?character=xuthar#x-riverpaw-painted-armbands';root.append(book);
     const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
     armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
     armory.target='_blank';armory.rel='noopener noreferrer';
@@ -128,6 +143,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-latest-quests')requestAnimationFrame(()=>document.getElementById('xuthar-latest-quests')?.scrollIntoView({block:'start'}));
    if(location.hash==='#hogger-party-five')requestAnimationFrame(()=>document.getElementById('hogger-party-five')?.scrollIntoView({block:'start'}));
  }
  const mount=document.querySelector('#main');

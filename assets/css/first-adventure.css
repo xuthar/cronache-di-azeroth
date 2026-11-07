@@ -277,3 +277,8 @@
  .story-photo figcaption{min-height:0}
  .first-night-photostory{padding:0 18px 23px}
 }
+
+/* Westfall first crossing: readable four-stop chronology and long place name. */
+#xuthar-westfall-arrival .first-night-steps{grid-template-columns:repeat(2,minmax(0,1fr));max-width:750px}
+#xuthar-westfall-arrival .day-two-status>strong{font-size:clamp(1.7rem,2.5vw,2.45rem);overflow-wrap:anywhere}
+@media(max-width:550px){#xuthar-westfall-arrival .first-night-steps{grid-template-columns:1fr}}

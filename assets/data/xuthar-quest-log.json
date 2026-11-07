@@ -958,7 +958,7 @@
   "currentChronicleDate": "2026-11-07",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Westfall · golden cultivated fields with pumpkins and Harvest Watchers (screenshot 7 Nov 2026 14:09)",
+  "lastConfirmedLocation": "Goldshire · returned from Westfall by Hearthstone on 7 Nov 2026 (player report)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1583,6 +1583,29 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-hearthstone-return-goldshire",
+      "day": "2026-11-07",
+      "eventType": "rest-travel",
+      "title": "Hearthstone escape from Westfall to Goldshire after a difficult gathering day",
+      "source": "Direct player account following 16:43 quest screenshot",
+      "precedingSnapshotId": "2026-11-07-westfall-nine-quest-164338",
+      "locationBefore": "Westfall fields (precise 16:43 location not shown)",
+      "destinationReached": "Goldshire",
+      "travelMethod": "Hearthstone",
+      "inProgressPlan": "Continue toward Stormwind",
+      "challenges": "Inventory full, weariness from gathering quest ingredients, need to rest and manage profession-related errands",
+      "intendedEquipment": "Wand purchase (not yet confirmed)",
+      "completionStatus": {
+        "bagsEmptied": "not confirmed",
+        "rested": "not confirmed",
+        "wandPurchased": "not confirmed",
+        "professionCommissions": "not confirmed",
+        "arrivedInStormwind": "not confirmed"
+      },
+      "questFacts": "Westfall Stew 11/12 items; one Murloc Eye remains. Goretusk Liver Pie 2/8, Harvest Watchers 0/20. No quest completion inferred.",
+      "storyChapterId": "x-hearthstone-goldshire-return"
+    },
+    {
       "id": "2026-11-07-xuthar-level-11",
       "day": "2026-11-07",
       "eventType": "character-level",
@@ -1788,15 +1811,12 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-westfall-nine-active-141136",
+    "id": "2026-11-07-westfall-nine-quest-164338",
     "day": "2026-11-07",
-    "observedAt": "2026-11-07 14:11:36 (image filename timestamp)",
-    "screenshot": "image(20261107-141136).png",
-    "zone": "Westfall · cultivated fields near Saldean's Farm",
-    "coordinates": {
-      "x": 60.7,
-      "y": 27.2
-    },
+    "observedAt": "2026-11-07 16:43:38 (screenshot filename; position/zone not visible in crop)",
+    "screenshot": "image(20261107-164338).png",
+    "zone": "Westfall (based on player-reported questing location; screenshot crop does not show map coordinates)",
+    "coordinates": null,
     "visibleQuests": [
       {
         "id": null,
@@ -1806,8 +1826,7 @@
         "current": 0,
         "total": 20,
         "item": "Harvest Watcher slain",
-        "status": "in-progress",
-        "note": "Quest ID not verified from screenshot."
+        "status": "in-progress"
       },
       {
         "id": null,
@@ -1817,8 +1836,7 @@
         "current": 2,
         "total": 8,
         "item": "Goretusk Liver",
-        "status": "in-progress",
-        "note": "Quest ID not verified from screenshot."
+        "status": "in-progress"
       },
       {
         "id": null,
@@ -1829,17 +1847,17 @@
         "objectives": [
           {
             "name": "Stringy Vulture Meat",
-            "current": 1,
+            "current": 3,
             "total": 3
           },
           {
             "name": "Murloc Eye",
-            "current": 0,
+            "current": 2,
             "total": 3
           },
           {
             "name": "Goretusk Snout",
-            "current": 1,
+            "current": 3,
             "total": 3
           },
           {
@@ -1847,8 +1865,7 @@
             "current": 3,
             "total": 3
           }
-        ],
-        "note": "Ingredient-gathering stage, distinct from the preceding level-10 recipe-delivery stage; no claim of reward or exact quest ID."
+        ]
       },
       {
         "id": 64,
@@ -1864,7 +1881,7 @@
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Speak with Gryan Stoutmantle on Sentinel Hill",
+        "description": "Speak with Gryan Stoutmantle at Sentinel Hill",
         "status": "in-progress"
       },
       {
@@ -1899,11 +1916,12 @@
         "status": "in-progress"
       }
     ],
-    "scope": "Nine visible quests only at 60.7,27.2 in Westfall screenshot 14:11. The prior level-10 Westfall Stew recipe delivery is not visible, but the new level-13 ingredient-collecting step is visible; do not mark delivery as officially completed solely from a change in the tracker. Previous quest snapshots are historical. Current level not visible in screenshot. Harvest Watcher 0/20 must not be confused with the earlier sighting at 14:09. Enchanting and Tailoring skills to 20 remain active, despite reported bag crafting. Character level 11 was subsequently confirmed by the player and official Blizzard API snapshot; it does not change this historical screenshot's objectives.",
-    "previousSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
-    "previousFurlbrowSnapshot": "2026-11-07-westfall-furlbrow-seven-active-134131",
-    "lastConfirmedLevelFromEarlierSnapshot": 10,
-    "nextDestination": "Report to Gryan Stoutmantle still active; recipe/food ingredient quests active nearby."
+    "scope": "Nine quests in the 16:43 quest screenshot. Exact zone coordinates not shown. Westfall Stew 11/12 ingredients (3/3 Stringy Vulture Meat, 2/3 Murloc Eye, 3/3 Goretusk Snout, 3/3 Okra); Goretusk Liver Pie 2/8; The Killing Fields 0/20; heirloom 0/1; Gryan report and skills still pending. Shortly afterward, player reports using Hearthstone to return to Goldshire toward Stormwind. Do not infer rest, sale, wand purchase, or profession training as completed.",
+    "previousSnapshotId": "2026-11-07-westfall-nine-active-141136",
+    "characterLevel": 11,
+    "levelConfirmation": "Direct player report and official Blizzard EU snapshot earlier in the day",
+    "postSnapshotTravel": "Hearthstone to Goldshire; intending to head towards Stormwind",
+    "archivedAt": "2026-11-07"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -1982,22 +2000,30 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Westfall · The Watchers in the Wheat",
-    "status": "Nine active quests visible at 14:11; preparing Westfall Stew, collecting Goretusk liver and observing Harvest Watchers while Gryan report remains pending",
-    "nextConfirmedQuest": "Report to Gryan Stoutmantle still active as of 14:11",
-    "latestVisualEvidence": "image(20261107-141136).png",
-    "stage": "Westfall · Saldean-area fields / harvest and cooking tasks",
-    "latestPlayerReportedZone": "Westfall",
+    "chapter": "The Way Back Through the Hearth",
+    "status": "After a difficult day gathering ingredients in Westfall, Xuthar used his Hearthstone and returned to Goldshire; intends to go toward Stormwind for supplies and a wand.",
+    "nextConfirmedQuest": "Report to Gryan Stoutmantle remains active in latest 16:43 screenshot.",
+    "latestVisualEvidence": "image(20261107-164338).png",
+    "stage": "Goldshire · just returned by Hearthstone, preparing for Stormwind",
+    "latestPlayerReportedZone": "Elwynn Forest · Goldshire",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "Latest screenshot of nine Westfall objectives is historical 14:11; level 11 subsequently confirmed. No changes to quest states or points inferred.",
-    "latestScreenshot": "image(20261107-141136).png",
-    "questUpdate": "The Killing Fields 0/20; Goretusk Liver Pie 2/8; Westfall Stew ingredients 1/3 vulture meat, 0/3 murloc eye, 1/3 goretusk snout, 3/3 okra; Furlbrow's Pocket Watch 0/1",
-    "latestQuestScreenshot": "image(20261107-141136).png",
-    "chronologyNote": "13:41 Furlbrow quest screenshot, 14:09 field image, then 14:11 nine-quest Westfall screenshot.",
+    "latestScreenshot": "image(20261107-164338).png",
+    "questUpdate": "Westfall Stew 3/3 vulture meat, 2/3 murloc eyes, 3/3 goretusk snouts, 3/3 okra; Goretusk Liver Pie 2/8; The Killing Fields 0/20; The Forgotten Heirloom 0/1; Report to Gryan Stoutmantle still active.",
+    "latestQuestScreenshot": "image(20261107-164338).png",
+    "chronologyNote": "The 16:43 Westfall quest tracker predates the player's Hearthstone return to Goldshire. Arrival in Stormwind and completion of errands are not reported.",
     "characterLevel": 11,
     "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
-    "storyChapter": "Chapter XXXV · The Eleventh Threshold"
+    "storyChapter": "Chapter XXXVI · The Hearthward Road",
+    "latestPlayerReportedLocation": "Goldshire (after Hearthstone)",
+    "forthcomingErrands": [
+      "Free up bag space",
+      "Rest",
+      "Travel toward Stormwind",
+      "Purchase a wand (not yet confirmed)",
+      "Handle profession-related commissions/supplies (not yet confirmed)"
+    ]
   },
   "currentEquipmentReports": [
     {
@@ -2151,10 +2177,128 @@
       "priorRiverpawCompletion": "Player-reported 8/8 completion on 7 Nov, still preserved in currentQuestUpdates",
       "nextDestination": "Salma Saldean (Westfall Stew delivery), then Gryan Stoutmantle (report); no hand-in verified",
       "lastConfirmedLevelFromEarlierSnapshot": 10
+    },
+    {
+      "id": "2026-11-07-westfall-nine-active-141136",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 14:11:36 (image filename timestamp)",
+      "screenshot": "image(20261107-141136).png",
+      "zone": "Westfall · cultivated fields near Saldean's Farm",
+      "coordinates": {
+        "x": 60.7,
+        "y": 27.2
+      },
+      "visibleQuests": [
+        {
+          "id": null,
+          "name": "The Killing Fields",
+          "level": 15,
+          "description": "Slay 20 Harvest Watchers",
+          "current": 0,
+          "total": 20,
+          "item": "Harvest Watcher slain",
+          "status": "in-progress",
+          "note": "Quest ID not verified from screenshot."
+        },
+        {
+          "id": null,
+          "name": "Goretusk Liver Pie",
+          "level": 12,
+          "description": "Gather 8 Goretusk Livers",
+          "current": 2,
+          "total": 8,
+          "item": "Goretusk Liver",
+          "status": "in-progress",
+          "note": "Quest ID not verified from screenshot."
+        },
+        {
+          "id": null,
+          "name": "Westfall Stew",
+          "level": 13,
+          "description": "Gather the ingredients for Westfall Stew",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Stringy Vulture Meat",
+              "current": 1,
+              "total": 3
+            },
+            {
+              "name": "Murloc Eye",
+              "current": 0,
+              "total": 3
+            },
+            {
+              "name": "Goretusk Snout",
+              "current": 1,
+              "total": 3
+            },
+            {
+              "name": "Okra",
+              "current": 3,
+              "total": 3
+            }
+          ],
+          "note": "Ingredient-gathering stage, distinct from the preceding level-10 recipe-delivery stage; no claim of reward or exact quest ID."
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Speak with Gryan Stoutmantle on Sentinel Hill",
+          "status": "in-progress"
+        },
+        {
+          "id": 97917,
+          "name": "Camping 101: Enchanting",
+          "level": 6,
+          "description": "Raise your Enchanting skill to 20",
+          "status": "in-progress"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+          "status": "in-progress"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings",
+          "level": 15,
+          "description": "Find A Simple Compass",
+          "current": 0,
+          "total": 1,
+          "item": "A Simple Compass",
+          "status": "in-progress"
+        },
+        {
+          "id": 97925,
+          "name": "Camping 101: Tailoring",
+          "level": 6,
+          "description": "Raise your Tailoring skill to 20",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "Nine visible quests only at 60.7,27.2 in Westfall screenshot 14:11. The prior level-10 Westfall Stew recipe delivery is not visible, but the new level-13 ingredient-collecting step is visible; do not mark delivery as officially completed solely from a change in the tracker. Previous quest snapshots are historical. Current level not visible in screenshot. Harvest Watcher 0/20 must not be confused with the earlier sighting at 14:09. Enchanting and Tailoring skills to 20 remain active, despite reported bag crafting. Character level 11 was subsequently confirmed by the player and official Blizzard API snapshot; it does not change this historical screenshot's objectives.",
+      "previousSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
+      "previousFurlbrowSnapshot": "2026-11-07-westfall-furlbrow-seven-active-134131",
+      "lastConfirmedLevelFromEarlierSnapshot": 10,
+      "nextDestination": "Report to Gryan Stoutmantle still active; recipe/food ingredient quests active nearby."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-nine-active-141136",
-  "latestQuestTrackerLocation": "Westfall cultivated fields, 60.7, 27.2 (14:11 screenshot)",
+  "latestQuestTrackerSnapshotId": "2026-11-07-westfall-nine-quest-164338",
+  "latestQuestTrackerLocation": "Quest panel recorded in Westfall on 7 Nov at 16:43; exact coordinate unavailable",
   "lastLevelMilestone": {
     "level": 11,
     "date": "2026-11-07",

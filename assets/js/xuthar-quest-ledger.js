@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-enchanting-completed';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-eastvale-planned';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -50,7 +50,18 @@
     const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below records Westfall at 16:43, before the reported Hearthstone return to Goldshire; exact coordinates are not shown in that screenshot.');
    head.append(status);
    head.append(metrics);root.append(head);
-   const enchanted=data.currentQuestUpdates?.camping101Enchanting;
+   if(Array.isArray(data.plannedItinerary)){
+      const eastvale=data.plannedItinerary.find(x=>x.id==='2026-11-07-next-destination-eastvale-logging-camp');
+      if(eastvale){
+         const plan=make('div','xql-confirmed');
+         plan.id='xuthar-eastvale-next';
+         plan.append(make('h3','xql-group-heading','Next destination · Eastvale Logging Camp'));
+         plan.append(make('p','xql-confirmed-item','Xuthar plans to complete some quests in eastern Elwynn Forest before returning to Westfall.'));
+         plan.append(make('p','xql-level-note','Planned route only: arrival, new quests and completions have not yet been documented. Westfall objectives remain unfinished.'));
+         root.append(plan);
+      }
+   }
+      const enchanted=data.currentQuestUpdates?.camping101Enchanting;
    if(enchanted?.status==='completed-player-reported'){
       const completedPanel=make('div','xql-confirmed');
       completedPanel.id='xuthar-enchanting-completed';
@@ -240,6 +251,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-eastvale-next')requestAnimationFrame(()=>document.getElementById('xuthar-eastvale-next')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-enchanting-completed')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-completed')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-hearthstone-return')requestAnimationFrame(()=>document.getElementById('xuthar-hearthstone-return')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-eleven')requestAnimationFrame(()=>document.getElementById('xuthar-level-eleven')?.scrollIntoView({block:'center'}));

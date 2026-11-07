@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-06",
+  "recordedAt": "2026-11-07",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 10,
-  "characterLevelSource": "WoWScrnShot_110626_205922.jpg visible level 10 notification at 20:59:16 in game chat and on screen, next to Guard Thomas; corroborated by official Blizzard API.",
-  "characterLevelRecordedAt": "2026-11-06 20:59:16 (screenshot time)",
+  "characterLevel": 11,
+  "characterLevelSource": "Direct player confirmation on 7 November 2026 corroborated by the official Blizzard EU Forever live-blizzard snapshot, exported 2026-11-07T14:56:46Z (15:56:46 Europe/Rome).",
+  "characterLevelRecordedAt": "2026-11-07 15:56:46 Europe/Rome (official published snapshot; exact level-up moment not established)",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -955,7 +955,7 @@
   ],
   "currentSessionId": "day-02-20261106",
   "currentSessionStatus": "evening-quest-tracker-ten-ongoing",
-  "currentChronicleDate": "2026-11-06",
+  "currentChronicleDate": "2026-11-07",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
   "lastConfirmedLocation": "Westfall · golden cultivated fields with pumpkins and Harvest Watchers (screenshot 7 Nov 2026 14:09)",
@@ -1434,7 +1434,7 @@
     "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
     "recordedAt": "2026-11-06"
   },
-  "characterLevelConfirmation": "official-api-read-only-probe-and-player-report",
+  "characterLevelConfirmation": "player-report-and-blizzard-official-api-snapshot",
   "levelMilestonesReported": [
     {
       "level": 9,
@@ -1452,6 +1452,16 @@
       "levelUpTime": "not established",
       "xp": "unknown",
       "apiStatus": "Awaiting public Armory/API read after logout, not verified"
+    },
+    {
+      "level": 11,
+      "date": "2026-11-07",
+      "source": "Player explicitly confirmed 'sono 11 ora' and BlizzardOfficialAPI on EU live-blizzard published snapshot corroborated level 11",
+      "location": "Westfall recent gameplay area, exact level-up position unknown",
+      "levelUpTime": "exact time unknown, confirmed by 15:56:46 CET published snapshot",
+      "xp": "unknown",
+      "apiStatus": "verified on official EU snapshot",
+      "snapshotExportedAt": 1794063406
     }
   ],
   "officialArmoryCheck": {
@@ -1572,6 +1582,29 @@
     }
   ],
   "latestPlayerMilestones": [
+    {
+      "id": "2026-11-07-xuthar-level-11",
+      "day": "2026-11-07",
+      "eventType": "character-level",
+      "level": 11,
+      "previousLevel": 10,
+      "title": "Xuthar reaches level 11",
+      "playerReport": "'sono 11 ora'",
+      "independentlyVerified": true,
+      "officialSnapshot": {
+        "source": "BlizzardOfficialAPI",
+        "region": "eu",
+        "branch": "live-blizzard",
+        "publishedFile": "forever-progress.json",
+        "exportedAt": 1794063406,
+        "profileLevel": 11
+      },
+      "exactLevelUpPosition": "Not established (recent quest activity in Westfall).",
+      "exactLevelUpTime": "Not established",
+      "xp": "Not supplied",
+      "questsAffected": "None inferred from level change",
+      "storyChapterId": "x-westfall-eleventh-threshold"
+    },
     {
       "id": "2026-11-07-westfall-nine-active-food-harvest",
       "day": "2026-11-07",
@@ -1866,7 +1899,7 @@
         "status": "in-progress"
       }
     ],
-    "scope": "Nine visible quests only at 60.7,27.2 in Westfall screenshot 14:11. The prior level-10 Westfall Stew recipe delivery is not visible, but the new level-13 ingredient-collecting step is visible; do not mark delivery as officially completed solely from a change in the tracker. Previous quest snapshots are historical. Current level not visible in screenshot. Harvest Watcher 0/20 must not be confused with the earlier sighting at 14:09. Enchanting and Tailoring skills to 20 remain active, despite reported bag crafting.",
+    "scope": "Nine visible quests only at 60.7,27.2 in Westfall screenshot 14:11. The prior level-10 Westfall Stew recipe delivery is not visible, but the new level-13 ingredient-collecting step is visible; do not mark delivery as officially completed solely from a change in the tracker. Previous quest snapshots are historical. Current level not visible in screenshot. Harvest Watcher 0/20 must not be confused with the earlier sighting at 14:09. Enchanting and Tailoring skills to 20 remain active, despite reported bag crafting. Character level 11 was subsequently confirmed by the player and official Blizzard API snapshot; it does not change this historical screenshot's objectives.",
     "previousSnapshotId": "2026-11-07-westfall-furlbrow-seven-active-134131",
     "previousFurlbrowSnapshot": "2026-11-07-westfall-furlbrow-seven-active-134131",
     "lastConfirmedLevelFromEarlierSnapshot": 10,
@@ -1957,11 +1990,14 @@
     "latestPlayerReportedZone": "Westfall",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
-    "note": "New bags crafted, number/capacity/skill unspecified. Screenshot shows a level 14 Harvest Watcher, not combat or completion of quest.",
+    "note": "Latest screenshot of nine Westfall objectives is historical 14:11; level 11 subsequently confirmed. No changes to quest states or points inferred.",
     "latestScreenshot": "image(20261107-141136).png",
     "questUpdate": "The Killing Fields 0/20; Goretusk Liver Pie 2/8; Westfall Stew ingredients 1/3 vulture meat, 0/3 murloc eye, 1/3 goretusk snout, 3/3 okra; Furlbrow's Pocket Watch 0/1",
     "latestQuestScreenshot": "image(20261107-141136).png",
-    "chronologyNote": "13:41 Furlbrow quest screenshot, 14:09 field image, then 14:11 nine-quest Westfall screenshot."
+    "chronologyNote": "13:41 Furlbrow quest screenshot, 14:09 field image, then 14:11 nine-quest Westfall screenshot.",
+    "characterLevel": 11,
+    "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
+    "storyChapter": "Chapter XXXV · The Eleventh Threshold"
   },
   "currentEquipmentReports": [
     {
@@ -2118,5 +2154,13 @@
     }
   ],
   "latestQuestTrackerSnapshotId": "2026-11-07-westfall-nine-active-141136",
-  "latestQuestTrackerLocation": "Westfall cultivated fields, 60.7, 27.2 (14:11 screenshot)"
+  "latestQuestTrackerLocation": "Westfall cultivated fields, 60.7, 27.2 (14:11 screenshot)",
+  "lastLevelMilestone": {
+    "level": 11,
+    "date": "2026-11-07",
+    "verification": "Player + official Blizzard EU API",
+    "officialSnapshotExportedAt": 1794063406,
+    "priorMilestoneLevel": 10,
+    "levelUpLocation": "not confirmed"
+  }
 }

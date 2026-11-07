@@ -1573,6 +1573,28 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-stormwind-errands-staves-training",
+      "day": "2026-11-07",
+      "title": "Return to Stormwind · Staves learned · New staff",
+      "eventType": "travel-training-equipment",
+      "location": "Stormwind City",
+      "sequence": "After first entering Westfall from Elwynn on 7 November, Xuthar returned to Stormwind for errands.",
+      "learnedWeaponProficiency": "Staves",
+      "newEquipment": {
+        "slot": "weapon",
+        "type": "staff",
+        "name": null,
+        "stats": null,
+        "source": null,
+        "equippedStatus": "not independently shown"
+      },
+      "errands": "Personal errands reported; exact nature and outcomes not specified.",
+      "nextQuest": "Report to Gryan Stoutmantle remains outstanding unless later in-game information confirms otherwise.",
+      "source": "Direct user report, 7 November 2026",
+      "officialVerification": "Neither staff training nor this trip is asserted as confirmed by the API.",
+      "storyChapterId": "x-stormwind-return-first-staff"
+    },
+    {
       "id": "2026-11-07-riverpaw-gnoll-bounty-finished",
       "day": "2026-11-07",
       "title": "Riverpaw Gnoll Bounty completed",
@@ -1752,9 +1774,26 @@
   "latestPhotographedAt": "2026-11-07 12:08:08",
   "currentJourney": {
     "chapter": "Westfall · First Crossing",
-    "status": "entered Westfall, approaching Sentinel Hill",
+    "status": "Returned to Stormwind to attend to errands and learned to use staves; new staff obtained",
     "nextConfirmedQuest": "Report to Gryan Stoutmantle remains the next planned turn-in, not yet confirmed",
     "latestVisualEvidence": "WoWScrnShot_110726_120808.jpg",
-    "stage": "Westfall first farmland"
-  }
+    "stage": "Stormwind revisit after Westfall entry",
+    "latestPlayerReportedZone": "Stormwind City",
+    "learnedWeaponProficiency": "Staves",
+    "staffName": "Unspecified",
+    "note": "Previously confirmed first arrival to Westfall remains in the historical timeline. No new quest hand-ins or level change inferred."
+  },
+  "currentEquipmentReports": [
+    {
+      "id": "2026-11-07-stormwind-errands-staves-training",
+      "day": "2026-11-07",
+      "character": "Xuthar Morvayne",
+      "type": "staff",
+      "staffName": "not yet specified",
+      "training": "Staves proficiency learned",
+      "itemObtained": true,
+      "itemEquipped": "not confirmed",
+      "source": "player report"
+    }
+  ]
 }

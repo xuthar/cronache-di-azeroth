@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-07T20:06:07.701Z"
+    "checkedAt": "2026-11-07T20:49:09.796Z"
   },
   "news": [
+    {
+      "title": "Quests Give No Gold at Level 60 in WoW: Forever - \"Intentional Change\" According to Jokerd",
+      "url": "https://www.wowhead.com/news=383803/quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to",
+      "category": "Forever",
+      "publishedAt": "2026-11-07T20:19:50.000Z"
+    },
     {
       "title": "GMs Appeared In-Person to Celebrate the Launch of WoW: Forever",
       "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383798/wow-forever-makes-history-with-biggest-launch-ever",
       "category": "Forever",
       "publishedAt": "2026-11-07T04:18:40.000Z"
-    },
-    {
-      "title": "World First Level 60s in WoW: Forever in Less Than Three Days",
-      "url": "https://www.wowhead.com/news=383797/world-first-level-60s-in-wow-forever-in-less-than-three-days",
-      "category": "Forever",
-      "publishedAt": "2026-11-07T03:11:19.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-07T20:06:07.701Z",
-  "generatedAt": "2026-11-07T20:06:07.696Z",
+  "newsUpdatedAt": "2026-11-07T20:49:09.795Z",
+  "generatedAt": "2026-11-07T20:49:09.726Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 07 Nov 2026 14:06:05 -0600",
+  "newsFeedBuiltAt": "Sat, 07 Nov 2026 14:49:09 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

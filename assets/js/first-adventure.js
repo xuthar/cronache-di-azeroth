@@ -3,6 +3,39 @@
   'use strict';
   const page=document.body.dataset.page;
   const book='book.html?character=xuthar#x-rain-over-goldshire';
+  function westfallArrivalPanel(){
+    const section=document.createElement('section');
+    section.id='xuthar-westfall-arrival';
+    section.className='day-two-panel wrap';
+    section.setAttribute('aria-labelledby','westfall-arrival-title');
+    section.innerHTML=`
+      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · WESTFALL</div>
+      <div class="day-two-layout">
+        <div>
+          <h2 id="westfall-arrival-title">Beyond the lions.<br><em>The golden country begins.</em></h2>
+          <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
+          <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
+            <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
+            <div><b>10:56</b><span>Western Elwynn · the forest road</span></div>
+            <div><b>12:00</b><span>The border bridge · lions and Alliance banners</span></div>
+            <div><b>12:08</b><span>Westfall · first farms and golden fields</span></div>
+          </div>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-westfall-first-crossing">Read Chapter XXXI · The Golden Country ↗</a>
+            <a href="xuthar.html#xuthar-quests">View the living quest record ↗</a>
+          </div>
+          <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
+        </div>
+        <aside class="day-two-status" aria-label="Newly confirmed region">
+          <span>THE LAST WITNESS · CHAPTER XXXI</span>
+          <strong>WESTFALL</strong>
+          <p>THE WESTERN BORDER IS BEHIND HIM</p>
+          <b>First arrival · 7 November</b>
+          <small>Four original photographs establish the journey from Goldshire to the eastern farmlands.</small>
+        </aside>
+      </div>`;
+    return section;
+  }
   function hoggerMilestonePanel(){
     const section=document.createElement('section');
     section.id='xuthar-hogger-20261107';
@@ -131,6 +164,7 @@
     hero.insertAdjacentElement('afterend',section);
     section.insertAdjacentElement('beforebegin',dayTwoPanel());
     hero.insertAdjacentElement('afterend',hoggerMilestonePanel());
+    hero.insertAdjacentElement('afterend',westfallArrivalPanel());
   }
   if(page==='xuthar'){
     const opening=document.querySelector('.xu-opening');
@@ -148,5 +182,6 @@
     opening.parentNode.insertBefore(panel,opening);
     panel.insertAdjacentElement('beforebegin',hoggerMilestonePanel());
     panel.insertAdjacentElement('beforebegin',dayTwoPanel());
+    document.getElementById('xuthar-hogger-20261107')?.insertAdjacentElement('beforebegin',westfallArrivalPanel());
   }
 })();

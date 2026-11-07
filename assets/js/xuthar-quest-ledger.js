@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-westfall-watchers';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-furlbrow-seven-quests';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,7 +40,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','On the western road: new objectives.');
    title.id='xql-heading';
-    const lead=make('p','','Xuthar defeated Hogger alongside four adventurers and subsequently completed Riverpaw Gnoll Bounty on 7 November. His last shared objective list in western Elwynn showed 3/8 Painted Gnoll Armbands before the mission was finished. The older 6 November objective list is retained below as history; other quests remain open or unverified until a newer snapshot establishes their fate.');
+    const lead=make('p','','At Furlbrow’s roadside wagon in Westfall, two newly visible quests await Xuthar: Westfall Stew and The Forgotten Heirloom. Seven active objectives appear in the 13:41 screenshot, including Report to Gryan Stoutmantle. The completed Riverpaw hunt, Hogger's defeat with four allies and the return to Westfall remain part of the journey. Earlier quest panels below are preserved as historical records.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests · 6 Nov historical tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
@@ -70,15 +70,14 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Western Elwynn · Latest visible objectives'));
-     const note=make('p','xql-level-note','Position 28.5, 83.2 · Latest screenshot shows '+visible.visibleQuests.length+' quests. Only what is visible is recorded; missing quests are not automatically marked complete.'));
+     recent.append(make('h3','xql-group-heading','7 November · Westfall · Furlbrow’s Wagon · Seven active quests'));
+     const note=make('p','xql-level-note','Position '+visible.coordinates.x+', '+visible.coordinates.y+' · '+visible.zone+' · '+visible.visibleQuests.length+' active quests shown at 13:41. This capture predates the later 14:09 field photograph. Unlisted quests are not automatically marked completed.');
      recent.append(note);
      for(const q of visible.visibleQuests){
-       const done=q.id===11&&data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
-       const line=make('p','xql-confirmed-item',q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||'')+' (earlier screenshot)':'')+(done?' · ✓ now completed (player reported)':'')); 
+       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description);
        recent.append(line);
      }
-     recent.append(make('p','xql-level-note','The 3/8 Riverpaw count belongs to the earlier screenshot. The subsequent completion is recorded separately; the remaining visible quests are not assumed finished.'));
+     recent.append(make('p','xql-level-note','The previous 3/8 Riverpaw objective list is archived; Riverpaw was completed later. Although Xuthar crafted bags, Camping 101: Tailoring remains listed as active at 13:41. The seven visible quests remain in progress.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');
@@ -176,7 +175,7 @@
     const foot=make('p','xql-provenance','Evidence: WoWScrnShot_110626_205922.jpg shows the level-ten milestone, completed Further Concerns, seven active missions and the Guard Thomas location in Elwynn. WoWScrnShot_110626_203303.jpg independently shows The Jasperlode Mine ready to report. Historical missions omitted from the latest objective list are not automatically marked complete or abandoned. The manual field ledger remains separate from the automated Blizzard completed-quest archive.');
    root.append(foot);
    const book=make('a','xql-book-link','Continue The Last Witness ↗');
-    book.href='book.html?character=xuthar#x-riverpaw-painted-armbands';root.append(book);
+    book.href='book.html?character=xuthar#x-westfall-fields-harvest-watchers';root.append(book);
     const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
     armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
     armory.target='_blank';armory.rel='noopener noreferrer';

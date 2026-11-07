@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-riverpaw-completed';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-stormwind-staves';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -83,6 +83,20 @@
      }
      root.append(recent);
    }
+   // An equipment milestone is independent of completed quest records and the Blizzard feed.
+   if(Array.isArray(data.latestPlayerMilestones)){
+     const staff=data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-stormwind-errands-staves-training');
+     if(staff){
+       const entry=make('div','xql-confirmed');
+       entry.id='xuthar-staves-training';
+       entry.append(make('h3','xql-group-heading','7 November · Back to Stormwind · A new staff'));
+       entry.append(make('p','xql-confirmed-item','Xuthar returned to Stormwind on errands, learned to wield staves and acquired a new staff.'));
+       entry.append(make('p','xql-level-note','The staff\'s name, source, attributes and equipped status are not yet recorded. No quest delivery or additional character level is inferred.'));
+       const link=make('a','xql-book-link','Read Chapter XXXII · The Staff and the City ↗');
+       link.href='book.html?character=xuthar#x-stormwind-return-first-staff';
+       entry.append(link);root.append(entry);
+     }
+   }
    // New gameplay reports are separated from the historical 6 Nov quest-tracker snapshot.
    if(Array.isArray(data.latestPlayerMilestones)){
      data.latestPlayerMilestones.forEach(m=>{
@@ -161,6 +175,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-staves-training')requestAnimationFrame(()=>document.getElementById('xuthar-staves-training')?.scrollIntoView({block:'center'}));
    if(location.hash==='#riverpaw-completion-status')requestAnimationFrame(()=>document.getElementById('riverpaw-completion-status')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-latest-quests')requestAnimationFrame(()=>document.getElementById('xuthar-latest-quests')?.scrollIntoView({block:'start'}));
    if(location.hash==='#hogger-party-five')requestAnimationFrame(()=>document.getElementById('hogger-party-five')?.scrollIntoView({block:'start'}));

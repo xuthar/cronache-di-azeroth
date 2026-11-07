@@ -26,6 +26,8 @@
           </div>
           <p><strong>A return to Stormwind.</strong> After his first crossing into Westfall, Xuthar travelled back to Stormwind on errands, learned how to wield staves and obtained a new, as-yet-unnamed staff. His visit to Gryan Stoutmantle remains ahead.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-stormwind-return-first-staff">Read Chapter XXXII · The Staff and the City ↗</a></div>
+          <p><strong>14:09 · Westfall's Harvest Watchers.</strong> After crafting bags with Tailoring and finishing his Stormwind visit, Xuthar returned to the golden fields. A farm of pumpkins, weathered buildings and dangerous level-14 Harvest Watchers now lies before him. This is a sighting, not a recorded victory.</p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Read Chapter XXXIII · The Watchers in the Wheat ↗</a></div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
@@ -33,7 +35,7 @@
           <strong>WESTFALL</strong>
           <p>THE WESTERN BORDER IS BEHIND HIM</p>
           <b>First arrival · 7 November</b>
-          <small>Four original photographs establish the journey from Goldshire to the eastern farmlands.</small>
+          <small>First crossing and a later return through the pumpkin fields among Harvest Watchers.</small>
         </aside>
       </div>`;
     return section;

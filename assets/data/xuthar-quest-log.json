@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 11,
-  "characterLevelSource": "Direct player confirmation on 7 November 2026 corroborated by the official Blizzard EU Forever live-blizzard snapshot, exported 2026-11-07T14:56:46Z (15:56:46 Europe/Rome).",
-  "characterLevelRecordedAt": "2026-11-07 15:56:46 Europe/Rome (official published snapshot; exact level-up moment not established)",
+  "characterLevel": 12,
+  "characterLevelSource": "Screenshot WoWScrnShot_110726_205511.jpg showing Xuthar Morvayne level 12 at 20:55 on 7 November 2026; official Blizzard EU snapshot checked earlier showed level 11.",
+  "characterLevelRecordedAt": "2026-11-07 20:55:11 Europe/Rome (level 12 visibly displayed; exact level-up time unknown)",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -961,7 +961,7 @@
   "currentChronicleDate": "2026-11-07",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Eastern Elwynn Forest · 74.0,55.0 (18:18 screenshot; Eastvale questing region)",
+  "lastConfirmedLocation": "Elwynn Forest · riverside near murloc village 76.2,84.2 (20:55:11 screenshot)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1437,7 +1437,7 @@
     "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
     "recordedAt": "2026-11-06"
   },
-  "characterLevelConfirmation": "player-report-and-blizzard-official-api-snapshot",
+  "characterLevelConfirmation": "in-game-screenshot-verified-awaiting-new-official-api-snapshot",
   "levelMilestonesReported": [
     {
       "level": 9,
@@ -1465,6 +1465,15 @@
       "xp": "unknown",
       "apiStatus": "verified on official EU snapshot",
       "snapshotExportedAt": 1794063406
+    },
+    {
+      "level": 12,
+      "date": "2026-11-07",
+      "source": "Screenshot shows Xuthar Morvayne level 12",
+      "levelUpTime": "unknown; already level 12 at 20:55",
+      "location": "unknown; snapshot taken in Elwynn Forest near eastern murloc settlement",
+      "officialSnapshotStatus": "last checked API snapshot level 11",
+      "xp": "not shown"
     }
   ],
   "officialArmoryCheck": {
@@ -1585,6 +1594,54 @@
     }
   ],
   "latestPlayerMilestones": [
+    {
+      "id": "2026-11-07-eastvale-murlocs-level-12-205511",
+      "day": "2026-11-07",
+      "time": "20:55:11–20:55:14",
+      "eventType": "level-and-quest-snapshot",
+      "title": "Level 12 at the riverside murloc village; Downstream ready",
+      "location": "Elwynn Forest 76.2,84.2",
+      "sources": [
+        "WoWScrnShot_110726_205511.jpg",
+        "WoWScrnShot_110726_205514.jpg"
+      ],
+      "level": 12,
+      "confirmedFacts": [
+        "Level 12 visibly displayed by Xuthar Morvayne portrait",
+        "Downstream ready for turn-in",
+        "Waterlogged Toolbox received in chat just before image",
+        "Deliver Thomas' Report active",
+        "Murloc Lurker and Murloc Forager visible near huts and river",
+        "Other adventurers and glowing magic visible, but no team identities/party inference"
+      ],
+      "inconsistency": "Westfall Stew Murloc Eye 2/3 in latest 20:55 screenshot, despite earlier 3/3 at 18:39. Cause unknown.",
+      "notEstablished": [
+        "Rolf's Fate quest officially completed/handed in",
+        "Prior ready Eastvale quests officially handed in",
+        "Downstream handed in",
+        "Wand purchased",
+        "Level-up exact minute"
+      ],
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve"
+    },
+    {
+      "id": "2026-11-07-eastvale-camp-183857",
+      "day": "2026-11-07",
+      "time": "18:38:57",
+      "eventType": "landscape-observation",
+      "title": "The living timber camp of Eastvale",
+      "location": "Eastvale Logging Camp area, Elwynn Forest",
+      "source": "WoWScrnShot_110726_183857.jpg",
+      "confirmedFacts": [
+        "Xuthar stands among logging camp buildings, stacks of timber, cut trunks, a well and forested paths",
+        "Warm dusk light illuminates the large wooden sawmill/logging structures"
+      ],
+      "notEstablished": [
+        "Talked to a quest giver in this particular screenshot",
+        "Any turn-in or earned XP in this image"
+      ],
+      "storyChapterId": "x-eastvale-camp-sawdust-and-roads"
+    },
     {
       "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
       "day": "2026-11-07",
@@ -1891,97 +1948,46 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
+    "id": "2026-11-07-eastvale-murloc-river-nine-205511",
     "day": "2026-11-07",
-    "observedAt": "2026-11-07 18:39:27 (screenshot filename)",
-    "screenshot": "image(20261107-183927).png",
-    "zone": "Elwynn Forest · eastern Eastvale questing region",
-    "coordinates": null,
-    "coordinateNote": "Top location text partly clipped; exact coordinate intentionally not asserted.",
+    "observedAt": "2026-11-07 20:55:11 (screenshot filename)",
+    "screenshot": "WoWScrnShot_110726_205511.jpg",
+    "zone": "Elwynn Forest · eastern riverbank / murloc settlement",
+    "coordinates": {
+      "x": 76.2,
+      "y": 84.2
+    },
     "visibleQuests": [
       {
         "id": null,
-        "name": "Discover Rolf's Fate",
+        "name": "Deliver Thomas' Report",
         "level": 10,
-        "description": "Search the murloc village for Rolf and signs of his death",
-        "status": "in-progress"
-      },
-      {
-        "id": null,
-        "name": "Protect the Frontier",
-        "level": 10,
-        "description": "Eliminate prowlers and Young Forest Bears threatening the eastern frontier",
-        "status": "ready-for-turn-in",
-        "readyForTurnIn": true,
-        "objectives": [
-          {
-            "name": "Prowler slain",
-            "required": 8,
-            "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
-          },
-          {
-            "name": "Young Forest Bear slain",
-            "required": 5,
-            "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
-          }
-        ],
-        "note": "Ready for turn-in is visible, but no hand-in or reward confirmed."
+        "description": "Report to Marshal Dughan in Goldshire",
+        "status": "in-progress",
+        "note": "Newly visible follow-up-style mission. Previous Rolf quest disappearance does not by itself prove hand-in."
       },
       {
         "id": null,
         "name": "Downstream",
         "level": 10,
-        "description": "Recover three waterlogged tools",
-        "status": "in-progress",
+        "description": "Recover the waterlogged tools",
+        "status": "ready-for-turn-in",
+        "readyForTurnIn": true,
         "objectives": [
           {
             "name": "Waterlogged Axe",
-            "current": 0,
-            "total": 1
+            "status": "objective-ready; counts not shown"
           },
           {
             "name": "Waterlogged Saw",
-            "current": 0,
-            "total": 1
+            "status": "objective-ready; counts not shown"
           },
           {
             "name": "Waterlogged Toolbox",
-            "current": 0,
-            "total": 1
+            "status": "objective-ready; loot visible in chat at 20:54:43"
           }
-        ]
-      },
-      {
-        "id": null,
-        "name": "Good Steel",
-        "level": 7,
-        "description": "Recover four Mining Tools",
-        "status": "ready-for-turn-in",
-        "readyForTurnIn": true,
-        "totalRequired": 4,
-        "item": "Mining Tools",
-        "note": "Ready for turn-in indicates objective complete, but reward and hand-in not verified."
-      },
-      {
-        "id": null,
-        "name": "A Bundle of Trouble",
-        "level": 9,
-        "description": "Collect eight Bundles of Wood",
-        "current": 0,
-        "total": 8,
-        "item": "Bundle of Wood",
-        "status": "in-progress"
-      },
-      {
-        "id": null,
-        "name": "Red Linen Goods",
-        "level": 9,
-        "description": "Recover six Red Linen Bandanas",
-        "status": "ready-for-turn-in",
-        "readyForTurnIn": true,
-        "totalRequired": 6,
-        "item": "Red Linen Bandana",
-        "note": "Ready for turn-in; no hand-in verified."
+        ],
+        "note": "Ready for turn-in. No hand-in/reward indicated. Screenshot chat explicitly records Waterlogged Toolbox received at 20:54:43."
       },
       {
         "id": null,
@@ -1997,7 +2003,7 @@
         "id": null,
         "name": "Goretusk Liver Pie",
         "level": 12,
-        "description": "Collect eight Goretusk Livers",
+        "description": "Gather eight Goretusk Livers",
         "current": 2,
         "total": 8,
         "item": "Goretusk Liver",
@@ -2007,10 +2013,10 @@
         "id": null,
         "name": "Westfall Stew",
         "level": 13,
-        "description": "Gather ingredients for Salma Saldean's Westfall Stew",
+        "description": "Gather required ingredients for Westfall Stew",
         "status": "in-progress",
-        "objectiveItemsComplete": true,
-        "readyForTurnInBasedOnVisibleItems": true,
+        "objectiveItemsComplete": false,
+        "readyForTurnInBasedOnVisibleItems": false,
         "objectives": [
           {
             "name": "Stringy Vulture Meat",
@@ -2019,7 +2025,7 @@
           },
           {
             "name": "Murloc Eye",
-            "current": 3,
+            "current": 2,
             "total": 3
           },
           {
@@ -2033,7 +2039,7 @@
             "total": 3
           }
         ],
-        "note": "All four sets of ingredient ticks green; hand-in not confirmed."
+        "note": "20:55 screenshot shows Murloc Eye 2/3; 18:39 and 18:18 earlier snapshots showed 3/3. Conflicting observations preserved, reason not known. Do not infer why."
       },
       {
         "id": 64,
@@ -2049,14 +2055,32 @@
         "id": 109,
         "name": "Report to Gryan Stoutmantle",
         "level": 10,
-        "description": "Talk to Gryan Stoutmantle at Sentinel Hill",
+        "description": "Speak to Gryan Stoutmantle at Sentinel Hill",
+        "status": "in-progress"
+      },
+      {
+        "id": 353,
+        "name": "Stormpike's Delivery",
+        "level": 15,
+        "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+        "status": "in-progress"
+      },
+      {
+        "id": 399,
+        "name": "Humble Beginnings",
+        "level": 15,
+        "description": "Find A Simple Compass",
+        "current": 0,
+        "total": 1,
+        "item": "A Simple Compass",
         "status": "in-progress"
       }
     ],
-    "scope": "11 missions visible at screenshot time 18:39. Three explicitly say Ready for turn-in: Protect the Frontier, Good Steel, Red Linen Goods. This is NOT a completed-quest hand-in. Westfall Stew ingredient objectives are green 3/3 for all four, but quest still active. Downstream 0/1 for each item; A Bundle of Trouble 0/8; Rolf fate still pending; Goretusk Liver Pie 2/8; Killing Fields 0/20; heirloom 0/1; report pending. Quests absent from crop must not be inferred completed or abandoned.",
-    "previousSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
-    "characterLevel": 11,
-    "storyChapterId": "x-eastvale-frontier-unfinished-return"
+    "scope": "9 quests visible at 20:55, level 12 confirmed on player UI at top left. Downstream ready for turn-in; Waterlogged Toolbox obtained according to chat, all tools target complete as evidenced by 'Ready for turn-in', but no reward or NPC hand-in verified. Deliver Thomas' Report newly visible, Rolf's Fate absent; do not infer confirmed outcome/hand-in merely from disappearance. Previous Eastvale Ready quests (Protect the Frontier, Good Steel, Red Linen Goods) absent: their completion status is unverified. Most notably 20:55 Westfall Stew shows Murloc Eye 2/3, conflicting with 18:18 and 18:39 3/3; show latest visible 2/3, preserve prior green marks as historical. No invented explanation. No evidence of wand purchase or visit to Stormwind.",
+    "previousSnapshotId": "2026-11-07-elwynn-eastvale-three-ready-183927",
+    "characterLevel": 12,
+    "levelSource": "Direct user-provided in-game screenshot showing level 12, not corroborated by last checked official Blizzard snapshot which showed 11",
+    "storyChapterId": "x-eastvale-murloc-river-level-twelve"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2096,7 +2120,7 @@
     },
     "westfallStew": {
       "name": "Westfall Stew",
-      "status": "all-objectives-complete-awaiting-turn-in",
+      "status": "latest-screenshot-shows-one-ingredient-missing-conflicts-with-prior-ready",
       "recordedAt": "2026-11-07 18:18:04",
       "source": "image(20261107-181804).png",
       "completedObjectives": [
@@ -2123,7 +2147,18 @@
       ],
       "delivered": false,
       "deliveryVerified": false,
-      "note": "All 12 ingredients checked complete in 18:18 tracker; quest delivery and reward not confirmed. Exact last Murloc Eye acquisition location/time unknown."
+      "note": "All 12 ingredients checked complete in 18:18 tracker; quest delivery and reward not confirmed. Exact last Murloc Eye acquisition location/time unknown.",
+      "latestObservedAt": "2026-11-07 20:55:11",
+      "latestObservedObjectiveCount": {
+        "name": "Murloc Eye",
+        "current": 2,
+        "total": 3
+      },
+      "earlierReadySnapshots": [
+        "2026-11-07-elwynn-eastvale-11-active-181804",
+        "2026-11-07-elwynn-eastvale-three-ready-183927"
+      ],
+      "conflictNote": "Earlier screenshots showed 3/3 Murloc Eyes; latest 20:55 screenshot visibly shows 2/3. No claim about items being consumed, lost, removed, or bugged. Confirm current in-game tracker before next delivery."
     },
     "protectTheFrontier": {
       "name": "Protect the Frontier",
@@ -2157,6 +2192,17 @@
       "reward": "not confirmed",
       "questId": null,
       "storyChapterId": "x-eastvale-frontier-unfinished-return"
+    },
+    "downstream": {
+      "name": "Downstream",
+      "status": "ready-for-turn-in",
+      "observedAt": "2026-11-07 20:55:11",
+      "source": "WoWScrnShot_110726_205511.jpg",
+      "objectiveComplete": true,
+      "questTurnedIn": false,
+      "reward": "not confirmed",
+      "note": "Waterlogged Toolbox looted, all downstream tool objectives ready. No quest delivery confirmed.",
+      "storyChapterId": "x-eastvale-murloc-river-level-twelve"
     }
   },
   "latestMapObservations": [
@@ -2222,23 +2268,23 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Eastvale · Work Among the Trees",
-    "status": "Eastvale objectives for Protect the Frontier, Good Steel and Red Linen Goods are ready for turn-in as of 18:39; no hand-in confirmed.",
-    "nextConfirmedQuest": "Deliver the three ready-for-turn-in Eastvale objectives when convenient; Rolf's Fate, Downstream, A Bundle of Trouble remain open.",
-    "latestVisualEvidence": "image(20261107-183927).png",
-    "stage": "Elwynn Forest · Eastvale questing area · 18:39",
-    "latestPlayerReportedZone": "Elwynn Forest · Eastvale area",
+    "chapter": "Night Near the Eastern River",
+    "status": "At Eastvale by dusk and at the murloc riverside by night, Xuthar is level 12 (visible in screenshot). Downstream ready for turn-in and Deliver Thomas' Report active; other Eastvale quest hand-ins unverified.",
+    "nextConfirmedQuest": "Downstream ready for hand-in; Deliver Thomas' Report active (return to Goldshire), plus ongoing Westfall objectives.",
+    "latestVisualEvidence": "WoWScrnShot_110726_205511.jpg",
+    "stage": "Elwynn Forest · eastern riverside murloc settlement · 76.2,84.2 · 20:55",
+    "latestPlayerReportedZone": "Elwynn Forest",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
-    "latestScreenshot": "image(20261107-183927).png",
-    "questUpdate": "Protect the Frontier, Good Steel, Red Linen Goods ready for turn-in (not handed in). Discover Rolf's Fate open; Downstream 0/3 items, A Bundle of Trouble 0/8; Westfall Stew 12/12 gathered but still active. Westfall earlier objectives unchanged.",
-    "latestQuestScreenshot": "image(20261107-183927).png",
-    "chronologyNote": "The 16:43 Westfall quest tracker predates the player's Hearthstone return to Goldshire. Arrival in Stormwind and completion of errands are not reported.",
-    "characterLevel": 11,
-    "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
-    "storyChapter": "Chapter XXXIX · Work Among the Trees",
-    "latestPlayerReportedLocation": "74.0, 55.0 in eastern Elwynn; exact camp arrival not proven",
+    "latestScreenshot": "WoWScrnShot_110726_205514.jpg",
+    "questUpdate": "Downstream ready for turn-in; Deliver Thomas' Report to Marshal Dughan active. Prior Eastvale quests no longer visible, no hand-ins inferred. Westfall Stew latest 2/3 Murloc Eye conflicts with prior 3/3. Level 12 confirmed in-game.",
+    "latestQuestScreenshot": "WoWScrnShot_110726_205511.jpg",
+    "chronologyNote": "18:38:57 dusk at Eastvale logging camp, 18:39:27 three ready for turn-in, 20:55:11 level 12 and riverside murloc village; character's exact level-up event not shown.",
+    "characterLevel": 12,
+    "levelStatus": "Level 12 confirmed in-game screenshot; last checked Blizzard EU official profile level 11",
+    "storyChapter": "Chapter XLI · Where the River Keeps Its Names",
+    "latestPlayerReportedLocation": "Elwynn Forest · 76.2,84.2 (20:55 screenshot)",
     "forthcomingErrands": [
       "Free up bag space",
       "Rest",
@@ -2804,17 +2850,185 @@
       "previousSnapshotId": "2026-11-07-westfall-nine-quest-164338",
       "objectiveReadyButQuestUnfinished": "Westfall Stew: 12/12 ingredients, delivery pending",
       "narrativeChapterId": "x-eastvale-woods-and-rolf"
+    },
+    {
+      "id": "2026-11-07-elwynn-eastvale-three-ready-183927",
+      "day": "2026-11-07",
+      "observedAt": "2026-11-07 18:39:27 (screenshot filename)",
+      "screenshot": "image(20261107-183927).png",
+      "zone": "Elwynn Forest · eastern Eastvale questing region",
+      "coordinates": null,
+      "coordinateNote": "Top location text partly clipped; exact coordinate intentionally not asserted.",
+      "visibleQuests": [
+        {
+          "id": null,
+          "name": "Discover Rolf's Fate",
+          "level": 10,
+          "description": "Search the murloc village for Rolf and signs of his death",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Protect the Frontier",
+          "level": 10,
+          "description": "Eliminate prowlers and Young Forest Bears threatening the eastern frontier",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "objectives": [
+            {
+              "name": "Prowler slain",
+              "required": 8,
+              "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
+            },
+            {
+              "name": "Young Forest Bear slain",
+              "required": 5,
+              "fulfilment": "Ready for turn-in; counts not shown individually in latest screenshot"
+            }
+          ],
+          "note": "Ready for turn-in is visible, but no hand-in or reward confirmed."
+        },
+        {
+          "id": null,
+          "name": "Downstream",
+          "level": 10,
+          "description": "Recover three waterlogged tools",
+          "status": "in-progress",
+          "objectives": [
+            {
+              "name": "Waterlogged Axe",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Waterlogged Saw",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Waterlogged Toolbox",
+              "current": 0,
+              "total": 1
+            }
+          ]
+        },
+        {
+          "id": null,
+          "name": "Good Steel",
+          "level": 7,
+          "description": "Recover four Mining Tools",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "totalRequired": 4,
+          "item": "Mining Tools",
+          "note": "Ready for turn-in indicates objective complete, but reward and hand-in not verified."
+        },
+        {
+          "id": null,
+          "name": "A Bundle of Trouble",
+          "level": 9,
+          "description": "Collect eight Bundles of Wood",
+          "current": 0,
+          "total": 8,
+          "item": "Bundle of Wood",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Red Linen Goods",
+          "level": 9,
+          "description": "Recover six Red Linen Bandanas",
+          "status": "ready-for-turn-in",
+          "readyForTurnIn": true,
+          "totalRequired": 6,
+          "item": "Red Linen Bandana",
+          "note": "Ready for turn-in; no hand-in verified."
+        },
+        {
+          "id": null,
+          "name": "The Killing Fields",
+          "level": 15,
+          "description": "Slay 20 Harvest Watchers",
+          "current": 0,
+          "total": 20,
+          "item": "Harvest Watcher slain",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Goretusk Liver Pie",
+          "level": 12,
+          "description": "Collect eight Goretusk Livers",
+          "current": 2,
+          "total": 8,
+          "item": "Goretusk Liver",
+          "status": "in-progress"
+        },
+        {
+          "id": null,
+          "name": "Westfall Stew",
+          "level": 13,
+          "description": "Gather ingredients for Salma Saldean's Westfall Stew",
+          "status": "in-progress",
+          "objectiveItemsComplete": true,
+          "readyForTurnInBasedOnVisibleItems": true,
+          "objectives": [
+            {
+              "name": "Stringy Vulture Meat",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Murloc Eye",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Goretusk Snout",
+              "current": 3,
+              "total": 3
+            },
+            {
+              "name": "Okra",
+              "current": 3,
+              "total": 3
+            }
+          ],
+          "note": "All four sets of ingredient ticks green; hand-in not confirmed."
+        },
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom",
+          "level": 12,
+          "description": "Recover Furlbrow's Pocket Watch",
+          "current": 0,
+          "total": 1,
+          "item": "Furlbrow's Pocket Watch",
+          "status": "in-progress"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle",
+          "level": 10,
+          "description": "Talk to Gryan Stoutmantle at Sentinel Hill",
+          "status": "in-progress"
+        }
+      ],
+      "scope": "11 missions visible at screenshot time 18:39. Three explicitly say Ready for turn-in: Protect the Frontier, Good Steel, Red Linen Goods. This is NOT a completed-quest hand-in. Westfall Stew ingredient objectives are green 3/3 for all four, but quest still active. Downstream 0/1 for each item; A Bundle of Trouble 0/8; Rolf fate still pending; Goretusk Liver Pie 2/8; Killing Fields 0/20; heirloom 0/1; report pending. Quests absent from crop must not be inferred completed or abandoned.",
+      "previousSnapshotId": "2026-11-07-elwynn-eastvale-11-active-181804",
+      "characterLevel": 11,
+      "storyChapterId": "x-eastvale-frontier-unfinished-return"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-elwynn-eastvale-three-ready-183927",
-  "latestQuestTrackerLocation": "Eastern Elwynn Forest / Eastvale; location numbers partly cropped in 18:39 screenshot",
+  "latestQuestTrackerSnapshotId": "2026-11-07-eastvale-murloc-river-nine-205511",
+  "latestQuestTrackerLocation": "Elwynn Forest 76.2, 84.2 · riverbank near murloc settlement, 20:55",
   "lastLevelMilestone": {
-    "level": 11,
+    "level": 12,
     "date": "2026-11-07",
-    "verification": "Player + official Blizzard EU API",
-    "officialSnapshotExportedAt": 1794063406,
-    "priorMilestoneLevel": 10,
-    "levelUpLocation": "not confirmed"
+    "verification": "User-provided in-game screenshot (level 12 visible at 20:55); official API confirmation pending",
+    "priorMilestoneLevel": 11,
+    "levelUpLocation": "not known, last screenshot at 76.2,84.2",
+    "levelUpTime": "exact time not established"
   },
   "plannedItinerary": [
     {

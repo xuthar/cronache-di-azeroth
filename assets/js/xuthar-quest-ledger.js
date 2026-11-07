@@ -3,7 +3,8 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261106-2059-guard-thomas';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-hogger-party-five';
+ const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
    const card=make('article','xql-quest'+(ready?' xql-ready':' xql-active'));
@@ -49,6 +50,34 @@
     const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (20:59 screenshot + official profile) · Guard Thomas, Elwynn Forest · 73.9, 72.2');
    head.append(status);
    head.append(metrics);root.append(head);
+   // New gameplay reports are separated from the historical 6 Nov quest-tracker snapshot.
+   if(Array.isArray(data.latestPlayerMilestones)){
+     data.latestPlayerMilestones.forEach(m=>{
+       if(m.id!=='2026-11-07-hogger-party-of-five')return;
+       const entry=make('div','xql-confirmed');
+       entry.id='hogger-party-five';
+       entry.append(make('h3','xql-group-heading','7 November · Hogger falls to five adventurers'));
+       entry.append(make('p','xql-confirmed-item','Xuthar Morvayne and four other adventurers defeated Hogger together. The companions’ names remain unknown.'));
+       const questState=make('p','xql-level-note','Quest hand-in: being delivered; not yet confirmed by the official Blizzard quest snapshot.');
+       questState.id='hogger-handin-status';
+       entry.append(questState);
+       const story=make('a','xql-book-link','Read Chapter XXIX · The Fall of Hogger ↗');
+       story.href='book.html?character=xuthar#x-hogger-five-against-one';
+       entry.append(story);
+       root.append(entry);
+       fetch(officialFeed,{cache:'no-store',headers:{Accept:'application/json'}})
+         .then(r=>{if(!r.ok)throw Error('Official snapshot unavailable');return r.json();})
+         .then(feed=>{
+           const hero=Array.isArray(feed.characters)?feed.characters.find(c=>c.name==='Xuthar Morvayne'):null;
+           if(feed.source!=='BlizzardOfficialAPI'||feed.apiRegion!=='eu'||!hero)return;
+           const quests=hero.officialDetails?.quests;
+           if(!quests)return;
+           const taken=Array.isArray(quests.completedQuestIds)&&quests.completedQuestIds.includes(176);
+           if(taken)questState.textContent='✓ Quest WANTED: “Hogger” completed · confirmed by the latest official Blizzard API snapshot (quest ID 176).';
+           else questState.textContent='Hogger defeated with a five-person party; quest hand-in is not yet confirmed by the official Blizzard snapshot.';
+         }).catch(()=>{questState.textContent='Hogger defeated with a five-person party; official quest hand-in confirmation still pending.';});
+     });
+   }
    if(Array.isArray(data.confirmedCompleted)&&data.confirmedCompleted.length){
      const completed=make('div','xql-confirmed');
      completed.append(make('h3','xql-group-heading','Verified completed missions'));
@@ -85,7 +114,7 @@
     const foot=make('p','xql-provenance','Evidence: WoWScrnShot_110626_205922.jpg shows the level-ten milestone, completed Further Concerns, seven active missions and the Guard Thomas location in Elwynn. WoWScrnShot_110626_203303.jpg independently shows The Jasperlode Mine ready to report. Historical missions omitted from the latest objective list are not automatically marked complete or abandoned. The manual field ledger remains separate from the automated Blizzard completed-quest archive.');
    root.append(foot);
    const book=make('a','xql-book-link','Continue The Last Witness ↗');
-    book.href='book.html?character=xuthar#x-level-ten-armory';root.append(book);
+    book.href='book.html?character=xuthar#x-hogger-five-against-one';root.append(book);
     const armory=make('a','xql-chapter-link','Official EU Forever Armory · Xuthar Morvayne ↗');
     armory.href='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
     armory.target='_blank';armory.rel='noopener noreferrer';

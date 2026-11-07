@@ -9,10 +9,10 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · WESTFALL TO GOLDSHIRE</div>
+      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE EASTERN WOODS</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="westfall-arrival-title">The golden fields.<br><em>And the road back to the hearth.</em></h2>
+          <h2 id="westfall-arrival-title">Beyond Goldshire.<br><em>The eastern woods have stories.</em></h2>
           <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
           <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
             <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
@@ -47,15 +47,20 @@
             <a href="book.html?character=xuthar#x-enchanting-first-threshold">Read Chapter XXXVII · What the Ordinary Things Remember ↗</a>
             <a href="xuthar.html#xuthar-enchanting-completed">Enchanting quest completion ↗</a>
           </div>
-          <p><strong>Next route · Eastvale Logging Camp.</strong> Before resuming the unfinished Westfall journeys, Xuthar plans to take on a few quests in eastern Elwynn Forest. This is the route he intends to follow, not a journey already completed. The next part of The Last Witness will unfold when he arrives and his new experiences are known.</p>
+          <p><strong>18:18 · The eastern road.</strong> Xuthar is now in the woods of eastern Elwynn (74.0, 55.0), in the Eastvale questing region. Eleven quests are visible: an inquiry into Rolf's fate, the dangers of frontier prowlers and bears, lost waterlogged tools, mining supplies, wood, red linen goods and five unfinished Westfall obligations. Reaching the logging camp building itself has not been established.</p>
+          <p><strong>Westfall Stew · All ingredients gathered.</strong> The last Murloc Eye has been found: 3/3 vulture meat, 3/3 murloc eyes, 3/3 snouts and 3/3 okra. Xuthar still needs to deliver the ingredients to Salma Saldean; no quest reward is claimed.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-eastvale-woods-and-rolf">Read Chapter XXXVIII · The Wood That Kept Its Secrets ↗</a>
+            <a href="xuthar.html#xuthar-latest-quests">View the 11 eastern-forest objectives ↗</a>
+          </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XXXVI</span>
-          <strong>GOLDSHIRE</strong>
-          <p>HEARTHSTONE · A MOMENT TO REGROUP</p>
-          <b>Returned by Hearthstone · 7 November</b>
-          <small>Westfall duties remain unfinished. Stormwind and a new wand are still ahead.</small>
+          <span>THE LAST WITNESS · CHAPTER XXXVIII</span>
+          <strong>EASTERN ELWYNN</strong>
+          <p>EASTVALE QUESTING REGION · THE WOODS AHEAD</p>
+          <b>Eastern forest · 7 November · 18:18</b>
+          <small>Eleven objectives visible. Westfall Stew ingredients are ready for delivery, not yet handed in.</small>
         </aside>
       </div>`;
     return section;

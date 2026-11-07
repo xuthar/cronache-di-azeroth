@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-furlbrow-seven-quests';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-westfall-nine-active';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,14 +40,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','On the western road: new objectives.');
    title.id='xql-heading';
-    const lead=make('p','','At Furlbrow’s roadside wagon in Westfall, two newly visible quests await Xuthar: Westfall Stew and The Forgotten Heirloom. Seven active objectives appear in the 13:41 screenshot, including Report to Gryan Stoutmantle. The completed Riverpaw hunt, Hogger's defeat with four allies and the return to Westfall remain part of the journey. Earlier quest panels below are preserved as historical records.');
+    const lead=make('p','','Westfall's fields have drawn Xuthar into the labour of survival: The Killing Fields (0/20 Harvest Watchers), Goretusk Liver Pie (2/8 livers) and the ingredient-gathering stage of Westfall Stew (Okra 3/3). Nine active quests are visible at 14:11, with Report to Gryan Stoutmantle still unfinished. Earlier quest panels below are preserved as historical records.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.active?.length||0,'Active quests · 6 Nov historical tracker'],[data.unverifiedAfterLatestCrop?.length||0,'Earlier quests unverified']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Active quests · 7 Nov 14:11'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · Day Two · 6 November 2026 · LEVEL '+(data.characterLevel||'unconfirmed')+' (20:59 screenshot + official profile) · Guard Thomas, Elwynn Forest · 73.9, 72.2');
+    const status=make('p','xql-level-note','Xuthar Morvayne · 7 November 2026 · Westfall at '+(data.latestVisibleObjectives?.coordinates?.x??'?')+', '+(data.latestVisibleObjectives?.coordinates?.y??'?')+' (14:11 quest screenshot). Character level '+(data.characterLevel||'unconfirmed')+' last confirmed on 6 November.');
    head.append(status);
    head.append(metrics);root.append(head);
    // Today's new zone and crafting notes are separate from the older quest tracker.
@@ -70,14 +70,17 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Westfall · Furlbrow’s Wagon · Seven active quests'));
-     const note=make('p','xql-level-note','Position '+visible.coordinates.x+', '+visible.coordinates.y+' · '+visible.zone+' · '+visible.visibleQuests.length+' active quests shown at 13:41. This capture predates the later 14:09 field photograph. Unlisted quests are not automatically marked completed.');
+     recent.append(make('h3','xql-group-heading','7 November · Westfall · Nine active quests · 14:11'));
+     const note=make('p','xql-level-note','Position '+visible.coordinates.x+', '+visible.coordinates.y+' · '+visible.zone+' · '+visible.visibleQuests.length+' active quests in the 14:11 screenshot, following the earlier 13:41 Furlbrow tracker and 14:09 farm photo. Unlisted quests are not automatically marked completed.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description);
        recent.append(line);
+       if(Array.isArray(q.objectives))for(const o of q.objectives){
+         recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
+       }
      }
-     recent.append(make('p','xql-level-note','The previous 3/8 Riverpaw objective list is archived; Riverpaw was completed later. Although Xuthar crafted bags, Camping 101: Tailoring remains listed as active at 13:41. The seven visible quests remain in progress.'));
+     recent.append(make('p','xql-level-note','The earlier Furlbrow recipe-delivery quest has given way to a new ingredient-gathering objective. Its exact turn-in and rewards are not independently confirmed. Tailoring and Enchanting training goals still appear in progress despite the bags Xuthar crafted.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');

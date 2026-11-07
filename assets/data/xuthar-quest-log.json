@@ -378,6 +378,10 @@
     {
       "place": "Woodland stream at night",
       "observation": "23:30 nighttime river crossing shown; exact location uncertain."
+    },
+    {
+      "place": "Westfall entry · first golden fields",
+      "observation": "Screenshot of Xuthar already on the cobbled road in Westfall beyond the lion-flanked Alliance bridge; first farmland, small wagon and windmill visible. Gryan Stoutmantle and Sentinel Hill not confirmed."
     }
   ],
   "innVisit": {
@@ -954,7 +958,7 @@
   "currentChronicleDate": "2026-11-06",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Goldshire · Lion's Pride Inn · bedroom (last photographed 21:34, 5 November 2026)",
+  "lastConfirmedLocation": "Westfall · first farmland road after the Elwynn border (7 Nov 2026 12:08 screenshot; no coordinates shown)",
   "currentQuestTrackerLocation": {
     "shownCoordinates": "59.6, 69.4",
     "zone": "not visible in crop",
@@ -1686,6 +1690,50 @@
   },
   "latestMapObservations": [
     {
+      "id": "2026-11-07-westfall-entry-four-photos",
+      "day": "2026-11-07",
+      "confirmedZone": "Westfall",
+      "travel": "Goldshire → western Elwynn Forest road → Alliance border bridge → Westfall farmlands",
+      "source": "Four original 1920x1080 screenshots uploaded in conversation",
+      "snapshots": [
+        {
+          "filename": "WoWScrnShot_110726_105620.jpg",
+          "clock": "10:56:20",
+          "location": "Goldshire",
+          "caption": "The busy Goldshire square: Marshal Dughan and the inn are visible, with travellers gathered around a bright violet effect",
+          "established": "Goldshire square visited"
+        },
+        {
+          "filename": "WoWScrnShot_110726_105654.jpg",
+          "clock": "10:56:54",
+          "location": "Elwynn Forest western road",
+          "caption": "Xuthar walking along a quiet tree-lined cobblestone road, with wooden fences and late-autumn light",
+          "established": "Westbound forest road walked"
+        },
+        {
+          "filename": "WoWScrnShot_110726_120054.jpg",
+          "clock": "12:00:54",
+          "location": "Elwynn–Westfall border bridge",
+          "caption": "Approaching the stone bridge with lion sculptures and blue Alliance banners, leading into the golden landscape beyond",
+          "established": "Reached the border bridge; this shot is before crossing"
+        },
+        {
+          "filename": "WoWScrnShot_110726_120808.jpg",
+          "clock": "12:08:08",
+          "location": "Westfall first farmlands",
+          "caption": "Xuthar on the cobblestone track amid Westfall's wheat-coloured fields, farm buildings, windmill, autumn trees, cart and other travellers",
+          "established": "Westfall entered"
+        }
+      ],
+      "notEstablished": [
+        "Arrival at Sentinel Hill",
+        "Meeting Gryan Stoutmantle",
+        "Completion of Report to Gryan Stoutmantle"
+      ],
+      "literaryChapterId": "x-westfall-first-crossing",
+      "notes": "The four image files are supplied in this conversation but their binary copies have not yet been published to GitHub. Do not render public image URLs until assets are uploaded."
+    },
+    {
       "id": "2026-11-07-western-elwynn-border-forest-edge-map",
       "day": "2026-11-07",
       "source": "image(20261107-113922).png",
@@ -1699,5 +1747,14 @@
       ],
       "narrativeContinuity": "Xuthar has travelled to the western edge of the forest following the Riverpaw hunt; the next full chapter can begin after his entry into Westfall."
     }
-  ]
+  ],
+  "latestPhotographedZone": "Westfall",
+  "latestPhotographedAt": "2026-11-07 12:08:08",
+  "currentJourney": {
+    "chapter": "Westfall · First Crossing",
+    "status": "entered Westfall, approaching Sentinel Hill",
+    "nextConfirmedQuest": "Report to Gryan Stoutmantle remains the next planned turn-in, not yet confirmed",
+    "latestVisualEvidence": "WoWScrnShot_110726_120808.jpg",
+    "stage": "Westfall first farmland"
+  }
 }

@@ -19,7 +19,57 @@
     if(text!==undefined)el.textContent=text;
     return el;
   };
+  // One source chapter becomes several short reading leaves; the JSON narrative stays untouched.
+  // Mobile deliberately shows shorter pages than the two-page desktop spread.
+  const TOC_PER_LEAF=8;
   let leaves=[],current=0,volume=null;
+  function paginateChapter(chapter,compact=false){
+    const paragraphs=Array.isArray(chapter.paragraphs)?chapter.paragraphs:[];
+    if(!paragraphs.length)return [{...chapter,type:'chapter',sourceId:chapter.id,sourceParagraphStart:0,part:1,partTotal:1}];
+    const maxCharacters=compact?570:820;
+    const maxParagraphs=compact?1:2;
+    const parts=[];let group=[],characters=0,start=0;
+    for(let i=0;i<paragraphs.length;i++){
+      const text=String(paragraphs[i]);
+      const firstIllustrated=!!chapter.image&&parts.length===0;
+      if(group.length && (group.length>=(firstIllustrated?1:maxParagraphs)||characters+text.length>maxCharacters)){
+        parts.push({paragraphs:group,start});group=[];characters=0;
+      }
+      if(!group.length)start=i;
+      group.push(text);characters+=text.length;
+    }
+    if(group.length)parts.push({paragraphs:group,start});
+    return parts.map((piece,i)=>({
+      ...chapter,type:'chapter',
+      id:i===0?chapter.id:chapter.id+'--part-'+(i+1),
+      sourceId:chapter.id,sourceParagraphStart:piece.start,
+      part:i+1,partTotal:parts.length,continuation:i>0,
+      paragraphs:piece.paragraphs,
+      image:i===0?chapter.image:undefined,
+      caption:i===0?chapter.caption:undefined,
+      signed:i===parts.length-1?chapter.signed:undefined
+    }));
+  }
+  function buildLeaves(compact=false){
+    const chapterLeaves=volume.pages.flatMap(p=>paginateChapter(p,compact));
+    const chapterList=[],seen=new Set();
+    for(const p of volume.pages){
+      if(seen.has(p.chapter))continue;
+      seen.add(p.chapter);chapterList.push({chapter:p.chapter,sourceId:p.id});
+    }
+    const tocCount=Math.max(1,Math.ceil(chapterList.length/TOC_PER_LEAF));
+    const contents=Array.from({length:tocCount},(_,i)=>({
+      id:volume.id+'-contents'+(i?'-'+(i+1):''),type:'contents',
+      tocPageNumber:i+1,tocPageCount:tocCount,
+      tocItems:chapterList.slice(i*TOC_PER_LEAF,(i+1)*TOC_PER_LEAF).map(c=>{
+        const index=chapterLeaves.findIndex(p=>p.id===c.sourceId);
+        return {chapter:c.chapter,leafIndex:index+1+tocCount};
+      })
+    }));
+    const result=[{id:volume.id+'-cover',type:'cover'},...contents,...chapterLeaves];
+    if(result.length%2)result.push({id:volume.id+'-end',type:'endpaper'});
+    return result;
+  }
   function makeImage(path,alt){
     const safe=safeImage(path);
     if(!safe)return null;
@@ -51,26 +101,25 @@
       content.append(make('small','book-cover-status',volume.priority==='main'?'The first story unfolds':'Reserved for future play'));
       inside.append(content);
     } else if(page.type==='contents') {
-      inside.append(make('span','book-page-kicker','THE TABLE OF CONTENTS'));
-      inside.append(make('h2','book-toc-title','Within these pages'));
-      inside.append(make('p','book-toc-intro',volume.id==='xuthar'
-        ? 'From the forgotten names of a quiet childhood to the distant roads of Elwynn, the life of Xuthar Morvayne unfolds one chapter at a time.'
-        : 'An unfolding tale of memory, choice and the roads still waiting.'));
+      inside.append(make('span','book-page-kicker','THE TABLE OF CONTENTS · '+page.tocPageNumber+' / '+page.tocPageCount));
+      inside.append(make('h2','book-toc-title',page.tocPageNumber===1?'Within these pages':'Within these pages · Continued'));
+      inside.append(make('p','book-toc-intro',page.tocPageNumber===1
+        ?(volume.id==='xuthar'
+          ?'From the forgotten names of a quiet childhood to the distant roads of Elwynn, the life of Xuthar Morvayne unfolds one chapter at a time.'
+          :'An unfolding tale of memory, choice and the roads still waiting.')
+        :'Another turn of the page; another chapter in the living chronicle.'));
       const toc=make('ol','book-toc-list');
-      const seen=new Set();
-      volume.pages.forEach((p,i)=>{
-        if(seen.has(p.chapter))return;
-        seen.add(p.chapter);
+      for(const item of page.tocItems||[]){
         const li=make('li');
-        if(printMode) li.append(make('span','book-toc-item',p.chapter));
-        else {
-          const btn=make('button','book-toc-item',p.chapter);
-          btn.type='button';btn.addEventListener('click',()=>goto(i+2));
+        if(printMode)li.append(make('span','book-toc-item',item.chapter));
+        else{
+          const btn=make('button','book-toc-item',item.chapter);
+          btn.type='button';btn.addEventListener('click',()=>goto(item.leafIndex));
           li.append(btn);
         }
-        li.append(make('span','book-toc-page',String(i+3).padStart(2,'0')));
+        li.append(make('span','book-toc-page',String(item.leafIndex-page.tocPageCount).padStart(2,'0')));
         toc.append(li);
-      });
+      }
       inside.append(toc);
       inside.append(make('div','book-toc-note','A life is never finished while another road remains.'));
     } else if(page.type==='endpaper'){
@@ -79,9 +128,11 @@
       inside.append(make('h2','','The story continues.'));
       inside.append(make('p','','Beyond the last line, the road continues.'));
     } else {
+      if(page.continuation)outer.classList.add('book-page--continued');
       inside.append(make('span','book-page-kicker',page.chapter||'THE CHRONICLE'));
-      inside.append(make('h2','book-page-title',page.title||'Untitled'));
-      inside.append(make('div','book-page-type',kindLabel(page.kind)));
+      if(page.continuation)inside.append(make('h2','book-continued-title',page.title||'The story continues'));
+      else inside.append(make('h2','book-page-title',page.title||'Untitled'));
+      if(!page.continuation)inside.append(make('div','book-page-type',kindLabel(page.kind)));
       if(page.image) {
         const frame=make('figure','book-figure');
         const img=makeImage(page.image,page.caption||'Illustrative archive image');
@@ -98,8 +149,9 @@
         inside.append(link);
       }
       if(page.signed)inside.append(make('p','book-signature','— '+page.signed));
+      if(page.partTotal>1)inside.append(make('span','book-chapter-part','Chapter page '+page.part+' of '+page.partTotal));
     }
-    inside.append(make('span','book-leaf-number',index===0?'THE COVER':index===1?'CONTENTS':String(index-1).padStart(2,'0')));
+    inside.append(make('span','book-leaf-number',index===0?'THE COVER':page.type==='contents'?'CONTENTS '+page.tocPageNumber+'/'+page.tocPageCount:page.type==='endpaper'?'THE ROAD AHEAD':String(index-(leaves.filter(p=>p.type==='contents').length)).padStart(2,'0')));
     if(printMode)outer.querySelectorAll('img').forEach(img=>img.loading='eager');
     return outer;
   }
@@ -120,7 +172,7 @@
       localStorage.setItem('azeroth-book-'+volume.id,page.id);
     }catch{}
   }
-  function render(direction=''){
+  function render(direction='',preferredIndex=current){
     if(!volume)return;
     current=getSpreadIndex(current);
     spread.replaceChildren();
@@ -139,13 +191,13 @@
     const selected=active.type==='chapter'?active.chapter:'';
     if(selected && [...chapters.options].some(x=>x.value===selected))chapters.value=selected;
     else chapters.value='';
-    updateUrl(current);
+    updateUrl(Math.max(current,Math.min(preferredIndex,current+count-1,leaves.length-1)));
   }
   function goto(i){
     const target=getSpreadIndex(i);
     const direction=target>current?'next':target<current?'prev':'';
     current=target;
-    render(direction);
+    render(direction,i);
   }
   function currentFromHash(){
     let id='';
@@ -161,8 +213,7 @@
   }
   function makeVolumeBooks(data){
     volume=data.volumes.find(x=>x.id===requested)||data.volumes[0];
-    leaves=[{id:volume.id+'-cover',type:'cover'},{id:volume.id+'-contents',type:'contents'},...volume.pages.map(p=>({...p,type:'chapter'}))];
-    if(leaves.length%2) leaves.push({id:volume.id+'-end',type:'endpaper'});
+    leaves=buildLeaves(mobile.matches);
     title.textContent=volume.title;
     subtitle.textContent=volume.name+' · '+volume.subtitle;
     $('#book-dossier-link').href=volume.dossier;
@@ -184,10 +235,12 @@
       if(idx>=0)goto(idx);
     });
     printRoot.replaceChildren();
-    const header=make('div','book-print-cover-heading','CHRONICLES OF AZEROTH  ·  '+volume.name);
-    printRoot.append(header);
-    leaves.forEach((p,i)=>printRoot.append(bookPage(p,i,true)));
-    current=currentFromHash();render();
+    printRoot.append(make('div','book-print-cover-heading','CHRONICLES OF AZEROTH  ·  '+volume.name));
+    // Fixed desktop-sized print pagination; changing screen size does not rewrite print pages.
+    buildLeaves(false).forEach((p,i)=>printRoot.append(bookPage(p,i,true)));
+    const requestedIndex=currentFromHash();
+    current=getSpreadIndex(requestedIndex);
+    render('',requestedIndex);
     document.title=volume.title+' | The Books of Azeroth';
   }
   previous.addEventListener('click',()=>goto(current-(mobile.matches?1:2)));
@@ -212,7 +265,20 @@
     if(dx<0&&!next.disabled)next.click();
     if(dx>0&&!previous.disabled)previous.click();
   },{passive:true});
-  mobile.addEventListener('change',()=>render());
+  mobile.addEventListener('change',()=>{
+    if(!volume)return;
+    const selected=leaves[current]||leaves[0];
+    const sourceId=selected?.sourceId||selected?.id;
+    const paragraph=selected?.sourceParagraphStart||0;
+    leaves=buildLeaves(mobile.matches);
+    let selectedIndex=leaves.findIndex(p=>p.id===sourceId);
+    if(selectedIndex<0)selectedIndex=0;
+    if(selected?.sourceId){
+      const matches=leaves.map((p,i)=>({...p,leafIndex:i})).filter(p=>p.sourceId===sourceId&&p.sourceParagraphStart<=paragraph);
+      if(matches.length)selectedIndex=matches.at(-1).leafIndex;
+    }
+    current=getSpreadIndex(selectedIndex);render('',selectedIndex);
+  });
   const menu=$('.menu-toggle'),nav=$('#navigation');
   if(menu&&nav){
     menu.addEventListener('click',()=>{
@@ -222,7 +288,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261107-enchanting-completed',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261107-short-book-pages',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

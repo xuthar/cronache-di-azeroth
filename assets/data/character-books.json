@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-dedicated-tower-of-azora-chapter",
+      "status": "living-novel-thirteenth-level-confirmation",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1097,6 +1097,25 @@
           ]
         },
         {
+          "id": "x-thirteenth-threshold",
+          "chapter": "Chapter XLIV · The Thirteenth Threshold",
+          "title": "A Measure of the Unseen",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Tower of Azora had given Xuthar no revelation. No sealed book had opened beneath his hand, no voice had pronounced the meaning of his family’s warning. It had given him instead the image of lamplight against old wood, the patient labour of scholars and the knowledge that even a question might deserve a place to rest. He carried those things away with him, though they added no weight that a merchant’s scales could measure.",
+            "The road beyond the tower belonged to a different sort of reckoning. There were still reports waiting for Goldshire, families waiting in Westfall, and the nameless work of a kingdom whose needs multiplied faster than any one traveller could answer them. The journeys had not become easier. Yet Xuthar was beginning to notice a quiet difference in the man who faced them.",
+            "In Northshire, he had often measured himself against an ideal he could not reach: the priest who never doubted, the healer who never hesitated, the scholar who could call every mystery by its proper name. The Shadow had broken that image, but offered no comfortable replacement. He had gone into the world thinking he must discover who he was before he could decide what to do.",
+            "Now the answer seemed less like a sentence and more like an accumulation of small acts. A lost tool recovered from a river. A lonely road crossed in the evening. A humble lesson in enchanting finished patiently rather than abandoned. A promise to return to a hungry land instead of pretending its troubles ended when he walked away. None of these deeds would be carved upon a monument. Together they had begun to alter the shape of his life.",
+            "He thought of the staff he had once held awkwardly and the bags he had sewn in a crowded shop. In the weeks of a hero’s legend, such things might have been passed over in a line. In a real life they mattered. The staff had taught his hands to trust a new balance; the needle had taught them that creating space required labour; the ledger had taught him the cost of what a person chose to remember.",
+            "Even the strange threshold he had crossed in his own strength did not announce itself with thunder. He was thirteen steps into a journey that had seemed impossible when the first gate stood before him. But numbers were only a shorthand for all that lay between them. The true measure was in the doubts he had endured without surrendering, and in the care he had learned to offer without demanding certainty in return.",
+            "Somewhere in the kingdom a traveller was telling a story of a great victory, and elsewhere a worker was grateful that a simple errand had been completed. Xuthar could imagine Carro Steelcave listening to the first tale with enthusiasm and finding laughter in the second. He hoped they would meet again before too many miles separated their memories of the same world. A friendship, like a book, could survive only if there were still pages left for both people to share.",
+            "The Morvayne ledger remained close to his heart. The last witness must not remember. He no longer read the warning as the only command that had ever shaped him. Beneath it stood words of his own making, written after his visit to Azora: Not every silence is a command to forget. The two sentences could not be reconciled easily. That did not mean one of them had to be erased.",
+            "For the first time, Xuthar allowed himself to imagine that the long road ahead did not need to end with a single answer. It might lead through villages, ruined halls and forests whose names he had not yet learned. It might ask him to help people who would forget him by the following winter. It might return him to the same tower, older and less certain, with a different question to place upon its tables.",
+            "For now there was only the next day, the work still unfinished and the faint relief of understanding that growth did not require him to become someone else. Thirteen was not an ending, nor even an especially important number in the greater history of Azeroth. It was a quiet marker set along the road, a reminder that he had travelled farther than he once believed he could.",
+            "He closed the ledger and left its final page unwritten. Tomorrow would bring its own names, its own shadows and perhaps another moment of light. The witness had learned enough to know that none of these things could be forced. The road would be waiting when he returned to it, and so would the unfinished story of Xuthar Morvayne."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -1264,5 +1283,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-07"
+  "lastEditorialUpdate": "2026-11-08"
 }

@@ -34,6 +34,8 @@
             <a href="book.html?character=xuthar#x-westfall-hunger-harvest-tasks">Read Chapter XXXIV · The Hunger Beneath the Gold ↗</a>
             <a href="book.html?character=xuthar#x-westfall-fields-harvest-watchers">Earlier: Chapter XXXIII · The Watchers in the Wheat ↗</a>
           </div>
+          <p><strong>The Eleventh Threshold.</strong> Xuthar has reached level 11, confirmed by the official Blizzard EU character profile. As the fields of Westfall demand patience and compassion, his latest transformation enters The Last Witness as a chapter of an unfolding life, not a list of game statistics.</p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-eleventh-threshold">Read Chapter XXXV · The Weight of Another Dawn ↗</a><a href="xuthar.html#xuthar-level-eleven">See the level 11 milestone ↗</a></div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">

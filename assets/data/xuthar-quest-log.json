@@ -2430,7 +2430,7 @@
     "chronologyNote": "20:55 riverside murlocs and level 12; 21:23 Tower of Azora upper floor; 21:39 peaceful Elwynn river; 21:51 Tower of Azora lower floor. Latest QUEST panel remains the 20:55 screenshot; later photos do not change quest statuses.",
     "characterLevel": 12,
     "levelStatus": "Level 12 confirmed in-game screenshot; last checked Blizzard EU official profile level 11",
-    "storyChapter": "Chapter XLII · The Tower of Unanswered Questions",
+    "storyChapter": "Chapter XLIII · The Tower of Azora",
     "latestPlayerReportedLocation": "Tower of Azora · lower chamber (21:51 photo; no map coords)",
     "forthcomingErrands": [
       "Free up bag space",
@@ -2446,7 +2446,10 @@
     "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
     "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries",
     "reportingRule": "Every Ready for turn-in quest counted completed/delivered in Chronicle under player preference. Blizzard completed IDs remain independent.",
-    "before2055": "20:45 at 68.0,43.2: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies ready (counted completed); The Collector and Deliver Thomas' Report active"
+    "before2055": "20:45 at 68.0,43.2: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies ready (counted completed); The Collector and Deliver Thomas' Report active",
+    "narrativeFocus": "Chapter XLIII is a dedicated literary reflection on Xuthar's already witnessed 21:23–21:51 visit to Tower of Azora, not a newly asserted visit or a quest completion.",
+    "latestDedicatedChapterId": "x-tower-of-azora-dedicated",
+    "latestDedicatedChapterTitle": "The Silence Between the Stars"
   },
   "currentEquipmentReports": [
     {

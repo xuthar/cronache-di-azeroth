@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-hearthstone-goldshire';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-enchanting-completed';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,17 +40,42 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
     const title=make('h2','','The long road home, with Westfall unfinished.');
    title.id='xql-heading';
-    const lead=make('p','','After a demanding afternoon in Westfall, Xuthar gathered eleven of twelve ingredients for Westfall Stew, but the last Murloc Eye eluded him. With his bags crowded and rest overdue, he used a Hearthstone to return to Goldshire. Stormwind is the intended next stop for supplies, profession errands and a wand; none of those purchases or errands has yet been confirmed. All nine 16:43 quest statuses remain recorded below.');
+    const lead=make('p','','After a demanding afternoon in Westfall, Xuthar gathered eleven of twelve ingredients for Westfall Stew, but the last Murloc Eye eluded him. With his bags crowded and rest overdue, he used a Hearthstone to return to Goldshire. Stormwind is the intended next stop for supplies, profession errands and a wand; none of those purchases or errands has yet been confirmed. All nine objectives recorded at 16:43 remain as a historical screenshot; Camping 101: Enchanting was subsequently completed.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Active quests · 7 Nov 16:43'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Quests shown · 16:43 history'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
     const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below records Westfall at 16:43, before the reported Hearthstone return to Goldshire; exact coordinates are not shown in that screenshot.');
    head.append(status);
    head.append(metrics);root.append(head);
-   const returnHome=Array.isArray(data.latestPlayerMilestones)
+   const enchanted=data.currentQuestUpdates?.camping101Enchanting;
+   if(enchanted?.status==='completed-player-reported'){
+      const completedPanel=make('div','xql-confirmed');
+      completedPanel.id='xuthar-enchanting-completed';
+      completedPanel.append(make('h3','xql-group-heading','7 November · Camping 101: Enchanting completed'));
+      completedPanel.append(make('p','xql-confirmed-item','✓ QUEST COMPLETED · Camping 101: Enchanting · Skill target 20 achieved (player confirmed).'));
+      const verify=make('p','xql-level-note','Blizzard quest archive verification is pending. The 15:56 official snapshot still listed the quest as active because it predates the completion report.');
+      completedPanel.append(verify);
+      const story=make('a','xql-book-link','Read Chapter XXXVII · What the Ordinary Things Remember ↗');
+      story.href='book.html?character=xuthar#x-enchanting-first-threshold';
+      completedPanel.append(story);
+      root.append(completedPanel);
+      fetch(officialFeed,{cache:'no-store',headers:{Accept:'application/json'}})
+       .then(r=>{if(!r.ok)throw Error('Official snapshot unavailable');return r.json();})
+       .then(feed=>{
+         if(feed.source!=='BlizzardOfficialAPI'||feed.apiRegion!=='eu')return;
+         const hero=Array.isArray(feed.characters)?feed.characters.find(c=>c.name==='Xuthar Morvayne'):null;
+         const quests=hero?.officialDetails?.quests;
+         if(Array.isArray(quests?.completedQuestIds)&&quests.completedQuestIds.includes(97917)){
+           verify.textContent='✓ Official Blizzard EU quest archive confirms completion of quest ID 97917.';
+         }else if(Array.isArray(quests?.inProgress)&&quests.inProgress.some(q=>q.id===97917)){
+           verify.textContent='Completed per Xuthar; Blizzard EU snapshot still lists the quest active while awaiting the next update.';
+         }
+       }).catch(()=>{});
+   }
+      const returnHome=Array.isArray(data.latestPlayerMilestones)
      ?data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-hearthstone-return-goldshire'):null;
    if(returnHome){
      const panel=make('div','xql-confirmed');panel.id='xuthar-hearthstone-return';
@@ -96,13 +121,14 @@
      const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' active quests at 16:43, before Xuthar returned to Goldshire. Missing quests are not automatically marked complete.');
      recent.append(note);
      for(const q of visible.visibleQuests){
-       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description);
+       const laterEnchantingDone=q.id===97917&&data.currentQuestUpdates?.camping101Enchanting?.status==='completed-player-reported';
+       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':''));
        recent.append(line);
        if(Array.isArray(q.objectives))for(const o of q.objectives){
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','The earlier Furlbrow recipe-delivery quest has given way to a new ingredient-gathering objective. Its exact turn-in and rewards are not independently confirmed. Tailoring and Enchanting training goals still appear in progress despite the bags Xuthar crafted.'));
+     recent.append(make('p','xql-level-note','The earlier Furlbrow recipe-delivery quest has given way to a new ingredient-gathering objective. Its exact turn-in and rewards are not independently confirmed. Enchanting and Tailoring still appeared in progress in this older screenshot, but Enchanting was completed later on 7 November. Tailoring has not been reported completed.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');
@@ -214,6 +240,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-enchanting-completed')requestAnimationFrame(()=>document.getElementById('xuthar-enchanting-completed')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-hearthstone-return')requestAnimationFrame(()=>document.getElementById('xuthar-hearthstone-return')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-eleven')requestAnimationFrame(()=>document.getElementById('xuthar-level-eleven')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-westfall-harvest-watchers')requestAnimationFrame(()=>document.getElementById('xuthar-westfall-harvest-watchers')?.scrollIntoView({block:'center'}));

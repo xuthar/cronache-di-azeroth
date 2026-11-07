@@ -69,16 +69,18 @@
             <a href="xuthar.html#xuthar-level-twelve">See the level 12 milestone ↗</a>
           </div>
           <p><strong>21:23–21:51 · The Tower of Azora and the river.</strong> Xuthar explored the tower's upper gallery among scholars and green-glass vessels, walked beside a quiet Elwynn river at night, and returned to the lower stone chamber where Hamish Bergwort stood. Theocritus and the Servants of Azora were present in the upper hall. No unobserved quest hand-in or dialogue is claimed.</p>
+          <p><strong>Chapter XLIII · A tower devoted to questions.</strong> In a dedicated chapter of <em>The Last Witness</em>, Xuthar explores the meaning of Azora's library and its arcane scholars, Theocritus and Hamish Bergwort. His family's warning returns to him, but he begins to understand that not every silence is a command to forget. This is a deeper telling of the same visit, not another unrecorded adventure.</p>
           <div class="day-two-links">
-            <a href="book.html?character=xuthar#x-tower-of-azora-and-evening-river">Read Chapter XLII · Where the Stars Were Kept in Glass ↗</a>
+            <a href="book.html?character=xuthar#x-tower-of-azora-dedicated">Read Chapter XLIII · The Silence Between the Stars ↗</a>
+            <a href="book.html?character=xuthar#x-tower-of-azora-and-evening-river">Earlier: Chapter XLII · Where the Stars Were Kept in Glass ↗</a>
             <a href="xuthar.html#xuthar-tower-azora">The Tower of Azora · Exploration record ↗</a>
           </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XLII</span>
+          <span>THE LAST WITNESS · CHAPTER XLIII</span>
           <strong>TOWER OF AZORA</strong>
-          <p>ARCANE STUDIES · AN EVENING OF QUESTIONS</p>
+          <p>THE LIBRARY · MEMORY · LIGHT AND SHADOW</p>
           <b>Level 12 · 7 November · 21:51</b>
           <small>Evening exploration; quest progress unchanged. The last quest screenshot remains from 20:55.</small>
         </aside>

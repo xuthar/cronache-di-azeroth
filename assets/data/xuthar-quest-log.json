@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 12,
-  "characterLevelSource": "Screenshot WoWScrnShot_110726_205511.jpg showing Xuthar Morvayne level 12 at 20:55 on 7 November 2026; official Blizzard EU snapshot checked earlier showed level 11.",
-  "characterLevelRecordedAt": "2026-11-07 20:55:11 Europe/Rome (level 12 visibly displayed; exact level-up time unknown)",
+  "characterLevel": 13,
+  "characterLevelSource": "Direct player report ('ah sono livello 13') in current conversation, recorded 2026-11-08; actual level-up date, place, time and XP not provided. Last checked BlizzardOfficialAPI EU snapshot shows level 11.",
+  "characterLevelRecordedAt": "2026-11-08 (report date; level-up exact timestamp not established)",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -1437,7 +1437,7 @@
     "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
     "recordedAt": "2026-11-06"
   },
-  "characterLevelConfirmation": "in-game-screenshot-verified-awaiting-new-official-api-snapshot",
+  "characterLevelConfirmation": "player-confirmed-official-snapshot-not-updated",
   "levelMilestonesReported": [
     {
       "level": 9,
@@ -1474,6 +1474,15 @@
       "location": "unknown; snapshot taken in Elwynn Forest near eastern murloc settlement",
       "officialSnapshotStatus": "last checked API snapshot level 11",
       "xp": "not shown"
+    },
+    {
+      "level": 13,
+      "date": "2026-11-08",
+      "source": "Direct player confirmation in conversation",
+      "levelUpTime": "unknown",
+      "location": "unknown; last pictured at Tower of Azora but level-up location not specified",
+      "officialSnapshotStatus": "Last checked official Blizzard EU snapshot level 11",
+      "xp": "not given"
     }
   ],
   "officialArmoryCheck": {
@@ -1594,6 +1603,22 @@
     }
   ],
   "latestPlayerMilestones": [
+    {
+      "id": "2026-11-08-xuthar-level-thirteen",
+      "day": "2026-11-08",
+      "eventType": "level-confirmed-player-report",
+      "title": "Xuthar Morvayne reaches level 13",
+      "level": 13,
+      "previousConfirmedLevel": 12,
+      "source": "User: 'ah sono livello 13'",
+      "dateMeaning": "Reported on 2026-11-08; not necessarily the moment or day of levelling",
+      "location": "unknown",
+      "levelUpTime": "unknown",
+      "officialApiVerification": false,
+      "latestKnownPlace": "Tower of Azora, in prior 21:51 screenshot; no claim levelled there",
+      "questEffects": "No quests marked finished or changed",
+      "storyChapterId": "x-thirteenth-threshold"
+    },
     {
       "id": "2026-11-07-azora-ground-floor-hamish-215141",
       "day": "2026-11-07",
@@ -2427,9 +2452,9 @@
     "latestScreenshot": "WoWScrnShot_110726_215141.jpg",
     "questUpdate": "At 18:39 completed by convention: Protect the Frontier, Good Steel, Red Linen Goods. At 20:45: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies. At 20:55: Downstream. The Collector and Deliver Thomas' Report still active. Latest Westfall Stew Murloc Eye 2/3.",
     "latestQuestScreenshot": "WoWScrnShot_110726_205511.jpg",
-    "chronologyNote": "20:55 riverside murlocs and level 12; 21:23 Tower of Azora upper floor; 21:39 peaceful Elwynn river; 21:51 Tower of Azora lower floor. Latest QUEST panel remains the 20:55 screenshot; later photos do not change quest statuses.",
-    "characterLevel": 12,
-    "levelStatus": "Level 12 confirmed in-game screenshot; last checked Blizzard EU official profile level 11",
+    "chronologyNote": "20:55 riverside murlocs and level 12; 21:23 Tower of Azora upper floor; 21:39 peaceful Elwynn river; 21:51 Tower of Azora lower floor. Latest QUEST panel remains the 20:55 screenshot; later photos do not change quest statuses. After the 21:51 Tower of Azora screenshot, player reported level 13. Exact levelling time/place not established. Earlier quest panel remains 20:55 at level 12.",
+    "characterLevel": 13,
+    "levelStatus": "Level 13 reported by player after Tower of Azora visit, exact level-up place/time unknown; last checked official Blizzard API level 11",
     "storyChapter": "Chapter XLIII · The Tower of Azora",
     "latestPlayerReportedLocation": "Tower of Azora · lower chamber (21:51 photo; no map coords)",
     "forthcomingErrands": [
@@ -2449,7 +2474,10 @@
     "before2055": "20:45 at 68.0,43.2: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies ready (counted completed); The Collector and Deliver Thomas' Report active",
     "narrativeFocus": "Chapter XLIII is a dedicated literary reflection on Xuthar's already witnessed 21:23–21:51 visit to Tower of Azora, not a newly asserted visit or a quest completion.",
     "latestDedicatedChapterId": "x-tower-of-azora-dedicated",
-    "latestDedicatedChapterTitle": "The Silence Between the Stars"
+    "latestDedicatedChapterTitle": "The Silence Between the Stars",
+    "newestCharacterMilestone": "Level 13, as confirmed by player",
+    "lastLevelMilestoneChapter": "Chapter XLIV · The Thirteenth Threshold",
+    "lastLevelMilestoneChapterId": "x-thirteenth-threshold"
   },
   "currentEquipmentReports": [
     {
@@ -3330,12 +3358,12 @@
   "latestQuestTrackerSnapshotId": "2026-11-07-eastvale-murloc-river-nine-205511",
   "latestQuestTrackerLocation": "Elwynn Forest 76.2, 84.2 · riverbank near murloc settlement, 20:55",
   "lastLevelMilestone": {
-    "level": 12,
-    "date": "2026-11-07",
-    "verification": "User-provided in-game screenshot (level 12 visible at 20:55); official API confirmation pending",
-    "priorMilestoneLevel": 11,
-    "levelUpLocation": "not known, last screenshot at 76.2,84.2",
-    "levelUpTime": "exact time not established"
+    "level": 13,
+    "date": "2026-11-08",
+    "verification": "Direct player statement, Blizzard official EU snapshot not yet caught up",
+    "priorMilestoneLevel": 12,
+    "levelUpLocation": "not reported",
+    "levelUpTime": "not reported"
   },
   "plannedItinerary": [
     {

@@ -9,10 +9,10 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE RIVERSIDE AFTER DARK</div>
+      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · THE TOWER OF AZORA</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="westfall-arrival-title">Beyond Eastvale.<br><em>The river keeps its names.</em></h2>
+          <h2 id="westfall-arrival-title">Beyond the river.<br><em>The tower keeps its questions.</em></h2>
           <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
           <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
             <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
@@ -68,14 +68,19 @@
             <a href="book.html?character=xuthar#x-eastvale-murloc-river-level-twelve">Read Chapter XLI · The Fires Across the Water ↗</a>
             <a href="xuthar.html#xuthar-level-twelve">See the level 12 milestone ↗</a>
           </div>
+          <p><strong>21:23–21:51 · The Tower of Azora and the river.</strong> Xuthar explored the tower's upper gallery among scholars and green-glass vessels, walked beside a quiet Elwynn river at night, and returned to the lower stone chamber where Hamish Bergwort stood. Theocritus and the Servants of Azora were present in the upper hall. No unobserved quest hand-in or dialogue is claimed.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-tower-of-azora-and-evening-river">Read Chapter XLII · Where the Stars Were Kept in Glass ↗</a>
+            <a href="xuthar.html#xuthar-tower-azora">The Tower of Azora · Exploration record ↗</a>
+          </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XLI</span>
-          <strong>THE EASTERN RIVER</strong>
-          <p>MURLOC SETTLEMENT · NIGHT ON THE WATER</p>
-          <b>Level 12 · 7 November · 20:55</b>
-          <small>Seven Eastvale and Enchanting quests counted completed by Chronicle convention. Thomas report active; Westfall Stew shows 2/3 Murloc Eyes.</small>
+          <span>THE LAST WITNESS · CHAPTER XLII</span>
+          <strong>TOWER OF AZORA</strong>
+          <p>ARCANE STUDIES · AN EVENING OF QUESTIONS</p>
+          <b>Level 12 · 7 November · 21:51</b>
+          <small>Evening exploration; quest progress unchanged. The last quest screenshot remains from 20:55.</small>
         </aside>
       </div>`;
     return section;

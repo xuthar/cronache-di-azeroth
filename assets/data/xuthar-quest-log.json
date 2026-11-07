@@ -2060,7 +2060,7 @@
     "characterLevel": 11,
     "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
     "storyChapter": "Chapter XXXVII · The Quiet Art of Enchantment",
-    "latestPlayerReportedLocation": "Goldshire (after Hearthstone)",
+    "latestPlayerReportedLocation": "Goldshire (after Hearthstone; no subsequent arrival confirmed)",
     "forthcomingErrands": [
       "Free up bag space",
       "Rest",
@@ -2069,7 +2069,11 @@
       "Handle profession-related commissions/supplies (not yet confirmed)"
     ],
     "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
-    "notesOnQuestStates": "The 16:43 Westfall screenshot still contains Camping 101: Enchanting as active because it predates the player's completion report. Camping 101: Tailoring has not been reported completed."
+    "notesOnQuestStates": "The 16:43 Westfall screenshot still contains Camping 101: Enchanting as active because it predates the player's completion report. Camping 101: Tailoring has not been reported completed.",
+    "nextPlannedQuestingArea": "Eastvale Logging Camp, eastern Elwynn Forest",
+    "nextPlannedQuestingAreaStatus": "planned, not yet arrived",
+    "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
+    "currentQuestingPlan": "Eastvale before Westfall (user preference)"
   },
   "currentEquipmentReports": [
     {
@@ -2352,5 +2356,23 @@
     "officialSnapshotExportedAt": 1794063406,
     "priorMilestoneLevel": 10,
     "levelUpLocation": "not confirmed"
-  }
+  },
+  "plannedItinerary": [
+    {
+      "id": "2026-11-07-next-destination-eastvale-logging-camp",
+      "recordedOn": "2026-11-07",
+      "character": "Xuthar Morvayne",
+      "priority": "next questing area before returning to Westfall",
+      "destination": "Eastvale Logging Camp",
+      "region": "Elwynn Forest (eastern area)",
+      "intention": "Do a few quests at Eastvale Logging Camp before returning to Westfall",
+      "state": "planned-not-yet-confirmed-arrival",
+      "questAcceptances": [],
+      "questCompletions": [],
+      "locationLastConfirmed": "Goldshire (player-reported Hearthstone return)",
+      "continuity": "After completing Camping 101: Enchanting and taking a break from Westfall's unfinished objectives, Xuthar plans to visit Eastvale. Actual journey and specific quests have yet to occur.",
+      "source": "Direct user plan on 7 November 2026",
+      "narrativeGuidance": "Foreshadow as a possible new road only; do not narrate actual travel or quest completions before evidence."
+    }
+  ]
 }

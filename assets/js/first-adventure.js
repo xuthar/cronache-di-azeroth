@@ -9,10 +9,10 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · WESTFALL</div>
+      <div class="day-two-signal">NEW JOURNEY · 7 NOVEMBER 2026 · WESTFALL TO GOLDSHIRE</div>
       <div class="day-two-layout">
         <div>
-          <h2 id="westfall-arrival-title">Beyond the lions.<br><em>The golden country begins.</em></h2>
+          <h2 id="westfall-arrival-title">The golden fields.<br><em>And the road back to the hearth.</em></h2>
           <p>From the bustling square of Goldshire, Xuthar followed Elwynn's quiet western road to the lion-guarded Alliance bridge. Beyond its blue banners, the forests ended and the sunlit fields of Westfall spread out before him. His first passage into the region is now part of The Last Witness.</p>
           <div class="first-night-steps" aria-label="Four moments from the first Westfall crossing">
             <div><b>10:56</b><span>Goldshire square · travellers and village life</span></div>
@@ -36,14 +36,20 @@
           </div>
           <p><strong>The Eleventh Threshold.</strong> Xuthar has reached level 11, confirmed by the official Blizzard EU character profile. As the fields of Westfall demand patience and compassion, his latest transformation enters The Last Witness as a chapter of an unfolding life, not a list of game statistics.</p>
           <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-eleventh-threshold">Read Chapter XXXV · The Weight of Another Dawn ↗</a><a href="xuthar.html#xuthar-level-eleven">See the level 11 milestone ↗</a></div>
-          <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
+          <p><strong>16:43 · Nearly enough for Westfall Stew.</strong> Xuthar has all the vulture meat, snouts and okra, and two of three murloc eyes. The last eye is still missing; Liver Pie remains at 2/8 and The Killing Fields at 0/20. The day has been exhausting, his handmade bags are crowded and the outstanding quests must wait.</p>
+          <p><strong>Homeward by Hearthstone.</strong> Xuthar returned from Westfall to Goldshire to gather his strength and prepare for Stormwind. Clearing out his bags, resting, purchasing a wand and tending to his professions are his next intentions, not actions already completed.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-hearthstone-goldshire-return">Read Chapter XXXVI · The Weight of What Remains ↗</a>
+            <a href="xuthar.html#xuthar-hearthstone-return">Hearthstone and quest status ↗</a>
+          </div>
+                    <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XXXI</span>
-          <strong>WESTFALL</strong>
-          <p>THE WESTERN BORDER IS BEHIND HIM</p>
-          <b>First arrival · 7 November</b>
-          <small>First crossing and a later return through the pumpkin fields among Harvest Watchers.</small>
+          <span>THE LAST WITNESS · CHAPTER XXXVI</span>
+          <strong>GOLDSHIRE</strong>
+          <p>HEARTHSTONE · A MOMENT TO REGROUP</p>
+          <b>Returned by Hearthstone · 7 November</b>
+          <small>Westfall duties remain unfinished. Stormwind and a new wand are still ahead.</small>
         </aside>
       </div>`;
     return section;

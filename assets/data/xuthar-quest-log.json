@@ -1683,5 +1683,21 @@
       "handoffLocation": "not confirmed",
       "priorScreenshotId": "2026-11-07-elwynn-gnoll-armbands-3-of-8"
     }
-  }
+  },
+  "latestMapObservations": [
+    {
+      "id": "2026-11-07-western-elwynn-border-forest-edge-map",
+      "day": "2026-11-07",
+      "source": "image(20261107-113922).png",
+      "map": "Elwynn Forest",
+      "observation": "The character location arrow appears on the far western edge of the Elwynn Forest map, beside Forest's Edge and the western bridge leading toward Westfall.",
+      "destination": "Sentinel Hill in Westfall · Gryan Stoutmantle",
+      "notEstablished": [
+        "Westfall zone entry",
+        "arrival at Sentinel Hill",
+        "turn-in of Report to Gryan Stoutmantle"
+      ],
+      "narrativeContinuity": "Xuthar has travelled to the western edge of the forest following the Riverpaw hunt; the next full chapter can begin after his entry into Westfall."
+    }
+  ]
 }

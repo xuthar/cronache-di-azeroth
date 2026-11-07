@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1793999665,
+  "exportedAt": 1794063406,
   "characters": [
     {
       "id": "xuthar",
@@ -12,47 +12,51 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 10,
+      "level": 11,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 87,
+      "questsCompleted": 99,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1793999665,
+      "checkedAt": 1794063406,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1793999665,
-          "inProgressCount": 8,
-          "completedCount": 87,
+          "snapshotAt": 1794063406,
+          "inProgressCount": 9,
+          "completedCount": 99,
           "inProgress": [
             {
-              "id": 176,
-              "name": "WANTED: \"Hogger\""
+              "id": 64,
+              "name": "The Forgotten Heirloom"
             },
             {
-              "id": 11,
-              "name": "Riverpaw Gnoll Bounty"
+              "id": 38,
+              "name": "Westfall Stew"
             },
             {
               "id": 353,
               "name": "Stormpike's Delivery"
             },
             {
+              "id": 22,
+              "name": "Goretusk Liver Pie"
+            },
+            {
               "id": 109,
               "name": "Report to Gryan Stoutmantle"
             },
             {
-              "id": 94774,
-              "name": "Divine Grace"
+              "id": 9,
+              "name": "The Killing Fields"
             },
             {
-              "id": 91777,
-              "name": "Rare Books"
+              "id": 399,
+              "name": "Humble Beginnings"
             },
             {
               "id": 97917,
@@ -66,11 +70,13 @@
           "completedQuestIds": [
             6,
             7,
+            11,
             15,
             18,
             21,
             33,
             35,
+            36,
             40,
             47,
             54,
@@ -88,6 +94,8 @@
             111,
             112,
             114,
+            151,
+            176,
             239,
             332,
             333,
@@ -109,7 +117,15 @@
             91758,
             91772,
             91775,
+            91777,
             92124,
+            94773,
+            94774,
+            94775,
+            94776,
+            94777,
+            94778,
+            94779,
             95998,
             96047,
             96050,
@@ -172,6 +188,15 @@
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
+              "id": 11,
+              "title": "Riverpaw Gnoll Bounty",
+              "area": "Elwynn Forest",
+              "briefing": "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of Elwynn Forest. A large pack of them,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 15,
               "title": "Investigate Echo Ridge",
               "area": "Northshire Valley",
@@ -212,6 +237,15 @@
               "title": "Further Concerns",
               "area": "Elwynn Forest",
               "briefing": "If you are concerned that the rumors of murlocs are true, then do this -- travel to the eastern Elwynn bridge and speak with…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 36,
+              "title": "Westfall Stew",
+              "area": "Westfall",
+              "briefing": "I never thought the day would come when I'd leave the farm. But the fields are overrun with thieves and it's far too dangerous…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -365,6 +399,24 @@
               "title": "The Escape",
               "area": "Elwynn Forest",
               "briefing": "Take this invisibility liquor to young Maybell. It should last long enough for her to visit Tommy Joe.",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 151,
+              "title": "Poor Old Blanchy",
+              "area": "Westfall",
+              "briefing": "Poor Old Blanchy! Such a tired beast after all the work we put her through. I fed her before we left the farm, but…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 176,
+              "title": "WANTED: \"Hogger\"",
+              "area": "Elwynn Forest",
+              "briefing": "Wanted: Hogger A huge gnoll, Hogger, is prowling the woods in southwestern Elwynn. He has overpowered all attempts at his capture. The Stormwind Army…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -559,10 +611,82 @@
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
+              "id": 91777,
+              "title": "Rare Books",
+              "area": "Elwynn Forest",
+              "briefing": "There are just two books left missing on Brother Paxton's list: \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\".…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 92124,
               "title": "Book Inventory",
               "area": "Northshire Valley",
               "briefing": "We need to take stock of how many books are missing! Go talk to my useless assistant, Daniel. He can do a quick inventory…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94773,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": null,
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94774,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "You've caught the attention of our superiors, Xuthar. They've asked you to travel to the Cathedral of Light in Stormwind as soon as possible.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94775,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "Elune bless you, good {race}. I hope your Light finds you and protects you well this day. One of your priests was here not…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94776,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "Time's come for you to head to Stormwind, Xuthar. High Priestess Laurena in the Cathedral of Light wants to speak to you. Gotta be…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94777,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "Just a short time ago, one of your priests was here looking for you, {race}. He said that if I were to see you,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94778,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "You're needed in Stormwind, Xuthar. The High Priestess there, Laurena, says it's time for you to prove you're worthy of the next level of…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94779,
+              "title": "Divine Grace",
+              "area": "Priest",
+              "briefing": "Praise be to Elune, and to your Light, Xuthar. About this time, many of our order learn abilities reflecting their faith in Elune. If…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -937,8 +1061,21 @@
               "metadataSource": "BlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1793999646,
+          "newlyObservedCompletedIds": [
+            11,
+            36,
+            151,
+            176,
+            91777,
+            94773,
+            94774,
+            94775,
+            94776,
+            94777,
+            94778,
+            94779
+          ],
+          "comparedWithSnapshotAt": 1793999665,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -946,15 +1083,15 @@
           "secondaryCount": 3
         },
         "equipment": {
-          "equippedCount": 7
+          "equippedCount": 8
         },
         "reputations": {
           "trackedCount": 4
         },
         "achievements": {
-          "trackedCount": 7
+          "trackedCount": 8
         },
-        "profileCheckedAt": 1793999665
+        "profileCheckedAt": 1794063406
       }
     }
   ],

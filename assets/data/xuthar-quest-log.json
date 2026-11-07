@@ -808,7 +808,10 @@
         "name": "Enchanting",
         "learned": true,
         "source": "player-report",
-        "skillLevel": null
+        "skillLevel": null,
+        "minimumConfirmedSkill": 20,
+        "skillLevelSource": "Completion of Camping 101: Enchanting reported on 7 Nov implies reaching at least 20; exact current value unknown",
+        "camping101QuestStatus": "completed-player-reported"
       }
     ],
     "secondary": [
@@ -1583,6 +1586,24 @@
   ],
   "latestPlayerMilestones": [
     {
+      "id": "2026-11-07-camping-101-enchanting-completed",
+      "day": "2026-11-07",
+      "eventType": "quest-completed-player-report",
+      "title": "Camping 101: Enchanting completed",
+      "questId": 97917,
+      "questName": "Camping 101: Enchanting",
+      "skill": "Enchanting",
+      "requiredSkill": 20,
+      "exactCurrentSkill": null,
+      "source": "Direct player confirmation 7 November 2026",
+      "officialVerification": "Pending updated Blizzard EU profile snapshot; earlier published snapshot at 15:56 local showed the quest active",
+      "questOutcome": "Completed (player reported)",
+      "exactLocation": "not given",
+      "itemEnchanted": "not specified",
+      "reward": "not specified",
+      "storyChapterId": "x-enchanting-first-threshold"
+    },
+    {
       "id": "2026-11-07-hearthstone-return-goldshire",
       "day": "2026-11-07",
       "eventType": "rest-travel",
@@ -1916,7 +1937,7 @@
         "status": "in-progress"
       }
     ],
-    "scope": "Nine quests in the 16:43 quest screenshot. Exact zone coordinates not shown. Westfall Stew 11/12 ingredients (3/3 Stringy Vulture Meat, 2/3 Murloc Eye, 3/3 Goretusk Snout, 3/3 Okra); Goretusk Liver Pie 2/8; The Killing Fields 0/20; heirloom 0/1; Gryan report and skills still pending. Shortly afterward, player reports using Hearthstone to return to Goldshire toward Stormwind. Do not infer rest, sale, wand purchase, or profession training as completed.",
+    "scope": "Nine quests in the 16:43 quest screenshot. Exact zone coordinates not shown. Westfall Stew 11/12 ingredients (3/3 Stringy Vulture Meat, 2/3 Murloc Eye, 3/3 Goretusk Snout, 3/3 Okra); Goretusk Liver Pie 2/8; The Killing Fields 0/20; heirloom 0/1; Gryan report and skills still pending. Shortly afterward, player reports using Hearthstone to return to Goldshire toward Stormwind. Do not infer rest, sale, wand purchase, or profession training as completed. Camping 101: Enchanting was later reported completed (7 Nov); the displayed in-progress quest is historical to 16:43 and its original snapshot remains unchanged.",
     "previousSnapshotId": "2026-11-07-westfall-nine-active-141136",
     "characterLevel": 11,
     "levelConfirmation": "Direct player report and official Blizzard EU snapshot earlier in the day",
@@ -1935,6 +1956,29 @@
       "rewards": "not reported",
       "handoffLocation": "not confirmed",
       "priorScreenshotId": "2026-11-07-elwynn-gnoll-armbands-3-of-8"
+    },
+    "camping101Enchanting": {
+      "id": 97917,
+      "name": "Camping 101: Enchanting",
+      "status": "completed-player-reported",
+      "day": "2026-11-07",
+      "objective": "Raise Enchanting skill to 20",
+      "objectiveAchieved": true,
+      "minimumSkillImpliedByQuestCompletion": 20,
+      "exactCurrentSkill": null,
+      "playerReport": "ok completata la quest camping 101 enchanting",
+      "lastOfficialSnapshot": {
+        "branch": "live-blizzard",
+        "file": "forever-progress.json",
+        "exportedAt": 1794063406,
+        "source": "BlizzardOfficialAPI",
+        "status": "still in-progress in earlier snapshot",
+        "verifiedComplete": false
+      },
+      "rewards": "not reported",
+      "handInLocation": "not reported",
+      "storyChapterId": "x-enchanting-first-threshold",
+      "note": "This post-screenshot player confirmation supersedes the 16:43 historical active quest status. Do not rewrite the screenshot, infer recipe/item changes or claim confirmed API completion."
     }
   },
   "latestMapObservations": [
@@ -2000,8 +2044,8 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Way Back Through the Hearth",
-    "status": "After a difficult day gathering ingredients in Westfall, Xuthar used his Hearthstone and returned to Goldshire; intends to go toward Stormwind for supplies and a wand.",
+    "chapter": "The Quiet Art of Enchantment",
+    "status": "Following return to Goldshire from Westfall, Xuthar has completed Camping 101: Enchanting. Exact location of completion and subsequent Stormwind errands or wand purchase are not established.",
     "nextConfirmedQuest": "Report to Gryan Stoutmantle remains active in latest 16:43 screenshot.",
     "latestVisualEvidence": "image(20261107-164338).png",
     "stage": "Goldshire · just returned by Hearthstone, preparing for Stormwind",
@@ -2015,7 +2059,7 @@
     "chronologyNote": "The 16:43 Westfall quest tracker predates the player's Hearthstone return to Goldshire. Arrival in Stormwind and completion of errands are not reported.",
     "characterLevel": 11,
     "levelStatus": "Level 11 confirmed on 7 Nov by player and official EU Blizzard snapshot",
-    "storyChapter": "Chapter XXXVI · The Hearthward Road",
+    "storyChapter": "Chapter XXXVII · The Quiet Art of Enchantment",
     "latestPlayerReportedLocation": "Goldshire (after Hearthstone)",
     "forthcomingErrands": [
       "Free up bag space",
@@ -2023,7 +2067,9 @@
       "Travel toward Stormwind",
       "Purchase a wand (not yet confirmed)",
       "Handle profession-related commissions/supplies (not yet confirmed)"
-    ]
+    ],
+    "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
+    "notesOnQuestStates": "The 16:43 Westfall screenshot still contains Camping 101: Enchanting as active because it predates the player's completion report. Camping 101: Tailoring has not been reported completed."
   },
   "currentEquipmentReports": [
     {

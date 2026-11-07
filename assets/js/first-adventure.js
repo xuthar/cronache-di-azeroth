@@ -3,6 +3,33 @@
   'use strict';
   const page=document.body.dataset.page;
   const book='book.html?character=xuthar#x-rain-over-goldshire';
+  function hoggerMilestonePanel(){
+    const section=document.createElement('section');
+    section.id='xuthar-hogger-20261107';
+    section.className='day-two-panel wrap';
+    section.setAttribute('aria-labelledby','hogger-milestone-title');
+    section.innerHTML=`
+      <div class="day-two-signal">NEW CHAPTER · 7 NOVEMBER 2026 · THE LAST WITNESS</div>
+      <div class="day-two-layout">
+        <div>
+          <h2 id="hogger-milestone-title">Five against one.<br><em>Hogger has fallen.</em></h2>
+          <p>On the western road from Elwynn, Xuthar joined four other adventurers to face Hogger. The gnoll fell to their combined strength. Their names may yet be learned; the story remembers every member of the company, not a solitary hero.</p>
+          <p class="day-two-evidence">The victory is recorded. Xuthar is returning to deliver WANTED: “Hogger”; the quest hand-in remains pending until the official Blizzard quest archive confirms it.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-hogger-five-against-one">Read Chapter XXIX · The Fall of Hogger ↗</a>
+            <a href="xuthar.html#hogger-party-five">Battle and quest status ↗</a>
+          </div>
+        </div>
+        <aside class="day-two-status">
+          <span>THE LAST WITNESS · NEW MILESTONE</span>
+          <strong>5 / 5</strong>
+          <p>ADVENTURERS STOOD TOGETHER</p>
+          <b>Hogger defeated</b>
+          <small>Four companions joined Xuthar. Quest hand-in checked separately against Blizzard.</small>
+        </aside>
+      </div>`;
+    return section;
+  }
   function dayTwoPanel(){
     const section=document.createElement('section');
     section.id='xuthar-day-two';
@@ -100,6 +127,7 @@
       </div>`;
     hero.insertAdjacentElement('afterend',section);
     section.insertAdjacentElement('beforebegin',dayTwoPanel());
+    hero.insertAdjacentElement('afterend',hoggerMilestonePanel());
   }
   if(page==='xuthar'){
     const opening=document.querySelector('.xu-opening');
@@ -115,6 +143,7 @@
       <div class="first-night-links"><a href="book.html?character=xuthar#x-rain-over-goldshire">Read Chapter XX · The Last Light Before Sleep →</a><a href="journal.html#xuthar-rainy-goldshire-rest">Read tonight’s Goldshire journal →</a><a href="#xuthar-quests">View last documented quest tracker ↗</a></div>
     `;
     opening.parentNode.insertBefore(panel,opening);
+    panel.insertAdjacentElement('beforebegin',hoggerMilestonePanel());
     panel.insertAdjacentElement('beforebegin',dayTwoPanel());
   }
 })();

@@ -53,14 +53,19 @@
             <a href="book.html?character=xuthar#x-eastvale-woods-and-rolf">Read Chapter XXXVIII · The Wood That Kept Its Secrets ↗</a>
             <a href="xuthar.html#xuthar-latest-quests">View the 11 eastern-forest objectives ↗</a>
           </div>
+          <p><strong>18:39 · The price of a safer road.</strong> Protect the Frontier, Good Steel and Red Linen Goods now all show Ready for turn-in. The frontier has been made safer and the requested materials gathered, but the quests still await their formal return. Rolf remains missing, the waterlogged tools and bundles of wood are uncollected, and the obligations in Westfall remain unfinished.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-eastvale-frontier-unfinished-return">Read Chapter XXXIX · The Price of a Safer Road ↗</a>
+            <a href="xuthar.html#xuthar-eastvale-ready">Three quests ready for turn-in ↗</a>
+          </div>
           <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
         </div>
         <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XXXVIII</span>
+          <span>THE LAST WITNESS · CHAPTER XXXIX</span>
           <strong>EASTERN ELWYNN</strong>
           <p>EASTVALE QUESTING REGION · THE WOODS AHEAD</p>
-          <b>Eastern forest · 7 November · 18:18</b>
-          <small>Eleven objectives visible. Westfall Stew ingredients are ready for delivery, not yet handed in.</small>
+          <b>Eastern forest · 7 November · 18:39</b>
+          <small>Three Eastvale quests ready for turn-in; Westfall Stew ingredients are complete. No quest hand-in claimed.</small>
         </aside>
       </div>`;
     return section;

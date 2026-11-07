@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261107-level-eleven-novel';
+ const source='assets/data/xuthar-quest-log.json?v=20261107-hearthstone-goldshire';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -38,18 +38,29 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
-    const title=make('h2','','On the western road: new objectives.');
+    const title=make('h2','','The long road home, with Westfall unfinished.');
    title.id='xql-heading';
-    const lead=make('p','','Westfall's fields have drawn Xuthar into the labour of survival: The Killing Fields (0/20 Harvest Watchers), Goretusk Liver Pie (2/8 livers) and the ingredient-gathering stage of Westfall Stew (Okra 3/3). Nine active quests are visible at 14:11, with Report to Gryan Stoutmantle still unfinished. Earlier quest panels below are preserved as historical records.');
+    const lead=make('p','','After a demanding afternoon in Westfall, Xuthar gathered eleven of twelve ingredients for Westfall Stew, but the last Murloc Eye eluded him. With his bags crowded and rest overdue, he used a Hearthstone to return to Goldshire. Stormwind is the intended next stop for supplies, profession errands and a wand; none of those purchases or errands has yet been confirmed. All nine 16:43 quest statuses remain recorded below.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Active quests · 7 Nov 14:11'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Active quests · 7 Nov 16:43'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below is a historical 14:11 observation near Westfall '+(data.latestVisibleObjectives?.coordinates?.x??'?')+', '+(data.latestVisibleObjectives?.coordinates?.y??'?')+'.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 7 November 2026 · Verified by player and official Blizzard EU profile snapshot. The quest tracker below records Westfall at 16:43, before the reported Hearthstone return to Goldshire; exact coordinates are not shown in that screenshot.');
    head.append(status);
    head.append(metrics);root.append(head);
+   const returnHome=Array.isArray(data.latestPlayerMilestones)
+     ?data.latestPlayerMilestones.find(m=>m.id==='2026-11-07-hearthstone-return-goldshire'):null;
+   if(returnHome){
+     const panel=make('div','xql-confirmed');panel.id='xuthar-hearthstone-return';
+     panel.append(make('h3','xql-group-heading','7 November · Hearthstone to Goldshire'));
+     panel.append(make('p','xql-confirmed-item','✓ Returned to Goldshire by Hearthstone after a difficult day collecting items in Westfall. The last stew ingredient still missing is 1 Murloc Eye.'));
+     panel.append(make('p','xql-level-note','Rest, clearing bags, buying a wand and profession errands are planned. Reaching Stormwind or completing those tasks has not yet been reported.'));
+     const link=make('a','xql-book-link','Read Chapter XXXVI · The Weight of What Remains ↗');
+     link.href='book.html?character=xuthar#x-hearthstone-goldshire-return';panel.append(link);
+     root.append(panel);
+   }
    if(data.lastLevelMilestone?.level===11){
       const levelPanel=make('div','xql-confirmed');
       levelPanel.id='xuthar-level-eleven';
@@ -80,8 +91,9 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Westfall · Nine active quests · 14:11'));
-     const note=make('p','xql-level-note','Position '+visible.coordinates.x+', '+visible.coordinates.y+' · '+visible.zone+' · '+visible.visibleQuests.length+' active quests in the 14:11 screenshot, following the earlier 13:41 Furlbrow tracker and 14:09 farm photo. Unlisted quests are not automatically marked completed.');
+     recent.append(make('h3','xql-group-heading','7 November · Westfall · Nine active quests · 16:43'));
+     const place=visible.coordinates?'Position '+visible.coordinates.x+', '+visible.coordinates.y+' · ':'Location coordinates not visible · ';
+     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' active quests at 16:43, before Xuthar returned to Goldshire. Missing quests are not automatically marked complete.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description);
@@ -202,6 +214,7 @@
      if(wrap)wrap.insertBefore(root,wrap.querySelector('.home-journal')||null);
    }
    if(location.hash==='#xuthar-quests')requestAnimationFrame(()=>root.scrollIntoView({block:'start'}));
+   if(location.hash==='#xuthar-hearthstone-return')requestAnimationFrame(()=>document.getElementById('xuthar-hearthstone-return')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-level-eleven')requestAnimationFrame(()=>document.getElementById('xuthar-level-eleven')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-westfall-harvest-watchers')requestAnimationFrame(()=>document.getElementById('xuthar-westfall-harvest-watchers')?.scrollIntoView({block:'center'}));
    if(location.hash==='#xuthar-staves-training')requestAnimationFrame(()=>document.getElementById('xuthar-staves-training')?.scrollIntoView({block:'center'}));

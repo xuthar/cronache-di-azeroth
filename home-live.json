@@ -2,7 +2,7 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-07T22:30:39.569Z"
+    "checkedAt": "2026-11-07T22:30:48.871Z"
   },
   "news": [
     {
@@ -30,12 +30,12 @@
       "publishedAt": "2026-11-07T04:18:40.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-07T22:30:39.569Z",
-  "generatedAt": "2026-11-07T22:30:39.563Z",
+  "newsUpdatedAt": "2026-11-07T22:30:48.870Z",
+  "generatedAt": "2026-11-07T22:30:48.864Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 07 Nov 2026 16:30:29 -0600",
+  "newsFeedBuiltAt": "Sat, 07 Nov 2026 16:30:42 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

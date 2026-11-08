@@ -73,7 +73,7 @@
     const label=elem('span','blizz-live-overline','OFFICIAL BLIZZARD PROFILE · FOREVER EU');
     const title=elem('h2','','Xuthar, recorded by Azeroth.');
     title.id='blizz-live-title';
-    const intro=elem('p','','Daily, read-only profile synchronization. Character stats come from Blizzard; the quest journal remains independently documented from gameplay.');
+    const intro=elem('p','','Read-only Blizzard profile checks three times a day. Official snapshots may lag behind gameplay; the personal quest journal remains independently documented.');
     const text=elem('div','blizz-live-copy');
     text.append(label,title,intro);
     const tag=elem('span','blizz-live-state','Loading official data…');
@@ -95,7 +95,7 @@
       item.append(value);
       values[key]=value;stats.append(item);
     }
-    const detail=elem('p','blizz-live-meta','Data source: verified Blizzard EU API · daily around 08:21 UTC. Waiting for published profile.');
+    const detail=elem('p','blizz-live-meta','Data source: verified Blizzard EU API · scheduled checks at 07:17, 13:17 and 20:17 UTC. Waiting for published profile.');
     const links=elem('div','blizz-live-links');
     const officialLink=elem('a','','Official character Armory ↗');
     officialLink.href=armory;
@@ -125,10 +125,14 @@
         ui.values.className.textContent=profile.className||'—';
         ui.values.ruleset.textContent=profile.ruleset||'—';
         showOfficialProgress(profile.officialDetails,ui.activity);
-        ui.tag.textContent='Official profile verified';
-        ui.tag.classList.add('blizz-live-ok');
-        ui.detail.textContent='Last published Blizzard check: '+formattedTime(data.exportedAt||profile.checkedAt)+
-          ' · Runs once daily at 08:21 UTC (09:21 winter / 10:21 summer in Italy).';
+        const snapshotAt=Number(data.exportedAt||profile.checkedAt);
+        const ageSeconds=Date.now()/1000-snapshotAt;
+        const stale=!Number.isFinite(snapshotAt)||snapshotAt<=0||ageSeconds>24*60*60;
+        ui.tag.textContent=stale?'Official data older than 24h':'Official snapshot verified';
+        ui.tag.classList.add(stale?'blizz-live-pending':'blizz-live-ok');
+        ui.detail.textContent='Last successful Blizzard check: '+formattedTime(snapshotAt)+
+          ' · Automatic checks scheduled at 07:17, 13:17 and 20:17 UTC.'+
+          (stale?' This snapshot is outdated; the in-game character may be further ahead.':'');
       })
       .catch(()=>{
         ui.tag.textContent='Live feed temporarily unavailable';

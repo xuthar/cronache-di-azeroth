@@ -19,10 +19,30 @@ function localized(v){
   if(typeof v==='string')return v.slice(0,120);
   return String(v?.en_GB||v?.en_US||'').slice(0,120);
 }
+// A temporary Blizzard outage or rate limit should not erase the last good snapshot.
+// Retry only transient failures; identity mismatches, auth errors and invalid data still fail.
 async function json(url,opts={}){
-  const response=await fetch(url,{...opts,signal:AbortSignal.timeout(20000)});
-  if(!response.ok)throw Error('Official Blizzard endpoint returned HTTP '+response.status+'.');
-  return response.json();
+  const transient=new Set([429,500,502,503,504]);
+  for(let attempt=0;attempt<3;attempt++){
+    let response;
+    try{
+      response=await fetch(url,{...opts,signal:AbortSignal.timeout(20000)});
+    }catch(error){
+      if(attempt===2)throw error;
+      await new Promise(resolve=>setTimeout(resolve,800*(attempt+1)));
+      continue;
+    }
+    if(response.ok)return response.json();
+    if(!transient.has(response.status)||attempt===2){
+      throw Error('Official Blizzard endpoint returned HTTP '+response.status+'.');
+    }
+    const retryAfter=Number(response.headers.get('retry-after'));
+    const delay=Number.isFinite(retryAfter)&&retryAfter>=0?
+      Math.min(5000,retryAfter*1000):800*(attempt+1);
+    console.log('Temporary Blizzard HTTP '+response.status+'; retrying request.');
+    await new Promise(resolve=>setTimeout(resolve,delay));
+  }
+  throw Error('Official Blizzard API request retries exhausted.');
 }
 function count(data,key){return Array.isArray(data?.[key])?data[key].length:null;}
 function refId(obj){
@@ -47,22 +67,29 @@ function editorialExcerpt(text){
 async function questStaticCatalog(ids,token,previousById){
   if(!Array.isArray(ids))return null;
   const entries=new Array(ids.length);
-  let next=0,verified=0,unavailable=0;
+  let next=0,verified=0,reused=0,unavailable=0;
   async function worker(){
     while(next<ids.length){
       const index=next++;
       const id=ids[index];
       const existing=previousById.get(id)||null;
+      // Verified static metadata does not need to be downloaded at every refresh.
+      // Only newly completed or previously unresolved IDs need a fresh catalog lookup.
+      if(existing&&typeof existing.title==='string'&&existing.title&&
+         ['BlizzardStaticForeverEU','PreviouslyVerifiedBlizzardStaticForeverEU'].includes(existing.metadataSource)){
+        entries[index]={id,title:existing.title,area:existing.area||null,
+          briefing:existing.briefing||null,objective:null,objectiveSource:null,
+          metadataSource:'PreviouslyVerifiedBlizzardStaticForeverEU'};
+        reused++;
+        continue;
+      }
       const url=new URL('https://eu.api.blizzard.com/data/wow/quest/'+id);
       url.searchParams.set('namespace','static-forever-eu');
       url.searchParams.set('locale','en_GB');
       try{
-        const response=await fetch(url,{
-          headers:{Authorization:'Bearer '+token,Accept:'application/json'},
-          signal:AbortSignal.timeout(12000)
+        const q=await json(url,{
+          headers:{Authorization:'Bearer '+token,Accept:'application/json'}
         });
-        if(!response.ok)throw Error('Static quest metadata unavailable');
-        const q=await response.json();
         if(Number(q?.id)!==id)throw Error('Static quest ID mismatch');
         const title=localized(q?.title)||localized(q?.name);
         if(!title)throw Error('Static quest name missing');
@@ -87,7 +114,7 @@ async function questStaticCatalog(ids,token,previousById){
     }
   }
   await Promise.all(Array.from({length:Math.min(4,ids.length)},()=>worker()));
-  console.log('Static quest catalog: '+verified+' resolved; '+unavailable+' unavailable or reused from previous.');
+  console.log('Static quest catalog: '+verified+' newly resolved; '+reused+' reused from verified snapshots; '+unavailable+' unavailable.');
   return entries;
 }
 async function previousSnapshot(path){
@@ -156,8 +183,12 @@ async function main(){
       request('reputations'),
       request('achievements')
     ]);
-    // A failed endpoint is unknown, NEVER zero.
-    const activeArray=Array.isArray(quests?.in_progress)?quests.in_progress:null;
+    // Keep the previously published snapshot untouched on temporary loss of the
+    // two previously verified quest endpoints. Unknown must never become zero.
+    if(!Array.isArray(quests?.in_progress)||!Array.isArray(completed?.quests)){
+      throw Error('Official quest endpoints did not return valid arrays. Previous verified feed preserved.');
+    }
+    const activeArray=quests.in_progress;
     const completedArray=Array.isArray(completed?.quests)?completed.quests:null;
     const primaryCount=count(professions,'primaries');
     const secondaryCount=count(professions,'secondaries');

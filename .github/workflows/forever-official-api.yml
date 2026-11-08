@@ -1,8 +1,9 @@
 name: Forever official Blizzard API sync
 on:
   schedule:
-    # Daily at 08:21 UTC (09:21 CET / 10:21 CEST); GitHub may delay scheduled runs.
-    - cron: '21 8 * * *'
+    # Three staggered checks (UTC) reduce the impact of delayed or skipped GitHub schedules.
+    # The EU Blizzard feed is read-only; publication remains isolated on live-blizzard.
+    - cron: '17 7,13,20 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   official-profile:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v4

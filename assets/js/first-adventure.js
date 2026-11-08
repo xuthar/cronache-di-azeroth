@@ -232,14 +232,14 @@
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">
           <span class="first-night-archive-kicker">THE LAST WITNESS · PHOTO RECORDS</span>
           <h3 id="first-night-archive-title">Every journey leaves a trace.</h3>
-          <p>A few selected moments accompany the story below. All 25 gameplay photographs remain in a chronological archive, each available in full resolution.</p>
+          <p>A few selected moments accompany the story below. All 31 gameplay photographs remain in a chronological archive, each available in full resolution.</p>
           <div class="first-night-archive-counters" aria-label="Archive collections">
-            <a href="gallery.html#xuthar-day-one-photos"><strong>18</strong><span>Day One · 5 November</span></a>
+            <a href="gallery.html#xuthar-day-one-photos"><strong>24</strong><span>Day One · 5 November</span></a>
             <a href="gallery.html#xuthar-day-two-photos"><strong>7</strong><span>Day Two · 6 November</span></a>
             
           </div>
           <a class="first-night-archive-open" href="gallery.html#xuthar-day-one-photos">Explore the original archive ↗</a>
-          <small>25 original gameplay screenshots · Select a photograph to open its full-size original.</small>
+          <small>31 original gameplay screenshots · Select a photograph to open its full-size original.</small>
         </aside>
       </div>
       <div class="first-night-photostory" aria-label="Selected original photographs from day one">

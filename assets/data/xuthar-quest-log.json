@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-07",
+  "recordedAt": "2026-11-08",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -734,6 +734,34 @@
       "gameTime": "18:41 (filename)",
       "uploadedByPlayer": true,
       "publishedOnSite": false
+    },
+    {
+      "filename": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
+      "description": "Questie six missions with Quest Complete! in Westfall",
+      "date": "2026-11-08",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "Immagine ChatGPT 8 nov 2026, 11_49_07.png",
+      "description": "Journal: level 13, Goldshire campfire, Jansen Stead and Bounty on Murlocs",
+      "date": "2026-11-08",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "Immagine ChatGPT 8 nov 2026, 11_49_13.png",
+      "description": "Journal: level 12 at Stone Cairn Lake, Eastvale, bear and Morgan close calls",
+      "date": "2026-11-08",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
+    },
+    {
+      "filename": "Immagine ChatGPT 8 nov 2026, 11_49_20.png",
+      "description": "Journal: level 11 Westfall fights, death by Murloc Coastrunner, Ervicwiidak rescue",
+      "date": "2026-11-08",
+      "uploadedByPlayer": true,
+      "publishedOnSite": false
     }
   ],
   "latestReportAt": "2026-11-06T18:41:52+01:00",
@@ -956,18 +984,13 @@
       "apiMilestone": "At level 10, public Armory eligibility; successful API fetch still unverified. Workflow OFF pending credentials and verification."
     }
   ],
-  "currentSessionId": "day-02-20261106",
-  "currentSessionStatus": "evening-quest-tracker-ten-ongoing",
-  "currentChronicleDate": "2026-11-07",
+  "currentSessionId": "day-04-20261108",
+  "currentSessionStatus": "westfall-six-quests-complete-by-user-convention",
+  "currentChronicleDate": "2026-11-08",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Tower of Azora · interior lower chamber, Elwynn Forest (21:51:41 screenshot)",
-  "currentQuestTrackerLocation": {
-    "shownCoordinates": "59.6, 69.4",
-    "zone": "not visible in crop",
-    "at": "2026-11-06 18:41 (timestamp from uploaded filename)",
-    "placeVerified": false
-  },
+  "lastConfirmedLocation": "Westfall · Furlbrow's Pumpkin Farm / Jansen Stead region",
+  "currentQuestTrackerLocation": "Westfall · 43.1,57.5",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
     "date": "2026-11-06",
@@ -2056,141 +2079,61 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-07-eastvale-murloc-river-nine-205511",
-    "day": "2026-11-07",
-    "observedAt": "2026-11-07 20:55:11 (screenshot filename)",
-    "screenshot": "WoWScrnShot_110726_205511.jpg",
-    "zone": "Elwynn Forest · eastern riverbank / murloc settlement",
+    "id": "2026-11-08-westfall-questie-six-complete",
+    "day": "2026-11-08",
+    "screenshot": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
+    "zone": "Westfall",
     "coordinates": {
-      "x": 76.2,
-      "y": 84.2
+      "x": 43.1,
+      "y": 57.5
     },
+    "characterLevel": 13,
+    "interface": "Questie Tracker · 6/40",
     "visibleQuests": [
       {
-        "id": null,
-        "name": "Deliver Thomas' Report",
-        "level": 10,
-        "description": "Report to Marshal Dughan in Goldshire",
-        "status": "in-progress",
-        "note": "Newly visible follow-up-style mission. Previous Rolf quest disappearance does not by itself prove hand-in."
-      },
-      {
-        "id": null,
-        "name": "Downstream",
-        "level": 10,
-        "description": "Recover the waterlogged tools",
-        "status": "ready-for-turn-in",
-        "readyForTurnIn": true,
-        "objectives": [
-          {
-            "name": "Waterlogged Axe",
-            "status": "objective-ready; counts not shown"
-          },
-          {
-            "name": "Waterlogged Saw",
-            "status": "objective-ready; counts not shown"
-          },
-          {
-            "name": "Waterlogged Toolbox",
-            "status": "objective-ready; loot visible in chat at 20:54:43"
-          }
-        ],
-        "note": "Ready for turn-in. No hand-in/reward indicated. Screenshot chat explicitly records Waterlogged Toolbox received at 20:54:43.",
-        "countedAsCompletedByUserConvention": true,
-        "conventionStatus": "completed-delivered-for-manual-chronicle"
-      },
-      {
-        "id": null,
-        "name": "The Killing Fields",
-        "level": 15,
-        "description": "Slay 20 Harvest Watchers",
-        "current": 0,
-        "total": 20,
-        "item": "Harvest Watcher slain",
-        "status": "in-progress"
-      },
-      {
-        "id": null,
-        "name": "Goretusk Liver Pie",
-        "level": 12,
-        "description": "Gather eight Goretusk Livers",
-        "current": 2,
-        "total": 8,
-        "item": "Goretusk Liver",
-        "status": "in-progress"
-      },
-      {
-        "id": null,
-        "name": "Westfall Stew",
-        "level": 13,
-        "description": "Gather required ingredients for Westfall Stew",
-        "status": "in-progress",
-        "objectiveItemsComplete": false,
-        "readyForTurnInBasedOnVisibleItems": false,
-        "objectives": [
-          {
-            "name": "Stringy Vulture Meat",
-            "current": 3,
-            "total": 3
-          },
-          {
-            "name": "Murloc Eye",
-            "current": 2,
-            "total": 3
-          },
-          {
-            "name": "Goretusk Snout",
-            "current": 3,
-            "total": 3
-          },
-          {
-            "name": "Okra",
-            "current": 3,
-            "total": 3
-          }
-        ],
-        "note": "20:55 screenshot shows Murloc Eye 2/3; 18:39 and 18:18 earlier snapshots showed 3/3. Conflicting observations preserved, reason not known. Do not infer why."
-      },
-      {
-        "id": 64,
-        "name": "The Forgotten Heirloom",
-        "level": 12,
-        "description": "Recover Furlbrow's Pocket Watch",
-        "current": 0,
-        "total": 1,
-        "item": "Furlbrow's Pocket Watch",
-        "status": "in-progress"
-      },
-      {
-        "id": 109,
         "name": "Report to Gryan Stoutmantle",
-        "level": 10,
-        "description": "Speak to Gryan Stoutmantle at Sentinel Hill",
-        "status": "in-progress"
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
       },
       {
-        "id": 353,
         "name": "Stormpike's Delivery",
-        "level": 15,
-        "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
-        "status": "in-progress"
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
       },
       {
-        "id": 399,
         "name": "Humble Beginnings",
-        "level": 15,
-        "description": "Find A Simple Compass",
-        "current": 0,
-        "total": 1,
-        "item": "A Simple Compass",
-        "status": "in-progress"
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "Goretusk Liver Pie",
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "Westfall Stew",
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "The Killing Fields",
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
       }
     ],
-    "scope": "9 quests visible at 20:55, level 12 confirmed on player UI at top left. Downstream ready for turn-in; Waterlogged Toolbox obtained according to chat, all tools target complete as evidenced by 'Ready for turn-in', but no reward or NPC hand-in verified. Deliver Thomas' Report newly visible, Rolf's Fate absent; do not infer confirmed outcome/hand-in merely from disappearance. Previous Eastvale Ready quests (Protect the Frontier, Good Steel, Red Linen Goods) absent: their completion status is unverified. Most notably 20:55 Westfall Stew shows Murloc Eye 2/3, conflicting with 18:18 and 18:39 3/3; show latest visible 2/3, preserve prior green marks as historical. No invented explanation. No evidence of wand purchase or visit to Stormwind.",
-    "previousSnapshotId": "2026-11-07-elwynn-eastvale-three-ready-183927",
-    "characterLevel": 12,
-    "levelSource": "Direct user-provided in-game screenshot showing level 12, not corroborated by last checked official Blizzard snapshot which showed 11",
-    "storyChapterId": "x-eastvale-murloc-river-level-twelve"
+    "scope": "All six display 'Quest Complete!' on Questie. Under the player's standing rule, these are completed in the manual chronicle. No NPC interactions, rewards, or trip to Loch Modan is verified by the image alone."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2230,9 +2173,9 @@
     },
     "westfallStew": {
       "name": "Westfall Stew",
-      "status": "latest-screenshot-shows-one-ingredient-missing-conflicts-with-prior-ready",
+      "status": "completed-by-user-questie-convention",
       "recordedAt": "2026-11-07 18:18:04",
-      "source": "image(20261107-181804).png",
+      "source": "Questie 8 November screenshot",
       "completedObjectives": [
         {
           "name": "Stringy Vulture Meat",
@@ -2268,7 +2211,12 @@
         "2026-11-07-elwynn-eastvale-11-active-181804",
         "2026-11-07-elwynn-eastvale-three-ready-183927"
       ],
-      "conflictNote": "Earlier screenshots showed 3/3 Murloc Eyes; latest 20:55 screenshot visibly shows 2/3. No claim about items being consumed, lost, removed, or bugged. Confirm current in-game tracker before next delivery."
+      "conflictNote": "Earlier screenshots showed 3/3 Murloc Eyes; latest 20:55 screenshot visibly shows 2/3. No claim about items being consumed, lost, removed, or bugged. Confirm current in-game tracker before next delivery.",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches"
     },
     "protectTheFrontier": {
       "name": "Protect the Frontier",
@@ -2375,6 +2323,56 @@
       "observedAt": "2026-11-07 20:45:36",
       "storyChapterId": "x-eastvale-murloc-river-level-twelve",
       "note": "Manual chronicle counts completion and delivery; game UI only shows Ready for turn-in. Do not attribute an actual NPC interaction or reward unless separately confirmed."
+    },
+    "reportToGryanStoutmantle": {
+      "name": "Report to Gryan Stoutmantle",
+      "status": "completed-by-user-questie-convention",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches",
+      "source": "Questie 8 November screenshot"
+    },
+    "stormpikesDelivery": {
+      "name": "Stormpike's Delivery",
+      "status": "completed-by-user-questie-convention",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches",
+      "source": "Questie 8 November screenshot"
+    },
+    "humbleBeginnings": {
+      "name": "Humble Beginnings",
+      "status": "completed-by-user-questie-convention",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches",
+      "source": "Questie 8 November screenshot"
+    },
+    "goretuskLiverPie": {
+      "name": "Goretusk Liver Pie",
+      "status": "completed-by-user-questie-convention",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches",
+      "source": "Questie 8 November screenshot"
+    },
+    "theKillingFields": {
+      "name": "The Killing Fields",
+      "status": "completed-by-user-questie-convention",
+      "date": "2026-11-08",
+      "rawUiLabel": "Quest Complete!",
+      "officialApiVerified": false,
+      "handInLocation": "not confirmed",
+      "storyChapterId": "x-westfall-eighth-nov-dispatches",
+      "source": "Questie 8 November screenshot"
     }
   },
   "latestMapObservations": [
@@ -2440,19 +2438,19 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Tower of Azora at Night",
-    "status": "Xuthar reached the Tower of Azora upper gallery at 21:23, paused beside an Elwynn river at 21:39, and was inside the lower tower room with Hamish Bergwort visible at 21:51. No quest interaction confirmed by these images.",
+    "chapter": "The Price of Each Promise",
+    "status": "Early return from Goldshire to Jansen Stead; six Questie quests show Quest Complete! and count as completed under the player's convention.",
     "nextConfirmedQuest": "Downstream ready for hand-in; Deliver Thomas' Report active (return to Goldshire), plus ongoing Westfall objectives.",
-    "latestVisualEvidence": "WoWScrnShot_110726_215141.jpg",
-    "stage": "Tower of Azora · lower chamber · 21:51",
+    "latestVisualEvidence": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
+    "stage": "8 November · Westfall · Level 13",
     "latestPlayerReportedZone": "Elwynn Forest · Tower of Azora",
     "learnedWeaponProficiency": "Staves",
     "staffName": "Unspecified",
     "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
     "latestScreenshot": "WoWScrnShot_110726_215141.jpg",
     "questUpdate": "At 18:39 completed by convention: Protect the Frontier, Good Steel, Red Linen Goods. At 20:45: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies. At 20:55: Downstream. The Collector and Deliver Thomas' Report still active. Latest Westfall Stew Murloc Eye 2/3.",
-    "latestQuestScreenshot": "WoWScrnShot_110726_205511.jpg",
-    "chronologyNote": "20:55 riverside murlocs and level 12; 21:23 Tower of Azora upper floor; 21:39 peaceful Elwynn river; 21:51 Tower of Azora lower floor. Latest QUEST panel remains the 20:55 screenshot; later photos do not change quest statuses. After the 21:51 Tower of Azora screenshot, player reported level 13. Exact levelling time/place not established. Earlier quest panel remains 20:55 at level 12.",
+    "latestQuestScreenshot": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
+    "chronologyNote": "Near-death experiences from 7 November backfilled into their chronological chapters. No additional NPC turn-in action or Loch Modan journey inferred.",
     "characterLevel": 13,
     "levelStatus": "Level 13 reported by player after Tower of Azora visit, exact level-up place/time unknown; last checked official Blizzard API level 11",
     "storyChapter": "Chapter XLIII · The Tower of Azora",
@@ -2477,7 +2475,8 @@
     "latestDedicatedChapterTitle": "The Silence Between the Stars",
     "newestCharacterMilestone": "Level 13, as confirmed by player",
     "lastLevelMilestoneChapter": "Chapter XLIV · The Thirteenth Threshold",
-    "lastLevelMilestoneChapterId": "x-thirteenth-threshold"
+    "lastLevelMilestoneChapterId": "x-thirteenth-threshold",
+    "storyChapterId": "x-westfall-eighth-nov-dispatches"
   },
   "currentEquipmentReports": [
     {
@@ -3355,8 +3354,8 @@
       "storyChapterId": "x-eastvale-murloc-river-level-twelve"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-07-eastvale-murloc-river-nine-205511",
-  "latestQuestTrackerLocation": "Elwynn Forest 76.2, 84.2 · riverbank near murloc settlement, 20:55",
+  "latestQuestTrackerSnapshotId": "2026-11-08-westfall-questie-six-complete",
+  "latestQuestTrackerLocation": "Westfall · 43.1,57.5",
   "lastLevelMilestone": {
     "level": 13,
     "date": "2026-11-08",
@@ -3402,11 +3401,196 @@
       "An Enchanting Lesson",
       "Delicate Instruments",
       "Stolen Enchanting Supplies",
-      "Downstream"
+      "Downstream",
+      "Report to Gryan Stoutmantle",
+      "Stormpike's Delivery",
+      "Humble Beginnings",
+      "Goretusk Liver Pie",
+      "Westfall Stew",
+      "The Killing Fields",
+      "The Forgotten Heirloom"
     ],
-    "count": 7,
+    "count": 14,
     "officialApiVerified": false,
-    "recordedAt": "2026-11-07",
-    "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only"
+    "recordedAt": "2026-11-08",
+    "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
+    "latestSource": "Questie 8 November shows six quests 'Quest Complete!'; The Forgotten Heirloom was previously ready for turn-in."
+  },
+  "previousLatestVisibleObjectives": {
+    "id": "2026-11-07-eastvale-murloc-river-nine-205511",
+    "day": "2026-11-07",
+    "observedAt": "2026-11-07 20:55:11 (screenshot filename)",
+    "screenshot": "WoWScrnShot_110726_205511.jpg",
+    "zone": "Elwynn Forest · eastern riverbank / murloc settlement",
+    "coordinates": {
+      "x": 76.2,
+      "y": 84.2
+    },
+    "visibleQuests": [
+      {
+        "id": null,
+        "name": "Deliver Thomas' Report",
+        "level": 10,
+        "description": "Report to Marshal Dughan in Goldshire",
+        "status": "in-progress",
+        "note": "Newly visible follow-up-style mission. Previous Rolf quest disappearance does not by itself prove hand-in."
+      },
+      {
+        "id": null,
+        "name": "Downstream",
+        "level": 10,
+        "description": "Recover the waterlogged tools",
+        "status": "ready-for-turn-in",
+        "readyForTurnIn": true,
+        "objectives": [
+          {
+            "name": "Waterlogged Axe",
+            "status": "objective-ready; counts not shown"
+          },
+          {
+            "name": "Waterlogged Saw",
+            "status": "objective-ready; counts not shown"
+          },
+          {
+            "name": "Waterlogged Toolbox",
+            "status": "objective-ready; loot visible in chat at 20:54:43"
+          }
+        ],
+        "note": "Ready for turn-in. No hand-in/reward indicated. Screenshot chat explicitly records Waterlogged Toolbox received at 20:54:43.",
+        "countedAsCompletedByUserConvention": true,
+        "conventionStatus": "completed-delivered-for-manual-chronicle"
+      },
+      {
+        "id": null,
+        "name": "The Killing Fields",
+        "level": 15,
+        "description": "Slay 20 Harvest Watchers",
+        "current": 0,
+        "total": 20,
+        "item": "Harvest Watcher slain",
+        "status": "in-progress"
+      },
+      {
+        "id": null,
+        "name": "Goretusk Liver Pie",
+        "level": 12,
+        "description": "Gather eight Goretusk Livers",
+        "current": 2,
+        "total": 8,
+        "item": "Goretusk Liver",
+        "status": "in-progress"
+      },
+      {
+        "id": null,
+        "name": "Westfall Stew",
+        "level": 13,
+        "description": "Gather required ingredients for Westfall Stew",
+        "status": "in-progress",
+        "objectiveItemsComplete": false,
+        "readyForTurnInBasedOnVisibleItems": false,
+        "objectives": [
+          {
+            "name": "Stringy Vulture Meat",
+            "current": 3,
+            "total": 3
+          },
+          {
+            "name": "Murloc Eye",
+            "current": 2,
+            "total": 3
+          },
+          {
+            "name": "Goretusk Snout",
+            "current": 3,
+            "total": 3
+          },
+          {
+            "name": "Okra",
+            "current": 3,
+            "total": 3
+          }
+        ],
+        "note": "20:55 screenshot shows Murloc Eye 2/3; 18:39 and 18:18 earlier snapshots showed 3/3. Conflicting observations preserved, reason not known. Do not infer why."
+      },
+      {
+        "id": 64,
+        "name": "The Forgotten Heirloom",
+        "level": 12,
+        "description": "Recover Furlbrow's Pocket Watch",
+        "current": 0,
+        "total": 1,
+        "item": "Furlbrow's Pocket Watch",
+        "status": "in-progress"
+      },
+      {
+        "id": 109,
+        "name": "Report to Gryan Stoutmantle",
+        "level": 10,
+        "description": "Speak to Gryan Stoutmantle at Sentinel Hill",
+        "status": "in-progress"
+      },
+      {
+        "id": 353,
+        "name": "Stormpike's Delivery",
+        "level": 15,
+        "description": "Deliver the package to Mountaineer Stormpike in Loch Modan",
+        "status": "in-progress"
+      },
+      {
+        "id": 399,
+        "name": "Humble Beginnings",
+        "level": 15,
+        "description": "Find A Simple Compass",
+        "current": 0,
+        "total": 1,
+        "item": "A Simple Compass",
+        "status": "in-progress"
+      }
+    ],
+    "scope": "9 quests visible at 20:55, level 12 confirmed on player UI at top left. Downstream ready for turn-in; Waterlogged Toolbox obtained according to chat, all tools target complete as evidenced by 'Ready for turn-in', but no reward or NPC hand-in verified. Deliver Thomas' Report newly visible, Rolf's Fate absent; do not infer confirmed outcome/hand-in merely from disappearance. Previous Eastvale Ready quests (Protect the Frontier, Good Steel, Red Linen Goods) absent: their completion status is unverified. Most notably 20:55 Westfall Stew shows Murloc Eye 2/3, conflicting with 18:18 and 18:39 3/3; show latest visible 2/3, preserve prior green marks as historical. No invented explanation. No evidence of wand purchase or visit to Stormwind.",
+    "previousSnapshotId": "2026-11-07-elwynn-eastvale-three-ready-183927",
+    "characterLevel": 12,
+    "levelSource": "Direct user-provided in-game screenshot showing level 12, not corroborated by last checked official Blizzard snapshot which showed 11",
+    "storyChapterId": "x-eastvale-murloc-river-level-twelve"
+  },
+  "recentGameJournal": {
+    "source": "Player-provided in-game journal screenshots dated 8 November 2026; historical entries for 7 November",
+    "events": [
+      {
+        "day": "2026-11-07",
+        "area": "Westfall · Furlbrow's Pumpkin Farm / Jansen Stead",
+        "facts": "Level 11 reported at Furlbrow's Pumpkin Farm during the afternoon. About 15 minutes fighting at Jansen Stead. Narrow escapes from a Rusty Harvest Golem and Young Goretusk at 1% HP, plus seven other close calls. 18 Young Fleshrippers yielded 3 Stringy Vulture Meat (8 more kills than expected)."
+      },
+      {
+        "day": "2026-11-07",
+        "area": "Westfall · waterside",
+        "facts": "Murloc Coastrunner killed Xuthar, with two further close calls. Ervicwiidak saved him from a Murloc Raider when he had 1% HP."
+      },
+      {
+        "day": "2026-11-07",
+        "area": "Elwynn Forest · Stone Cairn Lake / Eastvale Logging Camp",
+        "facts": "Reached level 12 at Stone Cairn Lake. Spent a few minutes at Eastvale Logging Camp. Escaped a Young Forest Bear at 4% HP and Morgan the Collector at 1% HP."
+      },
+      {
+        "day": "2026-11-08",
+        "area": "Goldshire to Westfall",
+        "facts": "Level 13; rested half an hour at Goldshire campfire, travelled to Furlbrow's Pumpkin Farm and Jansen Stead."
+      },
+      {
+        "day": "2026-11-08",
+        "area": "Elwynn Forest / Westfall",
+        "facts": "Journal records the end of Bounty on Murlocs, a seven-part chain begun two days earlier. 24 Murloc Lurkers fought for 8 Torn Murloc Fins, 8 more than expected."
+      }
+    ],
+    "storySectionIds": [
+      "x-westfall-seventh-nov-jansen",
+      "x-westfall-seventh-nov-murloc-death",
+      "x-elwynn-seventh-nov-stonecairn",
+      "x-westfall-eighth-nov-goldshire-fire",
+      "x-westfall-eighth-nov-murloc-fins",
+      "x-westfall-eighth-nov-watchers-compass",
+      "x-westfall-eighth-nov-pie-stew",
+      "x-westfall-eighth-nov-dispatches"
+    ]
   }
 }

@@ -15,3 +15,10 @@
 .xuthar-presence-separator{color:#76978d}
 @media(max-width:650px){.xuthar-presence-panel{gap:7px;font-size:.7rem;padding:5px 8px}}
 @media(prefers-reduced-motion:reduce){.xuthar-presence.is-live .xuthar-presence-dot{animation:none}}
+
+/* Homepage: replace the Get in touch row with the status under the regional clocks. */
+.contact-strip--presence{display:flex;flex-direction:column;align-items:stretch;gap:9px;padding:10px 0 12px}
+.contact-strip--presence .xuthar-presence{width:100%;margin:0;padding:0;background:transparent}
+.contact-strip--presence .xuthar-presence>.wrap{width:100%;max-width:none;margin:0}
+.contact-strip--presence .xuthar-presence-panel{width:100%}
+@media(max-width:650px){.contact-strip--presence{gap:8px;padding:9px 0 12px}}

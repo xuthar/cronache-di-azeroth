@@ -2,16 +2,16 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "live",
+  "status": "offline",
   "statusConfirmed": true,
-  "zone": "Stormwind",
-  "location": "The Canals",
+  "zone": "Stormwind City",
+  "location": "The Gilded Rose",
   "coordinates": {
-    "x": 54,
-    "y": 68
+    "x": 60,
+    "y": 70
   },
-  "activity": "Fishing",
+  "activity": "Sleeping",
   "reportedOn": "2026-11-08",
-  "updatedAt": null,
-  "note": "User reports LIVE at The Canals, Stormwind, 54,68, currently fishing; in-game coordinates, not physical GPS."
+  "updatedAt": "2026-11-08",
+  "note": "End-of-day status confirmed by Xuthar: level 15, resting at The Gilded Rose, Stormwind (60,70). In-game coordinates only."
 }

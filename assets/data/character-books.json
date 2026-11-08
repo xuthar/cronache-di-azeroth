@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-fourteen-sentinel-hill-professions",
+      "status": "living-novel-level-fifteen-westfall-carro-gilded-rose",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1290,6 +1290,95 @@
             "He opened the old book. The last witness must not remember. He had read those words so often that their edges seemed worn even where the ink remained dark. Beside the warning he imagined a quieter instruction, one his family might never have thought to write: Remember how to live while you are still alive.",
             "He let the ledger rest and looked over Westfall. There was no revelation, no sudden visitor bearing a secret. Only the small satisfactions of work done patiently, a resting place on a hill, and the knowledge that the fourteenth step of his journey had brought him somewhere worth remaining for a little while.",
             "When he eventually walked on, the fields would still be there. For now, Xuthar Morvayne stayed."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-bandit-rescue",
+          "chapter": "Chapter XLVIII · The Field of Borrowed Breaths",
+          "title": "One Breath Left in the Dust",
+          "kind": "fiction",
+          "paragraphs": [
+            "The roads around Sentinel Hill were not the gentle kind. They wound between farms where hunger had become a neighbour and danger often waited just beyond the next gate. Xuthar walked them with the ache of earlier journeys still in his bones.",
+            "A Riverpaw bandit nearly ended his travels. His strength was failing when Hammar came to his aid, choosing not to abandon a stranger who had almost nothing left with which to defend himself. That choice mattered more to Xuthar than any triumph he could have claimed alone.",
+            "Elsewhere a Riverpaw scout brought him down. When he stood again, the fields looked just as they had before. The wheat did not bend for a fallen priest. That was Westfall's cruelty: a life could vanish here without interrupting the harvest."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-defias",
+          "chapter": "Chapter XLVIII · The Field of Borrowed Breaths",
+          "title": "The Men Between the Furrows",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Defias moved through the fields like another kind of blight, men with old grievances and weapons sharp enough to turn them into new injustices. Xuthar had come to help people who could scarcely protect their own doors. He was not prepared for what those promises would cost.",
+            "Twice a Defias pillager struck him down, and four other narrow escapes left the priest wondering how long the road might continue to spare him. There was no song in these defeats, only dust, fear and the stubborn business of rising again.",
+            "He remembered those who had saved him, and those he had not been able to save. The ledger would not flatter him. It would tell him why the work mattered."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-promises",
+          "chapter": "Chapter XLVIII · The Field of Borrowed Breaths",
+          "title": "Three Promises Fulfilled",
+          "kind": "fiction",
+          "paragraphs": [
+            "At last some of the burdens he carried could be put to rest. Stormpike's delivery no longer lay unfinished upon his shoulders. A message calling him on toward Stormwind had reached its conclusion, and the difficult matter of the Defias Brotherhood had finally passed another hard threshold.",
+            "Still there were murlocs by the water, Defias raiders at large and gnolls whose tracks troubled the western roads. Xuthar did not pretend every danger had disappeared simply because a few lines in his ledger could be closed.",
+            "He left room on the page for the work that remained. A witness should never mistake a finished account for a finished world."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-level-fifteen",
+          "chapter": "Chapter XLVIII · The Field of Borrowed Breaths",
+          "title": "Fifteen Beneath the Westfall Sky",
+          "kind": "fiction",
+          "paragraphs": [
+            "He had crossed the fourteenth threshold earlier among the fields of the Saldeans. The morning had carried him around Stormwind's errands and back to the west, to struggles near Sentinel Hill and a brief rest in the Jansen country.",
+            "By the time he reached the Longshore, another quiet change had taken place. Fifteen. He felt it not in a sudden burst of grandeur but in the weight of the day and the strength still somehow left for one more step.",
+            "Near the sea he found that his greatest victories were smaller than the number might suggest: an obligation completed, another traveller kept alive, a familiar road that would one day lead him home."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-allies",
+          "chapter": "Chapter XLVIII · The Field of Borrowed Breaths",
+          "title": "The Names the Road Carried",
+          "kind": "fiction",
+          "paragraphs": [
+            "He began to write down those whose paths had crossed his own: Korla Nightingale, Ursus Medicus, Nette Feathold, Séphiraut Ratham, Sandriana Smith and Mathias Thorner. Then Sterre Moonstone, Billy Backfire, Doctor Brewbeard, Alexinia Ashcroft, Alaric Dreadmoor and Dudehammer Dawnshield.",
+            "The list continued: Lancelot Lioncrest, Kristof Demurène, Julius Demurène, Averil Caelia, Middleton Hawkwood and Alyx Argent. Some had fought at his side. Others had shared a word, a warning or a stretch of road. Xuthar would not turn a passing encounter into a grand friendship, but he would not let a name disappear for want of space in his book.",
+            "He thought again of Hammar, who had arrived when a Riverpaw bandit seemed certain to finish the fight. Sometimes the distance between life and death was simply the distance another person chose to cross."
+          ]
+        },
+        {
+          "id": "x-goldshire-eighth-nov-carro-beer",
+          "chapter": "Chapter XLIX · What the Lanterns Remember",
+          "title": "Two Mugs Beneath the Lion",
+          "kind": "fiction",
+          "paragraphs": [
+            "At Goldshire the windows of the Lion's Pride shone like a promise. Inside, the warmth, voices and smell of ale made the hard roads of Westfall feel distant enough to speak about.",
+            "Carro Steelcave was waiting there, or perhaps they had simply been fortunate enough to find one another again. Broken Tooth settled nearby, keeping a watchful eye on the room. Xuthar and his old friend shared a beer and the extraordinary pleasure of having nowhere urgent to be.",
+            "Carro also gave him his first proper shoulders, a Silver-thread Amice. The cloth could not stop every blade, but to Xuthar it seemed stronger than armour. A gift from an old friend was a promise that the road had not taken everything."
+          ]
+        },
+        {
+          "id": "x-stormwind-eighth-nov-carro-walk",
+          "chapter": "Chapter XLIX · What the Lanterns Remember",
+          "title": "Where the City Kept Its Lights",
+          "kind": "fiction",
+          "paragraphs": [
+            "Later they walked together through Stormwind, without any errand to justify the journey. The traders' signs swung above cobbled streets, lamplight rested on the old stone, and conversations flowed around them like water.",
+            "Broken Tooth paced beside Carro, while Xuthar listened to his friend's company and let the city speak for itself. So much of his day had been measured in survival. This small walk was measured in nothing at all, and for that reason he treasured it.",
+            "When they parted, there was no need for a solemn farewell. Some friendships survived perfectly well between long silences."
+          ]
+        },
+        {
+          "id": "x-stormwind-eighth-nov-gilded-rose",
+          "chapter": "Chapter XLIX · What the Lanterns Remember",
+          "title": "The Last Light at the Gilded Rose",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Gilded Rose offered him the quiet he had been too tired to ask for. At last the priest had reached Stormwind with nothing more to deliver before the morning.",
+            "He set aside the burdens of Westfall, the names in the ledger and the memory of the men who had brought him down. The strange warning in the Morvayne book could wait: The last witness must not remember.",
+            "Tonight, he thought, perhaps a witness might simply rest. He fell upon the bed with the weariness of all fifteen steps of his journey, and outside the window the city continued living without him.",
+            "Xuthar Morvayne slept."
           ]
         },
         {

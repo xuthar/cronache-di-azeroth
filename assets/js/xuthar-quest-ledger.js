@@ -40,7 +40,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 8 NOVEMBER 2026 · LEVEL 15');
     const title=make('h2','','The fifteenth threshold · The road and the friends we made.');
    title.id='xql-heading';
-    const lead=make('p','','Xuthar reached level 15 at Longshore, Westfall, after a long day of dangerous quests. Three missions were completed, while the coastal murlocs, People's Militia and gnoll patrol still required attention. He ended the day at the Gilded Rose in Stormwind after a reunion with Carro Steelcave.');
+    const lead=make('p','',"Xuthar reached level 15 at Longshore, Westfall, after a long day of dangerous quests. Three missions were completed, while the coastal murlocs, the People's Militia and the gnoll patrol still required attention. He ended the day at The Gilded Rose in Stormwind after a reunion with Carro Steelcave.");
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){

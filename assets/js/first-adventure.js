@@ -9,7 +9,7 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">CURRENT JOURNEY · LEVEL 14 · SENTINEL HILL</div>
+      <div class="day-two-signal">CURRENT JOURNEY · LEVEL 15 · THE GILDED ROSE</div>
       <div class="day-two-layout">
         <div>
           <h2 id="westfall-arrival-title">Beyond Azora.<br><em>The witness keeps walking.</em></h2>
@@ -85,14 +85,17 @@
             <a href="book.html?character=xuthar#x-sentinel-hill-fourteenth-step">Read Chapter XLVII · The Hour Above the Fields ↗</a>
             <a href="xuthar.html#blizzard-official-profile">See the verified Blizzard character profile ↗</a>
           </div>
-          <p class="day-two-evidence">Earlier Westfall notes above are historical stages of the journey, not the present quest status. The latest player report places Xuthar at Sentinel Hill after reaching level 14.</p>
+          <p><strong>8 November · The Fifteenth Threshold.</strong> After further demanding quests at Westfall, Xuthar reached level 15 at Longshore. Stormpike's Delivery, Continue to Stormwind and The Defias Brotherhood are complete; Murloc Gills, The People's Militia and Patrolling Westfall remain open.</p>
+          <p><strong>An evening worth remembering.</strong> In Goldshire, Xuthar reunited with Carro Steelcave and Broken Tooth, shared a beer, and received his first shoulders, Silver-thread Amice. They went for a relaxed walk through Stormwind before parting. Exhausted, Xuthar went to The Gilded Rose and fell asleep. <strong>OFFLINE · Stormwind City · 60,70.</strong></p>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-westfall-eighth-nov-bandit-rescue">Chapter XLVIII · Westfall ↗</a><a href="book.html?character=xuthar#x-goldshire-eighth-nov-carro-beer">Chapter XLIX · Carro Steelcave ↗</a><a href="gallery.html#xuthar-carro-goldshire-inn">Evening photographs ↗</a><a href="xuthar.html#xu-allies">The Allies memorial ↗</a></div>
+          <p class="day-two-evidence">Previous Westfall notes above are historical chapters. Xuthar is now level 15 and sleeping at The Gilded Rose in Stormwind City.</p>
         </div>
         <aside class="day-two-status" aria-label="Current character progress">
-          <span>THE LAST WITNESS · CHAPTER XLVII</span>
-          <strong id="xuthar-home-current-level">LEVEL 14</strong>
-          <p>SENTINEL HILL · TAILORING · ENCHANTING · COOKING</p>
-          <b id="xuthar-home-current-level-source">Level 14 · confirmed by Blizzard EU</b>
-          <small id="xuthar-home-current-level-updated">The fourteenth threshold is confirmed. Official character data is checked automatically; the personal chronicle remains independent.</small>
+          <span>THE LAST WITNESS · CHAPTER XLIX</span>
+          <strong id="xuthar-home-current-level">LEVEL 15</strong>
+          <p>STORMWIND · THE GILDED ROSE · RESTING</p>
+          <b id="xuthar-home-current-level-source">Level 15 · confirmed in game</b>
+          <small id="xuthar-home-current-level-updated">The fifteenth threshold was confirmed by the player and in-game journal. The next official EU API check may take time to catch up.</small>
         </aside>
       </div>`;
     return section;
@@ -104,7 +107,7 @@
     if(!value||!status||!note)return;
     // A verified player milestone is the minimum; an older API snapshot must not
     // move the currently displayed level backwards.
-    const minimumLevel=14;
+    const minimumLevel=15;
     const url='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
     fetch(url,{cache:'no-store',headers:{Accept:'application/json'}})
       .then(response=>{if(!response.ok)throw Error('Official snapshot unavailable');return response.json()})
@@ -133,7 +136,7 @@
           'Quest narrative is updated independently.';
       }).catch(()=>{
         value.textContent='LEVEL '+minimumLevel;
-        status.textContent='Level 14 · confirmed in game';
+        status.textContent='Level 15 · confirmed in game';
         note.textContent='Official live data temporarily unavailable. The last player-confirmed milestone remains visible.';
       });
   }

@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261108-level-thirteen';
+ const source='assets/data/xuthar-quest-log.json?v=20261108-level-fifteen';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -37,19 +37,28 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · 7 NOVEMBER 2026 · NEW ROAD');
-    const title=make('h2','','The Tower of Azora · Questions after dark.');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · 8 NOVEMBER 2026 · LEVEL 15');
+    const title=make('h2','','The fifteenth threshold · The road and the friends we made.');
    title.id='xql-heading';
-    const lead=make('p','','After reaching level 12 beside the eastern river, Xuthar visited the Tower of Azora. He subsequently confirmed level 13, though the exact time and location of that level-up are unknown. No new quest is inferred from his new level. The latest quest-objective screenshot remains the 20:55 record from 7 November, with Ready for turn-in counting as completed in the personal Chronicle.');
+    const lead=make('p','','Xuthar reached level 15 at Longshore, Westfall, after a long day of dangerous quests. Three missions were completed, while the coastal murlocs, People's Militia and gnoll patrol still required attention. He ended the day at the Gilded Rose in Stormwind after a reunion with Carro Steelcave.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
-    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Visible quests · 20:55'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
+    for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · 13 confirmed directly by player, with no exact level-up location/time. Previous in-game screenshot showed level 12. Latest Blizzard EU snapshot checked showed level 11. Quest screenshot: 7 November at 20:55, Elwynn Forest 76.2, 84.2.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · reached 8 November at Longshore, Westfall. End-of-day OFFLINE: The Gilded Rose, Stormwind (60,70). Historical quests below reflect earlier stages, not current character status.');
    head.append(status);
    head.append(metrics);root.append(head);
+   if(data.characterLevel>=15 && data.latestVisibleObjectives?.id==='2026-11-08-later-westfall-questie-level15'){
+      const now=make('div','xql-confirmed');now.id='xuthar-level-fifteen';
+      now.append(make('h3','xql-group-heading','8 November · Level 15 · Westfall to Stormwind'));
+      now.append(make('p','xql-confirmed-item','✓ Level 15 reached at Longshore. Level 14 was reached earlier at Saldean\'s Farm. The Gilded Rose is Xuthar\'s end-of-day resting place.'));
+      now.append(make('p','xql-confirmed-item','✓ Completed: Stormpike\'s Delivery · Continue to Stormwind · The Defias Brotherhood.'));
+      now.append(make('p','xql-level-note','In progress: Murloc Gills 3/7; The People\'s Militia 3/15 Defias Pillagers and 2/15 Defias Looters; Patrolling Westfall 4/8 Gnoll Paws. These manual quest observations are independent of Blizzard API completion data.'));
+      const link=make('a','xql-book-link','Read Chapter XLVIII · The Field of Borrowed Breaths ↗');
+      link.href='book.html?character=xuthar#x-westfall-eighth-nov-bandit-rescue';now.append(link);root.append(now);
+   }
    const towerScenes=Array.isArray(data.latestPlayerMilestones)
       ?data.latestPlayerMilestones.filter(m=>['2026-11-07-azora-upper-library-212359','2026-11-07-elwynn-river-silence-213930','2026-11-07-azora-ground-floor-hamish-215141'].includes(m.id))
       :[];

@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-westfall-quest-conclusions-level-13",
+      "status": "living-novel-level-fourteen-sentinel-hill-professions",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1245,6 +1245,51 @@
             "A simple compass found, a pie and a stew no longer waiting, harvest fields relieved of their deadly guardians, messages no longer demanding attention: these were modest victories. A commander might have judged them by their number alone. Xuthar thought of the people who had asked for help and knew why they mattered.",
             "Still, his strongest memory was of everything that had almost been lost on the way. The golem that left him a breath from death, the Coastrunner at the water, the unasked kindness of Ervicwiidak. Survival was not proof of invincibility. It was an invitation to treat other lives with a little more care.",
             "He closed the Morvayne ledger without writing a final sentence. The day was young, the golden fields stretched on, and other roads waited beyond them. Somewhere there would be another fire and perhaps a stranger willing to sit beside it and talk. The witness was in no hurry to reach the last page."
+          ]
+        },
+        {
+          "id": "x-sentinel-hill-fourteenth-step",
+          "chapter": "Chapter XLVII · The Hour Above the Fields",
+          "title": "The Fourteenth Quiet Step",
+          "kind": "fiction",
+          "paragraphs": [
+            "The road led Xuthar Morvayne toward Sentinel Hill with the weight of the morning's work still upon his shoulders. Behind him, the wheat moved over Westfall like a golden sea. The errands that had demanded so much of his time were finally falling silent. He knew what it had cost to bring them to an end: the scrape of metal in an abandoned field, a frightened retreat through the reeds, and the memory of a stranger who had arrived when strength alone was not enough.",
+            "Somewhere among those last obligations, another threshold had passed. Fourteen. The number meant that he had grown stronger, yet he found nothing triumphant in it. The same road carried the same dust. The people who needed help had not become less hungry because his hands had grown steadier. He had simply survived enough of the journey to see the next stretch more clearly.",
+            "Sentinel Hill rose above the tired country. Xuthar had passed through landscapes where even the wind seemed to be asking for something, but here he allowed himself the luxury of stopping. There was no command to hurry onward. For once, the next useful thing he could do was take the afternoon slowly."
+          ]
+        },
+        {
+          "id": "x-sentinel-hill-needle-and-thread",
+          "chapter": "Chapter XLVII · The Hour Above the Fields",
+          "title": "The Patience of a Needle",
+          "kind": "fiction",
+          "paragraphs": [
+            "He began with cloth. Tailoring had taught him that a useful seam was made not by force but by attention, each small movement relying upon the one before it. He thought of the bags he had made in Stormwind, of the heavy provisions they had carried through the fields, and of how many troubles a humble length of fabric could make easier.",
+            "He sat with the materials of his trade and gave them the care he so often withheld from himself. The work did not ask him to defeat a monster or make a promise to a stranger. It asked him to stay with the same modest task long enough to understand it.",
+            "Xuthar had once believed that a priest should always be doing something larger than the people around him. Westfall had changed his mind. A well-made stitch could matter to a traveller more than a sermon, particularly on a cold road with many miles still to walk."
+          ]
+        },
+        {
+          "id": "x-sentinel-hill-enchanting-cooking",
+          "chapter": "Chapter XLVII · The Hour Above the Fields",
+          "title": "A Spark and a Little Warmth",
+          "kind": "fiction",
+          "paragraphs": [
+            "After cloth came the patient discipline of enchanting. Invisible forces could be coaxed toward ordinary things, but only by a mind willing to move carefully. Xuthar remembered the ordered tables of Azora and the scholars who spent their days attending to details that hurried people overlooked. The Shadow remained part of him, yet not every use of magic needed to sound like a warning.",
+            "Cooking required a different sort of attention. It belonged to fire, timing and the simple hope that what one prepared might nourish someone. In Westfall he had seen how hard it could be to gather the ingredients of a single meal. Now the ordinary art of making food seemed less ordinary than before.",
+            "The three crafts had little in common to a passing traveller: thread, enchantment and warmth from a cooking fire. Xuthar saw a family resemblance between them. Each was a way of tending the world instead of merely passing through it. None demanded applause. All demanded care."
+          ]
+        },
+        {
+          "id": "x-sentinel-hill-fourteenth-rest",
+          "chapter": "Chapter XLVII · The Hour Above the Fields",
+          "title": "The Hour That Belonged to No One",
+          "kind": "fiction",
+          "paragraphs": [
+            "From Sentinel Hill, the troubled fields stretched outward beneath the sky. Xuthar was not entirely free of responsibility; he never would be. There would be another road, another hungry household, another page in the Morvayne ledger. But this hour belonged neither to a summons nor to a battle. It was his to spend without apology.",
+            "He opened the old book. The last witness must not remember. He had read those words so often that their edges seemed worn even where the ink remained dark. Beside the warning he imagined a quieter instruction, one his family might never have thought to write: Remember how to live while you are still alive.",
+            "He let the ledger rest and looked over Westfall. There was no revelation, no sudden visitor bearing a secret. Only the small satisfactions of work done patiently, a resting place on a hill, and the knowledge that the fourteenth step of his journey had brought him somewhere worth remaining for a little while.",
+            "When he eventually walked on, the fields would still be there. For now, Xuthar Morvayne stayed."
           ]
         },
         {

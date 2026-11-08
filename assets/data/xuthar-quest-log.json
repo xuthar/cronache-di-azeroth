@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 13,
-  "characterLevelSource": "Direct player report ('ah sono livello 13') in current conversation, recorded 2026-11-08; actual level-up date, place, time and XP not provided. Last checked BlizzardOfficialAPI EU snapshot shows level 11.",
-  "characterLevelRecordedAt": "2026-11-08 (report date; level-up exact timestamp not established)",
+  "characterLevel": 14,
+  "characterLevelSource": "Explicit player confirmation on 8 Nov 2026; separately confirmed as level 14 in BlizzardOfficialAPI Forever EU snapshot exported 2026-11-08 12:08:51 UTC.",
+  "characterLevelRecordedAt": "2026-11-08",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -822,6 +822,18 @@
       "source": "player-report",
       "exactQuestNamesVerified": false,
       "rewardsVerified": false
+    },
+    {
+      "id": "2026-11-08-sentinel-hill-level14-professions",
+      "date": "2026-11-08",
+      "kind": "player-report-location-level-and-professions",
+      "location": "Sentinel Hill, Westfall",
+      "level": 14,
+      "description": "After completing the last recent quests, Xuthar paused at Sentinel Hill and spent time practicing Tailoring, Enchanting and Cooking without rushing.",
+      "newNamedQuestsCompleted": [],
+      "newCraftedItems": [],
+      "skillRanks": null,
+      "storyChapterId": "x-sentinel-hill-fourteenth-rest"
     }
   ],
   "professions": {
@@ -830,7 +842,9 @@
         "name": "Tailoring",
         "learned": true,
         "source": "player-report",
-        "skillLevel": null
+        "skillLevel": null,
+        "latestReportedActivity": "Practised at Sentinel Hill, Westfall, 8 Nov 2026",
+        "currentSkillValueReported": false
       },
       {
         "name": "Enchanting",
@@ -839,7 +853,9 @@
         "skillLevel": null,
         "minimumConfirmedSkill": 20,
         "skillLevelSource": "Completion of Camping 101: Enchanting reported on 7 Nov implies reaching at least 20; exact current value unknown",
-        "camping101QuestStatus": "completed-player-reported"
+        "camping101QuestStatus": "completed-player-reported",
+        "latestReportedActivity": "Practised at Sentinel Hill, Westfall, 8 Nov 2026",
+        "currentSkillValueReported": false
       }
     ],
     "secondary": [
@@ -848,6 +864,13 @@
         "learned": true,
         "source": "player-report",
         "skillLevel": null
+      },
+      {
+        "name": "Cooking",
+        "learned": true,
+        "source": "player-report",
+        "skillLevel": null,
+        "activity": "Practised at Sentinel Hill on 8 Nov 2026; recipe and numerical skill unknown"
       }
     ],
     "abandoned": [
@@ -857,9 +880,7 @@
         "note": "Abandoned to take Tailoring and Enchanting; corresponding Camping 101: Herbalism quest status after profession change not shown."
       }
     ],
-    "unverified": [
-      "Cooking"
-    ]
+    "unverified": []
   },
   "lastSeenQuestTracker": [
     {
@@ -985,11 +1006,11 @@
     }
   ],
   "currentSessionId": "day-04-20261108",
-  "currentSessionStatus": "westfall-six-quests-complete-by-user-convention",
+  "currentSessionStatus": "sentinel-hill-rest-professions-level-14",
   "currentChronicleDate": "2026-11-08",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Westfall · Furlbrow's Pumpkin Farm / Jansen Stead region",
+  "lastConfirmedLocation": "Sentinel Hill, Westfall (player-reported pause after questing)",
   "currentQuestTrackerLocation": "Westfall · 43.1,57.5",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
@@ -1455,11 +1476,7 @@
       ]
     }
   ],
-  "previousConfirmedLevel": {
-    "level": 9,
-    "source": "Explicit player report: 'no livello 9' on 6 November 2026, following the 18:41 cropped quest-tracker screenshot. The quest tracker itself does not show the character level.",
-    "recordedAt": "2026-11-06"
-  },
+  "previousConfirmedLevel": 13,
   "characterLevelConfirmation": "player-confirmed-official-snapshot-not-updated",
   "levelMilestonesReported": [
     {
@@ -1506,6 +1523,16 @@
       "location": "unknown; last pictured at Tower of Azora but level-up location not specified",
       "officialSnapshotStatus": "Last checked official Blizzard EU snapshot level 11",
       "xp": "not given"
+    },
+    {
+      "level": 14,
+      "date": "2026-11-08",
+      "source": "Player confirmed level 14 and official Blizzard API profile also displays level 14",
+      "levelUpTime": "not reported",
+      "location": "not specified; subsequent rest at Sentinel Hill",
+      "officialSnapshotStatus": "confirmed-level-14",
+      "officialSnapshotAt": "2026-11-08T12:08:51Z",
+      "xp": "not reported"
     }
   ],
   "officialArmoryCheck": {
@@ -1626,6 +1653,26 @@
     }
   ],
   "latestPlayerMilestones": [
+    {
+      "id": "2026-11-08-xuthar-level-fourteen-sentinel-hill",
+      "day": "2026-11-08",
+      "eventType": "level-confirmed-player-and-official-api",
+      "title": "The fourteenth threshold and an unhurried stop at Sentinel Hill",
+      "level": 14,
+      "previousConfirmedLevel": 13,
+      "source": "Player explicitly confirmed level 14 after completing recent quest objectives. Official Forever EU profile snapshot also showed level 14 at 2026-11-08T12:08:51Z.",
+      "location": "Sentinel Hill, Westfall (rest and professions); exact point of level-up not independently known",
+      "levelUpTime": "not specified",
+      "officialApiVerification": true,
+      "professionActivities": [
+        "Tailoring",
+        "Enchanting",
+        "Cooking"
+      ],
+      "professionSkillValues": "Not supplied; do not invent recipes, skill-ups or specific crafts",
+      "questEffects": "No additional named quest completion inferred beyond last documented player Questie list",
+      "storyChapterId": "x-sentinel-hill-fourteenth-rest"
+    },
     {
       "id": "2026-11-08-xuthar-level-thirteen",
       "day": "2026-11-08",
@@ -2438,45 +2485,22 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Price of Each Promise",
-    "status": "Early return from Goldshire to Jansen Stead; six Questie quests show Quest Complete! and count as completed under the player's convention.",
-    "nextConfirmedQuest": "Downstream ready for hand-in; Deliver Thomas' Report active (return to Goldshire), plus ongoing Westfall objectives.",
-    "latestVisualEvidence": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
-    "stage": "8 November · Westfall · Level 13",
-    "latestPlayerReportedZone": "Elwynn Forest · Tower of Azora",
-    "learnedWeaponProficiency": "Staves",
-    "staffName": "Unspecified",
-    "note": "Screenshot confirms objective readiness rather than quest completion. Eastvale exact current location coordinates are cropped.",
-    "latestScreenshot": "WoWScrnShot_110726_215141.jpg",
-    "questUpdate": "At 18:39 completed by convention: Protect the Frontier, Good Steel, Red Linen Goods. At 20:45: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies. At 20:55: Downstream. The Collector and Deliver Thomas' Report still active. Latest Westfall Stew Murloc Eye 2/3.",
-    "latestQuestScreenshot": "Immagine ChatGPT 8 nov 2026, 11_48_54.png",
-    "chronologyNote": "Near-death experiences from 7 November backfilled into their chronological chapters. No additional NPC turn-in action or Loch Modan journey inferred.",
-    "characterLevel": 13,
-    "levelStatus": "Level 13 reported by player after Tower of Azora visit, exact level-up place/time unknown; last checked official Blizzard API level 11",
-    "storyChapter": "Chapter XLIII · The Tower of Azora",
-    "latestPlayerReportedLocation": "Tower of Azora · lower chamber (21:51 photo; no map coords)",
-    "forthcomingErrands": [
-      "Free up bag space",
-      "Rest",
-      "Travel toward Stormwind",
-      "Purchase a wand (not yet confirmed)",
-      "Handle profession-related commissions/supplies (not yet confirmed)"
+    "chapter": "The Hour Above the Fields",
+    "stage": "8 November 2026 · Sentinel Hill · Level 14",
+    "status": "Reached level 14 after finishing the last reported quest objectives; paused calmly at Sentinel Hill to work on Tailoring, Enchanting and Cooking.",
+    "characterLevel": 14,
+    "latestPlayerReportedZone": "Westfall",
+    "latestPlayerReportedLocation": "Sentinel Hill",
+    "professionActivity": [
+      "Tailoring",
+      "Enchanting",
+      "Cooking"
     ],
-    "latestProfessionMilestone": "Camping 101: Enchanting completed · 7 Nov (player report; Blizzard official snapshot behind)",
-    "notesOnQuestStates": "Player rule Ready for turn-in = completed for Chronicle, with official Blizzard archive independent; the tower scenes show no accepted or turned-in quests.",
-    "nextPlannedQuestingArea": "Eastvale questing area, now reached vicinity",
-    "nextPlannedQuestingAreaStatus": "Tower of Azora visited in the evening, after Eastvale exploration",
-    "planBeforeWestfall": "Complete some quests in Eastvale Logging Camp; afterward resume unfinished Westfall duties",
-    "currentQuestingPlan": "Work on Eastvale quests, then return to Westfall for unfinished deliveries",
-    "reportingRule": "Every Ready for turn-in quest counted completed/delivered in Chronicle under player preference. Blizzard completed IDs remain independent.",
-    "before2055": "20:45 at 68.0,43.2: An Enchanting Lesson, Delicate Instruments, Stolen Enchanting Supplies ready (counted completed); The Collector and Deliver Thomas' Report active",
-    "narrativeFocus": "Chapter XLIII is a dedicated literary reflection on Xuthar's already witnessed 21:23–21:51 visit to Tower of Azora, not a newly asserted visit or a quest completion.",
-    "latestDedicatedChapterId": "x-tower-of-azora-dedicated",
-    "latestDedicatedChapterTitle": "The Silence Between the Stars",
-    "newestCharacterMilestone": "Level 13, as confirmed by player",
-    "lastLevelMilestoneChapter": "Chapter XLIV · The Thirteenth Threshold",
-    "lastLevelMilestoneChapterId": "x-thirteenth-threshold",
-    "storyChapterId": "x-westfall-eighth-nov-dispatches"
+    "professionValues": "Not reported",
+    "questProgressReference": "Six Questie-complete Westfall objectives already archived; no additional named quest inferred",
+    "source": "Direct player report; level 14 corroborated by official Blizzard EU profile",
+    "storyChapterId": "x-sentinel-hill-fourteenth-rest",
+    "chronologyNote": "After the early Westfall questing and completed objectives of 8 November, Xuthar paused at Sentinel Hill and practiced three professions. Exact level-up location, crafted items, recipes and skill levels not reported."
   },
   "currentEquipmentReports": [
     {
@@ -3357,12 +3381,12 @@
   "latestQuestTrackerSnapshotId": "2026-11-08-westfall-questie-six-complete",
   "latestQuestTrackerLocation": "Westfall · 43.1,57.5",
   "lastLevelMilestone": {
-    "level": 13,
+    "level": 14,
     "date": "2026-11-08",
-    "verification": "Direct player statement, Blizzard official EU snapshot not yet caught up",
-    "priorMilestoneLevel": 12,
-    "levelUpLocation": "not reported",
-    "levelUpTime": "not reported"
+    "verification": "Player and official Blizzard API",
+    "levelUpLocation": "not specified",
+    "subsequentLocation": "Sentinel Hill, Westfall",
+    "storyChapterId": "x-sentinel-hill-fourteenth-step"
   },
   "plannedItinerary": [
     {

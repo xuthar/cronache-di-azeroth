@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-westfall-morning-level-13",
+      "status": "living-novel-westfall-quest-conclusions-level-13",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -925,6 +925,30 @@
           ]
         },
         {
+          "id": "x-westfall-seventh-nov-jansen",
+          "chapter": "Chapter XXXV · The Eleventh Threshold",
+          "title": "Fifteen Minutes Among the Broken Furrows",
+          "kind": "fiction",
+          "paragraphs": [
+            "At Furlbrow's Pumpkin Farm, under an afternoon sky of molten gold, Xuthar reached another quiet turning in his strength. He had scarcely become accustomed to his eleventh threshold when the fields offered their warning: no measure of power was a promise of safety.",
+            "Jansen Stead held him in a struggle that seemed to stretch beyond the quarter-hour he spent there. A Rusty Harvest Golem almost crushed the life from him; he escaped with scarcely a breath left to spend. A Young Goretusk came just as close. Seven more brushes with death followed in the wheat, each brief enough to be forgotten by everyone but the man whose life had nearly ended.",
+            "Eighteen Young Fleshrippers yielded only three pieces of meat fit for the stew. Eight more birds had fallen than he had expected to face. Dust filled his mouth, and he was ashamed to discover how angry a simple errand could make him. Someone was waiting for a meal, he reminded himself. The hunger was theirs, not his.",
+            "He rested behind a broken fence until his hands steadied. In Stormwind he had learned how a needle made useful things from small stitches. Here, where a wrong movement could end him, he learned that life also endured by small margins. There would be no monument for the moment he chose to sit, breathe and try again."
+          ]
+        },
+        {
+          "id": "x-westfall-seventh-nov-murloc-death",
+          "chapter": "Chapter XXXV · The Eleventh Threshold",
+          "title": "The Water That Took His Name",
+          "kind": "fiction",
+          "paragraphs": [
+            "Not long after the struggle among the furrows, a Murloc Coastrunner caught Xuthar at the water's edge. Reeds broke beneath his feet, and the noise of the fight dissolved into darkness. For one terrible interval, the road ended. The priest who carried forgotten names knew what it was to become another still shape beside the water.",
+            "When he was able to walk again, he did not mistake returning for triumph. He remembered the humiliation of being vulnerable to an enemy that neither knew nor cared who he was. The river had been as indifferent to his hopes as the harvest machines had been to his prayers.",
+            "Another Murloc Raider nearly took him as well. An adventurer called Ervicwiidak intervened when Xuthar had almost nothing left of his strength, and the danger passed. Two more narrow escapes weighed upon him that day. He knew little of the stranger, only that the timing of one act of help had made the difference between continuing and falling.",
+            "He wrote Ervicwiidak's name in the Morvayne ledger. No titles followed it. None were necessary. A name recorded because one person saved another was worthy of a place in a book intended for those the world might otherwise forget."
+          ]
+        },
+        {
           "id": "x-hearthstone-goldshire-return",
           "chapter": "Chapter XXXVI · The Hearthward Road",
           "title": "The Weight of What Remains",
@@ -1022,6 +1046,18 @@
           ]
         },
         {
+          "id": "x-elwynn-seventh-nov-stonecairn",
+          "chapter": "Chapter XL · At the Edge of the Lumber Road",
+          "title": "The Narrow Road Between Two Breaths",
+          "kind": "fiction",
+          "paragraphs": [
+            "At Stone Cairn Lake, the twelfth turning of Xuthar's strength came beneath the trees of Elwynn. The still water reflected a sky that seemed impossibly peaceful after Westfall. He watched it with the caution of a man who had already learned that beauty did not keep its promises.",
+            "He passed through Eastvale Logging Camp, where axes and cartwheels gave the forest a rhythm he could almost trust. Then a Young Forest Bear drove him across the woodland with so little strength remaining that the difference between escape and another fall might have been only a few steps.",
+            "Morgan the Collector brought him closer still to the end. Again Xuthar survived with only the faintest thread of life left to him. He had once thought the great tests of a priest would arrive in solemn halls, attended by teachers and sacred words. Instead they came on muddy paths, without warning and without an audience.",
+            "When he resumed walking, he could already imagine the glow of the fires beyond the trees and the books waiting in the Tower of Azora. But he would remember the eastern road for another lesson: courage did not erase fear. It meant carrying fear carefully, so that it might teach rather than command."
+          ]
+        },
+        {
           "id": "x-eastvale-murloc-river-level-twelve",
           "chapter": "Chapter XLI · Where the River Keeps Its Names",
           "title": "The Fires Across the Water",
@@ -1116,6 +1152,18 @@
           ]
         },
         {
+          "id": "x-westfall-eighth-nov-goldshire-fire",
+          "chapter": "Chapter XLV · The Hunger Beneath the Morning",
+          "title": "Half an Hour Beside the Embers",
+          "kind": "fiction",
+          "paragraphs": [
+            "The new morning began in Goldshire, beside the patient warmth of a campfire. For half an hour Xuthar did little but rest and watch the embers breathe. After the deaths and narrow escapes of the day before, he no longer considered stillness a weakness. Even a priest who wished to help everyone had to protect the body that carried him.",
+            "The town slowly awakened. Travellers crossed the road, smoke rose above the roofs, and the ordinary life of Elwynn went about its business. Beyond the western border, the Furlbrows still had their troubles, and the hungry families of Westfall could not be comforted by his good intentions.",
+            "He rose at last and turned west. Near Furlbrow's Pumpkin Farm he made only a short pause, then took the worn track toward Jansen Stead. The previous afternoon's struggles were still near enough in memory to make his grip tighten around the staff. He had not forgotten the danger; that was precisely why returning meant something.",
+            "Beneath his cloak, the Morvayne ledger pressed gently against his ribs. He had begun carrying it to preserve the past. Now it was becoming a reason to attend to the present."
+          ]
+        },
+        {
           "id": "x-westfall-third-morning-golden-road",
           "chapter": "Chapter XLV · The Hunger Beneath the Morning",
           "title": "The Fields Before the World Awoke",
@@ -1149,6 +1197,54 @@
             "Elsewhere in these same fields, a simple compass remained lost. Xuthar imagined the small needle resting in dust or grass, still pointing faithfully in its chosen direction while the person who needed it searched without guidance. The thought amused him for a moment. He, too, had carried an instrument meant to show the way: his family's ledger. Yet its oldest sentence had led him into more uncertainty than any forest path.",
             "Sentinel Hill waited beyond the fields, its stone tower the place where Gryan Stoutmantle could be found. Farther from this morning's concerns lay another duty, a package that would eventually need to reach Mountaineer Stormpike in Loch Modan. Those roads existed, and he would have to take them in their turn. He would not pretend he had already made the journey simply because the names were written on a page.",
             "For now there was wheat to cross, another goretusk somewhere beyond the rise, and a countryside whose sorrows had begun to feel less distant. Xuthar closed the ledger and looked westward. The world did not ask him to hurry to its ending. It asked him to remain long enough to notice who was still waiting."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-murloc-fins",
+          "chapter": "Chapter XLVI · The Price of Each Promise",
+          "title": "Eight Fins from Twenty-four Shadows",
+          "kind": "fiction",
+          "paragraphs": [
+            "The river's long grievance had followed Xuthar for two days. What began in Elwynn as a summons against the murlocs had become seven linked obligations, each one drawing him back toward wet reeds and the uneasy sounds beneath the water. Now that long business could finally be laid to rest.",
+            "It had taken twenty-four Murloc Lurkers to gather eight torn fins. Eight more creatures had stood in the way than he had expected. The difference mattered to him because he had paid for it in weariness, in fear and in hours that might otherwise have been spent beneath a sheltering roof.",
+            "The memory of the Coastrunner that killed him returned beside the memory of Ervicwiidak, who had saved him from a Raider. The water held both. A tale that remembered only the success of the errand would be a poorer tale, for it would erase the frightening passages through which success had been reached.",
+            "Xuthar did not celebrate. He simply allowed himself to feel the unfamiliar weight of something truly finished. There were people who would walk those paths more safely now. Their quiet evenings were worth more than a boast."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-watchers-compass",
+          "chapter": "Chapter XLVI · The Price of Each Promise",
+          "title": "The Needle and the Watchers",
+          "kind": "fiction",
+          "paragraphs": [
+            "Across the fields of Westfall, the Harvest Watchers continued their cruel imitation of protection. Xuthar remembered the Rusty Harvest Golem that had almost ended his journey and did not approach the machines carelessly. A field was not reclaimed by treating its dangers as though they were already defeated.",
+            "At last the work among the watchers came to its end. Their heavy steps no longer threatened the same furrows, and the wind moved through the grain with an almost unfamiliar quiet. No machine's fall repaired a roof or fed a child. Yet it gave a farmer the chance to return and begin doing those things.",
+            "Another small object, a simple compass, ceased to be lost. Xuthar thought of its needle pointing faithfully even when the person who needed it had no idea where to search. His own ledger possessed no such certainty. It could tell him where he had been; it could not guarantee where he ought to go.",
+            "He remembered the Furlbrows' wedding watch as well. One object preserved direction, the other time. Neither was grand, but both could restore a little order to lives made uncertain by displacement and fear. He understood their worth more keenly than he would have before leaving Northshire."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-pie-stew",
+          "chapter": "Chapter XLVI · The Price of Each Promise",
+          "title": "The Meal That Refused to Be Forgotten",
+          "kind": "fiction",
+          "paragraphs": [
+            "The counting ended at last. The goretusk livers were gathered, and the long-promised pie no longer depended upon another weary search through the fields. Xuthar had learned more about stubborn animals than he had ever expected a priest to know. None of it made for a heroic song, which pleased him.",
+            "The Westfall stew, too, was no longer an unfinished list of ingredients. Vegetables, meat and the difficult spoils of creatures from field and water had all exacted their time. They had asked more of him than an ordinary meal ought to ask of anyone. Yet for the family who could eat it, that effort might mean one evening freed from hunger.",
+            "He thought of Verna Furlbrow's recipe and the wedding watch that had held the hours of her family's former life. A taste and a ticking hand: such small things could become the last fragments of home. The work of preserving them seemed to him no less sacred than tending a chapel.",
+            "The wind smelled of dry wheat. For the first time since he had arrived in the golden country, Xuthar could think for a moment about what had been done, rather than only about the tasks that still remained."
+          ]
+        },
+        {
+          "id": "x-westfall-eighth-nov-dispatches",
+          "chapter": "Chapter XLVI · The Price of Each Promise",
+          "title": "Names at the End of the Road",
+          "kind": "fiction",
+          "paragraphs": [
+            "The names Gryan Stoutmantle and Mountaineer Stormpike had accompanied him as persistently as the sound of his own footsteps. One called from Westfall's troubled heart, the other from a duty pointing toward more distant country. Those obligations had reached their end, though Xuthar had no need to invent grand adventures for roads that his book had not yet described.",
+            "A simple compass found, a pie and a stew no longer waiting, harvest fields relieved of their deadly guardians, messages no longer demanding attention: these were modest victories. A commander might have judged them by their number alone. Xuthar thought of the people who had asked for help and knew why they mattered.",
+            "Still, his strongest memory was of everything that had almost been lost on the way. The golem that left him a breath from death, the Coastrunner at the water, the unasked kindness of Ervicwiidak. Survival was not proof of invincibility. It was an invitation to treat other lives with a little more care.",
+            "He closed the Morvayne ledger without writing a final sentence. The day was young, the golden fields stretched on, and other roads waited beyond them. Somewhere there would be another fire and perhaps a stranger willing to sit beside it and talk. The witness was in no hurry to reach the last page."
           ]
         },
         {

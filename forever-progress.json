@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794063406,
+  "exportedAt": 1794139731,
   "characters": [
     {
       "id": "xuthar",
@@ -12,78 +12,66 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 11,
+      "level": 14,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 99,
+      "questsCompleted": 136,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794063406,
+      "checkedAt": 1794139731,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794063406,
-          "inProgressCount": 9,
-          "completedCount": 99,
+          "snapshotAt": 1794139731,
+          "inProgressCount": 3,
+          "completedCount": 136,
           "inProgress": [
-            {
-              "id": 64,
-              "name": "The Forgotten Heirloom"
-            },
-            {
-              "id": 38,
-              "name": "Westfall Stew"
-            },
             {
               "id": 353,
               "name": "Stormpike's Delivery"
-            },
-            {
-              "id": 22,
-              "name": "Goretusk Liver Pie"
             },
             {
               "id": 109,
               "name": "Report to Gryan Stoutmantle"
             },
             {
-              "id": 9,
-              "name": "The Killing Fields"
-            },
-            {
               "id": 399,
               "name": "Humble Beginnings"
-            },
-            {
-              "id": 97917,
-              "name": "Camping 101: Enchanting"
-            },
-            {
-              "id": 97925,
-              "name": "Camping 101: Tailoring"
             }
           ],
           "completedQuestIds": [
             6,
             7,
+            9,
             11,
             15,
             18,
             21,
+            22,
             33,
             35,
             36,
+            37,
+            38,
+            39,
             40,
+            45,
+            46,
             47,
+            52,
             54,
+            59,
             60,
             61,
             62,
+            64,
+            71,
             76,
+            83,
             84,
             85,
             86,
@@ -94,6 +82,8 @@
             111,
             112,
             114,
+            123,
+            147,
             151,
             176,
             239,
@@ -108,12 +98,19 @@
             3904,
             3905,
             5261,
+            5545,
             5623,
             5624,
+            91723,
+            91724,
+            91725,
+            91732,
+            91733,
             91741,
             91743,
             91745,
             91752,
+            91753,
             91758,
             91772,
             91775,
@@ -129,7 +126,10 @@
             95998,
             96047,
             96050,
+            96057,
+            96059,
             96101,
+            96102,
             96604,
             96605,
             96606,
@@ -149,18 +149,31 @@
             96658,
             96659,
             96661,
+            97901,
             97903,
             97904,
+            97917,
             97919,
             97920,
+            97925,
+            97929,
             97931,
             97932,
+            97937,
+            97940,
             97942,
             97943,
+            97950,
+            97953,
             97955,
             97956,
+            97961,
             97965,
             97967,
+            97972,
+            97973,
+            98284,
+            98286,
             99127,
             99128,
             99129,
@@ -176,13 +189,22 @@
               "briefing": "Garrick Padfoot - a cutthroat who's plagued our farmers and merchants for weeks - was seen at a shack near the vineyards, which lies…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 7,
               "title": "Kobold Camp Cleanup",
               "area": "Northshire Valley",
               "briefing": "Your first task is one of cleansing, Xuthar. A clan of kobolds have infested the woods to the north. Go there and fight the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 9,
+              "title": "The Killing Fields",
+              "area": "Westfall",
+              "briefing": "Look at what has happened to this place! These lands were once occupied by good farm folk. But the damned thieves have driven them…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -194,7 +216,7 @@
               "briefing": "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of Elwynn Forest. A large pack of them,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -203,7 +225,7 @@
               "briefing": "Xuthar, my scouts tell me that the kobold infestation is larger than we had thought. A group of kobold workers has camped near the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 18,
@@ -212,13 +234,22 @@
               "briefing": "Recently, a new group of thieves has been hanging around Northshire. They call themselves the Defias Brotherhood, and have been seen across the river…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 21,
               "title": "Skirmish at Echo Ridge",
               "area": "Northshire Valley",
               "briefing": "Your previous investigations are proof that the Echo Ridge Mine needs purging. Return to the mine and help clear it of kobolds. Waste no…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 22,
+              "title": "Goretusk Liver Pie",
+              "area": "Westfall",
+              "briefing": "The onions are peeled. The garlic is minced. The rosemary is crushed. The crust has been baked. The dill weed is chopped. The gravy…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -230,7 +261,7 @@
               "briefing": "I hate those nasty timber wolves! But I sure like eating wolf steaks... Bring me tough wolf meat and I will exchange it for…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 35,
@@ -239,13 +270,40 @@
               "briefing": "If you are concerned that the rumors of murlocs are true, then do this -- travel to the eastern Elwynn bridge and speak with…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 36,
               "title": "Westfall Stew",
               "area": "Westfall",
               "briefing": "I never thought the day would come when I'd leave the farm. But the fields are overrun with thieves and it's far too dangerous…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 37,
+              "title": "Find the Lost Guards",
+              "area": "Elwynn Forest",
+              "briefing": "A few days ago we sent two Guards, Rolf and Malakai, to investigate along the river, and they have not yet returned. To complete…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 38,
+              "title": "Westfall Stew",
+              "area": "Westfall",
+              "briefing": "Help me make some Westfall Stew! Come back with the following ingredients: 3 Stringy Vulture Meat 3 Goretusk Snouts 3 Murloc Eyes 3 Okra",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 39,
+              "title": "Deliver Thomas' Report",
+              "area": "Elwynn Forest",
+              "briefing": "Tell Marshal Dughan of Malakai and Rolf's deaths, and report to him that the Murlocs in eastern Elwynn cannot be contained by our current…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -257,6 +315,24 @@
               "briefing": "Xuthar, there's a new threat in Elwynn Forest! Murlocs are swimming up the streams of eastern Elwynn, scaring away fish and attacking gentle folk!…",
               "objective": null,
               "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 45,
+              "title": "Discover Rolf's Fate",
+              "area": "Elwynn Forest",
+              "briefing": "Upon further searching the area, you find webbed footprints leading east along the shore of Stone Cairn Lake. In the distance to the east,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 46,
+              "title": "Bounty on Murlocs",
+              "area": "Elwynn Forest",
+              "briefing": "The Stormwind Army has placed a bounty on murloc lurkers and foragers in Elwynn. Slaughter them and bring me their torn murloc fins, and…",
+              "objective": null,
+              "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
@@ -264,6 +340,15 @@
               "title": "Gold Dust Exchange",
               "area": "Elwynn Forest",
               "briefing": "The Kobolds in these parts sometimes carry Gold Dust on them. I could really use the stuff - bring me a load of it…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 52,
+              "title": "Protect the Frontier",
+              "area": "Elwynn Forest",
+              "briefing": "Hail, Xuthar. Wild animals are growing more and more aggressive the farther we get from Goldshire, and the Eastvale Logging Camp suffers nearly constant…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -275,6 +360,15 @@
               "briefing": "Xuthar, you are a priest with proven interest in the security of Northshire. You are now tasked with the protection of the surrounding Elwynn…",
               "objective": null,
               "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 59,
+              "title": "Cloth and Leather Armor",
+              "area": "Elwynn Forest",
+              "briefing": "For your shrewdness and valor, I have a marker here that is good for one piece of armor. I want you to take it…",
+              "objective": null,
+              "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
@@ -284,7 +378,7 @@
               "briefing": "Hello, good sir! Do you have a moment? My brother and I run an apothecary in Stormwind, and I'm here to gather large candles…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 61,
@@ -293,13 +387,31 @@
               "briefing": "My brother Morgan is waiting in Stormwind for my shipment of candles. I don't have enough time to make the trip myself, but if…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 62,
               "title": "The Fargodeep Mine",
               "area": "Elwynn Forest",
               "briefing": "The mine in Northshire isn't the only one with problems! I have reports that the Fargodeep Mine in Elwynn has also become a haven…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 64,
+              "title": "The Forgotten Heirloom",
+              "area": "Westfall",
+              "briefing": "It was horrible! Verna woke me when she heard a ruckus in the fields. The fields were full of hooligans. We left in a…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 71,
+              "title": "Report to Thomas",
+              "area": "Elwynn Forest",
+              "briefing": "Now that you have both medallions, deliver them to Guard Thomas at the bridge so that he might know the fate of his murdered…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -311,6 +423,15 @@
               "briefing": "Thanks to you we know the Fargodeep Mine is infested with kobolds. Now we need a scout to investigate the more distant Jasperlode Mine.…",
               "objective": null,
               "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 83,
+              "title": "Red Linen Goods",
+              "area": "Elwynn Forest",
+              "briefing": "The Defias gang in Northshire wears burlap masks, but the Defias in Elwynn wear linen which I can use to make fine linen goods.…",
+              "objective": null,
+              "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
@@ -320,7 +441,7 @@
               "briefing": "Here you go. And when you give this pie to that Billy, you tell him I hope he chokes on it!",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 85,
@@ -329,7 +450,7 @@
               "briefing": "I lost my necklace, and think that guttersnipe Billy Maclure took it! He's usually scuttling like a rat around the Maclure vineyards east of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 86,
@@ -338,7 +459,7 @@
               "briefing": "Maybe if I got a pie, I could tell you who has that necklace. And you know, I think that old Bernice lady at…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 87,
@@ -347,7 +468,7 @@
               "briefing": "I was playing near the Fargodeep Mine, and I think I dropped, er...I mean I saw, the old lady's necklace. Don't ask me how…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 88,
@@ -356,7 +477,7 @@
               "briefing": "The Brackwells have a prize-winning pig, Princess. The sow is HUGE, and she got that way from sneaking over here and eating my veggies!…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 106,
@@ -365,7 +486,7 @@
               "briefing": "Oh, I'm cursed! My heart belongs to Tommy Joe Stonefield, but our families are bitter enemies. So I can't see him, even though my…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 107,
@@ -374,7 +495,7 @@
               "briefing": "I bet William Pestle has a potion to unite our two young lovers! Here, take this note to William. He's staying at the Lion's…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 111,
@@ -383,7 +504,7 @@
               "briefing": "Please, Xuthar, talk with my Gramma. If anyone can find a way to bring me together with Maybell, she can. She's inside our house…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 112,
@@ -392,13 +513,31 @@
               "briefing": "I can make an invisibility liquor for Maybell, so she can slip away from the Maclure Vineyards and go to Tommy Joe. But to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 114,
               "title": "The Escape",
               "area": "Elwynn Forest",
               "briefing": "Take this invisibility liquor to young Maybell. It should last long enough for her to visit Tommy Joe.",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 123,
+              "title": "The Collector",
+              "area": "Elwynn Forest",
+              "briefing": "This note is a schedule with a list of days and times when a person -- described only as \"The Collector\" -- will receive…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 147,
+              "title": "Manhunt",
+              "area": "Elwynn Forest",
+              "briefing": "If the \"Collector\" is taking gold from our mines then he's stealing from the kingdom! Bring the Collector to justice, and bring me the…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -410,7 +549,7 @@
               "briefing": "Poor Old Blanchy! Such a tired beast after all the work we put her through. I fed her before we left the farm, but…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 176,
@@ -419,7 +558,7 @@
               "briefing": "Wanted: Hogger A huge gnoll, Hogger, is prowling the woods in southwestern Elwynn. He has overpowered all attempts at his capture. The Stormwind Army…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -428,7 +567,7 @@
               "briefing": "The Garrison on our western border sends word of increasing gnoll and thief activity. They're requesting we send more Stormwind soldiers... but we just…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -437,7 +576,7 @@
               "briefing": "If you talk to anyone about wine, then you know we Gallinas sell the best wine in Stormwind. And we're not far, still in…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 333,
@@ -446,7 +585,7 @@
               "briefing": "We've been doing a lot of business lately. It seems like everyone is buying armor and sturdy clothes. Almost like they expect a cold,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 334,
@@ -455,7 +594,7 @@
               "briefing": "My son Thurman is an apprentice at the Larson Clothiers, in the Mage's Quarter. He was in a hurry today and forgot his shears…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 783,
@@ -464,7 +603,7 @@
               "briefing": "I hope you strapped your belt on tight, young priest, because there is work to do here in Northshire. And I don't mean farming.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 1097,
@@ -473,7 +612,7 @@
               "briefing": "There's a dwarven weaponsmith in Stormwind, Grimand Elmore, who sent word that he needs help with a delivery. I believe he wants a package…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 2158,
@@ -482,7 +621,7 @@
               "briefing": "Every adventurer should rest when exhaustion sets in - and there is no finer place to get rest and relaxation than at the Lion's…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3103,
@@ -491,7 +630,7 @@
               "briefing": "I was asked to bring this to your attention as soon as you returned from the kobold camps, Xuthar. It appears to be a…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3903,
@@ -500,7 +639,7 @@
               "briefing": "You've shown yourself a dependable priest, Xuthar. Dependable, and not afraid to get your hands dirty, eh? I have a friend, Milly Osworth, who's…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3904,
@@ -509,7 +648,7 @@
               "briefing": "A gang of brigands, the Defias, moved into the Northshire Vineyards while I was harvesting! I reported it to the Northshire guards and they…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3905,
@@ -518,13 +657,22 @@
               "briefing": "Now that my crop is saved, take this Grape Manifest to Brother Neals. He manages the store of food and drink in Northshire, and…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 5261,
               "title": "Eagan Peltskinner",
               "area": "Northshire Valley",
               "briefing": "Eagan Peltskinner is looking for someone to hunt wolves for him. That's good news, because we're seeing a lot more wolves in Northshire Valley…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 5545,
+              "title": "A Bundle of Trouble",
+              "area": "Elwynn Forest",
+              "briefing": "I've got a real problem on my hands. I have a deadline looming for an order of lumber, and I'm running out of time.…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -536,13 +684,58 @@
               "briefing": "Hello again, young priest. The time has come for you to learn more about our religion. After you've completed whatever tasks you have here…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 5624,
               "title": "Garments of the Light",
               "area": "Priest",
               "briefing": "Normally I put forth a small challenge to followers of the Light to test their skill. I want to see if they are worthy…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 91723,
+              "title": "Delicate Instruments",
+              "area": "Elwynn Forest",
+              "briefing": "Blast it! Every time I try to calibrate these sensitive arcane instruments, they get thrown off again by a surge of energy. The surges…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 91724,
+              "title": "Delicate Instruments",
+              "area": "Elwynn Forest",
+              "briefing": "Almost there, and... By the Nether! Something is still disrupting my instruments. This is most frustrating, Xuthar. I have heard rumors that the local…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 91725,
+              "title": "Stolen Enchanting Supplies",
+              "area": "Elwynn Forest",
+              "briefing": "I was sent by Master Theocritus to pick up some enchanting supplies from the trading post, but on the way back I was ambushed…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 91732,
+              "title": "Good Steel",
+              "area": "Elwynn Forest",
+              "briefing": "Good steel is in short supply after the war, and our tools have suffered for it. The Jasperlode miners used finely-crafted picks, and I…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 91733,
+              "title": "Downstream",
+              "area": "Elwynn Forest",
+              "briefing": "I was bringing back a supply shipment from the trading post, but my wagon tipped over and the supplies fell in the river! Before…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -554,7 +747,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91743,
@@ -563,7 +756,7 @@
               "briefing": "Those awful kobolds are eating my books! You have to get them back before they devour my whole library.",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91745,
@@ -572,13 +765,22 @@
               "briefing": "Go talk to the new mining apprentice, Kelsey Fargo. She works right outside the mine and has probably seen what the kobolds are up…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91752,
               "title": "The Big Picture",
               "area": "Northshire Valley",
               "briefing": "Every once in a while, a kobold comes through yelling \"Picture for Narf!\" I don't know who Narf is. Maybe one of the head…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 91753,
+              "title": "An Enchanting Lesson",
+              "area": "Elwynn Forest",
+              "briefing": "Academic rigor is of course essential to the enchanter's craft, but a practical foundation can pay dividends. Consider, as an example, the lowly Kobold.…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -590,7 +792,7 @@
               "briefing": "You're not done with those kobolds yet. We just got word from Kelsey that a kobold left the mine carrying a large sack of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91772,
@@ -599,7 +801,7 @@
               "briefing": "Alright. Take this kobold tracking kit. It'll let ye' track the kobold that Marshal McBride is concerned with. Follow the tracks and bring what…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91775,
@@ -608,7 +810,7 @@
               "briefing": "While you're investigating the Fargodeep Mine, see if you can find any of Brother Paxton's books to return. In particular, Paxton is very concerned…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91777,
@@ -617,7 +819,7 @@
               "briefing": "There are just two books left missing on Brother Paxton's list: \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\".…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92124,
@@ -626,7 +828,7 @@
               "briefing": "We need to take stock of how many books are missing! Go talk to my useless assistant, Daniel. He can do a quick inventory…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -635,7 +837,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94774,
@@ -644,7 +846,7 @@
               "briefing": "You've caught the attention of our superiors, Xuthar. They've asked you to travel to the Cathedral of Light in Stormwind as soon as possible.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94775,
@@ -653,7 +855,7 @@
               "briefing": "Elune bless you, good {race}. I hope your Light finds you and protects you well this day. One of your priests was here not…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94776,
@@ -662,7 +864,7 @@
               "briefing": "Time's come for you to head to Stormwind, Xuthar. High Priestess Laurena in the Cathedral of Light wants to speak to you. Gotta be…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94777,
@@ -671,7 +873,7 @@
               "briefing": "Just a short time ago, one of your priests was here looking for you, {race}. He said that if I were to see you,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94778,
@@ -680,7 +882,7 @@
               "briefing": "You're needed in Stormwind, Xuthar. The High Priestess there, Laurena, says it's time for you to prove you're worthy of the next level of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94779,
@@ -689,7 +891,7 @@
               "briefing": "Praise be to Elune, and to your Light, Xuthar. About this time, many of our order learn abilities reflecting their faith in Elune. If…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 95998,
@@ -698,7 +900,7 @@
               "briefing": "Well howdy there, priest. I can see you've got the look of an adventurer about you. Good for you. The world needs more of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96047,
@@ -707,13 +909,31 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96050,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 96057,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 96059,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Now that you've begun your journey into being an enchanter, I reckon I can teach you how to craft an Enchanted Lute for your…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -725,6 +945,15 @@
               "briefing": "Greetings, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 96102,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
@@ -734,7 +963,7 @@
               "briefing": "Lok-tar, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96605,
@@ -743,7 +972,7 @@
               "briefing": "Greetings, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96606,
@@ -752,7 +981,7 @@
               "briefing": "Greetings, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96607,
@@ -761,7 +990,7 @@
               "briefing": "Greetings, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96608,
@@ -770,7 +999,7 @@
               "briefing": "Greetings, priest. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96626,
@@ -779,7 +1008,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96627,
@@ -788,7 +1017,7 @@
               "briefing": "Xuthar, you have proven your competence as a protector thus far. That is why I am now entrusting you with an unusual task. I've…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96628,
@@ -797,7 +1026,7 @@
               "briefing": "Wait, Xuthar. I have another ask of you, before you brave that tunnel. My mountaineers have reported an adventurer that's shown up just outside…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96629,
@@ -806,7 +1035,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96630,
@@ -815,7 +1044,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96634,
@@ -824,7 +1053,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96638,
@@ -833,7 +1062,7 @@
               "briefing": "More and more adventurers like yourself have been seeking glory and fortune outside of the safety of Thendal Grove. There's one such adventurer who…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96646,
@@ -842,7 +1071,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96652,
@@ -851,7 +1080,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96655,
@@ -860,7 +1089,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96656,
@@ -869,7 +1098,7 @@
               "briefing": "Xuthar, you have proven yourself trustworthy in your endeavors against the Scarlet Crusade so far. That is why I am now entrusting you with…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96658,
@@ -878,7 +1107,7 @@
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96659,
@@ -887,13 +1116,22 @@
               "briefing": "Wait, Xuthar. I have another ask of you, before you leave us. There is an adventurer by the name of Kaga Wildhoof who has…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96661,
               "title": "Camping 101: Cooking",
               "area": "Camping",
               "briefing": "So you want to learn more about camping, huh? Good for you, priest. The first step any adventurer needs to take is to become…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97901,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -905,13 +1143,22 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97904,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97917,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -923,13 +1170,31 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97920,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97925,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 97929,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -941,13 +1206,31 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97932,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97937,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 97940,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -959,13 +1242,31 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97943,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97950,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 97953,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -977,13 +1278,22 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97956,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97961,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -995,13 +1305,49 @@
               "briefing": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a priest. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97967,
               "title": "Camping 101: Fishing",
               "area": "Camping",
               "briefing": "You might not think so, but your skill as a fisherman can actually come in handy at camp. I reckon I know someone that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 97972,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 97973,
+              "title": "Camping 101: Tailoring",
+              "area": "Camping",
+              "briefing": "Tailoring is a surprisingly potent tradeskill to invest in, and I'm sure it'll serve you well. I know someone that can teach you how…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 98284,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 98286,
+              "title": "Camping 101: Enchanting",
+              "area": "Camping",
+              "briefing": "Enchanters make everything better and are always welcome at any camp out in the wilds. I reckon I know someone that can teach you…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
@@ -1013,7 +1359,7 @@
               "briefing": "The fish just ain't biting today, and there's something wrong going on with them. It's not just empty hooks. I haven't seen a single…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99128,
@@ -1022,7 +1368,7 @@
               "briefing": "This can only be the work of those murlocs on the other side of the lake. They're disgusting little things, with a vicious temper…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99129,
@@ -1031,7 +1377,7 @@
               "briefing": "Remy mentioned murlocs the other day... I'm pretty sure he hates the little buggers as much as I do. He might have some ideas…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99130,
@@ -1040,7 +1386,7 @@
               "briefing": "I've got a few ideas on how to deal with murlocs. And one of those also helps some others in the process. There's a…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99131,
@@ -1049,7 +1395,7 @@
               "briefing": "Tell Mathers he can come pick up the bait later today. I'll give him the rundown on the proper usage. Hopefully he'll be able…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99143,
@@ -1058,24 +1404,49 @@
               "briefing": "Those fish men must think like actual fish, right? Which means anything they like, fish will like! If you rummage through some of their…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
           "newlyObservedCompletedIds": [
-            11,
-            36,
-            151,
-            176,
-            91777,
-            94773,
-            94774,
-            94775,
-            94776,
-            94777,
-            94778,
-            94779
+            9,
+            22,
+            37,
+            38,
+            39,
+            45,
+            46,
+            52,
+            59,
+            64,
+            71,
+            83,
+            123,
+            147,
+            5545,
+            91723,
+            91724,
+            91725,
+            91732,
+            91733,
+            91753,
+            96057,
+            96059,
+            96102,
+            97901,
+            97917,
+            97925,
+            97929,
+            97937,
+            97940,
+            97950,
+            97953,
+            97961,
+            97972,
+            97973,
+            98284,
+            98286
           ],
-          "comparedWithSnapshotAt": 1793999665,
+          "comparedWithSnapshotAt": 1794063406,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1083,7 +1454,7 @@
           "secondaryCount": 3
         },
         "equipment": {
-          "equippedCount": 8
+          "equippedCount": 10
         },
         "reputations": {
           "trackedCount": 4
@@ -1091,7 +1462,7 @@
         "achievements": {
           "trackedCount": 8
         },
-        "profileCheckedAt": 1794063406
+        "profileCheckedAt": 1794139731
       }
     }
   ],

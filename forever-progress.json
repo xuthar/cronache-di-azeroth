@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794162196,
+  "exportedAt": 1794181530,
   "characters": [
     {
       "id": "xuthar",
@@ -12,27 +12,35 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 14,
+      "level": 15,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 140,
+      "questsCompleted": 144,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794162196,
+      "checkedAt": 1794181530,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794162196,
-          "inProgressCount": 8,
-          "completedCount": 140,
+          "snapshotAt": 1794181530,
+          "inProgressCount": 6,
+          "completedCount": 144,
           "inProgress": [
             {
-              "id": 12,
+              "id": 92744,
+              "name": "Murloc Gills"
+            },
+            {
+              "id": 13,
               "name": "The People's Militia"
+            },
+            {
+              "id": 65,
+              "name": "The Defias Brotherhood"
             },
             {
               "id": 102,
@@ -43,24 +51,8 @@
               "name": "Stormpike's Delivery"
             },
             {
-              "id": 153,
-              "name": "Red Leather Bandanas"
-            },
-            {
-              "id": 65,
-              "name": "The Defias Brotherhood"
-            },
-            {
               "id": 6281,
               "name": "Continue to Stormwind"
-            },
-            {
-              "id": 92742,
-              "name": "Testing the Wells"
-            },
-            {
-              "id": 92744,
-              "name": "Murloc Gills"
             }
           ],
           "completedQuestIds": [
@@ -68,6 +60,7 @@
             7,
             9,
             11,
+            12,
             15,
             18,
             21,
@@ -106,6 +99,7 @@
             123,
             147,
             151,
+            153,
             176,
             239,
             332,
@@ -125,6 +119,7 @@
             5624,
             6181,
             79092,
+            79093,
             91723,
             91724,
             91725,
@@ -140,6 +135,7 @@
             91775,
             91777,
             92124,
+            92742,
             94773,
             94774,
             94775,
@@ -241,6 +237,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 12,
+              "title": "The People's Militia",
+              "area": "Westfall",
+              "briefing": "The People's Militia has but one goal: To defend the lands of Westfall and return peace to our surroundings. Unfortunately, the price of peace…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -528,7 +533,7 @@
               "briefing": "Looks to me you've seen quite a bit of combat in your time, priest. If you haven't already, you should report to Gryan Stoutmantle.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 111,
@@ -585,6 +590,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 153,
+              "title": "Red Leather Bandanas",
+              "area": "Westfall",
+              "briefing": "The Defias Front is constantly shifting. I've been following their movements for quite some time now. On a side note, I've ascertained that many…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 176,
               "title": "WANTED: \"Hogger\"",
               "area": "Elwynn Forest",
@@ -636,7 +650,7 @@
               "briefing": "It seems an eternity since I was a boy working the farm in Westfall. They say you can never go back, and it's true.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 783,
@@ -744,11 +758,20 @@
               "briefing": "Although we don't get much aid from Stormwind directly, I do have a contact in the city who helps supply us with armor. His…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79092,
               "title": "Archmage Theocritus' Research Journal",
+              "area": "Special",
+              "briefing": "Have you brought something to add to our collection?",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 79093,
+              "title": "Rumi of Gnomeregan: The Collected Works",
               "area": "Special",
               "briefing": "Have you brought something to add to our collection?",
               "objective": null,
@@ -889,6 +912,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 92742,
+              "title": "Testing the Wells",
+              "area": "Westfall",
+              "briefing": "We must determine the source and nature of the poison corrupting this land. Let us begin with the groundwater under the farms in the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1468,12 +1500,12 @@
             }
           ],
           "newlyObservedCompletedIds": [
-            109,
-            399,
-            6181,
-            79092
+            12,
+            153,
+            79093,
+            92742
           ],
-          "comparedWithSnapshotAt": 1794139731,
+          "comparedWithSnapshotAt": 1794162196,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1489,7 +1521,7 @@
         "achievements": {
           "trackedCount": 8
         },
-        "profileCheckedAt": 1794162196
+        "profileCheckedAt": 1794181530
       }
     }
   ],

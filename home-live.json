@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-08T14:30:47.797Z"
+    "checkedAt": "2026-11-08T16:05:29.022Z"
   },
   "news": [
+    {
+      "title": "The Darkmoon Faire is Coming To Elwynn Forest First in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-08T15:00:00.000Z"
+    },
     {
       "title": "Layering Issues in Thousand Needles Harpy Cave Result in Quest Competition Issues",
       "url": "https://www.wowhead.com/news=383805/layering-issues-in-thousand-needles-harpy-cave-result-in-quest-competition",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-07T19:00:00.000Z"
-    },
-    {
-      "title": "Black Market Auction House, Global Raid Launch, Quest Helpers - MrGM Interview on WoW: Forever",
-      "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on",
-      "category": "Forever",
-      "publishedAt": "2026-11-07T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-08T14:30:47.797Z",
-  "generatedAt": "2026-11-08T14:30:47.790Z",
+  "newsUpdatedAt": "2026-11-08T16:05:29.021Z",
+  "generatedAt": "2026-11-08T16:05:28.965Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 08 Nov 2026 08:30:47 -0600",
+  "newsFeedBuiltAt": "Sun, 08 Nov 2026 10:05:04 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

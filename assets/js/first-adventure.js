@@ -179,7 +179,7 @@
           <h2 id="xuthar-day-two-title">Day Two.<br><em>Beyond the water.</em></h2>
           <p>After a rainy night at the Lion's Pride Inn, Xuthar's road continued through Crystal Lake, the waterways of Stormwind and the depths of Jasperlode. Near Guard Thomas in Elwynn, he reached level 10. Tailoring, Enchanting and Fishing shape his travels; Herbalism has been left behind.</p>
           <p class="day-two-evidence">The latest full quest record at 20:59 shows seven active missions, including Riverpaw Gnoll Bounty, WANTED: Hogger, Stormpike's Delivery and Report to Gryan Stoutmantle. Further Concerns is completed at Guard Thomas. Jasperlode's scouting objective was ready to report earlier; its hand-in is not established. A later night crossing closes the day's photographic record.</p>
-          <div class="day-two-links"><a href="book.html?character=xuthar#x-level-ten-armory">Read the tenth threshold ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View 33 original photographs ↗</a><a href="missions.html">Completed quest archive ↗</a><a href="https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne" target="_blank" rel="noopener noreferrer">Xuthar · Official EU Armory ↗</a></div>
+          <div class="day-two-links"><a href="book.html?character=xuthar#x-level-ten-armory">Read the tenth threshold ↗</a><a href="journal.html#xuthar-day-two-enticing-offer-river">Forest journey journal ↗</a><a href="gallery.html#xuthar-day-two-photos">View the gameplay photographs ↗</a><a href="missions.html">Completed quest archive ↗</a><a href="https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne" target="_blank" rel="noopener noreferrer">Xuthar · Official EU Armory ↗</a></div>
         </div>
         <aside class="day-two-status" aria-label="Confirmed starting facts">
           <span>THE LAST WITNESS · SESSION 02</span>
@@ -232,14 +232,14 @@
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">
           <span class="first-night-archive-kicker">THE LAST WITNESS · PHOTO RECORDS</span>
           <h3 id="first-night-archive-title">Every journey leaves a trace.</h3>
-          <p>A few selected moments accompany the story below. All 37 original files remain in a chronological archive, each available in full resolution.</p>
+          <p>A few selected moments accompany the story below. All 25 gameplay photographs remain in a chronological archive, each available in full resolution.</p>
           <div class="first-night-archive-counters" aria-label="Archive collections">
             <a href="gallery.html#xuthar-day-one-photos"><strong>18</strong><span>Day One · 5 November</span></a>
             <a href="gallery.html#xuthar-day-two-photos"><strong>7</strong><span>Day Two · 6 November</span></a>
-            <a href="gallery.html#xuthar-diary-evidence"><strong>12</strong><span>In-game diary & quests</span></a>
+            
           </div>
           <a class="first-night-archive-open" href="gallery.html#xuthar-day-one-photos">Explore the original archive ↗</a>
-          <small>37 original files · Select a photograph to open its full-size original.</small>
+          <small>25 original gameplay screenshots · Select a photograph to open its full-size original.</small>
         </aside>
       </div>
       <div class="first-night-photostory" aria-label="Selected original photographs from day one">

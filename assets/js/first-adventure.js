@@ -9,7 +9,7 @@
     section.className='day-two-panel wrap';
     section.setAttribute('aria-labelledby','westfall-arrival-title');
     section.innerHTML=`
-      <div class="day-two-signal">NEW JOURNEY · THE THIRTEENTH THRESHOLD</div>
+      <div class="day-two-signal">CURRENT JOURNEY · LEVEL 14 · SENTINEL HILL</div>
       <div class="day-two-layout">
         <div>
           <h2 id="westfall-arrival-title">Beyond Azora.<br><em>The witness keeps walking.</em></h2>
@@ -80,17 +80,62 @@
             <a href="book.html?character=xuthar#x-thirteenth-threshold">Read Chapter XLIV · A Measure of the Unseen ↗</a>
             <a href="xuthar.html#xuthar-level-thirteen">Level 13 · Character milestone ↗</a>
           </div>
-                    <p class="day-two-evidence">The first Westfall entry is visible. Reaching Sentinel Hill or handing in the report to Gryan Stoutmantle has not yet been established.</p>
+          <p><strong>8 November · Sentinel Hill and the fourteenth threshold.</strong> After completing Westfall's outstanding objectives, Xuthar reached level 14. He then rested at Sentinel Hill and spent a peaceful part of the day practising Tailoring, Enchanting and Cooking. No exact profession skill ranks have been reported.</p>
+          <div class="day-two-links">
+            <a href="book.html?character=xuthar#x-sentinel-hill-fourteenth-step">Read Chapter XLVII · The Hour Above the Fields ↗</a>
+            <a href="xuthar.html#blizzard-official-profile">See the verified Blizzard character profile ↗</a>
+          </div>
+          <p class="day-two-evidence">Earlier Westfall notes above are historical stages of the journey, not the present quest status. The latest player report places Xuthar at Sentinel Hill after reaching level 14.</p>
         </div>
-        <aside class="day-two-status" aria-label="Newly confirmed region">
-          <span>THE LAST WITNESS · CHAPTER XLIV</span>
-          <strong>LEVEL THIRTEEN</strong>
-          <p>THE ROAD AHEAD · MEMORY · LIGHT AND SHADOW</p>
-          <b>Level 13 · latest player confirmation</b>
-          <small>Level 13 reported by Xuthar; the exact moment and place of levelling are unknown. Last quest screenshot remains from 20:55 on 7 November.</small>
+        <aside class="day-two-status" aria-label="Current character progress">
+          <span>THE LAST WITNESS · CHAPTER XLVII</span>
+          <strong id="xuthar-home-current-level">LEVEL 14</strong>
+          <p>SENTINEL HILL · TAILORING · ENCHANTING · COOKING</p>
+          <b id="xuthar-home-current-level-source">Level 14 · confirmed by Blizzard EU</b>
+          <small id="xuthar-home-current-level-updated">The fourteenth threshold is confirmed. Official character data is checked automatically; the personal chronicle remains independent.</small>
         </aside>
       </div>`;
     return section;
+  }
+  function refreshCurrentLevel(){
+    const value=document.getElementById('xuthar-home-current-level');
+    const status=document.getElementById('xuthar-home-current-level-source');
+    const note=document.getElementById('xuthar-home-current-level-updated');
+    if(!value||!status||!note)return;
+    // A verified player milestone is the minimum; an older API snapshot must not
+    // move the currently displayed level backwards.
+    const minimumLevel=14;
+    const url='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
+    fetch(url,{cache:'no-store',headers:{Accept:'application/json'}})
+      .then(response=>{if(!response.ok)throw Error('Official snapshot unavailable');return response.json()})
+      .then(data=>{
+        const profile=data?.characters?.find(x=>x?.id==='xuthar');
+        if(data?.source!=='BlizzardOfficialAPI'||data?.apiRegion!=='eu'||
+           data?.status!=='active'||profile?.name!=='Xuthar Morvayne'||
+           !Number.isInteger(profile.level)||profile.level<10||profile.level>100){
+          throw Error('Unverified profile snapshot');
+        }
+        const level=Math.max(minimumLevel,profile.level);
+        value.textContent='LEVEL '+level;
+        const behind=profile.level<minimumLevel;
+        status.textContent=behind?'Level '+level+' · confirmed in game; Blizzard pending':
+          'Level '+level+' · verified by Blizzard EU';
+        const checked=Number(data.exportedAt||profile.checkedAt);
+        const timestamp=Number.isFinite(checked)&&checked>0?
+          new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',day:'2-digit',
+            month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(checked*1000)):
+          'unavailable';
+        const stale=!Number.isFinite(checked)||checked<=0||Date.now()/1000-checked>86400;
+        note.textContent='Official API snapshot: '+timestamp+' (Italy). '+
+          (stale?'Blizzard data may be outdated. ':
+           behind?'The official profile has not caught up with the reported level. ':
+           'Automatically refreshed from the official EU profile. ')+
+          'Quest narrative is updated independently.';
+      }).catch(()=>{
+        value.textContent='LEVEL '+minimumLevel;
+        status.textContent='Level 14 · confirmed in game';
+        note.textContent='Official live data temporarily unavailable. The last player-confirmed milestone remains visible.';
+      });
   }
   function hoggerMilestonePanel(){
     const section=document.createElement('section');
@@ -187,14 +232,14 @@
         <aside class="first-night-archive" aria-labelledby="first-night-archive-title">
           <span class="first-night-archive-kicker">THE LAST WITNESS · PHOTO RECORDS</span>
           <h3 id="first-night-archive-title">Every journey leaves a trace.</h3>
-          <p>A few selected moments accompany the story below. All 33 original files remain in a chronological archive, each available in full resolution.</p>
+          <p>A few selected moments accompany the story below. All 37 original files remain in a chronological archive, each available in full resolution.</p>
           <div class="first-night-archive-counters" aria-label="Archive collections">
             <a href="gallery.html#xuthar-day-one-photos"><strong>18</strong><span>Day One · 5 November</span></a>
             <a href="gallery.html#xuthar-day-two-photos"><strong>7</strong><span>Day Two · 6 November</span></a>
-            <a href="gallery.html#xuthar-diary-evidence"><strong>8</strong><span>In-game diary & quests</span></a>
+            <a href="gallery.html#xuthar-diary-evidence"><strong>12</strong><span>In-game diary & quests</span></a>
           </div>
           <a class="first-night-archive-open" href="gallery.html#xuthar-day-one-photos">Explore the original archive ↗</a>
-          <small>33 original files · Select a photograph to open its full-size original.</small>
+          <small>37 original files · Select a photograph to open its full-size original.</small>
         </aside>
       </div>
       <div class="first-night-photostory" aria-label="Selected original photographs from day one">
@@ -221,6 +266,7 @@
     section.insertAdjacentElement('beforebegin',dayTwoPanel());
     hero.insertAdjacentElement('afterend',hoggerMilestonePanel());
     hero.insertAdjacentElement('afterend',westfallArrivalPanel());
+    refreshCurrentLevel();
   }
   if(page==='xuthar'){
     const opening=document.querySelector('.xu-opening');
@@ -239,5 +285,6 @@
     panel.insertAdjacentElement('beforebegin',hoggerMilestonePanel());
     panel.insertAdjacentElement('beforebegin',dayTwoPanel());
     document.getElementById('xuthar-hogger-20261107')?.insertAdjacentElement('beforebegin',westfallArrivalPanel());
+    refreshCurrentLevel();
   }
 })();

@@ -1,0 +1,27 @@
+/* Xuthar Live Status: deliberately small and readable above the homepage. */
+.xuthar-presence{--presence-accent:#e98587;--presence-outline:#f1848870;--presence-glow:#ce545419;
+  margin:0;padding:14px 0 4px;background:#0d1418}
+.xuthar-presence.is-live{--presence-accent:#78e5a3;--presence-outline:#69e0a478;--presence-glow:#248c491c}
+.xuthar-presence-panel{display:flex;flex-wrap:wrap;gap:15px 23px;align-items:center;
+  border:1px solid var(--presence-outline);border-left:4px solid var(--presence-accent);
+  border-radius:12px;padding:15px 21px;
+  background:radial-gradient(circle at 3% 25%,var(--presence-glow),transparent 38%),linear-gradient(112deg,#172126,#10181d);
+  box-shadow:0 9px 26px #00000030}
+.xuthar-presence-pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:0 0 auto;
+  border:1px solid var(--presence-outline);background:var(--presence-glow);color:var(--presence-accent);
+  padding:8px 12px;border-radius:100px;min-width:105px;letter-spacing:.1em;font-size:.77rem;font-weight:800}
+.xuthar-presence-dot{height:9px;width:9px;border-radius:50%;background:currentColor;box-shadow:0 0 11px currentColor}
+.xuthar-presence.is-live .xuthar-presence-dot{animation:xuthar-live-pulse 2.5s ease-in-out infinite}
+@keyframes xuthar-live-pulse{50%{box-shadow:0 0 18px currentColor;opacity:.72}}
+.xuthar-presence-copy{min-width:200px;flex:1 1 365px}
+.xuthar-presence-copy strong{font:600 clamp(1.1rem,2vw,1.4rem)/1.25 Georgia,serif;color:#f5eee4}
+.xuthar-presence-copy p{margin:5px 0 0;color:#d2d8d4;font-size:.88rem;line-height:1.5}
+.xuthar-presence-copy p:last-child{color:#b6c6c0}
+.xuthar-presence-aside{flex:0 1 auto;text-align:right;min-width:140px}
+.xuthar-presence-aside small{display:block;color:#c4c9c5;font-size:.72rem}
+.xuthar-presence-aside a{color:#cfac69;font-size:.84rem;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:680px){.xuthar-presence{padding:10px 0 0}.xuthar-presence-panel{padding:14px;gap:10px}
+  .xuthar-presence-aside{text-align:left}.xuthar-presence-copy{flex-basis:100%;order:3}
+  .xuthar-presence-copy strong{font-size:1.12rem}
+  .xuthar-presence-aside{margin-left:auto;min-width:0}}
+@media(prefers-reduced-motion:reduce){.xuthar-presence.is-live .xuthar-presence-dot{animation:none}}

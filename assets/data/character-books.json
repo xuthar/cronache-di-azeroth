@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-thirteenth-level-confirmation",
+      "status": "living-novel-westfall-morning-level-13",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1113,6 +1113,42 @@
             "For the first time, Xuthar allowed himself to imagine that the long road ahead did not need to end with a single answer. It might lead through villages, ruined halls and forests whose names he had not yet learned. It might ask him to help people who would forget him by the following winter. It might return him to the same tower, older and less certain, with a different question to place upon its tables.",
             "For now there was only the next day, the work still unfinished and the faint relief of understanding that growth did not require him to become someone else. Thirteen was not an ending, nor even an especially important number in the greater history of Azeroth. It was a quiet marker set along the road, a reminder that he had travelled farther than he once believed he could.",
             "He closed the ledger and left its final page unwritten. Tomorrow would bring its own names, its own shadows and perhaps another moment of light. The witness had learned enough to know that none of these things could be forced. The road would be waiting when he returned to it, and so would the unfinished story of Xuthar Morvayne."
+          ]
+        },
+        {
+          "id": "x-westfall-third-morning-golden-road",
+          "chapter": "Chapter XLV · The Hunger Beneath the Morning",
+          "title": "The Fields Before the World Awoke",
+          "kind": "fiction",
+          "paragraphs": [
+            "Morning found Xuthar Morvayne on the western road before the day had properly begun. Behind him, Elwynn's trees held the last of the night's coolness; ahead, Westfall spread beneath a pale sky in fields of wheat that seemed, from a distance, to promise abundance. He had returned because promises made among those fields did not cease to exist when a traveller crossed back into the shelter of the forest.",
+            "The land was beautiful in the ruthless way that hungry places sometimes are. Gold moved over the fields as the wind passed, yet the farmhouses were tired, the fences bent, and even the silence seemed to have learned how to ration itself. Here the harvest did not always belong to the people who had planted it. Xuthar watched the first sunlight touch the stubble and wondered how a country could appear so rich while its people struggled to fill a bowl.",
+            "He had learned, in Azora's tower, that a question did not always require an immediate answer. Westfall offered him questions less patient than those of the scholars. A pot must be filled before supper. A field must be made safe before it can be worked. A family keeps its memories not in grand volumes but in a small object handed down until its loss feels like the loss of a person. No spell he knew could make these needs abstract.",
+            "He adjusted the strap of his travelling bag and stepped off the road. The earth was dry beneath his boots. Somewhere ahead, a goretusk rooted through the grass. The day had begun quietly, but not idly."
+          ]
+        },
+        {
+          "id": "x-westfall-third-morning-stew-heirloom",
+          "chapter": "Chapter XLV · The Hunger Beneath the Morning",
+          "title": "What a Field and a Kitchen Remember",
+          "kind": "fiction",
+          "paragraphs": [
+            "There was little glory in making a field fit for the hands that tended it. The creatures that had turned the harvest into a place of fear were one more burden laid upon farmers who already carried too much. Xuthar had done what he could among the furrows. The work left no monument; it left the possibility that someone might return to the wheat without watching every shadow for movement.",
+            "Nor would anyone sing of a pot of Westfall stew. Yet its warmth mattered more here than most noble speeches. Xuthar thought of the labour gathered inside such a simple meal: the gathering, the cutting, the patient watch over the fire, the hope that there would be enough to share. In this country, a meal was not merely food. It was a small refusal to surrender the evening to hunger.",
+            "Another promise had concerned an heirloom, an object whose worth could not be reckoned by a merchant. Its recovery brought to mind the Morvayne records and the way his family had preserved the names of those whom others passed over. He had begun to understand why people searched so fiercely for things that seemed ordinary to strangers. They were not searching only for an object. They were searching for proof that the years before this hard one had truly happened.",
+            "He opened his ledger under the shelter of a low wall. Instead of recording victories, he wrote of a field, a shared meal and a treasured belonging restored to its story. His pen paused over the page. All three were different kinds of hunger. The first asked for safety, the second for bread, the third for memory."
+          ]
+        },
+        {
+          "id": "x-westfall-third-morning-liver-compass",
+          "chapter": "Chapter XLV · The Hunger Beneath the Morning",
+          "title": "A Compass Still Missing",
+          "kind": "fiction",
+          "paragraphs": [
+            "By the time the sun stood above the wheat, Xuthar had only two goretusk livers for the pie still waiting to be made. Six more were needed. It was an unromantic reckoning, and he found himself grateful for its honesty. The land could not be coaxed into abundance by good intentions; one had to walk, look carefully and accept that each small task took the time it took.",
+            "Elsewhere in these same fields, a simple compass remained lost. Xuthar imagined the small needle resting in dust or grass, still pointing faithfully in its chosen direction while the person who needed it searched without guidance. The thought amused him for a moment. He, too, had carried an instrument meant to show the way: his family's ledger. Yet its oldest sentence had led him into more uncertainty than any forest path.",
+            "Sentinel Hill waited beyond the fields, its stone tower the place where Gryan Stoutmantle could be found. Farther from this morning's concerns lay another duty, a package that would eventually need to reach Mountaineer Stormpike in Loch Modan. Those roads existed, and he would have to take them in their turn. He would not pretend he had already made the journey simply because the names were written on a page.",
+            "For now there was wheat to cross, another goretusk somewhere beyond the rise, and a countryside whose sorrows had begun to feel less distant. Xuthar closed the ledger and looked westward. The world did not ask him to hurry to its ending. It asked him to remain long enough to notice who was still waiting."
           ]
         },
         {

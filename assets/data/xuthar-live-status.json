@@ -2,16 +2,13 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "live",
+  "status": "offline",
   "statusConfirmed": true,
   "zone": "Westfall",
-  "location": "",
-  "coordinates": {
-    "x": 46,
-    "y": 59
-  },
-  "activity": "Fishing in the rain",
+  "location": "Sentinel Hill",
+  "coordinates": null,
+  "activity": "Resting in bed · reflecting and dreaming",
   "reportedOn": "2026-11-09",
   "updatedAt": "2026-11-09",
-  "note": "Player-reported LIVE presence on 9 November: fishing calmly in the rain in Westfall at in-game coordinates 46,59. This is a manually maintained status, not automated Blizzard online-state telemetry."
+  "note": "Player reports ending 9 November OFFLINE at Sentinel Hill, Westfall, level 15. Questie screenshot showed 52.5,53.2 earlier; those are not asserted as resting-place coordinates. Offline state is manually reported, not official Blizzard live telemetry."
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-fifteen-westfall-carro-gilded-rose",
+      "status": "living-novel-level-fifteen-westfall-rain-fishing",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1382,6 +1382,28 @@
           ]
         },
         {
+          "id": "x-westfall-ninth-nov-rain-fishing",
+          "chapter": "Chapter L · The Mercy of Rain",
+          "title": "A Morning Without Orders",
+          "kind": "fiction",
+          "paragraphs": [
+            "The night before, Stormwind had given him a bed, a closed door and a few hours in which no one required his courage. He had gone to sleep at the Gilded Rose with Westfall's dust still upon his boots and the memory of Carro Steelcave's friendship warming the colder corners of his thoughts.",
+            "Now the western country lay beneath a soft, unbroken rain. The wheat bowed its pale heads, the paths darkened, and the world beyond Sentinel Hill seemed content to speak in whispers rather than commands. Xuthar found a place by the water, where the land fell quiet and there was room enough for a man to be merely himself.",
+            "He took out his fishing rod. At another hour he might have counted the dangers waiting in the fields, the work left unfinished, the distance still to travel. This morning he counted none of them. He cast his line into the rain and let the day begin slowly."
+          ]
+        },
+        {
+          "id": "x-westfall-ninth-nov-water-silence",
+          "chapter": "Chapter L · The Mercy of Rain",
+          "title": "What the Water Keeps",
+          "kind": "fiction",
+          "paragraphs": [
+            "Rain stippled the water in a thousand fleeting circles. Each vanished into the next, leaving no mark anyone could follow. Xuthar watched the float and listened to the faint patter against his sleeves. Even the Shadow within him seemed to have found no reason to interrupt.",
+            "He had learned, during his first hard days in Azeroth, how quickly a road could become a struggle to survive. In Westfall he had met fear, kindness and strangers whose names he had promised not to lose. Yet remembrance could not be made of battles alone. There must also be a place for small hours: a wet morning, a patient line, the simple sound of falling water.",
+            "The float rested in the rain. Whether the river offered anything was, for once, of little importance. Xuthar remained beside it, a priest with a rod in his hands and no need to hurry. The next page of his life would come when it was ready."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -1549,5 +1571,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-08"
+  "lastEditorialUpdate": "2026-11-09"
 }

@@ -1,19 +1,10 @@
 {
-  "updatedAt": "2026-11-09T06:12:55.323Z",
+  "updatedAt": "2026-11-09T16:17:16.588Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-324-1792404000000@wowlazymacros.com",
-      "title": "Hallow's End",
-      "startAt": "2026-10-19T10:00:00.000Z",
-      "endAt": "2026-11-02T10:00:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=324"
-    },
     {
       "id": "wow-event-1056-1793088000000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
@@ -276,15 +267,6 @@
       "url": "https://www.wowhead.com/event=663"
     },
     {
-      "id": "wow-event-1703-1798527600000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-12-29T07:00:00.000Z",
-      "endAt": "2027-01-05T06:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1703"
-    },
-    {
       "id": "wow-event-1704-1798527600000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2026-12-29T07:00:00.000Z",
@@ -292,6 +274,15 @@
       "allDay": false,
       "category": "Timewalking",
       "url": "https://www.wowhead.com/event=1704"
+    },
+    {
+      "id": "wow-event-1703-1798527600000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-29T07:00:00.000Z",
+      "endAt": "2027-01-05T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1703"
     },
     {
       "id": "wow-event-658-1798740000000@wowlazymacros.com",

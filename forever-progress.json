@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794181530,
+  "exportedAt": 1794245661,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794181530,
+      "checkedAt": 1794245661,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794181530,
+          "snapshotAt": 1794245661,
           "inProgressCount": 6,
           "completedCount": 144,
           "inProgress": [
@@ -245,7 +245,7 @@
               "briefing": "The People's Militia has but one goal: To defend the lands of Westfall and return peace to our surroundings. Unfortunately, the price of peace…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -596,7 +596,7 @@
               "briefing": "The Defias Front is constantly shifting. I've been following their movements for quite some time now. On a side note, I've ascertained that many…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 176,
@@ -776,7 +776,7 @@
               "briefing": "Have you brought something to add to our collection?",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91723,
@@ -920,7 +920,7 @@
               "briefing": "We must determine the source and nature of the poison corrupting this land. Let us begin with the groundwater under the farms in the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1499,13 +1499,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            12,
-            153,
-            79093,
-            92742
-          ],
-          "comparedWithSnapshotAt": 1794162196,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794181530,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1521,7 +1516,7 @@
         "achievements": {
           "trackedCount": 8
         },
-        "profileCheckedAt": 1794181530
+        "profileCheckedAt": 1794245661
       }
     }
   ],

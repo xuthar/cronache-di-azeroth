@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. Xuthar Morvayne has now reached level fifteen after difficult quests in Westfall. He reunited with Carro Steelcave in Goldshire, walked through Stormwind and rested at The Gilded Rose. On 9 November he is back in Westfall, fishing quietly in the rain. His story continues in The Last Witness.");
+  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. Xuthar Morvayne has now reached level fifteen after difficult quests in Westfall. He reunited with Carro Steelcave in Goldshire, walked through Stormwind and rested at The Gilded Rose. On 9 November he returns to Westfall, fishes under the rain, and rests at Sentinel Hill after a tiring day. His dreams of tomorrow continue in The Last Witness.");
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
@@ -122,7 +122,7 @@
   [
     ['05 NOV','THE OPENING NIGHT'],
     ['LEVEL 15','XUTHAR’S CURRENT LEVEL'],
-    ['DAY FOUR','8 NOVEMBER · STORMWIND & REST']
+    ['DAY FIVE','9 NOVEMBER · SENTINEL HILL & REST']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');
     fact.append($('strong','',v),$('small','',caption));

@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261109-westfall-four-phase-two';
+ const source='assets/data/xuthar-quest-log.json?v=20261109-night-sentinel-hill';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -38,16 +38,16 @@
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 9 NOVEMBER 2026 · LEVEL 15');
-    const title=make('h2','','Westfall · New battles after the rain.');
+    const title=make('h2','','A hard day, a quieter night at Sentinel Hill.');
    title.id='xql-heading';
-    const lead=make('p','',"On 9 November Xuthar began by fishing in the rain. The later Westfall tracker records hard-won progress: the gnoll patrol and the first militia assignment are finished, but murlocs and a new wave of Defias still demand his attention.");
+    const lead=make('p','',"On 9 November Xuthar fished in the rain, completed difficult Westfall duties, and found he had little strength left for more adventure. He went offline at Sentinel Hill to rest and dream of roads still unwritten.");
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · reached 8 November at Longshore. Latest reported quest tracker: 9 November, Westfall (52.9, 53.5). This tracker is not real-time online presence. Older records remain historical.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · latest Questie snapshot: 9 November, Westfall (52.5, 53.2). OFFLINE at Sentinel Hill, Westfall (player-reported; no exact resting coordinates). Older quest observations remain historical.');
    head.append(status);
    head.append(metrics);root.append(head);
    if(data.characterLevel>=15 && data.priorVisibleObjectiveSnapshots?.some(p=>p.id==='2026-11-08-later-westfall-questie-level15')){
@@ -60,18 +60,31 @@
       link.href='book.html?character=xuthar#x-westfall-eighth-nov-bandit-rescue';now.append(link);root.append(now);
    }
 
-   if(data.latestVisibleObjectives?.id==='2026-11-09-westfall-questie-four-phase-two'){
+   if(data.priorVisibleObjectiveSnapshots?.some(p=>p.id==='2026-11-09-westfall-questie-four-phase-two')){
       const now=make('div','xql-confirmed');now.id='xuthar-westfall-nine-quests';
-      now.append(make('h3','xql-group-heading','9 November · Westfall · The difficult patrols'));
+      now.append(make('h3','xql-group-heading','9 November · Earlier Westfall patrols'));
       now.append(make('p','xql-confirmed-item','✓ COMPLETED · Patrolling Westfall — 8 Gnoll Paws for Captain Danuvin; user confirms the vanished mission was finished.'));
       now.append(make('p','xql-confirmed-item','✓ COMPLETED · The People\'s Militia, first assignment — 15 Defias Pillagers and 15 Defias Looters. This was difficult and is followed by a NEW, active militia assignment.'));
       now.append(make('p','xql-confirmed-item','✓ ALREADY COMPLETED · Continue to Stormwind. Still marked Quest Complete! · Stormpike\'s Delivery and The Defias Brotherhood.'));
-      now.append(make('p','xql-level-note','● IN PROGRESS · Murloc Gills: 3/7 Longshore Murloc Gills.'));
+      now.append(make('p','xql-level-note','● EARLIER PROGRESS · Murloc Gills: 3/7 Longshore Murloc Gills (subsequently counted completed when absent from the evening tracker).'));
       now.append(make('p','xql-level-note','● IN PROGRESS · The People\'s Militia (second assignment): 1/15 Defias Highwaymen; 0/5 Defias Pathstalkers; 0/5 Defias Knuckledusters.'));
       now.append(make('p','xql-level-note','Questie: 4/40 · Westfall 52.9,53.5. Personal Chronicle completion reports are separate from the official Blizzard API, which may lag behind actual gameplay.'));
       const read=make('a','xql-book-link','Read Chapter LI · What the Hills Demand ↗');
       read.href='book.html?character=xuthar#x-westfall-ninth-nov-eight-paws';now.append(read);
       root.append(now);
+   }
+
+   if(data.latestVisibleObjectives?.id==='2026-11-09-westfall-night-questie-five'){
+      const now=make('div','xql-confirmed');now.id='xuthar-westfall-night-quests';
+      now.append(make('h3','xql-group-heading','9 November · Night at Sentinel Hill · Level 15'));
+      now.append(make('p','xql-confirmed-item','✓ COMPLETED · ... and that note you found (Quest Complete!) · Stormpike\'s Delivery and The Defias Brotherhood remain marked Quest Complete!.'));
+      now.append(make('p','xql-confirmed-item','✓ COMPLETED by Xuthar\'s standing rule · Murloc Gills, absent from the previous quest tracker.'));
+      now.append(make('p','xql-level-note','● IN PROGRESS · The State of the Mines: 0/4 Kobold Diggers and 0/6 Riverpaw Miners.'));
+      now.append(make('p','xql-level-note','● IN PROGRESS · The People\'s Militia (second assignment): 1/15 Defias Highwaymen, 0/5 Pathstalkers, 0/5 Knuckledusters.'));
+      now.append(make('p','xql-level-note','Questie 5/40 · Westfall (52.5,53.2). Final player-reported status: OFFLINE · Sentinel Hill, Westfall · Level 15. The screenshot coordinates are not the reported resting coordinates.'));
+      now.append(make('p','xql-level-note','A tiring evening. Xuthar rests in bed and turns his thoughts to journeys yet to come. These manual statuses are separate from the delayed Blizzard API feed.'));
+      const read=make('a','xql-book-link','Read Chapter LII · The Roads That Wait in Dreams ↗');
+      read.href='book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed';now.append(read);root.append(now);
    }
    const towerScenes=Array.isArray(data.latestPlayerMilestones)
       ?data.latestPlayerMilestones.filter(m=>['2026-11-07-azora-upper-library-212359','2026-11-07-elwynn-river-silence-213930','2026-11-07-azora-ground-floor-hamish-215141'].includes(m.id))
@@ -210,20 +223,20 @@
    if(visible && Array.isArray(visible.visibleQuests)){
      const recent=make('div','xql-confirmed');
      recent.id='xuthar-latest-quests';
-     recent.append(make('h3','xql-group-heading','7 November · Elwynn Riverbank · Nine visible quests · 20:55'));
+     recent.append(make('h3','xql-group-heading',(visible.day||'Latest')+' · '+(visible.zone||'Quest tracker')+' · '+visible.visibleQuests.length+' visible quests'));
      const place=visible.coordinates?'Position '+visible.coordinates.x+', '+visible.coordinates.y+' · ':'Location coordinates not visible · ';
-     const note=make('p','xql-level-note',place+visible.zone+' · '+visible.visibleQuests.length+' quests visible at 20:55, after Eastvale camp and the 18:39 objectives. Downstream counts completed by user convention; only earlier missions explicitly showing Ready for turn-in count completed.');
+     const note=make('p','xql-level-note',place+visible.zone+' · '+(visible.interface||'Quest tracker')+'. Player-recorded Questie states, not automated Blizzard quest completion data.');
      recent.append(note);
      for(const q of visible.visibleQuests){
        const laterEnchantingDone=q.id===97917&&data.currentQuestUpdates?.camping101Enchanting?.status==='completed-player-reported';
        const stewIngredientsDone=q.name==='Westfall Stew'&&q.objectiveItemsComplete===true;
-       const line=make('p','xql-confirmed-item','[Lv '+q.level+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.item||''):'')+' · '+q.description+(laterEnchantingDone?' · ✓ completed after this screenshot (player confirmed)':'')+(q.readyForTurnIn?' · ✓ COMPLETED & DELIVERED (Chronicle convention)':'')+(stewIngredientsDone?' · ✓ 12/12 ingredients ready; return to Salma still pending':''));
+       const line=make('p','xql-confirmed-item','[Lv '+(q.level||'?')+'] '+q.name+(Number.isFinite(q.current)&&Number.isFinite(q.total)?' · '+q.current+'/'+q.total+' '+(q.objective||q.item||''):'')+(q.description?' · '+q.description:'')+(q.rawStatus?' · '+q.rawStatus:'')+(q.status==='completed-by-user-convention'?' · ✓ COMPLETED (Chronicle convention)':'')+(laterEnchantingDone?' · ✓ completed after earlier screenshot':'')+(q.readyForTurnIn?' · ✓ COMPLETED (Chronicle convention)':'')+(stewIngredientsDone?' · ✓ ingredients ready':''));
        recent.append(line);
        if(Array.isArray(q.objectives))for(const o of q.objectives){
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','Downstream is counted completed at 20:55. Deliver Thomas Report remains active, and Westfall Stew shows 2/3 Murloc Eyes despite earlier 3/3 records. The three Eastvale quests from 18:39 and three Enchanting duties from 20:45 are also counted completed by the standing player rule. Original UI snapshots are preserved.'));
+     recent.append(make('p','xql-level-note','Latest Questie screenshot is the evening five-quest list. Earlier Eastvale and Westfall screenshots remain historical records; missing quests are handled under Xuthar\'s standing reporting rule.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-09T06:08:10.353Z"
+    "checkedAt": "2026-11-09T16:38:52.405Z"
   },
   "news": [
+    {
+      "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-09T15:00:00.000Z"
+    },
     {
       "title": "Blizzard Buffs Dungeon Enemy Experience Gains",
       "url": "https://www.wowhead.com/news=383808/blizzard-buffs-dungeon-enemy-experience-gains",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-08T15:00:00.000Z"
-    },
-    {
-      "title": "Layering Issues in Thousand Needles Harpy Cave Result in Quest Competition Issues",
-      "url": "https://www.wowhead.com/news=383805/layering-issues-in-thousand-needles-harpy-cave-result-in-quest-competition",
-      "category": "Forever",
-      "publishedAt": "2026-11-08T03:11:52.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-09T06:08:10.352Z",
-  "generatedAt": "2026-11-09T06:08:10.344Z",
+  "newsUpdatedAt": "2026-11-09T16:38:52.405Z",
+  "generatedAt": "2026-11-09T16:38:52.398Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 09 Nov 2026 00:07:53 -0600",
+  "newsFeedBuiltAt": "Mon, 09 Nov 2026 10:38:52 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

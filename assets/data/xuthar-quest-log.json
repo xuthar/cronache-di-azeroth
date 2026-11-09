@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-08",
+  "recordedAt": "2026-11-09",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -2554,19 +2554,21 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "What the Lanterns Remember",
-    "stage": "8 November 2026 · Level 15 · The Gilded Rose",
-    "status": "OFFLINE · Sleeping · Stormwind City · The Gilded Rose · 60,70",
+    "chapter": "The Mercy of Rain",
+    "stage": "9 November 2026 · Level 15 · Rainy Westfall (46,59)",
+    "status": "LIVE · Fishing in the rain · Westfall · 46,59",
     "characterLevel": 15,
-    "latestPlayerReportedZone": "Stormwind City",
-    "latestPlayerReportedLocation": "The Gilded Rose",
+    "latestPlayerReportedZone": "Westfall",
+    "latestPlayerReportedLocation": "Fishing by the water",
     "coordinates": {
-      "x": 60,
-      "y": 70
+      "x": 46,
+      "y": 59
     },
-    "storyChapterId": "x-stormwind-eighth-nov-gilded-rose",
-    "finalEvening": "Reunited with Carro Steelcave in Goldshire, shared a beer, walked Stormwind together, then fell asleep at The Gilded Rose.",
-    "source": "Player narrative and screenshots; not an unverified live API presence claim"
+    "storyChapterId": "x-westfall-ninth-nov-rain-fishing",
+    "previousEvening": "Reunited with Carro Steelcave in Goldshire, shared a beer, walked Stormwind together, then fell asleep at The Gilded Rose.",
+    "activity": "Fishing",
+    "weather": "Rain",
+    "source": "Player-reported current situation; manually maintained, not Blizzard real-time location telemetry. Quest completion statuses are unchanged."
   },
   "currentEquipmentReports": [
     {

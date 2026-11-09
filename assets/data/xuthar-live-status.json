@@ -5,10 +5,13 @@
   "status": "live",
   "statusConfirmed": true,
   "zone": "Westfall",
-  "location": "Sentinel Hill",
-  "coordinates": null,
-  "activity": "In game",
+  "location": "",
+  "coordinates": {
+    "x": 46,
+    "y": 59
+  },
+  "activity": "Fishing in the rain",
   "reportedOn": "2026-11-09",
   "updatedAt": "2026-11-09",
-  "note": "Player-reported LIVE presence: Westfall, Sentinel Hill. In-game coordinates not provided; this is a manually maintained status, not an automated Blizzard online-state check."
+  "note": "Player-reported LIVE presence on 9 November: fishing calmly in the rain in Westfall at in-game coordinates 46,59. This is a manually maintained status, not automated Blizzard online-state telemetry."
 }

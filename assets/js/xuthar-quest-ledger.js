@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261108-level-fifteen';
+ const source='assets/data/xuthar-quest-log.json?v=20261109-westfall-four-phase-two';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -37,20 +37,20 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · 8 NOVEMBER 2026 · LEVEL 15');
-    const title=make('h2','','The fifteenth threshold · The road and the friends we made.');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · 9 NOVEMBER 2026 · LEVEL 15');
+    const title=make('h2','','Westfall · New battles after the rain.');
    title.id='xql-heading';
-    const lead=make('p','',"Xuthar reached level 15 at Longshore, Westfall, after a long day of dangerous quests. Three missions were completed, while the coastal murlocs, the People's Militia and the gnoll patrol still required attention. He ended the day at The Gilded Rose in Stormwind after a reunion with Carro Steelcave.");
+    const lead=make('p','',"On 9 November Xuthar began by fishing in the rain. The later Westfall tracker records hard-won progress: the gnoll patrol and the first militia assignment are finished, but murlocs and a new wave of Defias still demand his attention.");
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · reached 8 November at Longshore, Westfall. End-of-day OFFLINE: The Gilded Rose, Stormwind (60,70). Historical quests below reflect earlier stages, not current character status.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · reached 8 November at Longshore. Latest reported quest tracker: 9 November, Westfall (52.9, 53.5). This tracker is not real-time online presence. Older records remain historical.');
    head.append(status);
    head.append(metrics);root.append(head);
-   if(data.characterLevel>=15 && data.latestVisibleObjectives?.id==='2026-11-08-later-westfall-questie-level15'){
+   if(data.characterLevel>=15 && data.priorVisibleObjectiveSnapshots?.some(p=>p.id==='2026-11-08-later-westfall-questie-level15')){
       const now=make('div','xql-confirmed');now.id='xuthar-level-fifteen';
       now.append(make('h3','xql-group-heading','8 November · Level 15 · Westfall to Stormwind'));
       now.append(make('p','xql-confirmed-item','✓ Level 15 reached at Longshore. Level 14 was reached earlier at Saldean\'s Farm. The Gilded Rose is Xuthar\'s end-of-day resting place.'));
@@ -58,6 +58,20 @@
       now.append(make('p','xql-level-note','In progress: Murloc Gills 3/7; The People\'s Militia 3/15 Defias Pillagers and 2/15 Defias Looters; Patrolling Westfall 4/8 Gnoll Paws. These manual quest observations are independent of Blizzard API completion data.'));
       const link=make('a','xql-book-link','Read Chapter XLVIII · The Field of Borrowed Breaths ↗');
       link.href='book.html?character=xuthar#x-westfall-eighth-nov-bandit-rescue';now.append(link);root.append(now);
+   }
+
+   if(data.latestVisibleObjectives?.id==='2026-11-09-westfall-questie-four-phase-two'){
+      const now=make('div','xql-confirmed');now.id='xuthar-westfall-nine-quests';
+      now.append(make('h3','xql-group-heading','9 November · Westfall · The difficult patrols'));
+      now.append(make('p','xql-confirmed-item','✓ COMPLETED · Patrolling Westfall — 8 Gnoll Paws for Captain Danuvin; user confirms the vanished mission was finished.'));
+      now.append(make('p','xql-confirmed-item','✓ COMPLETED · The People\'s Militia, first assignment — 15 Defias Pillagers and 15 Defias Looters. This was difficult and is followed by a NEW, active militia assignment.'));
+      now.append(make('p','xql-confirmed-item','✓ ALREADY COMPLETED · Continue to Stormwind. Still marked Quest Complete! · Stormpike\'s Delivery and The Defias Brotherhood.'));
+      now.append(make('p','xql-level-note','● IN PROGRESS · Murloc Gills: 3/7 Longshore Murloc Gills.'));
+      now.append(make('p','xql-level-note','● IN PROGRESS · The People\'s Militia (second assignment): 1/15 Defias Highwaymen; 0/5 Defias Pathstalkers; 0/5 Defias Knuckledusters.'));
+      now.append(make('p','xql-level-note','Questie: 4/40 · Westfall 52.9,53.5. Personal Chronicle completion reports are separate from the official Blizzard API, which may lag behind actual gameplay.'));
+      const read=make('a','xql-book-link','Read Chapter LI · What the Hills Demand ↗');
+      read.href='book.html?character=xuthar#x-westfall-ninth-nov-eight-paws';now.append(read);
+      root.append(now);
    }
    const towerScenes=Array.isArray(data.latestPlayerMilestones)
       ?data.latestPlayerMilestones.filter(m=>['2026-11-07-azora-upper-library-212359','2026-11-07-elwynn-river-silence-213930','2026-11-07-azora-ground-floor-hamish-215141'].includes(m.id))

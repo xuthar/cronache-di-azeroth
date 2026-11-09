@@ -119,12 +119,12 @@
   // Present it separately; never rewrite Blizzard IDs or imply rewards/turn-ins.
   function fieldReportSection(manual){
     const snapshot=manual?.latestVisibleObjectives;
-    if(snapshot?.id!=='2026-11-09-westfall-questie-four-phase-two')return null;
+    if(!['2026-11-09-westfall-questie-four-phase-two','2026-11-09-westfall-night-questie-five'].includes(snapshot?.id))return null;
     const section=make('section','qm-section qm-field-section');section.id='latest-field-report';
     const head=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','XUTHAR\'S JOURNAL / 9 NOVEMBER 2026');
     text(heading,'h2','','Westfall · Latest quest tracker');
-    head.append(heading,make('p','','Questie 4/40 · Westfall (52.9, 53.5). Player-confirmed completions are kept separate from the official Blizzard snapshot.'));
+    head.append(heading,make('p','',(snapshot.interface||'Questie tracker')+' · '+(snapshot.zone||'Westfall')+(snapshot.coordinates?' ('+snapshot.coordinates.x+', '+snapshot.coordinates.y+')':'')+'. Player-recorded completions are kept separate from the official Blizzard snapshot.'));
     section.append(head);
     const active=snapshot.visibleQuests.filter(x=>x.status==='active');
     const complete=snapshot.visibleQuests.filter(x=>x.status==='completed-by-user-convention');
@@ -149,13 +149,13 @@
     const done=make('div','qm-field-done');
     for(const q of complete)text(done,'p','qm-field-complete','✓ '+q.name+' · Quest Complete!');
     for(const q of snapshot.newlyCompletedFromDisappearance||[])
-      text(done,'p','qm-field-complete','✓ '+q.name+(q.name==='Continue to Stormwind'?' · already complete on 8 November':' · finished after the previous tracker'));
+      text(done,'p','qm-field-complete','✓ '+q.name+(q.status==='completed-by-standing-user-rule'?' · completed under Xuthar\'s rule for missing quests':q.name==='Continue to Stormwind'?' · already complete on 8 November':' · completed after the previous tracker'));
     for(const q of snapshot.advancedStages||[])
       text(done,'p','qm-field-complete','✓ '+q.name+' · first assignment completed (Pillagers and Looters); second assignment above is active');
     section.append(done);
-    const caveat=make('p','qm-active-caveat','The missing missions were explicitly confirmed completed by Xuthar. The visible "Quest Complete!" lines follow his personal Chronicle convention; Blizzard API confirmation may appear later.');
+    const caveat=make('p','qm-active-caveat','Mission lines marked Quest Complete! follow Xuthar\'s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
     section.append(caveat);
-    section.append(link('Read Chapter LI · What the Hills Demand ↗','book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
+    section.append(link(snapshot.id==='2026-11-09-westfall-night-questie-five'?'Read Chapter LII · The Roads That Wait in Dreams ↗':'Read Chapter LI · What the Hills Demand ↗',snapshot.id==='2026-11-09-westfall-night-questie-five'?'book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed':'book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
     return section;
   }
   function render(feedData,editorial,manual){
@@ -246,7 +246,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261109-westfall-militia',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261109-sentinel-hill-night',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

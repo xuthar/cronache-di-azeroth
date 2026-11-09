@@ -81,3 +81,13 @@ body[data-page="missions"] .qm-main{min-height:60vh;padding:0 0 80px}
 .qm-mission-links{margin:13px 19px 0}
 @media(max-width:820px){.qm-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:580px){.qm-stats{grid-template-columns:1fr}}
+
+/* Official in-progress log, separate from historical Questie observations. */
+.qm-active-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:16px}
+.qm-mission-active{padding-bottom:17px;border-color:#a5bcd06b;background:linear-gradient(145deg,#1d3044,#14283b)}
+.qm-mission-active .qm-mission-head{align-items:start}
+.qm-mission-active .qm-mission-id{margin-top:7px}
+.qm-in-progress{border:1px solid #d6b7778f;background:#41331f;color:#ffe2ac;border-radius:20px;padding:7px 11px;font:750 .7rem/1.4 system-ui;white-space:nowrap}
+.qm-active-caveat{color:#b9c9d9;font:.8rem/1.65 system-ui;margin:16px 0 0;padding:13px 16px;border-left:3px solid #d6b777;background:#14283b}
+@media(max-width:1100px){.qm-active-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.qm-active-grid{grid-template-columns:1fr}}

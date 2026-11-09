@@ -80,6 +80,40 @@
     section.append(grid);
     return section;
   }
+  // Official active quests are listed directly from the verified EU snapshot.
+  // Questie's historical "Quest Complete!" is not an official hand-in confirmation.
+  function activeQuestSection(quests){
+    const section=make('section','qm-section');section.id='active-quests';
+    const header=make('div','qm-section-header'),heading=make('div','');
+    text(heading,'span','qm-eyebrow','BLIZZARD EU / CURRENT QUEST LOG');
+    text(heading,'h2','','Quests in progress');
+    header.append(heading,make('p','','The latest official snapshot lists these quests as active. Progress counters and completed objectives are not supplied by this API feed.'));
+    section.append(header);
+    if(!Array.isArray(quests?.inProgress)){
+      section.append(make('p','qm-note','The official API did not provide the list of active quests for this snapshot.'));
+      return section;
+    }
+    const seen=new Set();
+    const active=quests.inProgress.filter(q=>{
+      if(!Number.isInteger(q?.id)||seen.has(q.id))return false;
+      seen.add(q.id);return true;
+    });
+    const grid=make('div','qm-mission-grid qm-active-grid');
+    for(const quest of active){
+      const card=make('article','qm-mission qm-mission-active');
+      const head=make('header','qm-mission-head'),left=make('div','');
+      text(left,'span','qm-mission-area','CURRENT QUEST LOG');
+      text(left,'h3','',safeTitle(quest.name,quest.id));
+      head.append(left,make('span','qm-in-progress','● In progress'));
+      card.append(head);
+      text(card,'span','qm-mission-id','Quest ID '+quest.id);
+      grid.append(card);
+    }
+    if(active.length) section.append(grid);
+    else section.append(make('p','qm-note','No active quests were returned in this official snapshot.'));
+    section.append(make('p','qm-active-caveat','A Questie screenshot may show a task as "Quest Complete!" before Blizzard registers its hand-in. These are official API statuses; the personal Chronicle keeps its own historical completion convention separately.'));
+    return section;
+  }
   function render(feedData,editorial){
     const profile=feedData?.characters?.find(x=>x?.id==='xuthar');
     const quests=profile?.officialDetails?.quests;
@@ -107,7 +141,7 @@
     mount.replaceChildren();
     const stats=make('div','qm-stats');
     for(const [value,name] of [
-      [groups.length,'Completed missions'],
+      [Number.isInteger(quests?.completedCount)?quests.completedCount:completed.size,'Completed quest IDs'],
       [episodeList.filter(e=>e.questIds.some(id=>completed.has(id))).length,'Related adventures'],
       [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Active quests']
     ]){
@@ -117,8 +151,8 @@
     mount.append(stats);
     const note=make('p','qm-note');
     note.textContent='Official Blizzard record updated '+timeLabel(feedData.exportedAt)+
-      '. Completed missions are listed once by title. Blizzard does not provide the exact time each quest was finished.';
-    mount.append(note,storyCards(episodeList,completed));
+      '. Completed quest IDs are grouped into readable mission cards by title and region. Blizzard does not provide the exact time each quest was finished.';
+    mount.append(note,activeQuestSection(quests),storyCards(episodeList,completed));
     const section=make('section','qm-section');section.id='mission-record';
     const sectionHead=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','THE LAST WITNESS / OFFICIAL QUEST LEDGER');

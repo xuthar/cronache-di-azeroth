@@ -55,7 +55,7 @@
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY FOUR · Human Priest · Level 15<br>OFFLINE · The Gilded Rose, Stormwind · 60,70</div>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY FOUR · Human Priest · Level 15<br>LIVE · Sentinel Hill, Westfall</div>'+
       '<a class="launcher-panel-button" href="book.html?character=xuthar#x-goldshire-eighth-nov-carro-beer">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);

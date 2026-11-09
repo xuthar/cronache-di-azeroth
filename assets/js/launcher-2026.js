@@ -46,17 +46,17 @@
     const title=copy.querySelector('h1');
     if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent="Forever is here. On 8 November Xuthar Morvayne reached level fifteen after difficult quests and close encounters in Westfall. He shared a beer with Carro Steelcave in Goldshire, walked through Stormwind and finally fell asleep at The Gilded Rose. On 9 November a quieter chapter begins: fishing in the rain in Westfall, far from the day's battles. The living book and photographs preserve each step.";
+    if(lead)lead.textContent="Forever is here. On 8 November Xuthar Morvayne reached level fifteen after difficult quests and close encounters in Westfall. He shared a beer with Carro Steelcave in Goldshire, walked through Stormwind and finally fell asleep at The Gilded Rose. On 9 November he fished beneath the rain, endured another hard day among the Westfall quests, and returned to Sentinel Hill to rest. Tonight his thoughts turn to the journeys he may one day take. The living book preserves the quieter hours too.";
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-goldshire-eighth-nov-carro-beer">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY FIVE · Human Priest · Level 15<br>LIVE · Westfall · 46,59 · Fishing in the rain</div>'+
-      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-goldshire-eighth-nov-carro-beer">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY FIVE · Human Priest · Level 15<br>OFFLINE · Sentinel Hill, Westfall · Resting</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }

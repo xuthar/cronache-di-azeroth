@@ -86,8 +86,8 @@
     const section=make('section','qm-section');section.id='active-quests';
     const header=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','BLIZZARD EU / CURRENT QUEST LOG');
-    text(heading,'h2','','Quests in progress');
-    header.append(heading,make('p','','The latest official snapshot lists these quests as active. Progress counters and completed objectives are not supplied by this API feed.'));
+    text(heading,'h2','','Official API snapshot · In progress');
+    header.append(heading,make('p','','These are Blizzard\'s last published quest states, which may lag behind Xuthar\'s newer in-game tracker. Objective progress is not provided by this API.'));
     section.append(header);
     if(!Array.isArray(quests?.inProgress)){
       section.append(make('p','qm-note','The official API did not provide the list of active quests for this snapshot.'));
@@ -114,7 +114,51 @@
     section.append(make('p','qm-active-caveat','A Questie screenshot may show a task as "Quest Complete!" before Blizzard registers its hand-in. These are official API statuses; the personal Chronicle keeps its own historical completion convention separately.'));
     return section;
   }
-  function render(feedData,editorial){
+
+  // The user's latest Questie screenshot is newer than the read-only official API.
+  // Present it separately; never rewrite Blizzard IDs or imply rewards/turn-ins.
+  function fieldReportSection(manual){
+    const snapshot=manual?.latestVisibleObjectives;
+    if(snapshot?.id!=='2026-11-09-westfall-questie-four-phase-two')return null;
+    const section=make('section','qm-section qm-field-section');section.id='latest-field-report';
+    const head=make('div','qm-section-header'),heading=make('div','');
+    text(heading,'span','qm-eyebrow','XUTHAR\'S JOURNAL / 9 NOVEMBER 2026');
+    text(heading,'h2','','Westfall · Latest quest tracker');
+    head.append(heading,make('p','','Questie 4/40 · Westfall (52.9, 53.5). Player-confirmed completions are kept separate from the official Blizzard snapshot.'));
+    section.append(head);
+    const active=snapshot.visibleQuests.filter(x=>x.status==='active');
+    const complete=snapshot.visibleQuests.filter(x=>x.status==='completed-by-user-convention');
+    const activeTitle=make('h3','qm-field-subheading','● In progress · '+active.length);
+    section.append(activeTitle);
+    const grid=make('div','qm-mission-grid qm-active-grid');
+    for(const q of active){
+      const card=make('article','qm-mission qm-mission-active');
+      const h=make('header','qm-mission-head'),left=make('div','');
+      text(left,'span','qm-mission-area','LEVEL '+(q.level||'?')+' · CURRENT OBJECTIVES');
+      text(left,'h3','',q.name+(q.phase?' · '+q.phase:''));
+      h.append(left,make('span','qm-in-progress','● In progress'));card.append(h);
+      if(Array.isArray(q.objectives)){
+        for(const o of q.objectives)text(card,'p','qm-field-progress',o.current+'/'+o.total+' · '+o.name);
+      }else if(Number.isFinite(q.current)&&Number.isFinite(q.total)){
+        text(card,'p','qm-field-progress',q.current+'/'+q.total+' · '+(q.objective||'Objectives'));
+      }
+      grid.append(card);
+    }
+    section.append(grid);
+    section.append(make('h3','qm-field-subheading','✓ Completed · Personal Chronicle'));
+    const done=make('div','qm-field-done');
+    for(const q of complete)text(done,'p','qm-field-complete','✓ '+q.name+' · Quest Complete!');
+    for(const q of snapshot.newlyCompletedFromDisappearance||[])
+      text(done,'p','qm-field-complete','✓ '+q.name+(q.name==='Continue to Stormwind'?' · already complete on 8 November':' · finished after the previous tracker'));
+    for(const q of snapshot.advancedStages||[])
+      text(done,'p','qm-field-complete','✓ '+q.name+' · first assignment completed (Pillagers and Looters); second assignment above is active');
+    section.append(done);
+    const caveat=make('p','qm-active-caveat','The missing missions were explicitly confirmed completed by Xuthar. The visible "Quest Complete!" lines follow his personal Chronicle convention; Blizzard API confirmation may appear later.');
+    section.append(caveat);
+    section.append(link('Read Chapter LI · What the Hills Demand ↗','book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
+    return section;
+  }
+  function render(feedData,editorial,manual){
     const profile=feedData?.characters?.find(x=>x?.id==='xuthar');
     const quests=profile?.officialDetails?.quests;
     const sourceValid=feedData?.schemaVersion===1 &&
@@ -143,7 +187,7 @@
     for(const [value,name] of [
       [Number.isInteger(quests?.completedCount)?quests.completedCount:completed.size,'Completed quest IDs'],
       [episodeList.filter(e=>e.questIds.some(id=>completed.has(id))).length,'Related adventures'],
-      [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Active quests']
+      [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Active quests · Blizzard snapshot']
     ]){
       const stat=make('div','qm-stat');
       text(stat,'strong','',String(value));text(stat,'span','',name);stats.append(stat);
@@ -152,7 +196,9 @@
     const note=make('p','qm-note');
     note.textContent='Official Blizzard record updated '+timeLabel(feedData.exportedAt)+
       '. Completed quest IDs are grouped into readable mission cards by title and region. Blizzard does not provide the exact time each quest was finished.';
-    mount.append(note,activeQuestSection(quests),storyCards(episodeList,completed));
+    mount.append(note);
+    const fieldReport=fieldReportSection(manual);if(fieldReport)mount.append(fieldReport);
+    mount.append(activeQuestSection(quests),storyCards(episodeList,completed));
     const section=make('section','qm-section');section.id='mission-record';
     const sectionHead=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','THE LAST WITNESS / OFFICIAL QUEST LEDGER');
@@ -199,8 +245,9 @@
   }
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
-    fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
-  ]).then(([data,editorial])=>render(data,editorial))
+    fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
+    fetch('assets/data/xuthar-quest-log.json?v=20261109-westfall-militia',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+  ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')
     );mount.append(link('Visit Xuthar’s manual quest record ↗','xuthar.html#xuthar-quests'));});

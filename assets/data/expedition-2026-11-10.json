@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-10",
+  "character": "Xuthar Morvayne",
+  "companion": "Carro Steelcave",
+  "levelBefore": 15,
+  "levelAfter": 17,
+  "expedition": "The Road of Ashes — Cozy Sleeping Bag",
+  "status": "completed (player confirmed)",
+  "questChain": [
+    {
+      "name": "... and that note you found",
+      "status": "completed"
+    },
+    {
+      "name": "Stepping Stones",
+      "status": "completed"
+    },
+    {
+      "name": "Scramble",
+      "status": "completed"
+    },
+    {
+      "name": "Wet Job",
+      "status": "completed"
+    },
+    {
+      "name": "Eagle's Fist",
+      "status": "completed"
+    },
+    {
+      "name": "This Must Be The Place",
+      "status": "completed"
+    }
+  ],
+  "places": [
+    "Crossroads between Redridge and Duskwood",
+    "Duskwood",
+    "Booty Bay / the southern port",
+    "Ratchet",
+    "The Barrens",
+    "Stonetalon Mountains",
+    "Loch Modan",
+    "Stonewrought Dam",
+    "Thoradin's Wall"
+  ],
+  "reward": "Cozy Sleeping Bag (quest chain reward)",
+  "screenshotArchive": {
+    "originalCount": 88,
+    "originalZip": "WoWScrnShot_111026_203335.zip",
+    "repositoryPublished": false,
+    "note": "Image binaries require separate upload before website gallery can display the new original screenshots."
+  },
+  "latestQuestieScreen": {
+    "completed": [
+      "The Defias Brotherhood"
+    ],
+    "active": [
+      {
+        "name": "Recollecting Memories",
+        "progress": "0/4 Miners' Union Card"
+      },
+      {
+        "name": "Oh Brother...",
+        "progress": "0/1 Thistlenettle's Badge"
+      },
+      {
+        "name": "Underground Assault",
+        "progress": "0/1 Gnoam Sprecklesprocket"
+      },
+      {
+        "name": "The State of the Mines",
+        "progress": "4/4 Kobold Digger slain; 6/6 Riverpaw Miner slain"
+      },
+      {
+        "name": "The People's Militia",
+        "progress": "1/15 Defias Highwayman slain; 0/5 Defias Pathstalker slain; 0/5 Defias Knuckleduster slain"
+      }
+    ]
+  },
+  "sourceNotes": "User confirmed entire expedition complete and level 17. Screenshot Questie shows Defias Brotherhood 'Quest Complete!' and remaining active objectives. Do not infer completion from screenshot disappearance."
+}

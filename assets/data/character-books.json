@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-fifteen-sentinel-hill-rest-and-dreams",
+      "status": "living-novel-level-fifteen-road-of-ashes-with-carro",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1470,6 +1470,41 @@
           ]
         },
         {
+          "id": "x-nov10-ashes-note",
+          "chapter": "Chapter LIII · The Road of Ashes",
+          "title": "The Note Beneath the Embers",
+          "kind": "reported",
+          "paragraphs": [
+            "The evening of November's tenth day found Xuthar Morvayne awake in Sentinel Hill, no longer entirely conquered by the exhaustion of the previous night. Beyond the shutters, Westfall still breathed through its fields of tired gold. He had learned that a priest's courage did not always announce itself in battle. Sometimes it began in silence, when a man rose from a bed he had wished never to leave.",
+            "West of the hill stood the ruined Alexston Farmstead. There, among remains blackened by fire, an improbable message had survived: 'Not all that burns is lost. Find the twin land, find the place.' The few words seemed fashioned to trouble him. A life could be destroyed, a home abandoned, a name rubbed from a ledger; yet something might remain to call a stranger back.",
+            "He spread a map beside his own old book of names and studied the distance between Westfall and the Barrens. Two lands of hard weather and harsher survival, divided by the Great Sea. Could one be the other's reflection? Xuthar did not pretend to know. The burned note was not a prophecy, and the shadows whispering at the edge of his thoughts were not trustworthy guides. But a question left unanswered would haunt him longer than the journey required to answer it."
+          ]
+        },
+        {
+          "id": "x-nov10-crossroads-carro",
+          "chapter": "Chapter LIII · The Road of Ashes",
+          "title": "An Appointment at the Crossroads",
+          "kind": "reported",
+          "paragraphs": [
+            "Xuthar had not chosen to walk the uncertain road alone. He and Carro Steelcave had agreed to meet at the crossroads between Redridge and Duskwood, where the warm earth of the eastern hills gave way to the dark breath of the forest. The place seemed appropriate: two ways branching into different kinds of danger, and two friends determined, for once, to follow the same one.",
+            "He remembered the ale they had shared after Westfall, the rare freedom of talking without asking anything of the other. In Stormwind they had walked among strangers and lamplight as if the world were briefly allowed to be ordinary. This night promised no such certainty. The path might lead beyond familiar kingdoms, into lands where the Alliance was unwelcome and every unfamiliar silhouette might conceal trouble.",
+            "He imagined Carro waiting with the patient half-smile of someone who had already accepted the foolishness of the undertaking. 'We are crossing half the world because someone left a note in the ashes?' his friend might ask. 'Not because of the note,' Xuthar would answer. 'Because someone wanted it found.' And Carro, who knew when an argument was useless, would simply adjust his pack and look down the road.",
+            "A wind rose over the distant trees. Xuthar checked his wand, the small repairs to his robes, the modest provisions in his bag. There were heroic journeys begun with horns and banners. This one would begin with a meeting between friends beneath a fading sky."
+          ]
+        },
+        {
+          "id": "x-nov10-twin-land",
+          "chapter": "Chapter LIII · The Road of Ashes",
+          "title": "The Country on the Other Shore",
+          "kind": "reported",
+          "paragraphs": [
+            "The map suggested a destination in the southern Barrens, near the country of Camp Taurajo. Somewhere there, if the meaning of 'twin land' had been read correctly, lay another charred remnant and another piece of the riddle. Xuthar traced the sea between the continents and felt the scale of the undertaking settle on his shoulders. The path could demand ships, long roads and a hundred small decisions made far from the comfort of an inn.",
+            "Even that first clue might be only the beginning. Beyond the open plains rose the Stonetalon Mountains; beyond those, rivers, dams and the old stone boundaries of divided kingdoms. He knew none of these places as a conqueror. He knew them as names on a map, each one crowded with other lives and other histories. The prospect frightened him just enough to make him careful.",
+            "'Remember the roads, not merely the destination,' he wrote in his ledger. He left the following page blank for Carro's words, and the pages after that for whatever the night might give them. Until they had found the crossroads and taken their first steps together, every triumph remained unwritten.",
+            "Then he closed the book. Somewhere between the red hills and the dark trees, a friend would be waiting. That was enough reason to begin."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -1637,5 +1672,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-09"
+  "lastEditorialUpdate": "2026-11-10"
 }

@@ -125,7 +125,7 @@
       const records = data.journal.filter(j=>j.id!=='luce-tra-i-pini'&&j.id!=='vecchio-ponte'&&j.id!=='ultima-locanda');
       const bucket = date => records.filter(j=>j.chapter.includes(date)).sort((a,b)=>{
         const dayOrder = x => {
-          const match=x.chapter.match(/(\\d{1,2}):(\\d{2})/);
+          const match=x.chapter.match(/([0-9]{1,2}):([0-9]{2})/);
           if(match)return Number(match[1])*60+Number(match[2]);
           return Number.parseInt(String(x.day),10)||0;
         };
@@ -174,7 +174,8 @@
         ],photos:'road-of-ashes-gallery/'}
       ];
       const timeline=plans.map(day=>{
-        const evidence=bucket(day.date.replaceAll('-',' ').replace(/^(\\d{4}) (\\d{2}) (\\d{2})$/,'$3 $2 $1')).concat(bucket(day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'__none__'));
+        const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
+        const evidence=key?bucket(key):[];
         const unique=[...new Map(evidence.map(j=>[j.id,j])).values()];
         const entries=unique.length?'<details class="cj-archive"><summary>Historical records and extended notes ('+unique.length+')</summary><div class="cj-historical">'+unique.map(j=>'<article id="'+escape(j.id)+'"><span class="cj-meta">'+escape(j.chapter)+'</span><h4>'+escape(j.title)+'</h4><p>'+escape(j.excerpt)+'</p><details><summary>Read the original entry</summary><div class="cj-original">'+paragraphs(j.text)+'</div></details></article>').join('')+'</div></details>':'';
         const photo=day.photos?'<div class="cj-links"><a href="'+day.photos+'">View all 88 original screenshots →</a><a href="book.html?character=xuthar#x-nov10-epic-1">Read the epic novel chapters →</a></div>':'';

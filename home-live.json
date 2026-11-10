@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-10T07:42:04.335Z"
+    "checkedAt": "2026-11-10T15:50:15.820Z"
   },
   "news": [
+    {
+      "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T15:00:00.000Z"
+    },
+    {
+      "title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
     {
       "title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
       "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383817/blizzard-made-character-creation-on-higher-population-faction-increasingly",
       "category": "Forever",
       "publishedAt": "2026-11-10T02:08:11.000Z"
-    },
-    {
-      "title": "Blizzard Taking Down WoW: Forever Servers Shortly",
-      "url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly",
-      "category": "Forever",
-      "publishedAt": "2026-11-09T21:55:05.000Z"
-    },
-    {
-      "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-09T15:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-10T07:42:04.335Z",
-  "generatedAt": "2026-11-10T07:42:04.328Z",
+  "newsUpdatedAt": "2026-11-10T15:50:15.819Z",
+  "generatedAt": "2026-11-10T15:50:15.793Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 10 Nov 2026 01:42:01 -0600",
+  "newsFeedBuiltAt": "Tue, 10 Nov 2026 09:50:15 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

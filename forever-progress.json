@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794278725,
+  "exportedAt": 1794325068,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794278725,
+      "checkedAt": 1794325068,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794278725,
+          "snapshotAt": 1794325068,
           "inProgressCount": 5,
           "completedCount": 150,
           "inProgress": [
@@ -256,7 +256,7 @@
               "briefing": "A band of vicious Defias Pillagers has been seen plundering the Gold Coast Quarry, Moonbrook and the Alexston Farmstead. The People's Militia will not…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -526,7 +526,7 @@
               "briefing": "Stormwind has abandoned us. A foul wind of depravity rustles through the plains of Westfall. This was my homeland and I will not turn…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 106,
@@ -787,7 +787,7 @@
               "briefing": "Xuthar, I gathered into this crate everything Lewis asked for. Can you take it to him? If you've already spoken to Thor in Westfall,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 6281,
@@ -796,7 +796,7 @@
               "briefing": "For a small fee, you can take a gryphon to Stormwind, so you can deliver Lewis' note to Osric. You won't get there faster…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 6285,
@@ -805,7 +805,7 @@
               "briefing": "The gryphon master in Westfall is Thor. If you've spoken to him before, then you can take one of my gryphons to him. That's…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79092,
@@ -976,7 +976,7 @@
               "briefing": "The corruption affecting Westfall's crops may have seeped into the ocean as well. If the local fish are affected too, it could doom Stormwind…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1555,15 +1555,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            13,
-            102,
-            6261,
-            6281,
-            6285,
-            92744
-          ],
-          "comparedWithSnapshotAt": 1794245661,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794278725,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1579,7 +1572,7 @@
         "achievements": {
           "trackedCount": 8
         },
-        "profileCheckedAt": 1794278725
+        "profileCheckedAt": 1794325068
       }
     }
   ],

@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-10T18:39:30.621Z"
+    "checkedAt": "2026-11-10T21:27:05.914Z"
   },
   "news": [
+    {
+      "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
+      "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T21:05:09.000Z"
+    },
+    {
+      "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T20:16:31.000Z"
+    },
+    {
+      "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
+      "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T19:12:35.000Z"
+    },
     {
       "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
       "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
       "category": "Forever",
       "publishedAt": "2026-11-10T16:00:00.000Z"
-    },
-    {
-      "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-10T15:00:00.000Z"
-    },
-    {
-      "title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
-      "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for",
-      "category": "Forever",
-      "publishedAt": "2026-11-10T04:30:43.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-10T18:39:30.620Z",
-  "generatedAt": "2026-11-10T18:39:30.615Z",
+  "newsUpdatedAt": "2026-11-10T21:27:05.914Z",
+  "generatedAt": "2026-11-10T21:27:05.905Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 10 Nov 2026 12:39:17 -0600",
+  "newsFeedBuiltAt": "Tue, 10 Nov 2026 15:26:52 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

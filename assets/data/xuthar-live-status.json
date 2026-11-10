@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Westfall",
-  "location": "Sentinel Hill",
+  "zone": "Eastern Kingdoms",
+  "location": "Thoradin's Wall (last documented expedition destination)",
   "coordinates": null,
-  "activity": "Preparing to adventure with Carro Steelcave · quest: …And That Note You Found",
+  "activity": "Epic Cozy Sleeping Bag expedition completed with Carro Steelcave · Level 17",
   "reportedOn": "2026-11-10",
   "updatedAt": "2026-11-10",
-  "note": "Player confirmed Xuthar is LIVE on the evening of 10 November, level 15, preparing to begin the quest '…And That Note You Found' together with Carro Steelcave. Last known location: Sentinel Hill, Westfall; no new coordinates reported. Live status is player-reported rather than official Blizzard real-time telemetry."
+  "note": "User reports full completion of six-quest chain with Carro Steelcave and level 17. Last identifiable screenshot sequence is Thoradin's Wall; exact present location and whether logged out not confirmed. Live flag remains from prior explicit live report, not telemetry."
 }

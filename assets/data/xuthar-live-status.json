@@ -2,13 +2,13 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "offline",
+  "status": "live",
   "statusConfirmed": true,
   "zone": "Westfall",
   "location": "Sentinel Hill",
   "coordinates": null,
-  "activity": "Resting in bed · reflecting and dreaming",
-  "reportedOn": "2026-11-09",
-  "updatedAt": "2026-11-09",
-  "note": "Player reports ending 9 November OFFLINE at Sentinel Hill, Westfall, level 15. Questie screenshot showed 52.5,53.2 earlier; those are not asserted as resting-place coordinates. Offline state is manually reported, not official Blizzard live telemetry."
+  "activity": "Preparing to adventure with Carro Steelcave · quest: …And That Note You Found",
+  "reportedOn": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "note": "Player confirmed Xuthar is LIVE on the evening of 10 November, level 15, preparing to begin the quest '…And That Note You Found' together with Carro Steelcave. Last known location: Sentinel Hill, Westfall; no new coordinates reported. Live status is player-reported rather than official Blizzard real-time telemetry."
 }

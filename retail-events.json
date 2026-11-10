@@ -1,28 +1,10 @@
 {
-  "updatedAt": "2026-11-10T01:28:31.270Z",
+  "updatedAt": "2026-11-10T14:46:51.556Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-1056-1793088000000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-10-27T08:00:00.000Z",
-      "endAt": "2026-11-03T06:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1056"
-    },
-    {
-      "id": "wow-event-1233-1793091600000@wowlazymacros.com",
-      "title": "PvP Brawl: Shado-Pan Showdown",
-      "startAt": "2026-10-27T09:00:00.000Z",
-      "endAt": "2026-11-03T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=1233"
-    },
     {
       "id": "wow-event-479-1793473260000@wowlazymacros.com",
       "title": "Darkmoon Faire",
@@ -31,15 +13,6 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=479"
-    },
-    {
-      "id": "wow-event-409-1793527200000@wowlazymacros.com",
-      "title": "Day of the Dead",
-      "startAt": "2026-11-01T10:00:00.000Z",
-      "endAt": "2026-11-03T10:00:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=409"
     },
     {
       "id": "wow-event-1802-1793689200000@wowlazymacros.com",

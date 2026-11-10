@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-10T21:41:46.557Z"
+    "checkedAt": "2026-11-10T22:00:45.508Z"
   },
   "news": [
+    {
+      "title": "Blizzard Adding Gold to Many Quests Near Max Level in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383832/blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T21:58:16.000Z"
+    },
+    {
+      "title": "Dungeon Experience in WoW: Forever is Now 60% of Classic Era - Blizzard Happy with Dungeon Level Speeds",
+      "url": "https://www.wowhead.com/news=383831/dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with",
+      "category": "Forever",
+      "publishedAt": "2026-11-10T21:52:03.000Z"
+    },
     {
       "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
       "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-10T20:16:31.000Z"
-    },
-    {
-      "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
-      "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-10T19:12:35.000Z"
-    },
-    {
-      "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
-      "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
-      "category": "Forever",
-      "publishedAt": "2026-11-10T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-10T21:41:46.557Z",
-  "generatedAt": "2026-11-10T21:41:46.551Z",
+  "newsUpdatedAt": "2026-11-10T22:00:45.507Z",
+  "generatedAt": "2026-11-10T22:00:45.502Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Tue, 10 Nov 2026 15:41:19 -0600",
+  "newsFeedBuiltAt": "Tue, 10 Nov 2026 16:00:45 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

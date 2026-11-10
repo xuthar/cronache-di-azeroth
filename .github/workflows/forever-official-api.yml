@@ -1,4 +1,5 @@
 name: Forever official Blizzard API sync
+# Manual refresh request: 2026-11-10 evening, after player-confirmed level 17 expedition.
 on:
   schedule:
     # Three staggered checks (UTC) reduce the impact of delayed or skipped GitHub schedules.

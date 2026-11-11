@@ -83,12 +83,17 @@
     if(result.length%2)result.push({id:volume.id+'-end',type:'endpaper'});
     return result;
   }
-  function makeImage(path,alt){
+  function makeImage(path,alt,imageSlice){
     const safe=safeImage(path);
     if(!safe)return null;
     const img=make('img','book-art');
     img.src=safe;img.alt=alt||'Illustrative scene from the Chronicles of Azeroth gallery';
-    img.decoding='async';img.loading='lazy';return img;
+    img.decoding='async';img.loading='lazy';
+    if(path.endsWith('/first-week-memories-pencil.webp')&&[0,1,2].includes(imageSlice)){
+      img.style.objectPosition='center '+(imageSlice*50)+'%';
+      img.classList.add('book-memory-pencil-art');
+    }
+    return img;
   }
   function kindLabel(kind){
     if(volume?.id==='xuthar')return kind==='pending' ? 'A LIFE STILL UNFOLDING' : 'THE BOOK OF FORGOTTEN NAMES';
@@ -158,7 +163,7 @@
       }
       if(page.image) {
         const frame=make('figure','book-figure');
-        const img=makeImage(page.image,page.caption||'Illustrative archive image');
+        const img=makeImage(page.image,page.caption||'Illustrative archive image',page.imageSlice);
         if(img) frame.append(img);
         if(page.caption)frame.append(make('figcaption','',page.caption));
         inside.append(frame);

@@ -89,8 +89,7 @@
     const img=make('img','book-art');
     img.src=safe;img.alt=alt||'Illustrative scene from the Chronicles of Azeroth gallery';
     img.decoding='async';img.loading='lazy';
-    if(path.endsWith('/first-week-memories-pencil.webp')&&[0,1,2].includes(imageSlice)){
-      img.style.objectPosition='center '+(imageSlice*50)+'%';
+    if(/^assets\/images\/gallery\/first-week-xuthar-[a-z-]+-hd\.webp$/.test(path)){
       img.classList.add('book-memory-pencil-art');
     }
     return img;
@@ -317,7 +316,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261111-pencil-memory-lxiv',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261111-pencil-memories-hd2',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

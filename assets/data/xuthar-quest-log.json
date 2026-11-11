@@ -2625,6 +2625,31 @@
       "observedScreenshotStatus": "Quest Complete!",
       "officialApiVerified": false,
       "storyChapterId": "x-sentinel-hill-nov9-night-quest-log"
+    },
+    "stateOfTheMines": {
+      "name": "The State of the Mines",
+      "status": "completed-player-reported",
+      "reportedAt": "2026-11-11",
+      "zone": "Westfall",
+      "levelAtLastReport": 17,
+      "priorVisibleObjectives": [
+        {
+          "name": "Kobold Digger slain",
+          "current": 0,
+          "total": 4
+        },
+        {
+          "name": "Riverpaw Miner slain",
+          "current": 6,
+          "total": 6
+        }
+      ],
+      "historicalSnapshotId": "2026-11-11-westfall-questie-six",
+      "officialApiVerified": false,
+      "handInLocation": null,
+      "rewards": null,
+      "completionTime": null,
+      "note": "Player explicitly confirms quest completion; previous snapshot showed it active. The snapshot was not rewritten."
     }
   },
   "latestMapObservations": [
@@ -4299,13 +4324,13 @@
     "latestQuestieSnapshotId": "2026-11-11-westfall-questie-six",
     "completedByChronicleConvention": [
       "The Defias Brotherhood",
-      "The People's Militia"
+      "The People's Militia",
+      "The State of the Mines"
     ],
     "active": [
       "Collecting Memories",
       "Oh Brother...",
-      "Underground Assault",
-      "The State of the Mines"
+      "Underground Assault"
     ],
     "companions": [
       {
@@ -4319,6 +4344,9 @@
         "role": "Warrior"
       }
     ],
-    "notes": "The Defias Brotherhood is a completed Questie quest-stage, not automatically the complete multi-stage chain. User reports questing together with the two recent allies; their recent-allies cards show Stormwind City, which is not asserted as the location of this joint quest."
+    "notes": "The Defias Brotherhood is a completed Questie quest-stage, not automatically the complete multi-stage chain. User reports questing together with the two recent allies; their recent-allies cards show Stormwind City, which is not asserted as the location of this joint quest. The State of the Mines has subsequently been explicitly reported completed by the player on 11 November 2026. The older screenshot remains an unmodified historical record; exact hand-in time, quest ID, rewards and official API status are not confirmed.",
+    "playerConfirmedCompletions": [
+      "The State of the Mines"
+    ]
   }
 }

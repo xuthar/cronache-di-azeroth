@@ -119,10 +119,10 @@
   // Present it separately; never rewrite Blizzard IDs or imply rewards/turn-ins.
   function fieldReportSection(manual){
     const snapshot=manual?.latestVisibleObjectives;
-    if(!['2026-11-09-westfall-questie-four-phase-two','2026-11-09-westfall-night-questie-five'].includes(snapshot?.id))return null;
+    if(!['2026-11-09-westfall-questie-four-phase-two','2026-11-09-westfall-night-questie-five','2026-11-11-westfall-questie-six'].includes(snapshot?.id))return null;
     const section=make('section','qm-section qm-field-section');section.id='latest-field-report';
     const head=make('div','qm-section-header'),heading=make('div','');
-    text(heading,'span','qm-eyebrow','XUTHAR\'S JOURNAL / 9 NOVEMBER 2026');
+    text(heading,'span','qm-eyebrow',snapshot.day==='2026-11-11'?"XUTHAR'S JOURNAL / 11 NOVEMBER 2026":"XUTHAR'S JOURNAL / 9 NOVEMBER 2026");
     text(heading,'h2','','Westfall · Latest quest tracker');
     head.append(heading,make('p','',(snapshot.interface||'Questie tracker')+' · '+(snapshot.zone||'Westfall')+(snapshot.coordinates?' ('+snapshot.coordinates.x+', '+snapshot.coordinates.y+')':'')+'. Player-recorded completions are kept separate from the official Blizzard snapshot.'));
     section.append(head);
@@ -145,6 +145,10 @@
       grid.append(card);
     }
     section.append(grid);
+    if(Array.isArray(snapshot.allies)&&snapshot.allies.length){
+      const party=make('p','qm-active-caveat','Questing companions · '+snapshot.allies.map(a=>a.name+' (level '+a.level+' '+a.role+')').join(' · '));
+      section.append(party);
+    }
     section.append(make('h3','qm-field-subheading','✓ Completed · Personal Chronicle'));
     const done=make('div','qm-field-done');
     for(const q of complete)text(done,'p','qm-field-complete','✓ '+q.name+' · Quest Complete!');
@@ -153,9 +157,10 @@
     for(const q of snapshot.advancedStages||[])
       text(done,'p','qm-field-complete','✓ '+q.name+' · first assignment completed (Pillagers and Looters); second assignment above is active');
     section.append(done);
-    const caveat=make('p','qm-active-caveat','Mission lines marked Quest Complete! follow Xuthar\'s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
+    const caveat=make('p','qm-active-caveat',snapshot.day==='2026-11-11'?'Today’s “Quest Complete!” entries follow Xuthar’s personal Chronicle convention. The Defias Brotherhood refers to the visible completed assignment, not a claim that all stages of the storyline are finished. The official Blizzard API may update later.':'Mission lines marked Quest Complete! follow Xuthar’s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
     section.append(caveat);
-    section.append(link(snapshot.id==='2026-11-09-westfall-night-questie-five'?'Read Chapter LII · The Roads That Wait in Dreams ↗':'Read Chapter LI · What the Hills Demand ↗',snapshot.id==='2026-11-09-westfall-night-questie-five'?'book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed':'book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
+    section.append(link(snapshot.day==='2026-11-11'?'Read Chapters LX–LXI · Three Against the Dust ↗':snapshot.id==='2026-11-09-westfall-night-questie-five'?'Read Chapter LII · The Roads That Wait in Dreams ↗':'Read Chapter LI · What the Hills Demand ↗',snapshot.day==='2026-11-11'?'book.html?character=xuthar#x-nov11-defias-1':snapshot.id==='2026-11-09-westfall-night-questie-five'?'book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed':'book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
+
     return section;
   }
   function render(feedData,editorial,manual){
@@ -246,7 +251,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261109-sentinel-hill-night',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261111-westfall-defias-trio',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

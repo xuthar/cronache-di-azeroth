@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-westfall-defias-with-irlav-and-tooker",
+      "status": "living-novel-level-seventeen-first-week-memories",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1598,6 +1598,48 @@
             "By the time that day's task against the Defias Brotherhood was done, the dust of Westfall had settled on all three. Another duty for the People's Militia, too, had reached its end. Yet Xuthar knew better than to mistake a completed assignment for the death of a whole conspiracy. There were still mines to investigate, memories to recover, and names whispered in unfinished requests. Westfall had not become safe merely because three companions had survived one difficult passage.",
             "He remembered Irlav Manaspark and Tooker Iskald without measuring either by the strength they had brought. One carried the patience of a mage; the other, the resolve of a warrior. In between them a priest had learned, again, that fellowship could form in a single day and still be worth recording for a lifetime. Their meeting belonged to the same quiet truth as Carro's company upon the faraway cliffs: the road changed whenever someone chose to walk beside him.",
             "That evening, as the western wind moved through the dry grass, Xuthar left the next page of his ledger open. The Defias Brotherhood had been met, and one part of its threat pushed back. But the larger story remained unfinished. Somewhere beyond the next rise waited another question, another errand, another stranger whose name might matter. He had no wish to hurry. The witness was still walking."
+          ]
+        },
+        {
+          "id": "x-first-week-memory-1",
+          "chapter": "Chapter LXII · When the Road Was Young",
+          "title": "The First Quiet Fire",
+          "kind": "fiction",
+          "image": "assets/images/gallery/first-week-memories-pencil.webp",
+          "imageSlice": 0,
+          "caption": "Pencil memory I · The road from Northshire to Goldshire, a small fire beneath a distant Stormwind.",
+          "paragraphs": [
+            "On the seventh evening, when his boots had learned the weight of Westfall's dust, Xuthar remembered the first road. It had been scarcely a week since Northshire, yet the valley already seemed to belong to another life. Back then the shadows beneath the trees were shallow, his staff was light in his hand, and he had mistaken the distant spires of Stormwind for the end of the world.",
+            "He remembered the little fires more clearly than the victories: the crackling of damp wood, a warm crust of bread, and the strange comfort of sitting still while strangers passed on the road. Goldshire had offered lamps in its windows. Stormwind had offered crowded streets, weary craftsmen and a place to begin again. He had chosen thread and enchantment, as though by mending small things he might learn to mend himself.",
+            "The first week had not made him a hero. It had taught him how to listen to the wind, how to cherish a bed after a hard walk, and how to leave a place without forgetting it. Somewhere along that gentle road, almost unnoticed, the witness had begun to become himself."
+          ]
+        },
+        {
+          "id": "x-first-week-memory-2",
+          "chapter": "Chapter LXIII · Rain Without an Audience",
+          "title": "The River Kept Its Silence",
+          "kind": "fiction",
+          "image": "assets/images/gallery/first-week-memories-pencil.webp",
+          "imageSlice": 1,
+          "caption": "Pencil memory II · Fishing in the Westfall rain, when even the river seemed to remember.",
+          "paragraphs": [
+            "Of all the sights that first week had given him, it was the rain he returned to most often. At Westfall, beneath a sky the colour of worn iron, Xuthar had sat beside the water with a fishing rod while the fields disappeared into mist. There were no banners for such an hour, no names to carve into a monument. Only the steady tapping of rain against his sleeves and the quiet question of how far a man could travel before he began to miss the place he had left.",
+            "He had crossed the broken farmlands, faced gnolls and highwaymen, and seen the fear hidden behind the weary faces of Sentinel Hill. There were days when every little errand cost too much strength. Yet by the water, doing almost nothing, he felt that the world had allowed him a small mercy. He watched rings form upon the surface and vanish into one another, like days becoming memories.",
+            "Later there would be dark mines and hard roads, another burden lifted from the people of Westfall. But in his mind the rain remained. He understood then that a life need not be loud to be worth remembering."
+          ]
+        },
+        {
+          "id": "x-first-week-memory-3",
+          "chapter": "Chapter LXIV · The Faces Beside the Fire",
+          "title": "What Remains When the Ale Is Gone",
+          "kind": "fiction",
+          "image": "assets/images/gallery/first-week-memories-pencil.webp",
+          "imageSlice": 2,
+          "caption": "Pencil memory III · Xuthar and Carro Steelcave, one warm tavern evening after the long road.",
+          "paragraphs": [
+            "And there was Carro Steelcave. Xuthar could still see the dwarf across a wooden table, smiling into the candlelight with a mug in his hand. They had met again after the hard roads of Westfall, shared a drink at Goldshire and wandered through the streets of Stormwind until the hour grew late. No grand speech had been made. They had simply been glad to find one another.",
+            "When the greater journey came—through shadowed woods, across the sea, over strange plains and difficult mountains—Xuthar had carried that ordinary evening with him. Friendship was not only the courage to stand together before danger. Sometimes it was the kindness of remaining at a table a little longer, knowing that tomorrow would ask much of both of them.",
+            "Now the mines of Westfall were quieter, one more task was behind him, and the week lay open in memory: Northshire's pale mornings, the lanterns of Goldshire, the rain at Sentinel Hill, Carro's familiar laughter. Xuthar let the images pass without trying to hold them. The road would go on. For once, he was content to remember how it had begun."
           ]
         },
         {

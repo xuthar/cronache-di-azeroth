@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261109-night-sentinel-hill';
+ const source='assets/data/xuthar-quest-log.json?v=20261111-westfall-live-trio';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -37,17 +37,17 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · 9 NOVEMBER 2026 · LEVEL 15');
-    const title=make('h2','','A hard day, a quieter night at Sentinel Hill.');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · 11 NOVEMBER 2026 · LEVEL 17');
+    const title=make('h2','','Three companions on the road through Westfall.');
    title.id='xql-heading';
-    const lead=make('p','',"On 9 November Xuthar fished in the rain, completed difficult Westfall duties, and found he had little strength left for more adventure. He went offline at Sentinel Hill to rest and dream of roads still unwritten.");
+    const lead=make('p','',"On 11 November Xuthar returned to the Defias struggle with two companions: Irlav Manaspark, a mage, and Tooker Iskald, a warrior. The Defias Brotherhood and The People’s Militia show Quest Complete! in the tracker. The priest is live, questing in Westfall.");
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · latest Questie snapshot: 9 November, Westfall (52.5, 53.2). OFFLINE at Sentinel Hill, Westfall (player-reported; no exact resting coordinates). Older quest observations remain historical.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · latest Questie snapshot: 11 November, Westfall (6/40). LIVE · Questing in Westfall. Exact coordinates not supplied. The old November 9 snapshot remains historical.');
    head.append(status);
    head.append(metrics);root.append(head);
    if(data.characterLevel>=15 && data.priorVisibleObjectiveSnapshots?.some(p=>p.id==='2026-11-08-later-westfall-questie-level15')){
@@ -74,6 +74,18 @@
       root.append(now);
    }
 
+   if(data.latestVisibleObjectives?.id==='2026-11-11-westfall-questie-six'){
+      const current=make('div','xql-confirmed');current.id='xuthar-westfall-eleventh-quests';
+      current.append(make('h3','xql-group-heading','11 November · LIVE · Questing in Westfall · Level 17'));
+      current.append(make('p','xql-confirmed-item','✓ QUEST COMPLETE · The Defias Brotherhood · the visible assignment, not necessarily the entire quest chain.'));
+      current.append(make('p','xql-confirmed-item','✓ QUEST COMPLETE · The People\'s Militia · second assignment.'));
+      current.append(make('p','xql-level-note','● ACTIVE · Collecting Memories: 0/4 Miners\' Union Cards · Oh Brother...: 0/1 Thistlenettle\'s Badge · Underground Assault: 0/1 Gnoam Sprecklesprocket.'));
+      current.append(make('p','xql-level-note','● ACTIVE · The State of the Mines: 0/4 Kobold Diggers, 6/6 Riverpaw Miners.'));
+      current.append(make('p','xql-level-note','Travelling with Irlav Manaspark (level 20 Mage) and Tooker Iskald (level 19 Warrior). The Questie 6/40 screenshot is a player-reported observation; the official Blizzard API remains independent.'));
+      const reading=make('a','xql-book-link','Read Chapters LX–LXI · Three Against the Dust ↗');
+      reading.href='book.html?character=xuthar#x-nov11-defias-1';
+      current.append(reading);root.append(current);
+   }
    if(data.latestVisibleObjectives?.id==='2026-11-09-westfall-night-questie-five'){
       const now=make('div','xql-confirmed');now.id='xuthar-westfall-night-quests';
       now.append(make('h3','xql-group-heading','9 November · Night at Sentinel Hill · Level 15'));

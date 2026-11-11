@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-cozy-sleeping-bag-epic-with-carro",
+      "status": "living-novel-level-seventeen-westfall-defias-with-irlav-and-tooker",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1577,6 +1577,30 @@
           ]
         },
         {
+          "id": "x-nov11-defias-1",
+          "chapter": "Chapter LX · Three Shadows on the Western Road",
+          "title": "A Mage, a Warrior, and a Witness",
+          "kind": "reported",
+          "paragraphs": [
+            "Westfall received Xuthar Morvayne with the same indifferent wind. The gold of its fields had not softened the roads, and beyond the farms the Defias still cast their long shadow. Only the day before, the world had seemed immeasurable: mountains, harbours, two continents and a final climb with Carro Steelcave. Now the priest had returned to a smaller country and a danger close enough to touch. This time he would not face it alone.",
+            "The mage called himself Irlav Manaspark. There was a quickness in his gaze, the calm of someone who understood that a single moment could turn a fight. Beside him stood Tooker Iskald, a warrior who seemed more interested in the road ahead than in the stories people told about courage. Xuthar was the third of them: a priest with a traveller's dust on his hem, a few hard-earned lessons, and a book in which he tried to leave no companion unnamed.",
+            "They made an unlikely company. Where Tooker met the danger of Westfall without yielding ground, Irlav's magic answered with sudden light; Xuthar held to the fragile space between those two kinds of strength. The road demanded action, not introductions. There were no grand promises, only the ordinary trust that grows when people choose to stay together while the next stretch of ground remains uncertain.",
+            "The red signs of the Brotherhood were everywhere in the imagination of the farmers, even where no enemy could be seen. Fear had entered the fields before any of the three travellers. Xuthar listened to the stories of those who still tried to make a living beneath that fear. Each name reminded him why he had come back: a quest might fit on a scrap of parchment, but its weight belonged to real lives."
+          ]
+        },
+        {
+          "id": "x-nov11-defias-2",
+          "chapter": "Chapter LXI · The Brotherhood's Shadow",
+          "title": "Three Names Against the Dust",
+          "kind": "reported",
+          "paragraphs": [
+            "The work of confronting the Defias was neither clean nor simple. In the struggle Xuthar discovered that the fiercest comfort could be the sound of another person's footsteps nearby. Irlav watched the shifting field of danger; Tooker refused to abandon the ground they had gained. The priest answered where he could, with a quiet word, a lifted hand, and the stubborn conviction that no victory was worth losing the people who helped win it.",
+            "By the time that day's task against the Defias Brotherhood was done, the dust of Westfall had settled on all three. Another duty for the People's Militia, too, had reached its end. Yet Xuthar knew better than to mistake a completed assignment for the death of a whole conspiracy. There were still mines to investigate, memories to recover, and names whispered in unfinished requests. Westfall had not become safe merely because three companions had survived one difficult passage.",
+            "He remembered Irlav Manaspark and Tooker Iskald without measuring either by the strength they had brought. One carried the patience of a mage; the other, the resolve of a warrior. In between them a priest had learned, again, that fellowship could form in a single day and still be worth recording for a lifetime. Their meeting belonged to the same quiet truth as Carro's company upon the faraway cliffs: the road changed whenever someone chose to walk beside him.",
+            "That evening, as the western wind moved through the dry grass, Xuthar left the next page of his ledger open. The Defias Brotherhood had been met, and one part of its threat pushed back. But the larger story remained unfinished. Somewhere beyond the next rise waited another question, another errand, another stranger whose name might matter. He had no wish to hurry. The witness was still walking."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -1744,5 +1768,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-10"
+  "lastEditorialUpdate": "2026-11-11"
 }

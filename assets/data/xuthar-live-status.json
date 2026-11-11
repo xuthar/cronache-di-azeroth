@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Eastern Kingdoms",
-  "location": "Thoradin's Wall (last documented expedition destination)",
+  "zone": "Westfall",
+  "location": "Questing in Westfall",
   "coordinates": null,
-  "activity": "Epic Cozy Sleeping Bag expedition completed with Carro Steelcave · Level 17",
-  "reportedOn": "2026-11-10",
-  "updatedAt": "2026-11-10",
-  "note": "User reports full completion of six-quest chain with Carro Steelcave and level 17. Last identifiable screenshot sequence is Thoradin's Wall; exact present location and whether logged out not confirmed. Live flag remains from prior explicit live report, not telemetry."
+  "activity": "Questing in Westfall · Level 17 · The Defias Brotherhood completed with Irlav Manaspark (Mage) and Tooker Iskald (Warrior)",
+  "reportedOn": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "note": "Manually reported by Xuthar on 11 November 2026. Quest tracker screenshot marks The Defias Brotherhood and The People's Militia 'Quest Complete!'. Recent Allies screenshot shows Irlav Manaspark, level 20 Mage, and Tooker Iskald, level 19 Warrior. Current level 17 carried over; no new level was reported. The tracker does not prove all steps of the Defias quest chain are complete."
 }

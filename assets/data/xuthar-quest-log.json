@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-09",
+  "recordedAt": "2026-11-11",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -257,8 +257,8 @@
       }
     ]
   },
-  "characterLevel": 15,
-  "characterLevelSource": "User-confirmed level 15 and in-game adventure journal showing level 15 reached 8 Nov 2026 in Longshore, Westfall. Blizzard official API verification remains independent.",
+  "characterLevel": 17,
+  "characterLevelSource": "Player confirmed level 17 on 10 November; carried forward because no new level reported on 11 November",
   "characterLevelRecordedAt": "2026-11-08",
   "confirmedCompleted": [
     {
@@ -1022,13 +1022,13 @@
       "apiMilestone": "At level 10, public Armory eligibility; successful API fetch still unverified. Workflow OFF pending credentials and verification."
     }
   ],
-  "currentSessionId": "day-05-20261109",
-  "currentSessionStatus": "offline-resting-sentinel-hill-level-15",
-  "currentChronicleDate": "2026-11-09",
+  "currentSessionId": "day-06-20261111",
+  "currentSessionStatus": "live-questing-westfall-level-17",
+  "currentChronicleDate": "2026-11-11",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
   "lastConfirmedLocation": "The Gilded Rose, Stormwind City · 60,70 (in-game coordinates)",
-  "currentQuestTrackerLocation": "Westfall · 52.5,53.2",
+  "currentQuestTrackerLocation": "Westfall · exact coordinates not reported",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
     "date": "2026-11-06",
@@ -2184,35 +2184,69 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-09-westfall-night-questie-five",
-    "day": "2026-11-09",
-    "observedAt": "2026-11-09 evening",
-    "screenshot": "image(20261109-220026).png",
+    "id": "2026-11-11-westfall-questie-six",
+    "day": "2026-11-11",
+    "observedAt": "2026-11-11 · local time of screenshot not independently verified",
+    "screenshot": "image(20261111-200417).png",
+    "allyScreenshot": "image(20261111-200446).png",
     "zone": "Westfall",
-    "coordinates": {
-      "x": 52.5,
-      "y": 53.2
-    },
-    "characterLevel": 15,
-    "levelSource": "Player confirmed still level 15; number not visible in cropped tracker",
-    "interface": "Questie Tracker · 5/40",
+    "coordinates": null,
+    "characterLevel": 17,
+    "levelSource": "Last confirmed by player 10 November; no new level reported on 11 November",
+    "interface": "Questie Tracker · 6/40",
     "visibleQuests": [
       {
-        "id": 353,
-        "name": "Stormpike's Delivery",
-        "level": 15,
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false,
-        "groupLabel": "Stormwind City"
+        "id": null,
+        "name": "Collecting Memories",
+        "level": "18D",
+        "groupLabel": "The Deadmines",
+        "status": "active",
+        "rawStatus": "0/4 Miners' Union Card",
+        "objectives": [
+          {
+            "name": "Miners' Union Card",
+            "current": 0,
+            "total": 4
+          }
+        ]
+      },
+      {
+        "id": null,
+        "name": "Oh Brother...",
+        "level": "20D",
+        "groupLabel": "The Deadmines",
+        "status": "active",
+        "rawStatus": "0/1 Thistlenettle's Badge",
+        "objectives": [
+          {
+            "name": "Thistlenettle's Badge",
+            "current": 0,
+            "total": 1
+          }
+        ]
+      },
+      {
+        "id": null,
+        "name": "Underground Assault",
+        "level": "20D",
+        "groupLabel": "The Deadmines",
+        "status": "active",
+        "rawStatus": "0/1 Gnoam Sprecklesprocket",
+        "objectives": [
+          {
+            "name": "Gnoam Sprecklesprocket",
+            "current": 0,
+            "total": 1
+          }
+        ]
       },
       {
         "id": null,
         "name": "The State of the Mines",
         "level": 14,
-        "rawStatus": "0/4 Kobold Digger slain; 0/6 Riverpaw Miner slain",
+        "groupLabel": "Westfall",
         "status": "active",
+        "rawStatus": "0/4 Kobold Digger slain; 6/6 Riverpaw Miner slain",
         "objectives": [
           {
             "name": "Kobold Digger slain",
@@ -2221,70 +2255,49 @@
           },
           {
             "name": "Riverpaw Miner slain",
-            "current": 0,
+            "current": 6,
             "total": 6
           }
-        ],
-        "groupLabel": "Westfall"
+        ]
       },
       {
         "id": 14,
         "name": "The People's Militia",
         "level": 17,
-        "rawStatus": "1/15 Defias Highwayman slain; 0/5 Defias Pathstalker slain; 0/5 Defias Knuckleduster slain",
-        "status": "active",
-        "phase": "second assignment",
-        "objectives": [
-          {
-            "name": "Defias Highwayman slain",
-            "current": 1,
-            "total": 15
-          },
-          {
-            "name": "Defias Pathstalker slain",
-            "current": 0,
-            "total": 5
-          },
-          {
-            "name": "Defias Knuckleduster slain",
-            "current": 0,
-            "total": 5
-          }
-        ],
-        "groupLabel": "Westfall"
+        "groupLabel": "Westfall",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false,
+        "phase": "second assignment"
       },
       {
         "id": 65,
         "name": "The Defias Brotherhood",
         "level": 18,
-        "rawStatus": "Quest Complete!",
+        "groupLabel": "Westfall",
         "status": "completed-by-user-convention",
-        "countedAsCompletedByConvention": true,
-        "officialApiVerified": false,
-        "groupLabel": "Westfall"
-      },
-      {
-        "id": null,
-        "name": "... and that note you found",
-        "level": 22,
         "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
         "countedAsCompletedByUserConvention": true,
         "officialApiVerified": false,
-        "groupLabel": "Westfall"
+        "note": "Single reported quest stage, not necessarily the entire storyline."
       }
     ],
-    "newlyCompletedFromDisappearance": [
+    "newlyCompletedFromDisappearance": [],
+    "allies": [
       {
-        "id": 92744,
-        "name": "Murloc Gills",
-        "status": "completed-by-standing-user-rule",
-        "priorProgress": "3/7 Longshore Murloc Gill on afternoon tracker",
-        "note": "Absent from current five-quest tracker; counted completed according to player's standing rule that missing quests were finished. API confirmation not assumed."
+        "name": "Irlav Manaspark",
+        "level": 20,
+        "role": "Mage"
+      },
+      {
+        "name": "Tooker Iskald",
+        "level": 19,
+        "role": "Warrior"
       }
     ],
-    "scope": "Evening screenshot Questie 5/40 shows State of the Mines 0/4 Kobold Diggers and 0/6 Riverpaw Miners; second assignment People's Militia remains active at 1/15, 0/5, 0/5. Stormpike's Delivery, The Defias Brotherhood, ... and that note you found all display Quest Complete! and count finished for personal Chronicle. Murloc Gills vanished relative to the afternoon 4/40 list and is considered completed by player-established reporting rule. Screenshot position 52.5,53.2 is not necessarily where Xuthar logs out. Level 15 and final rest at Sentinel Hill are stated by player separately. No other completions or rewards inferred.",
-    "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
+    "scope": "Questie screen shows two 'Quest Complete!' entries — The People's Militia (second assignment) and The Defias Brotherhood — and four active Deadmines/Westfall tasks. Xuthar reports live questing in Westfall alongside Mage Irlav Manaspark (level 20) and Warrior Tooker Iskald (level 19). The same Defias quest title appeared as complete on an earlier screen; no inference that the entire multi-part chain is finished. No quest rewards, exact finish time or official API hand-ins are inferred.",
+    "storyChapterId": "x-nov11-defias-1"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -3787,10 +3800,113 @@
       ],
       "scope": "Four visible quest lines on 9 November. Quest Complete! for Stormpike's Delivery and The Defias Brotherhood counted as completed in the personal Chronicle. User explicitly confirms quests that vanished since the 8 November six-line tracker are completed; Patrolling Westfall is newly completed, Continue to Stormwind was already completed. The People's Militia first stage is finished, while the new second stage is ACTIVE. Official Blizzard profile snapshot may lag. No additional quest hand-ins, XP or rewards inferred. Historical afternoon Westfall tracker superseded by evening screenshot.",
       "storyChapterId": "x-westfall-ninth-nov-eight-paws"
+    },
+    {
+      "id": "2026-11-09-westfall-night-questie-five",
+      "day": "2026-11-09",
+      "observedAt": "2026-11-09 evening",
+      "screenshot": "image(20261109-220026).png",
+      "zone": "Westfall",
+      "coordinates": {
+        "x": 52.5,
+        "y": 53.2
+      },
+      "characterLevel": 15,
+      "levelSource": "Player confirmed still level 15; number not visible in cropped tracker",
+      "interface": "Questie Tracker · 5/40",
+      "visibleQuests": [
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery",
+          "level": 15,
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false,
+          "groupLabel": "Stormwind City"
+        },
+        {
+          "id": null,
+          "name": "The State of the Mines",
+          "level": 14,
+          "rawStatus": "0/4 Kobold Digger slain; 0/6 Riverpaw Miner slain",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Kobold Digger slain",
+              "current": 0,
+              "total": 4
+            },
+            {
+              "name": "Riverpaw Miner slain",
+              "current": 0,
+              "total": 6
+            }
+          ],
+          "groupLabel": "Westfall"
+        },
+        {
+          "id": 14,
+          "name": "The People's Militia",
+          "level": 17,
+          "rawStatus": "1/15 Defias Highwayman slain; 0/5 Defias Pathstalker slain; 0/5 Defias Knuckleduster slain",
+          "status": "active",
+          "phase": "second assignment",
+          "objectives": [
+            {
+              "name": "Defias Highwayman slain",
+              "current": 1,
+              "total": 15
+            },
+            {
+              "name": "Defias Pathstalker slain",
+              "current": 0,
+              "total": 5
+            },
+            {
+              "name": "Defias Knuckleduster slain",
+              "current": 0,
+              "total": 5
+            }
+          ],
+          "groupLabel": "Westfall"
+        },
+        {
+          "id": 65,
+          "name": "The Defias Brotherhood",
+          "level": 18,
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "countedAsCompletedByConvention": true,
+          "officialApiVerified": false,
+          "groupLabel": "Westfall"
+        },
+        {
+          "id": null,
+          "name": "... and that note you found",
+          "level": 22,
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false,
+          "groupLabel": "Westfall"
+        }
+      ],
+      "newlyCompletedFromDisappearance": [
+        {
+          "id": 92744,
+          "name": "Murloc Gills",
+          "status": "completed-by-standing-user-rule",
+          "priorProgress": "3/7 Longshore Murloc Gill on afternoon tracker",
+          "note": "Absent from current five-quest tracker; counted completed according to player's standing rule that missing quests were finished. API confirmation not assumed."
+        }
+      ],
+      "scope": "Evening screenshot Questie 5/40 shows State of the Mines 0/4 Kobold Diggers and 0/6 Riverpaw Miners; second assignment People's Militia remains active at 1/15, 0/5, 0/5. Stormpike's Delivery, The Defias Brotherhood, ... and that note you found all display Quest Complete! and count finished for personal Chronicle. Murloc Gills vanished relative to the afternoon 4/40 list and is considered completed by player-established reporting rule. Screenshot position 52.5,53.2 is not necessarily where Xuthar logs out. Level 15 and final rest at Sentinel Hill are stated by player separately. No other completions or rewards inferred.",
+      "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-09-westfall-night-questie-five",
-  "latestQuestTrackerLocation": "Westfall · 52.5,53.2 (evening Questie screenshot; not offline position)",
+  "latestQuestTrackerSnapshotId": "2026-11-11-westfall-questie-six",
+  "latestQuestTrackerLocation": "Westfall · exact coordinates not reported",
   "lastLevelMilestone": {
     "level": 15,
     "date": "2026-11-08",
@@ -3859,17 +3975,18 @@
     "scopeNote": "The State of the Mines and The People's Militia's second assignment remain active; Stormpike and Defias remain Quest Complete; no new completed stages inferred beyond these."
   },
   "previousLatestVisibleObjectives": {
-    "id": "2026-11-09-westfall-questie-four-phase-two",
+    "id": "2026-11-09-westfall-night-questie-five",
     "day": "2026-11-09",
-    "screenshot": "image(20261109-195209).png",
+    "observedAt": "2026-11-09 evening",
+    "screenshot": "image(20261109-220026).png",
     "zone": "Westfall",
     "coordinates": {
-      "x": 52.9,
-      "y": 53.5
+      "x": 52.5,
+      "y": 53.2
     },
-    "characterLevel": null,
-    "interface": "Questie Tracker · 4/40",
-    "reportedByPlayer": true,
+    "characterLevel": 15,
+    "levelSource": "Player confirmed still level 15; number not visible in cropped tracker",
+    "interface": "Questie Tracker · 5/40",
     "visibleQuests": [
       {
         "id": 353,
@@ -3878,17 +3995,28 @@
         "rawStatus": "Quest Complete!",
         "status": "completed-by-user-convention",
         "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "groupLabel": "Stormwind City"
       },
       {
-        "id": 92744,
-        "name": "Murloc Gills",
-        "level": 12,
-        "rawStatus": "3/7 Longshore Murloc Gill",
+        "id": null,
+        "name": "The State of the Mines",
+        "level": 14,
+        "rawStatus": "0/4 Kobold Digger slain; 0/6 Riverpaw Miner slain",
         "status": "active",
-        "current": 3,
-        "total": 7,
-        "objective": "Longshore Murloc Gill"
+        "objectives": [
+          {
+            "name": "Kobold Digger slain",
+            "current": 0,
+            "total": 4
+          },
+          {
+            "name": "Riverpaw Miner slain",
+            "current": 0,
+            "total": 6
+          }
+        ],
+        "groupLabel": "Westfall"
       },
       {
         "id": 14,
@@ -3913,7 +4041,8 @@
             "current": 0,
             "total": 5
           }
-        ]
+        ],
+        "groupLabel": "Westfall"
       },
       {
         "id": 65,
@@ -3921,40 +4050,32 @@
         "level": 18,
         "rawStatus": "Quest Complete!",
         "status": "completed-by-user-convention",
+        "countedAsCompletedByConvention": true,
+        "officialApiVerified": false,
+        "groupLabel": "Westfall"
+      },
+      {
+        "id": null,
+        "name": "... and that note you found",
+        "level": 22,
+        "rawStatus": "Quest Complete!",
+        "status": "completed-by-user-convention",
         "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "groupLabel": "Westfall"
       }
     ],
     "newlyCompletedFromDisappearance": [
       {
-        "id": 102,
-        "name": "Patrolling Westfall",
-        "status": "completed-player-confirmed",
-        "priorProgress": "4/8 Gnoll Paw",
-        "objective": "Collect 8 Gnoll Paws for Captain Danuvin at Sentinel Hill",
-        "questId": 102
-      },
-      {
-        "id": 6281,
-        "name": "Continue to Stormwind",
-        "status": "completed-player-confirmed-previously",
-        "priorProgress": "Quest Complete! on 8 Nov",
-        "note": "Already marked completed in previous snapshot; no duplicate completion entry."
+        "id": 92744,
+        "name": "Murloc Gills",
+        "status": "completed-by-standing-user-rule",
+        "priorProgress": "3/7 Longshore Murloc Gill on afternoon tracker",
+        "note": "Absent from current five-quest tracker; counted completed according to player's standing rule that missing quests were finished. API confirmation not assumed."
       }
     ],
-    "advancedStages": [
-      {
-        "id": 13,
-        "name": "The People's Militia",
-        "status": "completed-player-confirmed",
-        "phase": "first assignment",
-        "objectives": "15 Defias Pillagers and 15 Defias Looters",
-        "nextQuestId": 14,
-        "reason": "Second assignment now visible (Highwaymen, Pathstalkers, Knuckledusters)."
-      }
-    ],
-    "scope": "Four visible quest lines on 9 November. Quest Complete! for Stormpike's Delivery and The Defias Brotherhood counted as completed in the personal Chronicle. User explicitly confirms quests that vanished since the 8 November six-line tracker are completed; Patrolling Westfall is newly completed, Continue to Stormwind was already completed. The People's Militia first stage is finished, while the new second stage is ACTIVE. Official Blizzard profile snapshot may lag. No additional quest hand-ins, XP or rewards inferred.",
-    "storyChapterId": "x-westfall-ninth-nov-eight-paws"
+    "scope": "Evening screenshot Questie 5/40 shows State of the Mines 0/4 Kobold Diggers and 0/6 Riverpaw Miners; second assignment People's Militia remains active at 1/15, 0/5, 0/5. Stormpike's Delivery, The Defias Brotherhood, ... and that note you found all display Quest Complete! and count finished for personal Chronicle. Murloc Gills vanished relative to the afternoon 4/40 list and is considered completed by player-established reporting rule. Screenshot position 52.5,53.2 is not necessarily where Xuthar logs out. Level 15 and final rest at Sentinel Hill are stated by player separately. No other completions or rewards inferred.",
+    "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
   },
   "recentGameJournal": {
     "source": "Player-provided in-game journal screenshots dated 8 November 2026; historical entries for 7 November",
@@ -4169,5 +4290,35 @@
     "finalReportedOfflineLocation": "Sentinel Hill, Westfall (no exact coordinates supplied)",
     "level": 15,
     "note": "User reported fatigue and little desire to venture; went to bed reflecting on future adventures."
+  },
+  "eleventhNovemberQuestUpdate": {
+    "date": "2026-11-11",
+    "area": "Westfall",
+    "status": "live",
+    "level": 17,
+    "latestQuestieSnapshotId": "2026-11-11-westfall-questie-six",
+    "completedByChronicleConvention": [
+      "The Defias Brotherhood",
+      "The People's Militia"
+    ],
+    "active": [
+      "Collecting Memories",
+      "Oh Brother...",
+      "Underground Assault",
+      "The State of the Mines"
+    ],
+    "companions": [
+      {
+        "name": "Irlav Manaspark",
+        "level": 20,
+        "role": "Mage"
+      },
+      {
+        "name": "Tooker Iskald",
+        "level": 19,
+        "role": "Warrior"
+      }
+    ],
+    "notes": "The Defias Brotherhood is a completed Questie quest-stage, not automatically the complete multi-stage chain. User reports questing together with the two recent allies; their recent-allies cards show Stormwind City, which is not asserted as the location of this joint quest."
   }
 }

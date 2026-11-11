@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794357684,
+  "exportedAt": 1794410193,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794357684,
+      "checkedAt": 1794410193,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794357684,
+          "snapshotAt": 1794410193,
           "inProgressCount": 6,
           "completedCount": 158,
           "inProgress": [
@@ -682,7 +682,7 @@
               "briefing": "The Stormpikes are a respected dwarven clan, and are well known for their fine and discerning tastes. So it's no wonder that Gringer Stormpike,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 399,
@@ -835,7 +835,7 @@
               "briefing": "\"Not all that burns is lost. Find the twin land, find the place.\"",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79092,
@@ -862,7 +862,7 @@
               "briefing": "The note begins, \"Mission said they were both making deliveries for New Plague. Looks like simple apothecary accidents to me. Find my cozy spot…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79974,
@@ -871,7 +871,7 @@
               "briefing": "\"Always like to keep a reserve stash nearby in the off chance I've got to flee in a hurry. The face of this mountainside…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79975,
@@ -880,7 +880,7 @@
               "briefing": "\"From here, with the right tools, you call the shots. Great place to launch a parachute glider. My loyalty to the Eagle and Fist…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79976,
@@ -889,7 +889,7 @@
               "briefing": "\"So, I've decided to take my work back underground. To stop it falling into the wrong hands.\"",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79980,
@@ -898,7 +898,7 @@
               "briefing": "\"Not so bad, eh? Since you're reading this, it means my stash is still there. Take a hundred paces due north and don't break…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 91723,
@@ -1582,7 +1582,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99127,
@@ -1639,17 +1639,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            353,
-            79008,
-            79192,
-            79974,
-            79975,
-            79976,
-            79980,
-            98372
-          ],
-          "comparedWithSnapshotAt": 1794348643,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794357684,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1665,7 +1656,7 @@
         "achievements": {
           "trackedCount": 18
         },
-        "profileCheckedAt": 1794357684
+        "profileCheckedAt": 1794410193
       }
     }
   ],

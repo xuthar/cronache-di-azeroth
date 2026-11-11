@@ -80,7 +80,7 @@
       current.append(make('p','xql-confirmed-item','✓ QUEST COMPLETE · The Defias Brotherhood · the visible assignment, not necessarily the entire quest chain.'));
       current.append(make('p','xql-confirmed-item','✓ QUEST COMPLETE · The People\'s Militia · second assignment.'));
       current.append(make('p','xql-level-note','● ACTIVE · Collecting Memories: 0/4 Miners\' Union Cards · Oh Brother...: 0/1 Thistlenettle\'s Badge · Underground Assault: 0/1 Gnoam Sprecklesprocket.'));
-      current.append(make('p','xql-level-note','● ACTIVE · The State of the Mines: 0/4 Kobold Diggers, 6/6 Riverpaw Miners.'));
+      current.append(make('p','xql-confirmed-item','✓ COMPLETED · The State of the Mines · Xuthar confirmed the quest finished on 11 November; not yet independently verified through the Blizzard API.'));
       current.append(make('p','xql-level-note','Travelling with Irlav Manaspark (level 20 Mage) and Tooker Iskald (level 19 Warrior). The Questie 6/40 screenshot is a player-reported observation; the official Blizzard API remains independent.'));
       const reading=make('a','xql-book-link','Read Chapters LX–LXI · Three Against the Dust ↗');
       reading.href='book.html?character=xuthar#x-nov11-defias-1';

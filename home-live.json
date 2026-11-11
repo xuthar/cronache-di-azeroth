@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-11T16:23:16.221Z"
+    "checkedAt": "2026-11-11T20:07:31.660Z"
   },
   "news": [
+    {
+      "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast Featuring Tips Out",
+      "url": "https://www.wowhead.com/news=383843/jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast",
+      "category": "Forever",
+      "publishedAt": "2026-11-11T19:42:15.000Z"
+    },
+    {
+      "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
+      "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree",
+      "category": "Forever",
+      "publishedAt": "2026-11-11T18:29:47.000Z"
+    },
     {
       "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-11T15:00:00.000Z"
-    },
-    {
-      "title": "Which Darkmoon Faire Buff Should You Pick in WoW: Forever?",
-      "url": "https://www.wowhead.com/news=383827/which-darkmoon-faire-buff-should-you-pick-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-11T14:00:00.000Z"
-    },
-    {
-      "title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
-      "url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november",
-      "category": "Forever",
-      "publishedAt": "2026-11-11T03:30:15.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-11T16:23:16.220Z",
-  "generatedAt": "2026-11-11T16:23:16.150Z",
+  "newsUpdatedAt": "2026-11-11T20:07:31.660Z",
+  "generatedAt": "2026-11-11T20:07:31.593Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 11 Nov 2026 10:23:15 -0600",
+  "newsFeedBuiltAt": "Wed, 11 Nov 2026 14:07:27 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -189,7 +189,7 @@
           {time:'21:07 · screenshot',title:'Stormwind — rain over the canal bridge',description:'Xuthar arrives in Stormwind in heavy rain, seen standing on a stone bridge over the dark canals.'},
           {time:'After 21:07 · exact hour unrecorded',title:'Mathias Shaw — the letter is delivered',description:'Xuthar meets Mathias Shaw and hands over the letter, as confirmed by the player. No quest ID or reward is inferred.'},
           {time:'After Mathias Shaw · precise hour not reported',title:'Mage Tower — Bewitchments and Glamours delivered',description:'Xuthar hands the recovered magical book to Garion Wendell in Stormwind. The player confirms completion; the reward and exact hour remain unreported.'},
-          {time:'After the book delivery · journey in progress',title:'Westward again',description:'With the letter and book delivered, Xuthar leaves Stormwind for Westfall. His arrival there remains unconfirmed.'},
+          {time:'After the book delivery · journey in progress',title:'Westward again — A Mysterious Message',description:'With the letter and book delivered, Xuthar heads for Westfall to find a Defias Messenger travelling between Moonbrook, Gold Coast Quarry and Jangolode Mine. His objective is to obtain A Mysterious Message for Gryan Stoutmantle. Neither the messenger encounter nor the hand-in is complete yet.'},
           {time:'Roleplay interlude · fictional',title:'Unclaimed letters and the canal whisper',description:'In the novel Xuthar encounters a keeper of forgotten letters and contemplates the voices of the Shadow while walking between his errands.'}
         ],photos:'redridge-lakeshire-gallery/'}
       ];

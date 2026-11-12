@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Elwynn Forest",
-  "location": "On the road from Stormwind toward Redridge Mountains",
+  "zone": "Redridge Mountains",
+  "location": "Lakeshire · preparing the return journey to Westfall",
   "coordinates": null,
-  "activity": "Travelling to Redridge for the next Defias Brotherhood quest stage · meeting wayfarers, adventurers and bards · Level 17",
+  "activity": "Redridge Defias Brotherhood quest stage completed · returning toward Westfall · Level 17",
   "reportedOn": "2026-11-12",
   "updatedAt": "2026-11-12",
-  "note": "Player reports Xuthar has set out from Stormwind toward Redridge for a further stage of The Defias Brotherhood. Encounters with unnamed travellers, adventurers and bards were reported. Exact coordinates, NPC identities and outcome of the stage not confirmed. A previous tracker marked an earlier Defias Brotherhood stage Quest Complete, not necessarily the entire quest chain."
+  "note": "Player confirms arrival at Redridge/Lakeshire, completion of the current Defias Brotherhood stage, and intention to return to Westfall. Screenshots taken at 20:55–20:57 show Lakeshire bridge, lakeside docks and buildings. Departure/arrival in Westfall not yet confirmed. LIVE state is user-reported, not API presence."
 }

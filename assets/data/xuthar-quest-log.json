@@ -4423,5 +4423,27 @@
     "deliveredAt": "2026-11-12 · precise hour not reported",
     "recipient": "Garion Wendell",
     "arrivalConfirmed": false
+  },
+  "currentDefiasMessengerStage": {
+    "questId": 142,
+    "questName": "The Defias Brotherhood",
+    "stage": "Part 5 · A Mysterious Message",
+    "status": "active-planned-search",
+    "item": "A Mysterious Message",
+    "itemCurrent": 0,
+    "itemRequired": 1,
+    "target": "Defias Messenger",
+    "targetZone": "Westfall",
+    "patrolAreas": [
+      "Moonbrook",
+      "Gold Coast Quarry",
+      "Jangolode Mine"
+    ],
+    "suggestedSearchCoordinates": "approximately 45,69; moving target",
+    "questGiver": "Gryan Stoutmantle",
+    "turnIn": "Sentinel Hill, Westfall (56.3, 47.5)",
+    "reportedOn": "2026-11-12",
+    "playerConfirmed": "Next objective is to find messenger",
+    "completionConfirmed": false
   }
 }

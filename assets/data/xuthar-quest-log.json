@@ -4405,5 +4405,20 @@
     "level": 17,
     "nextDestination": "Westfall",
     "arrivalConfirmed": false
+  },
+  "bewitchmentsAndGlamours": {
+    "questId": 78142,
+    "questName": "Bewitchments and Glamours",
+    "itemName": "Bewitchments and Glamours",
+    "itemReportedFound": true,
+    "collectionLocation": "Not independently established by player; canonical quest-book source Moonbrook, Westfall",
+    "questObjective": "Deliver book to Garion Wendell",
+    "turnIn": "Stormwind Mage Tower, Garion Wendell",
+    "coordinates": "49.0, 86.4",
+    "status": "pending-delivery",
+    "delivered": false,
+    "source": "Player announcement 2026-11-12 and Forever quest guide",
+    "nextDestination": "Westfall after book delivery",
+    "rewardReceived": null
   }
 }

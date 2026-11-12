@@ -1,0 +1,11 @@
+/* Full original photographs, scaled down only; no crops or hover zoom. */
+a[data-original-photo]{display:block;max-width:100%;min-width:0}
+a[data-original-photo] img{display:block;width:100%;max-width:1920px;height:auto!important;aspect-ratio:16/9;object-fit:contain!important;transform:none!important;filter:none!important}
+a[data-original-photo]:focus-visible{outline:3px solid #f4cb8c;outline-offset:4px}
+.original-photo-dialog{box-sizing:border-box;width: min(1960px,96vw);max-width:96vw;max-height:94dvh;padding:16px;border:1px solid #b39169;border-radius:10px;background:#0b141d;color:#f4e3ca;overflow:auto}
+.original-photo-dialog::backdrop{background:#000d}
+.original-photo-dialog img{display:block;width:auto;max-width:100%;height:auto;max-height:76dvh;object-fit:contain;margin:auto}
+.original-photo-toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.original-photo-toolbar a{color:#ffe0a8}.original-photo-toolbar button{font:inherit;padding:8px 14px;cursor:pointer}
+.original-photo-caption{margin:12px 0 0;overflow-wrap:anywhere}
+@media(max-width:400px){#deadmines-epic-premiere>div>div:nth-child(2){grid-template-columns:minmax(0,1fr)!important}}

@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794448552,
+  "exportedAt": 1794499192,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794448552,
+      "checkedAt": 1794499192,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794448552,
+          "snapshotAt": 1794499192,
           "inProgressCount": 5,
           "completedCount": 160,
           "inProgress": [
@@ -275,7 +275,7 @@
               "briefing": "Some Defias have eluded us. My most trusted scout reports that these Defias have been looting and pillaging the countryside, all the way into…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -1067,7 +1067,7 @@
               "briefing": "The well samples you collected contain toxic metals! If we do not put an end to this corruption quickly, it will be decades before…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1655,11 +1655,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            14,
-            92745
-          ],
-          "comparedWithSnapshotAt": 1794410193,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794448552,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1675,7 +1672,7 @@
         "achievements": {
           "trackedCount": 18
         },
-        "profileCheckedAt": 1794448552
+        "profileCheckedAt": 1794499192
       }
     }
   ],

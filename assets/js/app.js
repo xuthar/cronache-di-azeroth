@@ -177,6 +177,11 @@
           {time:'Time not recorded',title:'The Defias Brotherhood — quest completed',description:'The quest tracker displays “Quest Complete!” for The Defias Brotherhood. This records the completed assignment seen today, not the completion of every chapter of the wider Defias chain.'},
           {time:'Time not recorded',title:'The People’s Militia — quest completed',description:'The quest tracker also shows “Quest Complete!” for The People’s Militia. The western road still holds unfinished work.'},
           {time:'Latest reported status',title:'Live · Questing at Westfall',description:'The State of the Mines, Recollecting Memories, Oh Brother… and Underground Assault remain visible as ongoing quests. Xuthar continues the journey at level seventeen.'}
+        ]},
+        {date:'2026-11-12',day:'Thursday, 12 November',title:'Stormwind — The City of Unfinished Promises',place:'Westfall → Stormwind City',level:'Level 17',summary:'Xuthar returns from Westfall to Stormwind for quest hand-ins and practical errands. The specific deliveries and rewards are not yet confirmed; the city provides the setting for new chapters of The Last Witness.',stops:[
+          {time:'Evening · exact travel time not recorded',title:'Leaving the golden fields',description:'Xuthar travels from Westfall toward Stormwind after the recent western adventures.'},
+          {time:'20:21 · reported status (Italy)',title:'Live in Stormwind',description:'The priest is in the capital to complete quests and take care of commissions. No individual quest is marked completed solely from this report.'},
+          {time:'Roleplay interlude · fictional',title:'Unclaimed letters and the canal whisper',description:'In the novel Xuthar encounters a keeper of forgotten letters and contemplates the voices of the Shadow while walking between his errands.'}
         ]}
       ];
       const timeline=plans.map(day=>{

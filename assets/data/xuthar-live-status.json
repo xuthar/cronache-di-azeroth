@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Redridge Mountains",
-  "location": "Lakeshire · preparing the return journey to Westfall",
+  "zone": "Elwynn Forest / road to Stormwind",
+  "location": "Travelling from Westfall toward Stormwind City",
   "coordinates": null,
-  "activity": "Redridge Defias Brotherhood quest stage completed · returning toward Westfall · Level 17",
+  "activity": "Urgent journey to meet Mathias Shaw · Defias Brotherhood storyline · Level 17",
   "reportedOn": "2026-11-12",
   "updatedAt": "2026-11-12",
-  "note": "Player confirms arrival at Redridge/Lakeshire, completion of the current Defias Brotherhood stage, and intention to return to Westfall. Screenshots taken at 20:55–20:57 show Lakeshire bridge, lakeside docks and buildings. Departure/arrival in Westfall not yet confirmed. LIVE state is user-reported, not API presence."
+  "note": "User confirms arrival in Westfall after the completed Redridge stage, followed by an immediate departure toward Stormwind to meet Mathias Shaw. Arrival in Stormwind and the meeting itself are not yet confirmed. Exact route, coordinates, quest ID and hour not independently established. Player-reported LIVE status."
 }

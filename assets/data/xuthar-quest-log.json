@@ -4392,5 +4392,18 @@
       "nextDestination": "Westfall",
       "arrivalAtNextDestinationConfirmed": false
     }
+  },
+  "mathiasShawLetterDelivery": {
+    "date": "2026-11-12",
+    "location": "Stormwind",
+    "recipient": "Mathias Shaw",
+    "deliveryConfirmedByPlayer": true,
+    "questChain": "The Defias Brotherhood",
+    "questStage": "letter delivery (exact ID not confirmed)",
+    "status": "completed-player-reported",
+    "reward": null,
+    "level": 17,
+    "nextDestination": "Westfall",
+    "arrivalConfirmed": false
   }
 }

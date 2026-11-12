@@ -191,8 +191,9 @@
           {time:'After Mathias Shaw · precise hour not reported',title:'Mage Tower — Bewitchments and Glamours delivered',description:'Xuthar hands the recovered magical book to Garion Wendell in Stormwind. The player confirms completion; the reward and exact hour remain unreported.'},
           {time:'After the book delivery · journey in progress',title:'Westward again — A Mysterious Message',description:'With the letter and book delivered, Xuthar heads for Westfall to find a Defias Messenger travelling between Moonbrook, Gold Coast Quarry and Jangolode Mine. His objective is to obtain A Mysterious Message for Gryan Stoutmantle. Later that evening Xuthar finds the messenger and recovers the message (1/1). The return to Gryan Stoutmantle is not yet confirmed.'},
           {time:'Evening · exact hour not reported',title:'The courier intercepted — A Mysterious Message recovered',description:'Xuthar finds the Defias Messenger in Westfall and takes possession of A Mysterious Message (1/1). His next step is Gryan Stoutmantle at Sentinel Hill; hand-in is not confirmed.'},
+          {time:'21:24–21:25 · three screenshots',title:'An entire Horde guild on the western fields',description:'While returning with A Mysterious Message to Sentinel Hill, Xuthar encounters a large group of Horde players moving together through Westfall. The crowd is documented in three photographs; no clash or guild identity is established.'},
           {time:'Roleplay interlude · fictional',title:'Unclaimed letters and the canal whisper',description:'In the novel Xuthar encounters a keeper of forgotten letters and contemplates the voices of the Shadow while walking between his errands.'}
-        ],photos:'redridge-lakeshire-gallery/'}
+        ],photos:'westfall-horde-gallery/'}
       ];
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';

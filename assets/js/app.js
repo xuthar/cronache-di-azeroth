@@ -182,6 +182,7 @@
           {time:'Evening · exact travel time not recorded',title:'Leaving the golden fields',description:'Xuthar travels from Westfall toward Stormwind after the recent western adventures.'},
           {time:'20:21 · reported status (Italy)',title:'Live in Stormwind',description:'The priest is in the capital to complete quests and take care of commissions. Three Questie entries are now marked complete: Business in Auberdine, Detonation at a Distance and The Defias Brotherhood. Four Deadmines/Westfall assignments remain in progress.'},
           {time:'Questie screenshot · exact time not established',title:'Three completed tasks, four unfinished',description:'Business in Auberdine, Detonation at a Distance and The Defias Brotherhood show Quest Complete! Collecting Memories (0/4), Oh Brother... (0/1), Underground Assault (0/1) and A Dynamite Plan (0/10) are still active.'},
+          {time:'Later · exact time not recorded',title:'Eastward to Redridge — Defias business continues',description:'From Stormwind, Xuthar sets out for Redridge to pursue a further stage of The Defias Brotherhood. Along the road he encounters wayfarers, other adventurers and bards. This new stage is not yet completed.'},
           {time:'Roleplay interlude · fictional',title:'Unclaimed letters and the canal whisper',description:'In the novel Xuthar encounters a keeper of forgotten letters and contemplates the voices of the Shadow while walking between his errands.'}
         ]}
       ];

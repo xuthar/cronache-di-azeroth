@@ -305,3 +305,12 @@ body[data-page="aelyndra"] .hero{min-height:470px}
    transform:translateY(-3px);border-color:#f0ca86a0;box-shadow:0 20px 38px #0008,0 0 24px #d8a45417;
  }
 }
+
+/* original crossed-blade crest mark */
+.brand .sigil span{font-size:0}
+.brand .sigil span::before{content:"⚔";font:1.55rem/1 Georgia,serif;color:#ffe0a4;text-shadow:0 2px 0 #573c20,0 0 13px #f0c36a9c}
+.brand-name{
+ background:linear-gradient(180deg,#fff5dd 10%,#ebca8f 55%,#b58a55 100%);
+ -webkit-background-clip:text;background-clip:text;color:transparent;
+ -webkit-text-stroke:.25px #ffe5ba;
+}

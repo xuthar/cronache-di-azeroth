@@ -4415,10 +4415,13 @@
     "questObjective": "Deliver book to Garion Wendell",
     "turnIn": "Stormwind Mage Tower, Garion Wendell",
     "coordinates": "49.0, 86.4",
-    "status": "pending-delivery",
-    "delivered": false,
+    "status": "completed-player-reported",
+    "delivered": true,
     "source": "Player announcement 2026-11-12 and Forever quest guide",
-    "nextDestination": "Westfall after book delivery",
-    "rewardReceived": null
+    "nextDestination": "Westfall · travelling",
+    "rewardReceived": null,
+    "deliveredAt": "2026-11-12 · precise hour not reported",
+    "recipient": "Garion Wendell",
+    "arrivalConfirmed": false
   }
 }

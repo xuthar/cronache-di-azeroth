@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-road-to-redridge",
+      "status": "living-novel-level-seventeen-redridge-lakeshire-completed-return-planned",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1708,6 +1708,43 @@
             "The familiar forests of Elwynn slowly gave way to the expectation of red stone and distant hills. Xuthar paused where the road narrowed, and studied the route ahead. Somewhere beyond lay another chapter of the Defias affair, but it would not reveal itself merely because he wished to finish it. No victory had yet been won on this new stage, and the unanswered questions were still honestly unanswered.",
             "He thought again of the people encountered along the way: the wandering figures, the adventurers with their private burdens, the bards who gave stories to those who possessed no books. The road had been full of voices. To a man who once feared silence, that was a gift worth keeping.",
             "Xuthar drew his cloak closer and walked on toward Redridge. The lamps of Stormwind were behind him, the hills ahead; between them lay another small piece of the life he was trying to remember. There would be time for heroic deeds when the need arose. Tonight, he listened to the road."
+          ]
+        },
+        {
+          "id": "x-nov12-lakeshire-arrival",
+          "chapter": "Chapter LXIX · The Bells of Lakeshire",
+          "title": "The Bridge Across Still Waters",
+          "kind": "reported",
+          "paragraphs": [
+            "The first thing Xuthar heard was the water, slipping beneath the arches of the old bridge. The red hills had gathered around him like the shoulders of sleeping giants, and beyond the lake the little houses of Lakeshire watched the evening with their windows beginning to glow. He had followed the road from Stormwind, past nameless travellers and wandering bards, until the road itself seemed to surrender him to the village.",
+            "At the approach to the bridge stood a clock above the waterside square, its face pale against the darkening rooftops. The priest lingered a moment beside it. The ordinary passing of an hour felt different in a place he had struggled to reach. Where his younger self would have hurried straight to the business awaiting him, Xuthar allowed himself to observe the town — the timber landings, the familiar blue colours of the Alliance and the long red mountains rising beyond the shore.",
+            "The affair of the Defias Brotherhood had brought him here, and this portion of its tangled business was now completed. Xuthar felt the particular relief of an obligation fulfilled, though he knew the wider troubles of Westfall would not end simply because one traveller had made one journey. The western fields still held their questions. There were people there who deserved answers, and people waiting for him to return.",
+            "A lake can seem still from far away. Only when he reached the shore did he notice how its surface stirred beneath the bridge. He thought of his own travels: a succession of quiet movements which, taken together, were carrying him farther than he had once believed possible."
+          ]
+        },
+        {
+          "id": "x-nov12-lakeshire-docks",
+          "chapter": "Chapter LXIX · The Bells of Lakeshire",
+          "title": "Lanterns Along the Wooden Quay",
+          "kind": "reported",
+          "paragraphs": [
+            "The boards of the waterfront were dark with evening damp. Barrels, crates and fishing gear lined the walkways; above them, lanterns lit the faces of merchants and the doorways of small workshops. A dockmaster watched the comings and goings as if he were keeping count not only of cargo, but of every life carried into town.",
+            "Xuthar walked along the wooden quay in no particular haste. People spoke to one another beneath the trees, and someone across the water called out to a friend. Such sounds seldom entered the songs of wandering bards. Yet they were the music of a place that was alive.",
+            "He remembered the worn strings of the traveller's lute he had heard along the road. Perhaps the best songs were not about grand halls or the final blows of a great battle. Perhaps they were about bridges crossed before dark, strangers who shared directions and quiet villages that received weary wanderers without asking their names.",
+            "He watched a lamp cast its trembling reflection into the water. There would be time enough for the road tomorrow. For this moment, Lakeshire belonged to memory."
+          ]
+        },
+        {
+          "id": "x-nov12-lakeshire-return",
+          "chapter": "Chapter LXX · The Westward Promise",
+          "title": "Where the Road Waited Again",
+          "kind": "fiction",
+          "paragraphs": [
+            "On a bench near the bridge, a weather-beaten traveller pretended to sleep beneath an oversized hat. When Xuthar passed, the man opened one eye. 'You look like someone who's finished something,' he said. 'Or someone who's remembered that he hasn't.'",
+            "'Both,' replied the priest.",
+            "The stranger gave a satisfied nod, as though that were the only sensible answer. Xuthar almost laughed. He had spent the evening on a mission that had brought him all the way to Redridge, and already his thoughts were returning to Westfall. There was no great feast for his success, no waiting court, no grand declaration at the town gates. Only another stretch of road and a few more names waiting to be written.",
+            "The priest adjusted his pack and looked back at the village. Beyond the lake the mountains held the last warmth of the day, while the clock tower stood above the shoreline like a patient witness. He would remember Lakeshire not because its stones had spoken to him, but because the water, the lights and the people had been there when he needed to remember why he travelled.",
+            "Westfall waited beyond the forest and the roads of Elwynn. The next steps were not yet taken, and so he left their pages blank. Then Xuthar rose, turned toward the way home, and let the night hold the story for a little longer."
           ]
         },
         {

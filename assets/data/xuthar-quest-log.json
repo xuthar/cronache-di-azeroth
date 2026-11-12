@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-11",
+  "recordedAt": "2026-11-12",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -2184,17 +2184,30 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-11-westfall-questie-six",
-    "day": "2026-11-11",
-    "observedAt": "2026-11-11 · local time of screenshot not independently verified",
-    "screenshot": "image(20261111-200417).png",
-    "allyScreenshot": "image(20261111-200446).png",
-    "zone": "Westfall",
-    "coordinates": null,
+    "id": "2026-11-12-stormwind-questie-seven",
+    "day": "2026-11-12",
+    "screenshot": "image(20261112-192351).png",
+    "interface": "Questie Tracker · 7/40",
+    "visibleCoordinates": {
+      "x": 64.6,
+      "y": 40.2,
+      "zoneUnconfirmed": true
+    },
+    "zone": "Not legible in crop; player currently reports Stormwind City",
     "characterLevel": 17,
-    "levelSource": "Last confirmed by player 10 November; no new level reported on 11 November",
-    "interface": "Questie Tracker · 6/40",
+    "levelSource": "Player-confirmed and later Blizzard API snapshot",
     "visibleQuests": [
+      {
+        "id": null,
+        "name": "Business in Auberdine",
+        "level": "17",
+        "groupLabel": "Darkshore",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "objectives": [],
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
       {
         "id": null,
         "name": "Collecting Memories",
@@ -2242,62 +2255,44 @@
       },
       {
         "id": null,
-        "name": "The State of the Mines",
-        "level": 14,
+        "name": "A Dynamite Plan",
+        "level": "16",
         "groupLabel": "Westfall",
         "status": "active",
-        "rawStatus": "0/4 Kobold Digger slain; 6/6 Riverpaw Miner slain",
+        "rawStatus": "0/10 Rough Dynamite",
         "objectives": [
           {
-            "name": "Kobold Digger slain",
+            "name": "Rough Dynamite",
             "current": 0,
-            "total": 4
-          },
-          {
-            "name": "Riverpaw Miner slain",
-            "current": 6,
-            "total": 6
+            "total": 10
           }
         ]
       },
       {
-        "id": 14,
-        "name": "The People's Militia",
-        "level": 17,
+        "id": null,
+        "name": "Detonation at a Distance",
+        "level": "16",
         "groupLabel": "Westfall",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
+        "objectives": [],
         "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false,
-        "phase": "second assignment"
+        "officialApiVerified": false
       },
       {
-        "id": 65,
+        "id": null,
         "name": "The Defias Brotherhood",
-        "level": 18,
+        "level": "18",
         "groupLabel": "Westfall",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
+        "objectives": [],
         "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false,
-        "note": "Single reported quest stage, not necessarily the entire storyline."
+        "officialApiVerified": false
       }
     ],
-    "newlyCompletedFromDisappearance": [],
-    "allies": [
-      {
-        "name": "Irlav Manaspark",
-        "level": 20,
-        "role": "Mage"
-      },
-      {
-        "name": "Tooker Iskald",
-        "level": 19,
-        "role": "Warrior"
-      }
-    ],
-    "scope": "Questie screen shows two 'Quest Complete!' entries — The People's Militia (second assignment) and The Defias Brotherhood — and four active Deadmines/Westfall tasks. Xuthar reports live questing in Westfall alongside Mage Irlav Manaspark (level 20) and Warrior Tooker Iskald (level 19). The same Defias quest title appeared as complete on an earlier screen; no inference that the entire multi-part chain is finished. No quest rewards, exact finish time or official API hand-ins are inferred.",
-    "storyChapterId": "x-nov11-defias-1"
+    "scope": "Three quests show Quest Complete! and are counted complete under the user's established convention. Four still show incomplete objectives. Tracker coordinates have no independently identifiable zone and cannot be interpreted as Stormwind coordinates. Older completed steps with identical titles remain historical; do not infer the whole Defias chain finished or a reward hand-in.",
+    "officialApiVerification": "Not inferred from this screenshot"
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -3930,7 +3925,7 @@
       "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-11-westfall-questie-six",
+  "latestQuestTrackerSnapshotId": "2026-11-12-stormwind-questie-seven",
   "latestQuestTrackerLocation": "Westfall · exact coordinates not reported",
   "lastLevelMilestone": {
     "level": 15,
@@ -4348,5 +4343,35 @@
     "playerConfirmedCompletions": [
       "The State of the Mines"
     ]
+  },
+  "twelfthNovemberQuestUpdate": {
+    "date": "2026-11-12",
+    "level": 17,
+    "locationFromPlayer": "Stormwind City",
+    "latestScreenshotId": "2026-11-12-stormwind-questie-seven",
+    "completedByChronicleConvention": [
+      "Business in Auberdine",
+      "Detonation at a Distance",
+      "The Defias Brotherhood"
+    ],
+    "active": [
+      {
+        "name": "Collecting Memories",
+        "progress": "0/4 Miners' Union Card"
+      },
+      {
+        "name": "Oh Brother...",
+        "progress": "0/1 Thistlenettle's Badge"
+      },
+      {
+        "name": "Underground Assault",
+        "progress": "0/1 Gnoam Sprecklesprocket"
+      },
+      {
+        "name": "A Dynamite Plan",
+        "progress": "0/10 Rough Dynamite"
+      }
+    ],
+    "note": "Questie completion convention applies, separate from Blizzard API. No exact delivery times or quest rewards reported."
   }
 }

@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Westfall",
-  "location": "Questing in Westfall",
+  "zone": "Stormwind City",
+  "location": "Stormwind · district not specified",
   "coordinates": null,
-  "activity": "Questing in Westfall · Level 17 · The Defias Brotherhood completed with Irlav Manaspark (Mage) and Tooker Iskald (Warrior)",
-  "reportedOn": "2026-11-11",
-  "updatedAt": "2026-11-11",
-  "note": "Manually reported by Xuthar on 11 November 2026. Quest tracker screenshot marks The Defias Brotherhood and The People's Militia 'Quest Complete!'. Recent Allies screenshot shows Irlav Manaspark, level 20 Mage, and Tooker Iskald, level 19 Warrior. Current level 17 carried over; no new level was reported. The tracker does not prove all steps of the Defias quest chain are complete."
+  "activity": "Returned from Westfall · completing quests and errands · Level 17",
+  "reportedOn": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "note": "Player reported LIVE in Stormwind after returning from Westfall on the evening of 12 November 2026 for quest turn-ins and errands. No individual quest hand-in, district or coordinates confirmed. Level 17 is the last confirmed level. This is a player-reported status, not Blizzard real-time location telemetry."
 }

@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 17,
-  "characterLevelSource": "Player confirmed level 17 on 10 November; carried forward because no new level reported on 11 November",
-  "characterLevelRecordedAt": "2026-11-08",
+  "characterLevel": 18,
+  "characterLevelSource": "Player directly confirmed with new screenshots; official Blizzard API may lag",
+  "characterLevelRecordedAt": "2026-11-12",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -1493,7 +1493,7 @@
       ]
     }
   ],
-  "previousConfirmedLevel": 14,
+  "previousConfirmedLevel": 17,
   "characterLevelConfirmation": "player-confirmed-official-snapshot-not-updated",
   "levelMilestonesReported": [
     {
@@ -1559,6 +1559,12 @@
       "source": "Player narrative and in-game adventure journal",
       "officialSnapshotStatus": "not independently confirmed yet",
       "xp": "not supplied"
+    },
+    {
+      "level": 18,
+      "date": "2026-11-12",
+      "source": "player report",
+      "notes": "Before the planned first Deadmines run"
     }
   ],
   "officialArmoryCheck": {
@@ -2184,115 +2190,66 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-12-stormwind-questie-seven",
+    "id": "2026-11-12-deadmines-preparation-8-40",
     "day": "2026-11-12",
-    "screenshot": "image(20261112-192351).png",
-    "interface": "Questie Tracker · 7/40",
+    "screenshot": "image(20261112-204044).png",
+    "interface": "Questie Tracker · 8/40",
     "visibleCoordinates": {
-      "x": 64.6,
-      "y": 40.2,
+      "x": 52.8,
+      "y": 53.5,
       "zoneUnconfirmed": true
     },
-    "zone": "Not legible in crop; player currently reports Stormwind City",
-    "characterLevel": 17,
-    "levelSource": "Player-confirmed and later Blizzard API snapshot",
+    "characterLevel": 18,
     "visibleQuests": [
       {
-        "id": null,
         "name": "Business in Auberdine",
-        "level": "17",
-        "groupLabel": "Darkshore",
         "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "objectives": [],
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "rawStatus": "Quest Complete!"
       },
       {
-        "id": null,
+        "name": "Retrieval for Mauren",
+        "level": "26",
+        "status": "active",
+        "rawStatus": "0/8 Crystallized Scales"
+      },
+      {
+        "name": "Red Silk Bandanas",
+        "level": "17D",
+        "status": "active",
+        "rawStatus": "0/10 Red Silk Bandana"
+      },
+      {
         "name": "Collecting Memories",
         "level": "18D",
-        "groupLabel": "The Deadmines",
         "status": "active",
-        "rawStatus": "0/4 Miners' Union Card",
-        "objectives": [
-          {
-            "name": "Miners' Union Card",
-            "current": 0,
-            "total": 4
-          }
-        ]
+        "rawStatus": "0/4 Miners’ Union Card"
       },
       {
-        "id": null,
+        "name": "Destruction in Deadmines",
+        "level": "18D",
+        "status": "active",
+        "rawStatus": "0/1 Explosives placed"
+      },
+      {
         "name": "Oh Brother...",
         "level": "20D",
-        "groupLabel": "The Deadmines",
         "status": "active",
-        "rawStatus": "0/1 Thistlenettle's Badge",
-        "objectives": [
-          {
-            "name": "Thistlenettle's Badge",
-            "current": 0,
-            "total": 1
-          }
-        ]
+        "rawStatus": "0/1 Thistlenettle’s Badge"
       },
       {
-        "id": null,
         "name": "Underground Assault",
         "level": "20D",
-        "groupLabel": "The Deadmines",
         "status": "active",
-        "rawStatus": "0/1 Gnoam Sprecklesprocket",
-        "objectives": [
-          {
-            "name": "Gnoam Sprecklesprocket",
-            "current": 0,
-            "total": 1
-          }
-        ]
+        "rawStatus": "0/1 Gnoam Sprecklesprocket"
       },
       {
-        "id": null,
-        "name": "A Dynamite Plan",
-        "level": "16",
-        "groupLabel": "Westfall",
-        "status": "active",
-        "rawStatus": "0/10 Rough Dynamite",
-        "objectives": [
-          {
-            "name": "Rough Dynamite",
-            "current": 0,
-            "total": 10
-          }
-        ]
-      },
-      {
-        "id": null,
-        "name": "Detonation at a Distance",
-        "level": "16",
-        "groupLabel": "Westfall",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "objectives": [],
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
-      },
-      {
-        "id": null,
         "name": "The Defias Brotherhood",
-        "level": "18",
-        "groupLabel": "Westfall",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "objectives": [],
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "level": "22D",
+        "status": "active",
+        "rawStatus": "0/1 Head of VanCleef"
       }
     ],
-    "scope": "Three quests show Quest Complete! and are counted complete under the user's established convention. Four still show incomplete objectives. Tracker coordinates have no independently identifiable zone and cannot be interpreted as Stormwind coordinates. Older completed steps with identical titles remain historical; do not infer the whole Defias chain finished or a reward hand-in.",
-    "officialApiVerification": "Not inferred from this screenshot"
+    "scope": "Visible 8/40 Questie tracker. The Defias Traitor escort is player-confirmed completed; VanCleef's head has not been collected and the dungeon run is planned for tomorrow."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -3925,15 +3882,13 @@
       "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-12-stormwind-questie-seven",
+  "latestQuestTrackerSnapshotId": "2026-11-12-deadmines-preparation-8-40",
   "latestQuestTrackerLocation": "Westfall · exact coordinates not reported",
   "lastLevelMilestone": {
-    "level": 15,
-    "date": "2026-11-08",
-    "levelUpLocation": "Longshore, Westfall",
-    "verification": "User and in-game adventure journal",
-    "storyChapterId": "x-westfall-eighth-nov-level-fifteen",
-    "subsequentLocation": "The Gilded Rose, Stormwind City · 60,70"
+    "level": 18,
+    "date": "2026-11-12",
+    "place": "Westfall · Deadmines access revealed; exact level-up location not confirmed",
+    "source": "Player confirmation"
   },
   "plannedItinerary": [
     {
@@ -4427,8 +4382,8 @@
   "currentDefiasMessengerStage": {
     "questId": 142,
     "questName": "The Defias Brotherhood",
-    "stage": "Part 5 · A Mysterious Message",
-    "status": "objective-complete-awaiting-hand-in",
+    "stage": "Earlier messenger stage completed; delivery not separately documented",
+    "status": "superseded-by-later-escort-and-deadmines-stage",
     "item": "A Mysterious Message",
     "itemCurrent": 1,
     "itemRequired": 1,
@@ -4447,9 +4402,11 @@
     "completionConfirmed": true,
     "messengerFound": true,
     "messageRecovered": true,
-    "deliveryToGryanConfirmed": false,
+    "deliveryToGryanConfirmed": null,
     "rewardReceived": null,
-    "nextStep": "Return to Gryan Stoutmantle at Sentinel Hill to hand in message"
+    "nextStep": "Return to Gryan Stoutmantle at Sentinel Hill to hand in message",
+    "successorQuestId": 155,
+    "note": "Player has progressed to Defias Traitor escort, but exact previous turn-in time and UI not independently verified."
   },
   "twelfthNovemberHordeEncounter": {
     "date": "2026-11-12",
@@ -4468,5 +4425,75 @@
     "questHandInConfirmed": false,
     "level": 17,
     "note": "No faction battle is inferred; the player described a full Horde guild moving through Westfall."
+  },
+  "defiasTraitorEscort": {
+    "date": "2026-11-12",
+    "questId": 155,
+    "name": "The Defias Brotherhood",
+    "stage": "Escort the Defias Traitor to the hidden Defias headquarters",
+    "status": "completed-player-confirmed",
+    "escortCharacter": "The Defias Traitor",
+    "zone": "Westfall · Moonbrook",
+    "hideoutRevealed": true,
+    "deadminesEntranceDiscovered": true,
+    "vanCleefDefeated": false,
+    "proof": "User report and in-game screenshot 21:31:11 showing The Defias Traitor before Moonbrook mine building",
+    "level": 18
+  },
+  "deadminesExpedition": {
+    "datePlanned": "2026-11-13",
+    "location": "Moonbrook · The Deadmines",
+    "status": "announced-planned",
+    "levelAtAnnouncement": 18,
+    "partySizeRecommended": 5,
+    "groupConfirmed": false,
+    "entered": false,
+    "completed": false,
+    "finalBoss": "Edwin VanCleef",
+    "quest": {
+      "name": "The Defias Brotherhood",
+      "levelLabel": "22D",
+      "objective": "Head of VanCleef",
+      "current": 0,
+      "total": 1
+    },
+    "questsObserved": [
+      {
+        "name": "Retrieval for Mauren",
+        "levelLabel": "26",
+        "progress": "0/8 Crystallized Scales"
+      },
+      {
+        "name": "Red Silk Bandanas",
+        "levelLabel": "17D",
+        "progress": "0/10 Red Silk Bandana"
+      },
+      {
+        "name": "Collecting Memories",
+        "levelLabel": "18D",
+        "progress": "0/4 Miners’ Union Card"
+      },
+      {
+        "name": "Destruction in Deadmines",
+        "levelLabel": "18D",
+        "progress": "0/1 Explosives placed"
+      },
+      {
+        "name": "Oh Brother...",
+        "levelLabel": "20D",
+        "progress": "0/1 Thistlenettle’s Badge"
+      },
+      {
+        "name": "Underground Assault",
+        "levelLabel": "20D",
+        "progress": "0/1 Gnoam Sprecklesprocket"
+      }
+    ],
+    "otherReadyVisible": {
+      "name": "Business in Auberdine",
+      "level": 17,
+      "rawStatus": "Quest Complete!",
+      "countedAsCompletedByUserConvention": true
+    }
   }
 }

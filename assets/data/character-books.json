@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-horde-guild-in-westfall",
+      "status": "living-novel-level-eighteen-deadmines-entrance-discovered",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1857,6 +1857,42 @@
             "He watched them gather near a pool and spread across the ploughed fields. Bright bursts of magic and the motion of mounts glimmered in the distance. Some shapes moved among the gnolls, but Xuthar could not say what plans brought the company there or where they intended to go. There was no battle to claim for his own, and no tale of bloodshed to invent. The sight itself was astonishing enough.",
             "Long ago he might have thought of the Horde only as an enemy named in books and shouted about by soldiers. Yet here were people on the same road, making their own stories beneath the same weary sky. Their banners and allegiances were not his, but their passing reminded him how much of Azeroth remained beyond any one kingdom's walls.",
             "At last he looked again toward Sentinel Hill. The message for Gryan Stoutmantle was still undelivered. He had lingered to witness something rare; now duty called him onward. Behind him, the great company continued across the golden fields, a memory he would carry long after their names had vanished from sight."
+          ]
+        },
+        {
+          "id": "x-nov12-traitor-moonbrook",
+          "chapter": "Chapter LXXVIII · The Man Who Knew the Way",
+          "title": "A Traitor Among the Withered Fields",
+          "kind": "reported",
+          "paragraphs": [
+            "The evening was already full of roads when Xuthar Morvayne undertook one final passage through Westfall. He had hunted a courier, recovered a mysterious message, and watched an unexpected host of the Horde cross the golden fields. Yet the greatest secret lay not in a letter or a banner, but in the hands of a man willing to betray the people who had once called him brother.",
+            "The Defias Traitor walked ahead, wary of every rise in the ground and every shape beneath the trees. A guide so despised by his former companions could never regard the open road as safe. Xuthar kept near him, remembering that a man's confession did not make him invulnerable to the knives of those he betrayed. The pair pressed through the bleak outskirts of Moonbrook until the old buildings stood up like broken teeth against the western sky.",
+            "Beyond the sunken earth and darkened timbers the traitor revealed what the Defias had guarded for so long: the entrance to the Deadmines. VanCleef and his men were not simply hiding in the wilderness. Beneath the dead settlement lay a world of galleries, machines and deep stone, the hidden heart of a conspiracy whose suffering had begun far from those tunnels.",
+            "When the escort was done, Xuthar did not mistake the revelation for victory. Finding the gate and surviving the dark passages beyond it were two different things. The name of Edwin VanCleef waited somewhere below, still beyond reach. The priest looked once more at the mine buildings, certain that the next road would lead under the earth."
+          ]
+        },
+        {
+          "id": "x-nov12-eighteenth-threshold",
+          "chapter": "Chapter LXXIX · The Eighteenth Threshold",
+          "title": "What the Earth Concealed",
+          "kind": "reported",
+          "paragraphs": [
+            "There had been no herald to announce the change. Between the long errands and dangerous fields, Xuthar Morvayne had reached his eighteenth level. It was a measure of progress, certainly, but numbers had never told the whole story of a priest learning to listen to the world. He had grown through weather, weary journeys, unlikely companions and the patience required to finish even the smallest task.",
+            "The Deadmines waited under Westfall, a place older than the secrets it now held. Once miners had followed the promise of gold through its stone. Then wars and abandonment left the passages to silence, until the Defias Brotherhood made them useful again. Rumours spoke of goblin machinery and of a great vessel concealed in the cavernous depths, built not for peaceful trade but for vengeance.",
+            "Xuthar knew the stories of Edwin VanCleef only in fragments. A master of stone and cities turned against Stormwind; a brotherhood formed from betrayal and deprivation; and now a hidden fortress beneath the fields whose farmers had suffered for years. He wondered how many of the men below had once wished only to be paid for honest work. Pity would not shield him from their blades, but understanding might keep him from becoming what he fought.",
+            "He would not descend alone. An expedition was planned for the following day, the thirteenth of November: a company to enter the mine, find its secrets and confront the leader who had become the face of Westfall's long misery. Until then, the priest would prepare his staff, examine his spells and keep the light of the surface in memory. The warship, the deep chambers and VanCleef himself belonged to tomorrow, not to any victory already won."
+          ]
+        },
+        {
+          "id": "x-nov12-deadmines-vigil",
+          "chapter": "Chapter LXXX · Vigil Before the Deep",
+          "title": "The Night Before VanCleef",
+          "kind": "fiction",
+          "paragraphs": [
+            "In the quiet hour before sleep, Xuthar imagined the sound the mine would make when five sets of boots disturbed its stillness. He heard pickaxes where there were none, chains rattling behind iron doors, and the slow thud of machinery driven beneath the earth. Somewhere within his dream a pirate ship waited in a cavern that had never seen the open sea.",
+            "Carro Steelcave's laughter returned to him from an earlier journey, and so did the voices of the strangers who had helped him through Westfall. Perhaps the next companions would be familiar, perhaps wholly new. The tale would tell him only when they met. He would not place invented names beside a campfire simply to make the darkness seem less deep.",
+            "He imagined the foreman Rhahk'Zor standing at a gate, the terrible shredder of Sneed grinding among timber and dust, the forge of Gilnid and the armed guards of an underground vessel. Such were the names travellers gave to the Deadmines. All remained future challenges, not trophies.",
+            "When he finally closed his eyes, the Shadow offered him a promise of easy power. Xuthar answered with an older vow: he would carry the names of those whom Azeroth forgot. Above the tunnels, the wind moved through Westfall's empty fields; below them waited Edwin VanCleef. The page turned, but the next chapter had not yet begun."
           ]
         },
         {

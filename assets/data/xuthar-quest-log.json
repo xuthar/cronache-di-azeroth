@@ -4372,6 +4372,25 @@
         "progress": "0/10 Rough Dynamite"
       }
     ],
-    "note": "Questie completion convention applies, separate from Blizzard API. No exact delivery times or quest rewards reported."
+    "note": "Questie completion convention applies, separate from Blizzard API. No exact delivery times or quest rewards reported.",
+    "redridgeFollowUp": {
+      "zone": "Redridge Mountains",
+      "location": "Lakeshire",
+      "screenshotTimes": [
+        "20:55:30",
+        "20:57:38",
+        "20:57:45"
+      ],
+      "screenshotFiles": [
+        "WoWScrnShot_111226_205530.jpg",
+        "WoWScrnShot_111226_205738.jpg",
+        "WoWScrnShot_111226_205745.jpg"
+      ],
+      "quest": "The Defias Brotherhood",
+      "status": "completed-player-reported",
+      "scope": "One follow-up quest stage at Redridge. Do not claim entire quest chain completed.",
+      "nextDestination": "Westfall",
+      "arrivalAtNextDestinationConfirmed": false
+    }
   }
 }

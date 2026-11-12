@@ -4428,9 +4428,9 @@
     "questId": 142,
     "questName": "The Defias Brotherhood",
     "stage": "Part 5 · A Mysterious Message",
-    "status": "active-planned-search",
+    "status": "objective-complete-awaiting-hand-in",
     "item": "A Mysterious Message",
-    "itemCurrent": 0,
+    "itemCurrent": 1,
     "itemRequired": 1,
     "target": "Defias Messenger",
     "targetZone": "Westfall",
@@ -4443,7 +4443,12 @@
     "questGiver": "Gryan Stoutmantle",
     "turnIn": "Sentinel Hill, Westfall (56.3, 47.5)",
     "reportedOn": "2026-11-12",
-    "playerConfirmed": "Next objective is to find messenger",
-    "completionConfirmed": false
+    "playerConfirmed": "Defias Messenger found and A Mysterious Message acquired",
+    "completionConfirmed": true,
+    "messengerFound": true,
+    "messageRecovered": true,
+    "deliveryToGryanConfirmed": false,
+    "rewardReceived": null,
+    "nextStep": "Return to Gryan Stoutmantle at Sentinel Hill to hand in message"
   }
 }

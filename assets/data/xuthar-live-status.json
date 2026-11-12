@@ -5,10 +5,10 @@
   "status": "live",
   "statusConfirmed": true,
   "zone": "Stormwind City",
-  "location": "Stormwind canal bridge · exact district unconfirmed",
+  "location": "Stormwind · meeting with Mathias Shaw",
   "coordinates": null,
-  "activity": "Arrived in Stormwind under the rain · preparing to meet Mathias Shaw · Level 17",
+  "activity": "Meeting Mathias Shaw about the Defias Brotherhood · Level 17",
   "reportedOn": "2026-11-12",
   "updatedAt": "2026-11-12",
-  "note": "Player screenshot WoWScrnShot_111226_210701.jpg shows Xuthar at 21:07 on a bridge over Stormwind canals in rain. Arrival confirmed, meeting with Mathias Shaw and subsequent quest outcome not yet confirmed. Location is manually documented rather than API live telemetry."
+  "note": "Player confirms arriving to meet Mathias Shaw in Stormwind after a rainy crossing of the canals. The screenshot establishes meeting/presence, not quest hand-in completion, reward or new quest outcome. Level 17 remains last verified."
 }

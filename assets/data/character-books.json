@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level17-defias-messenger-hunt",
+      "status": "living-novel-level-seventeen-defias-message-recovered",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1832,6 +1832,18 @@
             "Somewhere in Westfall a courier travelled between Moonbrook, the Gold Coast Quarry and Jangolode Mine. He carried a message meant for the Defias, a scrap of writing that might bind the scattered crimes of the Brotherhood to a single name. Xuthar was to recover it and return to Gryan Stoutmantle at Sentinel Hill. The mission sounded simple when spoken beneath safe roofs. On those lonely roads, no messenger would willingly introduce himself to a priest asking after hidden letters.",
             "He remembered the battered inns of Goldshire and the rain against Stormwind's canals. He remembered the tales of bards and wayfarers met on the eastern road. Each person carried news, whether openly or in secret. But somewhere ahead a man carried words whose meaning might change the course of the investigation. The thought stirred the Shadow within him, and he refused to let curiosity become cruelty.",
             "Xuthar drew his cloak closer and watched the road stretch westward. He had not found the courier yet. No letter had been taken, no victory claimed. Beyond the dark fields, Westfall awaited his return, and with it a question written on a page he had not yet seen."
+          ]
+        },
+        {
+          "id": "x-nov12-defias-messenger-caught",
+          "chapter": "Chapter LXXVI · Words Stolen from the Wind",
+          "title": "The Courier and the Secret",
+          "kind": "reported",
+          "paragraphs": [
+            "On the roads of Westfall, beneath a sky that seemed to have forgotten the kindness of sunlight, Xuthar Morvayne found the man he had been seeking. The Defias Messenger was no grand general, no lord of a hidden fortress. He was a traveller among travellers, carrying a small thing whose value lay not in parchment or ink but in what it might reveal.",
+            "There was a moment when the road seemed to narrow to the distance between two strangers. Xuthar remembered the errands that had brought him here: the road to Redridge, the rain over Stormwind's bridges, the letter delivered to Mathias Shaw, the enchanted book left at the Mage Tower. Every crossing, every return, had led him back to this stretch of troubled country.",
+            "Now the mysterious message was in his possession. The courier's errand had ended; Xuthar's had not. He did not unfold the story of its contents in his imagination, and he would not pretend to know what judgment awaited at Sentinel Hill. Gryan Stoutmantle still needed to receive the evidence, and the Defias Brotherhood remained a shadow cast across the western fields.",
+            "The priest secured the recovered message and looked toward the hills. A single scrap of writing had once led him and Carro Steelcave across Azeroth. Another now rested against his chest, asking for a shorter journey but perhaps no smaller courage. He set out to carry it onward, leaving the last page of this errand unwritten until it was truly done."
           ]
         },
         {

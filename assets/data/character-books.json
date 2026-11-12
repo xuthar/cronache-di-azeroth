@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-17-mathias-shaw-journey",
+      "status": "living-novel-level-seventeen-rainy-stormwind-before-shaw",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1771,6 +1771,30 @@
             "The courier smiled, or perhaps the fire merely shifted beneath his hood. 'Ask the man you're going to meet.'",
             "Xuthar went on, uncertain whether he had imagined the exchange in the dark or borrowed its meaning from his own fears. The Shadow within him stirred at the thought of hidden doors and unspoken names. This time he did not welcome it or drive it away. He simply kept walking, determined to hear what Mathias Shaw had to say for himself.",
             "Far ahead, beyond the trees, Stormwind waited. The audience was still unwritten. The road, as ever, had only brought him to the beginning."
+          ]
+        },
+        {
+          "id": "x-nov12-stormwind-rain-bridge",
+          "chapter": "Chapter LXXII · Rain Upon the King's City",
+          "title": "The Bridge Where the Rain Remembered",
+          "kind": "reported",
+          "paragraphs": [
+            "By the time Xuthar Morvayne reached Stormwind again, rain had taken possession of the city. He stopped upon a stone bridge above the canals, where the cobbles shone like dark scales beneath the lantern light. Below, the water stirred in slow circles against timber moorings. Rain threaded its way across rooftops and parapets, softening even the capital's formidable walls.",
+            "He had travelled from Lakeshire to Westfall, barely paused, and then turned back toward the city. The miles were beginning to blur, yet this moment would not. In the dimness of the canals, a single lantern burned upon the wooden landing, and Xuthar stood between two banks as though caught between the journey behind him and the questions still ahead.",
+            "Mathias Shaw awaited somewhere within Stormwind. Xuthar had not yet met him, and he refused to imagine his words as though they had already been spoken. A priest of the Shadow could know the danger of certainty as well as anyone. There would be time to listen; first he allowed himself one breath in the rain.",
+            "His robes grew heavier with water. He thought of the singing travellers on the road, Carro Steelcave at the broken wall, and all the small lights that had guided him through foreign places. The city was dark, but not without warmth. Somewhere beyond the bridge lay another door to open. Xuthar crossed slowly, and the rain followed him."
+          ]
+        },
+        {
+          "id": "x-nov12-rain-messenger",
+          "chapter": "Chapter LXXII · Rain Upon the King's City",
+          "title": "A Letter That Refused the Fire",
+          "kind": "fiction",
+          "paragraphs": [
+            "Beneath the arcade he imagined a messenger waiting out the storm, clutching an envelope wrapped in oilskin. The stranger would not speak of its recipient; he watched the canal as though the water could swallow a secret on command.",
+            "'I was told every answer has a price,' the stranger said at last. 'And every silence?' asked Xuthar. 'That costs more,' came the reply.",
+            "The vision dissolved as a cart rolled past and the lantern shook in the wind. No messenger had stepped from the dark, no letter had changed hands. Yet the imagined exchange stayed with him as he continued toward the man called Mathias Shaw. Some riddles needed no magic to be dangerous.",
+            "And above the canal, the rain went on writing upon the city, countless silver lines that vanished the moment they touched the stone."
           ]
         },
         {

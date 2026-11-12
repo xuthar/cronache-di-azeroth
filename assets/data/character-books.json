@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-stormwind-errands-nov12",
+      "status": "living-novel-level-seventeen-road-to-redridge",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1674,6 +1674,40 @@
             "'No,' Xuthar answered quietly. 'But I can refuse to forget the ones I find.'",
             "The river did not reply. A child laughed somewhere along the embankment, and the ordinary noise of the city returned. He thought of Carro, of the miles they had walked in silence, of the moment they had reached the last stones of Thoradin's Wall and found a place to rest instead of a treasure worthy of a king. Perhaps rest was not the opposite of adventure. Perhaps it was what allowed the next adventure to begin.",
             "He turned toward the lit streets and resumed his errands. The city's towers stood above him, vast and indifferent, but somewhere within their walls were letters, memories and people worth meeting. Tonight he would finish what he could. Tomorrow's unanswered questions could wait until morning."
+          ]
+        },
+        {
+          "id": "x-redridge-nov12-road",
+          "chapter": "Chapter LXVII · The Road of Wandering Voices",
+          "title": "The Eastward Road",
+          "kind": "reported",
+          "paragraphs": [
+            "Stormwind's great gates stood behind Xuthar Morvayne when he turned his steps eastward again. The affairs that had drawn him to the city were yielding to a new summons: the unfinished business of the Defias Brotherhood, a tangled affair whose threads seemed to stretch farther than the battered fields of Westfall. An earlier task had been fulfilled, yet the greater story still demanded answers. Somewhere toward Redridge, another piece was waiting.",
+            "The city faded into the evening's sound of turning wheels, creaking leather and horses on packed earth. Xuthar carried a traveller's modest belongings, a priest's practiced caution, and memories that had not yet settled since the long journey with Carro Steelcave. The world did not grant a man a week to recover from wonder. Its roads simply continued.",
+            "The road was not empty. Merchants led wagons laden with grain; wayfarers passed with dusty boots and the easy, wary greetings of strangers. Some were adventurers, their armor scratched by dangers Xuthar could only guess at. He gave each a nod and, when anyone was willing to talk, a little of his time. The people who moved between towns were seldom mentioned in chronicles, although kingdoms depended upon their courage to keep moving."
+          ]
+        },
+        {
+          "id": "x-redridge-nov12-bards",
+          "chapter": "Chapter LXVII · The Road of Wandering Voices",
+          "title": "The Bard with the Broken Lute",
+          "kind": "fiction",
+          "paragraphs": [
+            "At a wayside fire he imagined an old bard perched upon an overturned cask, coaxing a tune from a lute repaired with wire of three different colours. The song did not praise a prince or a general. It told of a woman who kept a lamp burning at a crossroads long after the last traveller had failed to return.",
+            "'That is a sad song,' Xuthar said. The bard grinned through his beard. 'Only if you think the lamp was lit in vain.'",
+            "A young swordswoman, resting beside the fire, argued that the song ought to end with a rescue. A caravan guard wanted a battle. The bard shook his head. 'Every fool knows how a battle ends. The trick is learning why someone waited.' Xuthar found himself smiling. For all the strange things he had witnessed, the hardest mysteries were still those hidden inside ordinary hearts.",
+            "He shared a little bread before continuing. Behind him the melody lingered on the night air, unfinished and stubbornly alive, like a name written against the certainty of forgetting. He would remember the company of travellers, even if the firelit conversation belonged only to the story he made of the road."
+          ]
+        },
+        {
+          "id": "x-redridge-nov12-border",
+          "chapter": "Chapter LXVIII · Hills of Red, Shadows of Blue",
+          "title": "Before the Redridge Hills",
+          "kind": "reported",
+          "paragraphs": [
+            "The familiar forests of Elwynn slowly gave way to the expectation of red stone and distant hills. Xuthar paused where the road narrowed, and studied the route ahead. Somewhere beyond lay another chapter of the Defias affair, but it would not reveal itself merely because he wished to finish it. No victory had yet been won on this new stage, and the unanswered questions were still honestly unanswered.",
+            "He thought again of the people encountered along the way: the wandering figures, the adventurers with their private burdens, the bards who gave stories to those who possessed no books. The road had been full of voices. To a man who once feared silence, that was a gift worth keeping.",
+            "Xuthar drew his cloak closer and walked on toward Redridge. The lamps of Stormwind were behind him, the hills ahead; between them lay another small piece of the life he was trying to remember. There would be time for heroic deeds when the need arose. Tonight, he listened to the road."
           ]
         },
         {

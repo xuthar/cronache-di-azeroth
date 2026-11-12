@@ -4450,5 +4450,23 @@
     "deliveryToGryanConfirmed": false,
     "rewardReceived": null,
     "nextStep": "Return to Gryan Stoutmantle at Sentinel Hill to hand in message"
+  },
+  "twelfthNovemberHordeEncounter": {
+    "date": "2026-11-12",
+    "zone": "Westfall",
+    "timeRange": "21:24–21:25",
+    "context": "Returning to deliver A Mysterious Message to Gryan Stoutmantle at Sentinel Hill",
+    "observedByPlayer": "A large Horde guild group travelling through Westfall",
+    "screenshotFiles": [
+      "WoWScrnShot_111226_212416.jpg",
+      "WoWScrnShot_111226_212437.jpg",
+      "WoWScrnShot_111226_212519.jpg"
+    ],
+    "gallery": "westfall-horde-gallery/",
+    "guildName": null,
+    "pvpCombatConfirmed": false,
+    "questHandInConfirmed": false,
+    "level": 17,
+    "note": "No faction battle is inferred; the player described a full Horde guild moving through Westfall."
   }
 }

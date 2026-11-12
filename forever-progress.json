@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794410193,
+  "exportedAt": 1794448552,
   "characters": [
     {
       "id": "xuthar",
@@ -17,19 +17,27 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 158,
+      "questsCompleted": 160,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794410193,
+      "checkedAt": 1794448552,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794410193,
-          "inProgressCount": 6,
-          "completedCount": 158,
+          "snapshotAt": 1794448552,
+          "inProgressCount": 5,
+          "completedCount": 160,
           "inProgress": [
+            {
+              "id": 168,
+              "name": "Collecting Memories"
+            },
+            {
+              "id": 167,
+              "name": "Oh Brother..."
+            },
             {
               "id": 65,
               "name": "The Defias Brotherhood"
@@ -39,20 +47,8 @@
               "name": "Underground Assault"
             },
             {
-              "id": 168,
-              "name": "Collecting Memories"
-            },
-            {
-              "id": 14,
-              "name": "The People's Militia"
-            },
-            {
-              "id": 167,
-              "name": "Oh Brother..."
-            },
-            {
-              "id": 92745,
-              "name": "The State of the Mines"
+              "id": 92747,
+              "name": "Moonbrook Espionage"
             }
           ],
           "completedQuestIds": [
@@ -62,6 +58,7 @@
             11,
             12,
             13,
+            14,
             15,
             18,
             21,
@@ -149,6 +146,7 @@
             92124,
             92742,
             92744,
+            92745,
             94773,
             94774,
             94775,
@@ -269,6 +267,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 14,
+              "title": "The People's Militia",
+              "area": "Westfall",
+              "briefing": "Some Defias have eluded us. My most trusted scout reports that these Defias have been looting and pillaging the countryside, all the way into…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 15,
@@ -1054,6 +1061,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 92745,
+              "title": "The State of the Mines",
+              "area": "Westfall",
+              "briefing": "The well samples you collected contain toxic metals! If we do not put an end to this corruption quickly, it will be decades before…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 94773,
               "title": "Divine Grace",
               "area": "Priest",
@@ -1639,8 +1655,11 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794357684,
+          "newlyObservedCompletedIds": [
+            14,
+            92745
+          ],
+          "comparedWithSnapshotAt": 1794410193,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1651,12 +1670,12 @@
           "equippedCount": 10
         },
         "reputations": {
-          "trackedCount": 7
+          "trackedCount": 4
         },
         "achievements": {
           "trackedCount": 18
         },
-        "profileCheckedAt": 1794410193
+        "profileCheckedAt": 1794448552
       }
     }
   ],

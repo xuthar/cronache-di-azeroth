@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-defias-message-recovered",
+      "status": "living-novel-level-seventeen-horde-guild-in-westfall",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1844,6 +1844,19 @@
             "There was a moment when the road seemed to narrow to the distance between two strangers. Xuthar remembered the errands that had brought him here: the road to Redridge, the rain over Stormwind's bridges, the letter delivered to Mathias Shaw, the enchanted book left at the Mage Tower. Every crossing, every return, had led him back to this stretch of troubled country.",
             "Now the mysterious message was in his possession. The courier's errand had ended; Xuthar's had not. He did not unfold the story of its contents in his imagination, and he would not pretend to know what judgment awaited at Sentinel Hill. Gryan Stoutmantle still needed to receive the evidence, and the Defias Brotherhood remained a shadow cast across the western fields.",
             "The priest secured the recovered message and looked toward the hills. A single scrap of writing had once led him and Carro Steelcave across Azeroth. Another now rested against his chest, asking for a shorter journey but perhaps no smaller courage. He set out to carry it onward, leaving the last page of this errand unwritten until it was truly done."
+          ]
+        },
+        {
+          "id": "x-westfall-horde-nov12",
+          "chapter": "Chapter LXXVII · Banners Across the Golden Fields",
+          "title": "The Host That Passed in Silence",
+          "kind": "reported",
+          "paragraphs": [
+            "Xuthar was travelling toward Sentinel Hill with A Mysterious Message secured among his belongings when something unusual disturbed the distant hills of Westfall. At first he saw only scattered figures beyond the dry grasses, near the restless Riverpaw gnolls. Then the figures multiplied. Riders, warriors and spellcasters moved together across the land, their names crowding the horizon like a field of lanterns.",
+            "It was the Horde. Not a solitary wanderer far from home, but a great company — an entire guild, it seemed — crossing the farmlands of the Alliance in numbers Xuthar had not expected to see. Their movement stirred the quiet countryside into something vast and uncertain. He stopped for a moment, scarcely trusting the sight. Westfall had already offered him bandits, exhausted farmers, strange messages and perilous roads. Now it offered an army of strangers.",
+            "He watched them gather near a pool and spread across the ploughed fields. Bright bursts of magic and the motion of mounts glimmered in the distance. Some shapes moved among the gnolls, but Xuthar could not say what plans brought the company there or where they intended to go. There was no battle to claim for his own, and no tale of bloodshed to invent. The sight itself was astonishing enough.",
+            "Long ago he might have thought of the Horde only as an enemy named in books and shouted about by soldiers. Yet here were people on the same road, making their own stories beneath the same weary sky. Their banners and allegiances were not his, but their passing reminded him how much of Azeroth remained beyond any one kingdom's walls.",
+            "At last he looked again toward Sentinel Hill. The message for Gryan Stoutmantle was still undelivered. He had lingered to witness something rare; now duty called him onward. Behind him, the great company continued across the golden fields, a memory he would carry long after their names had vanished from sight."
           ]
         },
         {

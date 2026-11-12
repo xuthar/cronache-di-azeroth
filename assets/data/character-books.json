@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-first-week-memories",
+      "status": "living-novel-level-seventeen-stormwind-errands-nov12",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1640,6 +1640,43 @@
           ]
         },
         {
+          "id": "x-stormwind-nov12-gates",
+          "chapter": "Chapter LXV · The City That Remembered",
+          "title": "Dust Upon the White Stones",
+          "kind": "reported",
+          "paragraphs": [
+            "Stormwind received Xuthar Morvayne as it received a hundred others that evening: without a herald, without a drum, and without the slightest interest in the miles his boots had carried him. The dust of Westfall still clung to their seams. Under the high white walls, carts rattled across the paving stones while the guards watched the gates with a patience only soldiers and old statues truly possessed.",
+            "He had come to settle unfinished business. There were errands to complete, accounts to put in order, and obligations that could not be carried forever across the roads. Somewhere behind him lay the golden fields, the Defias trouble and a dozen faces he would not soon forget. Farther still lay the impossible journey with Carro Steelcave, where a burned note had led two friends across the world. After such adventures, the thought of standing in a queue before a clerk ought to have seemed ridiculous. Instead it felt strangely precious.",
+            "The city smelled of wet stone, horses, hot bread and chimney smoke. Shopkeepers called from beneath their awnings; apprentices hurried past with bolts of cloth beneath their arms. A woman struggled with an overfilled basket, and a passing guard stopped to help her recover a fallen apple. Xuthar watched the small kindness with more attention than he had given many banners. He was beginning to believe that great cities survived not because their walls were strong, but because ordinary people kept choosing to care."
+          ]
+        },
+        {
+          "id": "x-stormwind-nov12-ledgers",
+          "chapter": "Chapter LXV · The City That Remembered",
+          "title": "The Keeper of Unclaimed Letters",
+          "kind": "fiction",
+          "paragraphs": [
+            "Near the Trade District, in a narrow shop tucked between a tailor and an ink seller, Xuthar noticed a tray of letters bound with grey ribbon. None bore a noble seal. Some were addressed to places that had ceased to exist, others to people who had never returned to claim them. A tired elderly clerk was preparing to throw the oldest into a brazier.",
+            "'They take up room,' the man said when he noticed Xuthar looking. 'And no one remembers who they were meant for.'",
+            "Xuthar laid two fingers on the edge of the tray. He had followed a scrap of writing through half of Azeroth. He knew better than to assume a message had lost its meaning merely because its reader was missing. 'May I copy their names?' he asked. The clerk gave him a doubtful look, then pushed forward the first bundle.",
+            "Outside, rain began to trace narrow rivers between the stones. Inside, Xuthar opened his small ledger and wrote slowly. A baker's daughter in Lakeshire. A soldier sent north. A miner whose home address ended at a bridge long destroyed. These were imagined names of no importance to princes; to Xuthar, they mattered precisely because history would never bother to make monuments of them.",
+            "When he finished, he left the clerk with a promise to return if he learned anything of the intended recipients. It was no quest given by a captain, and no reward appeared in his purse. Yet he stepped outside feeling as though some part of the city had grown lighter."
+          ]
+        },
+        {
+          "id": "x-stormwind-nov12-shadow",
+          "chapter": "Chapter LXVI · The Quiet Between Errands",
+          "title": "A Whisper Beneath the Canals",
+          "kind": "fiction",
+          "paragraphs": [
+            "The canals carried reflections of Stormwind's lamps in wavering golden lines. Xuthar paused upon a bridge and watched the water slip beneath him, drawing the evening onward without haste. From the cathedral district came the distant toll of a bell. Beneath its sound, another voice seemed to move through his thoughts.",
+            "'You cannot save every name,' it whispered. The voice was not cruel. That was what made it dangerous. It sounded like the sensible conclusion of a man who had lived long enough to be disappointed.",
+            "'No,' Xuthar answered quietly. 'But I can refuse to forget the ones I find.'",
+            "The river did not reply. A child laughed somewhere along the embankment, and the ordinary noise of the city returned. He thought of Carro, of the miles they had walked in silence, of the moment they had reached the last stones of Thoradin's Wall and found a place to rest instead of a treasure worthy of a king. Perhaps rest was not the opposite of adventure. Perhaps it was what allowed the next adventure to begin.",
+            "He turned toward the lit streets and resumed his errands. The city's towers stood above him, vast and indifferent, but somewhere within their walls were letters, memories and people worth meeting. Tonight he would finish what he could. Tomorrow's unanswered questions could wait until morning."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -1807,5 +1844,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-11"
+  "lastEditorialUpdate": "2026-11-12"
 }

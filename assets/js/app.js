@@ -188,8 +188,8 @@
           {time:'After 20:57 · exact arrival hour not recorded',title:'Back in Westfall',description:'After completing the Redridge mission stage, Xuthar returns successfully to Westfall. He cannot remain: another part of the Defias affair draws him toward Stormwind.'},
           {time:'21:07 · screenshot',title:'Stormwind — rain over the canal bridge',description:'Xuthar arrives in Stormwind in heavy rain, seen standing on a stone bridge over the dark canals.'},
           {time:'After 21:07 · exact hour unrecorded',title:'Mathias Shaw — the letter is delivered',description:'Xuthar meets Mathias Shaw and hands over the letter, as confirmed by the player. No quest ID or reward is inferred.'},
-          {time:'Next errand · not yet handed in',title:'The Mage Tower — Bewitchments and Glamours',description:'Before leaving Stormwind, Xuthar must take the magical book Bewitchments and Glamours to librarian Garion Wendell in the Mage Tower (49.0, 86.4). The delivery has not yet been confirmed.'},
-          {time:'After the library errand · planned',title:'Back toward Westfall',description:'Once the book is delivered, Xuthar plans to return to Westfall. Departure and arrival remain unconfirmed.'},
+          {time:'After Mathias Shaw · precise hour not reported',title:'Mage Tower — Bewitchments and Glamours delivered',description:'Xuthar hands the recovered magical book to Garion Wendell in Stormwind. The player confirms completion; the reward and exact hour remain unreported.'},
+          {time:'After the book delivery · journey in progress',title:'Westward again',description:'With the letter and book delivered, Xuthar leaves Stormwind for Westfall. His arrival there remains unconfirmed.'},
           {time:'Roleplay interlude · fictional',title:'Unclaimed letters and the canal whisper',description:'In the novel Xuthar encounters a keeper of forgotten letters and contemplates the voices of the Shadow while walking between his errands.'}
         ],photos:'redridge-lakeshire-gallery/'}
       ];

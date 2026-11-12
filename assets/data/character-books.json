@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-seventeen-rainy-stormwind-before-shaw",
+      "status": "living-novel-level-seventeen-letter-delivered-shaw-westfall-return",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1795,6 +1795,18 @@
             "'I was told every answer has a price,' the stranger said at last. 'And every silence?' asked Xuthar. 'That costs more,' came the reply.",
             "The vision dissolved as a cart rolled past and the lantern shook in the wind. No messenger had stepped from the dark, no letter had changed hands. Yet the imagined exchange stayed with him as he continued toward the man called Mathias Shaw. Some riddles needed no magic to be dangerous.",
             "And above the canal, the rain went on writing upon the city, countless silver lines that vanished the moment they touched the stone."
+          ]
+        },
+        {
+          "id": "x-nov12-shaw-letter-delivered",
+          "chapter": "Chapter LXXIII · The Letter Beneath the Rain",
+          "title": "A Message in the House of Shadows",
+          "kind": "reported",
+          "paragraphs": [
+            "The rain had followed Xuthar Morvayne from the bridge into the streets of Stormwind, where lamplight trembled on every wet stone. He had crossed half the evening in pursuit of a name, and now, at last, stood before Mathias Shaw. The man needed no crown or herald to command a room. He belonged to the quieter machinery of kingdoms: messages, secrets and the patience to hear what others preferred not to say.",
+            "Xuthar delivered the letter. Such a small gesture for so much travel: a folded message passed from one hand to another, carrying the weight of the Defias affair across the roads of Redridge, Westfall and Stormwind. He imagined all the people whose lives might lie between its lines, but he would not pretend to know what Shaw made of the words. The delivery itself was enough to close this part of his duty.",
+            "There was no reason to remain in the capital. Beyond the gates, Westfall waited with its golden fields and its unfinished questions. Xuthar drew his cloak close against the rain and turned back toward the road once more. He had begun to understand that perseverance rarely looked like a single heroic charge. More often it was the willingness to go back, to listen, to carry a message, and to begin again.",
+            "The city bells faded behind him. The night promised neither comfort nor a quick end to the Defias trouble. Yet one task had been faithfully done, one letter placed in the right hands, and The Last Witness had another name to remember."
           ]
         },
         {

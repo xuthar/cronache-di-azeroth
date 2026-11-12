@@ -4,11 +4,11 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Elwynn Forest / road to Stormwind",
-  "location": "Travelling from Westfall toward Stormwind City",
+  "zone": "Stormwind City",
+  "location": "Stormwind canal bridge · exact district unconfirmed",
   "coordinates": null,
-  "activity": "Urgent journey to meet Mathias Shaw · Defias Brotherhood storyline · Level 17",
+  "activity": "Arrived in Stormwind under the rain · preparing to meet Mathias Shaw · Level 17",
   "reportedOn": "2026-11-12",
   "updatedAt": "2026-11-12",
-  "note": "User confirms arrival in Westfall after the completed Redridge stage, followed by an immediate departure toward Stormwind to meet Mathias Shaw. Arrival in Stormwind and the meeting itself are not yet confirmed. Exact route, coordinates, quest ID and hour not independently established. Player-reported LIVE status."
+  "note": "Player screenshot WoWScrnShot_111226_210701.jpg shows Xuthar at 21:07 on a bridge over Stormwind canals in rain. Arrival confirmed, meeting with Mathias Shaw and subsequent quest outcome not yet confirmed. Location is manually documented rather than API live telemetry."
 }

@@ -91,10 +91,10 @@
           <p class="day-two-evidence">The Westfall and Gilded Rose memories above belong to an earlier chapter. On 10 November, Xuthar completed an epic quest with Carro Steelcave and reached level 17.</p>
         </div>
         <aside class="day-two-status" aria-label="Current character progress">
-          <span>THE LAST WITNESS · CHAPTER LIX</span>
-          <strong id="xuthar-home-current-level">LEVEL 17</strong>
-          <p>THE ROAD OF ASHES · EXPEDITION COMPLETED</p>
-          <b id="xuthar-home-current-level-source">Level 17 · confirmed in game</b>
+          <span>THE LAST WITNESS · CHAPTER LXXVIII</span>
+          <strong id="xuthar-home-current-level">LEVEL 18</strong>
+          <p>THE DEADMINES · ENTRANCE DISCOVERED · NOV 13 EXPEDITION PLANNED</p>
+          <b id="xuthar-home-current-level-source">Level 18 · confirmed in game</b>
           <small id="xuthar-home-current-level-updated">The seventeenth threshold was confirmed by the player after the epic Carro Steelcave expedition. Blizzard API data may lag behind.</small>
         </aside>
       </div>`;
@@ -107,7 +107,7 @@
     if(!value||!status||!note)return;
     // A verified player milestone is the minimum; an older API snapshot must not
     // move the currently displayed level backwards.
-    const minimumLevel=17;
+    const minimumLevel=18;
     const url='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
     fetch(url,{cache:'no-store',headers:{Accept:'application/json'}})
       .then(response=>{if(!response.ok)throw Error('Official snapshot unavailable');return response.json()})
@@ -136,7 +136,7 @@
           'Quest narrative is updated independently.';
       }).catch(()=>{
         value.textContent='LEVEL '+minimumLevel;
-        status.textContent='Level 17 · confirmed in game';
+        status.textContent='Level 18 · confirmed in game';
         note.textContent='Official live data temporarily unavailable. The last player-confirmed milestone remains visible.';
       });
   }

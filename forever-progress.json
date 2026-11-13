@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794511401,
+  "exportedAt": 1794532068,
   "characters": [
     {
       "id": "xuthar",
@@ -12,43 +12,55 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 17,
+      "level": 18,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 160,
+      "questsCompleted": 174,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794511401,
+      "checkedAt": 1794532068,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794511401,
-          "inProgressCount": 5,
-          "completedCount": 160,
+          "snapshotAt": 1794532068,
+          "inProgressCount": 8,
+          "completedCount": 174,
           "inProgress": [
+            {
+              "id": 2040,
+              "name": "Underground Assault"
+            },
             {
               "id": 168,
               "name": "Collecting Memories"
+            },
+            {
+              "id": 166,
+              "name": "The Defias Brotherhood"
+            },
+            {
+              "id": 92753,
+              "name": "Destruction in Deadmines"
             },
             {
               "id": 167,
               "name": "Oh Brother..."
             },
             {
-              "id": 65,
-              "name": "The Defias Brotherhood"
+              "id": 97894,
+              "name": "Business in Auberdine"
             },
             {
-              "id": 2040,
-              "name": "Underground Assault"
+              "id": 1078,
+              "name": "Retrieval for Mauren"
             },
             {
-              "id": 92747,
-              "name": "Moonbrook Espionage"
+              "id": 214,
+              "name": "Red Silk Bandanas"
             }
           ],
           "completedQuestIds": [
@@ -80,6 +92,7 @@
             61,
             62,
             64,
+            65,
             71,
             76,
             83,
@@ -96,11 +109,17 @@
             112,
             114,
             123,
+            132,
+            135,
+            141,
+            142,
             147,
             151,
             153,
+            155,
             176,
             239,
+            244,
             332,
             333,
             334,
@@ -121,6 +140,7 @@
             6261,
             6281,
             6285,
+            78142,
             79008,
             79092,
             79093,
@@ -147,6 +167,12 @@
             92742,
             92744,
             92745,
+            92747,
+            92748,
+            92749,
+            92750,
+            92751,
+            92752,
             94773,
             94774,
             94775,
@@ -467,6 +493,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 65,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "The band of wretches responsible for driving the good people of Westfall from the land call themselves The Defias Brotherhood. I need you to…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 71,
               "title": "Report to Thomas",
               "area": "Elwynn Forest",
@@ -611,6 +646,42 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 132,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "What I am about to tell you could cost me my life. The Defias gang is up to something big. Last I heard they…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 135,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "I wonder what Wiley meant when he mentioned the Stonemasons. Perhaps that was a slip of tongue. Could the Defias gang be related to…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 141,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "The Stonemasons' Guild was run by a man named Edwin VanCleef. VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 142,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "We need to discover the location of the Defias hideout. Xuthar, my scout reports that a Defias Messenger has been seen on the roads…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 147,
               "title": "Manhunt",
               "area": "Elwynn Forest",
@@ -638,6 +709,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 155,
+              "title": "The Defias Brotherhood",
+              "area": "Westfall",
+              "briefing": "So Stoutmantle sends a scrawny {race} like you to protect me? Guess you'll have to do. Better bring some friends too. You know the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 176,
               "title": "WANTED: \"Hogger\"",
               "area": "Elwynn Forest",
@@ -654,6 +734,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 244,
+              "title": "Encroaching Gnolls",
+              "area": "Redridge Mountains",
+              "briefing": "Hail, priest. I am charged to patrol this stretch of road. Although the road is safe for now, I've seen gnoll encampments to the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -834,6 +923,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 78142,
+              "title": "Bewitchments and Glamours",
+              "area": "Special",
+              "briefing": "Have you brought something to add to our collection?",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 79008,
@@ -1068,6 +1166,60 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 92747,
+              "title": "Moonbrook Espionage",
+              "area": "Westfall",
+              "briefing": "Strange - the poison does not seem to originate from the mines you investigated. I am told the Deadmines under the town of Moonbrook…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92748,
+              "title": "Explosive Consultation",
+              "area": "Westfall",
+              "briefing": "The supplies you found point to a massive industrial operation somewhere in the Deadmines. There's no question that this is the source of the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92749,
+              "title": "A Dynamite Plan",
+              "area": "Westfall",
+              "briefing": "Industrial sabotage? You've got my attention! We'll start with some dynamite...",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92750,
+              "title": "Detonation at a Distance",
+              "area": "Westfall",
+              "briefing": "I assume you want a \"controlled\" explosion? Not as much fun, but a good choice if you want to keep all your limbs. I'm…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92751,
+              "title": "Detonation at a Distance",
+              "area": "Westfall",
+              "briefing": "You need something destroyed? Would this have anything to do with your activities in Moonbrook? Don't look surprised. SI:7 stays apprised of all that…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92752,
+              "title": "Explosive Consultation",
+              "area": "Westfall",
+              "briefing": "That's it--the bomb's ready to go! Careful with that detonator, now.",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1655,8 +1807,23 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794499192,
+          "newlyObservedCompletedIds": [
+            65,
+            132,
+            135,
+            141,
+            142,
+            155,
+            244,
+            78142,
+            92747,
+            92748,
+            92749,
+            92750,
+            92751,
+            92752
+          ],
+          "comparedWithSnapshotAt": 1794511401,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1672,7 +1839,7 @@
         "achievements": {
           "trackedCount": 18
         },
-        "profileCheckedAt": 1794511401
+        "profileCheckedAt": 1794532068
       }
     }
   ],

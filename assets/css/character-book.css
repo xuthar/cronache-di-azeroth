@@ -268,3 +268,7 @@
 
 /* First-week memory drawings: real 1122px originals, no stretching or cropped sprite. */
 .book-figure img.book-memory-pencil-art{position:static;display:block;width:100%;height:clamp(160px,27vh,245px);object-fit:contain;object-position:center;background:#e1d3ba;filter:none;image-rendering:auto}
+
+/* Authentic expedition photographs keep the entire original frame. */
+.book-figure img.book-original-screenshot{height:auto;aspect-ratio:16/9;object-fit:contain;filter:none}
+.book-original-link{display:block}

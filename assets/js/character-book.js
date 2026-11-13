@@ -12,7 +12,7 @@
   const mobile=window.matchMedia('(max-width: 710px)');
   const select=new URLSearchParams(location.search).get('character');
   const requested=['xuthar','thorgar','aelyndra'].includes(select) ? select : 'xuthar';
-  const safeImage=raw => /^assets\/images\/gallery\/[a-zA-Z0-9._-]+\.(?:jpg|webp|png)$/.test(String(raw||'')) ? raw : '';
+  const safeImage=raw => /^assets\/images\/(?:gallery|screenshots)\/[a-zA-Z0-9._-]+\.(?:jpg|webp|png)$/.test(String(raw||'')) ? raw : '';
   const make=(tag,className,text)=>{
     const el=document.createElement(tag);
     if(className)el.className=className;
@@ -89,6 +89,7 @@
     const img=make('img','book-art');
     img.src=safe;img.alt=alt||'Illustrative scene from the Chronicles of Azeroth gallery';
     img.decoding='async';img.loading='lazy';
+    if(path.startsWith('assets/images/screenshots/'))img.classList.add('book-original-screenshot');
     if(/^assets\/images\/gallery\/first-week-xuthar-[a-z-]+-hd\.webp$/.test(path)){
       img.classList.add('book-memory-pencil-art');
     }
@@ -163,7 +164,11 @@
       if(page.image) {
         const frame=make('figure','book-figure');
         const img=makeImage(page.image,page.caption||'Illustrative archive image',page.imageSlice);
-        if(img) frame.append(img);
+        if(img){
+          if(page.image.startsWith('assets/images/screenshots/')){
+            const original=make('a','book-original-link');original.href=page.image;original.target='_blank';original.rel='noopener';original.title='Open the original Full HD screenshot';original.append(img);frame.append(original);
+          }else frame.append(img);
+        }
         if(page.caption)frame.append(make('figcaption','',page.caption));
         inside.append(frame);
       }
@@ -316,7 +321,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261111-pencil-memories-hd2',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261113-deadmines-triumph',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

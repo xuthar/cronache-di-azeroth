@@ -4443,21 +4443,49 @@
   "deadminesExpedition": {
     "datePlanned": "2026-11-13",
     "location": "Moonbrook · The Deadmines",
-    "status": "announced-planned",
+    "status": "completed-player-reported",
     "levelAtAnnouncement": 18,
     "partySizeRecommended": 5,
-    "groupConfirmed": false,
-    "entered": false,
-    "completed": false,
+    "groupConfirmed": true,
+    "entered": true,
+    "completed": true,
     "finalBoss": "Edwin VanCleef",
     "quest": {
       "name": "The Defias Brotherhood",
       "levelLabel": "22D",
       "objective": "Head of VanCleef",
-      "current": 0,
+      "current": 1,
       "total": 1
     },
-    "questsObserved": [
+    "otherReadyVisible": {
+      "name": "Business in Auberdine",
+      "level": 17,
+      "rawStatus": "Quest Complete!",
+      "countedAsCompletedByUserConvention": true
+    },
+    "dateCompleted": "2026-11-13",
+    "companions": [
+      "Carro Steelcave"
+    ],
+    "hunterPet": "Broken Tooth",
+    "vanCleefDefeated": true,
+    "screenshotCount": 26,
+    "completionEvidence": "User victory report; 21:13:09 VanCleef confrontation; 21:14:16 and 21:14:23 fallen VanCleef; supplied completed quest tracker",
+    "questsCompleteObserved": [
+      "Red Silk Bandanas",
+      "Collecting Memories",
+      "Oh Brother...",
+      "Underground Assault",
+      "The Defias Brotherhood",
+      "The Unsent Letter",
+      "Thunderbrew",
+      "Business in Auberdine"
+    ],
+    "handInsConfirmed": false,
+    "unverifiedQuests": [
+      "Destruction in Deadmines"
+    ],
+    "questsObservedAtPreparation": [
       {
         "name": "Retrieval for Mauren",
         "levelLabel": "26",
@@ -4488,12 +4516,6 @@
         "levelLabel": "20D",
         "progress": "0/1 Gnoam Sprecklesprocket"
       }
-    ],
-    "otherReadyVisible": {
-      "name": "Business in Auberdine",
-      "level": 17,
-      "rawStatus": "Quest Complete!",
-      "countedAsCompletedByUserConvention": true
-    }
+    ]
   }
 }

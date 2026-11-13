@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-eighteen-deadmines-preparations",
+      "status": "living-novel-deadmines-victory",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1910,16 +1910,290 @@
           ]
         },
         {
+          "id": "x-nov13-deadmines-victory-01",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "The Gold Above the Darkness",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "Westfall had taught Xuthar Morvayne that a golden landscape could hide a wounded country. Its fields shone even where the harvest had failed; its roads led past houses whose owners had vanished. That evening, outside Moonbrook, the light settled upon broken timber with the tenderness of something that did not know what had happened there. Xuthar stood beside Carro Steelcave and looked toward the mine. Yesterday he had followed a traitor to this entrance. Tonight he would follow a friend through it.",
+            "The long pursuit of the Defias Brotherhood had brought him here by patient, unglamorous steps: roads watched, messages carried, strangers trusted, danger survived. The escort had turned a rumour into a doorway. Now the final instruction was brutally simple. Somewhere below waited Edwin VanCleef, and Westfall wanted his head. Xuthar wondered how many lives could be folded into so few words.",
+            "Carro's presence made the prospect bearable. Beside the dwarf waited Broken Tooth, the hunting companion whose quiet readiness seemed more useful than any speech. There was no need for a grand company to be invented around them. These were the figures the evening would remember: the priest, his steadfast companion, and the beast that would run where neither man could safely stand. Xuthar tightened his grip on his staff. Together, they stepped out of the last light."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_204215.jpg",
+          "caption": "13 November 2026 · 20:42:15 · Original expedition screenshot · The Gold Above the Darkness",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-02",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Where the Sky Disappeared",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The first turn took away the village. The second took away the sky. Lamps hung from timber braces, their yellow flames surrounded by a blue darkness that seemed older than the men who had driven these passages into the hill. Rails, abandoned carts and heaps of stone interrupted the path. Every arch framed another arch beyond it, until the mine appeared to be an endless series of thresholds.",
+            "Carro went ahead, reading the tunnel with the unhurried attention of a hunter. Broken Tooth moved close to the ground. Xuthar followed, leaving space between them, learning a new geography of danger: a bend that concealed movement, a raised platform overlooking the road, a patch of lamplight that might expose them to watching eyes. The distance between friends became something to judge carefully. Too close, and one attack could catch them both; too far, and help would arrive late.",
+            "The first clashes broke the silence into fragments. Boots scraped stone. A weapon struck timber. Xuthar felt the familiar gathering of power in his hands, that terrible ease with which a prayer could become an instrument of battle. He fixed his attention on the figures ahead of him. Whatever the darkness offered, he would measure its worth by whether Carro came safely through the next doorway."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_204416.jpg",
+          "caption": "13 November 2026 · 20:44:16 · Original expedition screenshot · Where the Sky Disappeared",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-03",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "The Names Beneath the Dust",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "They advanced past crates and scattered tools, through passages where the mine's old purpose still showed beneath its occupation. A cart had been left at an angle beside the track. Sacks lay against a support. These small things disturbed Xuthar more than the armed defenders. Someone had once placed them there expecting another shift, another ordinary return to work. The Deadmines had swallowed that expectation and kept the objects.",
+            "His errands accompanied him like voices. Collecting Memories asked him to carry something of the miners back into the daylight. Oh Brother... gave the darkness the weight of a family waiting for news. Red Silk Bandanas made the Brotherhood's familiar colour into evidence, one fragment at a time. Underground Assault directed his attention toward the machinery below. The Defias Brotherhood drew every passage toward VanCleef. None was merely a line in a ledger when he imagined the person waiting at its other end.",
+            "They fought for the ground ahead, then stopped long enough to see what it held. Progress was made in those pauses as surely as in the clashes: a recovered token, a checked passage, the decision to leave no dangerous corner unexplored before moving on. Carro waited while Xuthar secured what he had found. Nothing needed saying. A friend who understood why one stopped was as precious as a friend who knew when to advance."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_204551.jpg",
+          "caption": "13 November 2026 · 20:45:51 · Original expedition screenshot · The Names Beneath the Dust",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-04",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Rhahk'Zor and the First Great Door",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The way narrowed toward a guarded threshold, and the mine's scattered violence gathered into its first great obstacle. In the telling of that descent, Rhahk'Zor stood for the brutal certainty of the place: strength set across a road, convinced that strength alone could make the road impassable. Beyond the foreman lay the deeper workings. Until that resistance broke, every ambition they carried remained on the wrong side of the door.",
+            "The fight filled the confined space. Xuthar could not think of the entire dungeon now. He had to think of the next spell, of the line between himself and the danger, of Carro's position and Broken Tooth's movement. Fear wanted him to spend everything immediately. Experience, still young and painfully earned, told him to keep enough for what came afterward. The priest held his ground and gave the battle the attention that fear had tried to steal.",
+            "When the passage finally belonged to them, the victory felt less like conquest than permission. They could go on. Xuthar drew breath in the light of the doorway and realised how much of the outside world had already fallen away. He looked back once. The route behind them was real, hard won and irreversible in memory. Carro was already turning toward the next chamber. The first great obstacle had become part of their past."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_205019.jpg",
+          "caption": "13 November 2026 · 20:50:19 · Original expedition screenshot · Rhahk'Zor and the First Great Door",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-05",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Sneed: The Machine and the Man",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "Timber announced the next world below Westfall. Platforms, rails and a wider working floor replaced the narrow squeeze of the early tunnels. Here the mine had become a workshop, and the workshop had learned to defend itself. Sneed and his shredder belonged to that industrial nightmare: living malice housed within a machine built to cut and tear, ingenuity stripped of every gentle purpose.",
+            "Xuthar watched the mechanical shape and thought of the hands that had assembled it. Someone had understood every joint, every lever, every way to make metal obey. Now that knowledge stood between them and the truth beneath the hill. Carro answered it with the hunter's patient pressure; the priest answered with power that left no saw marks, but could be no less merciless. Broken Tooth's movement kept drawing Xuthar's eyes back to the immediate struggle whenever the machinery threatened to overwhelm his senses.",
+            "The machine was only the first part of the reckoning. In the story of Sneed, its fall exposed the operator, and another danger remained where triumph might have made them careless. They pressed through that second resistance together. When the workshop quieted, Xuthar listened to the strange absence of noise. He had expected the breaking of a machine to sound final. Instead, it revealed how many other engines were still working farther down."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_205150.jpg",
+          "caption": "13 November 2026 · 20:51:50 · Original expedition screenshot · Sneed: The Machine and the Man",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-06",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Gilnid and the Heart of the Furnace",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The mine changed colour. Amber light thickened against the walls; the air seemed to remember heat even in the spaces beyond the flames. Great mechanisms occupied the chamber with the confidence of things intended to work forever. At the foundry, the secret beneath Westfall ceased to resemble a bandit refuge. This was labour organised on a terrifying scale. The Brotherhood was building something.",
+            "Gilnid's domain brought its own battle, fought beneath the glow of machinery that made each movement look briefly enormous upon the stone. Xuthar found himself counting what mattered: the distance to Carro, the threats still standing, the strength left in his own hands. The deeper they went, the less room there was for vanity. A magnificent spell cast at the wrong moment was worth less than an ordinary one cast when a companion needed it.",
+            "They moved through the furnace light and gathered the progress their errands demanded. Underground Assault would no longer remain simply an instruction directing them toward some unknown mechanism. Xuthar imagined returning with an answer, setting proof before someone who had feared the worst and could at last stop wondering. Carro stood beside the machinery, small against its iron scale and entirely undiminished by it. Beyond the foundry waited a sealed way, a cannon, and the noise of a much greater secret."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_205625.jpg",
+          "caption": "13 November 2026 · 20:56:25 · Original expedition screenshot · Gilnid and the Heart of the Furnace",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-07",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "The Door That Hid a Sea",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The cannon stood before the barrier like a blunt answer to a question the mine had been asking all evening. Behind them lay timber, machinery and the route wrested from the Brotherhood. Ahead lay a door large enough to suggest that the work beyond it had never been meant for ordinary eyes. Xuthar looked at Carro, then at the barrel aimed into the waiting passage. Subtlety had brought them far. Here the story required thunder.",
+            "Beyond that threshold, the cavern opened. For a moment Xuthar could only stand and look. A ship rose inside the mountain: decks and rigging, lanterns and red canvas, its entire impossible bulk held within a darkness that had never known a horizon. Water gathered beneath the walkways. The vessel did not need an open sea to be menacing. Its existence was enough. All the scattered signs of industry now pointed toward this single, extraordinary ambition.",
+            "He thought of Stormwind's pale walls, of the stonemasons whose labour had helped restore them, and of the anger that had followed. Here was another immense work built by human purpose, hidden from the kingdom above. Understanding its origins did not make its weapons harmless. Xuthar set his staff forward. Carro and Broken Tooth were already at the approach. They had found the heart of the conspiracy; now they had to reach it."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_210155.jpg",
+          "caption": "13 November 2026 · 21:01:55 · Original expedition screenshot · The Door That Hid a Sea",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-08",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Mr. Smite and the Narrow Approach",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The wooden approach offered no comfort. Planks carried them over dark water toward the ship, and every length of railing seemed to expose a new angle from which defenders might strike. On the surface, retreat had meant a road or an open field. Here it meant the same narrow boards they had just crossed. Xuthar kept his attention ahead and tried not to imagine a missed step.",
+            "Mr. Smite belonged to that dangerous passage, the great first mate making the approach a battle rather than a bridge. In the novel's memory of the clash, his force seemed to shake the boards themselves. The priest had to recover his rhythm whenever violence broke it: find Carro, find the threat, finish the prayer. There was no shame in fear here. The only failure would have been to let fear choose for him.",
+            "They endured and continued. Xuthar would remember the fight through impressions rather than a perfect account of every blow: the ship looming above, the dark beneath the timber, the relief of seeing his companion still standing when the immediate danger passed. Ahead, lanterns marked the climb. The great vessel had layers of defence, and each victory merely brought another into view. But they had crossed the approach. The mine could no longer pretend its deepest secret was unreachable."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_210247.jpg",
+          "caption": "13 November 2026 · 21:02:47 · Original expedition screenshot · Mr. Smite and the Narrow Approach",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-09",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Captain Greenskin and the Scarlet Decks",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "The ascent brought them close enough to see the ship as a place inhabited: ropes fixed by practised hands, doorways cut into the structure, lamps set where watchmen needed light. Scarlet canvas stretched above their route. The colours of the Brotherhood were no longer scraps gathered in the tunnels; they were sails, banners and a declaration large enough to fill a cavern.",
+            "Captain Greenskin and the defenders of the decks stood between the companions and the last climb. This was fighting in a world of slopes and rails, where an enemy ahead could distract from one waiting at the side. Carro's steadiness mattered more with every step. Broken Tooth moved into the struggle, and Xuthar followed the changing shape of the battle, giving his strength where the line threatened to fail.",
+            "They climbed through the resistance. The deck that had looked impossibly high from the cavern floor became timber under their feet. Xuthar paused beside the red canvas and looked outward. From here the passage they had crossed seemed astonishingly small. He could almost trace their evening back through the dark: the bridge, the cannon, the furnace, the first arches. Each had demanded everything for a moment. Each now lay behind them. Only the man at the centre of it all remained ahead."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_210620.jpg",
+          "caption": "13 November 2026 · 21:06:20 · Original expedition screenshot · Captain Greenskin and the Scarlet Decks",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-10",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "At VanCleef's Door",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "At thirteen minutes past nine, Xuthar stood before Edwin VanCleef. The leader waited in the dark interior beyond the doorway, no longer a name passed between quest givers, no longer a rumour behind the suffering of Westfall. The challenge rang out, and the Brotherhood's blackguards moved from the shadows. The photograph would preserve the threshold. Memory would preserve how suddenly the long pursuit became immediate.",
+            "Xuthar thought of the escort through Moonbrook and the anxious roads before it. Every previous step had led to this narrow opening in a ship beneath the earth. He could pity the stonemason who had been wronged without yielding to the violence that man had chosen. Westfall's farmers had not withheld his payment. The people living in fear above the mine were not the nobles who had failed him. Grief did not make every target just.",
+            "The battle demanded that thought give way to action. VanCleef and his guards made the chamber a knot of danger, movement and sudden proximity. Xuthar held to the one certainty the whole descent had taught him: Carro was beside him. He did not need to defeat the entire darkness in a single gesture. He needed to contribute the next necessary spell, then the next, until there were no more to cast. Friendship became practical, exact, expressed through each moment neither abandoned the other."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_211309.jpg",
+          "caption": "13 November 2026 · 21:13:09 · Original expedition screenshot · At VanCleef's Door",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-11",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "The Head of VanCleef",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "Then Edwin VanCleef fell. The deck held his body where a moment before it had held his defiance. Xuthar stood nearby with Carro Steelcave, and the enormous ship seemed to lose some invisible force that had kept it alive. No herald could have improved upon that silence. They had reached the heart of the Deadmines and survived it together.",
+            "The head of VanCleef was the proof the quest demanded. Xuthar had carried that objective down into the mine as a future possibility; now the demand had become a terrible, tangible conclusion. He did not find joy in the severed life itself. His joy was in Carro standing beside him, in the danger ended, in the knowledge that the road above them might become a little safer. Triumph did not require him to stop being human.",
+            "They remained long enough for the moment to settle. Broken Tooth stood with them in the next view, bringing the whole little company into the memory. This was the portrait Xuthar wanted the chronicle to keep: no invented army, no borrowed heroes, simply the companions who had walked the way. The mine had offered them iron, fire and blades. They had answered with persistence. The final page of the pursuit would bear two names side by side: Xuthar Morvayne and Carro Steelcave."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_211416.jpg",
+          "caption": "13 November 2026 · 21:14:16 · Original expedition screenshot · The Head of VanCleef",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-12",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "The Road Back to the Light",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "Leaving was its own small astonishment. After the final deck and the body of VanCleef, the tunnels returned to being tunnels. Lamps still burned. Wooden supports still held their patient weight. The world did not rearrange itself to announce that the companions had won. Xuthar found comfort in that indifference. A victory could matter without making the mountain bow.",
+            "They followed the route outward until a doorway framed the colour of Westfall. A hanging lantern marked the edge between the mine and the evening. Beyond it stood grass, distant trees, the open air. Xuthar had tried to remember the sky before going below. Now it seemed too large to have fitted inside memory. Carro emerged beside him, and for a little while the only achievement worth contemplating was the simple fact that they could walk beneath it again.",
+            "The return carried more than the trophy. Red Silk Bandanas, Collecting Memories, Oh Brother..., Underground Assault and The Defias Brotherhood had reached the completed state recorded in the quest journal. The Unsent Letter stood there too, another thread waiting beyond the fallen leader. Thunderbrew marked a quieter Westfall errand amid the dungeon's great reckoning. One completed adventure could close a long pursuit and still leave the world full of unfinished stories."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_211551.jpg",
+          "caption": "13 November 2026 · 21:15:51 · Original expedition screenshot · The Road Back to the Light",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
+          "id": "x-nov13-deadmines-victory-13",
+          "chapter": "Chapter LXXXII · The Triumph Beneath Westfall",
+          "title": "Two Heroes Beneath Sentinel Hill",
+          "kind": "fiction",
+          "sessionDate": "2026-11-13",
+          "place": "The Deadmines · Westfall",
+          "paragraphs": [
+            "Later, beneath the watchtower of Sentinel Hill, the companions stood together upon the grass. The tower rose behind them, familiar and reassuring after the impossible architecture below. Broken Tooth waited close. The last photograph of the expedition did not show a killing blow or a chest of treasure. It showed a return. Xuthar thought that was the better ending.",
+            "He remembered the evening in fragments that would never again be ordinary: Carro outside Moonbrook; blue lamplight in the first tunnel; the workshop's timber; the furnace glow; a cannon before a sealed door; a ship where no ship should be; VanCleef waiting at the threshold. Between those images lay all the work no picture could fully hold: attention, uncertainty, the little decisions that kept a companion close and a dangerous road passable.",
+            "When he opened his book, he did not begin with the name of the defeated. He began with Carro Steelcave. For the hunter who had shared the road, for Broken Tooth at his side, for the trust that had made every forward step possible. Only then did Xuthar write of the Brotherhood and the head carried out of its hidden fortress. Let kings keep their monuments, he thought. This page would be enough of a monument for a friend.",
+            "Westfall's wind moved through the grass. Beneath the fields, the ship remained in its cavern, immense and silent. Above them the watchtower kept its vigil. Xuthar closed the journal and looked toward the roads ahead. He was still the last witness, but tonight he did not feel alone. The Deadmines had been conquered. More precious still, they had come back together."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111326_213453.jpg",
+          "caption": "13 November 2026 · 21:34:53 · Original expedition screenshot · Two Heroes Beneath Sentinel Hill",
+          "sources": [
+            "Player-reported triumphant completion with Carro Steelcave and Head of VanCleef",
+            "26 original 1920 × 1080 expedition JPGs",
+            "Quest tracker image(20261113-203803).png; objective complete does not prove hand-in"
+          ],
+          "editorialNote": "Literary reconstruction of the reported victory and photographed route. Dialogue, sensations and thoughts are fiction; optional/rare kills and unobserved rewards are not claimed."
+        },
+        {
           "id": "x-dungeon-chronicles-appendix",
           "chapter": "Appendix I · The Dungeon Chronicles",
           "title": "The Doors Beneath Azeroth",
           "kind": "reported",
           "paragraphs": [
             "There were places on Xuthar Morvayne's maps that no cartographer could make inviting. Their names were usually whispered in inns, marked in red ink by soldiers, or passed between adventurers as warnings. They were called dungeons: tombs, fortresses, abandoned cities and underground sanctuaries in which the forgotten gathered beneath the world. This appendix would become a ledger of the doors Xuthar had truly crossed and of those that still waited for him.",
-            "I. The Deadmines — Moonbrook, Westfall. Discovered on 12 November 2026 after the Defias Traitor's escort. Xuthar was level eighteen. The tunnels sheltered Edwin VanCleef, his Brotherhood, goblin machinery and a warship hidden beneath the earth. The first descent was announced for Friday 13 November, not yet undertaken. The head of VanCleef remained an unfulfilled objective.",
-            "The path below was already known to adventurers by the names that guarded it: Rhahk'Zor; the rarely encountered Miner Johnson; Sneed and his shredder; Gilnid; Mr. Smite; Captain Greenskin; Edwin VanCleef; and the optional ship's cook, Cookie. These names were a warning, not a list of victories. Their true stories would be written when Xuthar met them.",
+            "I. The Deadmines — conquered on 13 November 2026. Xuthar Morvayne and Carro Steelcave reached Edwin VanCleef aboard the hidden ship and returned with the final objective complete. The expedition survives in twenty-six original Full HD photographs, ending beneath Sentinel Hill.",
+            "The road carried them through the foreman’s passages, Sneed’s timber works, Gilnid’s furnace and the defended approaches to the ship, past Mr. Smite and Captain Greenskin to VanCleef. Miner Johnson and Cookie remain reference names: this chronicle does not claim their optional encounters.",
             "Beyond Westfall, other names waited in an unfinished index: the Stockade beneath Stormwind; Shadowfang Keep in Silverpine; the fallen halls of Gnomeregan; the Wailing Caverns of the Barrens; Blackfathom Deeps in Ashenvale; and the Scarlet Monastery beyond Tirisfal. None had been announced as a journey or claimed as completed. A chronicle was trustworthy only so long as its blank pages remained honestly blank.",
-            "Tomorrow the first page of the Deadmines might be filled. Xuthar would not descend merely to collect a victory. He would go to learn what became of the people who had built a kingdom, been abandoned by it and returned from its darkness carrying a name that even Stormwind could not ignore."
+            "The first descent was no longer tomorrow’s promise. It had become a shared memory, and Carro Steelcave’s name belonged beside Xuthar’s at its heart."
           ]
         },
         {
@@ -2090,5 +2364,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-13"
+  "lastEditorialUpdate": "2026-11-13 · The triumphant Deadmines expedition with Carro Steelcave"
 }

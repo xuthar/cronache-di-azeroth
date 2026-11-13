@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. On 12 November Xuthar Morvayne reached level 18 after escorting the Defias Traitor and discovering the secret entrance to the Deadmines. Today, Friday 13 November, he is preparing his first Deadmines expedition with Carro Steelcave. The epic road with Carro Steelcave, Westfall's hard days and the storm above Stormwind remain preserved in The Last Witness.");
+  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. On 12 November Xuthar Morvayne reached level 18 after escorting the Defias Traitor and discovering the secret entrance to the Deadmines. On Friday 13 November, Xuthar and Carro Steelcave conquered the Deadmines and returned from the hidden ship with VanCleef defeated. The epic road with Carro Steelcave, Westfall's hard days and the storm above Stormwind remain preserved in The Last Witness.");
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';
@@ -122,7 +122,7 @@
   [
     ['05 NOV','THE OPENING NIGHT'],
     ['LEVEL 18','XUTHAR’S CURRENT LEVEL'],
-    ['DAY FIVE','9 NOVEMBER · SENTINEL HILL & REST']
+    ['VICTORY','13 NOVEMBER · THE DEADMINES']
   ].forEach(([v,caption])=>{
     const fact=$('div','forever-premiere-fact');
     fact.append($('strong','',v),$('small','',caption));

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-level-eighteen-deadmines-entrance-discovered",
+      "status": "living-novel-level-eighteen-deadmines-preparations",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -1896,6 +1896,20 @@
           ]
         },
         {
+          "id": "x-nov13-deadmines-preparations",
+          "chapter": "Chapter LXXXI · Before the First Descent",
+          "title": "A Promise at the Mouth of the Mine",
+          "kind": "fiction",
+          "paragraphs": [
+            "The thirteenth of November arrived without ceremony. Westfall wore the same pale dust, and the wind still worried the broken timbers of Moonbrook. Yet Xuthar found that every small task had acquired a strange importance. Today he would go to the Deadmines with Carro Steelcave. Yesterday the entrance had been a discovery. Now it was an appointment.",
+            "He spread his belongings upon a folded cloak and examined them one by one. Water within easy reach; food wrapped against the dust; bandages kept dry. He checked the seams of his bags and set aside what he would not need. His fingers lingered over the worn wood of his staff. There was comfort in these ordinary preparations: a buckle could be tightened, a strap replaced. Whatever waited beneath the earth could not yet be made so simple.",
+            "Carro Steelcave approached with the reassuring lack of solemnity that Xuthar had come to recognise. “If you stare at those provisions much longer, they will ask for a share of the treasure.” Xuthar looked up, and the laugh escaped before he could stop it. For a moment the mine became merely a dark doorway beside two friends, rather than a weight pressing against his chest.",
+            "Together they went over the preparations once more. They would wait for the company to gather, agree upon their pace and leave room for caution. Xuthar rehearsed the familiar shapes of his prayers, then let his hands fall still. He knew how easily the Shadow answered when fear made a man impatient. Today he would listen for the voices beside him before listening to the darkness within.",
+            "Carro checked his own equipment while Xuthar watched the entrance. Somewhere beyond its timbers, a faint echo could have been water or distant work; the priest could not tell. He thought of the fields above them, of the people still trying to live upon this wounded land, and of how little a map revealed about what lay underneath. He opened his journal and wrote only the date and his companion’s name. The rest of the page remained empty.",
+            "“Ready?” Carro asked. Xuthar closed the book, secured it inside his bag and took up his staff. “Nearly.” He turned once toward the open sky, committing its colour to memory. There would be time for the first step when they were all assembled. For now they stood together at the edge of the adventure, with their provisions counted, their promises unspoken, and the whole unwritten depth waiting below."
+          ]
+        },
+        {
           "id": "x-dungeon-chronicles-appendix",
           "chapter": "Appendix I · The Dungeon Chronicles",
           "title": "The Doors Beneath Azeroth",
@@ -2076,5 +2090,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-12"
+  "lastEditorialUpdate": "2026-11-13"
 }

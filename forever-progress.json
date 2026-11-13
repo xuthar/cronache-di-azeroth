@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794532068,
+  "exportedAt": 1794583554,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794532068,
+      "checkedAt": 1794583554,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794532068,
+          "snapshotAt": 1794583554,
           "inProgressCount": 8,
           "completedCount": 174,
           "inProgress": [
@@ -499,7 +499,7 @@
               "briefing": "The band of wretches responsible for driving the good people of Westfall from the land call themselves The Defias Brotherhood. I need you to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 71,
@@ -652,7 +652,7 @@
               "briefing": "What I am about to tell you could cost me my life. The Defias gang is up to something big. Last I heard they…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 135,
@@ -661,7 +661,7 @@
               "briefing": "I wonder what Wiley meant when he mentioned the Stonemasons. Perhaps that was a slip of tongue. Could the Defias gang be related to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 141,
@@ -670,7 +670,7 @@
               "briefing": "The Stonemasons' Guild was run by a man named Edwin VanCleef. VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 142,
@@ -679,7 +679,7 @@
               "briefing": "We need to discover the location of the Defias hideout. Xuthar, my scout reports that a Defias Messenger has been seen on the roads…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 147,
@@ -715,7 +715,7 @@
               "briefing": "So Stoutmantle sends a scrawny {race} like you to protect me? Guess you'll have to do. Better bring some friends too. You know the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 176,
@@ -742,7 +742,7 @@
               "briefing": "Hail, priest. I am charged to patrol this stretch of road. Although the road is safe for now, I've seen gnoll encampments to the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -931,7 +931,7 @@
               "briefing": "Have you brought something to add to our collection?",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 79008,
@@ -1174,7 +1174,7 @@
               "briefing": "Strange - the poison does not seem to originate from the mines you investigated. I am told the Deadmines under the town of Moonbrook…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92748,
@@ -1183,7 +1183,7 @@
               "briefing": "The supplies you found point to a massive industrial operation somewhere in the Deadmines. There's no question that this is the source of the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92749,
@@ -1192,7 +1192,7 @@
               "briefing": "Industrial sabotage? You've got my attention! We'll start with some dynamite...",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92750,
@@ -1201,7 +1201,7 @@
               "briefing": "I assume you want a \"controlled\" explosion? Not as much fun, but a good choice if you want to keep all your limbs. I'm…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92751,
@@ -1210,7 +1210,7 @@
               "briefing": "You need something destroyed? Would this have anything to do with your activities in Moonbrook? Don't look surprised. SI:7 stays apprised of all that…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92752,
@@ -1219,7 +1219,7 @@
               "briefing": "That's it--the bomb's ready to go! Careful with that detonator, now.",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1807,23 +1807,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            65,
-            132,
-            135,
-            141,
-            142,
-            155,
-            244,
-            78142,
-            92747,
-            92748,
-            92749,
-            92750,
-            92751,
-            92752
-          ],
-          "comparedWithSnapshotAt": 1794511401,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794532068,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1839,7 +1824,7 @@
         "achievements": {
           "trackedCount": 18
         },
-        "profileCheckedAt": 1794532068
+        "profileCheckedAt": 1794583554
       }
     }
   ],

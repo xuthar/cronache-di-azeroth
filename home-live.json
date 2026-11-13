@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-13T21:40:57.860Z"
+    "checkedAt": "2026-11-13T22:06:05.346Z"
   },
   "news": [
+    {
+      "title": "Blizzard on Encounter Design in Season 3 - Reduced Mechanical Penalties",
+      "url": "https://www.wowhead.com/news=383874/single-individual-mistakes-causing-wipes-used-too-often-in-venomous-abyss-raid",
+      "category": "Live",
+      "publishedAt": "2026-11-13T21:39:59.000Z"
+    },
     {
       "title": "Skyborne Don't Have Reputation Discount for Mounts in WoW: Forever",
       "url": "https://www.wowhead.com/news=383873/skyborne-dont-have-reputation-discount-for-mounts-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383869/the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly",
       "category": "WoW",
       "publishedAt": "2026-11-13T18:12:25.000Z"
-    },
-    {
-      "title": "New Short Story “Cost of Honor” for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-13T18:03:42.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-13T21:40:57.860Z",
-  "generatedAt": "2026-11-13T21:40:57.680Z",
+  "newsUpdatedAt": "2026-11-13T22:06:05.345Z",
+  "generatedAt": "2026-11-13T22:06:05.207Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 13 Nov 2026 15:40:42 -0600",
+  "newsFeedBuiltAt": "Fri, 13 Nov 2026 16:05:53 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

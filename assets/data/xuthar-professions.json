@@ -1,0 +1,48 @@
+{
+  "character": "Xuthar Morvayne",
+  "characterLevel": 19,
+  "reportedOn": "2026-11-13",
+  "source": "Player-provided professions screenshot",
+  "professions": [
+    {
+      "name": "Tailoring",
+      "skill": 77,
+      "cap": 150,
+      "rank": "Journeyman",
+      "journey": "From the first linen stitches and the bags made for the road, Xuthar has passed the apprentice ceiling and reached 77.",
+      "next": "Aim first for 100, then 125. Save wool, compare available patterns and make useful bags or cloth gear when their recipe colour still offers progress. Reserve part of the cloth for First Aid."
+    },
+    {
+      "name": "Enchanting",
+      "skill": 90,
+      "cap": 150,
+      "rank": "Journeyman",
+      "journey": "After leaving Herbalism behind, Xuthar learned to recover magic from unwanted equipment. His second craft now leads at 90.",
+      "next": "Aim for 100, then 125. Disenchant spare eligible items after checking their value; choose useful orange or yellow enchants with affordable materials. Check rod requirements before buying reagents."
+    },
+    {
+      "name": "Cooking",
+      "skill": 84,
+      "cap": 150,
+      "rank": "Journeyman",
+      "journey": "Cooking has grown alongside the journey, reaching 84: the quiet craft that turns provisions into a reason to pause.",
+      "next": "Work toward 100 using recipes for fish and meat already in the bags. Learn suitable recipes before gathering ingredients, and keep useful food for the next expedition."
+    },
+    {
+      "name": "Fishing",
+      "skill": 75,
+      "cap": 150,
+      "rank": "Journeyman",
+      "journey": "The rainy waters of Westfall belong to this story as surely as its battles. Fishing stands at 75, with the next rank already unlocked.",
+      "next": "Continue toward 100 in manageable waters. Keep fish that match known Cooking recipes; use bait when needed and let the two skills advance together."
+    },
+    {
+      "name": "First Aid",
+      "skill": 73,
+      "cap": 150,
+      "rank": "Journeyman",
+      "journey": "A new practical discipline now accompanies the priest: First Aid is at 73, and its Journeyman training already leaves room beyond 75.",
+      "next": "Reach 75 first, then work toward 100. Check the trainer for available bandages and use recipes that still grant skill, balancing cloth supplies with Tailoring."
+    }
+  ]
+}

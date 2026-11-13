@@ -92,10 +92,10 @@
         </div>
         <aside class="day-two-status" aria-label="Current character progress">
           <span>THE LAST WITNESS · CHAPTER LXXVIII</span>
-          <strong id="xuthar-home-current-level">LEVEL 18</strong>
+          <strong id="xuthar-home-current-level">LEVEL 19</strong>
           <p>THE DEADMINES · ENTRANCE DISCOVERED · NOV 13 EXPEDITION PLANNED</p>
-          <b id="xuthar-home-current-level-source">Level 18 · confirmed in game</b>
-          <small id="xuthar-home-current-level-updated">The seventeenth threshold was confirmed by the player after the epic Carro Steelcave expedition. Blizzard API data may lag behind.</small>
+          <b id="xuthar-home-current-level-source">Level 19 · confirmed in game</b>
+          <small id="xuthar-home-current-level-updated">Level 19 was confirmed by the player on 13 November 2026. Blizzard API data may lag behind.</small>
         </aside>
       </div>`;
     return section;
@@ -107,7 +107,7 @@
     if(!value||!status||!note)return;
     // A verified player milestone is the minimum; an older API snapshot must not
     // move the currently displayed level backwards.
-    const minimumLevel=18;
+    const minimumLevel=19;
     const url='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
     fetch(url,{cache:'no-store',headers:{Accept:'application/json'}})
       .then(response=>{if(!response.ok)throw Error('Official snapshot unavailable');return response.json()})
@@ -136,7 +136,7 @@
           'Quest narrative is updated independently.';
       }).catch(()=>{
         value.textContent='LEVEL '+minimumLevel;
-        status.textContent='Level 18 · confirmed in game';
+        status.textContent='Level 19 · confirmed in game';
         note.textContent='Official live data temporarily unavailable. The last player-confirmed milestone remains visible.';
       });
   }

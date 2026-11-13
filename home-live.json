@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-13T07:25:00.156Z"
+    "checkedAt": "2026-11-13T15:39:48.030Z"
   },
   "news": [
+    {
+      "title": "Secret Disguise Toy Found WoW: Forever",
+      "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "title": "Worldsoul Saga Lore Speculation: Are the Titans Bad for Azeroth?",
+      "url": "https://www.wowhead.com/news=383633/worldsoul-saga-lore-speculation-are-the-titans-bad-for-azeroth",
+      "category": "PTR",
+      "publishedAt": "2026-11-13T14:00:00.000Z"
+    },
     {
       "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
       "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383863/new-brutal-armor-transmog-sets-datamined-in-patch-12-1-7",
       "category": "PTR",
       "publishedAt": "2026-11-12T23:00:09.000Z"
-    },
-    {
-      "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
-      "category": "Forever",
-      "publishedAt": "2026-11-12T22:45:42.000Z"
-    },
-    {
-      "title": "Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-12T22:02:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-13T07:25:00.155Z",
-  "generatedAt": "2026-11-13T07:25:00.148Z",
+  "newsUpdatedAt": "2026-11-13T15:39:48.029Z",
+  "generatedAt": "2026-11-13T15:39:48.002Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 13 Nov 2026 01:24:49 -0600",
+  "newsFeedBuiltAt": "Fri, 13 Nov 2026 09:39:39 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

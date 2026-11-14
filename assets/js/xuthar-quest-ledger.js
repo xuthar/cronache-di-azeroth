@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261111-state-mines-complete';
+ const source='assets/data/xuthar-quest-log.json?v=20261114-redridge-quests';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,14 +40,14 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 11 NOVEMBER 2026 · LEVEL 17');
     const title=make('h2','','Three companions on the road through Westfall.');
    title.id='xql-heading';
-    const lead=make('p','',"On 11 November Xuthar returned to the Defias struggle with two companions: Irlav Manaspark, a mage, and Tooker Iskald, a warrior. The Defias Brotherhood and The People’s Militia show Quest Complete! in the tracker. The priest is live, questing in Westfall.");
+   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Three completed missions; Retrieval for Mauren and The Stockade Riots remain in progress.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){
       const stat=make('div','xql-metric');
       stat.append(make('strong','',String(value)),make('span','',label));metrics.append(stat);
    }
-    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+(data.characterLevel||'unconfirmed')+' · latest Questie snapshot: 11 November, Westfall (6/40). LIVE · Questing in Westfall. Exact coordinates not supplied. The old November 9 snapshot remains historical.');
+    const status=make('p','xql-level-note','Xuthar Morvayne · LEVEL '+data.characterLevel+' · Latest tracker: '+data.latestVisibleObjectives.day+' · '+data.latestVisibleObjectives.interface+'. Earlier snapshots remain historical.');
    head.append(status);
    head.append(metrics);root.append(head);
    if(data.characterLevel>=15 && data.priorVisibleObjectiveSnapshots?.some(p=>p.id==='2026-11-08-later-westfall-questie-level15')){
@@ -248,7 +248,7 @@
          recent.append(make('p','xql-level-note','   '+(o.current===o.total?'✓ ':'· ')+o.name+': '+o.current+' / '+o.total));
        }
      }
-     recent.append(make('p','xql-level-note','Latest Questie screenshot is the evening five-quest list. Earlier Eastvale and Westfall screenshots remain historical records; missing quests are handled under Xuthar\'s standing reporting rule.'));
+     recent.append(make('p','xql-level-note','Latest supplied tracker: '+visible.day+'. Quest category headings are destinations, not evidence of travel. Earlier snapshots remain historical.'));
      const completed=data.currentQuestUpdates?.riverpawGnollBounty?.status==='completed-player-reported';
      if(completed){
        const state=make('p','xql-confirmed-item','✓ Riverpaw Gnoll Bounty — COMPLETED · 8/8 Painted Gnoll Armbands · 7 Nov (player confirmed).');

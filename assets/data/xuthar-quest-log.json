@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-12",
+  "recordedAt": "2026-11-14",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 18,
+  "characterLevel": 19,
   "characterLevelSource": "Player directly confirmed with new screenshots; official Blizzard API may lag",
-  "characterLevelRecordedAt": "2026-11-12",
+  "characterLevelRecordedAt": "2026-11-13",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -764,7 +764,7 @@
       "publishedOnSite": false
     }
   ],
-  "latestReportAt": "2026-11-06T18:41:52+01:00",
+  "latestReportAt": "2026-11-14",
   "previousStormwindSnapshot": {
     "snapshotId": "stormwind-20261105-202423",
     "location": "Stormwind City · Trade District · 63.1, 74.6",
@@ -1023,12 +1023,12 @@
     }
   ],
   "currentSessionId": "day-06-20261111",
-  "currentSessionStatus": "live-questing-westfall-level-17",
-  "currentChronicleDate": "2026-11-11",
+  "currentSessionStatus": "new-adventures-redridge",
+  "currentChronicleDate": "2026-11-14",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
   "lastConfirmedLocation": "The Gilded Rose, Stormwind City · 60,70 (in-game coordinates)",
-  "currentQuestTrackerLocation": "Westfall · exact coordinates not reported",
+  "currentQuestTrackerLocation": "Redridge Mountains · last player-reported zone",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
     "date": "2026-11-06",
@@ -1597,7 +1597,7 @@
       "synchronizedAutomatically": false
     }
   },
-  "latestTrackerTime": "2026-11-06 20:59:22 (screenshot time; local zone not encoded)",
+  "latestTrackerTime": "14 November 2026 · exact capture time not established",
   "previousObservedQuestTracker": {
     "snapshotId": "day02-20261106-184152-westfall-directed-quests",
     "source": "Screenshot at 18:41, partially cropped",
@@ -2190,66 +2190,74 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-12-deadmines-preparation-8-40",
-    "day": "2026-11-12",
-    "screenshot": "image(20261112-204044).png",
-    "interface": "Questie Tracker · 8/40",
-    "visibleCoordinates": {
-      "x": 52.8,
-      "y": 53.5,
-      "zoneUnconfirmed": true
+    "id": "2026-11-14-redridge-questie-five",
+    "day": "2026-11-14",
+    "screenshot": "image(20261114-152911).png",
+    "interface": "Questie Tracker · 5/40",
+    "zone": "Redridge Mountains · last player-reported zone",
+    "coordinates": {
+      "x": 16.8,
+      "y": 69.7
     },
-    "characterLevel": 18,
+    "characterLevel": 19,
     "visibleQuests": [
       {
         "name": "Business in Auberdine",
+        "level": 17,
+        "groupLabel": "Darkshore",
         "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!"
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "Assessing the Threat",
+        "level": 17,
+        "groupLabel": "Redridge Mountains",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "Show of Force",
+        "level": 17,
+        "groupLabel": "Redridge Mountains",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
       },
       {
         "name": "Retrieval for Mauren",
-        "level": "26",
+        "level": 26,
+        "groupLabel": "Stonetalon Mountains",
         "status": "active",
-        "rawStatus": "0/8 Crystallized Scales"
+        "rawStatus": "0/8 Crystallized Scales",
+        "objectives": [
+          {
+            "name": "Crystallized Scales",
+            "current": 0,
+            "total": 8
+          }
+        ]
       },
       {
-        "name": "Red Silk Bandanas",
-        "level": "17D",
+        "name": "The Stockade Riots",
+        "level": "29D",
+        "groupLabel": "The Stockade",
         "status": "active",
-        "rawStatus": "0/10 Red Silk Bandana"
-      },
-      {
-        "name": "Collecting Memories",
-        "level": "18D",
-        "status": "active",
-        "rawStatus": "0/4 Miners’ Union Card"
-      },
-      {
-        "name": "Destruction in Deadmines",
-        "level": "18D",
-        "status": "active",
-        "rawStatus": "0/1 Explosives placed"
-      },
-      {
-        "name": "Oh Brother...",
-        "level": "20D",
-        "status": "active",
-        "rawStatus": "0/1 Thistlenettle’s Badge"
-      },
-      {
-        "name": "Underground Assault",
-        "level": "20D",
-        "status": "active",
-        "rawStatus": "0/1 Gnoam Sprecklesprocket"
-      },
-      {
-        "name": "The Defias Brotherhood",
-        "level": "22D",
-        "status": "active",
-        "rawStatus": "0/1 Head of VanCleef"
+        "rawStatus": "0/1 Head of Bazil Thredd",
+        "objectives": [
+          {
+            "name": "Head of Bazil Thredd",
+            "current": 0,
+            "total": 1
+          }
+        ]
       }
     ],
-    "scope": "Visible 8/40 Questie tracker. The Defias Traitor escort is player-confirmed completed; VanCleef's head has not been collected and the dungeon run is planned for tomorrow."
+    "scope": "Quest group labels indicate quest categories, not character travel. Coordinates visible; zone comes from player report. Quest Complete counted delivered by standing personal Chronicle rule. No unseen quest completion inferred from this crop."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2667,18 +2675,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Roads That Wait in Dreams",
-    "stage": "9 November 2026 · Level 15 · Sentinel Hill, Westfall",
-    "status": "OFFLINE · Resting in bed · Sentinel Hill, Westfall",
-    "characterLevel": 15,
-    "latestPlayerReportedZone": "Westfall",
-    "latestPlayerReportedLocation": "Sentinel Hill",
-    "coordinates": null,
-    "storyChapterId": "x-sentinel-hill-nov9-evening-bed",
-    "activity": "Resting, thinking of future adventures and drifting into sleep",
-    "weather": "Earlier rain while fishing; nighttime conditions not confirmed",
-    "daySummary": "A difficult, tiring day; Xuthar had little desire to adventure further.",
-    "source": "Player report about evening offline rest. Coordinates absent; latest screenshot Westfall 52.5,53.2 belongs to Questie observation only. Dream scenes are literary fiction."
+    "chapter": "The Roads That Part",
+    "stage": "Redridge Mountains · Level 19",
+    "status": "Westfall completed · temporarily apart from Carro Steelcave"
   },
   "currentEquipmentReports": [
     {
@@ -3880,10 +3879,72 @@
       ],
       "scope": "Evening screenshot Questie 5/40 shows State of the Mines 0/4 Kobold Diggers and 0/6 Riverpaw Miners; second assignment People's Militia remains active at 1/15, 0/5, 0/5. Stormpike's Delivery, The Defias Brotherhood, ... and that note you found all display Quest Complete! and count finished for personal Chronicle. Murloc Gills vanished relative to the afternoon 4/40 list and is considered completed by player-established reporting rule. Screenshot position 52.5,53.2 is not necessarily where Xuthar logs out. Level 15 and final rest at Sentinel Hill are stated by player separately. No other completions or rewards inferred.",
       "storyChapterId": "x-sentinel-hill-nov9-evening-bed"
+    },
+    {
+      "id": "2026-11-12-deadmines-preparation-8-40",
+      "day": "2026-11-12",
+      "screenshot": "image(20261112-204044).png",
+      "interface": "Questie Tracker · 8/40",
+      "visibleCoordinates": {
+        "x": 52.8,
+        "y": 53.5,
+        "zoneUnconfirmed": true
+      },
+      "characterLevel": 18,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Retrieval for Mauren",
+          "level": "26",
+          "status": "active",
+          "rawStatus": "0/8 Crystallized Scales"
+        },
+        {
+          "name": "Red Silk Bandanas",
+          "level": "17D",
+          "status": "active",
+          "rawStatus": "0/10 Red Silk Bandana"
+        },
+        {
+          "name": "Collecting Memories",
+          "level": "18D",
+          "status": "active",
+          "rawStatus": "0/4 Miners’ Union Card"
+        },
+        {
+          "name": "Destruction in Deadmines",
+          "level": "18D",
+          "status": "active",
+          "rawStatus": "0/1 Explosives placed"
+        },
+        {
+          "name": "Oh Brother...",
+          "level": "20D",
+          "status": "active",
+          "rawStatus": "0/1 Thistlenettle’s Badge"
+        },
+        {
+          "name": "Underground Assault",
+          "level": "20D",
+          "status": "active",
+          "rawStatus": "0/1 Gnoam Sprecklesprocket"
+        },
+        {
+          "name": "The Defias Brotherhood",
+          "level": "22D",
+          "status": "active",
+          "rawStatus": "0/1 Head of VanCleef"
+        }
+      ],
+      "scope": "Visible 8/40 Questie tracker. The Defias Traitor escort is player-confirmed completed; VanCleef's head has not been collected and the dungeon run is planned for tomorrow."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-12-deadmines-preparation-8-40",
-  "latestQuestTrackerLocation": "Westfall · exact coordinates not reported",
+  "latestQuestTrackerSnapshotId": "2026-11-14-redridge-questie-five",
+  "latestQuestTrackerLocation": "Redridge Mountains · last player-reported zone",
   "lastLevelMilestone": {
     "level": 18,
     "date": "2026-11-12",
@@ -3940,14 +4001,17 @@
       "Patrolling Westfall",
       "The People's Militia (first assignment: Pillagers and Looters)",
       "Murloc Gills",
-      "... and that note you found"
+      "... and that note you found",
+      "Business in Auberdine",
+      "Assessing the Threat",
+      "Show of Force"
     ],
-    "count": 20,
+    "count": 23,
     "officialApiVerified": false,
-    "recordedAt": "2026-11-09",
+    "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
-    "latestSource": "9 November late-night Questie 5/40: note marked Quest Complete; Murloc Gills missing from last tracker, counted completed by player's standing reporting rule.",
-    "scopeNote": "The State of the Mines and The People's Militia's second assignment remain active; Stormpike and Defias remain Quest Complete; no new completed stages inferred beyond these."
+    "latestSource": "image(20261114-152911).png",
+    "scopeNote": "Latest tracker: three complete, Retrieval for Mauren 0/8 and The Stockade Riots 0/1 active. Quest category headings do not establish visits."
   },
   "previousLatestVisibleObjectives": {
     "id": "2026-11-09-westfall-night-questie-five",

@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794617671,
+  "exportedAt": 1794665509,
   "characters": [
     {
       "id": "xuthar",
@@ -22,25 +22,33 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794617671,
+      "checkedAt": 1794665509,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794617671,
-          "inProgressCount": 3,
+          "snapshotAt": 1794665509,
+          "inProgressCount": 5,
           "completedCount": 183,
           "inProgress": [
+            {
+              "id": 98407,
+              "name": "Show of Force"
+            },
+            {
+              "id": 246,
+              "name": "Assessing the Threat"
+            },
             {
               "id": 391,
               "name": "The Stockade Riots"
             },
             {
-              "id": 1078,
-              "name": "Retrieval for Mauren"
-            },
-            {
               "id": 97894,
               "name": "Business in Auberdine"
+            },
+            {
+              "id": 1078,
+              "name": "Retrieval for Mauren"
             }
           ],
           "completedQuestIds": [
@@ -713,7 +721,7 @@
               "briefing": "There is but one task left for you to complete. Edwin VanCleef must be assassinated. While it saddens me to condemn any man to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 167,
@@ -722,7 +730,7 @@
               "briefing": "We were deep in a vast mine in Westfall, hidden beneath a barn in Moonbrook. No clue where these stinkin' thieving types came from.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 168,
@@ -731,7 +739,7 @@
               "briefing": "Many of my friends perished that horrible day when the mine tunnel caved in. If your adventures happen to bring you into that wing…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 176,
@@ -749,7 +757,7 @@
               "briefing": "It's no secret that the trademark of the Defias Gang is their Red Bandanas. But we've learned that the material from which these bandanas…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -812,7 +820,7 @@
               "briefing": "Searching Edwin VanCleef's person, you discover, among other things, an unsent letter. It is addressed to Baros Alexston, the City Architect of Stormwind, City…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 389,
@@ -821,7 +829,7 @@
               "briefing": "VanCleef and I were members of the Stonemasons Guild. Our main project was to rebuild Stormwind after the War. When we had finished our…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 399,
@@ -857,7 +865,7 @@
               "briefing": "Gnomeregan has fallen under the control of those dastardly troggs! The situation is grave but perhaps you can help, Xuthar. Deep in the Deadmines…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 2158,
@@ -1280,7 +1288,7 @@
               "briefing": "The source of the poison is likely a large metallurgical forge of some kind. Find a way into the Deadmines and locate the forge,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 92819,
@@ -1289,7 +1297,7 @@
               "briefing": "We are almost finished. Use the detonator, and end this.",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1877,18 +1885,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            166,
-            167,
-            168,
-            214,
-            373,
-            389,
-            2040,
-            92753,
-            92819
-          ],
-          "comparedWithSnapshotAt": 1794583554,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794617671,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1904,7 +1902,7 @@
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794617671
+        "profileCheckedAt": 1794665509
       }
     }
   ],

@@ -321,7 +321,7 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?stockades=20261114&professions=20261113&v=20261114-stockades',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261114-canal-epilogue',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');

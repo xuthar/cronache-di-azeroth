@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794665509,
+  "exportedAt": 1794700613,
   "characters": [
     {
       "id": "xuthar",
@@ -12,35 +12,91 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 19,
+      "level": 21,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 183,
+      "questsCompleted": 210,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794665509,
+      "checkedAt": 1794700613,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794665509,
-          "inProgressCount": 5,
-          "completedCount": 183,
+          "snapshotAt": 1794700613,
+          "inProgressCount": 21,
+          "completedCount": 210,
           "inProgress": [
             {
-              "id": 98407,
-              "name": "Show of Force"
+              "id": 150,
+              "name": "Murloc Poachers"
             },
             {
-              "id": 246,
-              "name": "Assessing the Threat"
+              "id": 143,
+              "name": "Messenger to Westfall"
             },
             {
-              "id": 391,
-              "name": "The Stockade Riots"
+              "id": 20,
+              "name": "Blackrock Menace"
+            },
+            {
+              "id": 91,
+              "name": "Solomon's Law"
+            },
+            {
+              "id": 34,
+              "name": "An Unwelcome Guest"
+            },
+            {
+              "id": 89,
+              "name": "The Everstill Bridge"
+            },
+            {
+              "id": 124,
+              "name": "A Baying of Gnolls"
+            },
+            {
+              "id": 116,
+              "name": "Dry Times"
+            },
+            {
+              "id": 128,
+              "name": "Blackrock Bounty"
+            },
+            {
+              "id": 347,
+              "name": "Rethban Ore"
+            },
+            {
+              "id": 95999,
+              "name": "WANTED: Incinerator Gar'im"
+            },
+            {
+              "id": 2928,
+              "name": "Gyrodrillmatic Excavationators"
+            },
+            {
+              "id": 169,
+              "name": "WANTED: Gath'Ilzogg"
+            },
+            {
+              "id": 2923,
+              "name": "Tinkmaster Overspark"
+            },
+            {
+              "id": 127,
+              "name": "Selling Fish"
+            },
+            {
+              "id": 98387,
+              "name": "Blackrock Blockade"
+            },
+            {
+              "id": 92,
+              "name": "Redridge Goulash"
             },
             {
               "id": 97894,
@@ -49,6 +105,14 @@
             {
               "id": 1078,
               "name": "Retrieval for Mauren"
+            },
+            {
+              "id": 180,
+              "name": "WANTED: Lieutenant Fangore"
+            },
+            {
+              "id": 122,
+              "name": "Underbelly Scales"
             }
           ],
           "completedQuestIds": [
@@ -96,7 +160,15 @@
             111,
             112,
             114,
+            118,
+            119,
+            120,
+            121,
             123,
+            125,
+            129,
+            130,
+            131,
             132,
             135,
             141,
@@ -112,18 +184,33 @@
             214,
             239,
             244,
+            246,
             332,
             333,
             334,
+            343,
+            344,
+            345,
+            350,
             353,
             373,
             389,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
             399,
+            434,
             783,
             1097,
             2040,
             2158,
+            2745,
+            2746,
             3103,
+            3741,
             3903,
             3904,
             3905,
@@ -131,6 +218,9 @@
             5545,
             5623,
             5624,
+            5676,
+            5677,
+            5678,
             6181,
             6261,
             6281,
@@ -229,6 +319,7 @@
             98284,
             98286,
             98372,
+            98407,
             99127,
             99128,
             99129,
@@ -634,6 +725,42 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 118,
+              "title": "The Price of Shoes",
+              "area": "Redridge Mountains",
+              "briefing": "I've been using so much iron keeping the Stormwind Guards outfitted, I don't have enough to supply the stable's horses with shoes! Take this…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 119,
+              "title": "Return to Verner",
+              "area": "Redridge Mountains",
+              "briefing": "Ok, I'll give him his 50 horseshoes... Here they are, all boxed up and ready to go! Tell Verner it was a pleasure doing…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 120,
+              "title": "Messenger to Stormwind",
+              "area": "Redridge Mountains",
+              "briefing": "These are trying times, priest. The township is under constant siege. Without reinforcements, we will certainly face defeat. The message I now entrust to…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 121,
+              "title": "Messenger to Stormwind",
+              "area": "Redridge Mountains",
+              "briefing": "While I wait for a response from the King I want you to carry this letter to Magistrate Solomon. Dismissed, priest!",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 123,
               "title": "The Collector",
               "area": "Elwynn Forest",
@@ -641,6 +768,42 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 125,
+              "title": "The Lost Tools",
+              "area": "Redridge Mountains",
+              "briefing": "I could really use a hand here, Xuthar. With the town under siege, it's been hard to get supplies. My tools were being delivered…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 129,
+              "title": "A Free Lunch",
+              "area": "Redridge Mountains",
+              "briefing": "Can you do me a favor? I've prepared a lunch for Guard Parker, but he's out on patrol...he's a big, strong Stormwind guard who…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 130,
+              "title": "Visit the Herbalist",
+              "area": "Redridge Mountains",
+              "briefing": "Before you go back to Darcy, can you bring her some flowers for me? You can get them at the herbalist shop back in…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 131,
+              "title": "Delivering Daffodils",
+              "area": "Redridge Mountains",
+              "briefing": "Here is your bouquet. I chose Daffodils for you. They're my favorite!",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 132,
@@ -778,6 +941,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 246,
+              "title": "Assessing the Threat",
+              "area": "Redridge Mountains",
+              "briefing": "We don't have men to spare, but something must be done about those gnolls you reported to me. Scout southern Redridge for gnolls. Harry…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 332,
               "title": "Wine Shop Advert",
               "area": "Stormwind City",
@@ -803,6 +975,42 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 343,
+              "title": "Speaking of Fortitude",
+              "area": "Stormwind City",
+              "briefing": "I'm giving a speech on the Fortitude of the Spirit, and I'd like to recite passages from a particular book on metallurgy - \"The…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 344,
+              "title": "Brother Paxton",
+              "area": "Stormwind City",
+              "briefing": "The Stresses of Iron? Yes, I know the book. Quite a good one, written by the Dwarven miner Margulf Blaggon a few decades ago.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 345,
+              "title": "Ink Supplies",
+              "area": "Stormwind City",
+              "briefing": "I've been meaning to finish my copy of The Stresses of Iron, but... Well you see, I make my own ink for books I…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 350,
+              "title": "Look to an Old Friend",
+              "area": "Stormwind City",
+              "briefing": "That Marzon would be contacting a member of the Defias and have ties to Lescovar... Having killed VanCleef and Thredd, it would be hard…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 353,
@@ -832,6 +1040,60 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 391,
+              "title": "The Stockade Riots",
+              "area": "The Stockade",
+              "briefing": "Let's get one thing straight, Xuthar: I don't trust you. But, with the situation as it is, you probably won't make a difference. So…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 392,
+              "title": "The Curious Visitor",
+              "area": "Stormwind City",
+              "briefing": "During the first years of Thredd's imprisonment, he never had any visitors. I figured that he was no longer of use to the Brotherhood,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 393,
+              "title": "Shadow of the Past",
+              "area": "Stormwind City",
+              "briefing": "I really haven't a clue, Xuthar. There is someone else who might be able to help you, and it so happens that he owes…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 394,
+              "title": "The Head of the Beast",
+              "area": "Stormwind City",
+              "briefing": "Find Shaw in Old Town. Let him know that the Lescovar threat has been dealt with and about your involvement in the Lord's plots…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 395,
+              "title": "Brotherhood's End",
+              "area": "Stormwind City",
+              "briefing": "Ah, I almost forgot. Alexston came while you were away, he wished to speak with you. No doubt he wishes to report the goings-on…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 396,
+              "title": "An Audience with the King",
+              "area": "Stormwind City",
+              "briefing": "I have prepared a report for the King. I believe you should be the one to deliver it to him, along with an account…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 399,
               "title": "Humble Beginnings",
               "area": "Stormwind City",
@@ -839,6 +1101,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 434,
+              "title": "The Attack!",
+              "area": "Stormwind City",
+              "briefing": "After I put on Spybot's disguise, he'll head in to talk to Lescovar. The guards should let him pass no problem. While you were…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 783,
@@ -877,6 +1148,24 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 2745,
+              "title": "Infiltrating the Castle",
+              "area": "Stormwind City",
+              "briefing": "Hmm, an interesting tale, and not one to be taken lightly. Yeah, I can help you, but what you need to do is divvy…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 2746,
+              "title": "Items of Some Consequence",
+              "area": "Stormwind City",
+              "briefing": "Trias wants the timetable pushed up some, huh? Okay, we can do that, but I'm not ready. And know this, I'm doing the hard…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 3103,
               "title": "Hallowed Letter",
               "area": "Priest",
@@ -884,6 +1173,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 3741,
+              "title": "Hilary's Necklace",
+              "area": "Redridge Mountains",
+              "briefing": "My friend Hilary lost her necklace, and we can't find it. We've been fishing all day right here, and we looked around here already.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 3903,
@@ -947,6 +1245,33 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 5676,
+              "title": "Arcane Feedback",
+              "area": "Priest",
+              "briefing": null,
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 5677,
+              "title": "Arcane Feedback",
+              "area": "Priest",
+              "briefing": "As much as I'd like to show you our own special teachings of the Light, it is not our place. Your place is back…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 5678,
+              "title": "Arcane Feedback",
+              "area": "Priest",
+              "briefing": "It is time for you to return to Stormwind, young one. Your superiors there have called you back for more training. And although it…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 6181,
@@ -1831,6 +2156,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 98407,
+              "title": "Show of Force",
+              "area": "Redridge Mountains",
+              "briefing": "If the gnolls are growing so bold they are willing to camp this close to humans, there's no telling how much further they'll go.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 99127,
               "title": "A Net Disaster",
               "area": "Elwynn Forest",
@@ -1885,8 +2219,36 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794617671,
+          "newlyObservedCompletedIds": [
+            118,
+            119,
+            120,
+            121,
+            125,
+            129,
+            130,
+            131,
+            246,
+            343,
+            344,
+            345,
+            350,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            434,
+            2745,
+            2746,
+            3741,
+            5676,
+            5677,
+            5678,
+            98407
+          ],
+          "comparedWithSnapshotAt": 1794665509,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1894,15 +2256,15 @@
           "secondaryCount": 3
         },
         "equipment": {
-          "equippedCount": 10
+          "equippedCount": 11
         },
         "reputations": {
-          "trackedCount": 4
+          "trackedCount": 5
         },
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794665509
+        "profileCheckedAt": 1794700613
       }
     }
   ],

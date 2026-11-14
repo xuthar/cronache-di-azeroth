@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-deadmines-victory",
+      "status": "living-novel-stockades-triumph",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -2314,6 +2314,137 @@
             "II. The Stockade — announced on 14 November 2026. Xuthar has returned to Stormwind to venture into the prison with Carro Steelcave. The expedition is being prepared; its battles and outcome remain unwritten. Other dungeon journeys remain future possibilities.",
             "The first descent was no longer tomorrow’s promise. It had become a shared memory, and Carro Steelcave’s name belonged beside Xuthar’s at its heart."
           ]
+        },
+        {
+          "id": "x-nov14-threshold",
+          "chapter": "Chapter 88",
+          "title": "The City Above, the Darkness Below",
+          "kind": "fiction",
+          "paragraphs": [
+            "The canal held the evening light as though Stormwind had never known fear. Beyond it rose the towers, pale and proud; beside it waited the prison door. Xuthar stood with Carro Steelcave before that narrow entrance and thought of the impossible ship beneath Westfall. They had survived the depths together once. Now the darkness had followed them home.",
+            "Broken Tooth prowled beside the dwarf, restless where the stones sloped toward the water. Around the entrance, travelers gathered and moved aside. The city continued its ordinary business within a few strides of the revolt. That was what struck Xuthar hardest: how little stone separated a peaceful evening from a battle for survival.",
+            "Carro checked his equipment. Xuthar settled the weight of his staff and looked once toward the sky. Neither needed a speech. Their friendship had already found its language in the mines: a glance before the pull, a place kept open beside the other, the certainty that no one would be willingly left behind. Together they crossed the threshold."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_190123.jpg",
+          "imageCaption": "The City Above, the Darkness Below",
+          "link": "dungeons/stockades.html#threshold"
+        },
+        {
+          "id": "x-nov14-descent",
+          "chapter": "Chapter 89",
+          "title": "The Stair That Swallowed Daylight",
+          "kind": "fiction",
+          "paragraphs": [
+            "The light changed first. Gold from the canal gave way to the low yellow of lamps, then to the smoke-dark glow of torches along the stairs. At the landing, crates and stone pillars crowded the chamber. Farther below, the corridor narrowed until every footstep returned as an answer from the walls.",
+            "Xuthar followed Carro down. Broken Tooth moved ahead with the compact assurance of a creature that understood danger without needing to name it. Beyond the last steps, red names stirred in the gloom. The prisoners were no longer shadows behind locks. They owned the passage, and they were waiting.",
+            "The first clash broke the silence like a dropped chain. Steel rang against stone; a body blocked the way; another shape moved beyond it. Xuthar raised his staff, gathering his will into the narrow space between his companions and the advancing threat. There would be no broad battlefield here, no room for a graceful retreat. They would earn the prison one stretch of floor at a time."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_191431.jpg",
+          "imageCaption": "The Stair That Swallowed Daylight",
+          "link": "dungeons/stockades.html#descent"
+        },
+        {
+          "id": "x-nov14-cells",
+          "chapter": "Chapter 90",
+          "title": "A Kingdom of Iron Doors",
+          "kind": "fiction",
+          "paragraphs": [
+            "Behind the bars, torchlight painted the walls the color of old copper. The first cleared room offered only a moment to breathe. Fallen prisoners lay between scattered barrels and the iron gate. Xuthar counted the living before he looked at the dead. Carro was still there. The company could move.",
+            "They returned to the passage and pressed deeper. A captive waited beyond the next opening; another room swallowed the sound of their approach. Every doorway demanded the same hard bargain: go far enough to draw the danger, stop soon enough to keep it from surrounding them. The prison punished impatience with reinforcements.",
+            "Carro held his place in the corridor while Xuthar stepped past the fallen. The priest felt the strange exhaustion of fighting beneath a city that did not hear them. Above these beams, someone was lighting a hearth. Below them, friendship had become a practical thing: cover the doorway, watch the flank, leave enough strength for the next room.",
+            "When another cell finally fell quiet, Xuthar stood among the bodies with his staff lowered. Victory was arriving in fragments. None was small to the men who had paid for it."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_191557.jpg",
+          "imageCaption": "A Kingdom of Iron Doors",
+          "link": "dungeons/stockades.html#cells"
+        },
+        {
+          "id": "x-nov14-corridors",
+          "chapter": "Chapter 91",
+          "title": "Where the Torches Could Not Reach",
+          "kind": "fiction",
+          "paragraphs": [
+            "The passage stretched ahead, low-beamed and black at its far end. Carro and Broken Tooth became moving outlines against the next pool of firelight. Xuthar followed the rhythm of their advance, resisting the urge to hurry toward them whenever the corridor swallowed their shapes.",
+            "They broke through another knot of resistance. The central floor filled with stillness and spent violence; barred doors watched from either side. Xuthar paused before one of them. An iron gate was a simple object, yet here every gate seemed to divide one decision from the next. Behind him lay ground they had won. Ahead lay another room that could still take everything back.",
+            "He turned into a side passage. A fallen figure lay near the wall, the corridor receding beyond it. There was no triumphal music, only the soft scrape of boots and the sound of breathing settling. Courage, he was learning, often looked like taking the next careful step while every tired part of the body asked to stop."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_191903.jpg",
+          "imageCaption": "Where the Torches Could Not Reach",
+          "link": "dungeons/stockades.html#corridors"
+        },
+        {
+          "id": "x-nov14-hamhock",
+          "chapter": "Chapter 92",
+          "title": "The Shadow Beneath the Webs",
+          "kind": "fiction",
+          "paragraphs": [
+            "Webs sagged from the beams ahead, pale against the prison dark. Beyond them waited another concentration of enemies, and the company gathered itself before committing to the room. The air seemed to tighten. Xuthar knew the feeling now: the last breath in which a battle remained only a possibility.",
+            "Then the passage erupted. Broken Tooth surged forward; Carro followed the opening; Xuthar brought his will to bear through the confusion. Each enemy brought down made room for the next movement. They pushed through the webbed threshold until the stone beneath them belonged once more to the living.",
+            "For an instant there was time beside a chest, Carro close enough that Xuthar could hear him move. Then Hamhock filled their attention. The great ogre was a brutal presence in a space already too small, and crimson spell-light spread across the floor around the fight. Xuthar held himself inside the moment: the enemy before him, his friend beside him, the next action that had to be made.",
+            "Hamhock fell. What remained was the abrupt smallness of a body where a threat had stood. Xuthar drew breath and found the corridor beyond. The prison had not finished with them. Bazil Thredd still waited."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_192349.jpg",
+          "imageCaption": "The Shadow Beneath the Webs",
+          "link": "dungeons/stockades.html#hamhock"
+        },
+        {
+          "id": "x-nov14-thredd",
+          "chapter": "Chapter 93",
+          "title": "The Head of the Rebellion",
+          "kind": "fiction",
+          "paragraphs": [
+            "At the end of the descent, the revolt acquired a face. Bazil Thredd was no longer a name carried from one conversation to another. He was the man who stood between the companions and the end of the prison nightmare. Behind Xuthar lay the stairs, the cells, the narrow passages and every choice that had kept them alive.",
+            "The last confrontation offered no distance from its consequences. The fight crowded the stone around them; Xuthar committed what strength remained, and Carro was there again, as he had been in the mines, making the impossible feel like something they could reach together. Their journey had brought them from a hidden ship to a prison beneath the capital. Neither darkness had broken that bond.",
+            "When Thredd fell, the silence seemed too large for the corridor. Xuthar stood over the defeated rebel and let the truth arrive slowly. It was done. The head demanded by Thelwater could be taken back. The adventure that had begun at the canal had become a triumph, earned through every door and every desperate exchange below.",
+            "They climbed toward the upper chamber, past the lamps and pillars that had marked their arrival. This time the stair led out. Xuthar carried proof of the victory; beside him walked Carro Steelcave. For one extraordinary evening, Stormwind would sleep above a darkness they had conquered."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_192706.jpg",
+          "imageCaption": "The Head of the Rebellion",
+          "link": "dungeons/stockades.html#thredd"
+        },
+        {
+          "id": "x-nov14-letter",
+          "chapter": "Chapter 94",
+          "title": "A Letter That Outlived VanCleef",
+          "kind": "fiction",
+          "paragraphs": [
+            "Yet a severed thread was not the end of the web. Long before the prison gates, in the depths of the Deadmines, a letter had survived Edwin VanCleef. Xuthar had learned that a dead enemy could still send a traveler down another road. The Unsent Letter had led to Baros Alexston; the name Bazil Thredd had led from Alexston to Warden Thelwater.",
+            "The Stockade Riots had turned that inquiry into a battle. Now Thredd was dead, his head the grim answer to the warden’s demand. But the trail continued through The Curious Visitor and Shadow of the Past. Stormwind had remembered pieces of its own secret history, and those pieces did not fit the reassuring picture of a city safe behind its walls.",
+            "Look to an Old Friend carried the investigation toward Elling Trias. Inside the warm wooden shop, beside Carro and Broken Tooth, Xuthar found the peculiar unease of speaking about hidden dangers within reach of a cheerful hearth. The prison had offered enemies he could see. This next road required him to recognize those who wore respectable faces."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_193906.jpg",
+          "imageCaption": "A Letter That Outlived VanCleef",
+          "link": "dungeons/stockades.html#letter"
+        },
+        {
+          "id": "x-nov14-garden",
+          "chapter": "Chapter 95",
+          "title": "The Garden Behind the Lie",
+          "kind": "fiction",
+          "paragraphs": [
+            "Infiltrating the Castle brought the trail to Tyrion. Items of Some Consequence made preparation the price of discovery: silk cloth and apples, humble materials for a deception that might draw a greater secret into daylight. Xuthar had crossed dangerous rooms to reach the truth; now he had to wait for it to walk into a garden.",
+            "The courtyard seemed impossibly gentle after the prison. Trees rose between pale arches; grass softened the paths. Carro stood close, Broken Tooth watchful beside him. The Attack! began in that uneasy quiet, with a mechanical trick and a conversation that stripped the innocence from the setting.",
+            "Lord Gregor Lescovar and Marzon the Silent brought the conspiracy into focus. Xuthar listened as the connection to Westfall surfaced in their exchange. The distance from VanCleef’s hidden ship to the castle garden collapsed. These had never been separate stories. The same corruption had reached beneath the fields, beneath the city, and into the shelter of its highest walls.",
+            "When the moment came to act, the waiting ended. The garden became a battlefield, its beauty unable to disguise the betrayal it had housed. Together the companions carried the investigation through confrontation. What had begun as a letter could finally become an answer."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_194403.jpg",
+          "imageCaption": "The Garden Behind the Lie",
+          "link": "dungeons/stockades.html#garden"
+        },
+        {
+          "id": "x-nov14-seal",
+          "chapter": "Chapter 96",
+          "title": "The Seal and the Witness",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Head of the Beast carried the result back to the hands that could make sense of it. Brotherhood’s End brought the reckoning to Baros Alexston. Every journey across Stormwind now held a memory beneath it: a prison stair, a shuttered room, the hush before the conspirators spoke. The city had become a map of truths painfully uncovered.",
+            "At last came An Audience with the King. Xuthar entered the keep with Carro, beneath vaults that lifted the eye after so long beneath low beams. Blue banners hung against pale stone. The report had reached the royal court, and the long chain that began with VanCleef’s unspoken words had reached its reward.",
+            "The Seal of Wrynn rested in Xuthar’s possession: a small circle carrying the weight of an immense road. Its strength promised help in battles still ahead, but that was only part of what made it precious. It belonged to Westfall and the Deadmines, to Thredd’s defeat, to the garden where lies had been heard aloud. It belonged to an evening when Carro had walked beside him through danger again.",
+            "He looked down the long hall and closed his hand around the thought of it. There would be other rings, other victories, other roads. This one would always remember how it had been earned. Xuthar Morvayne had gone beneath Stormwind to finish an adventure. He returned bearing a seal, a triumph, and another chapter that no darkness could take from him."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_111426_195322.jpg",
+          "imageCaption": "The Seal and the Witness",
+          "link": "dungeons/stockades.html#seal"
         },
         {
           "id": "x-future",

@@ -4,12 +4,12 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Westfall",
-  "location": "Returned victorious with Carro Steelcave · Sentinel Hill last photographed",
+  "zone": "Redridge Mountains",
+  "location": "Continuing his own journey · temporarily apart from Carro Steelcave",
   "coordinates": null,
-  "activity": "LEVEL 19 · Deadmines conquered · VanCleef defeated",
-  "reportedOn": "2026-11-13",
-  "updatedAt": "2026-11-13",
-  "note": "Player-reported triumphant completion with Carro Steelcave; original screenshots show VanCleef fallen and return to Sentinel Hill. Presence remains live as previously reported; no logout inferred. Level 19 confirmed by the player on 13 November 2026.",
+  "activity": "LEVEL 19 · Westfall completed · New adventures in Redridge",
+  "reportedOn": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "note": "Player reports journey to Redridge after completing Westfall and temporarily parting from Carro following Deadmines. Exact location and coordinates not reported. Level 19 and presence state retained from the last report; no new login or logout inferred.",
   "level": 19
 }

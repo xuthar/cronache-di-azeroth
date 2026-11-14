@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -2201,6 +2201,61 @@
           "link": "xuthar.html#xuthar-professions"
         },
         {
+          "id": "x-nov14-redridge-parting",
+          "chapter": "Chapter LXXXIV · The Roads That Part",
+          "title": "Where Two Roads Part",
+          "kind": "reported",
+          "sessionDate": "2026-11-14",
+          "place": "Westfall → Redridge Mountains",
+          "paragraphs": [
+            "The victory beneath Westfall did not end with another battle. It ended with the open sky, the weight of familiar belongings, and the knowledge that a road shared could become two roads without losing what had made it precious. Xuthar Morvayne and Carro Steelcave had descended together into the Deadmines. They had stood against VanCleef and returned. Nothing in the quiet that followed could diminish that.",
+            "For a time, their paths would separate. Xuthar found that the thought troubled him more gently than he had expected. Beside Carro, danger had acquired a shape he could bear: a companion ahead, a steady presence at his shoulder, the reassurance of someone who would notice if he fell behind. Now the next stretch of road would ask him to carry that steadiness within himself.",
+            "He would remember the hunter before he remembered the trophy. The tunnels and furnace, the impossible ship beneath the earth, the last hard approach to VanCleef: every memory held the knowledge that Carro had been there. Their friendship did not need a grand farewell to survive a little distance. This was a parting for now, an interval between adventures whose next meeting had yet to find its place on a map.",
+            "When Xuthar turned toward his own journey, he felt the familiar space beside him. He let it remain. Some absences were not wounds; they were room kept for someone who might one day walk there again."
+          ],
+          "sources": [
+            "Player report on 14 November 2026: temporary separation from Carro after Deadmines; Westfall completed; journey to Redridge and new adventures."
+          ],
+          "editorialNote": "Player-reported sequence; session date records the report date, not an independently confirmed travel time. Thoughts and descriptive transitions are literary reconstruction. No specific new quest, encounter, reward or level-up is asserted."
+        },
+        {
+          "id": "x-nov14-redridge-westfall",
+          "chapter": "Chapter LXXXIV · The Roads That Part",
+          "title": "The Fields Behind Him",
+          "kind": "reported",
+          "sessionDate": "2026-11-14",
+          "place": "Westfall → Redridge Mountains",
+          "paragraphs": [
+            "Westfall was complete. The words seemed too small for the days they contained: rain upon the water, difficult errands, dust along the roads, the stubborn work that had drawn him deeper into the Defias struggle. The fall of VanCleef belonged at the end of that passage, but it did not erase everything that had come before it.",
+            "He had learned patience there in more than one form. Sometimes it meant waiting beside a fishing line. Sometimes it meant continuing when weariness made every task feel longer. Sometimes it meant trusting another traveller enough to follow him beneath the ground. Looking back, Xuthar could no longer separate the quiet hours from the triumphant ones. Both had made him ready to leave.",
+            "There was no need to pretend the whole country had been healed because his own work there was finished. A traveller could complete a chapter without closing the lives of everyone who remained inside it. Westfall would keep its wind and its troubled fields. He would keep the names and memories he had gathered there.",
+            "He adjusted his belongings and resumed his walk. This time the road ahead did not lead back into the mines. It led east, toward the red hills."
+          ],
+          "sources": [
+            "Player report on 14 November 2026: temporary separation from Carro after Deadmines; Westfall completed; journey to Redridge and new adventures."
+          ],
+          "editorialNote": "Player-reported sequence; session date records the report date, not an independently confirmed travel time. Thoughts and descriptive transitions are literary reconstruction. No specific new quest, encounter, reward or level-up is asserted."
+        },
+        {
+          "id": "x-nov14-redridge-redridge",
+          "chapter": "Chapter LXXXIV · The Roads That Part",
+          "title": "Beyond the Familiar Bridge",
+          "kind": "reported",
+          "sessionDate": "2026-11-14",
+          "place": "Westfall → Redridge Mountains",
+          "paragraphs": [
+            "Redridge was no longer merely a place visited on behalf of another unfinished errand. Xuthar had been here before, when the Defias trail brought him to Lakeshire and called him back toward Westfall. Now he returned with that western chapter behind him. The difference lay less in the landscape than in the purpose of the man looking upon it.",
+            "He remembered the bridge and the waterside, the shape of Lakeshire against the hills. Familiar landmarks offered a little comfort, but they could not tell him what the coming days would demand. Beyond the first recognisable turn waited roads he had not yet made his own. He had come to follow them.",
+            "His new adventures began without the certainty that had made the last victory easy to describe afterward. No final enemy gave this beginning its meaning. There was only the next choice, the next unfamiliar stretch, the willingness to venture farther and discover what needed to be done. Alone for now, Xuthar listened more closely to his own hesitation and walked on despite it.",
+            "The memory of Carro travelled with him without turning into a shadow at his heels. Somewhere, his friend had a path of his own. Here, among the red hills, Xuthar had his. Their story had room enough for both.",
+            "When he opened the book again, he left the triumph beneath Westfall where it belonged, safe among the pages already written. Beneath it he began a new line. The road had divided. The friendship endured. And Redridge was waiting."
+          ],
+          "sources": [
+            "Player report on 14 November 2026: temporary separation from Carro after Deadmines; Westfall completed; journey to Redridge and new adventures."
+          ],
+          "editorialNote": "Player-reported sequence; session date records the report date, not an independently confirmed travel time. Thoughts and descriptive transitions are literary reconstruction. No specific new quest, encounter, reward or level-up is asserted."
+        },
+        {
           "id": "x-dungeon-chronicles-appendix",
           "chapter": "Appendix I · The Dungeon Chronicles",
           "title": "The Doors Beneath Azeroth",
@@ -2381,5 +2436,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-13 · The triumphant Deadmines expedition with Carro Steelcave"
+  "lastEditorialUpdate": "2026-11-14 · Westfall completed; temporary parting from Carro and new Redridge chapter."
 }

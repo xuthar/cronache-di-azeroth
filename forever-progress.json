@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794583554,
+  "exportedAt": 1794617671,
   "characters": [
     {
       "id": "xuthar",
@@ -12,55 +12,35 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 18,
+      "level": 19,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 174,
+      "questsCompleted": 183,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794583554,
+      "checkedAt": 1794617671,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794583554,
-          "inProgressCount": 8,
-          "completedCount": 174,
+          "snapshotAt": 1794617671,
+          "inProgressCount": 3,
+          "completedCount": 183,
           "inProgress": [
             {
-              "id": 2040,
-              "name": "Underground Assault"
-            },
-            {
-              "id": 168,
-              "name": "Collecting Memories"
-            },
-            {
-              "id": 166,
-              "name": "The Defias Brotherhood"
-            },
-            {
-              "id": 92753,
-              "name": "Destruction in Deadmines"
-            },
-            {
-              "id": 167,
-              "name": "Oh Brother..."
-            },
-            {
-              "id": 97894,
-              "name": "Business in Auberdine"
+              "id": 391,
+              "name": "The Stockade Riots"
             },
             {
               "id": 1078,
               "name": "Retrieval for Mauren"
             },
             {
-              "id": 214,
-              "name": "Red Silk Bandanas"
+              "id": 97894,
+              "name": "Business in Auberdine"
             }
           ],
           "completedQuestIds": [
@@ -117,16 +97,23 @@
             151,
             153,
             155,
+            166,
+            167,
+            168,
             176,
+            214,
             239,
             244,
             332,
             333,
             334,
             353,
+            373,
+            389,
             399,
             783,
             1097,
+            2040,
             2158,
             3103,
             3903,
@@ -173,6 +160,8 @@
             92750,
             92751,
             92752,
+            92753,
+            92819,
             94773,
             94774,
             94775,
@@ -718,6 +707,33 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 166,
+              "title": "The Defias Brotherhood",
+              "area": "The Deadmines",
+              "briefing": "There is but one task left for you to complete. Edwin VanCleef must be assassinated. While it saddens me to condemn any man to…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 167,
+              "title": "Oh Brother...",
+              "area": "The Deadmines",
+              "briefing": "We were deep in a vast mine in Westfall, hidden beneath a barn in Moonbrook. No clue where these stinkin' thieving types came from.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 168,
+              "title": "Collecting Memories",
+              "area": "The Deadmines",
+              "briefing": "Many of my friends perished that horrible day when the mine tunnel caved in. If your adventures happen to bring you into that wing…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 176,
               "title": "WANTED: \"Hogger\"",
               "area": "Elwynn Forest",
@@ -725,6 +741,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 214,
+              "title": "Red Silk Bandanas",
+              "area": "The Deadmines",
+              "briefing": "It's no secret that the trademark of the Defias Gang is their Red Bandanas. But we've learned that the material from which these bandanas…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -781,6 +806,24 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 373,
+              "title": "The Unsent Letter",
+              "area": "Stormwind City",
+              "briefing": "Searching Edwin VanCleef's person, you discover, among other things, an unsent letter. It is addressed to Baros Alexston, the City Architect of Stormwind, City…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 389,
+              "title": "Bazil Thredd",
+              "area": "Stormwind City",
+              "briefing": "VanCleef and I were members of the Stonemasons Guild. Our main project was to rebuild Stormwind after the War. When we had finished our…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 399,
               "title": "Humble Beginnings",
               "area": "Stormwind City",
@@ -806,6 +849,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 2040,
+              "title": "Underground Assault",
+              "area": "The Deadmines",
+              "briefing": "Gnomeregan has fallen under the control of those dastardly troggs! The situation is grave but perhaps you can help, Xuthar. Deep in the Deadmines…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 2158,
@@ -1220,6 +1272,24 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 92753,
+              "title": "Destruction in Deadmines",
+              "area": "The Deadmines",
+              "briefing": "The source of the poison is likely a large metallurgical forge of some kind. Find a way into the Deadmines and locate the forge,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 92819,
+              "title": "Destruction in Deadmines",
+              "area": "Westfall",
+              "briefing": "We are almost finished. Use the detonator, and end this.",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -1807,8 +1877,18 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794532068,
+          "newlyObservedCompletedIds": [
+            166,
+            167,
+            168,
+            214,
+            373,
+            389,
+            2040,
+            92753,
+            92819
+          ],
+          "comparedWithSnapshotAt": 1794583554,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -1822,9 +1902,9 @@
           "trackedCount": 4
         },
         "achievements": {
-          "trackedCount": 18
+          "trackedCount": 19
         },
-        "profileCheckedAt": 1794583554
+        "profileCheckedAt": 1794617671
       }
     }
   ],

@@ -204,9 +204,22 @@
         ]},
         {date:'2026-11-14',day:'Saturday, 14 November · player update',title:'Two Roads, One Enduring Friendship',place:'Westfall → Redridge Mountains',level:'Level 19 · last confirmed',summary:'After the Deadmines victory, Xuthar and Carro part temporarily. His Westfall journey complete, Xuthar returns to Redridge for new adventures. This follows his earlier Lakeshire visit during the Defias pursuit.',stops:[
           {time:'After the Deadmines · exact hour unreported',title:'A temporary parting',description:'Xuthar and Carro follow their own paths for a time; their friendship continues beyond the shared victory.'},
-          {time:'Next stage · reported 14 November',title:'Westfall complete — onward to Redridge',description:'Xuthar resumes his journey in Redridge Mountains and ventures into new adventures. Individual new missions and encounters have not yet been recorded.'}
+          {time:'Next stage · reported 14 November',title:'Westfall complete — onward to Redridge',description:'Xuthar resumes his journey in Redridge Mountains and ventures into new adventures. The later completed assignments are recorded below.'}
         ]}
       );
+      const latestDay=plans.find(day=>day.date==='2026-11-14');
+      latestDay.level='Level 20 · player confirmed';
+      latestDay.title='From Redridge Errands to the Twentieth Threshold';
+      latestDay.place='Redridge Mountains · Stormwind';
+      latestDay.summary+=' Later, Xuthar reaches level 20. The evening tracker records seven completed assignments, alongside unfinished work in Redridge and Gnomeregan-related preparations.';
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ Business in Auberdine", "description": "The Auberdine assignment is marked complete again in the tracker; it remains an earlier completion, not a second newly completed quest."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ Tinkmaster Overspark", "description": "Answer the referral to Tinkmaster Overspark in Ironforge’s Tinker Town. This completes the introduction, not the Gnomeregan dungeon."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ Messenger to Stormwind", "description": "Carry the Lakeshire appeal along the Stormwind messenger route. This visible assignment is complete; later stages of the reinforcement chain are separate quests."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ A Free Lunch", "description": "Bring the meal prepared in Lakeshire to Guard Parker, a small act of support for the guards watching the roads."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ Hilary’s Necklace", "description": "Recover Hilary’s lost necklace from Lake Everstill and return it to her in Lakeshire."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ The Lost Tools", "description": "Recover Foreman Oslow’s missing toolbox from the lake so work at Lakeshire can continue."});
+      latestDay.stops.push({"time": "14 November · completed in evening tracker", "title": "✓ The Price of Shoes", "description": "Take Verner Osgood’s request to Smith Argus in Goldshire concerning the price of horseshoes. Return to Verner belongs to the next assignment."});
+      latestDay.stops.push({time:'Later that evening · player-confirmed',title:'Level 20 · a new milestone',description:'Xuthar reaches level 20. His reunion with Carro brings the Stockade victory, the Seal of Wrynn, and their later Sewer Beast encounter. The precise level-up moment is not documented.'});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

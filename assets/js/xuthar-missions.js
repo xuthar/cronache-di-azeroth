@@ -151,7 +151,7 @@
     }
     section.append(make('h3','qm-field-subheading','✓ Completed · Personal Chronicle'));
     const done=make('div','qm-field-done');
-    for(const q of complete)text(done,'p','qm-field-complete','✓ '+q.name+' · Quest Complete!');
+    for(const q of complete){text(done,'p','qm-field-complete','✓ '+q.name+' · Quest Complete!');if(q.description)text(done,'p','qm-field-progress',q.description);}
     for(const q of snapshot.newlyCompletedFromDisappearance||[])
       text(done,'p','qm-field-complete','✓ '+q.name+(q.status==='completed-by-standing-user-rule'?' · completed under Xuthar\'s rule for missing quests':q.name==='Continue to Stormwind'?' · already complete on 8 November':' · completed after the previous tracker'));
     for(const q of snapshot.advancedStages||[])

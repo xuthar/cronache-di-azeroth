@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 19,
-  "characterLevelSource": "Player directly confirmed with new screenshots; official Blizzard API may lag",
-  "characterLevelRecordedAt": "2026-11-13",
+  "characterLevel": 20,
+  "characterLevelSource": "Player explicitly confirmed level 20 on 14 November 2026",
+  "characterLevelRecordedAt": "2026-11-14",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -1565,6 +1565,11 @@
       "date": "2026-11-12",
       "source": "player report",
       "notes": "Before the planned first Deadmines run"
+    },
+    {
+      "level": 20,
+      "date": "2026-11-14",
+      "source": "Explicit player confirmation"
     }
   ],
   "officialArmoryCheck": {
@@ -2190,70 +2195,111 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-14-stormwind-stockades-preparation",
+    "id": "2026-11-14-evening-level20-questie-crop",
     "day": "2026-11-14",
-    "screenshot": "image(20261114-180445).png",
-    "interface": "Questie Tracker · 19/40 · partial crop",
-    "zone": "Stormwind City · player-confirmed return",
-    "coordinates": {
-      "x": 53.55,
-      "y": 71.46
+    "screenshot": "image(20261114-194811).png",
+    "interface": "Questie Tracker · 21/40 · 13 readable entries in crop",
+    "trackerQuestCount": 21,
+    "visibleEntryCount": 13,
+    "isPartial": true,
+    "zone": "Stormwind City · latest player report",
+    "coordinates": null,
+    "visibleCoordinates": {
+      "x": 50.02,
+      "y": 45.87,
+      "zoneUnconfirmed": true
     },
-    "characterLevel": 19,
+    "characterLevel": 20,
     "visibleQuests": [
       {
         "name": "Business in Auberdine",
         "level": 17,
+        "groupLabel": "Darkshore",
+        "description": "The Auberdine assignment is marked complete again in the tracker; it remains an earlier completion, not a second newly completed quest.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
+      },
+      {
+        "name": "Tinkmaster Overspark",
+        "level": "26D",
+        "groupLabel": "Gnomeregan",
+        "description": "Answer the referral to Tinkmaster Overspark in Ironforge’s Tinker Town. This completes the introduction, not the Gnomeregan dungeon.",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
       },
       {
         "name": "Messenger to Stormwind",
         "level": 14,
+        "groupLabel": "Redridge Mountains",
+        "description": "Carry the Lakeshire appeal along the Stormwind messenger route. This visible assignment is complete; later stages of the reinforcement chain are separate quests.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
       },
       {
         "name": "A Free Lunch",
         "level": 15,
+        "groupLabel": "Redridge Mountains",
+        "description": "Bring the meal prepared in Lakeshire to Guard Parker, a small act of support for the guards watching the roads.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
       },
       {
-        "name": "Hilary’s Necklace",
+        "name": "Hilary's Necklace",
         "level": 15,
+        "groupLabel": "Redridge Mountains",
+        "description": "Recover Hilary’s lost necklace from Lake Everstill and return it to her in Lakeshire.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
       },
       {
         "name": "The Lost Tools",
         "level": 16,
+        "groupLabel": "Redridge Mountains",
+        "description": "Recover Foreman Oslow’s missing toolbox from the lake so work at Lakeshire can continue.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
       },
       {
         "name": "The Price of Shoes",
         "level": 18,
+        "groupLabel": "Redridge Mountains",
+        "description": "Take Verner Osgood’s request to Smith Argus in Goldshire concerning the price of horseshoes. Return to Verner belongs to the next assignment.",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
-        "countedAsCompletedByUserConvention": true,
-        "officialApiVerified": false
+        "officialApiVerified": false,
+        "countedAsCompletedByUserConvention": true
+      },
+      {
+        "name": "Gyrodrillmatic Excavationator",
+        "level": "30D",
+        "groupLabel": "Gnomeregan",
+        "status": "active",
+        "objectives": [
+          {
+            "name": "Robo-mechanical Guts",
+            "current": 0,
+            "total": 24
+          }
+        ],
+        "rawStatus": "0/24 Robo-mechanical Guts"
       },
       {
         "name": "Dry Times",
         "level": 15,
+        "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
         "objectives": [
           {
             "name": "Keg of Thunderbrew",
@@ -2275,13 +2321,14 @@
             "current": 0,
             "total": 1
           }
-        ]
+        ],
+        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum"
       },
       {
         "name": "Redridge Goulash",
         "level": 18,
+        "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat",
         "objectives": [
           {
             "name": "Great Goretusk Snout",
@@ -2298,42 +2345,45 @@
             "current": 1,
             "total": 5
           }
-        ]
+        ],
+        "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat"
       },
       {
         "name": "Blackrock Menace",
         "level": 21,
+        "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/10 Battleworn Axe",
         "objectives": [
           {
             "name": "Battleworn Axe",
             "current": 0,
             "total": 10
           }
-        ]
+        ],
+        "rawStatus": "0/10 Battleworn Axe"
       },
       {
         "name": "Selling Fish",
         "level": 21,
+        "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "9/10 Spotted Sunfish",
         "objectives": [
           {
             "name": "Spotted Sunfish",
             "current": 9,
             "total": 10
           }
-        ]
+        ],
+        "rawStatus": "9/10 Spotted Sunfish"
       },
       {
         "name": "Blackrock Blockade",
         "level": 21,
+        "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
         "objectives": [
           {
-            "name": "Stolen Weapon",
+            "name": "Stolen Verner Weapon",
             "current": 0,
             "total": 8
           },
@@ -2342,43 +2392,11 @@
             "current": 0,
             "total": 10
           }
-        ]
-      },
-      {
-        "name": "Solomon’s Law",
-        "level": 23,
-        "status": "active",
-        "rawStatus": "0/10 Shadowhide Pendant",
-        "objectives": [
-          {
-            "name": "Shadowhide Pendant",
-            "current": 0,
-            "total": 10
-          }
-        ]
-      },
-      {
-        "name": "An Unwelcome Guest",
-        "level": 24,
-        "status": "active",
-        "rawStatus": "0/1 Bellygrub’s Tusk",
-        "objectives": [
-          {
-            "name": "Bellygrub’s Tusk",
-            "current": 0,
-            "total": 1
-          }
-        ]
-      },
-      {
-        "name": "Blackrock Bounty",
-        "level": 25,
-        "status": "active",
-        "rawStatus": "Objective counts outside crop",
-        "objectives": []
+        ],
+        "rawStatus": "0/8 Stolen Verner Weapon; 0/10 Blackrock Supplies"
       }
     ],
-    "scope": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
+    "scope": "Partial tracker: seven completed and six active readable entries. Remaining eight not visible; no completion inferred from absence. Character level 20 explicitly confirmed by player. Quest Complete follows standing personal Chronicle convention."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -4132,15 +4150,205 @@
         }
       ],
       "scope": "Quest group labels indicate quest categories, not character travel. Coordinates visible; zone comes from player report. Quest Complete counted delivered by standing personal Chronicle rule. No unseen quest completion inferred from this crop."
+    },
+    {
+      "id": "2026-11-14-stormwind-stockades-preparation",
+      "day": "2026-11-14",
+      "screenshot": "image(20261114-180445).png",
+      "interface": "Questie Tracker · 19/40 · partial crop",
+      "zone": "Stormwind City · player-confirmed return",
+      "coordinates": {
+        "x": 53.55,
+        "y": 71.46
+      },
+      "characterLevel": 19,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Messenger to Stormwind",
+          "level": 14,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "A Free Lunch",
+          "level": 15,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Hilary’s Necklace",
+          "level": 15,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "The Lost Tools",
+          "level": 16,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "The Price of Shoes",
+          "level": 18,
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "status": "active",
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
+          "objectives": [
+            {
+              "name": "Keg of Thunderbrew",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Cask of Merlot",
+              "current": 1,
+              "total": 1
+            },
+            {
+              "name": "Bottle of Moonshine",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Skin of Sweet Rum",
+              "current": 0,
+              "total": 1
+            }
+          ]
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "status": "active",
+          "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat",
+          "objectives": [
+            {
+              "name": "Great Goretusk Snout",
+              "current": 0,
+              "total": 5
+            },
+            {
+              "name": "Tough Condor Meat",
+              "current": 0,
+              "total": 5
+            },
+            {
+              "name": "Crisp Spider Meat",
+              "current": 1,
+              "total": 5
+            }
+          ]
+        },
+        {
+          "name": "Blackrock Menace",
+          "level": 21,
+          "status": "active",
+          "rawStatus": "0/10 Battleworn Axe",
+          "objectives": [
+            {
+              "name": "Battleworn Axe",
+              "current": 0,
+              "total": 10
+            }
+          ]
+        },
+        {
+          "name": "Selling Fish",
+          "level": 21,
+          "status": "active",
+          "rawStatus": "9/10 Spotted Sunfish",
+          "objectives": [
+            {
+              "name": "Spotted Sunfish",
+              "current": 9,
+              "total": 10
+            }
+          ]
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "status": "active",
+          "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
+          "objectives": [
+            {
+              "name": "Stolen Weapon",
+              "current": 0,
+              "total": 8
+            },
+            {
+              "name": "Blackrock Supplies",
+              "current": 0,
+              "total": 10
+            }
+          ]
+        },
+        {
+          "name": "Solomon’s Law",
+          "level": 23,
+          "status": "active",
+          "rawStatus": "0/10 Shadowhide Pendant",
+          "objectives": [
+            {
+              "name": "Shadowhide Pendant",
+              "current": 0,
+              "total": 10
+            }
+          ]
+        },
+        {
+          "name": "An Unwelcome Guest",
+          "level": 24,
+          "status": "active",
+          "rawStatus": "0/1 Bellygrub’s Tusk",
+          "objectives": [
+            {
+              "name": "Bellygrub’s Tusk",
+              "current": 0,
+              "total": 1
+            }
+          ]
+        },
+        {
+          "name": "Blackrock Bounty",
+          "level": 25,
+          "status": "active",
+          "rawStatus": "Objective counts outside crop",
+          "objectives": []
+        }
+      ],
+      "scope": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-14-stormwind-stockades-preparation",
-  "latestQuestTrackerLocation": "Stormwind City",
+  "latestQuestTrackerSnapshotId": "2026-11-14-evening-level20-questie-crop",
+  "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
-    "level": 18,
-    "date": "2026-11-12",
-    "place": "Westfall · Deadmines access revealed; exact level-up location not confirmed",
-    "source": "Player confirmation"
+    "level": 20,
+    "date": "2026-11-14",
+    "source": "Explicit player confirmation; exact level-up time and place not supplied"
   },
   "plannedItinerary": {
     "destination": "The Stockade",
@@ -4185,14 +4393,16 @@
       "A Free Lunch",
       "Hilary’s Necklace",
       "The Lost Tools",
-      "The Price of Shoes"
+      "The Price of Shoes",
+      "Tinkmaster Overspark",
+      "Hilary's Necklace"
     ],
-    "count": 28,
+    "count": 30,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
-    "latestSource": "image(20261114-180445).png",
-    "scopeNote": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
+    "latestSource": "image(20261114-194811).png",
+    "scopeNote": "Partial tracker: seven completed and six active readable entries. Remaining eight not visible; no completion inferred from absence. Character level 20 explicitly confirmed by player. Quest Complete follows standing personal Chronicle convention."
   },
   "previousLatestVisibleObjectives": {
     "id": "2026-11-09-westfall-night-questie-five",

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-14T14:17:48.029Z"
+    "checkedAt": "2026-11-14T15:31:13.783Z"
   },
   "news": [
+    {
+      "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-14T15:00:00.000Z"
+    },
     {
       "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
       "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-13T23:08:44.000Z"
-    },
-    {
-      "title": "Blizzard on Encounter Design in Season 3 - Reduced Mechanical Penalties",
-      "url": "https://www.wowhead.com/news=383874/single-individual-mistakes-causing-wipes-used-too-often-in-venomous-abyss-raid",
-      "category": "Live",
-      "publishedAt": "2026-11-13T21:39:59.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-14T14:17:48.029Z",
-  "generatedAt": "2026-11-14T14:17:47.885Z",
+  "newsUpdatedAt": "2026-11-14T15:31:13.783Z",
+  "generatedAt": "2026-11-14T15:31:13.777Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 14 Nov 2026 08:17:47 -0600",
+  "newsFeedBuiltAt": "Sat, 14 Nov 2026 09:31:05 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

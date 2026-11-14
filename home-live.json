@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-14T01:52:50.082Z"
+    "checkedAt": "2026-11-14T08:54:37.648Z"
   },
   "news": [
+    {
+      "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
+      "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for",
+      "category": "Forever",
+      "publishedAt": "2026-11-14T01:59:35.000Z"
+    },
+    {
+      "title": "Blizzard Refunding Gold for Players Who Purchased Skills During Monday Server Issues",
+      "url": "https://www.wowhead.com/news=383875/blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server",
+      "category": "Forever",
+      "publishedAt": "2026-11-14T01:53:22.000Z"
+    },
     {
       "title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
       "url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383874/single-individual-mistakes-causing-wipes-used-too-often-in-venomous-abyss-raid",
       "category": "Live",
       "publishedAt": "2026-11-13T21:39:59.000Z"
-    },
-    {
-      "title": "Skyborne Don't Have Reputation Discount for Mounts in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383873/skyborne-dont-have-reputation-discount-for-mounts-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-13T20:40:55.000Z"
-    },
-    {
-      "title": "Blizzard Taking Down WoW: Forever Realms in 30 Minutes to Fix Urgent Server Crash",
-      "url": "https://www.wowhead.com/news=383870/blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash",
-      "category": "Forever",
-      "publishedAt": "2026-11-13T18:33:36.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-14T01:52:50.082Z",
-  "generatedAt": "2026-11-14T01:52:50.026Z",
+  "newsUpdatedAt": "2026-11-14T08:54:37.648Z",
+  "generatedAt": "2026-11-14T08:54:37.509Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 13 Nov 2026 19:52:31 -0600",
+  "newsFeedBuiltAt": "Sat, 14 Nov 2026 02:54:26 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

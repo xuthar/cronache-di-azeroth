@@ -1027,7 +1027,7 @@
   "currentChronicleDate": "2026-11-14",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "The Gilded Rose, Stormwind City · 60,70 (in-game coordinates)",
+  "lastConfirmedLocation": "Stormwind City",
   "currentQuestTrackerLocation": "Redridge Mountains · last player-reported zone",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
@@ -2190,74 +2190,195 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-14-redridge-questie-five",
+    "id": "2026-11-14-stormwind-stockades-preparation",
     "day": "2026-11-14",
-    "screenshot": "image(20261114-152911).png",
-    "interface": "Questie Tracker · 5/40",
-    "zone": "Redridge Mountains · last player-reported zone",
+    "screenshot": "image(20261114-180445).png",
+    "interface": "Questie Tracker · 19/40 · partial crop",
+    "zone": "Stormwind City · player-confirmed return",
     "coordinates": {
-      "x": 16.8,
-      "y": 69.7
+      "x": 53.55,
+      "y": 71.46
     },
     "characterLevel": 19,
     "visibleQuests": [
       {
         "name": "Business in Auberdine",
         "level": 17,
-        "groupLabel": "Darkshore",
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
         "countedAsCompletedByUserConvention": true,
         "officialApiVerified": false
       },
       {
-        "name": "Assessing the Threat",
-        "level": 17,
-        "groupLabel": "Redridge Mountains",
+        "name": "Messenger to Stormwind",
+        "level": 14,
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
         "countedAsCompletedByUserConvention": true,
         "officialApiVerified": false
       },
       {
-        "name": "Show of Force",
-        "level": 17,
-        "groupLabel": "Redridge Mountains",
+        "name": "A Free Lunch",
+        "level": 15,
         "status": "completed-by-user-convention",
         "rawStatus": "Quest Complete!",
         "countedAsCompletedByUserConvention": true,
         "officialApiVerified": false
       },
       {
-        "name": "Retrieval for Mauren",
-        "level": 26,
-        "groupLabel": "Stonetalon Mountains",
+        "name": "Hilary’s Necklace",
+        "level": 15,
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "The Lost Tools",
+        "level": 16,
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "The Price of Shoes",
+        "level": 18,
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!",
+        "countedAsCompletedByUserConvention": true,
+        "officialApiVerified": false
+      },
+      {
+        "name": "Dry Times",
+        "level": 15,
         "status": "active",
-        "rawStatus": "0/8 Crystallized Scales",
+        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
         "objectives": [
           {
-            "name": "Crystallized Scales",
+            "name": "Keg of Thunderbrew",
             "current": 0,
-            "total": 8
-          }
-        ]
-      },
-      {
-        "name": "The Stockade Riots",
-        "level": "29D",
-        "groupLabel": "The Stockade",
-        "status": "active",
-        "rawStatus": "0/1 Head of Bazil Thredd",
-        "objectives": [
+            "total": 1
+          },
           {
-            "name": "Head of Bazil Thredd",
+            "name": "Cask of Merlot",
+            "current": 1,
+            "total": 1
+          },
+          {
+            "name": "Bottle of Moonshine",
+            "current": 0,
+            "total": 1
+          },
+          {
+            "name": "Skin of Sweet Rum",
             "current": 0,
             "total": 1
           }
         ]
+      },
+      {
+        "name": "Redridge Goulash",
+        "level": 18,
+        "status": "active",
+        "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat",
+        "objectives": [
+          {
+            "name": "Great Goretusk Snout",
+            "current": 0,
+            "total": 5
+          },
+          {
+            "name": "Tough Condor Meat",
+            "current": 0,
+            "total": 5
+          },
+          {
+            "name": "Crisp Spider Meat",
+            "current": 1,
+            "total": 5
+          }
+        ]
+      },
+      {
+        "name": "Blackrock Menace",
+        "level": 21,
+        "status": "active",
+        "rawStatus": "0/10 Battleworn Axe",
+        "objectives": [
+          {
+            "name": "Battleworn Axe",
+            "current": 0,
+            "total": 10
+          }
+        ]
+      },
+      {
+        "name": "Selling Fish",
+        "level": 21,
+        "status": "active",
+        "rawStatus": "9/10 Spotted Sunfish",
+        "objectives": [
+          {
+            "name": "Spotted Sunfish",
+            "current": 9,
+            "total": 10
+          }
+        ]
+      },
+      {
+        "name": "Blackrock Blockade",
+        "level": 21,
+        "status": "active",
+        "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
+        "objectives": [
+          {
+            "name": "Stolen Weapon",
+            "current": 0,
+            "total": 8
+          },
+          {
+            "name": "Blackrock Supplies",
+            "current": 0,
+            "total": 10
+          }
+        ]
+      },
+      {
+        "name": "Solomon’s Law",
+        "level": 23,
+        "status": "active",
+        "rawStatus": "0/10 Shadowhide Pendant",
+        "objectives": [
+          {
+            "name": "Shadowhide Pendant",
+            "current": 0,
+            "total": 10
+          }
+        ]
+      },
+      {
+        "name": "An Unwelcome Guest",
+        "level": 24,
+        "status": "active",
+        "rawStatus": "0/1 Bellygrub’s Tusk",
+        "objectives": [
+          {
+            "name": "Bellygrub’s Tusk",
+            "current": 0,
+            "total": 1
+          }
+        ]
+      },
+      {
+        "name": "Blackrock Bounty",
+        "level": 25,
+        "status": "active",
+        "rawStatus": "Objective counts outside crop",
+        "objectives": []
       }
     ],
-    "scope": "Quest group labels indicate quest categories, not character travel. Coordinates visible; zone comes from player report. Quest Complete counted delivered by standing personal Chronicle rule. No unseen quest completion inferred from this crop."
+    "scope": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2675,9 +2796,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Roads That Part",
-    "stage": "Redridge Mountains · Level 19",
-    "status": "Westfall completed · temporarily apart from Carro Steelcave"
+    "chapter": "The Gates Beneath the City",
+    "stage": "Stormwind City · Level 19",
+    "status": "Preparing for The Stockade with Carro Steelcave; Redridge journey continues afterward"
   },
   "currentEquipmentReports": [
     {
@@ -3941,37 +4062,92 @@
         }
       ],
       "scope": "Visible 8/40 Questie tracker. The Defias Traitor escort is player-confirmed completed; VanCleef's head has not been collected and the dungeon run is planned for tomorrow."
+    },
+    {
+      "id": "2026-11-14-redridge-questie-five",
+      "day": "2026-11-14",
+      "screenshot": "image(20261114-152911).png",
+      "interface": "Questie Tracker · 5/40",
+      "zone": "Redridge Mountains · last player-reported zone",
+      "coordinates": {
+        "x": 16.8,
+        "y": 69.7
+      },
+      "characterLevel": 19,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Assessing the Threat",
+          "level": 17,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Show of Force",
+          "level": 17,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "countedAsCompletedByUserConvention": true,
+          "officialApiVerified": false
+        },
+        {
+          "name": "Retrieval for Mauren",
+          "level": 26,
+          "groupLabel": "Stonetalon Mountains",
+          "status": "active",
+          "rawStatus": "0/8 Crystallized Scales",
+          "objectives": [
+            {
+              "name": "Crystallized Scales",
+              "current": 0,
+              "total": 8
+            }
+          ]
+        },
+        {
+          "name": "The Stockade Riots",
+          "level": "29D",
+          "groupLabel": "The Stockade",
+          "status": "active",
+          "rawStatus": "0/1 Head of Bazil Thredd",
+          "objectives": [
+            {
+              "name": "Head of Bazil Thredd",
+              "current": 0,
+              "total": 1
+            }
+          ]
+        }
+      ],
+      "scope": "Quest group labels indicate quest categories, not character travel. Coordinates visible; zone comes from player report. Quest Complete counted delivered by standing personal Chronicle rule. No unseen quest completion inferred from this crop."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-14-redridge-questie-five",
-  "latestQuestTrackerLocation": "Redridge Mountains · last player-reported zone",
+  "latestQuestTrackerSnapshotId": "2026-11-14-stormwind-stockades-preparation",
+  "latestQuestTrackerLocation": "Stormwind City",
   "lastLevelMilestone": {
     "level": 18,
     "date": "2026-11-12",
     "place": "Westfall · Deadmines access revealed; exact level-up location not confirmed",
     "source": "Player confirmation"
   },
-  "plannedItinerary": [
-    {
-      "id": "2026-11-07-next-destination-eastvale-logging-camp",
-      "recordedOn": "2026-11-07",
-      "character": "Xuthar Morvayne",
-      "priority": "next questing area before returning to Westfall",
-      "destination": "Eastvale Logging Camp",
-      "region": "Elwynn Forest (eastern area)",
-      "intention": "Do a few quests at Eastvale Logging Camp before returning to Westfall",
-      "state": "in-progress-eastvale-forest-region-observed",
-      "questAcceptances": [],
-      "questCompletions": [],
-      "locationLastConfirmed": "Goldshire (player-reported Hearthstone return)",
-      "continuity": "After completing Camping 101: Enchanting and taking a break from Westfall's unfinished objectives, Xuthar plans to visit Eastvale. Actual journey and specific quests have yet to occur.",
-      "source": "Direct user plan on 7 November 2026",
-      "narrativeGuidance": "Foreshadow as a possible new road only; do not narrate actual travel or quest completions before evidence.",
-      "locationNowObserved": "Elwynn Forest, 74.0,55.0, on approach to Eastvale; camp's exact arrival is not separately established",
-      "questingProgress": "At least six Eastvale/eastern-Elwynn quests visible and in progress by 18:18. No new quest completes.",
-      "arrivalEvidence": "Screenshot image(20261107-181804).png shows nearby coordinates and area quests; not an exact camp entrance screenshot"
-    }
-  ],
+  "plannedItinerary": {
+    "destination": "The Stockade",
+    "companion": "Carro Steelcave",
+    "status": "announced; not completed",
+    "afterward": "Continue Redridge adventures"
+  },
   "questCompletionPolicy": {
     "id": "xuthar-ready-means-delivered",
     "effectiveFrom": "2026-11-07",
@@ -4004,14 +4180,19 @@
       "... and that note you found",
       "Business in Auberdine",
       "Assessing the Threat",
-      "Show of Force"
+      "Show of Force",
+      "Messenger to Stormwind",
+      "A Free Lunch",
+      "Hilary’s Necklace",
+      "The Lost Tools",
+      "The Price of Shoes"
     ],
-    "count": 23,
+    "count": 28,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
-    "latestSource": "image(20261114-152911).png",
-    "scopeNote": "Latest tracker: three complete, Retrieval for Mauren 0/8 and The Stockade Riots 0/1 active. Quest category headings do not establish visits."
+    "latestSource": "image(20261114-180445).png",
+    "scopeNote": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
   },
   "previousLatestVisibleObjectives": {
     "id": "2026-11-09-westfall-night-questie-five",
@@ -4581,5 +4762,12 @@
         "progress": "0/1 Gnoam Sprecklesprocket"
       }
     ]
+  },
+  "stockadesPreparation": {
+    "day": "2026-11-14",
+    "status": "planned",
+    "quest": "The Stockade Riots",
+    "progress": "0/1 Head of Bazil Thredd",
+    "note": "Prior active objective retained, not visible in current cropped tracker"
   }
 }

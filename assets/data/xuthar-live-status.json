@@ -4,12 +4,12 @@
   "realm": "Forever EU · RP PvE",
   "status": "live",
   "statusConfirmed": true,
-  "zone": "Redridge Mountains",
-  "location": "Continuing his own journey · temporarily apart from Carro Steelcave",
+  "zone": "Stormwind City",
+  "location": "Back in Stormwind · preparing for The Stockade with Carro Steelcave",
   "coordinates": null,
-  "activity": "LEVEL 19 · Westfall completed · New adventures in Redridge",
+  "activity": "LEVEL 19 · STOCKADES NEXT · Xuthar & Carro reunited",
   "reportedOn": "2026-11-14",
   "updatedAt": "2026-11-14",
-  "note": "Player reports journey to Redridge after completing Westfall and temporarily parting from Carro following Deadmines. Exact location and coordinates not reported. Level 19 and presence state retained from the last report; no new login or logout inferred.",
+  "note": "Return and planned dungeon confirmed by player. Presence state retained; no dungeon victory or new level inferred.",
   "level": 19
 }

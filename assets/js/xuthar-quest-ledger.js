@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261114-redridge-quests';
+ const source='assets/data/xuthar-quest-log.json?v=20261114-stockades-quests';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -37,10 +37,10 @@
    const root=make('section','xql-section');
    root.id='xuthar-quests';root.setAttribute('aria-labelledby','xql-heading');
    const head=make('div','xql-intro');
-   const over=make('span','xql-overline','THE LIVING CHRONICLE · 11 NOVEMBER 2026 · LEVEL 17');
-    const title=make('h2','','Three companions on the road through Westfall.');
+   const over=make('span','xql-overline','THE LIVING CHRONICLE · 14 NOVEMBER 2026 · LEVEL 19');
+    const title=make('h2','','Back in Stormwind · The Stockade awaits.');
    title.id='xql-heading';
-   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Three completed missions; Retrieval for Mauren and The Stockade Riots remain in progress.');
+   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Six completed entries visible; Redridge objectives updated. The Stockade Riots remains active from the prior report.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){

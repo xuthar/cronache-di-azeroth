@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-14T18:11:37.154Z"
+    "checkedAt": "2026-11-14T19:28:05.017Z"
   },
   "news": [
+    {
+      "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-14T19:00:00.000Z"
+    },
     {
       "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
       "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for",
       "category": "Forever",
       "publishedAt": "2026-11-14T01:59:35.000Z"
-    },
-    {
-      "title": "Blizzard Refunding Gold for Players Who Purchased Skills During Monday Server Issues",
-      "url": "https://www.wowhead.com/news=383875/blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server",
-      "category": "Forever",
-      "publishedAt": "2026-11-14T01:53:22.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-14T18:11:37.154Z",
-  "generatedAt": "2026-11-14T18:11:37.146Z",
+  "newsUpdatedAt": "2026-11-14T19:28:05.017Z",
+  "generatedAt": "2026-11-14T19:28:04.921Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 14 Nov 2026 12:11:35 -0600",
+  "newsFeedBuiltAt": "Sat, 14 Nov 2026 13:27:48 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

@@ -224,6 +224,9 @@
       latestDay.summary+=' After the adventures, quieter errands take him to Goldshire and onward toward Northshire beneath pouring rain. Cooking supplies and a transmog visit in Stormwind are next on his list.';
       latestDay.stops.push({time:'Latest update · journey in progress',title:'Goldshire behind him, Northshire ahead',description:'Xuthar visits Goldshire while attending to errands and completing quest business. He is now travelling toward Northshire in pouring rain, with water drumming against his cloak and the familiar road darkened beneath his steps. No additional named quest completion is recorded in this update.'});
       latestDay.stops.push({time:'Planned next · not yet completed',title:'Stormwind · provisions and a new look',description:'After Northshire, Xuthar plans to buy ingredients for Cooking in Stormwind and visit the transmog elf. The shopping and visit are still ahead; no specific ingredients, NPC name or appearance changes have been reported.'});
+      latestDay.place='Redridge · Stormwind · Elwynn · return to Redridge';
+      latestDay.summary+=' The day ends back in Redridge: a few quest deliveries, soup and a beer at the inn, and sleep at last.';
+      latestDay.stops.push({time:'End of the day · exact hour unreported',title:'Redridge · soup, ale and sleep',description:'Xuthar returns to Redridge and hands in some quests, whose individual names have not been supplied. At the inn he rests over a warm bowl of soup and a beer, until the long day finally carries him into sleep. OFFLINE · Level 20. Read the closing scene in The Last Witness, Chapter 99.'});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

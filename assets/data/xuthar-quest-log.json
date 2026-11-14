@@ -1023,11 +1023,11 @@
     }
   ],
   "currentSessionId": "day-06-20261111",
-  "currentSessionStatus": "live-errands-goldshire-to-northshire",
+  "currentSessionStatus": "offline-resting-redridge",
   "currentChronicleDate": "2026-11-14",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Stormwind City",
+  "lastConfirmedLocation": "Redridge Mountains · Lakeshire inn",
   "currentQuestTrackerLocation": "Redridge Mountains · last player-reported zone",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
@@ -2814,25 +2814,11 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Quiet Work Between Adventures",
-    "stage": "Goldshire → Northshire · then Stormwind planned",
-    "status": "LIVE · Level 20 · errands and quest turn-ins",
-    "completedStops": [
-      "Goldshire"
-    ],
-    "currentDestination": "Northshire",
-    "plannedStops": [
-      {
-        "place": "Stormwind",
-        "purpose": "Buy Cooking ingredients"
-      },
-      {
-        "place": "Stormwind",
-        "purpose": "Visit the transmog elf; NPC name not reported"
-      }
-    ],
-    "source": "Player report on 14 November 2026; no new named quest completion asserted",
-    "weather": "Pouring rain · player reported"
+    "chapter": "When the Day Finally Grew Quiet",
+    "stage": "Redridge Mountains · Lakeshire inn",
+    "status": "OFFLINE · Level 20 · asleep after soup and ale",
+    "source": "Player report on 14 November 2026",
+    "questTurnIns": "Some quests handed in; individual titles not supplied"
   },
   "currentEquipmentReports": [
     {
@@ -4999,5 +4985,14 @@
     "quest": "The Stockade Riots",
     "progress": "0/1 Head of Bazil Thredd",
     "note": "Prior active objective retained, not visible in current cropped tracker"
+  },
+  "eveningRestNov14": {
+    "date": "2026-11-14",
+    "location": "Redridge Mountains · inn",
+    "meal": "Soup",
+    "drink": "Beer",
+    "asleep": true,
+    "level": 20,
+    "bookAnchor": "x-nov14-lakeshire-last-bowl"
   }
 }

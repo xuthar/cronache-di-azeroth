@@ -252,6 +252,9 @@
       caveDay.stops.push({time:'Next attempt · planned today',title:'We will return',description:'A renewed attempt against Gath’Ilzogg is planned for later today. WANTED: Gath’Ilzogg remains active at 0/1 Head of Gath’Ilzogg; no success is recorded in advance.'});
       caveDay.summary+=' After the Stonewatch setback, Xuthar earns a solo triumph: Bellygrub defeated and An Unwelcome Guest completed alone.';
       caveDay.stops.push({time:'Later · player report; exact time not supplied',title:'A solo triumph · An Unwelcome Guest',description:'Xuthar faces Bellygrub alone and completes An Unwelcome Guest without a group. This personal victory follows the Stonewatch setback; Gath’Ilzogg remains undefeated. Read Chapter 119 · The Strength to Stand Alone.'});
+      caveDay.place+=' · Elwynn Forest · Stormwind';
+      caveDay.summary+=' The evening brings him back through Elwynn to Stormwind for quest business, a bank visit and errands.';
+      caveDay.stops.push({time:'Evening · exact time not reported',title:'Elwynn Forest → Stormwind',description:'After the Redridge adventures, Xuthar returns through Elwynn Forest and continues into Stormwind. He completes some mission business, visits the bank and attends to evening errands. A Watchful Eye is marked complete in the latest tracker; specific bank transactions and purchases are not reported.'});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

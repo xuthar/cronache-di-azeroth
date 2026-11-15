@@ -2826,6 +2826,25 @@
           "editorialNote": "Solo completion explicitly reported by player. No precise combat sequence, spells, duration, hand-in location, rewards or level increase supplied; literary emotions and ambience dramatized."
         },
         {
+          "id": "x-nov15-stormwind-evening",
+          "chapter": "Chapter 120 · The City Between Adventures",
+          "title": "A Place for What We Carry",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Elwynn Forest → Stormwind",
+          "paragraphs": [
+            "When Xuthar turned back through Elwynn, the day seemed to travel beside him. Redridge had given him a lake’s quiet, darkness beneath the hills, new companions and the long resistance of Stonewatch. It had given him a solitary victory as well. He carried no single feeling large enough to contain all of it.",
+            "The forest received him without asking for an account. Trees gathered along the familiar way, and the road offered the comfort of a route he knew. He let that familiarity do its work. Not every stretch of a journey needed to become a trial; sometimes reaching the next place was purpose enough.",
+            "Stormwind waited beyond the forest. Passing into the city, he felt the scale of the world change: the uncertain space between trees became streets, crossings, voices and people occupied with their own small urgencies. Here a man could be a traveller with a few errands, and for the moment Xuthar welcomed the smaller role.",
+            "There were missions to attend to before the evening could settle. He completed the business that had brought him back, allowing a few obligations to leave his hands. A Watchful Eye had reached its completion, another step in the uneasy thread of inquiry that linked the eastern hills with the wider world. The questions beyond it would keep their own time.",
+            "Then he went to the bank. After so much of the day had depended on what he could carry, there was relief in pausing before the quiet arithmetic of belongings. He considered what belonged with him on the road and what could wait safely for another need. Even a wanderer had to make room for the future.",
+            "The remaining commissions drew him onward through the city. They had none of the spectacle of battle, but they belonged to the same life: preparing, putting things in order, taking care of what would otherwise become tomorrow’s inconvenience. He moved through them at an easier pace, with the evening finally allowed to be an evening.",
+            "Gath’Ilzogg still lived. That unfinished purpose had followed him from Stonewatch, but it did not need to command every thought between one attempt and the next. The companions’ courage remained worth remembering; his own victory over Bellygrub remained real. He could leave room for both, and still stop to do the ordinary work of continuing.",
+            "For now, Stormwind held him among its lights and voices. The road had brought him back with more than it had taken away: names, lessons, the knowledge of a limit and the knowledge that a limit could be met again. Xuthar adjusted his belongings and went about the rest of his evening."
+          ],
+          "editorialNote": "Elwynn return, Stormwind arrival, bank visit and evening errands explicitly reported by player. A Watchful Eye complete in screenshot follows standing Chronicle convention. Exact items, transactions, NPC visits, additional quest titles, rewards and clock times not invented."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -2993,5 +3012,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-15 · Chapter 119 · An Unwelcome Guest completed solo; level remains 22."
+  "lastEditorialUpdate": "2026-11-15 · Chapter 120 · Elwynn return, Stormwind missions, bank and evening errands."
 }

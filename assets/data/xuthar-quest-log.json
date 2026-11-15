@@ -2256,14 +2256,13 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-15-bellygrub-solo-report",
+    "id": "2026-11-15-stormwind-evening",
     "day": "2026-11-15",
-    "interface": "Questie Tracker · 15/40 · 13 visible entries",
-    "trackerQuestCount": 15,
+    "interface": "Questie Tracker · 18/40 · 13 visible entries",
+    "trackerQuestCount": 18,
     "visibleEntryCount": 13,
     "isPartial": true,
-    "zone": "Redridge Mountains",
-    "coordinates": null,
+    "zone": "Stormwind · player-confirmed arrival",
     "characterLevel": 22,
     "visibleQuests": [
       {
@@ -2302,9 +2301,9 @@
         "name": "Dry Times",
         "level": 15,
         "groupLabel": "Redridge Mountains",
-        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 1/1 Skin of Sweet Rum",
+        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
         "status": "active",
-        "description": ""
+        "description": "Latest visible count for Sweet Rum is 0/1; previous report was 1/1. Reason not established."
       },
       {
         "name": "Redridge Goulash",
@@ -2315,28 +2314,19 @@
         "description": ""
       },
       {
+        "name": "A Watchful Eye",
+        "level": 21,
+        "groupLabel": "Redridge Mountains",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!"
+      },
+      {
         "name": "Blackrock Blockade",
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
         "status": "active",
         "description": ""
-      },
-      {
-        "name": "Theocritus’ Retrieval",
-        "level": 23,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "description": "A magical Shadowhide pendant carries a message from Theocritus of Tower Azora. Completed according to the standing Chronicle convention; travel to Azora is not separately shown."
-      },
-      {
-        "name": "An Unwelcome Guest",
-        "level": 24,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "Completed solo · explicitly confirmed by player",
-        "status": "completed-player-reported",
-        "description": "Xuthar defeats Bellygrub and completes the assignment alone. No exact combat mechanics or rewards reported."
       },
       {
         "name": "Howling in the Hills",
@@ -2366,10 +2356,21 @@
         "groupLabel": "Redridge Mountains",
         "status": "active",
         "rawStatus": "0/1 Head of Gath’Ilzogg"
+      },
+      {
+        "name": "Retrieval for Mauren",
+        "level": 26,
+        "groupLabel": "Stonetalon Mountains",
+        "status": "active",
+        "rawStatus": "Quest title visible; objectives below the crop"
       }
     ],
-    "source": "Player-supplied crop image(20261115-182952).png; crop not displayed in public album",
-    "scope": "Gath’Ilzogg explicitly not killed. Retry planned today. Blackrock Menace complete in 18:51 full screenshot. No other mission inferred complete solely because absent. Later player report: An Unwelcome Guest completed solo; latest objective list otherwise retained from previous screenshot."
+    "visibleCoordinates": {
+      "x": 56.03,
+      "y": 68.93
+    },
+    "source": "image(20261115-201437).png; tracker crop used for transcription, excluded from album",
+    "scope": "A Watchful Eye complete by Chronicle convention. Retrieval for Mauren newly visible; objectives cut off. Sweet Rum now 0/1. Other quests are not inferred complete from absence; Gath’Ilzogg remains 0/1."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2787,9 +2788,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Chapter 119 · The Strength to Stand Alone",
-    "stage": "Redridge Mountains",
-    "status": "LIVE · Level 22 · An Unwelcome Guest completed solo"
+    "chapter": "Chapter 120 · The City Between Adventures",
+    "stage": "Stormwind, after returning through Elwynn Forest",
+    "status": "LIVE · Level 22 · missions, bank and evening errands"
   },
   "currentEquipmentReports": [
     {
@@ -4966,9 +4967,125 @@
       ],
       "source": "Player-supplied crop image(20261115-182952).png; crop not displayed in public album",
       "scope": "Gath’Ilzogg explicitly not killed. Retry planned today. Blackrock Menace complete in 18:51 full screenshot. No other mission inferred complete solely because absent."
+    },
+    {
+      "id": "2026-11-15-bellygrub-solo-report",
+      "day": "2026-11-15",
+      "interface": "Questie Tracker · 15/40 · 13 visible entries",
+      "trackerQuestCount": 15,
+      "visibleEntryCount": 13,
+      "isPartial": true,
+      "zone": "Redridge Mountains",
+      "coordinates": null,
+      "characterLevel": 22,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Tinkmaster Overspark",
+          "level": "26D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Gyrodrillmatic Excavationators",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "0/24 Robo-mechanical Guts",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Messenger to Westfall",
+          "level": 14,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 1/1 Skin of Sweet Rum",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "5/5 Great Goretusk Snout; 4/5 Tough Condor Meat; 5/5 Crisp Spider Meat",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Theocritus’ Retrieval",
+          "level": 23,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": "A magical Shadowhide pendant carries a message from Theocritus of Tower Azora. Completed according to the standing Chronicle convention; travel to Azora is not separately shown."
+        },
+        {
+          "name": "An Unwelcome Guest",
+          "level": 24,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Completed solo · explicitly confirmed by player",
+          "status": "completed-player-reported",
+          "description": "Xuthar defeats Bellygrub and completes the assignment alone. No exact combat mechanics or rewards reported."
+        },
+        {
+          "name": "Howling in the Hills",
+          "level": 25,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Yowler’s Paw",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Blackrock Bounty",
+          "level": 25,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/15 Blackrock Champion slain"
+        },
+        {
+          "name": "WANTED: Incinerator Gar’im",
+          "level": "25+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/1 Broken Staff of Incinerator Gar’im"
+        },
+        {
+          "name": "WANTED: Gath’Ilzogg",
+          "level": "26+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/1 Head of Gath’Ilzogg"
+        }
+      ],
+      "source": "Player-supplied crop image(20261115-182952).png; crop not displayed in public album",
+      "scope": "Gath’Ilzogg explicitly not killed. Retry planned today. Blackrock Menace complete in 18:51 full screenshot. No other mission inferred complete solely because absent. Later player report: An Unwelcome Guest completed solo; latest objective list otherwise retained from previous screenshot."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-15-bellygrub-solo-report",
+  "latestQuestTrackerSnapshotId": "2026-11-15-stormwind-evening",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
     "level": 22,
@@ -5032,9 +5149,10 @@
       "Alther’s Mill",
       "Solomon’s Law",
       "Theocritus’ Retrieval",
-      "Blackrock Menace"
+      "Blackrock Menace",
+      "A Watchful Eye"
     ],
-    "count": 38,
+    "count": 39,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
@@ -5678,5 +5796,14 @@
     "bookAnchor": "x-nov15-unwelcome-guest-solo",
     "exactTime": null,
     "reward": null
+  },
+  "stormwindEveningNov15": {
+    "route": [
+      "Elwynn Forest",
+      "Stormwind"
+    ],
+    "bankVisit": true,
+    "errands": true,
+    "questNamesNotReported": true
   }
 }

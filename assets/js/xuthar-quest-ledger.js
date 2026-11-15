@@ -3,7 +3,7 @@
  'use strict';
  const page=document.body.dataset.page;
  if(!['xuthar','journal'].includes(page))return;
- const source='assets/data/xuthar-quest-log.json?v=20261115-redridge-afternoon';
+ const source='assets/data/xuthar-quest-log.json?v=20261115-stonewatch-attempt';
  const officialFeed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
  const make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el};
  function questCard(quest,ready){
@@ -40,7 +40,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 15 NOVEMBER 2026 · LEVEL 22');
     const title=make('h2','','Level 22 · The Companions of the Red Hills.');
    title.id='xql-heading';
-   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Six completed entries and seven active entries readable in the partial 19/40 tracker.');
+   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Four completed entries and nine active entries readable in the partial 15/40 tracker.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){

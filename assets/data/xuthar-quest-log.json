@@ -2248,18 +2248,14 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-15-redridge-afternoon-level22",
+    "id": "2026-11-15-stonewatch-defeat",
     "day": "2026-11-15",
-    "screenshot": "assets/images/screenshots/WoWScrnShot_111526_170356.jpg",
-    "interface": "Questie Tracker · 19/40 · 13 visible entries",
-    "trackerQuestCount": 19,
+    "interface": "Questie Tracker · 15/40 · 13 visible entries",
+    "trackerQuestCount": 15,
     "visibleEntryCount": 13,
     "isPartial": true,
     "zone": "Redridge Mountains",
-    "coordinates": {
-      "x": 70.36,
-      "y": 50.06
-    },
+    "coordinates": null,
     "characterLevel": 22,
     "visibleQuests": [
       {
@@ -2311,36 +2307,12 @@
         "description": ""
       },
       {
-        "name": "Blackrock Menace",
-        "level": 21,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "5/10 Battleworn Axe",
-        "status": "active",
-        "description": ""
-      },
-      {
-        "name": "Alther’s Mill",
-        "level": 21,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "description": "Clear twelve Greater Tarantulas and destroy six Tarantula Eggs for Foreman Oslow, reopening safe access to the lumber mill. This is the Forever spider quest, not the Rogue lockpicking quest."
-      },
-      {
         "name": "Blackrock Blockade",
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
         "status": "active",
         "description": ""
-      },
-      {
-        "name": "Solomon’s Law",
-        "level": 23,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "Quest Complete! · 10/10 Shadowhide Pendant",
-        "status": "completed-by-user-convention",
-        "description": "Recover ten Shadowhide Pendants for Bailiff Conacher; the clan serves Morganth."
       },
       {
         "name": "Theocritus’ Retrieval",
@@ -2365,9 +2337,31 @@
         "rawStatus": "0/1 Yowler’s Paw",
         "status": "active",
         "description": ""
+      },
+      {
+        "name": "Blackrock Bounty",
+        "level": 25,
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "0/15 Blackrock Champion slain"
+      },
+      {
+        "name": "WANTED: Incinerator Gar’im",
+        "level": "25+",
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "0/1 Broken Staff of Incinerator Gar’im"
+      },
+      {
+        "name": "WANTED: Gath’Ilzogg",
+        "level": "26+",
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "0/1 Head of Gath’Ilzogg"
       }
     ],
-    "scope": "Level 22 visible in full action photograph at 17:03:56. Six complete and seven active entries. No completion inferred solely from absence. Unwelcome Guest, Yowler, Blackrock objectives and goulash remain unfinished."
+    "source": "Player-supplied crop image(20261115-182952).png; crop not displayed in public album",
+    "scope": "Gath’Ilzogg explicitly not killed. Retry planned today. Blackrock Menace complete in 18:51 full screenshot. No other mission inferred complete solely because absent."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2785,9 +2779,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Companions of the Red Hills",
-    "stage": "Redridge Mountains · resting outdoors",
-    "status": "LIVE · Level 22 · a pause after the Shadowhide campaign"
+    "chapter": "The Walls of Stonewatch",
+    "stage": "Redridge Mountains · regrouping",
+    "status": "LIVE · Level 22 · defeated at Stonewatch; retry planned today"
   },
   "currentEquipmentReports": [
     {
@@ -4726,9 +4720,131 @@
         }
       ],
       "scope": "Six complete and seven active visible entries. Blackrock Blockade partly cut off. Underground adventure completed with two new friends per player; exact quest title and companion names not supplied."
+    },
+    {
+      "id": "2026-11-15-redridge-afternoon-level22",
+      "day": "2026-11-15",
+      "screenshot": "assets/images/screenshots/WoWScrnShot_111526_170356.jpg",
+      "interface": "Questie Tracker · 19/40 · 13 visible entries",
+      "trackerQuestCount": 19,
+      "visibleEntryCount": 13,
+      "isPartial": true,
+      "zone": "Redridge Mountains",
+      "coordinates": {
+        "x": 70.36,
+        "y": 50.06
+      },
+      "characterLevel": 22,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Tinkmaster Overspark",
+          "level": "26D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Gyrodrillmatic Excavationators",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "0/24 Robo-mechanical Guts",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Messenger to Westfall",
+          "level": 14,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 1/1 Skin of Sweet Rum",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "5/5 Great Goretusk Snout; 4/5 Tough Condor Meat; 5/5 Crisp Spider Meat",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Blackrock Menace",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "5/10 Battleworn Axe",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Alther’s Mill",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": "Clear twelve Greater Tarantulas and destroy six Tarantula Eggs for Foreman Oslow, reopening safe access to the lumber mill. This is the Forever spider quest, not the Rogue lockpicking quest."
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Solomon’s Law",
+          "level": 23,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete! · 10/10 Shadowhide Pendant",
+          "status": "completed-by-user-convention",
+          "description": "Recover ten Shadowhide Pendants for Bailiff Conacher; the clan serves Morganth."
+        },
+        {
+          "name": "Theocritus’ Retrieval",
+          "level": 23,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": "A magical Shadowhide pendant carries a message from Theocritus of Tower Azora. Completed according to the standing Chronicle convention; travel to Azora is not separately shown."
+        },
+        {
+          "name": "An Unwelcome Guest",
+          "level": 24,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Bellygrub’s Tusk",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Howling in the Hills",
+          "level": 25,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Yowler’s Paw",
+          "status": "active",
+          "description": ""
+        }
+      ],
+      "scope": "Level 22 visible in full action photograph at 17:03:56. Six complete and seven active entries. No completion inferred solely from absence. Unwelcome Guest, Yowler, Blackrock objectives and goulash remain unfinished."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-15-redridge-afternoon-level22",
+  "latestQuestTrackerSnapshotId": "2026-11-15-stonewatch-defeat",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
     "level": 22,
@@ -4791,9 +4907,10 @@
       "The Everstill Bridge",
       "Alther’s Mill",
       "Solomon’s Law",
-      "Theocritus’ Retrieval"
+      "Theocritus’ Retrieval",
+      "Blackrock Menace"
     ],
-    "count": 37,
+    "count": 38,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
@@ -5413,5 +5530,17 @@
       "Lanai Skystar"
     ],
     "policy": "Names established in action photographs. Recent Allies entries from other zones are not all treated as members of today’s Redridge group."
+  },
+  "stonewatchAttemptNov15": {
+    "result": "defeated-player-reported",
+    "target": "Gath’Ilzogg",
+    "targetDefeated": false,
+    "retryPlanned": "Later today · 15 November 2026",
+    "confirmedCompanions": [
+      "Azdaha Silvernet",
+      "Honkisen Honkzilla",
+      "Nethir Rath"
+    ],
+    "pet": "Björn"
   }
 }

@@ -71,6 +71,41 @@
       "time": "17:23:26",
       "path": "assets/images/screenshots/WoWScrnShot_111526_172326.jpg",
       "caption": "A pause beneath the branches"
+    },
+    {
+      "time": "18:51:51",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_185151.jpg",
+      "caption": "Stonewatch · the company at the gates"
+    },
+    {
+      "time": "18:51:52",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_185152.jpg",
+      "caption": "The threshold before the long assault"
+    },
+    {
+      "time": "18:55:34",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_185534.jpg",
+      "caption": "Inside Stonewatch with Honkisen and Björn"
+    },
+    {
+      "time": "18:55:37",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_185537.jpg",
+      "caption": "The narrow stairway"
+    },
+    {
+      "time": "18:55:45",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_185545.jpg",
+      "caption": "Torchlight over broken timber"
+    },
+    {
+      "time": "19:08:23",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_190823.jpg",
+      "caption": "The company on the red hillside"
+    },
+    {
+      "time": "19:17:06",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_191706.jpg",
+      "caption": "Regrouping beneath the fortress"
     }
   ],
   "excluded": "Quest-list crops, recent-allies panels and profession panels are not album photographs. Original action screenshot with in-game UI is retained.",
@@ -78,5 +113,17 @@
     "https://forever.warcraftdb.com/data/quest/98386",
     "https://db.icy-veins.com/wow-forever/quests/91",
     "https://classic.warcraftdb.com/data/quest/178"
-  ]
+  ],
+  "stonewatchAttempt": {
+    "result": "defeated-player-reported",
+    "target": "Gath’Ilzogg",
+    "targetDefeated": false,
+    "retryPlanned": "Later today · 15 November 2026",
+    "confirmedCompanions": [
+      "Azdaha Silvernet",
+      "Honkisen Honkzilla",
+      "Nethir Rath"
+    ],
+    "pet": "Björn"
+  }
 }

@@ -40,7 +40,7 @@
    const over=make('span','xql-overline','THE LIVING CHRONICLE · 15 NOVEMBER 2026 · LEVEL 21');
     const title=make('h2','','Level 21 · A new morning in Redridge.');
    title.id='xql-heading';
-   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Five completed entries and eight active entries readable in the partial 21/40 tracker.');
+   const lead=make('p','xql-lead','Latest field report: '+data.latestVisibleObjectives.day+' · Six completed entries and seven active entries readable in the partial 21/40 tracker.');
    head.append(over,title,lead);
    const metrics=make('div','xql-metrics');
     for(const [value,label] of [[data.confirmedCompleted?.length||0,'Earlier confirmed completions'],[data.questCompletionByConvention?.count||0,'Completed by Chronicle convention'],[data.latestVisibleObjectives?.visibleQuests?.length||0,'Latest photographed quest list'],[data.active?.length||0,'Earlier quests · 6 Nov tracker']]){

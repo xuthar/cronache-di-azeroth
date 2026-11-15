@@ -2195,9 +2195,9 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-15-redridge-morning",
+    "id": "2026-11-15-redridge-late-morning",
     "day": "2026-11-15",
-    "screenshot": "assets/images/forever-screenshots/2026-11-15/quest-tracker.png",
+    "screenshot": "assets/images/screenshots/quest-tracker-20261115-112959.png",
     "interface": "Questie Tracker · 21/40 · partial crop",
     "trackerQuestCount": 21,
     "visibleEntryCount": 13,
@@ -2238,7 +2238,7 @@
         "level": 15,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum"
+        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 1/1 Skin of Sweet Rum"
       },
       {
         "name": "Redridge Goulash",
@@ -2252,21 +2252,21 @@
         "level": 18,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/6 Underbelly Whelp Scale"
+        "rawStatus": "1/6 Underbelly Whelp Scale"
       },
       {
         "name": "The Everstill Bridge",
         "level": 20,
         "groupLabel": "Redridge Mountains",
-        "status": "active",
-        "rawStatus": "3/5 Iron Pike; 1/5 Iron Rivet"
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "A Baying of Gnolls",
         "level": 20,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "0/10 Redridge Brute slain; 3/8 Redridge Mystic slain"
+        "rawStatus": "3/10 Redridge Brute slain; 8/8 Redridge Mystic slain"
       },
       {
         "name": "Murloc Poachers",
@@ -2294,10 +2294,10 @@
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "rawStatus": "Objectives below the crop; previous counts not re-observed"
+        "rawStatus": "0/8 Stolen Verner Weapon; remaining objectives cut off"
       }
     ],
-    "scope": "Five complete and eight active visible entries; Blackrock Blockade objectives cut off. Level 21 confirmed by player. No completion inferred from absence."
+    "scope": "Six complete and seven active visible entries. Blackrock Blockade partly cut off. Underground adventure completed with two new friends per player; exact quest title and companion names not supplied."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2715,9 +2715,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "The Road After Farewell",
-    "stage": "Redridge Mountains · Lake Everstill",
-    "status": "LIVE · Level 21 · adventures resumed"
+    "chapter": "Beneath the Red Hills",
+    "stage": "Redridge Mountains · outside the cavern",
+    "status": "LIVE · Level 21 · underground adventure completed with two new friends"
   },
   "currentEquipmentReports": [
     {
@@ -4446,9 +4446,114 @@
         }
       ],
       "scope": "Partial tracker: seven completed and six active readable entries. Remaining eight not visible; no completion inferred from absence. Character level 20 explicitly confirmed by player. Quest Complete follows standing personal Chronicle convention."
+    },
+    {
+      "id": "2026-11-15-redridge-morning",
+      "day": "2026-11-15",
+      "screenshot": "assets/images/forever-screenshots/2026-11-15/quest-tracker.png",
+      "interface": "Questie Tracker · 21/40 · partial crop",
+      "trackerQuestCount": 21,
+      "visibleEntryCount": 13,
+      "isPartial": true,
+      "zone": "Redridge Mountains",
+      "characterLevel": 21,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Tinkmaster Overspark",
+          "level": "26D",
+          "groupLabel": "Gnomeregan",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Gyrodrillmatic Excavationator",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "status": "active",
+          "rawStatus": "0/24 Robo-mechanical Guts"
+        },
+        {
+          "name": "Messenger to Westfall",
+          "level": 14,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum"
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "5/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 5/5 Crisp Spider Meat"
+        },
+        {
+          "name": "Underbelly Scales",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/6 Underbelly Whelp Scale"
+        },
+        {
+          "name": "The Everstill Bridge",
+          "level": 20,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "3/5 Iron Pike; 1/5 Iron Rivet"
+        },
+        {
+          "name": "A Baying of Gnolls",
+          "level": 20,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/10 Redridge Brute slain; 3/8 Redridge Mystic slain"
+        },
+        {
+          "name": "Murloc Poachers",
+          "level": 20,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Blackrock Menace",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/10 Battleworn Axe"
+        },
+        {
+          "name": "Selling Fish",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "Objectives below the crop; previous counts not re-observed"
+        }
+      ],
+      "scope": "Five complete and eight active visible entries; Blackrock Blockade objectives cut off. Level 21 confirmed by player. No completion inferred from absence."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-15-redridge-morning",
+  "latestQuestTrackerSnapshotId": "2026-11-15-redridge-late-morning",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
     "level": 21,
@@ -4507,9 +4612,10 @@
       "Hilary's Necklace",
       "Messenger to Westfall",
       "Murloc Poachers",
-      "Selling Fish"
+      "Selling Fish",
+      "The Everstill Bridge"
     ],
-    "count": 33,
+    "count": 34,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",
@@ -5100,5 +5206,26 @@
     "asleep": true,
     "level": 20,
     "bookAnchor": "x-nov14-lakeshire-last-bowl"
+  },
+  "cavernAdventureNov15": {
+    "date": "2026-11-15",
+    "completed": true,
+    "questName": null,
+    "companions": [
+      {
+        "name": null
+      },
+      {
+        "name": null
+      }
+    ],
+    "characterTrait": "Dislikes caves",
+    "screenshots": [
+      "assets/images/screenshots/WoWScrnShot_111526_114317.jpg",
+      "assets/images/screenshots/WoWScrnShot_111526_114324.jpg",
+      "assets/images/screenshots/WoWScrnShot_111526_115827.jpg",
+      "assets/images/screenshots/WoWScrnShot_111526_115833.jpg",
+      "assets/images/screenshots/WoWScrnShot_111526_121135.jpg"
+    ]
   }
 }

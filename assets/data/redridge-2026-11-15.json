@@ -106,6 +106,31 @@
       "time": "19:17:06",
       "path": "assets/images/screenshots/WoWScrnShot_111526_191706.jpg",
       "caption": "Regrouping beneath the fortress"
+    },
+    {
+      "time": "21:32:43",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_213243.jpg",
+      "caption": "Rain along the Stormwind canals"
+    },
+    {
+      "time": "21:33:22",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_213322.jpg",
+      "caption": "The harbour below the rain"
+    },
+    {
+      "time": "21:34:24",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_213424.jpg",
+      "caption": "Lanterns and ships in the cold"
+    },
+    {
+      "time": "21:34:55",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_213455.jpg",
+      "caption": "A pause on the wet pier"
+    },
+    {
+      "time": "21:41:40",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_214140.jpg",
+      "caption": "A quiet drink at the end of the day"
     }
   ],
   "excluded": "Quest-list crops, recent-allies panels and profession panels are not album photographs. Original action screenshot with in-game UI is retained.",

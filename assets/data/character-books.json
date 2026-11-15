@@ -2845,6 +2845,42 @@
           "editorialNote": "Elwynn return, Stormwind arrival, bank visit and evening errands explicitly reported by player. A Watchful Eye complete in screenshot follows standing Chronicle convention. Exact items, transactions, NPC visits, additional quest titles, rewards and clock times not invented."
         },
         {
+          "id": "x-nov15-stormwind-rain",
+          "chapter": "Chapter 121 · Where the Rain Cannot Follow",
+          "title": "The City Beyond the Rain",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Stormwind · harbour and tavern",
+          "image": "assets/images/screenshots/WoWScrnShot_111526_213322.jpg",
+          "caption": "The City Beyond the Rain",
+          "paragraphs": [
+            "The last errand was finished, and only then did Xuthar discover how tired he had become. While there was another counter to reach, another small piece of business to put in order, he could keep his weariness at a useful distance. Now the evening had nothing left to ask of him, and the cold came quietly through his clothes.",
+            "Rain followed the lines of Stormwind’s stonework. Along the canal, lamplight spread over wet paving and trembled on the dark water below. Xuthar walked without the urgency that had carried him between so many places that day. Beyond the arches the city continued, immense and indifferent, sheltering more unfinished lives than he could ever record.",
+            "From above the harbour, he looked down toward the ships. Their windows burned with a warmth that seemed impossibly far from the exposed stone beneath his feet. The rain blurred masts and rigging into the night. Somewhere beyond that water lay roads he had not walked, people he had not met, dangers that had not yet learned his name.",
+            "He descended toward the quays. Crates, mooring posts and patrolling guards occupied the wet edges of the harbour, the practical bones of journeys that appeared grand only from a distance. On a pier he paused beside those still tending to their own business in the rain. The sea gave him no answer. For once, he had not asked it a question."
+          ]
+        },
+        {
+          "id": "x-nov15-stormwind-quiet-cup",
+          "chapter": "Chapter 122 · Where the Rain Cannot Follow",
+          "title": "A Cup With Nothing Left to Prove",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Stormwind · harbour and tavern",
+          "image": "assets/images/screenshots/WoWScrnShot_111526_214140.jpg",
+          "caption": "A Cup With Nothing Left to Prove",
+          "paragraphs": [
+            "At last he found a room where the rain remained outside. Warm light gathered beneath heavy beams; candles stood over a table, and mugs waited within reach. The comfort was almost embarrassingly simple. Xuthar sat, and the chair received the weight he had spent the whole day pretending was manageable.",
+            "He drank slowly. There was no toast to perform, no audience before whom the day needed to become impressive. Across the room a bartender went about the small work of keeping a place hospitable. Beyond the entrance, Stormwind was still cold and wet. Here, for a little while, it was enough to be a tired man with somewhere to sit.",
+            "He thought of Carro first, as he often did when the noise fell away. The hope of another meeting had accompanied the morning; it accompanied the evening too. Distance had not made their shared victories less real. He wished, without attempting to make it a prophecy, that some future night might find them at the same table again.",
+            "Then came the other faces: the two who had helped him beneath the hills, the company among the Shadowhide fires, the companions who had struggled through Stonewatch. He remembered courage expressed in small movements, in someone staying close, in a danger noticed before it belonged to everyone. Their help had become part of what he was carrying.",
+            "Gath’Ilzogg had not fallen. Xuthar let that truth remain, without forcing it to poison everything around it. Bellygrub had fallen, and he had faced that challenge alone. The mill had been cleared. Work had been done at Lakeshire; errands completed in Stormwind. A day could hold defeat and achievement without either cancelling the other.",
+            "He rested his hands near the mug and watched the candlelight. The book could keep the names; his thoughts did not have to march in order tonight. He allowed them to drift from a red hillside to the lake, from the darkness of a cavern to the pale stumps around the mill, from a fortress stair to the rain over the harbour.",
+            "For once, the silence asked nothing of him. No missing name waited inside it, no demand to prove that he had earned the right to stop. He was weary. He was sheltered. The evening’s work was done. Xuthar took another quiet drink and let the world be larger than his obligations.",
+            "Outside, the rain went on. Inside, he stayed a little longer."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3012,5 +3048,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-15 · Chapter 120 · Elwynn return, Stormwind missions, bank and evening errands."
+  "lastEditorialUpdate": "2026-11-15 · Chapters 121–122 · Rain over Stormwind harbour and a quiet tavern rest."
 }

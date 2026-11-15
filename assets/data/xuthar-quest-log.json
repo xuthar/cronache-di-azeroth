@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-14",
+  "recordedAt": "2026-11-15",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 20,
+  "characterLevel": 21,
   "characterLevelSource": "Player explicitly confirmed level 20 on 14 November 2026",
-  "characterLevelRecordedAt": "2026-11-14",
+  "characterLevelRecordedAt": "2026-11-15",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -2195,133 +2195,49 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-14-evening-level20-questie-crop",
-    "day": "2026-11-14",
-    "screenshot": "image(20261114-194811).png",
-    "interface": "Questie Tracker · 21/40 · 13 readable entries in crop",
+    "id": "2026-11-15-redridge-morning",
+    "day": "2026-11-15",
+    "screenshot": "assets/images/forever-screenshots/2026-11-15/quest-tracker.png",
+    "interface": "Questie Tracker · 21/40 · partial crop",
     "trackerQuestCount": 21,
     "visibleEntryCount": 13,
     "isPartial": true,
-    "zone": "Stormwind City · latest player report",
-    "coordinates": null,
-    "visibleCoordinates": {
-      "x": 50.02,
-      "y": 45.87,
-      "zoneUnconfirmed": true
-    },
-    "characterLevel": 20,
+    "zone": "Redridge Mountains",
+    "characterLevel": 21,
     "visibleQuests": [
       {
         "name": "Business in Auberdine",
         "level": 17,
         "groupLabel": "Darkshore",
-        "description": "The Auberdine assignment is marked complete again in the tracker; it remains an earlier completion, not a second newly completed quest.",
         "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Tinkmaster Overspark",
         "level": "26D",
         "groupLabel": "Gnomeregan",
-        "description": "Answer the referral to Tinkmaster Overspark in Ironforge’s Tinker Town. This completes the introduction, not the Gnomeregan dungeon.",
         "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
-      },
-      {
-        "name": "Messenger to Stormwind",
-        "level": 14,
-        "groupLabel": "Redridge Mountains",
-        "description": "Carry the Lakeshire appeal along the Stormwind messenger route. This visible assignment is complete; later stages of the reinforcement chain are separate quests.",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
-      },
-      {
-        "name": "A Free Lunch",
-        "level": 15,
-        "groupLabel": "Redridge Mountains",
-        "description": "Bring the meal prepared in Lakeshire to Guard Parker, a small act of support for the guards watching the roads.",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
-      },
-      {
-        "name": "Hilary's Necklace",
-        "level": 15,
-        "groupLabel": "Redridge Mountains",
-        "description": "Recover Hilary’s lost necklace from Lake Everstill and return it to her in Lakeshire.",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
-      },
-      {
-        "name": "The Lost Tools",
-        "level": 16,
-        "groupLabel": "Redridge Mountains",
-        "description": "Recover Foreman Oslow’s missing toolbox from the lake so work at Lakeshire can continue.",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
-      },
-      {
-        "name": "The Price of Shoes",
-        "level": 18,
-        "groupLabel": "Redridge Mountains",
-        "description": "Take Verner Osgood’s request to Smith Argus in Goldshire concerning the price of horseshoes. Return to Verner belongs to the next assignment.",
-        "status": "completed-by-user-convention",
-        "rawStatus": "Quest Complete!",
-        "officialApiVerified": false,
-        "countedAsCompletedByUserConvention": true
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Gyrodrillmatic Excavationator",
         "level": "30D",
         "groupLabel": "Gnomeregan",
         "status": "active",
-        "objectives": [
-          {
-            "name": "Robo-mechanical Guts",
-            "current": 0,
-            "total": 24
-          }
-        ],
         "rawStatus": "0/24 Robo-mechanical Guts"
+      },
+      {
+        "name": "Messenger to Westfall",
+        "level": 14,
+        "groupLabel": "Redridge Mountains",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Dry Times",
         "level": 15,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "objectives": [
-          {
-            "name": "Keg of Thunderbrew",
-            "current": 0,
-            "total": 1
-          },
-          {
-            "name": "Cask of Merlot",
-            "current": 1,
-            "total": 1
-          },
-          {
-            "name": "Bottle of Moonshine",
-            "current": 0,
-            "total": 1
-          },
-          {
-            "name": "Skin of Sweet Rum",
-            "current": 0,
-            "total": 1
-          }
-        ],
         "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum"
       },
       {
@@ -2329,74 +2245,59 @@
         "level": 18,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "objectives": [
-          {
-            "name": "Great Goretusk Snout",
-            "current": 0,
-            "total": 5
-          },
-          {
-            "name": "Tough Condor Meat",
-            "current": 0,
-            "total": 5
-          },
-          {
-            "name": "Crisp Spider Meat",
-            "current": 1,
-            "total": 5
-          }
-        ],
-        "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat"
+        "rawStatus": "5/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 5/5 Crisp Spider Meat"
+      },
+      {
+        "name": "Underbelly Scales",
+        "level": 18,
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "0/6 Underbelly Whelp Scale"
+      },
+      {
+        "name": "The Everstill Bridge",
+        "level": 20,
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "3/5 Iron Pike; 1/5 Iron Rivet"
+      },
+      {
+        "name": "A Baying of Gnolls",
+        "level": 20,
+        "groupLabel": "Redridge Mountains",
+        "status": "active",
+        "rawStatus": "0/10 Redridge Brute slain; 3/8 Redridge Mystic slain"
+      },
+      {
+        "name": "Murloc Poachers",
+        "level": 20,
+        "groupLabel": "Redridge Mountains",
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Blackrock Menace",
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "objectives": [
-          {
-            "name": "Battleworn Axe",
-            "current": 0,
-            "total": 10
-          }
-        ],
         "rawStatus": "0/10 Battleworn Axe"
       },
       {
         "name": "Selling Fish",
         "level": 21,
         "groupLabel": "Redridge Mountains",
-        "status": "active",
-        "objectives": [
-          {
-            "name": "Spotted Sunfish",
-            "current": 9,
-            "total": 10
-          }
-        ],
-        "rawStatus": "9/10 Spotted Sunfish"
+        "status": "completed-by-user-convention",
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Blackrock Blockade",
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "status": "active",
-        "objectives": [
-          {
-            "name": "Stolen Verner Weapon",
-            "current": 0,
-            "total": 8
-          },
-          {
-            "name": "Blackrock Supplies",
-            "current": 0,
-            "total": 10
-          }
-        ],
-        "rawStatus": "0/8 Stolen Verner Weapon; 0/10 Blackrock Supplies"
+        "rawStatus": "Objectives below the crop; previous counts not re-observed"
       }
     ],
-    "scope": "Partial tracker: seven completed and six active readable entries. Remaining eight not visible; no completion inferred from absence. Character level 20 explicitly confirmed by player. Quest Complete follows standing personal Chronicle convention."
+    "scope": "Five complete and eight active visible entries; Blackrock Blockade objectives cut off. Level 21 confirmed by player. No completion inferred from absence."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -2814,11 +2715,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "When the Day Finally Grew Quiet",
-    "stage": "Redridge Mountains · Lakeshire inn",
-    "status": "OFFLINE · Level 20 · asleep after soup and ale",
-    "source": "Player report on 14 November 2026",
-    "questTurnIns": "Some quests handed in; individual titles not supplied"
+    "chapter": "The Road After Farewell",
+    "stage": "Redridge Mountains · Lake Everstill",
+    "status": "LIVE · Level 21 · adventures resumed"
   },
   "currentEquipmentReports": [
     {
@@ -4343,14 +4242,218 @@
         }
       ],
       "scope": "14 quest names visible in cropped 19/40 tracker. Blackrock Bounty objectives cut off. Unseen quests retain prior states; no disappearance completion inferred."
+    },
+    {
+      "id": "2026-11-14-evening-level20-questie-crop",
+      "day": "2026-11-14",
+      "screenshot": "image(20261114-194811).png",
+      "interface": "Questie Tracker · 21/40 · 13 readable entries in crop",
+      "trackerQuestCount": 21,
+      "visibleEntryCount": 13,
+      "isPartial": true,
+      "zone": "Stormwind City · latest player report",
+      "coordinates": null,
+      "visibleCoordinates": {
+        "x": 50.02,
+        "y": 45.87,
+        "zoneUnconfirmed": true
+      },
+      "characterLevel": 20,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "description": "The Auberdine assignment is marked complete again in the tracker; it remains an earlier completion, not a second newly completed quest.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "Tinkmaster Overspark",
+          "level": "26D",
+          "groupLabel": "Gnomeregan",
+          "description": "Answer the referral to Tinkmaster Overspark in Ironforge’s Tinker Town. This completes the introduction, not the Gnomeregan dungeon.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "Messenger to Stormwind",
+          "level": 14,
+          "groupLabel": "Redridge Mountains",
+          "description": "Carry the Lakeshire appeal along the Stormwind messenger route. This visible assignment is complete; later stages of the reinforcement chain are separate quests.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "A Free Lunch",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "description": "Bring the meal prepared in Lakeshire to Guard Parker, a small act of support for the guards watching the roads.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "Hilary's Necklace",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "description": "Recover Hilary’s lost necklace from Lake Everstill and return it to her in Lakeshire.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "The Lost Tools",
+          "level": 16,
+          "groupLabel": "Redridge Mountains",
+          "description": "Recover Foreman Oslow’s missing toolbox from the lake so work at Lakeshire can continue.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "The Price of Shoes",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "description": "Take Verner Osgood’s request to Smith Argus in Goldshire concerning the price of horseshoes. Return to Verner belongs to the next assignment.",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!",
+          "officialApiVerified": false,
+          "countedAsCompletedByUserConvention": true
+        },
+        {
+          "name": "Gyrodrillmatic Excavationator",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Robo-mechanical Guts",
+              "current": 0,
+              "total": 24
+            }
+          ],
+          "rawStatus": "0/24 Robo-mechanical Guts"
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Keg of Thunderbrew",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Cask of Merlot",
+              "current": 1,
+              "total": 1
+            },
+            {
+              "name": "Bottle of Moonshine",
+              "current": 0,
+              "total": 1
+            },
+            {
+              "name": "Skin of Sweet Rum",
+              "current": 0,
+              "total": 1
+            }
+          ],
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum"
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Great Goretusk Snout",
+              "current": 0,
+              "total": 5
+            },
+            {
+              "name": "Tough Condor Meat",
+              "current": 0,
+              "total": 5
+            },
+            {
+              "name": "Crisp Spider Meat",
+              "current": 1,
+              "total": 5
+            }
+          ],
+          "rawStatus": "0/5 Great Goretusk Snout; 0/5 Tough Condor Meat; 1/5 Crisp Spider Meat"
+        },
+        {
+          "name": "Blackrock Menace",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Battleworn Axe",
+              "current": 0,
+              "total": 10
+            }
+          ],
+          "rawStatus": "0/10 Battleworn Axe"
+        },
+        {
+          "name": "Selling Fish",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Spotted Sunfish",
+              "current": 9,
+              "total": 10
+            }
+          ],
+          "rawStatus": "9/10 Spotted Sunfish"
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Stolen Verner Weapon",
+              "current": 0,
+              "total": 8
+            },
+            {
+              "name": "Blackrock Supplies",
+              "current": 0,
+              "total": 10
+            }
+          ],
+          "rawStatus": "0/8 Stolen Verner Weapon; 0/10 Blackrock Supplies"
+        }
+      ],
+      "scope": "Partial tracker: seven completed and six active readable entries. Remaining eight not visible; no completion inferred from absence. Character level 20 explicitly confirmed by player. Quest Complete follows standing personal Chronicle convention."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-14-evening-level20-questie-crop",
+  "latestQuestTrackerSnapshotId": "2026-11-15-redridge-morning",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
-    "level": 20,
-    "date": "2026-11-14",
-    "source": "Explicit player confirmation; exact level-up time and place not supplied"
+    "level": 21,
+    "date": "2026-11-15",
+    "source": "Explicit player confirmation"
   },
   "plannedItinerary": [
     {
@@ -4401,9 +4504,12 @@
       "The Lost Tools",
       "The Price of Shoes",
       "Tinkmaster Overspark",
-      "Hilary's Necklace"
+      "Hilary's Necklace",
+      "Messenger to Westfall",
+      "Murloc Poachers",
+      "Selling Fish"
     ],
-    "count": 30,
+    "count": 33,
     "officialApiVerified": false,
     "recordedAt": "2026-11-14",
     "screenshotEvidence": "UI snapshot ready-for-turn-in is interpreted as delivered for story/manual presentation only",

@@ -2,14 +2,14 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "offline",
+  "status": "live",
   "statusConfirmed": true,
   "zone": "Redridge Mountains",
-  "location": "Lakeshire inn · asleep after soup and ale",
+  "location": "Lake Everstill · adventures resumed",
   "coordinates": null,
-  "activity": "LEVEL 20 · Resting after a long day of adventures",
-  "reportedOn": "2026-11-14",
-  "updatedAt": "2026-11-14",
-  "note": "Player reports return to Redridge, delivery of some unnamed quests, a meal of soup and beer at the inn, then sleep. Exact time and coordinates not provided. Level remains 20.",
-  "level": 20
+  "activity": "LEVEL 21 · A new morning in Redridge · fishing and quests",
+  "reportedOn": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "note": "Player confirms level 21 and adventures resumed after a restless night, farewell to Carro, breakfast and greetings at the inn. Original photograph shows fishing at Lake Everstill.",
+  "level": 21
 }

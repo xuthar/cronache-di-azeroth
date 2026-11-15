@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -2502,6 +2502,24 @@
           "editorialNote": "Literary closing scene. Specific additional quest names, rewards, exact time and room details are not asserted. Earlier Stormwind errands are not inferred completed."
         },
         {
+          "id": "x-nov15-redridge-new-morning",
+          "chapter": "Chapter 100 · The Road After Farewell",
+          "title": "Where the Lake Keeps the Morning",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Lakeshire · Lake Everstill · Redridge Mountains",
+          "image": "assets/images/forever-screenshots/2026-11-15/lake-everstill-original.jpg",
+          "paragraphs": [
+            "Sleep had come easily; peace had not. Through the night Xuthar drifted between the warmth of the Lakeshire inn and the clamour that still lived behind his closed eyes. Yesterday returned in fragments: stone corridors, the sudden certainty of danger, the fierce elation of surviving it. Each time he woke, the room was quiet. His heart took longer to believe it.",
+            "And always there was Carro Steelcave. An absent chair could hold a surprising weight. Their farewell had been an ordinary thing, spoken by men who knew that roads seldom asked permission before dividing. Yet beneath it lay a hope neither needed to dress in grand promises: that somewhere, beside another fire or at the mouth of another impossible passage, they would meet again.",
+            "When morning finally held him, Xuthar sat at the edge of the bed and rubbed the last of the night from his face. He could not carry yesterday forever at the pace of a battle. He would carry it differently: as courage remembered, as gratitude, as a name that belonged among the good things in his book.",
+            "Breakfast was brief. Bread broken between his fingers, a few mouthfuls swallowed while the common room slowly gathered its voices. He greeted the other adventurers with a nod and a quiet word. Their weapons leaned against chairs; their unfinished business waited beyond the door. For a moment they shared the unremarkable miracle of being alive to begin again.",
+            "Outside, the red hills stood above Lake Everstill, their colours trembling in the water. Xuthar followed the shore until the inn had become a memory behind him. There he cast his line. The small movement of the float asked for an attention gentler than combat, and he gave it gladly. Ripples widened, broke and disappeared. The lake had no interest in yesterday’s triumphs; it offered him this morning.",
+            "The work of Redridge remained: hungry tables, an unfinished bridge, gnolls on the hills and the shadow of the Blackrock threat. A little meat gathered, a few lengths of iron still needed, a road made safer by stubborn effort. None of it would become easier because he had survived a dungeon. That was strangely comforting. The world still had room for useful, ordinary deeds.",
+            "He had reached the twenty-first threshold of his journey, but the number did not quiet the hills or shorten the road. What had changed was the man walking it. Xuthar lifted his gaze across the water and allowed himself one small smile. Until the next fire, Carro, he thought. Then he gathered his belongings and returned to the adventures waiting in Redridge."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -2669,5 +2687,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-14 · Redridge progress, return to Stormwind and Stockade preparation with Carro."
+  "lastEditorialUpdate": "2026-11-15 · Chapter 100: restless night, farewell to Carro, breakfast, Lake Everstill and level 21."
 }

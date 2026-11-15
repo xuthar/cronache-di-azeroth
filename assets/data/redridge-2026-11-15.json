@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-15",
+  "level": 22,
+  "photos": [
+    {
+      "time": "11:23:29",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_112329.jpg",
+      "caption": "Lake Everstill · the morning’s quiet"
+    },
+    {
+      "time": "11:43:17",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_114317.jpg",
+      "caption": "Before the cavern"
+    },
+    {
+      "time": "11:43:24",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_114324.jpg",
+      "caption": "Beneath the hills"
+    },
+    {
+      "time": "11:58:27",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_115827.jpg",
+      "caption": "Mushrooms in the dark"
+    },
+    {
+      "time": "11:58:33",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_115833.jpg",
+      "caption": "Farewell at the cave mouth"
+    },
+    {
+      "time": "12:11:35",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_121135.jpg",
+      "caption": "Open sky again"
+    },
+    {
+      "time": "16:03:43",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_160343.jpg",
+      "caption": "Alther’s Mill · among the tarantulas"
+    },
+    {
+      "time": "16:17:12",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_161712.jpg",
+      "caption": "A vantage above the mill"
+    },
+    {
+      "time": "16:30:39",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_163039.jpg",
+      "caption": "The eastern road"
+    },
+    {
+      "time": "16:59:51",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_165951.jpg",
+      "caption": "The company advances"
+    },
+    {
+      "time": "16:59:57",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_165957.jpg",
+      "caption": "Holding the Shadowhide camps"
+    },
+    {
+      "time": "17:03:56",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_170356.jpg",
+      "caption": "Solomon’s Law · ten pendants and level 22"
+    },
+    {
+      "time": "17:08:22",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_170822.jpg",
+      "caption": "A word of thanks"
+    },
+    {
+      "time": "17:23:26",
+      "path": "assets/images/screenshots/WoWScrnShot_111526_172326.jpg",
+      "caption": "A pause beneath the branches"
+    }
+  ],
+  "excluded": "Quest-list crops, recent-allies panels and profession panels are not album photographs. Original action screenshot with in-game UI is retained.",
+  "questContextSources": [
+    "https://forever.warcraftdb.com/data/quest/98386",
+    "https://db.icy-veins.com/wow-forever/quests/91",
+    "https://classic.warcraftdb.com/data/quest/178"
+  ]
+}

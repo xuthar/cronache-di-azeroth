@@ -2807,6 +2807,25 @@
           ]
         },
         {
+          "id": "x-nov15-unwelcome-guest-solo",
+          "chapter": "Chapter 119 · The Strength to Stand Alone",
+          "title": "The Unwelcome Guest",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Redridge Mountains",
+          "paragraphs": [
+            "The memory of Stonewatch had not left him. It remained in the heaviness of his shoulders, in the recollection of cramped stairs and effort that had failed to become victory. Xuthar could honour the companions who had stood beside him and still feel the private sting of returning without what they had sought. He carried both feelings onto the next road.",
+            "Another unfinished task waited in Redridge. Its modest name, An Unwelcome Guest, made the danger sound almost domestic. Bellygrub was no guest one could dismiss with a firm word at the door. The great boar was the living obstacle between Xuthar and the tusk he had been asked to recover. This time no company gathered around him. He would face the creature alone.",
+            "He stopped long enough to let his breathing settle. Defeat could make a man reckless in the effort to contradict it. He knew that temptation now: the wish to force the world to return some certainty before the evening grew older. He would not give Bellygrub that advantage. He needed attention more than anger.",
+            "When the struggle began, there was no companion’s movement to follow and no other voice to divide the danger. The creature’s weight and fury belonged entirely to the space before him. Xuthar answered with the strength he had learned along the road, holding his purpose through the moments when courage felt less like confidence than the stubborn refusal to waste the next chance.",
+            "He could not set the fight down in somebody else’s hands. Each decision was his; each opening had to be recognised and used. The same solitude that made the danger harsher made every small success unmistakably his own. He kept going until the great boar’s resistance finally ended and the long demand of the hunt was answered.",
+            "Bellygrub was defeated. Xuthar had completed An Unwelcome Guest alone. For a moment he stood with the knowledge before attempting to turn it into words. The achievement needed no embellishment. After an evening that had shown him the limits of his strength, he had found a place where that strength was enough.",
+            "It did not undo Stonewatch. Gath’Ilzogg still lived, and the companions’ difficult attempt remained part of the day. But failure no longer held the evening’s only answer. Xuthar had learned something he could carry back toward the fortress: a setback could hurt without deciding what came next.",
+            "He thought of Carro, of the travellers who had shared the Shadowhide fighting, of those who had pushed through Stonewatch with him. There would be victories to earn beside friends again. This one he would bring to them as his own story. The last witness had stood alone, and this time he had prevailed."
+          ],
+          "editorialNote": "Solo completion explicitly reported by player. No precise combat sequence, spells, duration, hand-in location, rewards or level increase supplied; literary emotions and ambience dramatized."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -2974,5 +2993,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-15 · Chapters 100–118 · Stonewatch attempt defeated; Gath’Ilzogg alive; retry planned today."
+  "lastEditorialUpdate": "2026-11-15 · Chapter 119 · An Unwelcome Guest completed solo; level remains 22."
 }

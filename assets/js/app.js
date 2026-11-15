@@ -250,6 +250,8 @@
       caveDay.stops.push({time:'18:55 · inside Stonewatch',title:'The house of narrow footsteps',description:'The company pushes through dark timbered rooms and narrow stairs during a prolonged attempt to reach and kill Gath’Ilzogg.'});
       caveDay.stops.push({time:'19:08–19:17 · hills and road below Stonewatch',title:'Defeated, with the page still open',description:'The heroes regroup outside. The player confirms that the long attempt ended in defeat; Gath’Ilzogg was not killed. Their effort and their companions are honoured in Chapters 115–118.'});
       caveDay.stops.push({time:'Next attempt · planned today',title:'We will return',description:'A renewed attempt against Gath’Ilzogg is planned for later today. WANTED: Gath’Ilzogg remains active at 0/1 Head of Gath’Ilzogg; no success is recorded in advance.'});
+      caveDay.summary+=' After the Stonewatch setback, Xuthar earns a solo triumph: Bellygrub defeated and An Unwelcome Guest completed alone.';
+      caveDay.stops.push({time:'Later · player report; exact time not supplied',title:'A solo triumph · An Unwelcome Guest',description:'Xuthar faces Bellygrub alone and completes An Unwelcome Guest without a group. This personal victory follows the Stonewatch setback; Gath’Ilzogg remains undefeated. Read Chapter 119 · The Strength to Stand Alone.'});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

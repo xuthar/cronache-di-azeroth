@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-14T23:58:57.296Z"
+    "checkedAt": "2026-11-15T06:15:57.636Z"
   },
   "news": [
+    {
+      "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
+      "category": "Forever",
+      "publishedAt": "2026-11-15T01:20:35.000Z"
+    },
     {
       "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-14T15:00:00.000Z"
-    },
-    {
-      "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
-      "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for",
-      "category": "Forever",
-      "publishedAt": "2026-11-14T01:59:35.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-14T23:58:57.295Z",
-  "generatedAt": "2026-11-14T23:58:57.286Z",
+  "newsUpdatedAt": "2026-11-15T06:15:57.636Z",
+  "generatedAt": "2026-11-15T06:15:57.580Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sat, 14 Nov 2026 17:58:56 -0600",
+  "newsFeedBuiltAt": "Sun, 15 Nov 2026 00:15:56 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

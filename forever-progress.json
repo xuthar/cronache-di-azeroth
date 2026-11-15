@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794700613,
+  "exportedAt": 1794754101,
   "characters": [
     {
       "id": "xuthar",
@@ -17,23 +17,19 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 210,
+      "questsCompleted": 213,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794700613,
+      "checkedAt": 1794754101,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794700613,
-          "inProgressCount": 21,
-          "completedCount": 210,
+          "snapshotAt": 1794754101,
+          "inProgressCount": 19,
+          "completedCount": 213,
           "inProgress": [
-            {
-              "id": 150,
-              "name": "Murloc Poachers"
-            },
             {
               "id": 143,
               "name": "Messenger to Westfall"
@@ -49,10 +45,6 @@
             {
               "id": 34,
               "name": "An Unwelcome Guest"
-            },
-            {
-              "id": 89,
-              "name": "The Everstill Bridge"
             },
             {
               "id": 124,
@@ -71,6 +63,10 @@
               "name": "Rethban Ore"
             },
             {
+              "id": 98386,
+              "name": "Alther's Mill"
+            },
+            {
               "id": 95999,
               "name": "WANTED: Incinerator Gar'im"
             },
@@ -85,10 +81,6 @@
             {
               "id": 2923,
               "name": "Tinkmaster Overspark"
-            },
-            {
-              "id": 127,
-              "name": "Selling Fish"
             },
             {
               "id": 98387,
@@ -153,6 +145,7 @@
             86,
             87,
             88,
+            89,
             102,
             106,
             107,
@@ -166,6 +159,7 @@
             121,
             123,
             125,
+            127,
             129,
             130,
             131,
@@ -174,6 +168,7 @@
             141,
             142,
             147,
+            150,
             151,
             153,
             155,
@@ -662,6 +657,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 89,
+              "title": "The Everstill Bridge",
+              "area": "Redridge Mountains",
+              "briefing": "During the last orc invasion we were forced to smelt our iron down to make bullets, swords and armor. We sent word to Stormwind…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 102,
               "title": "Patrolling Westfall",
               "area": "Westfall",
@@ -731,7 +735,7 @@
               "briefing": "I've been using so much iron keeping the Stormwind Guards outfitted, I don't have enough to supply the stable's horses with shoes! Take this…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 119,
@@ -740,7 +744,7 @@
               "briefing": "Ok, I'll give him his 50 horseshoes... Here they are, all boxed up and ready to go! Tell Verner it was a pleasure doing…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 120,
@@ -749,7 +753,7 @@
               "briefing": "These are trying times, priest. The township is under constant siege. Without reinforcements, we will certainly face defeat. The message I now entrust to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 121,
@@ -758,7 +762,7 @@
               "briefing": "While I wait for a response from the King I want you to carry this letter to Magistrate Solomon. Dismissed, priest!",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 123,
@@ -776,6 +780,15 @@
               "briefing": "I could really use a hand here, Xuthar. With the town under siege, it's been hard to get supplies. My tools were being delivered…",
               "objective": null,
               "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 127,
+              "title": "Selling Fish",
+              "area": "Redridge Mountains",
+              "briefing": "Lake Everstill is famous for its spotted sunfish. There's always demand for them...and I'm running low! Bring me a batch of 10 and I'll…",
+              "objective": null,
+              "objectiveSource": null,
               "metadataSource": "BlizzardStaticForeverEU"
             },
             {
@@ -785,7 +798,7 @@
               "briefing": "Can you do me a favor? I've prepared a lunch for Guard Parker, but he's out on patrol...he's a big, strong Stormwind guard who…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 130,
@@ -794,7 +807,7 @@
               "briefing": "Before you go back to Darcy, can you bring her some flowers for me? You can get them at the herbalist shop back in…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 131,
@@ -803,7 +816,7 @@
               "briefing": "Here is your bouquet. I chose Daffodils for you. They're my favorite!",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 132,
@@ -849,6 +862,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 150,
+              "title": "Murloc Poachers",
+              "area": "Redridge Mountains",
+              "briefing": "Murlocs are becoming a problem. Larger groups of the fishmen are dropping anchor along the shores of Lake Everstill and fishing up a storm!…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 151,
@@ -947,7 +969,7 @@
               "briefing": "We don't have men to spare, but something must be done about those gnolls you reported to me. Scout southern Redridge for gnolls. Harry…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -983,7 +1005,7 @@
               "briefing": "I'm giving a speech on the Fortitude of the Spirit, and I'd like to recite passages from a particular book on metallurgy - \"The…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 344,
@@ -992,7 +1014,7 @@
               "briefing": "The Stresses of Iron? Yes, I know the book. Quite a good one, written by the Dwarven miner Margulf Blaggon a few decades ago.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 345,
@@ -1001,7 +1023,7 @@
               "briefing": "I've been meaning to finish my copy of The Stresses of Iron, but... Well you see, I make my own ink for books I…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 350,
@@ -1010,7 +1032,7 @@
               "briefing": "That Marzon would be contacting a member of the Defias and have ties to Lescovar... Having killed VanCleef and Thredd, it would be hard…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 353,
@@ -1046,7 +1068,7 @@
               "briefing": "Let's get one thing straight, Xuthar: I don't trust you. But, with the situation as it is, you probably won't make a difference. So…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 392,
@@ -1055,7 +1077,7 @@
               "briefing": "During the first years of Thredd's imprisonment, he never had any visitors. I figured that he was no longer of use to the Brotherhood,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 393,
@@ -1064,7 +1086,7 @@
               "briefing": "I really haven't a clue, Xuthar. There is someone else who might be able to help you, and it so happens that he owes…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 394,
@@ -1073,7 +1095,7 @@
               "briefing": "Find Shaw in Old Town. Let him know that the Lescovar threat has been dealt with and about your involvement in the Lord's plots…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 395,
@@ -1082,7 +1104,7 @@
               "briefing": "Ah, I almost forgot. Alexston came while you were away, he wished to speak with you. No doubt he wishes to report the goings-on…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 396,
@@ -1091,7 +1113,7 @@
               "briefing": "I have prepared a report for the King. I believe you should be the one to deliver it to him, along with an account…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 399,
@@ -1109,7 +1131,7 @@
               "briefing": "After I put on Spybot's disguise, he'll head in to talk to Lescovar. The guards should let him pass no problem. While you were…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 783,
@@ -1154,7 +1176,7 @@
               "briefing": "Hmm, an interesting tale, and not one to be taken lightly. Yeah, I can help you, but what you need to do is divvy…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 2746,
@@ -1163,7 +1185,7 @@
               "briefing": "Trias wants the timetable pushed up some, huh? Okay, we can do that, but I'm not ready. And know this, I'm doing the hard…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3103,
@@ -1181,7 +1203,7 @@
               "briefing": "My friend Hilary lost her necklace, and we can't find it. We've been fishing all day right here, and we looked around here already.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 3903,
@@ -1253,7 +1275,7 @@
               "briefing": null,
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 5677,
@@ -1262,7 +1284,7 @@
               "briefing": "As much as I'd like to show you our own special teachings of the Light, it is not our place. Your place is back…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 5678,
@@ -1271,7 +1293,7 @@
               "briefing": "It is time for you to return to Stormwind, young one. Your superiors there have called you back for more training. And although it…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 6181,
@@ -2162,7 +2184,7 @@
               "briefing": "If the gnolls are growing so bold they are willing to camp this close to humans, there's no telling how much further they'll go.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 99127,
@@ -2220,35 +2242,11 @@
             }
           ],
           "newlyObservedCompletedIds": [
-            118,
-            119,
-            120,
-            121,
-            125,
-            129,
-            130,
-            131,
-            246,
-            343,
-            344,
-            345,
-            350,
-            391,
-            392,
-            393,
-            394,
-            395,
-            396,
-            434,
-            2745,
-            2746,
-            3741,
-            5676,
-            5677,
-            5678,
-            98407
+            89,
+            127,
+            150
           ],
-          "comparedWithSnapshotAt": 1794665509,
+          "comparedWithSnapshotAt": 1794700613,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2259,12 +2257,12 @@
           "equippedCount": 11
         },
         "reputations": {
-          "trackedCount": 5
+          "trackedCount": 4
         },
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794700613
+        "profileCheckedAt": 1794754101
       }
     }
   ],

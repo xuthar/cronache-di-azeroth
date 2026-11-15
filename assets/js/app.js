@@ -232,6 +232,7 @@
       caveDay.summary+=' Later, despite his dislike of caves, Xuthar completes an underground adventure with two new friends and returns to the open hillside.';
       caveDay.stops.push({time:'11:43–12:11 · original photograph filenames',title:'Beneath the red hills · two new friends',description:'Xuthar enters the cavern, crosses the mushroom-lined passages and completes the underground adventure with help from two new friends. A farewell at the entrance precedes his return to the hillside. Their names and the exact quest title have not been supplied. Read Chapters 101–105 in The Last Witness.'});
       caveDay.stops.push({time:'Latest tracker · partial view',title:'The Everstill Bridge completed',description:'The Everstill Bridge is complete. Dry Times now includes Sweet Rum 1/1; Underbelly Scales 1/6; A Baying of Gnolls: Brutes 3/10, Mystics 8/8. The gnoll quest remains unfinished.'});
+      caveDay.stops.push({time:'After the cavern adventure · Lakeshire pause',title:'Patient hands · professions advanced',description:'Xuthar stops in Lakeshire to practise his crafts. Tailoring 91/150 (+14), Enchanting 106/150 (+16), Cooking 108/150 (+24), Fishing 75/150 (unchanged), First Aid 79/150 (+6), compared with the 13 November record. All five retain the Journeyman rank and 150 cap. Read Chapter 106 of The Last Witness.'});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

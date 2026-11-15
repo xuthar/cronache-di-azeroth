@@ -2596,6 +2596,24 @@
           ]
         },
         {
+          "id": "x-nov15-lakeshire-crafts",
+          "chapter": "Chapter 106 · A Table in Lakeshire",
+          "title": "The Work That Lets the Mind Rest",
+          "kind": "fiction",
+          "sessionDate": "2026-11-15",
+          "place": "Lakeshire · Redridge Mountains",
+          "image": "assets/images/screenshots/xuthar-professions-20261115.png",
+          "caption": "The crafts after the Lakeshire pause",
+          "paragraphs": [
+            "Back in Lakeshire, Xuthar allowed the road to continue without him for a while. After the close darkness of the cavern, the ordinary sounds of the settlement were a comfort: footsteps passing, voices carrying, the small business of people making a day for themselves. He found a place to settle his belongings and turned to work that could be held between his hands.",
+            "Cloth came first. He smoothed it, measured his patience against the next stitch and let the rhythm steady him. Tailoring had grown from seventy-seven to ninety-one since the earlier reckoning. There was satisfaction in that modest progress, in knowing that something useful could emerge from a quiet hour rather than a dangerous descent.",
+            "Enchanting called for a different attention. He worked carefully, letting the familiar discipline occupy the part of his mind that otherwise returned to tunnels and low stone ceilings. His understanding had advanced to one hundred and six. He remembered leaving Herbalism behind and wondered how many choices only revealed their worth after enough patient practice.",
+            "Then there was food to prepare. Cooking had reached one hundred and eight, overtaking his other crafts with a practicality he found difficult to argue with. Whatever else tomorrow demanded, hunger would certainly be among its companions. A little time spent on provisions was time borrowed from the hardships of a future road.",
+            "He attended to First Aid as well, bringing its measure to seventy-nine. His fishing remained at seventy-five; not every skill needed to grow in every pause. The lake would still be there when he returned to it, and for once he felt no need to hurry one good thing into another.",
+            "At last he rested his hands. He was still the same traveller who disliked caves, still carrying yesterday’s friendship and the kindness of two new companions. Yet the morning had gained another kind of achievement. For a little while in Lakeshire, he had made and learned and prepared. The world could ask for courage again later. This had been useful too."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -2763,5 +2781,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-15 · Level 21 · Chapters 100–105: morning, cavern adventure and two new friends."
+  "lastEditorialUpdate": "2026-11-15 · Chapters 100–106 · Level 21 · Lakeshire professions updated."
 }

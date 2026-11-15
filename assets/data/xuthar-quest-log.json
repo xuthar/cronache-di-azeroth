@@ -854,50 +854,103 @@
     }
   ],
   "professions": {
-    "primary": [
+    "character": "Xuthar Morvayne",
+    "characterLevel": 21,
+    "reportedOn": "2026-11-15",
+    "source": "assets/images/screenshots/xuthar-professions-20261115.png",
+    "professions": [
       {
         "name": "Tailoring",
-        "learned": true,
-        "source": "player-report",
-        "skillLevel": null,
-        "latestReportedActivity": "Practised at Sentinel Hill, Westfall, 8 Nov 2026",
-        "currentSkillValueReported": false
+        "skill": 91,
+        "cap": 150,
+        "rank": "Journeyman",
+        "journey": "From 77 to 91 during the Lakeshire pause: more patient work with cloth after the underground adventure.",
+        "next": "Work toward 100, then 125. Use suitable learned recipes and available materials; check the trainer for further instruction."
       },
       {
         "name": "Enchanting",
-        "learned": true,
-        "source": "player-report",
-        "skillLevel": null,
-        "minimumConfirmedSkill": 20,
-        "skillLevelSource": "Completion of Camping 101: Enchanting reported on 7 Nov implies reaching at least 20; exact current value unknown",
-        "camping101QuestStatus": "completed-player-reported",
-        "latestReportedActivity": "Practised at Sentinel Hill, Westfall, 8 Nov 2026",
-        "currentSkillValueReported": false
-      }
-    ],
-    "secondary": [
-      {
-        "name": "Fishing",
-        "learned": true,
-        "source": "player-report",
-        "skillLevel": null
+        "skill": 106,
+        "cap": 150,
+        "rank": "Journeyman",
+        "journey": "From 90 to 106: the Lakeshire interlude strengthens the craft learned after leaving Herbalism.",
+        "next": "Work toward 125. Use suitable learned recipes and available materials; check the trainer for further instruction."
       },
       {
         "name": "Cooking",
-        "learned": true,
-        "source": "player-report",
-        "skillLevel": null,
-        "activity": "Practised at Sentinel Hill on 8 Nov 2026; recipe and numerical skill unknown"
-      }
-    ],
-    "abandoned": [
+        "skill": 108,
+        "cap": 150,
+        "rank": "Journeyman",
+        "journey": "From 84 to 108: preparing provisions becomes the leading craft of this quiet pause.",
+        "next": "Work toward 125. Use suitable learned recipes and available materials; check the trainer for further instruction."
+      },
       {
-        "name": "Herbalism",
-        "source": "player-report",
-        "note": "Abandoned to take Tailoring and Enchanting; corresponding Camping 101: Herbalism quest status after profession change not shown."
+        "name": "Fishing",
+        "skill": 75,
+        "cap": 150,
+        "rank": "Journeyman",
+        "journey": "Still 75: the latest professions panel records no increase in Fishing since the previous observation.",
+        "next": "Continue toward 100 with patient fishing; keep useful catches for known Cooking recipes."
+      },
+      {
+        "name": "First Aid",
+        "skill": 79,
+        "cap": 150,
+        "rank": "Journeyman",
+        "journey": "From 73 to 79: First Aid passes the 75 milestone during the Lakeshire pause.",
+        "next": "Work toward 100, then 125. Use suitable learned recipes and available materials; check the trainer for further instruction."
       }
     ],
-    "unverified": []
+    "location": "Lakeshire",
+    "history": [
+      {
+        "character": "Xuthar Morvayne",
+        "characterLevel": 19,
+        "reportedOn": "2026-11-13",
+        "source": "Player-provided professions screenshot",
+        "professions": [
+          {
+            "name": "Tailoring",
+            "skill": 77,
+            "cap": 150,
+            "rank": "Journeyman",
+            "journey": "From the first linen stitches and the bags made for the road, Xuthar has passed the apprentice ceiling and reached 77.",
+            "next": "Aim first for 100, then 125. Save wool, compare available patterns and make useful bags or cloth gear when their recipe colour still offers progress. Reserve part of the cloth for First Aid."
+          },
+          {
+            "name": "Enchanting",
+            "skill": 90,
+            "cap": 150,
+            "rank": "Journeyman",
+            "journey": "After leaving Herbalism behind, Xuthar learned to recover magic from unwanted equipment. His second craft now leads at 90.",
+            "next": "Aim for 100, then 125. Disenchant spare eligible items after checking their value; choose useful orange or yellow enchants with affordable materials. Check rod requirements before buying reagents."
+          },
+          {
+            "name": "Cooking",
+            "skill": 84,
+            "cap": 150,
+            "rank": "Journeyman",
+            "journey": "Cooking has grown alongside the journey, reaching 84: the quiet craft that turns provisions into a reason to pause.",
+            "next": "Work toward 100 using recipes for fish and meat already in the bags. Learn suitable recipes before gathering ingredients, and keep useful food for the next expedition."
+          },
+          {
+            "name": "Fishing",
+            "skill": 75,
+            "cap": 150,
+            "rank": "Journeyman",
+            "journey": "The rainy waters of Westfall belong to this story as surely as its battles. Fishing stands at 75, with the next rank already unlocked.",
+            "next": "Continue toward 100 in manageable waters. Keep fish that match known Cooking recipes; use bait when needed and let the two skills advance together."
+          },
+          {
+            "name": "First Aid",
+            "skill": 73,
+            "cap": 150,
+            "rank": "Journeyman",
+            "journey": "A new practical discipline now accompanies the priest: First Aid is at 73, and its Journeyman training already leaves room beyond 75.",
+            "next": "Reach 75 first, then work toward 100. Check the trainer for available bandages and use recipes that still grant skill, balancing cloth supplies with Tailoring."
+          }
+        ]
+      }
+    ]
   },
   "lastSeenQuestTracker": [
     {
@@ -2715,9 +2768,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Beneath the Red Hills",
-    "stage": "Redridge Mountains · outside the cavern",
-    "status": "LIVE · Level 21 · underground adventure completed with two new friends"
+    "chapter": "A Table in Lakeshire",
+    "stage": "Lakeshire",
+    "status": "LIVE · Level 21 · practising professions"
   },
   "currentEquipmentReports": [
     {

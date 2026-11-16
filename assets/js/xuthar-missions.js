@@ -164,6 +164,14 @@
 
     return section;
   }
+  function playerCompletions(manual){
+    const items=(manual?.confirmedCompleted||[]).filter(q=>q.confirmationType==='explicit-player-report');
+    if(!items.length)return null;
+    const section=make('section','qm-section');section.id='player-confirmed-completions';
+    text(section,'h2','','✓ Completed · Player reports');
+    for(const q of items){text(section,'h3','',q.name);text(section,'p','qm-note',q.date+' · Confirmed by Xuthar');if(q.bookChapterId)section.append(link('Read the adventure →','book.html?character=xuthar#'+q.bookChapterId));}
+    return section;
+  }
   function render(feedData,editorial,manual){
     const profile=feedData?.characters?.find(x=>x?.id==='xuthar');
     const quests=profile?.officialDetails?.quests;
@@ -199,6 +207,7 @@
       text(stat,'strong','',String(value));text(stat,'span','',name);stats.append(stat);
     }
     mount.append(stats);
+    const reports=playerCompletions(manual);if(reports)mount.append(reports);
     const note=make('p','qm-note');
     note.textContent='Official Blizzard record updated '+timeLabel(feedData.exportedAt)+
       '. Completed quest IDs are grouped into readable mission cards by title and region. Blizzard does not provide the exact time each quest was finished.';
@@ -252,9 +261,9 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261114-stockades-quests',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261116-level23',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
-    .catch(()=>{mount.replaceChildren(
+    .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')
-    );mount.append(link('Visit Xuthar’s manual quest record ↗','xuthar.html#xuthar-quests'));});
+    );try{const manual=await fetch('assets/data/xuthar-quest-log.json',{cache:'no-store'}).then(r=>r.json());const reports=playerCompletions(manual);if(reports)mount.append(reports);}catch{} mount.append(link('Visit Xuthar’s manual quest record ↗','xuthar.html#xuthar-quests'));});
 })();

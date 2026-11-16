@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-15",
+  "recordedAt": "2026-11-16",
   "location": "Elwynn Forest · Guard Thomas vicinity (map coordinates 73.9, 72.2, from level-10 screenshot).",
   "source": "WoWScrnShot_110626_205922.jpg · complete level-10 screenshot showing Elwynn Forest, Guard Thomas, quest completion and the visible active objective list. Earlier tracker: image(20261106-184152).png. Other new screenshots: WoWScrnShot_110626_203303.jpg (Jasperlode ready), 182020, 182938, 183644 (Stormwind canals), 203305 (Jasperlode interior), 233045 (dark wooded stream).",
   "scope": "Latest readable full objective list at 20:59 shows seven active missions and the level-ten milestone. Further Concerns is explicitly completed in chat beside Guard Thomas, awarding 420 XP and 50 Stormwind reputation. At 20:33, The Jasperlode Mine is ready for turn-in, but the 20:59 tracker does not independently show a turn-in. Rare Books: Arcane Explainer 1/1; Geomancy 0/1. New visible concerns include Riverpaw Gnoll Bounty and WANTED: Hogger (Elite). The absence of older tasks from this full-screen list cannot be used alone to infer completed or abandoned quests.",
@@ -257,9 +257,9 @@
       }
     ]
   },
-  "characterLevel": 22,
-  "characterLevelSource": "Original action screenshot WoWScrnShot_111526_170356.jpg, portrait level 22",
-  "characterLevelRecordedAt": "2026-11-15",
+  "characterLevel": 23,
+  "characterLevelSource": "Explicit player report, 16 November 2026",
+  "characterLevelRecordedAt": "2026-11-16",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -304,6 +304,14 @@
       "date": "2026-11-15",
       "solo": true,
       "evidence": "Player reports completing An Unwelcome Guest alone."
+    },
+    {
+      "id": "harvesting-the-harvesters",
+      "name": "Harvesting the Harvesters",
+      "confirmationType": "explicit-player-report",
+      "date": "2026-11-16",
+      "evidence": "Player explicitly confirms mission completed and level 23 reached.",
+      "bookChapterId": "x-nov16-harvesting-the-harvesters"
     }
   ],
   "travelMilestones": [
@@ -772,7 +780,7 @@
       "publishedOnSite": false
     }
   ],
-  "latestReportAt": "2026-11-14",
+  "latestReportAt": "2026-11-16",
   "previousStormwindSnapshot": {
     "snapshotId": "stormwind-20261105-202423",
     "location": "Stormwind City · Trade District · 63.1, 74.6",
@@ -1554,7 +1562,7 @@
       ]
     }
   ],
-  "previousConfirmedLevel": 17,
+  "previousConfirmedLevel": 22,
   "characterLevelConfirmation": "player-confirmed-official-snapshot-not-updated",
   "levelMilestonesReported": [
     {
@@ -1631,6 +1639,11 @@
       "level": 20,
       "date": "2026-11-14",
       "source": "Explicit player confirmation"
+    },
+    {
+      "level": 23,
+      "date": "2026-11-16",
+      "source": "Explicit player report"
     }
   ],
   "officialArmoryCheck": {
@@ -2253,6 +2266,15 @@
       "playerReportSource": "Direct report in conversation on 7 November 2026",
       "officialVerification": "pending",
       "bookChapterId": "x-hogger-five-against-one"
+    },
+    {
+      "id": "2026-11-16-harvesting-the-harvesters",
+      "day": "2026-11-16",
+      "title": "Harvesting the Harvesters completed · Level 23",
+      "eventType": "quest-completion",
+      "questName": "Harvesting the Harvesters",
+      "playerReportSource": "Explicit player report",
+      "bookChapterId": "x-nov16-harvesting-the-harvesters"
     }
   ],
   "latestVisibleObjectives": {
@@ -2788,9 +2810,9 @@
   "latestPhotographedZone": "Westfall",
   "latestPhotographedAt": "2026-11-07 14:09:12",
   "currentJourney": {
-    "chapter": "Where the Rain Cannot Follow",
-    "stage": "Stormwind · tavern",
-    "status": "LIVE · Level 22 · evening errands finished; resting with a drink"
+    "chapter": "The Road Resumes",
+    "stage": "Harvesting the Harvesters completed · location not newly reported",
+    "status": "Level 23 · quest completed"
   },
   "currentEquipmentReports": [
     {
@@ -5088,9 +5110,9 @@
   "latestQuestTrackerSnapshotId": "2026-11-15-stormwind-evening",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
-    "level": 22,
-    "date": "2026-11-15",
-    "source": "Visible portrait in WoWScrnShot_111526_170356.jpg; exact level-up time not shown"
+    "level": 23,
+    "date": "2026-11-16",
+    "source": "Explicit player report"
   },
   "plannedItinerary": [
     {

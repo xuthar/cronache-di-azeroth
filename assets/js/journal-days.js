@@ -128,5 +128,12 @@ const plans=[
       caveDay.stops.push({time:'21:32–21:34 · canals and harbour',title:'The city beyond the rain',description:'With his evening commissions finished, Xuthar walks through cold rain along the canal, looks down over Stormwind harbour, then pauses among the ships and wet piers.'});
       caveDay.stops.push({time:'21:41 · sheltered at a tavern table',title:'A cup with nothing left to prove',description:'Tired, Xuthar finds shelter from the rain and cold. A quiet drink, a place to rest and time to think close the day. He is resting in-game; no logout or sleep is reported. Read Chapters 121–122.'});
       plans.push({"date":"2026-11-16","day":"Monday, 16 November","title":"A Day Without Urgency","place":"A quiet day of rest · last recorded location: Stormwind","level":"Level 22","summary":"Xuthar lets the day unfold slowly and chooses rest after the stress and work of recent days. The journey pauses while he recovers his strength.","stops":[{"time":"During the day","title":"The witness at rest","description":"No expedition today: a deliberate pause, quiet reflection and time to recover. Read The Last Witness, Chapter 123."}]});
+const today=plans.find(day=>day.date==='2026-11-16');
+today.title='Rest, Then the Road Again';
+today.level='Level 22 → 23';
+today.place='A quiet pause, then a completed assignment · current location not reported';
+today.summary+=' Later, he resumes his adventures, completes Harvesting the Harvesters and reaches level 23.';
+today.stops[0].description='Xuthar dedicates the earlier part of the day to rest after the strain of recent days. Read Chapter 123.';
+today.stops.push({time:'Later · exact time unreported',title:'Harvesting the Harvesters · Level 23',description:'Harvesting the Harvesters is completed. Xuthar reaches level 23. Read Chapter 124 in The Last Witness.'});
 return plans;
 })();

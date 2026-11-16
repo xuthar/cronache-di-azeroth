@@ -159,7 +159,8 @@
     section.append(done);
     const caveat=make('p','qm-active-caveat',snapshot.day==='2026-11-11'?'Today’s “Quest Complete!” entries follow Xuthar’s personal Chronicle convention. The Defias Brotherhood refers to the visible completed assignment, not a claim that all stages of the storyline are finished. The official Blizzard API may update later.':'Mission lines marked Quest Complete! follow Xuthar’s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
     section.append(caveat);
-    if(snapshot.day==='2026-11-14')section.append(link('Read Chapter LXXXVI · The Gates Beneath the City ↗','book.html?character=xuthar#x-nov14-stockades-call'));
+    if(snapshot.id==='2026-11-16-evening-questie')section.append(link('Read Chapter 125 · One Ingredient Short →','book.html?character=xuthar#x-nov16-unfinished-roads'));
+    else if(snapshot.day==='2026-11-14')section.append(link('Read Chapter LXXXVI · The Gates Beneath the City ↗','book.html?character=xuthar#x-nov14-stockades-call'));
     else section.append(link(snapshot.day==='2026-11-11'?'Read Chapters LX–LXI · Three Against the Dust ↗':snapshot.id==='2026-11-09-westfall-night-questie-five'?'Read Chapter LII · The Roads That Wait in Dreams ↗':'Read Chapter LI · What the Hills Demand ↗',snapshot.day==='2026-11-11'?'book.html?character=xuthar#x-nov11-defias-1':snapshot.id==='2026-11-09-westfall-night-questie-five'?'book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed':'book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
 
     return section;
@@ -261,7 +262,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261116-level23',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261116-evening-tracker',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

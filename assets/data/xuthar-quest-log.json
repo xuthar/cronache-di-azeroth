@@ -312,6 +312,27 @@
       "date": "2026-11-16",
       "evidence": "Player explicitly confirms mission completed and level 23 reached.",
       "bookChapterId": "x-nov16-harvesting-the-harvesters"
+    },
+    {
+      "id": "dry-times",
+      "name": "Dry Times",
+      "date": "2026-11-16",
+      "confirmationType": "completed-by-user-convention",
+      "evidence": "Quest Complete! in image(20261116-204713).png; treated as delivered under the user's standing rule."
+    },
+    {
+      "id": "a-watchful-eye",
+      "name": "A Watchful Eye",
+      "date": "2026-11-16",
+      "confirmationType": "completed-by-user-convention",
+      "evidence": "Quest Complete! in image(20261116-204713).png; treated as delivered under the user's standing rule."
+    },
+    {
+      "id": "the-corruption-abroad",
+      "name": "The Corruption Abroad",
+      "date": "2026-11-16",
+      "confirmationType": "completed-by-user-convention",
+      "evidence": "Quest Complete! in image(20261116-204713).png; treated as delivered under the user's standing rule."
     }
   ],
   "travelMilestones": [
@@ -2278,91 +2299,104 @@
     }
   ],
   "latestVisibleObjectives": {
-    "id": "2026-11-15-stormwind-evening",
-    "day": "2026-11-15",
-    "interface": "Questie Tracker · 18/40 · 13 visible entries",
-    "trackerQuestCount": 18,
+    "id": "2026-11-16-evening-questie",
+    "day": "2026-11-16",
+    "interface": "Questie Tracker · 17/40 · partial screenshot",
+    "trackerQuestCount": 17,
     "visibleEntryCount": 13,
     "isPartial": true,
-    "zone": "Stormwind · player-confirmed arrival",
-    "characterLevel": 22,
+    "zone": "Zone not shown",
+    "visibleCoordinates": {
+      "x": 56.61,
+      "y": 57.79
+    },
+    "characterLevel": 23,
     "visibleQuests": [
-      {
-        "name": "Business in Auberdine",
-        "level": 17,
-        "groupLabel": "Darkshore",
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "description": ""
-      },
-      {
-        "name": "Tinkmaster Overspark",
-        "level": "26D",
-        "groupLabel": "Gnomeregan",
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "description": ""
-      },
-      {
-        "name": "Gyrodrillmatic Excavationators",
-        "level": "30D",
-        "groupLabel": "Gnomeregan",
-        "rawStatus": "0/24 Robo-mechanical Guts",
-        "status": "active",
-        "description": ""
-      },
-      {
-        "name": "Messenger to Westfall",
-        "level": 14,
-        "groupLabel": "Redridge Mountains",
-        "rawStatus": "Quest Complete!",
-        "status": "completed-by-user-convention",
-        "description": ""
-      },
       {
         "name": "Dry Times",
         "level": 15,
         "groupLabel": "Redridge Mountains",
-        "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
-        "status": "active",
-        "description": "Latest visible count for Sweet Rum is 0/1; previous report was 1/1. Reason not established."
+        "status": "completed-by-user-convention",
+        "objectives": [],
+        "rawStatus": "Quest Complete!"
       },
       {
         "name": "Redridge Goulash",
         "level": 18,
         "groupLabel": "Redridge Mountains",
-        "rawStatus": "5/5 Great Goretusk Snout; 4/5 Tough Condor Meat; 5/5 Crisp Spider Meat",
         "status": "active",
-        "description": ""
+        "objectives": [
+          {
+            "name": "Great Goretusk Snout",
+            "current": 5,
+            "total": 5
+          },
+          {
+            "name": "Tough Condor Meat",
+            "current": 4,
+            "total": 5
+          },
+          {
+            "name": "Crisp Spider Meat",
+            "current": 5,
+            "total": 5
+          }
+        ],
+        "rawStatus": "5/5 Great Goretusk Snout; 4/5 Tough Condor Meat; 5/5 Crisp Spider Meat"
       },
       {
         "name": "A Watchful Eye",
         "level": 21,
         "groupLabel": "Redridge Mountains",
         "status": "completed-by-user-convention",
+        "objectives": [],
         "rawStatus": "Quest Complete!"
       },
       {
         "name": "Blackrock Blockade",
         "level": 21,
         "groupLabel": "Redridge Mountains",
-        "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
         "status": "active",
-        "description": ""
+        "objectives": [
+          {
+            "name": "Stolen Weapon",
+            "current": 0,
+            "total": 8
+          },
+          {
+            "name": "Blackrock Supplies",
+            "current": 0,
+            "total": 10
+          }
+        ],
+        "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies"
       },
       {
         "name": "Howling in the Hills",
         "level": 25,
         "groupLabel": "Redridge Mountains",
-        "rawStatus": "0/1 Yowler’s Paw",
         "status": "active",
-        "description": ""
+        "objectives": [
+          {
+            "name": "Yowler’s Paw",
+            "current": 0,
+            "total": 1
+          }
+        ],
+        "rawStatus": "0/1 Yowler’s Paw"
       },
       {
         "name": "Blackrock Bounty",
         "level": 25,
         "groupLabel": "Redridge Mountains",
         "status": "active",
+        "objectives": [
+          {
+            "name": "Blackrock Champion slain",
+            "current": 0,
+            "total": 15
+          }
+        ],
         "rawStatus": "0/15 Blackrock Champion slain"
       },
       {
@@ -2370,6 +2404,13 @@
         "level": "25+",
         "groupLabel": "Redridge Mountains",
         "status": "active",
+        "objectives": [
+          {
+            "name": "Broken Staff of Incinerator Gar’im",
+            "current": 0,
+            "total": 1
+          }
+        ],
         "rawStatus": "0/1 Broken Staff of Incinerator Gar’im"
       },
       {
@@ -2377,6 +2418,13 @@
         "level": "26+",
         "groupLabel": "Redridge Mountains",
         "status": "active",
+        "objectives": [
+          {
+            "name": "Head of Gath’Ilzogg",
+            "current": 0,
+            "total": 1
+          }
+        ],
         "rawStatus": "0/1 Head of Gath’Ilzogg"
       },
       {
@@ -2384,15 +2432,78 @@
         "level": 26,
         "groupLabel": "Stonetalon Mountains",
         "status": "active",
-        "rawStatus": "Quest title visible; objectives below the crop"
+        "objectives": [
+          {
+            "name": "Crystalized Scales",
+            "current": 0,
+            "total": 8
+          }
+        ],
+        "rawStatus": "0/8 Crystalized Scales"
+      },
+      {
+        "name": "The Corruption Abroad",
+        "level": 24,
+        "groupLabel": "Stormwind City",
+        "status": "completed-by-user-convention",
+        "objectives": [],
+        "rawStatus": "Quest Complete!"
+      },
+      {
+        "name": "What Comes Around…",
+        "level": "25D",
+        "groupLabel": "The Stockade",
+        "status": "active",
+        "objectives": [
+          {
+            "name": "Head of Targorr",
+            "current": 0,
+            "total": 1
+          }
+        ],
+        "rawStatus": "0/1 Head of Targorr"
+      },
+      {
+        "name": "Quell the Uprising",
+        "level": "26D",
+        "groupLabel": "The Stockade",
+        "status": "active",
+        "objectives": [
+          {
+            "name": "Defias Prisoner slain",
+            "current": 0,
+            "total": 10
+          },
+          {
+            "name": "Defias Convict slain",
+            "current": 0,
+            "total": 8
+          },
+          {
+            "name": "Defias Insurgent slain",
+            "current": 0,
+            "total": 8
+          }
+        ],
+        "rawStatus": "0/10 Defias Prisoner slain; 0/8 Defias Convict slain; 0/8 Defias Insurgent slain"
+      },
+      {
+        "name": "The Color of Blood",
+        "level": "26D",
+        "groupLabel": "The Stockade",
+        "status": "active",
+        "objectives": [
+          {
+            "name": "Red Wool Bandana",
+            "current": 0,
+            "total": 10
+          }
+        ],
+        "rawStatus": "0/10 Red Wool Bandana"
       }
     ],
-    "visibleCoordinates": {
-      "x": 56.03,
-      "y": 68.93
-    },
-    "source": "image(20261115-201437).png; tracker crop used for transcription, excluded from album",
-    "scope": "A Watchful Eye complete by Chronicle convention. Retrieval for Mauren newly visible; objectives cut off. Sweet Rum now 0/1. Other quests are not inferred complete from absence; Gath’Ilzogg remains 0/1."
+    "source": "image(20261116-204713).png",
+    "scope": "Thirteen named quests readable; an additional Quest Complete! line is clipped above Dry Times and cannot be identified. No completion inferred from absence. Coordinates visible, zone name not shown. Level 23 retained from direct player report."
   },
   "currentQuestUpdates": {
     "riverpawGnollBounty": {
@@ -5105,9 +5216,126 @@
       ],
       "source": "Player-supplied crop image(20261115-182952).png; crop not displayed in public album",
       "scope": "Gath’Ilzogg explicitly not killed. Retry planned today. Blackrock Menace complete in 18:51 full screenshot. No other mission inferred complete solely because absent. Later player report: An Unwelcome Guest completed solo; latest objective list otherwise retained from previous screenshot."
+    },
+    {
+      "id": "2026-11-15-stormwind-evening",
+      "day": "2026-11-15",
+      "interface": "Questie Tracker · 18/40 · 13 visible entries",
+      "trackerQuestCount": 18,
+      "visibleEntryCount": 13,
+      "isPartial": true,
+      "zone": "Stormwind · player-confirmed arrival",
+      "characterLevel": 22,
+      "visibleQuests": [
+        {
+          "name": "Business in Auberdine",
+          "level": 17,
+          "groupLabel": "Darkshore",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Tinkmaster Overspark",
+          "level": "26D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Gyrodrillmatic Excavationators",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "rawStatus": "0/24 Robo-mechanical Guts",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Messenger to Westfall",
+          "level": 14,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "Quest Complete!",
+          "status": "completed-by-user-convention",
+          "description": ""
+        },
+        {
+          "name": "Dry Times",
+          "level": 15,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Keg of Thunderbrew; 1/1 Cask of Merlot; 0/1 Bottle of Moonshine; 0/1 Skin of Sweet Rum",
+          "status": "active",
+          "description": "Latest visible count for Sweet Rum is 0/1; previous report was 1/1. Reason not established."
+        },
+        {
+          "name": "Redridge Goulash",
+          "level": 18,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "5/5 Great Goretusk Snout; 4/5 Tough Condor Meat; 5/5 Crisp Spider Meat",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "A Watchful Eye",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "status": "completed-by-user-convention",
+          "rawStatus": "Quest Complete!"
+        },
+        {
+          "name": "Blackrock Blockade",
+          "level": 21,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/8 Stolen Weapon; 0/10 Blackrock Supplies",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Howling in the Hills",
+          "level": 25,
+          "groupLabel": "Redridge Mountains",
+          "rawStatus": "0/1 Yowler’s Paw",
+          "status": "active",
+          "description": ""
+        },
+        {
+          "name": "Blackrock Bounty",
+          "level": 25,
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/15 Blackrock Champion slain"
+        },
+        {
+          "name": "WANTED: Incinerator Gar’im",
+          "level": "25+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/1 Broken Staff of Incinerator Gar’im"
+        },
+        {
+          "name": "WANTED: Gath’Ilzogg",
+          "level": "26+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "rawStatus": "0/1 Head of Gath’Ilzogg"
+        },
+        {
+          "name": "Retrieval for Mauren",
+          "level": 26,
+          "groupLabel": "Stonetalon Mountains",
+          "status": "active",
+          "rawStatus": "Quest title visible; objectives below the crop"
+        }
+      ],
+      "visibleCoordinates": {
+        "x": 56.03,
+        "y": 68.93
+      },
+      "source": "image(20261115-201437).png; tracker crop used for transcription, excluded from album",
+      "scope": "A Watchful Eye complete by Chronicle convention. Retrieval for Mauren newly visible; objectives cut off. Sweet Rum now 0/1. Other quests are not inferred complete from absence; Gath’Ilzogg remains 0/1."
     }
   ],
-  "latestQuestTrackerSnapshotId": "2026-11-15-stormwind-evening",
+  "latestQuestTrackerSnapshotId": "2026-11-16-evening-questie",
   "latestQuestTrackerLocation": "Stormwind City · latest player report",
   "lastLevelMilestone": {
     "level": 23,

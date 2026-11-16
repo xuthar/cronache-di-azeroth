@@ -135,5 +135,8 @@ today.place='A quiet pause, then a completed assignment · current location not 
 today.summary+=' Later, he resumes his adventures, completes Harvesting the Harvesters and reaches level 23.';
 today.stops[0].description='Xuthar dedicates the earlier part of the day to rest after the strain of recent days. Read Chapter 123.';
 today.stops.push({time:'Later · exact time unreported',title:'Harvesting the Harvesters · Level 23',description:'Harvesting the Harvesters is completed. Xuthar reaches level 23. Read Chapter 124 in The Last Witness.'});
+const evening=plans.find(day=>day.date==='2026-11-16');
+evening.summary+=' The evening quest record marks Dry Times, A Watchful Eye and The Corruption Abroad complete; Redridge Goulash still needs one Tough Condor Meat.';
+evening.stops.push({time:'Evening · exact time unreported',title:'One ingredient short',description:'Dry Times, A Watchful Eye and The Corruption Abroad are complete. Redridge Goulash: snouts 5/5, condor meat 4/5, spider meat 5/5. Blackrock assignments and the hunts for Yowler, Gar’im and Gath’Ilzogg remain open. Retrieval for Mauren: scales 0/8. Stockade assignments: Targorr 0/1; prisoners 0/10, convicts 0/8, insurgents 0/8; bandanas 0/10. Read Chapter 125.'});
 return plans;
 })();

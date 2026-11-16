@@ -2910,6 +2910,20 @@
           ]
         },
         {
+          "id": "x-nov16-unfinished-roads",
+          "chapter": "Chapter 125 · The Work Still Waiting",
+          "title": "One Ingredient Short",
+          "kind": "fiction",
+          "sessionDate": "2026-11-16",
+          "paragraphs": [
+            "Xuthar spread his notes before him and began putting the remaining work in order. Dry Times was finished. So was A Watchful Eye, and the business of The Corruption Abroad could also be set among the completed assignments. He crossed the lines carefully, pleased to see the list shorten.",
+            "Redridge Goulash remained stubbornly unfinished. He had the snouts and the spider meat, but one more portion of tough condor meat was still needed. After dangers that had filled whole pages of his journal, the missing ingredient almost made him laugh. The world always found some small thing to keep a traveller occupied.",
+            "Other names brought less amusement. Yowler. Incinerator Gar’im. Gath’Ilzogg. The work against the Blackrock forces was still waiting, and Xuthar had no intention of confusing a written plan with a victory already won.",
+            "Then there were the prison assignments: Targorr, the uprising, the red wool bandanas. He knew enough of the Stockade to give those lines a second look. Remembering the fighting beneath Stormwind, he considered what another expedition would demand, without yet making a promise to go.",
+            "He folded the page and slipped it away. There was work enough for several days. Tonight, knowing what remained was sufficient."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3077,5 +3091,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-16 · Chapter 124 · Harvesting the Harvesters completed; level 23."
+  "lastEditorialUpdate": "2026-11-16 · Chapter 125 · Updated evening quest tracker, completed assignments and remaining objectives."
 }

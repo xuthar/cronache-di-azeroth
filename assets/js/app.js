@@ -258,6 +258,7 @@
       caveDay.summary+=' With the errands finished, he walks the rain-soaked canals and harbour, then settles into a tavern to drink quietly, rest and reflect.';
       caveDay.stops.push({time:'21:32–21:34 · canals and harbour',title:'The city beyond the rain',description:'With his evening commissions finished, Xuthar walks through cold rain along the canal, looks down over Stormwind harbour, then pauses among the ships and wet piers.'});
       caveDay.stops.push({time:'21:41 · sheltered at a tavern table',title:'A cup with nothing left to prove',description:'Tired, Xuthar finds shelter from the rain and cold. A quiet drink, a place to rest and time to think close the day. He is resting in-game; no logout or sleep is reported. Read Chapters 121–122.'});
+      plans.push({"date":"2026-11-16","day":"Monday, 16 November","title":"A Day Without Urgency","place":"A quiet day of rest · last recorded location: Stormwind","level":"Level 22","summary":"Xuthar lets the day unfold slowly and chooses rest after the stress and work of recent days. The journey pauses while he recovers his strength.","stops":[{"time":"During the day","title":"The witness at rest","description":"No expedition today: a deliberate pause, quiet reflection and time to recover. Read The Last Witness, Chapter 123."}]});
       const timeline=plans.map(day=>{
         const key=day.date==='2026-11-05'?'5 November 2026':day.date==='2026-11-06'?'6 November 2026':'';
         const evidence=key?bucket(key):[];

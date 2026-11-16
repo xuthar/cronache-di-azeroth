@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -2881,6 +2881,21 @@
           ]
         },
         {
+          "id": "x-nov16-day-of-rest",
+          "chapter": "Chapter 123 · The Witness at Rest",
+          "title": "A Day Without Urgency",
+          "kind": "fiction",
+          "sessionDate": "2026-11-16",
+          "paragraphs": [
+            "The day moved slowly, and Xuthar allowed it to. The strain of the past days had settled into his shoulders and followed him even into the quiet hours. There had been too much work, too many demands answered before he had thought to ask what strength remained.",
+            "He left his travelling things within reach without preparing them for departure. For a while his hands kept seeking some small task: a strap to straighten, a page to arrange, another obligation disguised as a useful habit. He caught himself and let them rest.",
+            "The memories came without needing to be summoned. Carro beside him beneath Westfall; the narrow passages below Stormwind; strangers who had stayed to help among the red hills. He was grateful for those days. He was also tired of carrying their urgency into every hour that followed.",
+            "With a drink before him, he listened to the ordinary sounds around him. Someone moved a chair. A conversation rose, softened and became indistinct. He watched the light shift across the table and found that he did not need to turn the moment into a plan.",
+            "His journal lay open for some time before he wrote anything. Then, beneath the date, he put down a few plain words: Today I rested. He considered adding an explanation, but the ink was already drying, and he left the sentence alone.",
+            "There would be roads again when he was ready to walk them. For now he stayed where he was, letting the day pass at a pace his weary thoughts could follow."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3048,5 +3063,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-15 · Chapters 121–122 · Rain over Stormwind harbour and a quiet tavern rest."
+  "lastEditorialUpdate": "2026-11-16 · Chapter 123 · A slow day of rest after the strain and work of recent days."
 }

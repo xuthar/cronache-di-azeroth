@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794787139,
+  "exportedAt": 1794848675,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794787139,
+      "checkedAt": 1794848675,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794787139,
+          "snapshotAt": 1794848675,
           "inProgressCount": 17,
           "completedCount": 226,
           "inProgress": [
@@ -416,7 +416,7 @@
               "briefing": "The Blackrock orcs have travelled from the Burning Steppes and claimed Stonewatch Keep to the north. From there they maraud the areas north of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 21,
@@ -452,7 +452,7 @@
               "briefing": "Once again my garden was trampled and pillaged. And I know the brute who is doing it. It's that forsaken boar, the one Marshal…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 35,
@@ -695,7 +695,7 @@
               "briefing": "An enemy of Stormwind has taken up residence in the eastern foothills of Redridge. This wicked villain uses the Arcane to spread terror and…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 102,
@@ -803,7 +803,7 @@
               "briefing": "I need some underbelly scales from black dragon whelps to pay for the shoes Argus sent me from Goldshire. If you can get 6…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 123,
@@ -821,7 +821,7 @@
               "briefing": "As if the attacking orcs weren't enough! Now I have gnoll brutes and mystics prowling along the ridge north of my stable, taking my…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 125,
@@ -992,7 +992,7 @@
               "briefing": "Do not be alarmed. I am Theocritus, High Mage of Tower Azora in Elwynn Forest. The pendant you are holding is a method of…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 180,
@@ -1001,7 +1001,7 @@
               "briefing": "Wanted: Lieutenant Fangore Known leader of the Shadowhide Gnoll Clan, working under the enemy of the Township and Kingdom, Morganth. By mandate of Magistrate…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 214,
@@ -1100,7 +1100,7 @@
               "briefing": "Now that I've finished copying the book, here's the original Stresses of Iron. Thank you for your patience, and if you see Milton please…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 347,
@@ -1109,7 +1109,7 @@
               "briefing": "Rethban Ore is named after the man who first found it, Bart Rethban. When smelted it's not as strong as iron, but its ore…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 350,
@@ -1802,7 +1802,7 @@
               "briefing": "What a view... Best an old man can ask for. The fish sure are bitin' now, though I'm down to my last bait. I…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 95998,
@@ -2045,7 +2045,7 @@
               "briefing": "Are you here to discuss the deeper meanings of our storied legends? No? Well, after you're done looking around, can you carry this to…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97237,
@@ -2054,7 +2054,7 @@
               "briefing": "I've checked our inventory and all of the selections Mr. Lewells has listed are currently available. You will, however, need to procure them off…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 97901,
@@ -2297,7 +2297,7 @@
               "briefing": "Orcs, gnolls, murlocs. Everything seems to be out to stop me from getting this bridge done on time. Now we have word there's an…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 98407,
@@ -2363,22 +2363,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            20,
-            34,
-            91,
-            122,
-            124,
-            178,
-            180,
-            346,
-            347,
-            95065,
-            97234,
-            97237,
-            98386
-          ],
-          "comparedWithSnapshotAt": 1794754101,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794787139,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2394,7 +2380,7 @@
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794787139
+        "profileCheckedAt": 1794848675
       }
     }
   ],

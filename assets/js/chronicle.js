@@ -123,10 +123,11 @@
   function renderTimeline(data) {
     if (!timeline) return;
     timeline.replaceChildren();
-    const events=data.events.filter(e=>e&&cast.some(c=>c.id===e.characterId)&&['quest','level','exploration','note'].includes(e.type))
-      .sort((a,b)=>safeNumber(b.at)-safeNumber(a.at)).slice(0,24);
+    const journal=(window.CHRONICLE_JOURNAL_DAYS||[]).map(day=>({characterId:'xuthar',type:'note',date:day.date,title:day.title,zone:day.place,summary:day.summary,editorial:true}));
+    const events=[...data.events,...journal].filter(e=>e&&cast.some(c=>c.id===e.characterId)&&['quest','level','exploration','note'].includes(e.type))
+      .sort((a,b)=>(b.date?Date.parse(b.date):safeNumber(b.at)*1000)-(a.date?Date.parse(a.date):safeNumber(a.at)*1000)).slice(0,24);
     if(!events.length) {
-      add(timeline,'div','chronicle-empty','The journal is empty for now. Logged events will appear here after the first sync.');
+      add(timeline,'div','chronicle-empty','No milestones are available yet. Open the Travel Journal for the recorded journey.');
       return;
     }
     for(const e of events){
@@ -134,9 +135,10 @@
       add(item,'span','chronicle-event-icon',({quest:'◇',level:'✧',exploration:'⌖',note:'✎'})[e.type]||'◇').setAttribute('aria-hidden','true');
       const body=add(item,'div','chronicle-event-body');
       const match=cast.find(c=>c.id===e.characterId);
-      add(body,'span','chronicle-event-meta',(match?match.name:e.characterId)+' · '+String(e.type).toUpperCase()+' · '+when(e.at));
+      add(body,'span','chronicle-event-meta',(match?match.name:e.characterId)+' · '+(e.editorial?'TRAVEL JOURNAL':'SYNC · '+String(e.type).toUpperCase())+' · '+(e.date?new Intl.DateTimeFormat('en-GB',{timeZone:'UTC',day:'numeric',month:'short',year:'numeric'}).format(new Date(e.date+'T00:00:00Z')):when(e.at)));
       add(body,'p','',String(e.title||'Milestone recorded'));
       if(e.zone) add(body,'small','chronicle-muted',String(e.zone));
+      if(e.editorial){add(body,'p','chronicle-small',e.summary);const link=add(body,'a','chronicle-xuthar-link','Read this day in the Travel Journal →');link.href='journal.html#day-'+e.date;}
     }
   }
   function render(data,isFallback) {

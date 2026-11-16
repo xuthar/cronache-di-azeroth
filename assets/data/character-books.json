@@ -2924,6 +2924,21 @@
           ]
         },
         {
+          "id": "x-nov16-last-mug",
+          "chapter": "Chapter 126 · The Last Mug",
+          "title": "Where the Day Finally Ends",
+          "kind": "fiction",
+          "sessionDate": "2026-11-16",
+          "paragraphs": [
+            "By the time the beer arrived, Xuthar had already decided that the day was finished. He drew the mug toward him with both hands and sat for a moment before drinking. The weariness he had held at a distance through the evening was settling back into his shoulders.",
+            "He had meant to rest, and for a while he had. Then the road had called him out again. Harvesting the Harvesters was finished; other assignments had been put in order, and he had reached the twenty-third threshold. It was enough. He could think of nothing more he needed to prove before morning.",
+            "The ale was cool against his lips. He drank slowly at first, listening to the low murmur around him. His thoughts wandered to the missing condor meat, then to the prison assignments still waiting in his journal. He let them pass. There would be time to read those lines again.",
+            "When he set the mug down, a little foam clung to its rim. He looked at it with the vague intention of taking one more sip. Instead, his eyelids closed. He opened them briefly, surprised by how much effort the small movement required.",
+            "His breathing grew deeper. The room softened into indistinct sounds, and those sounds slipped away before he could follow them. Xuthar fell asleep with the day’s work behind him.",
+            "In his dreams, a road crossed fields he almost recognised. Far ahead, someone was tending a fire. There was a place beside it, and no reason to hurry."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3091,5 +3106,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-16 · Chapter 125 · Updated evening quest tracker, completed assignments and remaining objectives."
+  "lastEditorialUpdate": "2026-11-16 · Chapter 126 · A final mug of beer and sleep at level 23."
 }

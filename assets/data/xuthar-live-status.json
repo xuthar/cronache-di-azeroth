@@ -2,14 +2,14 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "live",
+  "status": "offline",
   "statusConfirmed": true,
   "zone": "Stormwind",
-  "location": "Last recorded location · current location not reported",
+  "location": "Last recorded location · Asleep after the day’s adventures",
   "coordinates": null,
-  "activity": "LEVEL 23 · Harvesting the Harvesters completed",
+  "activity": "LEVEL 23 · A final mug of ale, then sleep",
   "reportedOn": "2026-11-16",
   "updatedAt": "2026-11-16",
-  "note": "Player confirms Harvesting the Harvesters completed and level 23 reached on 16 November. Current location not supplied; Stormwind remains the last recorded location.",
+  "note": "Player closes the day: after a mug of beer, Xuthar falls asleep. Sleeping location and inn name not supplied; zone retained as last recorded location.",
   "level": 23
 }

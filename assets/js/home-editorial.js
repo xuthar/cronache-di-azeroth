@@ -3,6 +3,7 @@
 'use strict';
 const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('navigation');
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav?.classList.toggle('is-open',open);menu.textContent=open?'Close':'Menu';});
+if(document.body.dataset.page!=='home-editorial')return;
 const grid=document.getElementById('news-grid'),updated=document.getElementById('news-update');
 const filters=[...document.querySelectorAll('[data-news-filter]')];
 let articles=[],filter='all',latest=0,busy=false;

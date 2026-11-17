@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-17",
+  "title": "The Night Redridge Answered",
+  "subtitle": "Xuthar Morvayne & Carro Steelcave · Honour to the heroes",
+  "character": "Xuthar Morvayne",
+  "level": 23,
+  "companions": [
+    "Carro Steelcave"
+  ],
+  "hunterPet": "Broken Tooth",
+  "photoCount": 19,
+  "photoDimensions": "1920×1080",
+  "photoTimeRange": "20:35:52–21:24:01 · capture filenames",
+  "completedVisible": 12,
+  "redridgeCompleted": 9,
+  "activeVisible": 2,
+  "trackerQuestCount": 17,
+  "trackerVisibleCount": 14,
+  "trackerPartial": true,
+  "trackerImage": "assets/images/screenshots/quest-tracker-20261117.png",
+  "screenshotCoordinates": {
+    "x": 23.58,
+    "y": 39.42,
+    "zoneIdentified": false
+  },
+  "policy": "Quest Complete! and ready-for-turn-in are treated as completed and delivered under Xuthar’s standing Chronicle convention. No exact hand-in times, rewards or level-up are inferred. The fourteen readable entries are not the full seventeen-quest log; off-crop assignments are not automatically completed.",
+  "quests": [
+    {
+      "id": 97894,
+      "name": "Business in Auberdine",
+      "level": 17,
+      "groupLabel": "Darkshore",
+      "status": "completed-by-user-convention",
+      "objective": "Check on Gorbold Steelhand in Auberdine for his brother Borgus.",
+      "description": "A worried Stormwind merchant asks after his brother’s fortunes in Auberdine. The completed entry remains in the tracker; it is not a new Darkshore journey tonight.",
+      "newToday": false,
+      "sourceUrl": "https://db.icy-veins.com/wow-forever/quests/97894",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 2923,
+      "name": "Tinkmaster Overspark",
+      "level": "26D",
+      "groupLabel": "Gnomeregan",
+      "status": "completed-by-user-convention",
+      "objective": "Speak with Tinkmaster Overspark in Ironforge about Techbot.",
+      "description": "Brother Sarno directs help toward the inventor whose once-useful Techbot has malfunctioned. This is the introductory assignment, not completion of the Techbot follow-up or a Gnomeregan dungeon run.",
+      "sourceUrl": "https://classicdb.ch/?quest=2923",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 2928,
+      "name": "Gyrodrillmatic Excavationators",
+      "level": "30D",
+      "groupLabel": "Gnomeregan",
+      "status": "active",
+      "objective": "Collect 24 Robo-mechanical Guts for Shoni in Stormwind.",
+      "description": "Shoni needs robot parts to keep her excavation machines working. The tracker still shows no parts collected; this remains a future expedition.",
+      "objectives": [
+        {
+          "name": "Robo-mechanical Guts",
+          "current": 0,
+          "total": 24
+        }
+      ],
+      "sourceUrl": "https://db.icy-veins.com/wow-forever/quests/2928",
+      "rawStatus": "0/24 Robo-mechanical Guts",
+      "countedAsDelivered": false,
+      "officialApiVerified": false
+    },
+    {
+      "id": 92,
+      "name": "Redridge Goulash",
+      "level": 18,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Supply five Great Goretusk Snouts, five Tough Condor Meat and five Crisp Spider Meat to Chef Breanna.",
+      "description": "Feeding the troops left Breanna’s kitchen short of provisions. The final ingredient is no longer missing: all three sets of five ingredients are fulfilled.",
+      "objectives": [
+        {
+          "name": "Great Goretusk Snout",
+          "current": 5,
+          "total": 5
+        },
+        {
+          "name": "Tough Condor Meat",
+          "current": 5,
+          "total": 5
+        },
+        {
+          "name": "Crisp Spider Meat",
+          "current": 5,
+          "total": 5
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=92",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 145,
+      "name": "Messenger to Darkshire",
+      "level": 18,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Carry Magistrate Solomon’s plea to Lord Ello Ebonlocke in Darkshire.",
+      "description": "Solomon seeks help from the Night Watch for Lakeshire’s defence. This completed assignment records an appeal between threatened towns; the photographs do not establish a Darkshire visit time or completion of every later messenger stage.",
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=145",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 98387,
+      "name": "Blackrock Blockade",
+      "level": 21,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Recover eight Stolen Weapons and ten Blackrock Supplies for Marshal Marris.",
+      "description": "Strike at the orc camps below Stonewatch by taking away their equipment and stores. The completed objective weakens the machinery of the Blackrock offensive.",
+      "objectives": [
+        {
+          "name": "Stolen Weapon",
+          "current": 8,
+          "total": 8
+        },
+        {
+          "name": "Blackrock Supplies",
+          "current": 10,
+          "total": 10
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://guide.wow4ever.se/en/quests/98387",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 126,
+      "name": "Howling in the Hills",
+      "level": 25,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Defeat Yowler and obtain Yowler’s Paw for Verner Osgood.",
+      "description": "The leader’s cries carry over Lakeshire while the army is occupied with orcs. The completed hunt answers that local threat. The wolves in the later road photograph are not identified as Yowler.",
+      "objectives": [
+        {
+          "name": "Yowler’s Paw",
+          "current": 1,
+          "total": 1
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=126",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 128,
+      "name": "Blackrock Bounty",
+      "level": 25,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Defeat fifteen Blackrock Champions for Guard Howe.",
+      "description": "The Champions lead the Blackrock units in the northern encampments. Completing the bounty removes fifteen of those hardened opponents from the threat to Lakeshire.",
+      "objectives": [
+        {
+          "name": "Blackrock Champion slain",
+          "current": 15,
+          "total": 15
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=128",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 219,
+      "name": "Missing In Action",
+      "level": 25,
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Protect Corporal Keeshan during his escape back toward Lakeshire.",
+      "description": "Badly hurt after his regiment was overwhelmed, Keeshan is held in a cave. The photographs follow the rescue from his appeal for help through the cavern and into hostile open country; the tracker confirms the escort objective complete.",
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=219",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 95999,
+      "name": "WANTED: Incinerator Gar’im",
+      "level": "25+",
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Defeat Incinerator Gar’im and obtain his Broken Staff for Magistrate Solomon.",
+      "description": "The leader of the incursion in Render’s Valley works with Stonewatch’s Blackrock forces. His defeat cuts off a dangerous source of reinforcement; the staff is the required proof.",
+      "objectives": [
+        {
+          "name": "Broken Staff of Incinerator Gar’im",
+          "current": 1,
+          "total": 1
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://db.icy-veins.com/wow-forever/quests/95999",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 169,
+      "name": "WANTED: Gath’Ilzogg",
+      "level": "26+",
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Defeat Gath’Ilzogg and secure his head for Magistrate Solomon.",
+      "description": "The commander associated with the taking of Stonewatch and raids against Lakeshire is finally overcome. This resolves Xuthar’s earlier failed attempt; it does not claim that every enemy or occupation in the keep has ended.",
+      "objectives": [
+        {
+          "name": "Head of Gath’Ilzogg",
+          "current": 1,
+          "total": 1
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=169",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 249,
+      "name": "Morganth",
+      "level": "27+",
+      "groupLabel": "Redridge Mountains",
+      "status": "completed-by-user-convention",
+      "objective": "Defeat Morganth in the Tower of Ilgalar and obtain his Pendant of Shadow for Theocritus.",
+      "description": "The inquiry from Azora exposes Morganth’s search for the Scythe of Elune. Defeating the warlock prevents the immediate danger; no recovery of the Scythe itself is recorded.",
+      "objectives": [
+        {
+          "name": "Pendant of Shadow",
+          "current": 1,
+          "total": 1
+        }
+      ],
+      "newToday": true,
+      "sourceUrl": "https://classicdb.ch/?quest=249",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    },
+    {
+      "id": 1078,
+      "name": "Retrieval for Mauren",
+      "level": 26,
+      "groupLabel": "Stonetalon Mountains",
+      "status": "active",
+      "objective": "Collect eight Crystalized Scales for Collin Mauren in Stormwind.",
+      "description": "Mauren seeks basilisk scales from the Charred Vale as a spell reagent. The tracker still shows zero of eight; no new Stonetalon journey or reward is added.",
+      "objectives": [
+        {
+          "name": "Crystalized Scales",
+          "current": 0,
+          "total": 8
+        }
+      ],
+      "sourceUrl": "https://www.wowhead.com/classic/quest=1078/retrieval-for-mauren",
+      "rawStatus": "0/8 Crystalized Scales",
+      "countedAsDelivered": false,
+      "officialApiVerified": false
+    },
+    {
+      "id": 3765,
+      "name": "The Corruption Abroad",
+      "level": 24,
+      "groupLabel": "Stormwind City",
+      "status": "completed-by-user-convention",
+      "objective": "Answer Argos Nightwhisper’s request to contact Gershala Nightwhisper in Auberdine.",
+      "description": "The brothers’ appeal connects Stormwind with the troubles of Darkshore. Already recorded complete on 16 November, this remains a completed line rather than another new victory or a new crossing tonight.",
+      "newToday": false,
+      "sourceUrl": "https://classicdb.ch/?quest=3765",
+      "rawStatus": "Quest Complete!",
+      "countedAsDelivered": true,
+      "officialApiVerified": false
+    }
+  ],
+  "photos": [
+    {
+      "file": "WoWScrnShot_111726_203552.jpg",
+      "time": "20:35:52",
+      "chapterId": "x-nov17-supper-before-storm",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_203552.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_204049.jpg",
+      "time": "20:40:49",
+      "chapterId": "x-nov17-fire-and-stolen-steel",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_204049.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_204515.jpg",
+      "time": "20:45:15",
+      "chapterId": "x-nov17-fire-and-stolen-steel",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_204515.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_204758.jpg",
+      "time": "20:47:58",
+      "chapterId": "x-nov17-stonewatch-reckoning",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_204758.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_205656.jpg",
+      "time": "20:56:56",
+      "chapterId": "x-nov17-morganth-shadow",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_205656.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_205710.jpg",
+      "time": "20:57:10",
+      "chapterId": "x-nov17-morganth-shadow",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_205710.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_205839.jpg",
+      "time": "20:58:39",
+      "chapterId": "x-nov17-morganth-shadow",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_205839.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_210259.jpg",
+      "time": "21:02:59",
+      "chapterId": "x-nov17-champions-cave",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_210259.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_210345.jpg",
+      "time": "21:03:45",
+      "chapterId": "x-nov17-champions-cave",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_210345.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_210524.jpg",
+      "time": "21:05:24",
+      "chapterId": "x-nov17-keeshan-found",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_210524.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_210532.jpg",
+      "time": "21:05:32",
+      "chapterId": "x-nov17-keeshan-found",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_210532.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_211032.jpg",
+      "time": "21:10:32",
+      "chapterId": "x-nov17-keeshan-found",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_211032.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_211042.jpg",
+      "time": "21:10:42",
+      "chapterId": "x-nov17-keeshan-found",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_211042.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_211140.jpg",
+      "time": "21:11:40",
+      "chapterId": "x-nov17-keeshan-road",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_211140.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_211439.jpg",
+      "time": "21:14:39",
+      "chapterId": "x-nov17-keeshan-road",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_211439.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_211700.jpg",
+      "time": "21:17:00",
+      "chapterId": "x-nov17-keeshan-road",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_211700.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_212055.jpg",
+      "time": "21:20:55",
+      "chapterId": "x-nov17-yowler-hills",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_212055.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_212351.jpg",
+      "time": "21:23:51",
+      "chapterId": "x-nov17-heroes-over-lakeshire",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_212351.jpg"
+    },
+    {
+      "file": "WoWScrnShot_111726_212401.jpg",
+      "time": "21:24:01",
+      "chapterId": "x-nov17-heroes-over-lakeshire",
+      "width": 1920,
+      "height": 1080,
+      "path": "assets/images/screenshots/WoWScrnShot_111726_212401.jpg"
+    }
+  ],
+  "reportUrl": "redridge-triumph-2026-11-17/",
+  "bookAnchor": "x-nov17-supper-before-storm",
+  "apiRefresh": {
+    "workflowRun": 44170490358,
+    "status": "success",
+    "officialLevel": 23,
+    "officialCompletedCount": 230,
+    "checkedAt": 1794947602,
+    "note": "Official data refreshed successfully but still lists several manually completed quests as in progress. Do not add the personal tracker totals to the official count."
+  }
+}

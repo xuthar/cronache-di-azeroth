@@ -321,11 +321,13 @@
       menu.textContent=open?'Close':'Menu';
     });
   }
-  fetch('assets/data/character-books.json?v=20261117-redridge-reunion',{cache:'no-cache'})
+  fetch('assets/data/character-books.json?v=20261117-redridge-triumph',{cache:'no-cache'})
     .then(res=>{if(!res.ok)throw Error('Cannot load book data');return res.json();})
     .then(data=>{
       if(data.schemaVersion!==1||!Array.isArray(data.volumes))throw Error('Unsupported book catalogue');
+      const linkedChapter=Boolean(location.hash);
       makeVolumeBooks(data);
+      if(linkedChapter)requestAnimationFrame(()=>document.querySelector('.book-reader-section')?.scrollIntoView({block:'start'}));
     })
     .catch(()=>{
       spread.replaceChildren(make('p','book-error','The book archive is temporarily unavailable. You can still read the characters’ full biographies through the links above.'));

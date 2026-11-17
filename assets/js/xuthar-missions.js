@@ -7,7 +7,7 @@
   const mount=document.getElementById('quests-archive');
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
-  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261106-first-archive';
+  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261117-redridge-triumph';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);
@@ -146,7 +146,7 @@
     }
     section.append(grid);
     if(Array.isArray(snapshot.allies)&&snapshot.allies.length){
-      const party=make('p','qm-active-caveat','Questing companions · '+snapshot.allies.map(a=>a.name+' (level '+a.level+' '+a.role+')').join(' · '));
+      const party=make('p','qm-active-caveat','Questing companions · '+snapshot.allies.map(a=>a.name+(Number.isFinite(a.level)?' (level '+a.level+' '+a.role+')':' · '+a.role)).join(' · '));
       section.append(party);
     }
     section.append(make('h3','qm-field-subheading','✓ Completed · Personal Chronicle'));
@@ -157,9 +157,10 @@
     for(const q of snapshot.advancedStages||[])
       text(done,'p','qm-field-complete','✓ '+q.name+' · first assignment completed (Pillagers and Looters); second assignment above is active');
     section.append(done);
-    const caveat=make('p','qm-active-caveat',snapshot.day==='2026-11-11'?'Today’s “Quest Complete!” entries follow Xuthar’s personal Chronicle convention. The Defias Brotherhood refers to the visible completed assignment, not a claim that all stages of the storyline are finished. The official Blizzard API may update later.':'Mission lines marked Quest Complete! follow Xuthar’s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
+    const caveat=make('p','qm-active-caveat',snapshot.day==='2026-11-17'?'Fourteen of seventeen tracked quests are visible: twelve complete lines, including nine Redridge assignments. Prior Auberdine and Corruption completions are not new victories tonight. The two visible open tasks remain unfinished. Off-crop quests retain their last known states; the official API is shown separately.':snapshot.day==='2026-11-11'?'Today’s “Quest Complete!” entries follow Xuthar’s personal Chronicle convention. The Defias Brotherhood refers to the visible completed assignment, not a claim that all stages of the storyline are finished. The official Blizzard API may update later.':'Mission lines marked Quest Complete! follow Xuthar’s personal Chronicle convention. Quests missing from the prior tracker are treated as completed under his standing rule. The official Blizzard API may report older states.');
     section.append(caveat);
-    if(snapshot.id==='2026-11-16-evening-questie')section.append(link('Read Chapter 125 · One Ingredient Short →','book.html?character=xuthar#x-nov16-unfinished-roads'));
+    if(snapshot.day==='2026-11-17')section.append(link('The Night Redridge Answered · 9 Redridge quests, 19 Full HD photographs →','redridge-triumph-2026-11-17/'));
+    else if(snapshot.id==='2026-11-16-evening-questie')section.append(link('Read Chapter 125 · One Ingredient Short →','book.html?character=xuthar#x-nov16-unfinished-roads'));
     else if(snapshot.day==='2026-11-14')section.append(link('Read Chapter LXXXVI · The Gates Beneath the City ↗','book.html?character=xuthar#x-nov14-stockades-call'));
     else section.append(link(snapshot.day==='2026-11-11'?'Read Chapters LX–LXI · Three Against the Dust ↗':snapshot.id==='2026-11-09-westfall-night-questie-five'?'Read Chapter LII · The Roads That Wait in Dreams ↗':'Read Chapter LI · What the Hills Demand ↗',snapshot.day==='2026-11-11'?'book.html?character=xuthar#x-nov11-defias-1':snapshot.id==='2026-11-09-westfall-night-questie-five'?'book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed':'book.html?character=xuthar#x-westfall-ninth-nov-eight-paws','qm-field-link'));
 
@@ -262,7 +263,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261116-evening-tracker',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261117-redridge-triumph',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-17",
   "language": "en",
   "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
@@ -278,6 +278,90 @@
       "id": 99143,
       "objective": "Collect six Shiny Junk items.",
       "source": "player-screenshot"
+    },
+    {
+      "id": 97894,
+      "objective": "Check on Gorbold Steelhand in Auberdine for his brother Borgus.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://db.icy-veins.com/wow-forever/quests/97894"
+    },
+    {
+      "id": 2923,
+      "objective": "Speak with Tinkmaster Overspark in Ironforge about Techbot.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=2923"
+    },
+    {
+      "id": 2928,
+      "objective": "Collect 24 Robo-mechanical Guts for Shoni in Stormwind.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://db.icy-veins.com/wow-forever/quests/2928"
+    },
+    {
+      "id": 92,
+      "objective": "Supply five Great Goretusk Snouts, five Tough Condor Meat and five Crisp Spider Meat to Chef Breanna.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=92"
+    },
+    {
+      "id": 145,
+      "objective": "Carry Magistrate Solomon’s plea to Lord Ello Ebonlocke in Darkshire.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=145"
+    },
+    {
+      "id": 98387,
+      "objective": "Recover eight Stolen Weapons and ten Blackrock Supplies for Marshal Marris.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://guide.wow4ever.se/en/quests/98387"
+    },
+    {
+      "id": 126,
+      "objective": "Defeat Yowler and obtain Yowler’s Paw for Verner Osgood.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=126"
+    },
+    {
+      "id": 128,
+      "objective": "Defeat fifteen Blackrock Champions for Guard Howe.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=128"
+    },
+    {
+      "id": 219,
+      "objective": "Protect Corporal Keeshan during his escape back toward Lakeshire.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=219"
+    },
+    {
+      "id": 95999,
+      "objective": "Defeat Incinerator Gar’im and obtain his Broken Staff for Magistrate Solomon.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://db.icy-veins.com/wow-forever/quests/95999"
+    },
+    {
+      "id": 169,
+      "objective": "Defeat Gath’Ilzogg and secure his head for Magistrate Solomon.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=169"
+    },
+    {
+      "id": 249,
+      "objective": "Defeat Morganth in the Tower of Ilgalar and obtain his Pendant of Shadow for Theocritus.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=249"
+    },
+    {
+      "id": 1078,
+      "objective": "Collect eight Crystalized Scales for Collin Mauren in Stormwind.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://www.wowhead.com/classic/quest=1078/retrieval-for-mauren"
+    },
+    {
+      "id": 3765,
+      "objective": "Answer Argos Nightwhisper’s request to contact Gershala Nightwhisper in Auberdine.",
+      "source": "editorial-paraphrase-of-quest-reference",
+      "referenceUrl": "https://classicdb.ch/?quest=3765"
     }
   ],
   "episodes": [
@@ -352,6 +436,60 @@
       ],
       "bookAnchor": "x-quest-story-river",
       "teaser": "The lake yielded half-eaten fish, broken trinkets and strange ingredients. Every object was evidence that the water had kept someone else's story."
+    },
+    {
+      "id": "redridge-nov17-fire",
+      "title": "The Incinerator’s Broken Promise",
+      "subtitle": "Fire and stolen steel",
+      "questIds": [
+        95999,
+        98387
+      ],
+      "bookAnchor": "x-nov17-fire-and-stolen-steel",
+      "teaser": "Gar’im’s cave and the camps below Stonewatch are parts of the same tightening fist. Two companions return to loosen its hold."
+    },
+    {
+      "id": "redridge-nov17-stonewatch",
+      "title": "The Name Beneath the Last Defeat",
+      "subtitle": "Stonewatch answered",
+      "questIds": [
+        169
+      ],
+      "bookAnchor": "x-nov17-stonewatch-reckoning",
+      "teaser": "The fortress remembers Xuthar’s earlier failure. Beside Carro, he returns to give the unfinished name another ending."
+    },
+    {
+      "id": "redridge-nov17-morganth",
+      "title": "A Shadow Answered by Its Witness",
+      "subtitle": "The Lion and the Warlock",
+      "questIds": [
+        249
+      ],
+      "bookAnchor": "x-nov17-morganth-shadow",
+      "teaser": "From the Old Lion Statue to Ilgalar’s shadowed chamber, Theocritus’ inquiry reaches its dangerous answer."
+    },
+    {
+      "id": "redridge-nov17-keeshan",
+      "title": "Forgive My Slow Pace",
+      "subtitle": "No one left in the dark",
+      "questIds": [
+        219,
+        128
+      ],
+      "bookAnchor": "x-nov17-keeshan-found",
+      "teaser": "After the Blackrock Champions, a wounded soldier asks for help. The greatest victory will be measured one careful footstep at a time."
+    },
+    {
+      "id": "redridge-nov17-home",
+      "title": "Let the Living Have the View",
+      "subtitle": "The people behind the promises",
+      "questIds": [
+        92,
+        145,
+        126
+      ],
+      "bookAnchor": "x-nov17-heroes-over-lakeshire",
+      "teaser": "Food for a hungry township, a letter asking for help, the fear carried by a distant howl: the quiet obligations belong beside the great battles."
     }
   ]
 }

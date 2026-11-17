@@ -1,19 +1,10 @@
 {
-  "updatedAt": "2026-11-16T21:56:39.300Z",
+  "updatedAt": "2026-11-17T07:48:08.976Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-1802-1793689200000@wowlazymacros.com",
-      "title": "Midnight Dungeon Event",
-      "startAt": "2026-11-03T07:00:00.000Z",
-      "endAt": "2026-11-10T06:00:00.000Z",
-      "allDay": false,
-      "category": "Bonus events",
-      "url": "https://www.wowhead.com/event=1802"
-    },
     {
       "id": "wow-event-664-1793692800000@wowlazymacros.com",
       "title": "PvP Brawl: Warsong Scramble",

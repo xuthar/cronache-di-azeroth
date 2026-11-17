@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-16T20:56:36.573Z"
+    "checkedAt": "2026-11-17T03:44:05.484Z"
   },
   "news": [
     {
-      "title": "Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-16T18:10:00.000Z"
-    },
-    {
-      "title": "WoW Token Price Hits 640k Gold Spike on EU Servers",
-      "url": "https://www.wowhead.com/news=383895/wow-token-price-hits-640k-gold-spike-on-eu-servers",
+      "title": "Last Chance to Pre-Order D&D: World of Warcraft for In-Game Rewards",
+      "url": "https://www.wowhead.com/news=383901/last-chance-to-pre-order-d-d-world-of-warcraft-for-in-game-rewards",
       "category": "Live",
-      "publishedAt": "2026-11-16T15:56:34.000Z"
+      "publishedAt": "2026-11-17T02:43:12.000Z"
     },
     {
-      "title": "Should WoW: Forever Dungeons Let Players Complete Quests in One Run?",
-      "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
+      "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+      "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
       "category": "Forever",
-      "publishedAt": "2026-11-16T15:00:00.000Z"
+      "publishedAt": "2026-11-17T02:23:22.000Z"
     },
     {
-      "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
+      "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
       "category": "Forever",
-      "publishedAt": "2026-11-15T19:00:00.000Z"
+      "publishedAt": "2026-11-17T00:00:20.000Z"
+    },
+    {
+      "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-16T21:04:18.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-16T20:56:36.573Z",
-  "generatedAt": "2026-11-16T20:56:36.561Z",
+  "newsUpdatedAt": "2026-11-17T03:44:05.483Z",
+  "generatedAt": "2026-11-17T03:44:05.355Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 16 Nov 2026 14:56:26 -0600",
+  "newsFeedBuiltAt": "Mon, 16 Nov 2026 21:44:04 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

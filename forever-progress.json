@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794884242,
+  "exportedAt": 1794934497,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794884242,
+      "checkedAt": 1794934497,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794884242,
+          "snapshotAt": 1794934497,
           "inProgressCount": 16,
           "completedCount": 230,
           "inProgress": [
@@ -767,7 +767,7 @@
               "briefing": "I find myself in quite a pinch here, Xuthar. The bottles are close to running dry. The latest booze shipment is long overdue. The…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 118,
@@ -920,7 +920,7 @@
               "briefing": "Something odd is afoot with the Stormwind Army. They should have been here in force by now. Time is a luxury we don't have,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 144,
@@ -929,7 +929,7 @@
               "briefing": "Magistrate Solomon's note pains me to read. But it is obvious he knows not the war which is waged in Westfall or else he…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 147,
@@ -1766,7 +1766,7 @@
               "briefing": "Oh no... I'm in for it now! I heard about the harvesters terrorizing the fields of Westfall, so I traveled all the way from…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94773,
@@ -2399,13 +2399,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            116,
-            143,
-            144,
-            92909
-          ],
-          "comparedWithSnapshotAt": 1794848675,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794884242,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2421,7 +2416,7 @@
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794884242
+        "profileCheckedAt": 1794934497
       }
     }
   ],

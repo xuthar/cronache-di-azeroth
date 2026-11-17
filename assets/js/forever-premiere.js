@@ -23,7 +23,7 @@
   if(heroCopy) {
     heroSignal=$('div','forever-premiere-hero-signal');
     heroSignal.setAttribute('role','status');
-    heroSignal.innerHTML='<span class="forever-premiere-hero-pulse" aria-hidden="true"></span><span class="forever-premiere-hero-line">FOREVER HAS BEGUN · XUTHAR MORVAYNE AWAKENS</span>';
+    heroSignal.innerHTML='<span class="forever-premiere-hero-pulse" aria-hidden="true"></span><span class="forever-premiere-hero-line">XUTHAR &amp; CARRO · TOGETHER AGAIN IN REDRIDGE</span>';
     const title=heroCopy.querySelector('h1');
     if(title)title.insertAdjacentElement('beforebegin',heroSignal);
     else heroCopy.prepend(heroSignal);
@@ -113,7 +113,7 @@
   const title=$('h2','forever-premiere-headline','The gates are open. The legend begins.');
   title.id='forever-premiere-title';
   story.append(title);
-  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. Xuthar is now level 20, confirmed by the player on 14 November. On 12 November Xuthar Morvayne reached level 18 after escorting the Defias Traitor and discovering the secret entrance to the Deadmines. On Friday 13 November, Xuthar and Carro Steelcave conquered the Deadmines and returned from the hidden ship with VanCleef defeated. The epic road with Carro Steelcave, Westfall's hard days and the storm above Stormwind remain preserved in The Last Witness.");
+  const lead=$('p','forever-premiere-lead',"The gates of Forever opened on 5 November 2026. Xuthar is now level 23, confirmed by the player on 16 November. On 17 November he reunites with Carro Steelcave to tackle Redridge’s difficult unfinished quests. On 12 November Xuthar Morvayne reached level 18 after escorting the Defias Traitor and discovering the secret entrance to the Deadmines. On Friday 13 November, Xuthar and Carro Steelcave conquered the Deadmines and returned from the hidden ship with VanCleef defeated. The epic road with Carro Steelcave, Westfall's hard days and the storm above Stormwind remain preserved in The Last Witness.");
   story.append(lead);
   const launchMeter=$('div','forever-premiere-launch-meter');
   launchMeter.innerHTML='<span>THE FOREVER ERA BEGINS · EUROPE</span><strong>5 NOVEMBER 2026</strong><small>Launched at 00:00 CET · The adventure continues</small>';

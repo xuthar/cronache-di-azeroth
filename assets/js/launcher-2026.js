@@ -44,19 +44,19 @@
     const kicker=copy.querySelector('.warfront-hero-kicker,.eyebrow');
     if(kicker)kicker.textContent='CHRONICLES OF AZEROTH  /  THE FOREVER ERA';
     const title=copy.querySelector('h1');
-    if(title)title.innerHTML='FOREVER HAS BEGUN.<br><em>A legend awakens.</em>';
+    if(title)title.innerHTML='TOGETHER AGAIN.<br><em>Redridge awaits.</em>';
     const lead=copy.querySelector('p');
-    if(lead)lead.textContent="Forever is here. On 8 November Xuthar Morvayne reached level fifteen after difficult quests and close encounters in Westfall. He shared a beer with Carro Steelcave in Goldshire, walked through Stormwind and finally fell asleep at The Gilded Rose. On 9 November he fished beneath the rain, endured another hard day among the Westfall quests, and returned to Sentinel Hill to rest. Tonight his thoughts turn to the journeys he may one day take. The living book preserves the quieter hours too.";
+    if(lead)lead.textContent="17 November 2026. Xuthar Morvayne and Carro Steelcave return to Redridge together. Rest has restored the level-23 priest’s resolve; unfinished quests and formidable enemies now call the companions back to the red hills. Yowler, Incinerator Gar’im and Gath’Ilzogg still await. Their reunion begins the next three chapters of The Last Witness.";
     const buttons=copy.querySelector('.buttons');
-    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
+    if(buttons)buttons.innerHTML='<a class="button primary" href="book.html?character=xuthar#x-nov17-redridge-reunion">READ XUTHAR’S CHRONICLE ↗</a><a class="button" href="#xuthar-first-night">First night ↓</a><a class="button launcher-ghost" href="forever.html">Explore Forever ↗</a>';
     const panel=document.createElement('aside');
     panel.className='launcher-game-panel';
     panel.setAttribute('aria-label','World of Warcraft Forever game overview');
     panel.innerHTML='<span class="launcher-panel-label"><span class="launcher-pulse" aria-hidden="true"></span> THE FOREVER ERA · LAUNCHED</span>'+
       '<div class="launcher-game-name"><span class="launcher-game-crest" aria-hidden="true">✦</span><div><strong>WoW: Forever</strong><small>Azeroth · The adventure has begun</small></div></div>'+
       '<div class="launcher-game-status launcher-era-status"><small>HISTORIC LAUNCH · 5 NOVEMBER 2026</small><strong>THE GATES ARE OPEN</strong><span>Midnight CET · A new chapter in Azeroth</span></div>'+
-      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>DAY FIVE · Human Priest · Level 15<br>OFFLINE · Sentinel Hill, Westfall · Resting</div>'+
-      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-sentinel-hill-nov9-evening-bed">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
+      '<div class="launcher-panel-state"><strong>XUTHAR MORVAYNE</strong><br>17 NOVEMBER · Human Priest · Level 23<br>LIVE · Redridge Mountains · With Carro Steelcave</div>'+
+      '<a class="launcher-panel-button" href="book.html?character=xuthar#x-nov17-redridge-reunion">READ THE LATEST CHAPTER <span aria-hidden="true">↗</span></a>'+
       '<div class="launcher-panel-links"><a href="chronicle.html">Character progress</a><a href="forever.html#forever-news">Patch & news</a><a href="calendar.html">Calendar</a></div>';
     heroContent.appendChild(panel);
   }
@@ -82,13 +82,13 @@
   featured.className='launcher-section launcher-featured wrap';
   featured.id='launcher-featured';
   featured.setAttribute('aria-label','Featured World of Warcraft stories');
-  featured.innerHTML=heading('01  /  LAUNCH EDITION','The legend begins here.','The world has opened; the first true chapter belongs to Xuthar Morvayne.','book.html?character=xuthar#x-goldshire-road','Read the chronicle');
+  featured.innerHTML=heading('01  /  THE LATEST CHAPTER','The Road Remembers Two.','Xuthar and Carro reunite to face the unfinished dangers of Redridge.','book.html?character=xuthar#x-nov17-redridge-reunion','Read the chronicle');
   const featureGrid=document.createElement('div');featureGrid.className='launcher-feature-grid';
   featureGrid.append(imgCard({
-    category:'THE LAST WITNESS · FIRST PLAYED ADVENTURE',
-    name:'Xuthar Morvayne: Beyond the shining river.',
-    description:'6 November: the priest walks through a sunlit stream, returns to the trees, and records An Enticing Offer. Chapter XXIII preserves the journey without inventing a victory.',
-    url:'book.html?character=xuthar#x-goldshire-eighth-nov-carro-beer',image:images.stormwind
+    category:'THE LAST WITNESS · 17 NOVEMBER 2026',
+    name:'Xuthar & Carro: The Road Remembers Two.',
+    description:'Two old companions return to Redridge. Unfinished promises, the memory of Stonewatch and the courage to try again open Chapters 127–129.',
+    url:'book.html?character=xuthar#x-nov17-redridge-reunion',image:images.stormwind
   },'launcher-news-lead'));
   const sides=document.createElement('div');sides.className='launcher-feature-side';
   sides.append(imgCard({category:'FOREVER · THE WORLD OPENS',name:'The age of Forever has arrived.',description:'The launch has happened. Discover the new era, its worlds and its official features.',url:'https://worldofwarcraft.blizzard.com/en-gb/news/24302093',image:images.hero},'launcher-news-secondary'),imgCard({category:'A CHRONICLE OF REAL ADVENTURES',name:'From battle to silence.',description:'Day Four: Westfall’s hardest roads, the fifteenth milestone, Carro Steelcave’s reunion and rest at The Gilded Rose.',url:'journal.html#xuthar-day-two-enticing-offer-river',image:images.forest},'launcher-news-secondary'));

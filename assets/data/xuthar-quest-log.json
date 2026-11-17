@@ -6072,5 +6072,16 @@
     "source": "Explicit player report",
     "location": "Not newly reported",
     "bookChapterId": "x-nov16-last-mug"
+  },
+  "redridgeReunionNov17": {
+    "date": "2026-11-17",
+    "zone": "Redridge Mountains",
+    "companions": [
+      "Carro Steelcave"
+    ],
+    "activity": "Tackling difficult unfinished Redridge quests together",
+    "level": 23,
+    "newCompletionsReported": false,
+    "bookChapterId": "x-nov17-redridge-reunion"
   }
 }

@@ -10,13 +10,13 @@
   // Navigation is shared in the page markup, including nested-directory paths.
 
   const contacts = data.contacts;
-  if (page === 'home') {
+  if (nav && page === 'home') {
     // The homepage prioritizes live in-game presence over contact links.
     // Realm clocks are prepended by realm-clocks.js into the same strip.
     nav.insertAdjacentHTML('afterend', '<div class="contact-strip contact-strip--presence" aria-label="Realm clocks and Xuthar live status"></div>');
     const presence = document.getElementById('xuthar-presence');
     if (presence) document.querySelector('.contact-strip--presence').appendChild(presence);
-  } else if (contacts) {
+  } else if (nav && contacts) {
     const telegramName = /^[a-zA-Z0-9_]+$/.test(contacts.telegram) ? contacts.telegram : '';
     nav.insertAdjacentHTML('afterend', `<div class="contact-strip" aria-label="Contact Xuthar"><span class="contact-label">Get in touch</span>${telegramName ? `<a class="contact-item" href="https://t.me/${telegramName}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10l7 3 3 7 8-17Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m10 13 6-6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Telegram <strong>@${escape(telegramName)}</strong></span></a>` : ''}<button class="contact-item" type="button" id="copy-battletag" aria-label="Copy BattleTag ${escape(contacts.battleTag)}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3c5 0 9 4 9 9M21 12c0 5-4 9-9 9M12 21c-5 0-9-4-9-9M3 12c0-5 4-9 9-9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m12 3 3 3m6 6-3 3m-6 6-3-3m-6-6 3-3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Battle.net <strong>${escape(contacts.battleTag)}</strong></span><span class="contact-copy-hint" aria-hidden="true">Copy</span></button><span class="contact-status" role="status" aria-live="polite"></span></div>`);
     document.querySelector('#copy-battletag').addEventListener('click', async () => {
@@ -31,8 +31,8 @@
   }
 
   const toggle = document.querySelector('.menu-toggle');
-  toggle.addEventListener('click', () => {const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);toggle.textContent=open?'Close':'Menu';});
-  document.addEventListener('keydown', e => {if(e.key==='Escape' && toggle.getAttribute('aria-expanded')==='true'){toggle.click();toggle.focus();}});
+  toggle?.addEventListener('click', () => {const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);toggle.textContent=open?'Close':'Menu';});
+  document.addEventListener('keydown', e => {if(e.key==='Escape' && toggle && toggle.getAttribute('aria-expanded')==='true'){toggle.click();toggle.focus();}});
   const placeholder = (label, kind='', image='', alt='') => safeImage(image) ? `<div class="${kind}"><img class="gallery-image" src="${escape(image)}" alt="${escape(alt||label)}" loading="lazy"></div>` : `<div class="placeholder ${kind}"><span class="mark" aria-hidden="true">◇</span><span>${escape(label)}</span><small>Image to be added</small></div>`;
   const demo = '<p class="demo-note">Sample journal: the places, stops, and stories are original narrative placeholders for your own adventures. They do not represent actual gameplay progress or official lore.</p>';
   const header = (eyebrow,title,description) => `<header class="page-header"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1><p>${description}</p></header>`;
@@ -165,3 +165,4 @@
   const dialog=document.querySelector('#lightbox');
   if(dialog){document.querySelectorAll('[data-gallery]').forEach(button=>button.addEventListener('click',()=>{const item=data.gallery[Number(button.dataset.gallery)];dialog.querySelector('img').src=safeImage(item.image);dialog.querySelector('img').alt=item.alt;dialog.querySelector('p').textContent=item.title;dialog.showModal();}));dialog.querySelector('button').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});}
 })();
+

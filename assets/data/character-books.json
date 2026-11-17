@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -2937,6 +2937,82 @@
             "His breathing grew deeper. The room softened into indistinct sounds, and those sounds slipped away before he could follow them. Xuthar fell asleep with the day’s work behind him.",
             "In his dreams, a road crossed fields he almost recognised. Far ahead, someone was tending a fire. There was a place beside it, and no reason to hurry."
           ]
+        },
+        {
+          "id": "x-nov17-redridge-reunion",
+          "chapter": "Chapter 127 · The Road Remembers Two",
+          "title": "An Empty Chair No Longer",
+          "paragraphs": [
+            "Xuthar had dreamed of a fire beside a road, and a place where there was no reason to hurry. Waking brought back the familiar weight of his limbs, the crease in his journal, the unfinished names waiting beneath yesterday’s ink. Yet the weariness had loosened its hold. He could lift his belongings without feeling that he was lifting every mile he had ever walked.",
+            "Then Carro Steelcave was there again.",
+            "For a heartbeat, Xuthar forgot the careful words with which he usually protected his feelings. He simply smiled. The dwarf looked him over with the frank attention of someone who had already seen him exhausted, soaked and in considerably worse company.",
+            "“You look as though you’ve been arguing with the world,” Carro said.",
+            "“It has been difficult to persuade.”",
+            "“Aye. Best bring a second opinion.”",
+            "That was all the ceremony their reunion required. They had stood together beneath Westfall, where the darkness had opened onto a ship and VanCleef’s vengeance had finally run out of road. They had fought beneath Stormwind, in passages where the city’s troubles wore human faces. Such things remained between friends without needing to be recited. Xuthar shifted his pack; Carro settled his own gear. The distance that had separated their journeys became, quite suddenly, a stretch of road behind them.",
+            "Redridge waited ahead.",
+            "Xuthar unfolded the page of unfinished work. There were practical concerns upon it, the small demands through which a troubled country continued to live. Then came the names that made his fingers pause: Yowler. Incinerator Gar’im. Gath’Ilzogg. Each had acquired a weight beyond its ink. Together they marked the places where another traveller’s courage, or another measure of strength, might decide whether a promise could be kept.",
+            "Carro read without interrupting. At the last name, he looked up.",
+            "“Still waiting for you, then?”",
+            "Xuthar remembered Stonewatch: the effort, the companions who had stayed, the stubborn fact that effort had not been enough. “Yes.”",
+            "The dwarf folded the page along its old crease and handed it back. “We’d better not disappoint him.”",
+            "Xuthar laughed, and something tight beneath his ribs finally gave way. The road had not grown safer. He had someone beside him who understood its cost."
+          ],
+          "kind": "fiction",
+          "sessionDate": "2026-11-17",
+          "place": "Redridge Mountains",
+          "editorialNote": "Player-reported reunion and return to tackle unfinished difficult Redridge quests. Dialogue, atmosphere and reflections dramatized. No new encounter, quest completion, reward or level increase asserted."
+        },
+        {
+          "id": "x-nov17-redridge-unfinished",
+          "chapter": "Chapter 128 · Beneath the Red Hills",
+          "title": "The Names That Would Not Fade",
+          "paragraphs": [
+            "The red hills rose before them with the severe familiarity of an old wound. From a distance, the country could almost persuade a stranger that it was peaceful. The lake held the sky; the slopes caught the light; a road curved out of sight as though it had nothing worse to offer than another climb. Xuthar knew what lay beyond that kindness of distance.",
+            "He had found help here before. He remembered those who had shared danger beneath the hills and among the Shadowhide fires, the company that had struggled at Stonewatch, the small decisions through which strangers had become companions. Returning with Carro did not diminish any of them. Their courage belonged in the book as surely as the victories.",
+            "But now the rhythm beside him was familiar. He no longer had to turn each uncertainty into an explanation. Carro noticed where his attention lingered; Xuthar recognised the dwarf’s silences. They fell into the old habit of leaving room for one another on the road.",
+            "At a bend they stopped to study the way ahead. Xuthar opened his journal against his knee. The unfinished assignments lay between them, their promises plain and uncomfortable. Somewhere beyond the next ridges, enemies continued to live their own hours, indifferent to the two travellers considering them.",
+            "Yowler’s name brought the memory of Redridge’s uneasy margins: the fear that followed those obliged to work beyond shelter, the knowledge that a short journey could become a disappearance. Gar’im’s name carried a harsher threat. Xuthar let his eyes rest upon it, considering the danger of meeting a foe whose very name seemed to promise fire.",
+            "And then Stonewatch.",
+            "He could still feel the inward resistance that came before remembering it properly. There had been a moment, after the earlier attempt, when he had wanted to make the failure smaller by speaking of it carelessly. Yet he had seen what the others had given. He owed them the honesty of admitting that they had tried, and that Gath’Ilzogg still lived.",
+            "“I remember how certain I was that we could finish it,” he said.",
+            "Carro crouched beside the page. “Certainty’s easy before the hard part.”",
+            "“And afterwards?”",
+            "“Afterwards you decide whether you’re coming back.”",
+            "Xuthar looked toward the heights. He had come back. The fact was simple enough to steady him.",
+            "He closed the journal before the wind could turn its pages. The names remained unfinished, but they had ceased to look like a verdict. Beside Carro, they looked once more like work that might be faced: carefully, patiently, together."
+          ],
+          "kind": "fiction",
+          "sessionDate": "2026-11-17",
+          "place": "Redridge Mountains",
+          "editorialNote": "Player-reported reunion and return to tackle unfinished difficult Redridge quests. Dialogue, atmosphere and reflections dramatized. No new encounter, quest completion, reward or level increase asserted."
+        },
+        {
+          "id": "x-nov17-redridge-defy-fate",
+          "chapter": "Chapter 129 · Where the Next Battle Begins",
+          "title": "Let the Hills Remember",
+          "paragraphs": [
+            "They made their preparations without haste. Carro attended to his equipment with the absorbed economy of long practice. Xuthar checked the things his hands needed to find without searching. Neither pretended that experience made them untouchable. Experience had taught them how much depended upon noticing a danger while there was still time to answer it.",
+            "The Seal of Wrynn caught the light as Xuthar tightened a strap. For a moment he watched the pale glimmer upon his hand. The ring recalled the long chain of obligations that had brought him through Stormwind’s hidden troubles, and the uneasy distance between a victory won and a life made safe. It had not ended the road. It had allowed him to carry something earned into the next difficult hour.",
+            "He thought of the man who had first left Northshire, still trying to understand what he meant to preserve. Once, he had feared that remembering would leave him standing apart from the living, forever arranging their names after they were gone. Carro’s presence made that fear harder to believe. Memory had brought them back to each other. It had given them reasons to take the next risk.",
+            "“You’re doing it again,” the dwarf said.",
+            "Xuthar looked up. “Doing what?”",
+            "“Thinking far enough ahead to miss the road under your boots.”",
+            "“I was considering our chances.”",
+            "“Then leave a little room for mine.”",
+            "Xuthar glanced at him, and the reply came easily. “They do tend to be loud.”",
+            "Carro grinned. For a brief moment the hills held nothing more solemn than two friends enjoying the relief of familiar company. Then the wind moved over the slope, and both turned toward the country ahead.",
+            "They spoke of caution, of keeping close, of refusing to let pride choose the next step. The old defeats deserved more than a reckless attempt to erase them. If fortune offered an opening, they would be ready to recognise it. If the road demanded patience, they would spend it.",
+            "At last Xuthar took out the journal once more. Beneath the date he wrote a single line: Carro and I have returned to Redridge.",
+            "He left space below it. No enemy had fallen merely because he had written a fine beginning; no difficult promise had fulfilled itself in the warmth of a reunion. The blank paper would have to wait for what their hands, their judgement and their courage could actually accomplish.",
+            "Carro was already watching the way ahead. Xuthar put the book away and stepped beside him.",
+            "Beyond them waited the unfinished hunts, the Blackrock threat, the fortress that had refused to yield. Fear travelled with them, quiet and watchful. So did the memory of surviving worse hours together.",
+            "Their footsteps resumed, two distinct measures finding the same pace. Across the red earth, toward the dangers they had chosen to face again, Xuthar Morvayne and Carro Steelcave went on."
+          ],
+          "kind": "fiction",
+          "sessionDate": "2026-11-17",
+          "place": "Redridge Mountains",
+          "editorialNote": "Player-reported reunion and return to tackle unfinished difficult Redridge quests. Dialogue, atmosphere and reflections dramatized. No new encounter, quest completion, reward or level increase asserted."
         },
         {
           "id": "x-future",

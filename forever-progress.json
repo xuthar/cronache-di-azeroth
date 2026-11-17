@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794848675,
+  "exportedAt": 1794884242,
   "characters": [
     {
       "id": "xuthar",
@@ -12,31 +12,27 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 22,
+      "level": 23,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 226,
+      "questsCompleted": 230,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794848675,
+      "checkedAt": 1794884242,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794848675,
-          "inProgressCount": 17,
-          "completedCount": 226,
+          "snapshotAt": 1794884242,
+          "inProgressCount": 16,
+          "completedCount": 230,
           "inProgress": [
             {
               "id": 387,
               "name": "Quell the Uprising"
-            },
-            {
-              "id": 143,
-              "name": "Messenger to Westfall"
             },
             {
               "id": 388,
@@ -45,10 +41,6 @@
             {
               "id": 94,
               "name": "A Watchful Eye"
-            },
-            {
-              "id": 116,
-              "name": "Dry Times"
             },
             {
               "id": 128,
@@ -97,6 +89,10 @@
             {
               "id": 1078,
               "name": "Retrieval for Mauren"
+            },
+            {
+              "id": 145,
+              "name": "Messenger to Darkshire"
             }
           ],
           "completedQuestIds": [
@@ -148,6 +144,7 @@
             111,
             112,
             114,
+            116,
             118,
             119,
             120,
@@ -164,6 +161,8 @@
             135,
             141,
             142,
+            143,
+            144,
             147,
             150,
             151,
@@ -256,6 +255,7 @@
             92752,
             92753,
             92819,
+            92909,
             94773,
             94774,
             94775,
@@ -761,6 +761,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 116,
+              "title": "Dry Times",
+              "area": "Redridge Mountains",
+              "briefing": "I find myself in quite a pinch here, Xuthar. The bottles are close to running dry. The latest booze shipment is long overdue. The…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 118,
               "title": "The Price of Shoes",
               "area": "Redridge Mountains",
@@ -903,6 +912,24 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 143,
+              "title": "Messenger to Westfall",
+              "area": "Redridge Mountains",
+              "briefing": "Something odd is afoot with the Stormwind Army. They should have been here in force by now. Time is a luxury we don't have,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 144,
+              "title": "Messenger to Westfall",
+              "area": "Redridge Mountains",
+              "briefing": "Magistrate Solomon's note pains me to read. But it is obvious he knows not the war which is waged in Westfall or else he…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 147,
@@ -1733,6 +1760,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 92909,
+              "title": "Harvesting the Harvesters",
+              "area": "Westfall",
+              "briefing": "Oh no... I'm in for it now! I heard about the harvesters terrorizing the fields of Westfall, so I traveled all the way from…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 94773,
               "title": "Divine Grace",
               "area": "Priest",
@@ -2363,8 +2399,13 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794787139,
+          "newlyObservedCompletedIds": [
+            116,
+            143,
+            144,
+            92909
+          ],
+          "comparedWithSnapshotAt": 1794848675,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2375,12 +2416,12 @@
           "equippedCount": 11
         },
         "reputations": {
-          "trackedCount": 5
+          "trackedCount": 4
         },
         "achievements": {
           "trackedCount": 19
         },
-        "profileCheckedAt": 1794848675
+        "profileCheckedAt": 1794884242
       }
     }
   ],

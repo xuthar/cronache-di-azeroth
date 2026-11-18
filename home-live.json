@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-18T18:10:13.986Z"
+    "checkedAt": "2026-11-18T19:09:48.863Z"
   },
   "news": [
+    {
+      "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+      "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+      "category": "Forever",
+      "publishedAt": "2026-11-18T18:03:36.000Z"
+    },
     {
       "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
       "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
       "category": "Forever",
       "publishedAt": "2026-11-18T00:04:50.000Z"
-    },
-    {
-      "title": "Blizzard Removing Gold and Applying Account Suspensions to Significant Abusers of Blackmaw Hold Farm",
-      "url": "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold",
-      "category": "Forever",
-      "publishedAt": "2026-11-17T18:39:41.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-18T18:10:13.986Z",
-  "generatedAt": "2026-11-18T18:10:13.879Z",
+  "newsUpdatedAt": "2026-11-18T19:09:48.862Z",
+  "generatedAt": "2026-11-18T19:09:48.800Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 18 Nov 2026 12:10:13 -0600",
+  "newsFeedBuiltAt": "Wed, 18 Nov 2026 13:09:41 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

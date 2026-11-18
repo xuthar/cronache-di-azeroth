@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794947602,
+  "exportedAt": 1794968839,
   "characters": [
     {
       "id": "xuthar",
@@ -17,18 +17,18 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 230,
+      "questsCompleted": 240,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794947602,
+      "checkedAt": 1794968839,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794947602,
-          "inProgressCount": 16,
-          "completedCount": 230,
+          "snapshotAt": 1794968839,
+          "inProgressCount": 11,
+          "completedCount": 240,
           "inProgress": [
             {
               "id": 387,
@@ -39,32 +39,12 @@
               "name": "The Color of Blood"
             },
             {
-              "id": 94,
-              "name": "A Watchful Eye"
-            },
-            {
-              "id": 128,
-              "name": "Blackrock Bounty"
-            },
-            {
               "id": 3765,
               "name": "The Corruption Abroad"
             },
             {
-              "id": 126,
-              "name": "Howling in the Hills"
-            },
-            {
-              "id": 95999,
-              "name": "WANTED: Incinerator Gar'im"
-            },
-            {
               "id": 2928,
               "name": "Gyrodrillmatic Excavationators"
-            },
-            {
-              "id": 169,
-              "name": "WANTED: Gath'Ilzogg"
             },
             {
               "id": 2923,
@@ -75,16 +55,16 @@
               "name": "What Comes Around..."
             },
             {
-              "id": 98387,
-              "name": "Blackrock Blockade"
-            },
-            {
-              "id": 92,
-              "name": "Redridge Goulash"
+              "id": 115,
+              "name": "Shadow Magic"
             },
             {
               "id": 97894,
               "name": "Business in Auberdine"
+            },
+            {
+              "id": 19,
+              "name": "Tharil'zun"
             },
             {
               "id": 1078,
@@ -137,6 +117,8 @@
             88,
             89,
             91,
+            92,
+            94,
             102,
             106,
             107,
@@ -153,7 +135,9 @@
             123,
             124,
             125,
+            126,
             127,
+            128,
             129,
             130,
             131,
@@ -171,13 +155,17 @@
             166,
             167,
             168,
+            169,
             176,
             178,
             180,
             214,
+            219,
             239,
             244,
             246,
+            248,
+            249,
             332,
             333,
             334,
@@ -265,6 +253,7 @@
             94779,
             95065,
             95998,
+            95999,
             96047,
             96050,
             96057,
@@ -319,6 +308,7 @@
             98286,
             98372,
             98386,
+            98387,
             98407,
             99127,
             99128,
@@ -698,6 +688,24 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 92,
+              "title": "Redridge Goulash",
+              "area": "Redridge Mountains",
+              "briefing": "Nothing would please me more than to make you some Redridge Goulash. But there's a slight problem. During the recent orc uprising I fed…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 94,
+              "title": "A Watchful Eye",
+              "area": "Redridge Mountains",
+              "briefing": "My rival, Morganth, is a vicious mage of great power who lives in the Tower of Ilgalar in Redridge. I have developed a means…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 102,
               "title": "Patrolling Westfall",
               "area": "Westfall",
@@ -842,6 +850,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 126,
+              "title": "Howling in the Hills",
+              "area": "Redridge Mountains",
+              "briefing": "Xuthar, the gnolls are still out there. I can hear their baying as they hunt in the hills above Lakeshire. And one cry is…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 127,
               "title": "Selling Fish",
               "area": "Redridge Mountains",
@@ -849,6 +866,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 128,
+              "title": "Blackrock Bounty",
+              "area": "Redridge Mountains",
+              "briefing": "The Blackrock Clan must be destroyed. The Enemy has invaded our lands. These mountains fall under the sovereign right of the King of Stormwind.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 129,
@@ -1004,6 +1030,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 169,
+              "title": "WANTED: Gath'Ilzogg",
+              "area": "Redridge Mountains",
+              "briefing": "Wanted! Gath'Ilzogg, Leader of the Blackrock attacks on Stonewatch Keep and raids against the township of Lakeshire. Gath'Ilzogg is extremely dangerous. He is reportedly…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 176,
               "title": "WANTED: \"Hogger\"",
               "area": "Elwynn Forest",
@@ -1040,6 +1075,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 219,
+              "title": "Missing In Action",
+              "area": "Redridge Mountains",
+              "briefing": "At last, friends of the Alliance! Help... please... The last thing I remember these foul Orcs overpowered our regiment. Most the men were killed.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 239,
               "title": "Westbrook Garrison Needs Help!",
               "area": "Elwynn Forest",
@@ -1065,6 +1109,24 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 248,
+              "title": "Looking Further",
+              "area": "Redridge Mountains",
+              "briefing": "I have been watching the Tower of Ilgalar, and can detect that Morganth is in conflict with the Orcs in Stonewatch Keep. I do…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 249,
+              "title": "Morganth",
+              "area": "Redridge Mountains",
+              "briefing": "After much observation, I have discovered Morganth's plans. He searches for the Scythe of Elune...and he may have found it! If he has, then…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -1850,6 +1912,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 95999,
+              "title": "WANTED: Incinerator Gar'im",
+              "area": "Redridge Mountains",
+              "briefing": "Wanted! Incinerator Gar'im, Leader of an orc incursion in Render's Valley. Purported to be working with the Blackrock of Stonewatch Keep. Beware of Incinerator…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 96047,
               "title": "Camping 101: First Aid",
               "area": "Camping",
@@ -2336,6 +2407,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 98387,
+              "title": "Blackrock Blockade",
+              "area": "Redridge Mountains",
+              "briefing": "You can't fight a war without weapons. Though the Blackrock orcs have encroached upon these lands, their brazen efforts are not without certain vulnerabilities.…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 98407,
               "title": "Show of Force",
               "area": "Redridge Mountains",
@@ -2399,8 +2479,19 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794934497,
+          "newlyObservedCompletedIds": [
+            92,
+            94,
+            126,
+            128,
+            169,
+            219,
+            248,
+            249,
+            95999,
+            98387
+          ],
+          "comparedWithSnapshotAt": 1794947602,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2408,15 +2499,15 @@
           "secondaryCount": 3
         },
         "equipment": {
-          "equippedCount": 11
+          "equippedCount": 13
         },
         "reputations": {
           "trackedCount": 4
         },
         "achievements": {
-          "trackedCount": 19
+          "trackedCount": 20
         },
-        "profileCheckedAt": 1794947602
+        "profileCheckedAt": 1794968839
       }
     }
   ],

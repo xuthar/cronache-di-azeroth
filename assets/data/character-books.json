@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-stockades-return",
+      "status": "living-novel-stockades-finale",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3433,6 +3433,48 @@
           "place": "Stormwind · The Stockade"
         },
         {
+          "id": "x-nov18-targorr-last-stand",
+          "chapter": "Chapter 143 · The Debt at the Bend",
+          "title": "The Debt at the Bend",
+          "kind": "fiction",
+          "paragraphs": [
+            "The corridor ended in a door with one hinge left. Beyond it, Targorr could be heard dragging something heavy over the floor. Carro set two arrows on the stone ledge beside his elbow, where he could find them by touch. Xuthar thought of the ring tucked away in his pouch. The first time they had come down here, Stormwind had given it to him for the work they had done. Tonight there was work enough left to make him wonder what either of them had understood about victory.",
+            "The door swung inward. Targorr came through it with a length of timber in both hands. Carro’s first arrow jarred his shoulder and turned the blow into the wall. Xuthar’s lantern went out under the shower of mortar. In the dark he heard the second arrow leave the string and Carro swear, close enough that he could have reached out and touched his beard. Xuthar spoke into the space the arrow had made. The Shadow took hold. Targorr’s next step struck the floor so hard that Xuthar felt it through his boots. There was no step after it.",
+            "Carro found the lantern and shook the grit out of it. When the wick caught, Xuthar drew the folded list from his pocket and ran a thumb over the first line. Targorr’s head would answer the charge against him. Down the passage, somebody pulled a cell door open. The scrape went on for a long time."
+          ],
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade",
+          "link": "dungeons/stockades.html#stockades-finale-2026-11-18"
+        },
+        {
+          "id": "x-nov18-the-uprising-breaks",
+          "chapter": "Chapter 144 · The Weight of the Door",
+          "title": "The Weight of the Door",
+          "kind": "fiction",
+          "paragraphs": [
+            "The Defias came as far as the light and stopped long enough for Xuthar to see how many faces there were. Behind the prisoners came the convicts and insurgents, calling to one another from adjoining passages. Carro chose a doorway with a stone jamb wide enough to stand behind. “Here,” he said. Xuthar had come to trust that word. It meant Carro had already decided what he could hold and how much room he needed to hold it.",
+            "The last rush drove the door hard against Carro’s shoulder. He braced it with his back while Xuthar drew close enough to hear him breathe. For one terrible moment the dwarf’s boots slipped on the grit. Xuthar wedged his own heel against the threshold, leaned beside him and let the Shadow go where Carro pointed. The pressure eased. They stood another three breaths before either risked looking into the passage.",
+            "They had come for ten prisoners, eight convicts and eight insurgents. When the reckoning was done and the last cell had fallen quiet, Xuthar read the numbers aloud. Carro drew the splinters out of his sleeve one by one. “Read them again,” he said. So Xuthar did, slowly enough that neither man would have to come down those stairs to count again."
+          ],
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade",
+          "link": "dungeons/stockades.html#stockades-finale-2026-11-18"
+        },
+        {
+          "id": "x-nov18-ten-red-knots",
+          "chapter": "Chapter 145 · Ten Red Knots",
+          "title": "Ten Red Knots",
+          "kind": "fiction",
+          "paragraphs": [
+            "They counted the red wool bandanas on the ledge where Carro had laid his arrows. The tenth looked black until Xuthar brought the lantern near. He wrapped the bundle in a scrap of dry cloth and pulled the knot tight. Carro took the lantern from him and started up the stairs. Halfway up he stopped to wait. In the clean air coming down from the street, Xuthar could see the dust in his friend’s hair.",
+            "At the top, Stormwind had kept on living. A cart rattled over the bridge; somebody called after its driver. Xuthar put the Seal of Wrynn back on and rested his hand on the rail. He could hear water running beneath the bridge. He stayed there a little while, enjoying how far away it sounded.",
+            "“That table you promised me,” Carro said. “The chair first,” Xuthar replied. Carro looked up, surprised he had remembered. Then he laughed, and they walked away from the Stockade together while the guard took the lantern back down the steps."
+          ],
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade",
+          "link": "dungeons/stockades.html#stockades-finale-2026-11-18"
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3600,5 +3642,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-18 · The Last Descent · Chapters 140–142"
+  "lastEditorialUpdate": "2026-11-18 · When the Iron Fell Silent · Chapters 143–145"
 }

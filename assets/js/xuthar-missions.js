@@ -7,7 +7,7 @@
   const mount=document.getElementById('quests-archive');
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
-  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261117-redridge-triumph';
+  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261118-stockade-finale';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);
@@ -167,11 +167,11 @@
     return section;
   }
   function playerCompletions(manual){
-    const items=(manual?.confirmedCompleted||[]).filter(q=>q.confirmationType==='explicit-player-report');
+    const items=(manual?.confirmedCompleted||[]).filter(q=>['explicit-player-report','completed-by-user-convention'].includes(q.confirmationType));
     if(!items.length)return null;
     const section=make('section','qm-section');section.id='player-confirmed-completions';
     text(section,'h2','','✓ Completed · Player reports');
-    for(const q of items){text(section,'h3','',q.name);text(section,'p','qm-note',q.date+' · Confirmed by Xuthar');if(q.bookChapterId)section.append(link('Read the adventure →','book.html?character=xuthar#'+q.bookChapterId));}
+    for(const q of items){text(section,'h3','',q.name);text(section,'p','qm-note',q.date+' · '+(q.confirmationType==='explicit-player-report'?'Confirmed by Xuthar':'Questie tracker · Chronicle convention'));if(q.bookChapterId)section.append(link('Read the adventure →','book.html?character=xuthar#'+q.bookChapterId));}
     return section;
   }
   function render(feedData,editorial,manual){
@@ -263,7 +263,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261117-redridge-triumph',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261118-stockade-finale',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

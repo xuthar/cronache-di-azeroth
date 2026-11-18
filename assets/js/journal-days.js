@@ -148,12 +148,12 @@ Object.assign(triumphDay,{"title":"The Night Redridge Answered","place":"Redridg
 plans.push({
   "date": "2026-11-18",
   "day": "Wednesday, 18 November",
-  "title": "The Last Descent",
+  "title": "When the Iron Fell Silent",
   "place": "Stormwind · The Stockade · with Carro Steelcave",
   "level": "Last confirmed: Level 23",
-  "summary": "Xuthar Morvayne and Carro Steelcave return to the Stockade beneath Stormwind to finish the remaining assignments and close their account with the prison.",
-  "reportUrl": "dungeons/stockades.html#stockades-return-2026-11-18",
-  "bookUrl": "book.html?character=xuthar#x-nov18-last-descent",
+  "summary": "Xuthar Morvayne and Carro Steelcave bring their last expedition into the Stockade to a triumphant close. Targorr falls, the Defias uprising is quelled, and all ten red wool bandanas are accounted for.",
+  "reportUrl": "dungeons/stockades.html#stockades-finale-2026-11-18",
+  "bookUrl": "book.html?character=xuthar#x-nov18-targorr-last-stand",
   "stops": [
     {
       "time": "Return · exact time unrecorded",
@@ -162,8 +162,18 @@ plans.push({
     },
     {
       "time": "Inside the Stockade",
-      "title": "The remaining assignments",
-      "description": "The companions go back into the dungeon to settle their unfinished business. Individual quest outcomes are pending confirmation."
+      "title": "What Comes Around…",
+      "description": "Targorr is defeated and his head is accounted for."
+    },
+    {
+      "time": "Inside the Stockade",
+      "title": "Quell the Uprising",
+      "description": "The Defias uprising is quelled. Objectives complete: 10 prisoners, 8 convicts and 8 insurgents."
+    },
+    {
+      "time": "Expedition finale",
+      "title": "The Color of Blood",
+      "description": "All 10 Red Wool Bandanas collected. The three Stockade quests read Quest Complete! in the 18 November Questie tracker, and Xuthar confirms the run is finished."
     }
   ]
 });

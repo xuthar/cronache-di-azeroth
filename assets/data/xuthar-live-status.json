@@ -2,14 +2,14 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "live",
+  "status": "finished",
   "statusConfirmed": true,
   "zone": "Stormwind · The Stockade",
   "location": "With Carro Steelcave",
   "coordinates": null,
-  "activity": "Returning to finish the remaining Stockade assignments",
+  "activity": "Stockade cleared · All three remaining assignments complete",
   "reportedOn": "2026-11-18",
   "updatedAt": "2026-11-18",
-  "note": "The companions’ return was reported on 18 November. Individual quest outcomes and any level change are pending confirmation.",
+  "note": "Expedition complete by player report and Questie tracker. Login status and subsequent location were not reported.",
   "level": 23
 }

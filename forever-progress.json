@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1794968839,
+  "exportedAt": 1795019353,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1794968839,
+      "checkedAt": 1795019353,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1794968839,
+          "snapshotAt": 1795019353,
           "inProgressCount": 11,
           "completedCount": 240,
           "inProgress": [
@@ -694,7 +694,7 @@
               "briefing": "Nothing would please me more than to make you some Redridge Goulash. But there's a slight problem. During the recent orc uprising I fed…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94,
@@ -703,7 +703,7 @@
               "briefing": "My rival, Morganth, is a vicious mage of great power who lives in the Tower of Ilgalar in Redridge. I have developed a means…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 102,
@@ -856,7 +856,7 @@
               "briefing": "Xuthar, the gnolls are still out there. I can hear their baying as they hunt in the hills above Lakeshire. And one cry is…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 127,
@@ -874,7 +874,7 @@
               "briefing": "The Blackrock Clan must be destroyed. The Enemy has invaded our lands. These mountains fall under the sovereign right of the King of Stormwind.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 129,
@@ -1036,7 +1036,7 @@
               "briefing": "Wanted! Gath'Ilzogg, Leader of the Blackrock attacks on Stonewatch Keep and raids against the township of Lakeshire. Gath'Ilzogg is extremely dangerous. He is reportedly…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 176,
@@ -1081,7 +1081,7 @@
               "briefing": "At last, friends of the Alliance! Help... please... The last thing I remember these foul Orcs overpowered our regiment. Most the men were killed.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -1117,7 +1117,7 @@
               "briefing": "I have been watching the Tower of Ilgalar, and can detect that Morganth is in conflict with the Orcs in Stonewatch Keep. I do…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 249,
@@ -1126,7 +1126,7 @@
               "briefing": "After much observation, I have discovered Morganth's plans. He searches for the Scythe of Elune...and he may have found it! If he has, then…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 332,
@@ -1918,7 +1918,7 @@
               "briefing": "Wanted! Incinerator Gar'im, Leader of an orc incursion in Render's Valley. Purported to be working with the Blackrock of Stonewatch Keep. Beware of Incinerator…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96047,
@@ -2413,7 +2413,7 @@
               "briefing": "You can't fight a war without weapons. Though the Blackrock orcs have encroached upon these lands, their brazen efforts are not without certain vulnerabilities.…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 98407,
@@ -2479,19 +2479,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            92,
-            94,
-            126,
-            128,
-            169,
-            219,
-            248,
-            249,
-            95999,
-            98387
-          ],
-          "comparedWithSnapshotAt": 1794947602,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1794968839,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2507,7 +2496,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1794968839
+        "profileCheckedAt": 1795019353
       }
     }
   ],

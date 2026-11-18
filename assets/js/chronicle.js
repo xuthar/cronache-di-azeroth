@@ -123,7 +123,7 @@
   function renderTimeline(data) {
     if (!timeline) return;
     timeline.replaceChildren();
-    const journal=(window.CHRONICLE_JOURNAL_DAYS||[]).flatMap(day=>{const entry={characterId:'xuthar',type:'note',date:day.date,title:day.title,zone:day.place,summary:day.summary,editorial:true};return day.date==='2026-11-17'?[entry,...day.stops.map(stop=>({...entry,title:stop.title+' · '+stop.time,summary:stop.description,reportUrl:day.reportUrl}))]:[entry];});
+    const journal=(window.CHRONICLE_JOURNAL_DAYS||[]).flatMap(day=>{const entry={characterId:'xuthar',type:'note',date:day.date,title:day.title,zone:day.place,summary:day.summary,editorial:true,reportUrl:day.reportUrl};return day.reportUrl?[entry,...day.stops.map(stop=>({...entry,title:stop.title+' · '+stop.time,summary:stop.description,reportUrl:day.reportUrl}))]:[entry];});
     const events=[...data.events,...journal].filter(e=>e&&cast.some(c=>c.id===e.characterId)&&['quest','level','exploration','note'].includes(e.type))
       .sort((a,b)=>(b.date?Date.parse(b.date):safeNumber(b.at)*1000)-(a.date?Date.parse(a.date):safeNumber(a.at)*1000)).slice(0,24);
     if(!events.length) {
@@ -138,7 +138,7 @@
       add(body,'span','chronicle-event-meta',(match?match.name:e.characterId)+' · '+(e.editorial?'TRAVEL JOURNAL':'SYNC · '+String(e.type).toUpperCase())+' · '+(e.date?new Intl.DateTimeFormat('en-GB',{timeZone:'UTC',day:'numeric',month:'short',year:'numeric'}).format(new Date(e.date+'T00:00:00Z')):when(e.at)));
       add(body,'p','',String(e.title||'Milestone recorded'));
       if(e.zone) add(body,'small','chronicle-muted',String(e.zone));
-      if(e.editorial){add(body,'p','chronicle-small',e.summary);const link=add(body,'a','chronicle-xuthar-link','Read this day in the Travel Journal →');link.href='journal.html#day-'+e.date;if(e.reportUrl){const report=add(body,'a','chronicle-xuthar-link','The epic account & original Full HD photographs →');report.href=e.reportUrl;}}
+      if(e.editorial){add(body,'p','chronicle-small',e.summary);const link=add(body,'a','chronicle-xuthar-link','Read this day in the Travel Journal →');link.href='journal.html#day-'+e.date;if(e.reportUrl){const report=add(body,'a','chronicle-xuthar-link','Read the full account →');report.href=e.reportUrl;}}
     }
   }
   function render(data,isFallback) {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-stockades-triumph",
+      "status": "living-novel-stockades-return",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3391,6 +3391,48 @@
           "editorialNote": "Original fan fiction. Outcomes follow supplied Questie tracker and standing player convention; combat prose, dialogue and feelings dramatized. No new level, reward choice, extra companion, new non-Redridge visit or Scythe recovery asserted."
         },
         {
+          "id": "x-nov18-last-descent",
+          "chapter": "Chapter 140 · The Last Descent",
+          "title": "The Last Descent",
+          "kind": "fiction",
+          "paragraphs": [
+            "At the foot of the Stockade stairs, Xuthar stopped to take off the Seal of Wrynn. The iron handrail had caught the ring on his way down. For an instant the little knock brought the whole first descent back to him: Carro calling from a landing he could barely see, iron doors shuddering in their frames, the dreadful relief when word finally passed that Bazil Thredd had fallen.",
+            "Above them a cart rolled over the bridge. Someone called to the driver to mind the wheel. Yesterday in Redridge it had seemed that bringing Keeshan back into the open air ought to be the last hard thing either of them would do for a while. And here was Carro, checking the bowstring with his thumb, waiting for Xuthar to finish fumbling with his ring.",
+            "“You can leave it with the guard,” Carro said. “Though I’d sooner trust the prisoners.” Xuthar slipped it into the inner seam of his pouch and drew out the folded list of the work still owed below. The guard, who had heard every word, held out a lantern. Carro thanked him with great courtesy."
+          ],
+          "link": "dungeons/stockades.html#stockades-return-2026-11-18",
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade"
+        },
+        {
+          "id": "x-nov18-where-torchlight-ended",
+          "chapter": "Chapter 141 · Where the Torchlight Ended",
+          "title": "Where the Torchlight Ended",
+          "kind": "fiction",
+          "paragraphs": [
+            "Water had found a crack in the ceiling. It fell into a dent in the stone, drop after drop, with a precision Xuthar could almost have used to measure his breathing. At the first bend Carro lowered the lantern until the flame was just above the floor. The light ran under the cell doors and came back in thin yellow lines.",
+            "Something struck the bars farther down. Xuthar felt the Shadow rise before he had called for it. His hand went cold. He could have let it spread and found out, in the silence that followed, whether the sound had come from someone frightened or someone waiting for them. Then Carro put the lantern in his hand. Holding it steady took more effort than he cared to admit.",
+            "“I remember this turn,” said Carro. “You went around it before I was ready.” Xuthar remembered that too. He remembered the dwarf’s hand catching his sleeve and dragging him back into reach. This time he waited for the small creak of the bowstring. When they rounded the corner, their shoulders brushed."
+          ],
+          "link": "dungeons/stockades.html#stockades-return-2026-11-18",
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade"
+        },
+        {
+          "id": "x-nov18-the-line-left-open",
+          "chapter": "Chapter 142 · The Line Left Open",
+          "title": "The Line Left Open",
+          "kind": "fiction",
+          "paragraphs": [
+            "At the next junction Xuthar flattened the list against the wall. The damp had already blurred the ends of two lines. He went over the words aloud while Carro held the light. The old victory had earned them a ring and a place in Stormwind’s talk for a night or two. This piece of paper had waited in his pocket through all of it.",
+            "“When we’re done,” Carro said, “I want a table where the ceiling is high enough for you to stand up straight.” Xuthar looked down at him. “And a chair,” the dwarf added, “where my feet touch the floor. There’s no justice in the furniture of this city.” A laugh escaped Xuthar and went on ahead of them through the bars.",
+            "Somewhere above, the wheels of another cart crossed the bridge. By the time the sound reached them it was little more than a tremor through the stone. Xuthar folded the paper along its old crease and pushed it deep into his pocket. Then he raised the lantern. There was one more stretch of corridor before the light failed, and he meant to see what lay beyond it."
+          ],
+          "link": "dungeons/stockades.html#stockades-return-2026-11-18",
+          "sessionDate": "2026-11-18",
+          "place": "Stormwind · The Stockade"
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3558,5 +3600,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-17 · Redridge victory with Carro · Chapters 130–139"
+  "lastEditorialUpdate": "2026-11-18 · The Last Descent · Chapters 140–142"
 }

@@ -243,9 +243,9 @@
       }
     ]
   },
-  "characterLevel": 23,
-  "characterLevelSource": "Explicit player report, 16 November 2026",
-  "characterLevelRecordedAt": "2026-11-16",
+  "characterLevel": 24,
+  "characterLevelSource": "Explicit player report, 18 November 2026",
+  "characterLevelRecordedAt": "2026-11-18",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -1712,7 +1712,7 @@
       ]
     }
   ],
-  "previousConfirmedLevel": 22,
+  "previousConfirmedLevel": 23,
   "characterLevelConfirmation": "player-confirmed-official-snapshot-not-updated",
   "levelMilestonesReported": [
     {
@@ -1793,6 +1793,11 @@
     {
       "level": 23,
       "date": "2026-11-16",
+      "source": "Explicit player report"
+    },
+    {
+      "level": 24,
+      "date": "2026-11-18",
       "source": "Explicit player report"
     }
   ],
@@ -3262,7 +3267,7 @@
   "currentJourney": {
     "chapter": "When the Iron Fell Silent",
     "stage": "Stockade finale · victorious with Carro Steelcave",
-    "status": "Expedition complete · last confirmed level 23"
+    "status": "Expedition complete · last confirmed level 24"
   },
   "currentEquipmentReports": [
     {
@@ -6182,8 +6187,8 @@
   "latestQuestTrackerSnapshotId": "2026-11-18-stockade-finale-questie",
   "latestQuestTrackerLocation": "Stormwind · The Stockade",
   "lastLevelMilestone": {
-    "level": 23,
-    "date": "2026-11-16",
+    "level": 24,
+    "date": "2026-11-18",
     "source": "Explicit player report"
   },
   "plannedItinerary": [

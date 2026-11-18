@@ -150,8 +150,8 @@ plans.push({
   "day": "Wednesday, 18 November",
   "title": "When the Iron Fell Silent",
   "place": "Stormwind · The Stockade · with Carro Steelcave",
-  "level": "Last confirmed: Level 23",
-  "summary": "Xuthar Morvayne and Carro Steelcave bring their last expedition into the Stockade to a triumphant close. Targorr falls, the Defias uprising is quelled, and all ten red wool bandanas are accounted for.",
+  "level": "Level 24",
+  "summary": "Xuthar Morvayne and Carro Steelcave bring their last expedition into the Stockade to a triumphant close. Targorr falls, the Defias uprising is quelled, and all ten red wool bandanas are accounted for. Xuthar confirms he has reached level 24.",
   "reportUrl": "dungeons/stockades.html#stockades-finale-2026-11-18",
   "bookUrl": "book.html?character=xuthar#x-nov18-targorr-last-stand",
   "stops": [

@@ -177,5 +177,13 @@ plans.push({
     }
   ]
 });
+const hearthDay=plans.find(day=>day.date==='2026-11-18');
+if(hearthDay){
+  hearthDay.title='When the Iron Fell Silent · The Hearth in Lakeshire';
+  hearthDay.place='Stormwind · The Stockade → Lakeshire Inn · Redridge Mountains';
+  hearthDay.summary+=' Later that evening, the level-24 priest reaches the inn at Lakeshire and rests beside the fireplace, warming his weary bones before the adventures of the coming days. No further quest completion is claimed.';
+  hearthDay.bookUrl='book.html?character=xuthar#x-nov18-lakeshire-hearth';
+  hearthDay.stops.push({time:'Later that evening · precise hour unreported',title:'The Hearth at the End of the Day · Lakeshire Inn',description:'After his final Stockade triumph with Carro, Xuthar stops at the Lakeshire inn. Beside the fireplace, he rests his aching bones and gathers his strength for the adventures awaiting him in the days ahead. Level 24; resting location reported by Xuthar, no coordinates or log-off time reported. Read The Last Witness, Chapters 146–147.'});
+}
 return plans;
 })();

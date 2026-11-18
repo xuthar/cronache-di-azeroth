@@ -3475,6 +3475,37 @@
           "link": "dungeons/stockades.html#stockades-finale-2026-11-18"
         },
         {
+          "id": "x-nov18-road-to-lakeshire",
+          "chapter": "Chapter 146 · The Road that Asked for Nothing",
+          "title": "The Road that Asked for Nothing",
+          "kind": "fiction",
+          "sessionDate": "2026-11-18",
+          "place": "The road from Stormwind to Lakeshire",
+          "link": "journal.html#day-2026-11-18",
+          "paragraphs": [
+            "The last door of the Stockade had closed behind him hours ago. Still, when Xuthar walked, he heard the echo of iron on stone. There had been a time when he would have mistaken that sound for the whole meaning of courage. Tonight it was only the sound of a place he had finally been able to leave.",
+            "He remembered Carro beneath the torchlight: the dwarf braced against the passage, his bow raised, refusing to give an inch. Targorr had fallen; the last prisoners had been counted; ten red knots of wool had been gathered from the darkness. Their victory belonged to both of them. Yet what Xuthar carried out of Stormwind was not another trophy. It was the certainty that one more debt had been paid, and that tomorrow need not begin inside a prison.",
+            "Eastward, the familiar road returned him to the red hills. He did not hurry. The great deeds of the day could wait for the storytellers. In his shoulders and his aching feet, he felt every step of the miles already travelled, every night when sleep had been traded for a promise kept.",
+            "At last the lights of Lakeshire lay before him, warm against the dark. For once he did not look toward the mountains or count the roads that remained. He looked for a door that would close against the night, and a fire that asked nothing of him."
+          ]
+        },
+        {
+          "id": "x-nov18-lakeshire-hearth",
+          "chapter": "Chapter 147 · The Hearth at the End of the Day",
+          "title": "The Hearth at the End of the Day",
+          "kind": "fiction",
+          "sessionDate": "2026-11-18",
+          "place": "Lakeshire Inn · Redridge Mountains",
+          "link": "journal.html#day-2026-11-18",
+          "paragraphs": [
+            "The inn at Lakeshire welcomed him without ceremony. Wood shifted in the hearth, sending a small shower of sparks up the chimney. Xuthar found a place close to the fireplace and lowered himself into the chair with the careful gravity of a man whose bones had finally decided to speak for themselves.",
+            "He stretched his tired hands toward the flames. Heat found the stiff places beneath his cloak and began, slowly, to loosen them. His boots were dusty, his shoulders sore, and somewhere in the folds of his travel bag lay the notes of battles that would become stories one day. But not tonight. Tonight even the Shadow seemed willing to sit quietly beside him.",
+            "Beyond the windows waited Lake Everstill, the old roads of Redridge, and the countless unfinished stories of Azeroth. In a few days there would be new paths to follow, strange voices asking for help, perhaps danger enough to make him miss this chair. He knew it, and he welcomed it. A life worth chronicling needed courage—but it also needed the wisdom to rest.",
+            "The fire settled into a deep amber glow. Xuthar thought of Carro's laughter, of the iron gates now behind them, and of how much farther two friends had travelled than either had expected. He offered no speech to the room and made no grand vow. He simply warmed his hands and let the day's weight fall away.",
+            "Tomorrow was unwritten. The next adventure would come when it came. For this one night, Xuthar Morvayne, twenty-four seasons of strength in his present journey, was not a champion of dungeons or a keeper of victories. He was a weary traveller beside a hearth in Lakeshire, grateful to have reached the quiet."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3642,5 +3673,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-18 · When the Iron Fell Silent · Chapters 143–145"
+  "lastEditorialUpdate": "2026-11-18 · The Hearth at the End of the Day · Chapters 146–147"
 }

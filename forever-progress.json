@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795053202,
+  "exportedAt": 1795106197,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795053202,
+      "checkedAt": 1795106197,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795053202,
+          "snapshotAt": 1795106197,
           "inProgressCount": 9,
           "completedCount": 243,
           "inProgress": [
@@ -1229,7 +1229,7 @@
               "briefing": "Targorr the Dread served under Gath'Ilzogg as supreme Executioner. His methods were ruthless, even by filthy orc standards. Men who fought bravely to defend…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 387,
@@ -1238,7 +1238,7 @@
               "briefing": "The uprising must be quelled! I need your assistance. If word gets out that the prison is overrun I will lose my job! This…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 388,
@@ -1247,7 +1247,7 @@
               "briefing": "Bitterness flows through my veins like a cold river. My grandson, Mac, was such a good boy. A mere 14 years old. When the…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 389,
@@ -2501,12 +2501,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            386,
-            387,
-            388
-          ],
-          "comparedWithSnapshotAt": 1795019353,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1795053202,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2522,7 +2518,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795053202
+        "profileCheckedAt": 1795106197
       }
     }
   ],

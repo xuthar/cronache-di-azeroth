@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:15:29.567Z",
+  "updatedAt": "2026-11-19T19:46:32.888Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -571,6 +571,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=667"
+    },
+    {
+      "id": "wow-event-702-1810627200000@wowlazymacros.com",
+      "title": "PvP Brawl: Deep Six",
+      "startAt": "2027-05-18T08:00:00.000Z",
+      "endAt": "2027-05-25T08:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=702"
     }
   ]
 }

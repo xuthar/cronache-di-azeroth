@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-stockades-finale",
+      "status": "living-novel-rest-and-maraudon",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3506,6 +3506,98 @@
           ]
         },
         {
+          "id": "x-nov19-old-wounds",
+          "chapter": "Chapter 148 · The Weight of Years",
+          "title": "The Morning His Bones Remembered",
+          "kind": "fiction",
+          "paragraphs": [
+            "The first sound Xuthar heard was not the song of a bird or the clang of a smith's hammer. It was the small complaint his own body made when he tried to rise. The bed at Lakeshire had not changed in the night. The priest had. Or perhaps, he thought, he had finally stopped long enough to hear what was already there.",
+            "His shoulders remembered the weight of dungeon doors. His knees remembered the broken steps beneath Stormwind. Old hurts, patient as creditors, had come to collect what the great victories of the previous days had persuaded him to forget. He sat with his feet against the cold floor, one hand braced upon the mattress, and waited for the aching to settle.",
+            "Beyond the shutters the waters of Lake Everstill caught a dull northern light. Somewhere below, the innkeeper stirred the hearth. There would be no road today. No errand to make useful, no gnoll to outwit, no prison stair to descend, no promise that required a blade. He would remain where he was, with his weary limbs, his thoughts, and a stack of pages beside the fire.",
+            "At first the decision felt like surrender. He knew the language of duty too well: one more message, one more frightened family, one more name missing from the ledger. The world was always prepared to reward a man who ignored the limits of his own strength. It was less inclined to notice when he survived by respecting them.",
+            "Then he remembered the faces of those he had helped, not as a procession demanding another sacrifice but as people who might wish him a full, ordinary life. Even Carro, who understood the strange dignity of stubbornness better than most, would have told him not to turn himself into an old corpse merely to win an argument with time.",
+            "Xuthar drew the blanket about his shoulders and remained at the window until the chill became bearable. A hero, he decided, was sometimes only a man who could admit he was tired and still believe another dawn would be worth seeing.",
+            "He had won no battle that morning. Yet the first honest thing he did was lay his travelling staff aside."
+          ]
+        },
+        {
+          "id": "x-nov19-well-of-memory",
+          "chapter": "Chapter 149 · Ink Older than Kingdoms",
+          "title": "The Well That Remembered Too Much",
+          "kind": "fiction",
+          "paragraphs": [
+            "On a shelf near the common room lay copies and borrowed leaves gathered along Xuthar's travels: The Kaldorei and the Well of Eternity, and, tucked behind it, The War of the Ancients. Their bindings differed, but the dust on the edges made them seem kin. He brought them to the table beside the hearth and opened the first with the reverence he had once reserved for sacred texts.",
+            "He read of the ancient kaldorei, of a civilization gathering around a source of arcane wonder until wonder hardened into appetite. The Well of Eternity had promised an empire a power vast enough to mistake itself for permanence. Xuthar traced a faded line with his finger and thought how often destruction began not with hatred, but with the refusal to say enough.",
+            "The second account opened upon the War of the Ancients: the Burning Legion, the defenders of Kalimdor, the ruin of a world that could never again be fitted into its old shape. In the crackle of Lakeshire's hearth he heard, or imagined he heard, the far-off tearing of continents.",
+            "The priest had spent days fighting men who believed a prison, a mine, or a stolen road might give them dominion. Before him stood histories of powers who had desired the world itself. Their scale was different. Their blindness was painfully familiar.",
+            "He thought of the Defias in Westfall, of those who had built a hidden kingdom under the earth and of the men who had paid for that ambition with their lives. He did not pretend their crimes matched the Legion's. But the old pages whispered a common question: at what point did a dream become an excuse to stop seeing other people?",
+            "A log collapsed in the fire. Sparks ascended like tiny stars. A continent had been shattered and, in that small room, a cup had been left too close to the edge of a table. Xuthar saved the cup before it fell. The gesture made him smile, almost ashamed of the simplicity of it.",
+            "History called its greatest catastrophes the Sundering. Nobody had ever named all the quieter sunderings: a family scattered, a friendship neglected, a child waiting for a person who never came home. Those were the histories he had sworn not to lose.",
+            "He closed The War of the Ancients and wrote in his ledger: 'Not every wound is visible on a map.'"
+          ]
+        },
+        {
+          "id": "x-nov19-guardians",
+          "chapter": "Chapter 150 · Guardians and Their Shadows",
+          "title": "The Vigil Nobody Could Carry Alone",
+          "kind": "fiction",
+          "paragraphs": [
+            "The next volumes bore titles a priest could not read lightly: The Guardians of Tirisfal and The Last Guardian. The first told of a secret order formed against terrible powers, of mortal hands entrusted with strength no single mortal should possess without fear. The second carried the story of Aegwynn, of Medivh, and of the darkness that had waited inside a legacy intended to protect the world.",
+            "Xuthar had always been suspicious of the word chosen. It could grant courage; it could also persuade the chosen that consequences belonged to somebody else. The old guardians had stood between Azeroth and devastation. Still, the shadow of Sargeras had found its way into the story, as shadows always sought the cracks inside certainty.",
+            "A wind passed the window, and he watched its reflection tremble in the glass. He was a priest who knew the Shadow without wanting to be ruled by it. He could ask it questions. He could admit what it showed him. He had learned, however, that the voice offering the simplest answer was often the one least interested in the people who would suffer for it.",
+            "He remembered the first uncertain days in Northshire. A novice in rough cloth had offered help where he could, without ever mastering the vastness of the world. Somewhere between then and his twenty-fourth level, strangers had begun calling his name as though it were a promise. He wished they would remember he was only human.",
+            "The Guardians' tale had unsettled him more than a chronicle of war. It spoke not merely of power, but of the lonely habit of carrying it alone. Had Medivh been surrounded by more listening hearts, Xuthar wondered, might someone have heard the trouble before it grew beyond speech?",
+            "He thought of Carro and of the strange, practical mercy of an old companion: a gruff word at the right moment, a place kept beside the fire, the insistence that a difficult road was better walked together. A guardian might have the strength to move a mountain. A friend knew when to tell a man to sit down.",
+            "Outside, the day went on without asking permission. Inside, Xuthar turned the last page and allowed himself to be ordinary."
+          ]
+        },
+        {
+          "id": "x-nov19-world-tree",
+          "chapter": "Chapter 151 · A Dream Beneath the Roots",
+          "title": "What the World Tree Could Teach a Tired Man",
+          "kind": "fiction",
+          "paragraphs": [
+            "Near noon he opened The World Tree and the Emerald Dream. The account carried him toward Nordrassil, toward the night elves' long vigil, toward the Dream's green vastness and the price of trying to preserve a world from harm. To a weary traveller, the promise of a forest untouched by footsteps was almost unbearably sweet.",
+            "He imagined branches broad enough to shelter cities, roots drawing memory from the ancient earth, and distant leaves that had watched kingdoms rise and vanish. The hearth before him became for an instant a green cathedral, its firelight filtered through a thousand living boughs.",
+            "But he knew the world was not healed merely by refusing to look at its wounds. To dream was a gift; to hide forever inside a dream could become another form of forgetting. The trees themselves endured seasons of bareness. Perhaps rest was not the opposite of growth, but one of the conditions that made growth possible.",
+            "His old aches returned when he shifted his chair. This time he did not resent them. The body, he considered, possessed a lore of its own: every bruise a footnote, every scar a passage someone had survived. None of those passages obliged him to write a new one today.",
+            "He took up his ledger, but not to list victories. He wrote of the sound of rain on an inn roof, of a bowl of warm food, of a friend whose laughter could turn the worst march into a story worth keeping.",
+            "Then he left the page unfinished. Not every silence needed to become a sentence."
+          ]
+        },
+        {
+          "id": "x-nov19-maraudon",
+          "chapter": "Chapter 152 · The Blade Beneath the Sleeping Earth",
+          "title": "Carro and the Darkness that Would Not Yield",
+          "kind": "fiction",
+          "paragraphs": [
+            "In the afternoon Xuthar's thoughts crossed the sea without moving his feet. Beyond the Eastern Kingdoms lay the torn reaches of Desolace, and beneath that harsh country slept the labyrinth of Maraudon. Carro Steelcave had been spending these days within its depths, pursuing a prize whose name sounded less like treasure than a warning: the Blade of Eternal Darkness.",
+            "Maraudon was no ordinary hole in the ground. Old tales named it the resting place of Zaetar, son of Cenarius, and the domain of Princess Theradras, a mighty earth elemental. The union of forest and stone had given rise to the centaur, and sorrow had been sealed into the caverns along with the dead. In such a place, even the waterfalls seemed to speak in the language of things buried too long.",
+            "Xuthar pictured the purple passages, the fungal glow along wet rock, the roots pushing through the ceilings as though the world above were trying to reclaim its forgotten chambers. He did not claim to see what Carro saw. Distance granted him imagination, not knowledge. Yet he knew the rhythm of his companion's courage: another careful step, another impossible corner, the stubborn will to return.",
+            "The blade itself was a paradox made of metal. A coveted epic dagger associated with Princess Theradras, it was said to awaken shadow energy when damaging magic struck, harming a foe while returning mana to its wielder. The darkness took; the darkness gave back. Xuthar knew better than to call that exchange mercy.",
+            "Some treasures were rare because they were hidden. Others became legendary because chance could withhold them through countless attempts. This blade belonged to the second kind as well. Carro might cross Maraudon's haunted halls and leave with nothing more tangible than the memory of having dared. Xuthar would not write an unearned triumph into his friend's story.",
+            "He remembered Carro beside him in the Deadmines, where their path had led toward VanCleef; remembered him amid the red hills, where unfinished feuds were brought to their end; remembered the prison doors beneath Stormwind, finally closed. In each battle there had been a moment when one man trusted the other to remain.",
+            "Perhaps, even now, Carro stood before a trembling cavern pool with the sound of falling water drowning out the world. Perhaps the priest's old friend rested against a stone wall, weary but unyielding, contemplating another attempt. Xuthar allowed both images to exist, then turned away from the window. His friendship did not need to pretend to witness a fight it had not seen.",
+            "If the dagger ever found its way into Carro's hand, the priest would celebrate. If it did not, he would still set a place at the table. Steel was only steel. A companion who came back through darkness was worth more than anything it might surrender."
+          ]
+        },
+        {
+          "id": "x-nov19-no-swords",
+          "chapter": "Chapter 153 · A Day Without Swords",
+          "title": "The Candle Kept for Another Road",
+          "kind": "fiction",
+          "paragraphs": [
+            "Evening arrived quietly in Lakeshire. The light went gold upon the floorboards, and the common room filled with the modest comforts of people who had survived an ordinary day. Somewhere a spoon struck the side of a bowl. Someone asked for more wood. Nobody called for a priest.",
+            "Xuthar arranged the books into a careful stack. The Kaldorei and the Well of Eternity, The War of the Ancients, The Guardians of Tirisfal, The Last Guardian, and The World Tree and the Emerald Dream: empires, demons, guardians, roots and ruin, all contained within pages that had not required him to draw a weapon.",
+            "He considered what the day would look like to somebody who counted only achievements. No level gained. No new quest completed. No dungeon conquered. No dark blade claimed by his own hand. A blank space, perhaps, between more worthy chapters.",
+            "But the longer he watched the fire, the more deeply he understood the lie in that accounting. A man who had lived through too much needed to remember what he was living for. The stillness had not erased his past; it had returned his past to a human scale.",
+            "He took a fresh page and wrote Carro's name. Beside it he drew no symbol of victory, only a small lantern. Wherever the dwarf wandered under Desolace, the light meant there was a place waiting beyond the dark. The next line was for all the names he had yet to meet.",
+            "Before retiring, he left his boots beside the bed and his staff within reach, though he hoped not to need it. His old injuries had not vanished. Neither had his hope. Both could be carried into tomorrow.",
+            "At the last moment, he snuffed out the candle and whispered to the quiet room, 'Not every day is given to us for fighting.'",
+            "And the chronicle, for once, recorded a victory measured not in enemies defeated but in one exhausted man who had finally allowed himself to rest."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3673,5 +3765,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-18 · The Hearth at the End of the Day · Chapters 146–147"
+  "lastEditorialUpdate": "2026-11-19 · A Day Without Swords · Chapters 148–153 · Carro’s Maraudon quest remains open"
 }

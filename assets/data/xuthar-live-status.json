@@ -5,11 +5,11 @@
   "status": "resting",
   "statusConfirmed": true,
   "zone": "Redridge Mountains · Lakeshire",
-  "location": "Lakeshire Inn · Beside the fireplace",
+  "location": "Lakeshire Inn · Resting indoors",
   "coordinates": null,
-  "activity": "Resting by the hearth, recovering after the Stockade triumph · Level 24",
-  "reportedOn": "2026-11-18",
-  "updatedAt": "2026-11-18",
-  "note": "Lakeshire inn and rest reported directly by Xuthar. No coordinates, logout state or precise time claimed.",
+  "activity": "Day of rest · reading Azeroth lore · thinking of Carro in Maraudon · Level 24",
+  "reportedOn": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "note": "Player confirmed no adventure on 19 November, fatigue and longstanding aches. Last known location Lakeshire Inn from 18 November; no movement, quest or new exact location independently established. Carro's Blade of Eternal Darkness pursuit is ongoing, not a confirmed drop.",
   "level": 24
 }

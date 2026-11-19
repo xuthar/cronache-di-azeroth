@@ -185,5 +185,42 @@ if(hearthDay){
   hearthDay.bookUrl='book.html?character=xuthar#x-nov18-lakeshire-hearth';
   hearthDay.stops.push({time:'Later that evening · precise hour unreported',title:'The Hearth at the End of the Day · Lakeshire Inn',description:'After his final Stockade triumph with Carro, Xuthar stops at the Lakeshire inn. Beside the fireplace, he rests his aching bones and gathers his strength for the adventures awaiting him in the days ahead. Level 24; resting location reported by Xuthar, no coordinates or log-off time reported. Read The Last Witness, Chapters 146–147.'});
 }
+plans.push({
+  "date": "2026-11-19",
+  "day": "Thursday, 19 November",
+  "title": "A Day Without Swords · The Books and the Blade",
+  "place": "Lakeshire Inn · Redridge Mountains (resting all day)",
+  "level": "Level 24 · unchanged",
+  "summary": "A full day of rest at Lakeshire. Long-standing aches and exhaustion keep Xuthar from adventure. He reads five in-game histories of Azeroth and reflects on the cost of power, the meaning of quiet, and his friend Carro Steelcave, who is spending these days in Maraudon searching for the rare epic Blade of Eternal Darkness. No new battles, travel, quests, loot, or level-up are claimed for Xuthar; Carro’s dagger is not confirmed acquired.",
+  "reportUrl": "book.html?character=xuthar#x-nov19-old-wounds",
+  "bookUrl": "book.html?character=xuthar#x-nov19-old-wounds",
+  "stops": [
+    {
+      "time": "Morning · no exact time recorded",
+      "title": "The old wounds speak",
+      "description": "Still at Lakeshire Inn, Xuthar wakes tired and sore, choosing a day of complete rest instead of travel or combat."
+    },
+    {
+      "time": "During the day",
+      "title": "The Well and the Sundering",
+      "description": "He reads The Kaldorei and the Well of Eternity and The War of the Ancients, considering the costs of ambition and the names history overlooks."
+    },
+    {
+      "time": "During the day",
+      "title": "Guardians, shadows and the Emerald Dream",
+      "description": "The Guardians of Tirisfal, The Last Guardian and The World Tree and the Emerald Dream bring thoughts of responsibility, doubt and healing."
+    },
+    {
+      "time": "Afternoon thoughts · Carro elsewhere",
+      "title": "Maraudon · the unclaimed blade",
+      "description": "Carro Steelcave is spending these days in Maraudon seeking the rare epic Blade of Eternal Darkness, associated with Princess Theradras. The search continues; no drop, boss kill or acquisition is claimed."
+    },
+    {
+      "time": "Evening · hour not reported",
+      "title": "A candle for another road",
+      "description": "Xuthar stays by the Lakeshire hearth, writing of friendship and rest before retiring. Level 24; no adventuring or quest completion today."
+    }
+  ]
+});
 return plans;
 })();

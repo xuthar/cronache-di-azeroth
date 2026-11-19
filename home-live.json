@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-19T09:27:34.928Z"
+    "checkedAt": "2026-11-19T18:37:12.567Z"
   },
   "news": [
     {
-      "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+      "title": "Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser",
+      "url": "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser",
       "category": "Forever",
-      "publishedAt": "2026-11-19T01:25:22.000Z"
+      "publishedAt": "2026-11-19T18:16:54.000Z"
     },
     {
-      "title": "All Mythic Difficulty Achievements Removed from Talebound on Patch 12.1.7 PTR",
-      "url": "https://www.wowhead.com/news=383920/all-mythic-difficulty-achievements-removed-from-talebound-on-patch-12-1-7-ptr",
-      "category": "PTR",
-      "publishedAt": "2026-11-19T00:09:30.000Z"
+      "title": "Blizzard Previews Talebound Rewards in Patch 12.1.7",
+      "url": "https://www.wowhead.com/news=383930/blizzard-previews-talebound-rewards-in-patch-12-1-7",
+      "category": "Live",
+      "publishedAt": "2026-11-19T18:03:39.000Z"
     },
     {
-      "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
+      "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
       "category": "Forever",
-      "publishedAt": "2026-11-18T19:52:08.000Z"
+      "publishedAt": "2026-11-19T17:50:34.000Z"
     },
     {
-      "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
-      "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+      "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
+      "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
       "category": "Forever",
-      "publishedAt": "2026-11-18T18:03:36.000Z"
+      "publishedAt": "2026-11-19T17:24:03.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-19T09:27:34.928Z",
-  "generatedAt": "2026-11-19T09:27:34.841Z",
+  "newsUpdatedAt": "2026-11-19T18:37:12.566Z",
+  "generatedAt": "2026-11-19T18:37:12.441Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 19 Nov 2026 03:27:34 -0600",
+  "newsFeedBuiltAt": "Thu, 19 Nov 2026 12:36:48 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

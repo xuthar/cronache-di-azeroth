@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-18T22:14:10.739Z"
+    "checkedAt": "2026-11-19T01:27:05.328Z"
   },
   "news": [
+    {
+      "title": "All Mythic Difficulty Achievements Removed from Talebound on Patch 12.1.7 PTR",
+      "url": "https://www.wowhead.com/news=383920/all-mythic-difficulty-achievements-removed-from-talebound-on-patch-12-1-7-ptr",
+      "category": "PTR",
+      "publishedAt": "2026-11-19T00:09:30.000Z"
+    },
     {
       "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
       "url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-18T16:32:27.000Z"
-    },
-    {
-      "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
-      "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-18T03:43:47.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-18T22:14:10.739Z",
-  "generatedAt": "2026-11-18T22:14:10.729Z",
+  "newsUpdatedAt": "2026-11-19T01:27:05.328Z",
+  "generatedAt": "2026-11-19T01:27:05.323Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 18 Nov 2026 16:13:40 -0600",
+  "newsFeedBuiltAt": "Wed, 18 Nov 2026 19:27:04 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

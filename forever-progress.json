@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795019353,
+  "exportedAt": 1795053202,
   "characters": [
     {
       "id": "xuthar",
@@ -12,31 +12,43 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 23,
+      "level": 24,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 240,
+      "questsCompleted": 243,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795019353,
+      "checkedAt": 1795053202,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795019353,
-          "inProgressCount": 11,
-          "completedCount": 240,
+          "snapshotAt": 1795053202,
+          "inProgressCount": 9,
+          "completedCount": 243,
           "inProgress": [
             {
-              "id": 387,
-              "name": "Quell the Uprising"
+              "id": 145,
+              "name": "Messenger to Darkshire"
             },
             {
-              "id": 388,
-              "name": "The Color of Blood"
+              "id": 19,
+              "name": "Tharil'zun"
+            },
+            {
+              "id": 115,
+              "name": "Shadow Magic"
+            },
+            {
+              "id": 95772,
+              "name": "Songblade Search"
+            },
+            {
+              "id": 1078,
+              "name": "Retrieval for Mauren"
             },
             {
               "id": 3765,
@@ -51,28 +63,8 @@
               "name": "Tinkmaster Overspark"
             },
             {
-              "id": 386,
-              "name": "What Comes Around..."
-            },
-            {
-              "id": 115,
-              "name": "Shadow Magic"
-            },
-            {
               "id": 97894,
               "name": "Business in Auberdine"
-            },
-            {
-              "id": 19,
-              "name": "Tharil'zun"
-            },
-            {
-              "id": 1078,
-              "name": "Retrieval for Mauren"
-            },
-            {
-              "id": 145,
-              "name": "Messenger to Darkshire"
             }
           ],
           "completedQuestIds": [
@@ -177,6 +169,9 @@
             350,
             353,
             373,
+            386,
+            387,
+            388,
             389,
             391,
             392,
@@ -1226,6 +1221,33 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 386,
+              "title": "What Comes Around...",
+              "area": "The Stockade",
+              "briefing": "Targorr the Dread served under Gath'Ilzogg as supreme Executioner. His methods were ruthless, even by filthy orc standards. Men who fought bravely to defend…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 387,
+              "title": "Quell the Uprising",
+              "area": "The Stockade",
+              "briefing": "The uprising must be quelled! I need your assistance. If word gets out that the prison is overrun I will lose my job! This…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 388,
+              "title": "The Color of Blood",
+              "area": "The Stockade",
+              "briefing": "Bitterness flows through my veins like a cold river. My grandson, Mac, was such a good boy. A mere 14 years old. When the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 389,
@@ -2479,8 +2501,12 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1794968839,
+          "newlyObservedCompletedIds": [
+            386,
+            387,
+            388
+          ],
+          "comparedWithSnapshotAt": 1795019353,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2496,7 +2522,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795019353
+        "profileCheckedAt": 1795053202
       }
     }
   ],

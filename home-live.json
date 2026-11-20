@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-20T08:26:10.348Z"
+    "checkedAt": "2026-11-20T17:13:36.368Z"
   },
   "news": [
     {
-      "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T16:00:00.000Z"
+    },
+    {
+      "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T15:00:00.000Z"
+    },
+    {
+      "title": "New Winter Veil Music on Patch 12.1.7 PTR References \"Winter Veil Mini-Game\"",
+      "url": "https://www.wowhead.com/news=383922/new-winter-veil-music-on-patch-12-1-7-ptr-references-winter-veil-mini-game",
+      "category": "PTR",
+      "publishedAt": "2026-11-20T14:00:00.000Z"
+    },
+    {
+      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
       "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
       "category": "Forever",
       "publishedAt": "2026-11-20T04:35:14.000Z"
-    },
-    {
-      "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
-      "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T04:03:00.000Z"
-    },
-    {
-      "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T02:09:09.000Z"
-    },
-    {
-      "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T00:42:07.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-20T08:26:10.347Z",
-  "generatedAt": "2026-11-20T08:26:10.340Z",
+  "newsUpdatedAt": "2026-11-20T17:13:36.367Z",
+  "generatedAt": "2026-11-20T17:13:36.359Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 20 Nov 2026 02:25:58 -0600",
+  "newsFeedBuiltAt": "Fri, 20 Nov 2026 11:13:13 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

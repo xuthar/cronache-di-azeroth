@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-20T17:13:36.368Z"
+    "checkedAt": "2026-11-20T19:21:37.113Z"
   },
   "news": [
     {
-      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
-      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+      "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
       "category": "Forever",
-      "publishedAt": "2026-11-20T16:00:00.000Z"
+      "publishedAt": "2026-11-20T19:00:55.000Z"
     },
     {
-      "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T15:00:00.000Z"
-    },
-    {
-      "title": "New Winter Veil Music on Patch 12.1.7 PTR References \"Winter Veil Mini-Game\"",
-      "url": "https://www.wowhead.com/news=383922/new-winter-veil-music-on-patch-12-1-7-ptr-references-winter-veil-mini-game",
-      "category": "PTR",
-      "publishedAt": "2026-11-20T14:00:00.000Z"
+      "title": "WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly",
+      "url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly",
+      "category": "WoW",
+      "publishedAt": "2026-11-20T18:02:14.000Z"
     },
     {
       "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
       "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
       "category": "Forever",
-      "publishedAt": "2026-11-20T04:35:14.000Z"
+      "publishedAt": "2026-11-20T17:00:14.000Z"
+    },
+    {
+      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-20T17:13:36.367Z",
-  "generatedAt": "2026-11-20T17:13:36.359Z",
+  "newsUpdatedAt": "2026-11-20T19:21:37.112Z",
+  "generatedAt": "2026-11-20T19:21:37.067Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 20 Nov 2026 11:13:13 -0600",
+  "newsFeedBuiltAt": "Fri, 20 Nov 2026 13:21:20 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

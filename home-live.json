@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-19T19:46:34.153Z"
+    "checkedAt": "2026-11-20T00:54:48.779Z"
   },
   "news": [
+    {
+      "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T00:42:07.000Z"
+    },
+    {
+      "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-19T23:20:47.000Z"
+    },
+    {
+      "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
+      "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
+      "category": "Forever",
+      "publishedAt": "2026-11-19T21:23:45.000Z"
+    },
     {
       "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
       "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-19T19:19:21.000Z"
-    },
-    {
-      "title": "Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser",
-      "url": "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser",
-      "category": "Forever",
-      "publishedAt": "2026-11-19T18:16:54.000Z"
-    },
-    {
-      "title": "Blizzard Previews Talebound Rewards in Patch 12.1.7",
-      "url": "https://www.wowhead.com/news=383930/blizzard-previews-talebound-rewards-in-patch-12-1-7",
-      "category": "Live",
-      "publishedAt": "2026-11-19T18:03:39.000Z"
-    },
-    {
-      "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
-      "category": "Forever",
-      "publishedAt": "2026-11-19T17:50:34.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-19T19:46:34.152Z",
-  "generatedAt": "2026-11-19T19:46:34.146Z",
+  "newsUpdatedAt": "2026-11-20T00:54:48.779Z",
+  "generatedAt": "2026-11-20T00:54:48.772Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 19 Nov 2026 13:46:33 -0600",
+  "newsFeedBuiltAt": "Thu, 19 Nov 2026 18:54:28 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

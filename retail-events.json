@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T20:28:47.218Z",
+  "updatedAt": "2026-11-20T07:04:04.103Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -22,15 +22,6 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1047"
-    },
-    {
-      "id": "wow-event-694-1794441600000@wowlazymacros.com",
-      "title": "Moonkin Festival",
-      "startAt": "2026-11-12T00:00:00.000Z",
-      "endAt": "2026-11-13T00:00:00.000Z",
-      "allDay": false,
-      "category": "World events",
-      "url": "https://www.wowhead.com/event=694"
     },
     {
       "id": "wow-event-1263-1794898800000@wowlazymacros.com",

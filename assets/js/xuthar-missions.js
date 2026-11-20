@@ -265,7 +265,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261118-stockade-finale',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261120-stonewatch-triumph',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

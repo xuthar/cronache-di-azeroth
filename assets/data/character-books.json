@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-two-towns",
+      "status": "living-novel-stonewatch-quest-preparations",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3699,6 +3699,52 @@
           ]
         },
         {
+          "id": "x-nov20-stonewatch-calling",
+          "chapter": "Chapter 160 · When Stonewatch Called Again",
+          "title": "The Fortress That Remembered His Name",
+          "kind": "fiction",
+          "paragraphs": [
+            "The message from Darkshire had been delivered. Two towns had been left with their fears, and a priest who had carried the truth between them now found himself standing before another unfinished page. Outside Lakeshire the red hills waited, their ridges darkening as the evening drew closer. Somewhere among them, the Blackrock orcs held Stonewatch.",
+            "Xuthar Morvayne did not mistake familiarity for safety. He had seen the keep before. He had learned the bitter shape of its walls, the narrow approaches that allowed sentries to spot a traveller before the traveller spotted them, the places where one ill-judged step could summon enemies from every corner. The old victories at Redridge had brought him confidence, but not immunity.",
+            "His recent rest had eased none of the world's sorrows. Old hurts still stirred when he bent to tighten the straps of his pack. He let them speak without allowing them to decide for him. Once, he might have called the need to prove himself courage. Now he called courage by a quieter name: preparedness.",
+            "Marshal Marris had two dangerous matters yet unresolved. One was the dark work of the Blackrock Shadowcasters, who carried objects called Midnight Orbs. The other was an orc commander, Tharil'zun, whose fighters preyed upon the roads near Stonewatch Keep. Either threat could stand alone as a perilous undertaking. Tonight Xuthar meant to face the prospect of both.",
+            "He examined his staff, folded the hem of his robes away from the damp and checked the supplies he hoped would never be needed. No companion's presence was assumed; no army waited at the gate. The priest could only prepare, pay attention and decide how to respond when the road revealed itself.",
+            "Behind him stood the lights of Lakeshire, where the world still found reasons to cook supper and speak of tomorrow. Xuthar looked toward those lights a little longer than he once would have. He had not yet entered the fortress. He had not yet won. The value of returning alive made the thought of the coming struggle more serious, not less.",
+            "The keep was not defeated because he had chosen to approach it. It simply waited. So did the next chapter of his life."
+          ]
+        },
+        {
+          "id": "x-nov20-three-orbs",
+          "chapter": "Chapter 161 · Three Orbs in the Dark",
+          "title": "Shadow Magic and the Price of Forbidden Light",
+          "kind": "fiction",
+          "paragraphs": [
+            "The first task seemed almost too small when measured in words: three Midnight Orbs. Three objects light enough, perhaps, to fit into a satchel. Three objects powerful enough that Marshal Marris feared what the Blackrock Shadowcasters might do with them if no one intervened.",
+            "Xuthar had studied the Shadow long before he learned how to survive it in a fight. He understood why forbidden things fascinated those who thought themselves immune to corruption. The promise was never merely power. It was power without a witness, strength without a reckoning, the freedom to harm and still call the harm necessary.",
+            "The shadowcasters were not harmless scribes carrying curious trinkets. Their orbs had become instruments in a campaign against Redridge's defenders. If three of those devices could be taken away, Marris intended that they should be destroyed. The task was practical and grim: remove weapons from the hands of men who had already chosen how to use them.",
+            "A priest of the Shadow could see the irony. He himself called upon a dangerous art, and would have to distinguish discipline from temptation every time he raised his hand. It was not enough to say that dark power was evil when held by an orc and pure when held by a human. The question was what a person did with it, whom he protected, and what limits he was willing to accept.",
+            "At the edge of the imagined battlefield, torchlight licked the broken stone while the deep, cold blue of magical darkness seemed to drift between the ruined walls. Xuthar pictured the shadowcasters beyond the sentries and knew that imagination offered no shield. The actual encounter was still ahead, and the orbs remained to be won.",
+            "He repeated the number to himself: three. Not as a promise of three victories, but as a reminder of the work that must be finished before he could return to Marris and ask that the dangerous objects be destroyed.",
+            "The night did not answer. The orbs did not fall into his hands because he had written their names. They waited with the Blackrock, and the priest prepared to enter their reach."
+          ]
+        },
+        {
+          "id": "x-nov20-tharilzun",
+          "chapter": "Chapter 162 · The Name Beyond the Broken Gate",
+          "title": "Before the Reckoning with Tharil'zun",
+          "kind": "fiction",
+          "paragraphs": [
+            "The second task bore the weight of a name: Tharil'zun. Marshal Marris knew the orc as the leader of the Blackrock Outrunners whose ambushes haunted the roads between Lakeshire and Stonewatch. Men who walked those roads had learned to fear not only the sword before them, but the hidden blow that came when they believed the worst was over.",
+            "Xuthar remembered the messages he had carried between Redridge and Duskwood. Those roads bound people to one another as surely as a bridge bound two riverbanks. To leave them in the hands of raiders was to make every message, every sack of provisions and every desperate traveller a wager against death.",
+            "The order was stark: bring back Tharil'zun's head. Xuthar did not pretend to enjoy such commands. He had fought enough battles to know the difference between protecting the living and celebrating what had been done to the dead. Yet he also knew that a commander directing ambushes could not be wished away by a thoughtful sentence in a ledger.",
+            "Stonewatch Keep rose in his thoughts like the last stone in a wall built of old injuries. He had returned to these hills with Carro once, had faced enemies who seemed carved out of the mountains themselves, and had discovered that friendship could transform fear into resolve. Carro's own road had since taken him toward Maraudon, to the elusive Blade of Eternal Darkness. Tonight was Xuthar's road, and he would not write his old friend's footsteps into an encounter they had not shared.",
+            "He pictured the ruined doorway, the rough voices of the Blackrock guards, the patient cruelty of an ambush laid beside a travelled road. The fortress had many answers for those who entered carelessly. He would have to learn which ones were real once the fighting began.",
+            "The name Tharil'zun remained in his quest journal, unfinished. The Midnight Orbs remained there too. There was no trophy to hold up before Lakeshire, no triumphant march to describe, no last page to close.",
+            "Instead there was a question carried toward the dark: would the priest return with the three orbs and the orc leader's head, or would Stonewatch demand another chapter before it yielded?",
+            "Xuthar drew his cloak close and turned toward the red hills. The answer belonged to the night ahead."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3866,5 +3912,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-20 · The Letter That Could Not Bring an Army · Chapters 154–159 · Two Messenger to Darkshire completions #145 and #146"
+  "lastEditorialUpdate": "2026-11-20 · Stonewatch Waits · Chapters 160–162 · Shadow Magic (#115) and Tharil'zun (#19) announced, not yet completed"
 }

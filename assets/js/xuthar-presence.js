@@ -9,18 +9,18 @@
  if(!state||!location||!activity)return;
  const safe=x=>typeof x==="string"?x.trim().slice(0,160):"";
  function render(data){
-  if(data?.version!==1||data.character!=="Xuthar Morvayne"||!["live","offline","resting","finished","unknown"].includes(data.status))
+  if(data?.version!==1||data.character!=="Xuthar Morvayne"||!["live","offline","resting","finished","unknown","preparing"].includes(data.status))
    throw Error("Unverified presence");
   const live=data.status==="live",p=data.coordinates,
     valid=p&&Number.isFinite(p.x)&&Number.isFinite(p.y)&&p.x>=0&&p.x<=100&&p.y>=0&&p.y<=100;
   banner.classList.toggle("is-live",live);
   banner.classList.toggle("is-offline",!live);
-  state.textContent=data.status==="unknown"?"PRESENCE UNCONFIRMED":data.status==="resting"?"RESTING":data.status==="finished"?"EXPEDITION COMPLETE":live?"LIVE":"OFFLINE";
+  state.textContent=data.status==="preparing"?"EXPEDITION PLANNED":data.status==="unknown"?"PRESENCE UNCONFIRMED":data.status==="resting"?"RESTING":data.status==="finished"?"EXPEDITION COMPLETE":live?"LIVE":"OFFLINE";
   const where=[safe(data.zone),safe(data.location)].filter(Boolean).join(" · ");
-  location.textContent=(data.status==="offline"?"Last seen · ":"")+(where||"Location not reported")+
+  location.textContent=(data.status==="preparing"?"Planned destination · ":data.status==="offline"?"Last seen · ":"")+(where||"Location not reported")+
    (valid?" · "+p.x+", "+p.y:"");
   activity.textContent=safe(data.activity)||"Activity not reported";
-  banner.title=(data.status==="unknown"?"Current online status is not confirmed by the official Blizzard quest feed":"Status reported manually by Xuthar")+(safe(data.reportedOn)?" · "+safe(data.reportedOn):"");
+  banner.title=(data.status==="preparing"?"The next expedition is announced, but current online presence is unconfirmed":data.status==="unknown"?"Current online status is not confirmed by the official Blizzard quest feed":"Status reported manually by Xuthar")+(safe(data.reportedOn)?" · "+safe(data.reportedOn):"");
  }
  async function refresh(){
   try{

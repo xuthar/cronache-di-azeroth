@@ -259,5 +259,17 @@ plans.push({
     }
   ]
 });
+
+const nextRedridge=plans.find(day=>day.date==='2026-11-20');
+if(nextRedridge){
+ nextRedridge.title='Two Towns, No Army · Then Stonewatch Waits';
+ nextRedridge.summary+=' Later that evening, Xuthar announces his intention to challenge two difficult outstanding Redridge quests: Shadow Magic (#115, obtain three Midnight Orbs) and Tharil\'zun (#19, the Blackrock commander). The coming expedition is a plan, not a recorded victory. Both quests remain active in the latest official Blizzard snapshot.';
+ nextRedridge.bookUrl='book.html?character=xuthar#x-nov20-stonewatch-calling';
+ nextRedridge.stops.push(
+  {time:'Later in the evening · departure not yet confirmed',title:'Stonewatch calls again · expedition announced',description:'Xuthar names Shadow Magic and Tharil\'zun as his next two difficult Redridge objectives. He prepares to face the Blackrock threat near Stonewatch Keep; the precise start time and companions have not been reported.'},
+  {time:'Upcoming · mission #115',title:'Shadow Magic · Three Midnight Orbs',description:'Collect three Midnight Orbs from Blackrock Shadowcasters and return them to Marshal Marris at Lakeshire. In progress; no new orb recovery claimed.'},
+  {time:'Upcoming · mission #19',title:'Tharil\'zun · The Blackrock Commander',description:'Find the leader of the Blackrock Outrunners near Stonewatch Keep and bring his head to Marshal Marris. In progress; no defeat or hand-in claimed.'}
+ );
+}
 return plans;
 })();

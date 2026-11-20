@@ -7565,5 +7565,43 @@
     ],
     "scope": "Observed newly completed IDs between official snapshots on 20 Nov. Exact hand-in times, route order beyond quest requirements, travel schedule, other encounters and reward claims are not provided by the API. Root quest tracker recordedAt=18 Nov is intentionally preserved as a historical player screenshot record.",
     "bookAnchor": "x-nov20-the-plea"
+  },
+  "eveningStonewatchPlanNov20": {
+    "date": "2026-11-20",
+    "status": "announced-upcoming",
+    "characterLevel": 24,
+    "source": "Direct player announcement; official Blizzard Forever EU in-progress quest IDs checked",
+    "quests": [
+      {
+        "id": 115,
+        "name": "Shadow Magic",
+        "status": "in-progress",
+        "objective": "Collect 3 Midnight Orbs from Blackrock Shadowcasters for Marshal Marris in Lakeshire.",
+        "required": 3,
+        "secured": "not newly verified",
+        "referenceUrl": "https://www.wowhead.com/classic/quest=115/shadow-magic"
+      },
+      {
+        "id": 19,
+        "name": "Tharil'zun",
+        "status": "in-progress",
+        "objective": "Defeat the Blackrock commander Tharil'zun near Stonewatch Keep, obtain his head and bring it to Marshal Marris.",
+        "required": 1,
+        "secured": "not newly verified",
+        "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun"
+      }
+    ],
+    "questCompletionPolicy": "Announcement of intent is not completion; do not mark either quest handed in, looted, or defeated until a subsequent direct report or verified API completion.",
+    "relatedBook": "x-nov20-stonewatch-calling",
+    "plannedArea": "Redridge Mountains · Stonewatch Keep",
+    "preciseTime": null,
+    "partyMembers": "Not reported",
+    "personalStatus": "Preparing for a difficult expedition; gameplay start not confirmed",
+    "officialBaseline": {
+      "at": "2026-11-20T19:21:34.000Z",
+      "level": 24,
+      "completed": 245,
+      "activeCount": 8
+    }
   }
 }

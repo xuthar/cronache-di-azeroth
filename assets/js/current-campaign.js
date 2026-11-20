@@ -1,11 +1,7 @@
-/* Current literary campaign. Quest facts from 20 Nov official Blizzard snapshot are separate from unverified location/presence. */
-(()=>{'use strict';
-if(!['forever','gallery'].includes(document.body.dataset.page))return;
-const main=document.getElementById('main');
-if(main&&!document.getElementById('darkshire-nov20-update'))main.insertAdjacentHTML('afterbegin',
-`<section class="wrap" id="darkshire-nov20-update" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(215,171,108,.43);border-radius:12px;background:linear-gradient(110deg,#192a2b,#111a28);color:#f5e7cf">
-<p class="eyebrow">20 NOVEMBER 2026 · TWO QUESTS COMPLETED · LEVEL 24</p>
-<h2 style="font-family:Georgia,serif;color:#f3d49e">The Letter That Could Not Bring an Army</h2>
-<p style="line-height:1.8;max-width:82ch">Two newly completed steps in <em>Messenger to Darkshire</em> lead from Magistrate Solomon in Lakeshire to Lord Ebonlocke in Duskwood and back. The Night Watch cannot leave its own threatened town. Blizzard now reports 245 completed quest IDs and eight in progress; precise travel times and the current location remain unknown.</p>
-<p><a href="book.html?character=xuthar#x-nov20-the-plea" style="color:#ffe0a8">The Last Witness · Chapters 154–159 →</a> · <a href="journal.html#day-2026-11-20" style="color:#ffe0a8">Travel Journal →</a> · <a href="missions.html#nov20-verified-quests" style="color:#ffe0a8">Verified quests →</a></p></section>`);
-})();
+/* Upcoming player-announced Stonewatch campaign. No quest completion is inferred. */
+(()=>{'use strict';if(!['forever','gallery'].includes(document.body.dataset.page))return;const main=document.getElementById('main');if(main&&!document.getElementById('stonewatch-prelude-20261120'))main.insertAdjacentHTML('afterbegin',
+`<section class="wrap" id="stonewatch-prelude-20261120" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(219,168,105,.45);border-radius:12px;background:linear-gradient(110deg,#2d231d,#101a29);color:#f5e6ca" aria-labelledby="stonewatch-prelude-title">
+<p class="eyebrow">20 NOVEMBER 2026 · REDRIDGE · NEXT EXPEDITION · LEVEL 24</p>
+<h2 id="stonewatch-prelude-title" style="font-family:Georgia,serif;color:#f2cf99">Stonewatch Waits · The Orbs and the Orc</h2>
+<p style="line-height:1.8;max-width:80ch">After the letters of Darkshire, Xuthar prepares to attempt two dangerous quests near Stonewatch Keep: <em>Shadow Magic</em> (three Midnight Orbs) and <em>Tharil'zun</em> (the Blackrock commander). Both are active in the latest official Blizzard quest log. This is a prelude, not a completed expedition.</p>
+<p><a href="book.html?character=xuthar#x-nov20-stonewatch-calling" style="color:#ffe0a8">The Last Witness · Chapters 160–162 →</a> · <a href="journal.html#day-2026-11-20" style="color:#ffe0a8">Travel Journal →</a></p></section>`);})();

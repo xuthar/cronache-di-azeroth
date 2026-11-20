@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795202494,
+  "exportedAt": 1795208509,
   "characters": [
     {
       "id": "xuthar",
@@ -17,18 +17,18 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 245,
+      "questsCompleted": 247,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795202494,
+      "checkedAt": 1795208509,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795202494,
-          "inProgressCount": 8,
-          "completedCount": 245,
+          "snapshotAt": 1795208509,
+          "inProgressCount": 6,
+          "completedCount": 247,
           "inProgress": [
             {
               "id": 3765,
@@ -47,16 +47,8 @@
               "name": "Tinkmaster Overspark"
             },
             {
-              "id": 115,
-              "name": "Shadow Magic"
-            },
-            {
               "id": 97894,
               "name": "Business in Auberdine"
-            },
-            {
-              "id": 19,
-              "name": "Tharil'zun"
             },
             {
               "id": 1078,
@@ -73,6 +65,7 @@
             14,
             15,
             18,
+            19,
             20,
             21,
             22,
@@ -114,6 +107,7 @@
             111,
             112,
             114,
+            115,
             116,
             118,
             119,
@@ -391,6 +385,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 19,
+              "title": "Tharil'zun",
+              "area": "Redridge Mountains",
+              "briefing": "Blackrock Outrunners and Renegades are running ambushes between here and Stonewatch Keep. The leader of the Outrunners is an orc named Tharil'zun--we want this…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 20,
@@ -762,6 +765,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 115,
+              "title": "Shadow Magic",
+              "area": "Redridge Mountains",
+              "briefing": "The Blackrock orcs enlisted shadowcasters to aid their attacks in Redridge, and they have brought with them devices of dark power--midnight orbs. These orbs…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 116,
               "title": "Dry Times",
               "area": "Redridge Mountains",
@@ -957,7 +969,7 @@
               "briefing": "I require your assistance once again. I have written to Lord Ebonlocke, requesting that he sends his trained guards, the Night Watch, to help…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 146,
@@ -966,7 +978,7 @@
               "briefing": "If I did not know Magistrate Solomon personally, I would say the man has gone mad. Send the Night Watch to Lakeshire because Stormwind…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 147,
@@ -2518,10 +2530,10 @@
             }
           ],
           "newlyObservedCompletedIds": [
-            145,
-            146
+            19,
+            115
           ],
-          "comparedWithSnapshotAt": 1795191117,
+          "comparedWithSnapshotAt": 1795202494,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2537,7 +2549,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795202494
+        "profileCheckedAt": 1795208509
       }
     }
   ],

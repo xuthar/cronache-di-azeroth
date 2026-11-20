@@ -7,7 +7,7 @@
   const mount=document.getElementById('quests-archive');
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
-  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261120-darkshire-messenger';
+  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261120-stonewatch-victory';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);
@@ -59,22 +59,22 @@
     }
     return card;
   }
-  function storyCards(episodes,completed){
+  function storyCards(episodes,completed,playerConfirmed){
     const section=make('section','qm-section');section.id='story-chapters';
     const head=make('div','qm-section-header'),title=make('div','');
     text(title,'span','qm-eyebrow','CHRONICLES / THE LIVING BOOK');
     text(title,'h2','','Adventures between the quest lines');
-    head.append(title,make('p','','Original fiction inspired by quest premises that Blizzard marks complete. The imagined conversations and scenes are not claims about gameplay.'));
+    head.append(title,make('p','','Original fiction based on quests marked completed by Blizzard or explicitly confirmed by Xuthar. Imagined dialogue and atmosphere do not claim exact gameplay details.'));
     section.append(head);
     const grid=make('div','qm-episodes');
     for(const e of episodes){
-      if(!e.questIds.some(id=>completed.has(id)))continue;
+      if(!e.questIds.some(id=>completed.has(id)||playerConfirmed.has(id)))continue;
       const card=make('article','qm-episode');
       text(card,'span','','ORIGINAL ROLEPLAY FICTION · '+e.subtitle.toUpperCase());
       text(card,'h3','',e.title);
       text(card,'p','',e.teaser);
       card.append(link('Read this chapter in the Living Book ↗','book.html?character=xuthar#'+e.bookAnchor));
-      text(card,'small','','Inspired by completed quest IDs: '+e.questIds.filter(id=>completed.has(id)).join(', '));
+      text(card,'small','','Completed IDs · Blizzard or player confirmed: '+e.questIds.filter(id=>completed.has(id)||playerConfirmed.has(id)).join(', '));
       grid.append(card);
     }
     section.append(grid);
@@ -82,7 +82,7 @@
   }
   // Official active quests are listed directly from the verified EU snapshot.
   // Questie's historical "Quest Complete!" is not an official hand-in confirmation.
-  function activeQuestSection(quests){
+  function activeQuestSection(quests,playerConfirmed){
     const section=make('section','qm-section');section.id='active-quests';
     const header=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','BLIZZARD EU / CURRENT QUEST LOG');
@@ -102,9 +102,10 @@
     for(const quest of active){
       const card=make('article','qm-mission qm-mission-active');
       const head=make('header','qm-mission-head'),left=make('div','');
-      text(left,'span','qm-mission-area','CURRENT QUEST LOG');
+      const newer=playerConfirmed.has(quest.id);
+      text(left,'span','qm-mission-area',newer?'OLDER BLIZZARD SNAPSHOT':'CURRENT BLIZZARD SNAPSHOT');
       text(left,'h3','',safeTitle(quest.name,quest.id));
-      head.append(left,make('span','qm-in-progress','● In progress'));
+      head.append(left,make('span',newer?'qm-verified':'qm-in-progress',newer?'✓ Player confirmed complete':'● In progress'));
       card.append(head);
       text(card,'span','qm-mission-id','Quest ID '+quest.id);
       grid.append(card);
@@ -184,6 +185,7 @@
       Array.isArray(quests?.completedQuestIds)&&Array.isArray(quests?.completedQuestDetails);
     if(!sourceValid)throw Error('Official completed quest archive is not yet available.');
     const completed=new Set(quests.completedQuestIds.filter(Number.isInteger));
+    const playerConfirmed=new Set((manual?.confirmedCompleted||[]).filter(q=>q.confirmationType==='explicit-player-report').map(q=>q.id));
     const notesById=new Map((editorial?.objectives||[]).filter(x=>Number.isInteger(x.id)).map(x=>[x.id,x]));
     const episodeList=Array.isArray(editorial?.episodes)?editorial.episodes:[];
     const storyByQuest=new Map;
@@ -202,7 +204,7 @@
     const stats=make('div','qm-stats');
     for(const [value,name] of [
       [Number.isInteger(quests?.completedCount)?quests.completedCount:completed.size,'Completed quest IDs'],
-      [episodeList.filter(e=>e.questIds.some(id=>completed.has(id))).length,'Related adventures'],
+      [episodeList.filter(e=>e.questIds.some(id=>completed.has(id)||playerConfirmed.has(id))).length,'Related adventures'],
       [Number.isInteger(quests?.inProgressCount)?quests.inProgressCount:'—','Active quests · Blizzard snapshot']
     ]){
       const stat=make('div','qm-stat');
@@ -215,7 +217,7 @@
       '. Completed quest IDs are grouped into readable mission cards by title and region. Blizzard does not provide the exact time each quest was finished.';
     mount.append(note);
     const fieldReport=fieldReportSection(manual);if(fieldReport)mount.append(fieldReport);
-    mount.append(activeQuestSection(quests),storyCards(episodeList,completed));
+    mount.append(activeQuestSection(quests,playerConfirmed),storyCards(episodeList,completed,playerConfirmed));
     const section=make('section','qm-section');section.id='mission-record';
     const sectionHead=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','THE LAST WITNESS / OFFICIAL QUEST LEDGER');

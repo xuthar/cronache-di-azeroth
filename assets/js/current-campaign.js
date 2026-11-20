@@ -1,7 +1,7 @@
-/* Upcoming player-announced Stonewatch campaign. No quest completion is inferred. */
-(()=>{'use strict';if(!['forever','gallery'].includes(document.body.dataset.page))return;const main=document.getElementById('main');if(main&&!document.getElementById('stonewatch-prelude-20261120'))main.insertAdjacentHTML('afterbegin',
-`<section class="wrap" id="stonewatch-prelude-20261120" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(219,168,105,.45);border-radius:12px;background:linear-gradient(110deg,#2d231d,#101a29);color:#f5e6ca" aria-labelledby="stonewatch-prelude-title">
-<p class="eyebrow">20 NOVEMBER 2026 · REDRIDGE · NEXT EXPEDITION · LEVEL 24</p>
-<h2 id="stonewatch-prelude-title" style="font-family:Georgia,serif;color:#f2cf99">Stonewatch Waits · The Orbs and the Orc</h2>
-<p style="line-height:1.8;max-width:80ch">After the letters of Darkshire, Xuthar prepares to attempt two dangerous quests near Stonewatch Keep: <em>Shadow Magic</em> (three Midnight Orbs) and <em>Tharil'zun</em> (the Blackrock commander). Both are active in the latest official Blizzard quest log. This is a prelude, not a completed expedition.</p>
-<p><a href="book.html?character=xuthar#x-nov20-stonewatch-calling" style="color:#ffe0a8">The Last Witness · Chapters 160–162 →</a> · <a href="journal.html#day-2026-11-20" style="color:#ffe0a8">Travel Journal →</a></p></section>`);})();
+/* Stonewatch victory · player-confirmed, with seven original 1920x1080 game screenshots. */
+(()=>{'use strict';if(!['forever','gallery'].includes(document.body.dataset.page))return;const main=document.getElementById('main');if(main&&!document.getElementById('stonewatch-victory-20261120'))main.insertAdjacentHTML('afterbegin',
+`<section class="wrap" id="stonewatch-victory-20261120" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(219,168,105,.52);border-radius:12px;background:linear-gradient(110deg,#2d231d,#101a29);color:#f5e6ca">
+<p class="eyebrow">20 NOVEMBER 2026 · STONEWATCH TRIUMPH · XUTHAR & CARRO</p>
+<h2 style="font-family:Georgia,serif;color:#f2cf99">The Orbs, the Orc and the Fire Beside the Lake</h2>
+<p style="line-height:1.8;max-width:82ch">The three Midnight Orbs are recovered and Tharil'zun lies defeated. Xuthar explicitly confirms both missions complete. Seven original Full HD photographs record the ascent, Carro Steelcave beside his friend and the joyous Lakeshire bonfire where companions celebrated the victory. The official Blizzard log refreshes independently and can lag the player report.</p>
+<p><a href="book.html?character=xuthar#x-nov20-shore-approach" style="color:#ffe0a8">The Last Witness · Chapters 163–170 →</a> · <a href="gallery.html#stonewatch-triumph-photos" style="color:#ffe0a8">Seven original Full HD photographs →</a></p></section>`);})();

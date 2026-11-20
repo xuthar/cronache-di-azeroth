@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-20T00:54:48.779Z"
+    "checkedAt": "2026-11-20T08:26:10.348Z"
   },
   "news": [
+    {
+      "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T04:35:14.000Z"
+    },
+    {
+      "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
+      "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T04:03:00.000Z"
+    },
+    {
+      "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T02:09:09.000Z"
+    },
     {
       "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
       "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-20T00:42:07.000Z"
-    },
-    {
-      "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-19T23:20:47.000Z"
-    },
-    {
-      "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
-      "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
-      "category": "Forever",
-      "publishedAt": "2026-11-19T21:23:45.000Z"
-    },
-    {
-      "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-19T19:19:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-20T00:54:48.779Z",
-  "generatedAt": "2026-11-20T00:54:48.772Z",
+  "newsUpdatedAt": "2026-11-20T08:26:10.347Z",
+  "generatedAt": "2026-11-20T08:26:10.340Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Thu, 19 Nov 2026 18:54:28 -0600",
+  "newsFeedBuiltAt": "Fri, 20 Nov 2026 02:25:58 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

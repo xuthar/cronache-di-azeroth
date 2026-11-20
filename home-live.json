@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-20T20:50:43.331Z"
+    "checkedAt": "2026-11-20T20:59:27.743Z"
   },
   "news": [
+    {
+      "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+      "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
+      "category": "Forever",
+      "publishedAt": "2026-11-20T20:51:19.000Z"
+    },
     {
       "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
       "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
       "category": "Forever",
       "publishedAt": "2026-11-20T17:00:14.000Z"
-    },
-    {
-      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
-      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T16:00:00.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-20T20:50:43.331Z",
-  "generatedAt": "2026-11-20T20:50:43.164Z",
+  "newsUpdatedAt": "2026-11-20T20:59:27.743Z",
+  "generatedAt": "2026-11-20T20:59:27.736Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 20 Nov 2026 14:50:22 -0600",
+  "newsFeedBuiltAt": "Fri, 20 Nov 2026 14:59:26 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

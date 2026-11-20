@@ -467,9 +467,10 @@
       "date": "2026-11-20",
       "confirmationType": "explicit-player-report",
       "countedAsDelivered": true,
-      "officialApiVerified": false,
+      "officialApiVerified": true,
       "evidence": "Player explicitly confirmed both quests completed and supplied original Full HD gameplay screenshots of the Stonewatch battle, final aftermath, and lakeside celebration.",
-      "bookChapterId": "x-nov20-shadow-magic-final"
+      "bookChapterId": "x-nov20-shadow-magic-final",
+      "blizzardVerifiedAt": "2026-11-20T21:01:49.000Z"
     },
     {
       "id": 19,
@@ -477,9 +478,10 @@
       "date": "2026-11-20",
       "confirmationType": "explicit-player-report",
       "countedAsDelivered": true,
-      "officialApiVerified": false,
+      "officialApiVerified": true,
       "evidence": "Player explicitly confirmed both quests completed and supplied original Full HD gameplay screenshots of the Stonewatch battle, final aftermath, and lakeside celebration.",
-      "bookChapterId": "x-nov20-tharilzun-final"
+      "bookChapterId": "x-nov20-tharilzun-final",
+      "blizzardVerifiedAt": "2026-11-20T21:01:49.000Z"
     }
   ],
   "travelMilestones": [
@@ -7599,7 +7601,8 @@
         "objective": "Collect 3 Midnight Orbs from Blackrock Shadowcasters for Marshal Marris in Lakeshire.",
         "required": 3,
         "secured": "Player confirms full completion",
-        "referenceUrl": "https://www.wowhead.com/classic/quest=115/shadow-magic"
+        "referenceUrl": "https://www.wowhead.com/classic/quest=115/shadow-magic",
+        "officialApiVerified": true
       },
       {
         "id": 19,
@@ -7608,7 +7611,8 @@
         "objective": "Defeat the Blackrock commander Tharil'zun near Stonewatch Keep, obtain his head and bring it to Marshal Marris.",
         "required": 1,
         "secured": "Player confirms full completion",
-        "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun"
+        "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun",
+        "officialApiVerified": true
       }
     ],
     "questCompletionPolicy": "User reports both quests completed. Preserve prior official API snapshot as historical until refreshed.",
@@ -7645,7 +7649,7 @@
     ],
     "companions": "Carro Steelcave visible on bridge and in the victory screenshot, with animals Hawk and Broken Tooth",
     "celebration": "Friends gather beside a fire near Lakeshire, photographed at 21:09:50",
-    "officialApiCaveat": "Most recently checked Blizzard snapshot 20:21 Italy reported these IDs still active; it predates this player-confirmed outcome.",
+    "officialApiCaveat": "The earlier 20:21 Italy Blizzard snapshot was superseded by official sync at 22:01 Italy confirming both completions.",
     "screenshots": [
       {
         "path": "assets/images/screenshots/WoWScrnShot_112026_205940.jpg",
@@ -7720,6 +7724,10 @@
       "x-nov20-tharilzun-final",
       "x-nov20-stonewatch-victory",
       "x-nov20-lakeshore-celebration"
-    ]
+    ],
+    "officialApiVerified": true,
+    "officialVerifiedAt": "2026-11-20T21:01:49.000Z",
+    "completedQuestIds": 247,
+    "activeQuestsRemaining": 6
   }
 }

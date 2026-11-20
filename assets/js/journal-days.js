@@ -275,7 +275,7 @@ const stonewatchVictory = plans.find(day=>day.date==='2026-11-20');
 if(stonewatchVictory){
  stonewatchVictory.title='Two Towns, No Army · Stonewatch Triumph';
  stonewatchVictory.place='Lakeshire and Darkshire · Redridge shores → Stonewatch Keep → Lakeshire bonfire';
- stonewatchVictory.summary += ' The evening Stonewatch campaign is now victorious by Xuthar\'s firsthand confirmation: Shadow Magic (three Midnight Orbs recovered) and Tharil\'zun (orc commander defeated) are both completed. Seven 1920×1080 screenshots show the shoreline route, Stonewatch bridge and battle, Carro Steelcave beside Xuthar, and the lakeside celebration with friends. Capture timestamps range from 20:59:40 to 21:09:50; exact hand-in times are not stated. The earlier official Blizzard snapshot may lag this outcome.';
+ stonewatchVictory.summary += ' The evening Stonewatch campaign is now victorious by Xuthar\'s firsthand confirmation: Shadow Magic (three Midnight Orbs recovered) and Tharil\'zun (orc commander defeated) are both completed. Seven 1920×1080 screenshots show the shoreline route, Stonewatch bridge and battle, Carro Steelcave beside Xuthar, and the lakeside celebration with friends. Capture timestamps range from 20:59:40 to 21:09:50; exact hand-in times are not stated. The refreshed official Blizzard EU snapshot at 22:01 Italian time verifies both quests completed: 247 completed quest IDs, six still active.';
  stonewatchVictory.reportUrl='book.html?character=xuthar#x-nov20-shore-approach';
  stonewatchVictory.bookUrl='book.html?character=xuthar#x-nov20-shore-approach';
  for(const item of stonewatchVictory.stops.filter(s=>String(s.time).startsWith('Upcoming'))){
@@ -290,6 +290,10 @@ if(stonewatchVictory){
  {time:'21:06:47 · screenshot',title:'Stonewatch Triumph · two quests completed',description:'Xuthar and Carro stand beside fallen Blackrock fighters under their banner. Shadow Magic (#115) and Tharil\'zun (#19) completed as confirmed directly by Xuthar.'},
  {time:'21:09:50 · screenshot',title:'The lakeside fire · a celebration with friends',description:'Friends and pets gather by a bright fire at Lakeshire; the night ends with companionship, relief and celebration.'}
  );
+}
+const officialStonewatch=plans.find(day=>day.date==='2026-11-20');
+if(officialStonewatch){
+ officialStonewatch.stops.push({time:'22:01 Italian time · official Blizzard API snapshot',title:'Blizzard Confirms the Stonewatch Victory',description:'The new official EU Forever sync confirms both Shadow Magic (#115) and Tharil\'zun (#19) completed. Xuthar remains level 24, with 247 completed quest IDs and six active quests. Earlier snapshots are kept as historical records.'});
 }
 return plans;
 })();

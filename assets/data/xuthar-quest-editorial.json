@@ -372,13 +372,13 @@
     {
       "id": 115,
       "objective": "Obtain three Midnight Orbs from Blackrock Shadowcasters for Marshal Marris.",
-      "source": "player-confirmed-complete-2026-11-20",
+      "source": "player-and-Blizzard-official-confirmed-2026-11-20",
       "referenceUrl": "https://www.wowhead.com/classic/quest=115/shadow-magic"
     },
     {
       "id": 19,
       "objective": "Defeat the Blackrock commander Tharil'zun and return his head to Marshal Marris.",
-      "source": "player-confirmed-complete-2026-11-20",
+      "source": "player-and-Blizzard-official-confirmed-2026-11-20",
       "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun"
     }
   ],
@@ -534,7 +534,7 @@
       ],
       "bookAnchor": "x-nov20-shore-approach",
       "teaser": "With Carro Steelcave at his side, Xuthar recovers the Midnight Orbs and defeats Tharil'zun. The night ends beside a lakeside bonfire with friends.",
-      "sourceNote": "Both quests player-confirmed complete. Seven unmodified original game screenshots, plus one separately labelled commemorative illustration.",
+      "sourceNote": "Xuthar confirmed both quest completions, now independently verified by Blizzard EU Forever at 22:01 Italian time on 20 November 2026; 247 completed quest IDs and six active. Seven original Full HD screenshots and a separately labelled commemorative illustration.",
       "screenshotPaths": [
         "assets/images/screenshots/WoWScrnShot_112026_205940.jpg",
         "assets/images/screenshots/WoWScrnShot_112026_205943.jpg",
@@ -544,7 +544,9 @@
         "assets/images/screenshots/WoWScrnShot_112026_210647.jpg",
         "assets/images/screenshots/WoWScrnShot_112026_210950.jpg"
       ],
-      "illustration": "assets/images/gallery/stonewatch-triumph-artwork-20261120.png"
+      "illustration": "assets/images/gallery/stonewatch-triumph-artwork-20261120.png",
+      "verifiedByBlizzard": true,
+      "verifiedAt": "2026-11-20T21:01:49.000Z"
     }
   ]
 }

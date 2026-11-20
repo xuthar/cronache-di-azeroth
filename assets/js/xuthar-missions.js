@@ -172,7 +172,7 @@
     if(!items.length)return null;
     const section=make('section','qm-section');section.id='player-confirmed-completions';
     text(section,'h2','','✓ Completed · Player reports');
-    for(const q of items){text(section,'h3','',q.name);text(section,'p','qm-note',q.date+' · '+(q.confirmationType==='explicit-player-report'?'Confirmed by Xuthar':'Questie tracker · Chronicle convention'));if(q.bookChapterId)section.append(link('Read the adventure →','book.html?character=xuthar#'+q.bookChapterId));}
+    for(const q of items){text(section,'h3','',q.name);text(section,'p','qm-note',q.date+' · '+(q.officialApiVerified?'Confirmed by Xuthar + official Blizzard API':q.confirmationType==='explicit-player-report'?'Confirmed by Xuthar':'Questie tracker · Chronicle convention'));if(q.bookChapterId)section.append(link('Read the adventure →','book.html?character=xuthar#'+q.bookChapterId));}
     return section;
   }
   function render(feedData,editorial,manual){

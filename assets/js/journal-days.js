@@ -271,5 +271,25 @@ if(nextRedridge){
   {time:'Upcoming · mission #19',title:'Tharil\'zun · The Blackrock Commander',description:'Find the leader of the Blackrock Outrunners near Stonewatch Keep and bring his head to Marshal Marris. In progress; no defeat or hand-in claimed.'}
  );
 }
+const stonewatchVictory = plans.find(day=>day.date==='2026-11-20');
+if(stonewatchVictory){
+ stonewatchVictory.title='Two Towns, No Army · Stonewatch Triumph';
+ stonewatchVictory.place='Lakeshire and Darkshire · Redridge shores → Stonewatch Keep → Lakeshire bonfire';
+ stonewatchVictory.summary += ' The evening Stonewatch campaign is now victorious by Xuthar\'s firsthand confirmation: Shadow Magic (three Midnight Orbs recovered) and Tharil\'zun (orc commander defeated) are both completed. Seven 1920×1080 screenshots show the shoreline route, Stonewatch bridge and battle, Carro Steelcave beside Xuthar, and the lakeside celebration with friends. Capture timestamps range from 20:59:40 to 21:09:50; exact hand-in times are not stated. The earlier official Blizzard snapshot may lag this outcome.';
+ stonewatchVictory.reportUrl='book.html?character=xuthar#x-nov20-shore-approach';
+ stonewatchVictory.bookUrl='book.html?character=xuthar#x-nov20-shore-approach';
+ for(const item of stonewatchVictory.stops.filter(s=>String(s.time).startsWith('Upcoming'))){
+  item.time='Originally upcoming · completed later on 20 November';
+  item.description=item.description.replace('In progress; no new orb recovery claimed.','Completed: Xuthar confirms all three Midnight Orbs recovered.').replace('In progress; no defeat or hand-in claimed.','Completed: Xuthar confirms Tharil\'zun defeated.');
+ }
+ stonewatchVictory.stops.push(
+ {time:'20:59:40–20:59:43 · screenshots',title:'Along the shores of Lake Everstill',description:'The priest climbs the narrow red-earth path high above the water; both images survive in their original Full HD resolution.'},
+ {time:'21:00:04 · screenshot',title:'The Blackrock-held fortress',description:'Stonewatch Keep and its posted Blackrock guards come clearly into sight.'},
+ {time:'21:03:24 · screenshot',title:'Carro Steelcave on the bridge',description:'Carro Steelcave and animal companions join the assault on the high timber bridge; the old comrades are together again.'},
+ {time:'21:05:44 · screenshot',title:'Tharil\'zun and the Shadowcasters',description:'The camera captures Tharil\'zun and his Blackrock guards alive inside the keep shortly before the victorious outcome.'},
+ {time:'21:06:47 · screenshot',title:'Stonewatch Triumph · two quests completed',description:'Xuthar and Carro stand beside fallen Blackrock fighters under their banner. Shadow Magic (#115) and Tharil\'zun (#19) completed as confirmed directly by Xuthar.'},
+ {time:'21:09:50 · screenshot',title:'The lakeside fire · a celebration with friends',description:'Friends and pets gather by a bright fire at Lakeshire; the night ends with companionship, relief and celebration.'}
+ );
+}
 return plans;
 })();

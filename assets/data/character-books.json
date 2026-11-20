@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-stonewatch-quest-preparations",
+      "status": "living-novel-stonewatch-triumph",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3745,6 +3745,143 @@
           ]
         },
         {
+          "id": "x-nov20-shore-approach",
+          "chapter": "Chapter 163 · A Road Beside Dark Water",
+          "title": "The Red Shores of Everstill",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_205940.jpg",
+          "caption": "Original Full HD game screenshot · 20 November 2026 · 20:59:40 · Xuthar climbing beside Lake Everstill.",
+          "paragraphs": [
+            "Night was beginning to gather around Lake Everstill when Xuthar Morvayne climbed the narrow trail beside its shore. The water below held the last colors of the sky, but the steep red earth gave no comfort to a priest who knew how easily a single mistake could end an adventure before the first enemy appeared.",
+            "He had spent an earlier day resting, reading of ancient wars and the terrible debts left behind by those who believed power solved everything. The ache in his bones had not disappeared. It had merely taught him to move with care, and to recognize the difference between bravery and the need to prove he was brave.",
+            "Tonight two old obligations stood before him: Shadow Magic and Tharil'zun. Marshal Marris wanted three Midnight Orbs taken from the Blackrock Shadowcasters and the leader of the Blackrock Outrunners brought to justice. Both tasks had waited too long in the priest's journal.",
+            "Behind Xuthar lay Lakeshire, with its warm lamps and its people who could not afford another raid. Ahead lay Stonewatch, a fortress where armed orcs guarded the height above the valley. A road between those places was more than earth and stone. It was a promise that ordinary lives might continue.",
+            "He paused where the cliff fell sharply toward the water. If he turned back now, no one would call the lake less beautiful. But the people below would remain threatened, and the two names on his unfinished page would remain untouched.",
+            "Xuthar gripped his staff, took a slow breath, and began the climb. The road toward Stonewatch had opened."
+          ]
+        },
+        {
+          "id": "x-nov20-red-hill",
+          "chapter": "Chapter 164 · The Land That Waited",
+          "title": "A Silence Before the Blackrock",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_205943.jpg",
+          "caption": "Original Full HD game screenshot · 20:59:43 · Redridge water, cliffs and Xuthar on the open path.",
+          "paragraphs": [
+            "The next turn of the hillside offered a wide, almost cruelly peaceful view of the water. There were no banners here, no drums, no voices promising glory. Only the lake, the red slopes and the small figure of a priest standing beneath the growing evening.",
+            "Xuthar thought about the villages he had served, from the troubled farmlands of Westfall to the town of Darkshire, whose Watch could not spare even a handful of guards for its frightened neighbors. He knew how often a kingdom's greatest decisions were experienced by its people as an empty road and an unanswered request.",
+            "He also thought of Carro Steelcave. The dwarf had been chasing the impossible deep beneath Maraudon, the legendary Blade of Eternal Darkness. Xuthar did not know whether that blade had been found, and he refused to invent the triumph of a friend. All he knew was how much he missed the dwarf's laughter when the roads grew lonely.",
+            "The Midnight Orbs troubled him most. A Shadow Priest could not pretend ignorance of the arts used by the enemy Shadowcasters. Darkness did not become harmless because a man could name its spells. If he brought the three orbs away, it would be to prevent their use, not to keep them as curiosities.",
+            "Above the path the stone walls of the Blackrock-held keep waited. The quiet shoreline could offer him a place to think, but not a place to hide forever.",
+            "He lifted his gaze from the water and went on."
+          ]
+        },
+        {
+          "id": "x-nov20-gates-of-stonewatch",
+          "chapter": "Chapter 165 · Where the Blackrock Kept Watch",
+          "title": "The Gates upon the Red Hill",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_210004.jpg",
+          "caption": "Original Full HD game screenshot · 21:00:04 · Blackrock guards stationed above the road to Stonewatch.",
+          "paragraphs": [
+            "Stonewatch Keep appeared through the gathering dusk like the skeleton of a kingdom's forgotten ambition. Great stone walls stood above the path, and the slopes beneath them were watched by Blackrock sentries. The old fortress had found new masters, men who trusted their high position to protect their raids upon the roads below.",
+            "Xuthar could see the danger of the approach before a single blow was struck. A narrow path permitted little room to maneuver. A careless assault might call every guard from the gate. The distant sentries would have time to watch him coming, while he had little cover and less certainty of retreat.",
+            "Yet the name Tharil'zun was no longer an abstraction from Marris's instructions. Somewhere beyond the gates stood the commander whose outrunners had brought fear to the roads. His soldiers might hold the high ground, but the people of Redridge were tired of paying for their safety with frightened silence.",
+            "The priest stopped long enough to study the walls. He remembered the Deadmines, where he and Carro had learned that no heroic speech could replace knowing when to stand still and when to move. He remembered the Stockade, and the terrible cost of entering a place filled with enemies who shared every alarm.",
+            "His staff was ready. His mind was sharper than it had been in the exhausted days before. He had no certainty of surviving the hours ahead; the only thing he knew was why he had come.",
+            "At last he took the steep road toward the bridge. Above him, Blackrock banners moved against the red hills."
+          ]
+        },
+        {
+          "id": "x-nov20-bridge-with-carro",
+          "chapter": "Chapter 166 · The Bridge of Returning Brothers",
+          "title": "Carro Steelcave at His Side",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_210324.jpg",
+          "caption": "Original Full HD game screenshot · 21:03:24 · The bridge ascent with Carro Steelcave and animal companions visible.",
+          "paragraphs": [
+            "The bridge climbed toward the Stonewatch gate like a ladder left against the sky. A traveller halfway across was exposed to every enemy above and every terrible height below. It was here, on the narrow timber ascent, that Xuthar saw a familiar name ahead of him.",
+            "Carro Steelcave.",
+            "The dwarf was there among the companions pushing toward the stronghold. Hawk and Broken Tooth were visible with the party, living witnesses to another reunion of friends who had shared more dangers than either could count. The sight struck Xuthar harder than the threat of the waiting orcs. Only a day before, he had been reading by the Lakeshire fire and thinking of Carro somewhere beneath Maraudon. Now his friend was here.",
+            "He would ask about the Blade of Eternal Darkness another time. The rare dagger's fate remained untold, and it mattered less than the simple fact that Carro had returned to the road beside him. A friendship was not measured by the treasure one companion carried for the other.",
+            "Their ascent became the old familiar rhythm: the hunter and his creatures taking the danger head-on while the priest prepared to protect and strike from where his spells could reach. Above them the Blackrock guards waited. Below them the lake and its villages seemed very far away.",
+            "Xuthar remembered every dark corridor they had survived in the Deadmines and the Stockade. This bridge was another threshold between fear and courage, but he did not have to cross it believing himself alone.",
+            "The companions climbed. The gates of Stonewatch stood before them."
+          ]
+        },
+        {
+          "id": "x-nov20-shadow-magic-final",
+          "chapter": "Chapter 167 · The Three Orbs of Midnight",
+          "title": "Shadow Magic Beneath the Blackrock Banner",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_210544.jpg",
+          "caption": "Original Full HD game screenshot · 21:05:44 · Blackrock Shadowcasters, guards and Tharil'zun visible inside Stonewatch.",
+          "paragraphs": [
+            "Within the ruined fortress the shadows were no longer distant shapes on a hillside. Blackrock sentries guarded the courtyard, a Shadowcaster waited among them, and Tharil'zun himself stood near the enemy banner. The moment was preserved in a photograph: the commander alive, the Blackrock still armed, the danger not yet over.",
+            "Xuthar had followed the darkness for many years, but he had never mistaken understanding it for mastering it. The Shadowcasters' Midnight Orbs held a sinister fascination, small vessels of power for which the Blackrock were willing to terrorize the countryside. Marshal Marris had ordered three recovered so that their magic could be destroyed.",
+            "The enemies had chosen their ground well. The stone walls compressed the approach; guards could answer the cries of other guards. Xuthar and Carro had to create room for one another. Around them the sounds of combat became a harsh language of metal, spellwork and the urgent movements of the animals who fought with the hunter.",
+            "The priest called upon the Shadow not to glorify darkness, but to deny it to those who used it against the helpless. Each spell cost him strength. Each breath reminded him of the old fatigue that had driven him to rest by the lake. But where the fortress offered only enemies, his companions offered something stronger than a single person's endurance.",
+            "One after another the Midnight Orbs were wrested from the Blackrock Shadowcasters. Three, exactly as Marris had demanded. The burden of Shadow Magic, which had lingered unresolved in the priest's journal, was at last brought to its end.",
+            "Only one great name remained upon the page. Tharil'zun stood among his men, and a battle that had begun with a winding shore path reached its fiercest moment beneath the red Blackrock flag.",
+            "Xuthar looked toward Carro. The final reckoning had come."
+          ]
+        },
+        {
+          "id": "x-nov20-tharilzun-final",
+          "chapter": "Chapter 168 · The Fall of Tharil'zun",
+          "title": "The Commander Beneath the Banner",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_210647.jpg",
+          "caption": "Original Full HD game screenshot · 21:06:47 · Xuthar, Carro and fallen Blackrock fighters after the Stonewatch battle.",
+          "paragraphs": [
+            "Tharil'zun did not meet his end in a clean and solitary duel. A commander who ruled through ambushes and armed sentries would not give his enemies the luxury of an empty courtyard. The Blackrock pressed together beneath the walls, and the fight rose around the priest and the hunter like a storm trapped inside stone.",
+            "Xuthar felt the familiar fear of being surrounded. Every shadow seemed to move with a weapon in its hand, and the memory of older wounds urged him to retreat. Yet the dwarf beside him had not yielded. Carro fought with the stubborn determination that had made him a companion through so many impossible undertakings.",
+            "The clash came in fragments: a guard driven back, another spell breaking across the stones, the desperate effort to keep the next enemy from reaching a friend. Xuthar knew that heroism rarely felt heroic while it was happening. Mostly it felt like terror disciplined into one more necessary action.",
+            "At last the Blackrock commander fell. Tharil'zun, the name that had shadowed travellers through Redridge, was no longer the master of the encounter. His warriors lay beaten beneath the banner of their occupation, and the fight drained slowly into an immense, almost unbelievable silence.",
+            "The photograph taken afterward showed what no bard could improve: Xuthar and Carro Steelcave standing together among defeated Blackrock soldiers, the enemy banner still above them, the victorious friends still breathing. It did not show a fortress made forever safe, nor a war that had ceased throughout the mountains. It showed the battle that had truly been won.",
+            "The head of Tharil'zun and the three recovered Midnight Orbs answered both of Marshal Marris's demands. The two long-standing quests, Shadow Magic and Tharil'zun, were complete. Xuthar felt their old weight lift from the pages of his journal.",
+            "He looked at Carro and understood that the greatest treasure of the evening was not a reward, a number or an item. His friend had been beside him in the most dangerous moments, and now they could leave the keep together.",
+            "Tharil'zun was defeated. The night belonged to the living."
+          ]
+        },
+        {
+          "id": "x-nov20-stonewatch-victory",
+          "chapter": "Chapter 169 · The Names Worth Honouring",
+          "title": "STONEWATCH TRIUMPH",
+          "kind": "fiction",
+          "image": "assets/images/gallery/stonewatch-triumph-artwork-20261120.png",
+          "caption": "Commemorative illustrated artwork created for this triumph · Not a game screenshot. All seven authentic Full HD captures remain separately available.",
+          "paragraphs": [
+            "Stonewatch had been conquered in a sense that mattered more than the stone of its towers. Two dangerous obligations were finished. Three Midnight Orbs had been taken from Blackrock hands. Tharil'zun, the commander of the outrunners, had fallen. The roads of Redridge would remember the difference, even if the great cities barely noticed.",
+            "Xuthar would not pretend that the mountains had suddenly become harmless. The keep still stood, and the world remained full of enemies. But he had seen the photographs of the aftermath, and he knew which names to write beside the victory: Carro Steelcave, the companions and animal friends who had endured the ascent, and the ordinary people whose homes made the battle worth risking.",
+            "His own exhaustion did not vanish in a flash of light. Every ache still belonged to him. Yet it no longer carried the shame it once had. The day spent reading by the fire had been preparation rather than surrender, teaching him to value his own strength without worshipping it.",
+            "There had been another triumph earlier that day, made only of letters carried between Lakeshire and Darkshire. The Night Watch could not come to Redridge because its own town was threatened. Now the priest had helped answer a danger without taking defenders away from another vulnerable community.",
+            "The official quest ledgers would catch up in their own time. Xuthar had already given his account: both missions complete, and the people beside him still alive. A witness did not need to distort the record in order to make it legendary.",
+            "The victory deserved a great illustrated tribute, the kind that could turn smoke, stone and friendship into gold beneath an imagined sunset. But the true heart of it was quieter: two friends standing side by side beneath a defeated banner, knowing they could go home.",
+            "And home, tonight, meant the lake."
+          ]
+        },
+        {
+          "id": "x-nov20-lakeshore-celebration",
+          "chapter": "Chapter 170 · The Fire That Remembered Everyone",
+          "title": "The Feast on the Shores of Everstill",
+          "kind": "fiction",
+          "image": "assets/images/screenshots/WoWScrnShot_112026_210950.jpg",
+          "caption": "Original Full HD game screenshot · 21:09:50 · Xuthar and friends gathering beside the Lakeshire fire after the triumph.",
+          "paragraphs": [
+            "By the time Xuthar returned to the lakeside, the world had begun to exchange the sounds of battle for something he had almost forgotten how to enjoy: the sound of people glad to see one another.",
+            "A fire burned warmly near Lakeshire. Around it stood friends and travellers, companions with their beasts, familiar and unfamiliar figures drawn together by the simple miracle of a safe evening. The buildings above the shore glowed with lamplight, and beyond the gathering Lake Everstill lay dark and patient beneath the hills.",
+            "No commander's speech could have made the scene more beautiful. The gathering was not solemn. People laughed, talked, moved closer to the fire and shared the easy fellowship of those who had seen danger pass and wished to make the most of the hours left to them.",
+            "Xuthar looked at Carro Steelcave and remembered the journeys they had shared: the Deadmines, the Stockade, the red mountains and now the high gates of Stonewatch. His thoughts returned to the rare blade Carro had sought beneath Maraudon, but he did not ask the question tonight. It could wait until the friends had finished celebrating the fact that they were together.",
+            "He thought of the three Midnight Orbs, no longer in the hands of the Shadowcasters; of Tharil'zun, no longer commanding ambushes against the roads; and of the frightened people in the village whose names had never appeared in heroic histories. Perhaps one victory could not save every traveller. But it might let a few more of them return to their families.",
+            "Someone called for another toast, or so Xuthar imagined he would always remember the night. Firelight moved over armour and cloth and turned the nearby water to bronze. Around the camp the beasts settled, their vigilance softened by familiar voices. The priest let himself smile without searching for a reason to distrust the happiness.",
+            "He had been weary for days. He had once needed to stop and read because the very thought of another march hurt him. Tonight the tiredness returned, but it carried no bitterness. It was the honest exhaustion of something hard accomplished, made gentler by the sight of companions who understood it without explanation.",
+            "He opened his ledger beside the fire and wrote the names of the completed missions: SHADOW MAGIC. THARIL'ZUN. Beneath them he wrote a name that mattered more than either enemy: CARRO STEELCAVE. Then he added a final line for everyone whose laughter mingled with the lakeside wind.",
+            "'The fortress held our fear for a night. The fire held our friendship for longer.'",
+            "The last ember might fade before dawn, and the roads would call to them again. But for this one glorious evening, the adventures of Xuthar Morvayne ended not in silence, but in celebration. Under the dark sky of Redridge the companions stayed together, and the Last Witness wrote of joy."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3912,5 +4049,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-20 · Stonewatch Waits · Chapters 160–162 · Shadow Magic (#115) and Tharil'zun (#19) announced, not yet completed"
+  "lastEditorialUpdate": "2026-11-20 · Stonewatch Triumph · Chapters 163–170 · Shadow Magic and Tharil'zun player confirmed; 7 original 1920×1080 screenshots and one labelled illustration"
 }

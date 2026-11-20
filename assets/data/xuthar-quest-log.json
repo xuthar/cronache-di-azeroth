@@ -460,6 +460,26 @@
       "officialApiVerified": false,
       "evidence": "Quest Complete! · supplied 18 November Questie tracker",
       "bookChapterId": "x-nov18-targorr-last-stand"
+    },
+    {
+      "id": 115,
+      "name": "Shadow Magic",
+      "date": "2026-11-20",
+      "confirmationType": "explicit-player-report",
+      "countedAsDelivered": true,
+      "officialApiVerified": false,
+      "evidence": "Player explicitly confirmed both quests completed and supplied original Full HD gameplay screenshots of the Stonewatch battle, final aftermath, and lakeside celebration.",
+      "bookChapterId": "x-nov20-shadow-magic-final"
+    },
+    {
+      "id": 19,
+      "name": "Tharil'zun",
+      "date": "2026-11-20",
+      "confirmationType": "explicit-player-report",
+      "countedAsDelivered": true,
+      "officialApiVerified": false,
+      "evidence": "Player explicitly confirmed both quests completed and supplied original Full HD gameplay screenshots of the Stonewatch battle, final aftermath, and lakeside celebration.",
+      "bookChapterId": "x-nov20-tharilzun-final"
     }
   ],
   "travelMilestones": [
@@ -7568,40 +7588,138 @@
   },
   "eveningStonewatchPlanNov20": {
     "date": "2026-11-20",
-    "status": "announced-upcoming",
+    "status": "completed-by-player-report",
     "characterLevel": 24,
     "source": "Direct player announcement; official Blizzard Forever EU in-progress quest IDs checked",
     "quests": [
       {
         "id": 115,
         "name": "Shadow Magic",
-        "status": "in-progress",
+        "status": "completed-by-player-report",
         "objective": "Collect 3 Midnight Orbs from Blackrock Shadowcasters for Marshal Marris in Lakeshire.",
         "required": 3,
-        "secured": "not newly verified",
+        "secured": "Player confirms full completion",
         "referenceUrl": "https://www.wowhead.com/classic/quest=115/shadow-magic"
       },
       {
         "id": 19,
         "name": "Tharil'zun",
-        "status": "in-progress",
+        "status": "completed-by-player-report",
         "objective": "Defeat the Blackrock commander Tharil'zun near Stonewatch Keep, obtain his head and bring it to Marshal Marris.",
         "required": 1,
-        "secured": "not newly verified",
+        "secured": "Player confirms full completion",
         "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun"
       }
     ],
-    "questCompletionPolicy": "Announcement of intent is not completion; do not mark either quest handed in, looted, or defeated until a subsequent direct report or verified API completion.",
+    "questCompletionPolicy": "User reports both quests completed. Preserve prior official API snapshot as historical until refreshed.",
     "relatedBook": "x-nov20-stonewatch-calling",
     "plannedArea": "Redridge Mountains · Stonewatch Keep",
     "preciseTime": null,
-    "partyMembers": "Not reported",
-    "personalStatus": "Preparing for a difficult expedition; gameplay start not confirmed",
+    "partyMembers": "Carro Steelcave pictured in the battle and victory; animal companions present",
+    "personalStatus": "Victory: both quests completed, followed by a bonfire celebration by Lake Everstill",
     "officialBaseline": {
       "at": "2026-11-20T19:21:34.000Z",
       "level": 24,
       "completed": 245,
       "activeCount": 8
     }
+  },
+  "stonewatchTriumphNov20": {
+    "date": "2026-11-20",
+    "title": "Stonewatch Triumph · The Orbs, the Orc and the Fire",
+    "source": "Direct player confirmation with original game screenshots",
+    "lastOfficiallyConfirmedLevel": 24,
+    "quests": [
+      {
+        "id": 115,
+        "name": "Shadow Magic",
+        "status": "completed-by-player-report",
+        "objective": "All three Midnight Orbs recovered from Blackrock Shadowcasters"
+      },
+      {
+        "id": 19,
+        "name": "Tharil'zun",
+        "status": "completed-by-player-report",
+        "objective": "Blackrock commander defeated, mission completed"
+      }
+    ],
+    "companions": "Carro Steelcave visible on bridge and in the victory screenshot, with animals Hawk and Broken Tooth",
+    "celebration": "Friends gather beside a fire near Lakeshire, photographed at 21:09:50",
+    "officialApiCaveat": "Most recently checked Blizzard snapshot 20:21 Italy reported these IDs still active; it predates this player-confirmed outcome.",
+    "screenshots": [
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_205940.jpg",
+        "time": "2026-11-20 20:59:40",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "The lake-road climb",
+        "description": "The narrow Redridge shoreline route before reaching Stonewatch"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_205943.jpg",
+        "time": "2026-11-20 20:59:43",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "Above the silent waters",
+        "description": "The priest alone above Lake Everstill as the red hills rise"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_210004.jpg",
+        "time": "2026-11-20 21:00:04",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "The keep above the path",
+        "description": "Blackrock sentries guarding the ruined fortress approach"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_210324.jpg",
+        "time": "2026-11-20 21:03:24",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "The bridge into Stonewatch",
+        "description": "Carro Steelcave, Hawk and Broken Tooth visible ahead of Xuthar on the bridge"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_210544.jpg",
+        "time": "2026-11-20 21:05:44",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "Before the final battle",
+        "description": "Tharil'zun, Blackrock sentries and Shadowcaster visible in the enemy courtyard"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_210647.jpg",
+        "time": "2026-11-20 21:06:47",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "The Blackrock defeated",
+        "description": "Xuthar and Carro together beside fallen orcs near the banner"
+      },
+      {
+        "path": "assets/images/screenshots/WoWScrnShot_112026_210950.jpg",
+        "time": "2026-11-20 21:09:50",
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "title": "Celebration by the lake",
+        "description": "Friends gather around a bright fire near Lakeshire"
+      }
+    ],
+    "artwork": {
+      "path": "assets/images/gallery/stonewatch-triumph-artwork-20261120.png",
+      "kind": "commemorative AI-generated illustration",
+      "width": 1672,
+      "height": 941,
+      "notAScreenshot": true
+    },
+    "bookChapterIds": [
+      "x-nov20-shore-approach",
+      "x-nov20-red-hill",
+      "x-nov20-gates-of-stonewatch",
+      "x-nov20-bridge-with-carro",
+      "x-nov20-shadow-magic-final",
+      "x-nov20-tharilzun-final",
+      "x-nov20-stonewatch-victory",
+      "x-nov20-lakeshore-celebration"
+    ]
   }
 }

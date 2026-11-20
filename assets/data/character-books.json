@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-rest-and-maraudon",
+      "status": "living-novel-two-towns",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3598,6 +3598,107 @@
           ]
         },
         {
+          "id": "x-nov20-the-plea",
+          "chapter": "Chapter 154 · The Letter That Weighed More Than Steel",
+          "title": "The Road Would Not Wait Forever",
+          "kind": "fiction",
+          "paragraphs": [
+            "The day after the books, the fire and the blessed silence, Xuthar Morvayne found that his old aches had not gone away. They had merely grown quieter, like guests who knew how to wait outside a door. He rose without triumph and without haste, and in the morning light the familiar room at Lakeshire seemed smaller than it had the evening before.",
+            "On the table lay his ledger, open at the names he had written while resting. He had ended the previous day believing that there was courage in stopping. Today he discovered that there could be courage in beginning again, provided he did not mistake movement for healing.",
+            "The name Magistrate Solomon had been entered in the margin, beside a question no sword could answer: Who defends a town when those sworn to defend it have already been called elsewhere? Lakeshire had enemies beyond the red hills. Redridge had known stolen harvests, violent raiders, the shadow of Stonewatch and the bitter certainty that another alarm would come.",
+            "Solomon's appeal was not for a champion to slay another monster. It was for guards: trained men and women of the Night Watch, sent from Darkshire across the troubled lands, to stand beside the people of Lakeshire. Xuthar would carry a letter, not a weapon of war. It seemed an almost laughably modest task for a priest who had emerged from the Stockade alive.",
+            "And yet, when he took the sealed plea in his hands, he felt a weight that did not come from the wax. The letter was full of doors that would remain open or close depending upon what somebody far away decided.",
+            "He passed the last friendly sounds of the town with no triumphant escort. Behind him Lake Everstill held the pale sky; before him the roads drew toward a forest whose name was spoken with unease. He would not hurry merely to prove himself strong. A messenger who fell before delivering his message was only another problem for the people who waited.",
+            "Somewhere beyond the sea, Carro Steelcave still had his own struggle beneath Maraudon. Xuthar thought of the coveted Blade of Eternal Darkness and smiled without joy. His friend sought steel that legend had made nearly impossible to obtain. He himself sought only an answer.",
+            "The priest walked on, knowing neither request could command the world to be generous."
+          ]
+        },
+        {
+          "id": "x-nov20-into-duskwood",
+          "chapter": "Chapter 155 · Beneath the Trees That Kept Their Breath",
+          "title": "The Black Road to Darkshire",
+          "kind": "fiction",
+          "paragraphs": [
+            "At the borders of Duskwood, daylight changed character. It did not disappear at once; it thinned, as though the forest took a portion of it for every step a stranger made beneath its branches. The air seemed crowded with old warnings. The road was still a road, but its silence had teeth.",
+            "Xuthar had crossed dangerous country before. Westfall's open fields had taught him that sunlight offered no protection from cruelty. The prisons under Stormwind had taught him that great stone walls might conceal very small acts of despair. Duskwood offered a different lesson: what people could endure when fear became part of the weather.",
+            "In his mind returned the pages of The Last Guardian and the stories of guardians who believed their power sufficient to stand alone. How easily a legend could make a village seem small. How absurd that was, he thought, when a village was the very thing a guardian had been meant to protect.",
+            "He passed through the imagined hush of tangled branches and cold earth, hearing the creak of timber and the uncertain call of something too far away to name. In the literary telling he kept his staff near, but raised it against no enemy. The errand was a journey of words. His battles had already exacted their share.",
+            "Darkshire's lights came as a relief, yet not the warm relief of a safe haven. They were the lamps of a town determined to remain visible to one another despite the woods pressing around it. There were people behind every shutter, and every light required somebody willing to stay awake.",
+            "The Night Watch were more than soldiers in uniform. They were neighbours who had learned which footsteps belonged to familiar feet, which voices ought to be answered and when a gate should remain barred. To ask them to leave was to ask an entire community to lend away its last measure of sleep.",
+            "When he approached the place where Lord Ello Ebonlocke governed, Xuthar understood that whatever answer awaited him would not be simple. Solomon had called for aid because his town was exposed. Darkshire could refuse only because it was exposed too.",
+            "He straightened the folded letter. History often remembered the banners above a city. Today he wished to remember the hands that held a door shut."
+          ]
+        },
+        {
+          "id": "x-nov20-ebonlocke",
+          "chapter": "Chapter 156 · The Watch That Could Not March",
+          "title": "Lord Ebonlocke's Impossible Answer",
+          "kind": "fiction",
+          "paragraphs": [
+            "Lord Ello Ebonlocke received Solomon's request without surprise. There are pleas which arrive as news and others which arrive as the expected consequence of an older betrayal. The magistrate of Lakeshire asked for the Night Watch because Stormwind would not send the help he needed.",
+            "The ruler of Darkshire could hardly be indifferent. A neighbouring town under threat was no distant concern. But Duskwood had known what it meant to look toward Stormwind and see no soldiers coming. The Night Watch existed because, when darkness gathered around their homes, the people of Darkshire had been forced to become their own guardians.",
+            "Xuthar watched the Lord's hand settle over the letter. He imagined the names beneath it: the watchmen who stood between the forest and their families, the mothers waiting for a patrol to return, the old innkeeper who measured safety by how many footsteps passed his door.",
+            "The refusal, when it came, was not cruel. It was worse than cruelty. It was reasonable.",
+            "To send the Night Watch away would strip Darkshire of the very protection it had made for itself. The forest would not delay its hunger out of respect for diplomatic kindness. No commander could promise that the guards would reach Lakeshire before their own town was overrun.",
+            "Xuthar remembered the war histories read yesterday. The ancient empires had demanded that entire worlds choose between ruin and sacrifice. Here, in a room lit by ordinary lamps, two towns were being offered a smaller version of the same impossible arithmetic. Save the neighbours, perhaps lose the children. Keep the children safe, and send the neighbours home empty-handed.",
+            "He did not try to turn the refusal into an accusation. A priest could comfort a person. He could mend flesh, sometimes. He could not make two desperate communities share a guard who possessed only one body.",
+            "The reply was put into his keeping. It was a letter that denied assistance, yet it asked something of him all the same: bear the truth back intact. Do not soften it until the danger vanishes. Do not sharpen it until reasonable men look like monsters.",
+            "He bowed, not because he agreed that the matter was finished, but because he had seen what it cost Ebonlocke to give an answer that would disappoint another town.",
+            "Outside, the lamps of Darkshire burned steadily. None of their keepers knew the words just sent toward Lakeshire. They only knew they would have to remain."
+          ]
+        },
+        {
+          "id": "x-nov20-return",
+          "chapter": "Chapter 157 · The Road Back with Empty Hands",
+          "title": "An Answer No Messenger Wanted",
+          "kind": "fiction",
+          "paragraphs": [
+            "Some journeys feel longer when the burden they carry has become a disappointment. On the return toward Redridge, the letter in Xuthar's satchel made no sound. It lay among ordinary things, folded and sealed, as though there were nothing in it capable of changing the hopes of an entire village.",
+            "Xuthar had crossed roads with orders to slay, warnings to deliver and fragments of lost knowledge to recover. It was easier, he found, to carry a message when its ending promised applause. This letter would bring no cheering and no relief of reinforcements.",
+            "He thought of Magistrate Solomon waiting to be told that help was on the way. The Night Watch would not come. The answer was not a failure on Ebonlocke's part and not a victory for the monsters waiting outside either town. It was a reminder that courage could not make soldiers multiply by wishing.",
+            "On an ordinary day, the priest might have forced himself to hurry, to accomplish the next task before this one had settled inside him. But the previous day at the inn had changed his understanding of duty. There was no nobility in exhausting oneself until the smallest act of kindness became impossible.",
+            "He rested where the road permitted. In the imagined scene the shadow of the forest withdrew slowly, and the red lands returned without warmth. He had nothing to show for the distance except a letter and the knowledge of what he had been asked to witness.",
+            "Then he remembered his own creed: Memory before glory. One could win a battle and forget why it mattered. One could return from an errand defeated in hope and still preserve the truth of the people who had tried.",
+            "Carro, somewhere beneath Desolace, might understand. A rare blade could refuse to fall no matter how courageously its seekers returned. The answer was never to pretend the prize had been won. It was to remember the journey and decide, with open eyes, whether to undertake it again.",
+            "Xuthar drew nearer to Lakeshire. He wished the answer he carried had been different. He would not change a word of it."
+          ]
+        },
+        {
+          "id": "x-nov20-solomon",
+          "chapter": "Chapter 158 · The Magistrate and the Unsent Army",
+          "title": "The Letter That Changed the Room",
+          "kind": "fiction",
+          "paragraphs": [
+            "When Xuthar placed Ebonlocke's reply before Magistrate Solomon, the room seemed to grow quiet around the paper. Here at last was the answer the people of Lakeshire had awaited. It came from a fellow town besieged by fears of its own, and it offered not a single spare guard.",
+            "Solomon had believed help might come where the great city had refused it. Instead he learned, in the stark language of the reply, that Darkshire's Night Watch had been born out of precisely the same absence: Stormwind had left another town to protect itself.",
+            "The magistrate's anger rose toward a capital too distant to hear him. The army had withdrawn from Westfall. The guard no longer watched over Darkshire. What design, he wondered, could leave the countryside so exposed while the city still stood behind its walls?",
+            "Xuthar said little. Anger could be necessary, but in his experience its first words often mistook the nearest listener for the true author of a wrong. He had not made Ebonlocke refuse. He had not made Solomon plead. He was the bridge between two fears, and the bridge was already strained.",
+            "He knew the names of some who served behind Stormwind's stone: men who had kept order and others who had turned duty into cruelty. He knew the hidden ship beneath the Deadmines and the dangerous consequences of debts left unpaid. If this was a single conspiracy, it remained beyond the evidence in his hands. The priest would not turn suspicion into knowledge simply because suspicion made a sharper tale.",
+            "The magistrate acknowledged the messenger's service. The coins seemed absurdly small in a room suddenly filled with the question of a kingdom's responsibility. Xuthar took them without pride, not because the work was meaningless, but because the task had been done.",
+            "Outside, ordinary life went on. A vendor straightened a basket. Water touched the shores of Lake Everstill. The town had received no reinforcements, and yet it had received something: a witness who could say, without embellishment, why the answer had been no.",
+            "Xuthar opened his ledger to the names Solomon and Ebonlocke. He did not put either beneath the heading of cowardice. Beneath them he wrote a longer name, one no person had signed: Those Who Were Left to Hold the Line.",
+            "The road might lead him to Darkshire again, or into some other town calling for help. Today the story was complete, though the danger was not."
+          ]
+        },
+        {
+          "id": "x-nov20-both-lights",
+          "chapter": "Chapter 159 · Two Lamps Against the Dark",
+          "title": "What a Messenger Could Still Save",
+          "kind": "fiction",
+          "paragraphs": [
+            "That evening, in the story he would remember, the lake caught the last fading colour of the sky. Xuthar's feet were weary. His old injuries had not been miraculously healed by yesterday's rest, and the roads through Redridge and Duskwood had no intention of becoming gentler for his sake.",
+            "He had fulfilled two parts of a single plea: carried the appeal to Lord Ebonlocke and delivered the refusal back to Magistrate Solomon. No Night Watch marched into Lakeshire behind him. No company of soldiers made the roads safe. The two completed errands had neither conquered a fortress nor changed the number of swords available to either town.",
+            "But he had looked into the loneliness of two places that believed themselves forgotten by the same distant power. He knew now that their fears were not competing stories. They were echoes.",
+            "In the tavern's warm light he thought again of Carro Steelcave. His friend had pursued an ancient blade into the depths of Maraudon, where the earth kept its own secrets. Whether the prize had appeared, Xuthar did not know; there was no letter to say. He would rather wait for the dwarf's own account than invent a triumph to make the evening brighter.",
+            "Beside the ledger lay the books of the day before. The Guardians of Tirisfal spoke of enormous power. The World Tree and the Emerald Dream spoke of long, difficult healing. Neither volume contained a simple instruction for lending a watchman to a neighbour without leaving another neighbour undefended.",
+            "Xuthar dipped his pen. He might never solve such a problem himself. That did not make him powerless. A witness could keep the record true, could refuse to turn neighbours into enemies, could carry stories between those too frightened to speak.",
+            "He thought of two lamps: one glowing from Lakeshire's shore and another beneath Darkshire's restless trees. The space between them was full of dangerous country, but it was also a road. As long as the road could still be crossed, one town's suffering did not have to remain a secret to the other.",
+            "He closed his book, left his staff where it could be reached, and allowed the quiet to return. There would be other quests. The eight unfinished summons in the world had not forgotten him. Yet he would not begin them merely because the ledger still had empty spaces.",
+            "At the bottom of the page he wrote his final thought: 'An answer may fail to bring hope. The truth may still deserve a journey.'",
+            "And so the Last Witness recorded an achievement no commander would place upon a banner: a messenger had gone into the darkness and come home having carried another town's burden without pretending he could lift it alone."
+          ]
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3765,5 +3866,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-19 · A Day Without Swords · Chapters 148–153 · Carro’s Maraudon quest remains open"
+  "lastEditorialUpdate": "2026-11-20 · The Letter That Could Not Bring an Army · Chapters 154–159 · Two Messenger to Darkshire completions #145 and #146"
 }

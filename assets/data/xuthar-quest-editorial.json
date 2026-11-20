@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "language": "en",
   "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
@@ -306,8 +306,8 @@
     {
       "id": 145,
       "objective": "Carry Magistrate Solomon’s plea to Lord Ello Ebonlocke in Darkshire.",
-      "source": "editorial-paraphrase-of-quest-reference",
-      "referenceUrl": "https://classicdb.ch/?quest=145"
+      "source": "verified-completed-id-plus-official-quest-briefing",
+      "referenceUrl": "https://www.wowhead.com/forever/quest=145/messenger-to-darkshire"
     },
     {
       "id": 98387,
@@ -362,6 +362,12 @@
       "objective": "Answer Argos Nightwhisper’s request to contact Gershala Nightwhisper in Auberdine.",
       "source": "editorial-paraphrase-of-quest-reference",
       "referenceUrl": "https://classicdb.ch/?quest=3765"
+    },
+    {
+      "id": 146,
+      "objective": "Return Lord Ello Ebonlocke’s reply to Magistrate Solomon in Lakeshire; Darkshire cannot spare the Night Watch.",
+      "source": "verified-completed-id-plus-official-quest-briefing",
+      "referenceUrl": "https://www.wowhead.com/forever/quest=146/messenger-to-darkshire"
     }
   ],
   "episodes": [
@@ -485,11 +491,26 @@
       "subtitle": "The people behind the promises",
       "questIds": [
         92,
-        145,
         126
       ],
       "bookAnchor": "x-nov17-heroes-over-lakeshire",
-      "teaser": "Food for a hungry township, a letter asking for help, the fear carried by a distant howl: the quiet obligations belong beside the great battles."
+      "teaser": "Food for a hungry township and the fear carried by a distant howl: the quiet obligations belong beside great battles. Solomon's unfinished letter would receive its answer on 20 November."
+    },
+    {
+      "id": "nov20-messenger-darkshire",
+      "title": "Two Towns, No Army",
+      "subtitle": "Messenger to Darkshire · Parts 1 and 2",
+      "questIds": [
+        145,
+        146
+      ],
+      "bookAnchor": "x-nov20-the-plea",
+      "teaser": "Solomon asks for Darkshire's Night Watch. Ebonlocke cannot abandon his own people. Xuthar carries both a plea and a refusal, finding the cost of protection in two towns left to stand alone.",
+      "sourceNote": "Both IDs newly completed in the 20 Nov 20:21 Italy official Blizzard snapshot; literary dialogue, timing and atmosphere are fictional.",
+      "referenceUrls": [
+        "https://www.wowhead.com/forever/quest=145/messenger-to-darkshire",
+        "https://www.wowhead.com/forever/quest=146/messenger-to-darkshire"
+      ]
     }
   ]
 }

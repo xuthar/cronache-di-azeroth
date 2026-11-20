@@ -222,5 +222,42 @@ plans.push({
     }
   ]
 });
+plans.push({
+  "date": "2026-11-20",
+  "day": "Friday, 20 November",
+  "title": "The Letter That Could Not Bring an Army",
+  "place": "Lakeshire · Redridge Mountains ↔ Darkshire · Duskwood (quest-chain destinations)",
+  "level": "Level 24 · official profile",
+  "summary": "Two newly verified official Blizzard quest completions: Messenger to Darkshire (Part 1, #145) and Messenger to Darkshire (Part 2, #146). The first delivers Magistrate Solomon's appeal to Lord Ello Ebonlocke in Darkshire; the second brings Ebonlocke's refusal to send the Night Watch back to Solomon in Lakeshire. The official completed-quest-ID total rose from 243 to 245 between checks at 17:11 and 20:21 Italian time; current active quest count fell from nine to eight. The exact in-game hand-in times and all intermediate travel details are not available; scene, dialogue and weather in the book are literary reconstructions.",
+  "reportUrl": "book.html?character=xuthar#x-nov20-the-plea",
+  "bookUrl": "book.html?character=xuthar#x-nov20-the-plea",
+  "stops": [
+    {
+      "time": "20 November · precise departure unreported",
+      "title": "The Plea from Lakeshire · Quest #145",
+      "description": "Magistrate Solomon needs help defending Lakeshire and sends an appeal for guards from Darkshire's Night Watch. The official API confirms completion of Messenger to Darkshire Part 1."
+    },
+    {
+      "time": "20 November · quest-chain destination",
+      "title": "Darkshire · Lord Ello Ebonlocke",
+      "description": "The message reaches Ebonlocke, whose town is threatened too. He cannot send away the Night Watch which protects Duskwood; this is the story's central choice."
+    },
+    {
+      "time": "20 November · precise return time unreported",
+      "title": "The Answer Carried Home · Quest #146",
+      "description": "Ebonlocke's written reply returns to Magistrate Solomon in Lakeshire. Messenger to Darkshire Part 2 is newly marked completed by Blizzard."
+    },
+    {
+      "time": "20 November · official sync 20:21 Italy",
+      "title": "The Record of Two Finished Errands",
+      "description": "Blizzard completed quest IDs 243 → 245 (+145 and +146); active quests 9 → 8. Xuthar remains level 24. No further quest, loot, encounter or level is assigned to today without a separate confirmation."
+    },
+    {
+      "time": "Literary closing scene · hour unknown",
+      "title": "Two Lamps Against the Dark",
+      "description": "The Last Witness turns two courier errands into a story of civic duty and the impossibility of lending away a town's only defenders. Fictional thoughts and dialogue are separate from game data."
+    }
+  ]
+});
 return plans;
 })();

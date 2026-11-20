@@ -1,10 +1,11 @@
-/* Latest personal campaign; official Blizzard API data remains separate from the literary record. */
-(()=>{'use strict';if(!['forever','missions','book','chronicle','gallery'].includes(document.body.dataset.page))return;
+/* Current literary campaign. Quest facts from 20 Nov official Blizzard snapshot are separate from unverified location/presence. */
+(()=>{'use strict';
+if(!['forever','gallery'].includes(document.body.dataset.page))return;
 const main=document.getElementById('main');
-if(main&&!document.getElementById('rest-nov19-update'))main.insertAdjacentHTML('afterbegin',
-`<section class="wrap" id="rest-nov19-update" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(219,184,127,.45);border-radius:12px;background:linear-gradient(120deg,#2f241d,#111c2b);color:#f5e6ca" aria-labelledby="rest-nov19-heading">
-<p class="eyebrow">19 NOVEMBER 2026 · LAKESHIRE · LEVEL 24 · RESTING</p>
-<h2 id="rest-nov19-heading" style="font-family:Georgia,serif;color:#f2cf99">A Day Without Swords</h2>
-<p style="line-height:1.8;max-width:80ch">Exhausted and troubled by old pains, Xuthar leaves the roads to others today. Beside the Lakeshire hearth, he reads of the Kaldorei, Tirisfal and the Emerald Dream, while his thoughts follow Carro Steelcave into Maraudon in pursuit of the rare Blade of Eternal Darkness. No adventuring or quest completions for Xuthar today; the blade has not been confirmed found.</p>
-<p><a href="book.html?character=xuthar#x-nov19-old-wounds" style="color:#ffe0a8">The Last Witness · Chapters 148–153 →</a> · <a href="journal.html#day-2026-11-19" style="color:#ffe0a8">Travel Journal →</a></p></section>`);
+if(main&&!document.getElementById('darkshire-nov20-update'))main.insertAdjacentHTML('afterbegin',
+`<section class="wrap" id="darkshire-nov20-update" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(215,171,108,.43);border-radius:12px;background:linear-gradient(110deg,#192a2b,#111a28);color:#f5e7cf">
+<p class="eyebrow">20 NOVEMBER 2026 · TWO QUESTS COMPLETED · LEVEL 24</p>
+<h2 style="font-family:Georgia,serif;color:#f3d49e">The Letter That Could Not Bring an Army</h2>
+<p style="line-height:1.8;max-width:82ch">Two newly completed steps in <em>Messenger to Darkshire</em> lead from Magistrate Solomon in Lakeshire to Lord Ebonlocke in Duskwood and back. The Night Watch cannot leave its own threatened town. Blizzard now reports 245 completed quest IDs and eight in progress; precise travel times and the current location remain unknown.</p>
+<p><a href="book.html?character=xuthar#x-nov20-the-plea" style="color:#ffe0a8">The Last Witness · Chapters 154–159 →</a> · <a href="journal.html#day-2026-11-20" style="color:#ffe0a8">Travel Journal →</a> · <a href="missions.html#nov20-verified-quests" style="color:#ffe0a8">Verified quests →</a></p></section>`);
 })();

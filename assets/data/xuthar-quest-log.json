@@ -7503,5 +7503,67 @@
     ],
     "bookChapterId": "x-nov18-targorr-last-stand",
     "screenshot": "assets/images/screenshots/quest-tracker-20261118.png"
+  },
+  "officialQuestAuditNov20": {
+    "date": "2026-11-20",
+    "source": "BlizzardOfficialAPI",
+    "verification": "Two consecutive verified Xuthar Forever EU public snapshots",
+    "earlierSnapshotAt": "2026-11-20T16:11:57.000Z",
+    "laterSnapshotAt": "2026-11-20T19:21:34.000Z",
+    "level": 24,
+    "previousCompletedQuestIds": 243,
+    "currentCompletedQuestIds": 245,
+    "previousActiveCount": 9,
+    "currentActiveCount": 8,
+    "newCompleted": [
+      {
+        "id": 145,
+        "name": "Messenger to Darkshire (Part 1)",
+        "objective": "Deliver Solomon's plea for Night Watch support to Lord Ello Ebonlocke in Darkshire.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=145/messenger-to-darkshire"
+      },
+      {
+        "id": 146,
+        "name": "Messenger to Darkshire (Part 2)",
+        "objective": "Return Ebonlocke's refusal to send the Night Watch to Magistrate Solomon in Lakeshire.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=146/messenger-to-darkshire"
+      }
+    ],
+    "activeSnapshot": [
+      {
+        "id": 3765,
+        "name": "The Corruption Abroad"
+      },
+      {
+        "id": 95772,
+        "name": "Songblade Search"
+      },
+      {
+        "id": 2928,
+        "name": "Gyrodrillmatic Excavationators"
+      },
+      {
+        "id": 2923,
+        "name": "Tinkmaster Overspark"
+      },
+      {
+        "id": 115,
+        "name": "Shadow Magic"
+      },
+      {
+        "id": 97894,
+        "name": "Business in Auberdine"
+      },
+      {
+        "id": 19,
+        "name": "Tharil'zun"
+      },
+      {
+        "id": 1078,
+        "name": "Retrieval for Mauren"
+      }
+    ],
+    "scope": "Observed newly completed IDs between official snapshots on 20 Nov. Exact hand-in times, route order beyond quest requirements, travel schedule, other encounters and reward claims are not provided by the API. Root quest tracker recordedAt=18 Nov is intentionally preserved as a historical player screenshot record.",
+    "bookAnchor": "x-nov20-the-plea"
   }
 }

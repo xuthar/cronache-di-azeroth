@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "language": "en",
   "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
@@ -380,6 +380,66 @@
       "objective": "Defeat the Blackrock commander Tharil'zun and return his head to Marshal Marris.",
       "source": "player-and-Blizzard-official-confirmed-2026-11-20",
       "referenceUrl": "https://www.wowhead.com/classic/quest=19/tharilzun"
+    },
+    {
+      "id": 56,
+      "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+    },
+    {
+      "id": 67,
+      "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
+    },
+    {
+      "id": 96139,
+      "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+    },
+    {
+      "id": 173,
+      "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+    },
+    {
+      "id": 101,
+      "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+    },
+    {
+      "id": 174,
+      "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+    },
+    {
+      "id": 90,
+      "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+    },
+    {
+      "id": 163,
+      "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+    },
+    {
+      "id": 164,
+      "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+    },
+    {
+      "id": 165,
+      "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+    },
+    {
+      "id": 377,
+      "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+    },
+    {
+      "id": 66,
+      "objective": "Speak to Clerk Daltry in Darkshire Town Hall about the name Stalvan, following Madame Eva’s warning.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=66/the-legend-of-stalvan"
     }
   ],
   "episodes": [
@@ -547,6 +607,21 @@
       "illustration": "assets/images/gallery/stonewatch-triumph-artwork-20261120.png",
       "verifiedByBlizzard": true,
       "verifiedAt": "2026-11-20T21:01:49.000Z"
+    },
+    {
+      "id": "duskwood-arrival-nov21",
+      "title": "Where the Lanterns Hold",
+      "subtitle": "Duskwood · The Adventure Begins",
+      "questIds": [
+        66
+      ],
+      "bookAnchor": "x-nov21-darkshire-arrival",
+      "teaser": "Xuthar returns to the town that could not spare an army. The first Stalvan errand is complete, while eleven new commissions open the roads of Duskwood.",
+      "sourceNote": "Darkshire arrival announced by Xuthar with original Full HD screenshot. Official API verifies introductory Stalvan #66 complete and next stage #67 active. Novel scenes and personal motivation are roleplay.",
+      "verifiedByBlizzard": true,
+      "screenshotPaths": [
+        "assets/images/screenshots/WoWScrnShot_112126_213338.jpg"
+      ]
     }
   ]
 }

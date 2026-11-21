@@ -1,7 +1,16 @@
-/* Stonewatch victory · player-confirmed, with seven original 1920x1080 game screenshots. */
-(()=>{'use strict';if(!['forever','gallery'].includes(document.body.dataset.page))return;const main=document.getElementById('main');if(main&&!document.getElementById('stonewatch-victory-20261120'))main.insertAdjacentHTML('afterbegin',
-`<section class="wrap" id="stonewatch-victory-20261120" style="padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid rgba(219,168,105,.52);border-radius:12px;background:linear-gradient(110deg,#2d231d,#101a29);color:#f5e6ca">
-<p class="eyebrow">20 NOVEMBER 2026 · STONEWATCH TRIUMPH · XUTHAR & CARRO</p>
-<h2 style="font-family:Georgia,serif;color:#f2cf99">The Orbs, the Orc and the Fire Beside the Lake</h2>
-<p style="line-height:1.8;max-width:82ch">The three Midnight Orbs are recovered and Tharil'zun lies defeated. Xuthar explicitly confirms both missions complete. Seven original Full HD photographs record the ascent, Carro Steelcave beside his friend and the joyous Lakeshire bonfire where companions celebrated the victory. Blizzard's 22:01 Italian-time EU snapshot now verifies both completions: 247 quest IDs done and six active, level 24.</p>
-<p><a href="book.html?character=xuthar#x-nov20-shore-approach" style="color:#ffe0a8">The Last Witness · Chapters 163–170 →</a> · <a href="gallery.html#stonewatch-triumph-photos" style="color:#ffe0a8">Seven original Full HD photographs →</a></p></section>`);})();
+/* Current chapter · Duskwood arrival, 21 November 2026. */
+(() => {
+  'use strict';
+  if (!['forever','gallery'].includes(document.body.dataset.page)) return;
+  const main = document.getElementById('main');
+  if (!main || document.getElementById('current-duskwood-chapter')) return;
+  const section = document.createElement('section');
+  section.className = 'wrap';
+  section.id = 'current-duskwood-chapter';
+  section.style.cssText = 'padding:26px clamp(18px,3vw,32px);margin-block:20px;border:1px solid #587789;border-radius:12px;background:linear-gradient(110deg,#183640,#101a29);color:#f5e6ca;font-size:1rem';
+  section.innerHTML = `<p class="eyebrow">21 NOVEMBER 2026 · DUSKWOOD BEGINS · LEVEL 24</p>
+<h2 style="font-family:Georgia,serif;color:#f2cf99">Darkshire · Where the Lanterns Hold</h2>
+<p style="line-height:1.8;max-width:82ch">Xuthar arrives beneath Darkshire’s clock tower. Eleven new commissions open Duskwood: the Night Watch, Stalvan’s first clues and the Valor family’s forgotten history. The official profile confirms 248 completed quest IDs and 17 active quests. The introductory Stalvan errand #66 is complete; the next stage remains active.</p>
+<p style="line-height:1.8"><a href="duskwood.html" style="color:#ffe0a8">Duskwood: history, places and new quests</a> · <a href="book.html?character=xuthar#x-nov21-darkshire-arrival" style="color:#ffe0a8">The Last Witness · Chapters 171–178</a> · <a href="gallery.html#duskwood-arrival-photos" style="color:#ffe0a8">The original Full HD photograph</a></p>`;
+  main.prepend(section);
+})();

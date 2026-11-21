@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-21",
+  "title": "Duskwood · Where the Lanterns Hold",
+  "location": "Duskwood · Darkshire",
+  "level": 24,
+  "screenshot": {
+    "path": "assets/images/screenshots/WoWScrnShot_112126_213338.jpg",
+    "width": 1920,
+    "height": 1080,
+    "captureTime": "21:33:38",
+    "captureTimeSource": "Original screenshot filename",
+    "sha256": "c6320a6162b69c4c0333599684a66e958bec764a66881457eebc6bb93302a930"
+  },
+  "officialSnapshot": {
+    "checkedAt": 1795297431,
+    "checkedAtIso": "2026-11-21T21:43:51+00:00",
+    "completedCount": 248,
+    "activeCount": 17,
+    "newCompletedIds": [
+      66
+    ]
+  },
+  "newlyObservedActiveQuests": [
+    {
+      "id": 56,
+      "name": "The Night Watch",
+      "giver": "Commander Althea Ebonlocke",
+      "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+      "story": "The town needs another defender on the cemetery road.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+    },
+    {
+      "id": 67,
+      "name": "The Legend of Stalvan",
+      "giver": "Clerk Daltry",
+      "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+      "story": "The introductory errand #66 is complete; the investigation continues with #67.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
+    },
+    {
+      "id": 96139,
+      "name": "The Valor Family",
+      "giver": "Sirra Von’Indi",
+      "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+      "story": "A Forever story about preserving the memory of a local family. The book has not yet been recovered.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+    },
+    {
+      "id": 173,
+      "name": "Worgen in the Woods",
+      "giver": "Calor",
+      "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+      "story": "The Nightbane threat reaches beyond the town’s lamps.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+    },
+    {
+      "id": 101,
+      "name": "The Totem of Infliction",
+      "giver": "Madame Eva",
+      "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+      "story": "A protective charm requires materials from the very threats haunting the forest.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+    },
+    {
+      "id": 174,
+      "name": "Look to the Stars",
+      "giver": "Viktori Prism’Antras",
+      "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+      "story": "An attempt to understand the forest through observation as well as magic.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+    },
+    {
+      "id": 90,
+      "name": "Seasoned Wolf Kabobs",
+      "giver": "Chef Grual",
+      "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+      "story": "Even a frightened town needs a working kitchen. Forever requires the flanks, without the old separate seasoning errand.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+    },
+    {
+      "id": 163,
+      "name": "Raven Hill",
+      "giver": "Elaine Carevin",
+      "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+      "story": "An unexplained light and moving shadows draw attention to the western ruins.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+    },
+    {
+      "id": 164,
+      "name": "Deliveries to Sven",
+      "giver": "Elaine Carevin",
+      "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+      "story": "Sven’s small company cannot spare a defender to collect supplies.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+    },
+    {
+      "id": 165,
+      "name": "The Hermit",
+      "giver": "Elaine Carevin",
+      "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+      "story": "An apparently simple welfare visit opens another thread. Xuthar has not yet made the visit.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+    },
+    {
+      "id": 377,
+      "name": "Crime and Punishment",
+      "giver": "Councilman Millstipe",
+      "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+      "story": "Accepted in Darkshire, with an objective in a different zone. This newly accepted request does not change the recorded Stockade victories.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+    }
+  ],
+  "existingActiveQuests": [
+    {
+      "id": 3765,
+      "name": "The Corruption Abroad"
+    },
+    {
+      "id": 95772,
+      "name": "Songblade Search"
+    },
+    {
+      "id": 2928,
+      "name": "Gyrodrillmatic Excavationators"
+    },
+    {
+      "id": 2923,
+      "name": "Tinkmaster Overspark"
+    },
+    {
+      "id": 97894,
+      "name": "Business in Auberdine"
+    },
+    {
+      "id": 1078,
+      "name": "Retrieval for Mauren"
+    }
+  ],
+  "completion": {
+    "id": 66,
+    "name": "The Legend of Stalvan",
+    "stage": "Introduction: Madame Eva to Clerk Daltry",
+    "status": "completed",
+    "officialApiVerified": true
+  },
+  "interpretation": "Newly observed active quests since the preceding verified public snapshot. The API does not return acceptance times or per-objective progress. The screenshot and player announcement establish arrival in Darkshire. Personal motive and dialogue in the novel are roleplay.",
+  "bookChapterIds": [
+    "x-nov21-darkshire-arrival",
+    "x-nov21-the-returned-letter",
+    "x-nov21-the-night-watch",
+    "x-nov21-stalvan-name",
+    "x-nov21-valor-memory",
+    "x-nov21-bread-and-stars",
+    "x-nov21-roads-beyond-town",
+    "x-nov21-first-step-into-dusk"
+  ]
+}

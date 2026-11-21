@@ -1,81 +1,167 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-18",
-  "location": "Stormwind · The Stockade",
-  "source": "Player report and 18 November Questie tracker",
-  "scope": "All eleven tracked entries are visible. Quest Complete! counts as delivered in the Chronicle. Exact hand-in times, rewards and level changes are unreported. Unlisted quest outcomes are not inferred.",
+  "recordedAt": "2026-11-21",
+  "location": "Duskwood · Darkshire",
+  "source": "Player arrival announcement and original screenshot; current quest list from verified Blizzard Forever EU profile",
+  "scope": "Darkshire arrival reported by Xuthar and pictured at 21:33:38. Current quests are the official snapshot; objective progress and precise acceptance/hand-in times are not supplied.",
   "readyForTurnIn": [],
   "active": [
     {
+      "id": 174,
+      "name": "Look to the Stars",
+      "giver": "Viktori Prism’Antras",
+      "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+      "story": "An attempt to understand the forest through observation as well as magic.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+    },
+    {
+      "id": 101,
+      "name": "The Totem of Infliction",
+      "giver": "Madame Eva",
+      "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+      "story": "A protective charm requires materials from the very threats haunting the forest.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+    },
+    {
+      "id": 96139,
+      "name": "The Valor Family",
+      "giver": "Sirra Von’Indi",
+      "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+      "story": "A Forever story about preserving the memory of a local family. The book has not yet been recovered.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+    },
+    {
+      "id": 173,
+      "name": "Worgen in the Woods",
+      "giver": "Calor",
+      "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+      "story": "The Nightbane threat reaches beyond the town’s lamps.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+    },
+    {
+      "id": 3765,
+      "name": "The Corruption Abroad"
+    },
+    {
+      "id": 95772,
+      "name": "Songblade Search"
+    },
+    {
+      "id": 90,
+      "name": "Seasoned Wolf Kabobs",
+      "giver": "Chef Grual",
+      "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+      "story": "Even a frightened town needs a working kitchen. Forever requires the flanks, without the old separate seasoning errand.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+    },
+    {
+      "id": 56,
+      "name": "The Night Watch",
+      "giver": "Commander Althea Ebonlocke",
+      "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+      "story": "The town needs another defender on the cemetery road.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+    },
+    {
+      "id": 377,
+      "name": "Crime and Punishment",
+      "giver": "Councilman Millstipe",
+      "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+      "story": "Accepted in Darkshire, with an objective in a different zone. This newly accepted request does not change the recorded Stockade victories.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+    },
+    {
       "id": 2928,
-      "name": "Gyrodrillmatic Excavationators",
-      "level": "30D",
-      "groupLabel": "Gnomeregan",
-      "status": "active",
-      "objective": "Collect 24 Robo-mechanical Guts for Shoni in Stormwind.",
-      "description": "Shoni needs robot parts to keep her excavation machines working. The tracker still shows no parts collected; this remains a future expedition.",
-      "objectives": [
-        {
-          "name": "Robo-mechanical Guts",
-          "current": 0,
-          "total": 24
-        }
-      ],
-      "sourceUrl": "https://db.icy-veins.com/wow-forever/quests/2928",
-      "rawStatus": "0/24 Robo-mechanical Guts",
-      "countedAsDelivered": false,
-      "officialApiVerified": false,
-      "newToday": false
+      "name": "Gyrodrillmatic Excavationators"
     },
     {
-      "name": "Shadow Magic",
-      "level": "23+",
-      "groupLabel": "Redridge Mountains",
+      "id": 165,
+      "name": "The Hermit",
+      "giver": "Elaine Carevin",
+      "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+      "story": "An apparently simple welfare visit opens another thread. Xuthar has not yet made the visit.",
       "status": "active",
-      "objectives": [
-        {
-          "name": "Midnight Orb",
-          "current": 0,
-          "total": 3
-        }
-      ],
-      "rawStatus": "0/3 Midnight Orb"
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
     },
     {
-      "name": "Tharil’zun",
-      "level": "25+",
-      "groupLabel": "Redridge Mountains",
+      "id": 2923,
+      "name": "Tinkmaster Overspark"
+    },
+    {
+      "id": 163,
+      "name": "Raven Hill",
+      "giver": "Elaine Carevin",
+      "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+      "story": "An unexplained light and moving shadows draw attention to the western ruins.",
       "status": "active",
-      "objectives": [
-        {
-          "name": "Tharil’zun’s Head",
-          "current": 0,
-          "total": 1
-        }
-      ],
-      "rawStatus": "0/1 Tharil’zun’s Head"
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+    },
+    {
+      "id": 164,
+      "name": "Deliveries to Sven",
+      "giver": "Elaine Carevin",
+      "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+      "story": "Sven’s small company cannot spare a defender to collect supplies.",
+      "status": "active",
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+    },
+    {
+      "id": 97894,
+      "name": "Business in Auberdine"
     },
     {
       "id": 1078,
-      "name": "Retrieval for Mauren",
-      "level": 26,
-      "groupLabel": "Stonetalon Mountains",
+      "name": "Retrieval for Mauren"
+    },
+    {
+      "id": 67,
+      "name": "The Legend of Stalvan",
+      "giver": "Clerk Daltry",
+      "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+      "story": "The introductory errand #66 is complete; the investigation continues with #67.",
       "status": "active",
-      "objective": "Collect eight Crystalized Scales for Collin Mauren in Stormwind.",
-      "description": "Mauren seeks basilisk scales from the Charred Vale as a spell reagent. The tracker still shows zero of eight; no new Stonetalon journey or reward is added.",
-      "objectives": [
-        {
-          "name": "Crystalized Scales",
-          "current": 0,
-          "total": 8
-        }
-      ],
-      "sourceUrl": "https://www.wowhead.com/classic/quest=1078/retrieval-for-mauren",
-      "rawStatus": "0/8 Crystalized Scales",
-      "countedAsDelivered": false,
-      "officialApiVerified": false,
-      "newToday": false
+      "objectiveProgress": null,
+      "acceptedAt": null,
+      "officialApiVerified": true,
+      "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
     }
   ],
   "historical": [
@@ -185,7 +271,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "day02-20261106-205922-guard-thomas-lvl10",
+  "snapshotId": "duskwood-20261121-official-arrival",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -244,8 +330,8 @@
     ]
   },
   "characterLevel": 24,
-  "characterLevelSource": "Explicit player report, 18 November 2026",
-  "characterLevelRecordedAt": "2026-11-18",
+  "characterLevelSource": "BlizzardOfficialAPI",
+  "characterLevelRecordedAt": "2026-11-21",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -482,6 +568,18 @@
       "evidence": "Player explicitly confirmed both quests completed and supplied original Full HD gameplay screenshots of the Stonewatch battle, final aftermath, and lakeside celebration.",
       "bookChapterId": "x-nov20-tharilzun-final",
       "blizzardVerifiedAt": "2026-11-20T21:01:49.000Z"
+    },
+    {
+      "id": 66,
+      "name": "The Legend of Stalvan",
+      "date": "2026-11-21",
+      "status": "completed",
+      "confirmationType": "BlizzardOfficialAPI",
+      "officialApiVerified": true,
+      "countedAsDelivered": true,
+      "bookChapterId": "x-nov21-stalvan-name",
+      "evidence": "Newly present in official completedQuestIds; #67 is the active next stage. Only the introduction is complete.",
+      "blizzardVerifiedAt": "2026-11-21T21:43:51+00:00"
     }
   ],
   "travelMilestones": [
@@ -950,7 +1048,7 @@
       "publishedOnSite": false
     }
   ],
-  "latestReportAt": "2026-11-18",
+  "latestReportAt": "2026-11-21",
   "previousStormwindSnapshot": {
     "snapshotId": "stormwind-20261105-202423",
     "location": "Stormwind City · Trade District · 63.1, 74.6",
@@ -1263,12 +1361,12 @@
       "apiMilestone": "At level 10, public Armory eligibility; successful API fetch still unverified. Workflow OFF pending credentials and verification."
     }
   ],
-  "currentSessionId": "2026-11-18-stockade-finale",
-  "currentSessionStatus": "stockade-expedition-complete",
-  "currentChronicleDate": "2026-11-18",
+  "currentSessionId": "duskwood-20261121-arrival",
+  "currentSessionStatus": "adventure-in-progress",
+  "currentChronicleDate": "2026-11-21",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Stormwind · The Stockade",
+  "lastConfirmedLocation": "Duskwood · Darkshire",
   "currentQuestTrackerLocation": "Zone not shown in tracker; Stockade expedition confirmed by player",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
@@ -1730,6 +1828,86 @@
           "name": "Camping 101: Fishing",
           "lastSeen": "Ready for turn-in at 15:27",
           "latestStatus": "not visible; turn-in unknown"
+        }
+      ]
+    },
+    {
+      "snapshotId": "root-tracker-before-duskwood-20261121",
+      "recordedAt": "2026-11-18",
+      "location": "Stormwind · The Stockade",
+      "source": "Player report and 18 November Questie tracker",
+      "scope": "All eleven tracked entries are visible. Quest Complete! counts as delivered in the Chronicle. Exact hand-in times, rewards and level changes are unreported. Unlisted quest outcomes are not inferred.",
+      "readyForTurnIn": [],
+      "active": [
+        {
+          "id": 2928,
+          "name": "Gyrodrillmatic Excavationators",
+          "level": "30D",
+          "groupLabel": "Gnomeregan",
+          "status": "active",
+          "objective": "Collect 24 Robo-mechanical Guts for Shoni in Stormwind.",
+          "description": "Shoni needs robot parts to keep her excavation machines working. The tracker still shows no parts collected; this remains a future expedition.",
+          "objectives": [
+            {
+              "name": "Robo-mechanical Guts",
+              "current": 0,
+              "total": 24
+            }
+          ],
+          "sourceUrl": "https://db.icy-veins.com/wow-forever/quests/2928",
+          "rawStatus": "0/24 Robo-mechanical Guts",
+          "countedAsDelivered": false,
+          "officialApiVerified": false,
+          "newToday": false
+        },
+        {
+          "name": "Shadow Magic",
+          "level": "23+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Midnight Orb",
+              "current": 0,
+              "total": 3
+            }
+          ],
+          "rawStatus": "0/3 Midnight Orb"
+        },
+        {
+          "name": "Tharil’zun",
+          "level": "25+",
+          "groupLabel": "Redridge Mountains",
+          "status": "active",
+          "objectives": [
+            {
+              "name": "Tharil’zun’s Head",
+              "current": 0,
+              "total": 1
+            }
+          ],
+          "rawStatus": "0/1 Tharil’zun’s Head"
+        },
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren",
+          "level": 26,
+          "groupLabel": "Stonetalon Mountains",
+          "status": "active",
+          "objective": "Collect eight Crystalized Scales for Collin Mauren in Stormwind.",
+          "description": "Mauren seeks basilisk scales from the Charred Vale as a spell reagent. The tracker still shows zero of eight; no new Stonetalon journey or reward is added.",
+          "objectives": [
+            {
+              "name": "Crystalized Scales",
+              "current": 0,
+              "total": 8
+            }
+          ],
+          "sourceUrl": "https://www.wowhead.com/classic/quest=1078/retrieval-for-mauren",
+          "rawStatus": "0/8 Crystalized Scales",
+          "countedAsDelivered": false,
+          "officialApiVerified": false,
+          "newToday": false
         }
       ]
     }
@@ -3284,12 +3462,14 @@
       "narrativeContinuity": "Xuthar has travelled to the western edge of the forest following the Riverpaw hunt; the next full chapter can begin after his entry into Westfall."
     }
   ],
-  "latestPhotographedZone": "Redridge Mountains",
-  "latestPhotographedAt": "2026-11-17 21:24:01 · capture filename",
+  "latestPhotographedZone": "Duskwood · Darkshire",
+  "latestPhotographedAt": "2026-11-21 21:33:38",
   "currentJourney": {
-    "chapter": "When the Iron Fell Silent",
-    "stage": "Stockade finale · victorious with Carro Steelcave",
-    "status": "Expedition complete · last confirmed level 24"
+    "date": "2026-11-21",
+    "zone": "Duskwood",
+    "location": "Darkshire",
+    "activity": "The Duskwood adventure begins",
+    "bookAnchor": "x-nov21-darkshire-arrival"
   },
   "currentEquipmentReports": [
     {
@@ -7729,5 +7909,283 @@
     "officialVerifiedAt": "2026-11-20T21:01:49.000Z",
     "completedQuestIds": 247,
     "activeQuestsRemaining": 6
-  }
+  },
+  "officialQuestAuditNov21": {
+    "date": "2026-11-21",
+    "title": "Duskwood · Where the Lanterns Hold",
+    "location": "Duskwood · Darkshire",
+    "level": 24,
+    "screenshot": {
+      "path": "assets/images/screenshots/WoWScrnShot_112126_213338.jpg",
+      "width": 1920,
+      "height": 1080,
+      "captureTime": "21:33:38",
+      "captureTimeSource": "Original screenshot filename",
+      "sha256": "c6320a6162b69c4c0333599684a66e958bec764a66881457eebc6bb93302a930"
+    },
+    "officialSnapshot": {
+      "checkedAt": 1795297431,
+      "checkedAtIso": "2026-11-21T21:43:51+00:00",
+      "completedCount": 248,
+      "activeCount": 17,
+      "newCompletedIds": [
+        66
+      ]
+    },
+    "newlyObservedActiveQuests": [
+      {
+        "id": 56,
+        "name": "The Night Watch",
+        "giver": "Commander Althea Ebonlocke",
+        "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+        "story": "The town needs another defender on the cemetery road.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+      },
+      {
+        "id": 67,
+        "name": "The Legend of Stalvan",
+        "giver": "Clerk Daltry",
+        "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+        "story": "The introductory errand #66 is complete; the investigation continues with #67.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
+      },
+      {
+        "id": 96139,
+        "name": "The Valor Family",
+        "giver": "Sirra Von’Indi",
+        "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+        "story": "A Forever story about preserving the memory of a local family. The book has not yet been recovered.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+      },
+      {
+        "id": 173,
+        "name": "Worgen in the Woods",
+        "giver": "Calor",
+        "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+        "story": "The Nightbane threat reaches beyond the town’s lamps.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+      },
+      {
+        "id": 101,
+        "name": "The Totem of Infliction",
+        "giver": "Madame Eva",
+        "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+        "story": "A protective charm requires materials from the very threats haunting the forest.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+      },
+      {
+        "id": 174,
+        "name": "Look to the Stars",
+        "giver": "Viktori Prism’Antras",
+        "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+        "story": "An attempt to understand the forest through observation as well as magic.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+      },
+      {
+        "id": 90,
+        "name": "Seasoned Wolf Kabobs",
+        "giver": "Chef Grual",
+        "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+        "story": "Even a frightened town needs a working kitchen. Forever requires the flanks, without the old separate seasoning errand.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+      },
+      {
+        "id": 163,
+        "name": "Raven Hill",
+        "giver": "Elaine Carevin",
+        "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+        "story": "An unexplained light and moving shadows draw attention to the western ruins.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+      },
+      {
+        "id": 164,
+        "name": "Deliveries to Sven",
+        "giver": "Elaine Carevin",
+        "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+        "story": "Sven’s small company cannot spare a defender to collect supplies.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+      },
+      {
+        "id": 165,
+        "name": "The Hermit",
+        "giver": "Elaine Carevin",
+        "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+        "story": "An apparently simple welfare visit opens another thread. Xuthar has not yet made the visit.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+      },
+      {
+        "id": 377,
+        "name": "Crime and Punishment",
+        "giver": "Councilman Millstipe",
+        "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+        "story": "Accepted in Darkshire, with an objective in a different zone. This newly accepted request does not change the recorded Stockade victories.",
+        "status": "active",
+        "objectiveProgress": null,
+        "acceptedAt": null,
+        "officialApiVerified": true,
+        "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+      }
+    ],
+    "existingActiveQuests": [
+      {
+        "id": 3765,
+        "name": "The Corruption Abroad"
+      },
+      {
+        "id": 95772,
+        "name": "Songblade Search"
+      },
+      {
+        "id": 2928,
+        "name": "Gyrodrillmatic Excavationators"
+      },
+      {
+        "id": 2923,
+        "name": "Tinkmaster Overspark"
+      },
+      {
+        "id": 97894,
+        "name": "Business in Auberdine"
+      },
+      {
+        "id": 1078,
+        "name": "Retrieval for Mauren"
+      }
+    ],
+    "completion": {
+      "id": 66,
+      "name": "The Legend of Stalvan",
+      "stage": "Introduction: Madame Eva to Clerk Daltry",
+      "status": "completed",
+      "officialApiVerified": true
+    },
+    "interpretation": "Newly observed active quests since the preceding verified public snapshot. The API does not return acceptance times or per-objective progress. The screenshot and player announcement establish arrival in Darkshire. Personal motive and dialogue in the novel are roleplay.",
+    "bookChapterIds": [
+      "x-nov21-darkshire-arrival",
+      "x-nov21-the-returned-letter",
+      "x-nov21-the-night-watch",
+      "x-nov21-stalvan-name",
+      "x-nov21-valor-memory",
+      "x-nov21-bread-and-stars",
+      "x-nov21-roads-beyond-town",
+      "x-nov21-first-step-into-dusk"
+    ]
+  },
+  "latestOfficialSnapshot": {
+    "checkedAt": 1795297431,
+    "level": 24,
+    "completedCount": 248,
+    "activeCount": 17,
+    "active": [
+      {
+        "id": 174,
+        "name": "Look to the Stars"
+      },
+      {
+        "id": 101,
+        "name": "The Totem of Infliction"
+      },
+      {
+        "id": 96139,
+        "name": "The Valor Family"
+      },
+      {
+        "id": 173,
+        "name": "Worgen in the Woods"
+      },
+      {
+        "id": 3765,
+        "name": "The Corruption Abroad"
+      },
+      {
+        "id": 95772,
+        "name": "Songblade Search"
+      },
+      {
+        "id": 90,
+        "name": "Seasoned Wolf Kabobs"
+      },
+      {
+        "id": 56,
+        "name": "The Night Watch"
+      },
+      {
+        "id": 377,
+        "name": "Crime and Punishment"
+      },
+      {
+        "id": 2928,
+        "name": "Gyrodrillmatic Excavationators"
+      },
+      {
+        "id": 165,
+        "name": "The Hermit"
+      },
+      {
+        "id": 2923,
+        "name": "Tinkmaster Overspark"
+      },
+      {
+        "id": 163,
+        "name": "Raven Hill"
+      },
+      {
+        "id": 164,
+        "name": "Deliveries to Sven"
+      },
+      {
+        "id": 97894,
+        "name": "Business in Auberdine"
+      },
+      {
+        "id": 1078,
+        "name": "Retrieval for Mauren"
+      },
+      {
+        "id": 67,
+        "name": "The Legend of Stalvan"
+      }
+    ]
+  },
+  "lastEditorialUpdate": "2026-11-21 · Duskwood arrival · current official quest list refreshed"
 }

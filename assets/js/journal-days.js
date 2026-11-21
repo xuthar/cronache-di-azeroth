@@ -295,5 +295,51 @@ const officialStonewatch=plans.find(day=>day.date==='2026-11-20');
 if(officialStonewatch){
  officialStonewatch.stops.push({time:'22:01 Italian time · official Blizzard API snapshot',title:'Blizzard Confirms the Stonewatch Victory',description:'The new official EU Forever sync confirms both Shadow Magic (#115) and Tharil\'zun (#19) completed. Xuthar remains level 24, with 247 completed quest IDs and six active quests. Earlier snapshots are kept as historical records.'});
 }
+plans.push({
+  "date": "2026-11-21",
+  "day": "Saturday, 21 November",
+  "title": "Where the Lanterns Hold · Duskwood Begins",
+  "place": "Duskwood · Darkshire",
+  "level": "Level 24",
+  "summary": "Xuthar arrives in Darkshire to begin his Duskwood adventure. The square and clock tower are preserved in the original Full HD screenshot. The first Stalvan errand (#66) is newly verified complete; eleven new active commissions join six earlier obligations. Blizzard records 248 completed quest IDs and 17 active quests. In The Last Witness, he returns to help the town whose Night Watch could not leave its own people undefended.",
+  "reportUrl": "duskwood.html",
+  "reportLabel": "The Duskwood story, lore and new quests",
+  "bookUrl": "book.html?character=xuthar#x-nov21-darkshire-arrival",
+  "bookLabel": "The Last Witness · Chapters 171–178",
+  "photo": "assets/images/screenshots/WoWScrnShot_112126_213338.jpg",
+  "photoCaption": "Darkshire · 21 November · 21:33:38 · Original 1920×1080 screenshot",
+  "stops": [
+    {
+      "time": "Arrival · precise arrival time not reported",
+      "title": "Darkshire · A new adventure",
+      "description": "Xuthar announces his arrival in Duskwood. The town becomes the starting point of his next campaign; no further forest location is recorded as visited."
+    },
+    {
+      "time": "21:33:38 · screenshot filename",
+      "title": "The square beneath the clock",
+      "description": "An original 1920×1080 photograph shows Darkshire’s town square, clock tower, buildings and watchers. The file is kept intact, with a link to open the original."
+    },
+    {
+      "time": "First Stalvan stage · hand-in time not supplied",
+      "title": "The Legend of Stalvan · #66 complete, #67 active",
+      "description": "Madame Eva’s introduction to Clerk Daltry is completed. The next active stage points toward Moonbrook Schoolhouse; the investigation is beginning."
+    },
+    {
+      "time": "Newly observed in the official quest log",
+      "title": "Eleven new commissions",
+      "description": "The Night Watch, The Legend of Stalvan, The Valor Family, Worgen in the Woods, The Totem of Infliction, Look to the Stars, Seasoned Wolf Kabobs, Raven Hill, Deliveries to Sven, The Hermit, Crime and Punishment. Crime and Punishment is accepted here but has its objective in the Stormwind Stockade."
+    },
+    {
+      "time": "22:43:51 Italy · official Blizzard check",
+      "title": "248 completed quest IDs · 17 active · Level 24",
+      "description": "The current verified public profile replaces the dated fallback. The API supplies quest identities and states; exact acceptance times and objective progress are unavailable."
+    },
+    {
+      "time": "The living novel · Chapters 171–178",
+      "title": "Why the Witness returned",
+      "description": "An original roleplay interpretation connects yesterday’s unfulfilled appeal for Night Watch reinforcements with today’s decision to help Darkshire. The new commissions remain open and their destinations await the next adventure."
+    }
+  ]
+});
 return plans;
 })();

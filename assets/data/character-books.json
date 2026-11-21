@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-stonewatch-triumph",
+      "status": "living-novel-duskwood-arrival",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -3882,6 +3882,159 @@
           ]
         },
         {
+          "id": "x-nov21-darkshire-arrival",
+          "chapter": "Chapter 171 · The Town Beneath the Clock",
+          "title": "Where the Lanterns Hold",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The clock above Darkshire shone through the blue murk like a moon somebody had nailed to a tower. Beneath it, the square was still inhabited: a figure crossing the cobbles, a watcher holding to a patch of torchlight, windows lit behind crooked beams. Xuthar stopped where the road widened. The forest had followed him to the edge of town, but here, at least, it had been made to wait.",
+            "Yesterday’s fire beside Lake Everstill seemed impossibly far away. He could still remember its warmth on his face and the easy sound of his companions’ voices after Stonewatch. Here the air tasted of damp timber. Bare branches reached between the houses. A lantern did not make the street cheerful; it made the next few paces visible, which in Duskwood was a more useful kindness.",
+            "He had crossed these roads before on another town’s business. This time the square was no interval between departures. Darkshire was where his journey had brought him, and the new pages in his ledger belonged to the people behind those lighted windows.",
+            "Xuthar drew his cloak closer. He felt no sudden triumph, no assurance that the darkness would recognize his victories elsewhere and stand aside. He felt the weight of his pack and the ache of the miles already walked. Then he noticed that one of the watchers was tired too. That small, ordinary discovery made it possible to take the next step."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance.",
+          "image": "assets/images/screenshots/WoWScrnShot_112126_213338.jpg",
+          "caption": "Darkshire town square · 21 November 2026 · Original 1920×1080 game screenshot, captured at 21:33:38."
+        },
+        {
+          "id": "x-nov21-the-returned-letter",
+          "chapter": "Chapter 172 · The Answer He Had Carried",
+          "title": "Why the Witness Returned",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The reason for returning had begun with a refusal. Magistrate Solomon had needed defenders for Lakeshire, and Lord Ello Ebonlocke had been unable to send them. Xuthar had carried the answer back through a world in which every village seemed to be somebody else’s lesser emergency.",
+            "At first a refusal was only ink. In Darkshire it became visible. It stood beside the road with a torch in its hand. It kept a shutter fastened and a child indoors. Every guard sent away would leave a stretch of street unwatched. Ebonlocke had not spoken from the comfort of a safe place; he had spoken from a place that could spare no one.",
+            "Stonewatch was behind Xuthar now. The Midnight Orbs had been recovered and Tharil’zun defeated with Carro at his side. That victory did not oblige him to save the whole kingdom. It did, however, leave him free to choose where the strength he still possessed might matter next.",
+            "He could not return with an army. He could return with himself. The thought was almost embarrassing in its smallness until he looked again at the scattered lamps. Somebody had to carry each one. Somebody had to decide that the few paces it illuminated were worth defending.",
+            "He turned a fresh page. This time he would stay long enough to listen."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-the-night-watch",
+          "chapter": "Chapter 173 · The Guard That Could Not Leave",
+          "title": "Althea’s Road",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The Night Watch had none of the ease of the soldiers he remembered behind Stormwind’s walls. Their work was measured in routes kept open and watches completed. To Xuthar, their torches looked less like a line of defenses than a set of stubborn promises made separately and renewed every night.",
+            "Commander Althea Ebonlocke’s request gave his concern a shape. South of Darkshire lay Tranquil Gardens, where skeletal warriors and mages threatened the town. Eight warriors. Six mages. The figures belonged on a military order, but he found himself imagining the living people for whom those figures might mean a safer journey home.",
+            "He wrote the task down without putting a mark beside it. The cemetery still waited. No spell had yet been spent on its graves for this commission, and no victory had been won merely because a priest had agreed to try.",
+            "Somewhere beyond the houses, a branch scraped another branch. Xuthar listened until he understood the sound. There would be enough real terrors in the coming days without lending them every movement of the wind. He checked the fastening of his bag and read Althea’s instructions once more."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-stalvan-name",
+          "chapter": "Chapter 174 · The Name in the Registry",
+          "title": "The First Thread of Stalvan",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "Not every danger announced itself with teeth. Madame Eva’s fear had given him a name: Stalvan. Concern for her granddaughter Alyssa had drawn him to the town hall, where Clerk Daltry kept the records by which people tried to hold a changing world still.",
+            "That first errand was done. A name had passed from a frightened woman to a ledger, and the ledger had answered with an old address. Moonbrook Schoolhouse. Xuthar felt recognition before he felt dread. Westfall, the broken settlement, the roads above the Deadmines: a part of his own journey lay beneath that entry.",
+            "He had expected Duskwood’s questions to lead deeper into Duskwood. Instead one of them reached back toward a place he thought he had left behind. The schoolhouse was now a destination, the next step of an investigation whose conclusion he did not know.",
+            "He copied the address carefully. No revelation followed. The ink did not tell him what had happened to Stalvan or what waited among the abandoned rooms. It only made the question precise enough to carry.",
+            "A witness learned patience with such beginnings. Before there was a story, there was often one person asking another to look more closely."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-valor-memory",
+          "chapter": "Chapter 175 · The Family History Forgot",
+          "title": "A Promise to Sirra",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The request concerning the Valor family touched a quieter wound. Sirra Von’Indi wanted something recovered from Raven Hill that might restore a fragment of its history. A tome, if he could find it. Some trace of the people the ruined settlement had once held.",
+            "Xuthar rested his hand on his own ledger. He knew how easily a place could survive on a map after its people had disappeared from every conversation. A cartographer needed only enough room for Raven Hill. A person who had lived there might have needed a whole book.",
+            "The tome remained somewhere beyond the town. He had neither opened it nor learned the family’s story, and he would not fill its missing pages with guesses. But he could already understand why the search mattered. The dead were not made less human by the terrors that had overtaken their home.",
+            "He wrote VALOR with space beneath it. For once, an empty part of a page felt less like an absence than a place being kept.",
+            "Whatever waited in Raven Hill, he would go there with more than a hunter’s eye for danger. He would look for the things somebody had once hoped to leave behind."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-bread-and-stars",
+          "chapter": "Chapter 176 · A Kitchen and a Piece of Sky",
+          "title": "Small Tasks Against the Dark",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The new obligations did not all belong to graveyards. Chef Grual needed wolf flanks, and the plainness of that request steadied Xuthar more than he expected. Ten portions of meat were something a person could understand even when the forest had become incomprehensible.",
+            "A kitchen was a form of resistance he trusted. People who expected to eat tomorrow had not entirely surrendered tomorrow. He added the ingredients to his list and found a cleaner corner of the page for Viktori Prism’Antras, whose plans required a Bronze Tube.",
+            "The device was meant to look toward the stars. Xuthar imagined the patience required to pursue such a thing here, among trees that seemed determined to shut out the sky. He liked the thought of somebody lifting a lens above fear and asking the heavens a question.",
+            "Madame Eva’s other commission lay on the same page: ghoul fangs, skeleton fingers and spider venom for a protective totem. Knowledge, nourishment, protection. The town had found several languages in which to ask for help, and none seemed trivial from inside its walls.",
+            "He had brought no cure for Duskwood. He could begin with the things its people had actually asked him to do."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-roads-beyond-town",
+          "chapter": "Chapter 177 · Three Roads Through Raven Hill",
+          "title": "The People Beyond the Lamps",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "Elaine Carevin’s requests carried his attention westward. Something was said to haunt Raven Hill. Sven Yorgen’s little company needed supplies. An old man near the cemetery had stopped coming into town and ought to be checked on. In another country these might have been the ordinary concerns of neighbors. Here every errand passed through dangerous woods.",
+            "Xuthar studied the names until they ceased to resemble a list of places. Someone outside the town might be hungry. Someone might be alone. Someone might have seen a light where no light should have been. The roads held questions, and he had only just agreed to follow them.",
+            "Councilman Millstipe’s demand reached farther still, back to the Stormwind Stockade and Dextren Ward. The name brought the cold memory of prison stone. Xuthar and Carro’s victories beneath the city remained theirs, but a new commission could reach into an old place without belonging to an old victory.",
+            "He thought of Carro then: the dwarf’s stubborn courage, the bridge at Stonewatch, the fire afterward. Friendship had made difficult roads bearable. He carried that knowledge with him without pretending to know who would be beside him on the next one.",
+            "For now, the supplies, the hermit and the western ruins were ahead. He would meet the people before deciding he understood their stories."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
+          "id": "x-nov21-first-step-into-dusk",
+          "chapter": "Chapter 178 · The Forest Beyond the Last Lantern",
+          "title": "The Adventure Begins",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood · Darkshire",
+          "paragraphs": [
+            "The town’s names for the surrounding country were beautiful in ways that made him uneasy. Brightwood Grove. Tranquil Gardens. The Twilight Grove, where an ancient tree stood apart from the tangled forest. A name could preserve the memory of a gentler world long after the road to it had changed.",
+            "There were other names too: Raven Hill, the Rotting Orchard, the way toward Deadwind Pass. He heard them and resisted the temptation to arrange them into a single explanation. Wolves, worgen, restless dead and the malice of living people did not become one evil merely because frightened travelers encountered them under the same trees.",
+            "The Shadow within his own practice gave him no exemption from fear. It asked a harder discipline of him: to use what he understood without surrendering judgment to it. Duskwood would not be made safe by his fascination with its darkness.",
+            "He looked back at the clock and the inhabited square. It was easy to imagine the forest emptying this place, house by house, until another traveler found only a name on a map. That was the future he found himself unwilling to accept.",
+            "Xuthar closed his ledger on the new commissions. The graves were still unquiet. The tome was still unfound. Stalvan was still a question. Beyond the lamps, the next road waited.",
+            "He adjusted his pack and stepped toward it. In Darkshire, the adventure had begun."
+          ],
+          "sources": [
+            "assets/data/duskwood-2026-11-21.json"
+          ],
+          "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -3894,7 +4047,8 @@
           ],
           "link": "chronicle.html"
         }
-      ]
+      ],
+      "latestChapterId": "x-nov21-darkshire-arrival"
     },
     {
       "id": "thorgar",
@@ -4049,5 +4203,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "2026-11-20 · Stonewatch Triumph · Chapters 163–170 · Official Blizzard verified: Shadow Magic #115 and Tharil'zun #19 · 247 quest IDs complete · 6 active"
+  "lastEditorialUpdate": "21 November 2026 · Duskwood arrival · Chapters 171–178 · Stalvan introduction #66 complete; eleven newly observed active quests; level 24."
 }

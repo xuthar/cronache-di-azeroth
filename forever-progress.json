@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795274676,
+  "exportedAt": 1795297431,
   "characters": [
     {
       "id": "xuthar",
@@ -17,19 +17,35 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 247,
+      "questsCompleted": 248,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795274676,
+      "checkedAt": 1795297431,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795274676,
-          "inProgressCount": 6,
-          "completedCount": 247,
+          "snapshotAt": 1795297431,
+          "inProgressCount": 17,
+          "completedCount": 248,
           "inProgress": [
+            {
+              "id": 174,
+              "name": "Look to the Stars"
+            },
+            {
+              "id": 101,
+              "name": "The Totem of Infliction"
+            },
+            {
+              "id": 96139,
+              "name": "The Valor Family"
+            },
+            {
+              "id": 173,
+              "name": "Worgen in the Woods"
+            },
             {
               "id": 3765,
               "name": "The Corruption Abroad"
@@ -39,12 +55,36 @@
               "name": "Songblade Search"
             },
             {
+              "id": 90,
+              "name": "Seasoned Wolf Kabobs"
+            },
+            {
+              "id": 56,
+              "name": "The Night Watch"
+            },
+            {
+              "id": 377,
+              "name": "Crime and Punishment"
+            },
+            {
               "id": 2928,
               "name": "Gyrodrillmatic Excavationators"
             },
             {
+              "id": 165,
+              "name": "The Hermit"
+            },
+            {
               "id": 2923,
               "name": "Tinkmaster Overspark"
+            },
+            {
+              "id": 163,
+              "name": "Raven Hill"
+            },
+            {
+              "id": 164,
+              "name": "Deliveries to Sven"
             },
             {
               "id": 97894,
@@ -53,6 +93,10 @@
             {
               "id": 1078,
               "name": "Retrieval for Mauren"
+            },
+            {
+              "id": 67,
+              "name": "The Legend of Stalvan"
             }
           ],
           "completedQuestIds": [
@@ -88,6 +132,7 @@
             62,
             64,
             65,
+            66,
             71,
             76,
             83,
@@ -592,6 +637,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 66,
+              "title": "The Legend of Stalvan",
+              "area": "Duskwood",
+              "briefing": "Last night a horrible disturbance rippled through my veins. I sensed that my granddaughter, Alyssa, was in great danger. I consulted the cards and…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 71,
@@ -2529,8 +2583,10 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1795224813,
+          "newlyObservedCompletedIds": [
+            66
+          ],
+          "comparedWithSnapshotAt": 1795274676,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2546,7 +2602,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795274676
+        "profileCheckedAt": 1795297431
       }
     }
   ],

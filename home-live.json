@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-20T23:11:25.384Z"
+    "checkedAt": "2026-11-21T04:03:23.063Z"
   },
   "news": [
+    {
+      "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+      "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
+      "category": "Forever",
+      "publishedAt": "2026-11-21T00:23:36.000Z"
+    },
     {
       "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
       "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly",
       "category": "WoW",
       "publishedAt": "2026-11-20T18:02:14.000Z"
-    },
-    {
-      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T17:00:14.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-20T23:11:25.384Z",
-  "generatedAt": "2026-11-20T23:11:25.188Z",
+  "newsUpdatedAt": "2026-11-21T04:03:23.063Z",
+  "generatedAt": "2026-11-21T04:03:22.990Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 20 Nov 2026 17:11:02 -0600",
+  "newsFeedBuiltAt": "Fri, 20 Nov 2026 22:03:09 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

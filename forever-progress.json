@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795208509,
+  "exportedAt": 1795224813,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795208509,
+      "checkedAt": 1795224813,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795208509,
+          "snapshotAt": 1795224813,
           "inProgressCount": 6,
           "completedCount": 247,
           "inProgress": [
@@ -393,7 +393,7 @@
               "briefing": "Blackrock Outrunners and Renegades are running ambushes between here and Stonewatch Keep. The leader of the Outrunners is an orc named Tharil'zun--we want this…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 20,
@@ -771,7 +771,7 @@
               "briefing": "The Blackrock orcs enlisted shadowcasters to aid their attacks in Redridge, and they have brought with them devices of dark power--midnight orbs. These orbs…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 116,
@@ -2529,11 +2529,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            19,
-            115
-          ],
-          "comparedWithSnapshotAt": 1795202494,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1795208509,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2549,7 +2546,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795208509
+        "profileCheckedAt": 1795224813
       }
     }
   ],

@@ -1,5 +1,11 @@
 # Chronicles of Azeroth
 
+## Excavation Site: Wetlands · 22 November 2026
+
+`dungeons/excavation-site.html` contains the expedition with Carro Steelcave, its original lore interpretation, dungeon briefing, quest references and all 22 untouched 1920×1080 photographs. The literary account is also Chapters 187–197 of `assets/data/character-books.json`; `latestChapterId` opens the new expedition. Dialogue and connective combat scenes are original roleplay. Specific loot, new levels and quest hand-ins are not inferred from the photographs.
+
+`assets/data/excavation-site-2026-11-22.json` records capture order, captions, image hashes and sources. `assets/js/excavation-site.js` adds the expedition to Lore, the photo gallery, Forever and Xuthar’s dossier. `assets/css/excavation-site.css` provides the shared screenshot backgrounds and responsive article layout. The homepage uses original photographs behind both the lead article and the expedition news. The Travel Journal appends the afternoon to the existing 22 November day, preserving Duskwood’s morning; Live Chronicle consumes the same day record. Every page’s dungeon menu includes the new destination.
+
 A personal World of Warcraft website featuring Retail characters and a WoW Forever roleplay travel journal. All visitor-facing content is in English. Static HTML, CSS, and JavaScript; no dependencies, database, paid services, or visitor accounts.
 
 ## Public website

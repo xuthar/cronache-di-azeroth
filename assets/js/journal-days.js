@@ -394,5 +394,60 @@ plans.push({
     }
   ]
 });
+
+const excavationDay=plans.find(day=>day.date==='2026-11-22');
+if(excavationDay){
+ excavationDay.title='Duskwood at Dawn · Where the Mountain Remembers';
+ excavationDay.place='Duskwood morning → Excavation Site: Wetlands · with Carro Steelcave';
+ excavationDay.summary+=' In the afternoon, Xuthar reunites with Carro and Broken Tooth for Excavation Site: Wetlands. Saltspine, Shadetooth and the Relic Guardian are defeated. Twenty-two original Full HD photographs follow the expedition from 16:11:46 to 16:49:42, ending beyond the fossil cliffs and the Explorers’ League cave. The morning’s verified quest totals remain a dated snapshot.';
+ excavationDay.reportUrl='dungeons/excavation-site.html';
+ excavationDay.reportLabel='Excavation Site · Epic chronicle, guide & all 22 original photographs';
+ excavationDay.bookUrl='book.html?character=xuthar#x-nov22-wetlands-rendezvous';
+ excavationDay.bookLabel='The Last Witness · Chapters 187–197';
+ excavationDay.photo="assets/images/screenshots/WoWScrnShot_112226_163842.jpg";
+ excavationDay.photoCaption='22 November · 16:38:42 · Xuthar, Carro & Broken Tooth beside the fallen guardian · Original 1920×1080';
+ excavationDay.stops.push(...[
+  {
+    "time": "16:11:46–16:14:46 · photographs",
+    "title": "Carro, the passage and the hidden valley",
+    "description": "Xuthar meets Carro Steelcave and Broken Tooth at the expedition camp, passes through the torchlit passage and enters the misty valley."
+  },
+  {
+    "time": "16:15:52–16:17:08 · photographs",
+    "title": "The waterlogged approach",
+    "description": "The companions follow the marsh path and cross the pool among turtles, crocolisks and broken planks."
+  },
+  {
+    "time": "16:20:28 · photographed aftermath",
+    "title": "Saltspine defeated",
+    "description": "The enormous crocolisk lies motionless in the pool. The exact kill time is not recorded."
+  },
+  {
+    "time": "16:24:11 · photographed aftermath",
+    "title": "Shadetooth defeated",
+    "description": "Shadetooth and other raptors lie on the path through the tall grass, with Carro and Broken Tooth beside Xuthar."
+  },
+  {
+    "time": "16:33:04–16:36:54 · photographs",
+    "title": "The burning camp and the stone guardian",
+    "description": "The route passes Dragonmaw enemies, a captive fire elemental, fossil bones, timber platforms and the ravine leading to the Relic Guardian."
+  },
+  {
+    "time": "16:38:03–16:38:42 · photographed aftermath",
+    "title": "The Relic Guardian fallen · honour to the companions",
+    "description": "The great construct lies across broken timber. Xuthar, Carro Steelcave and Broken Tooth stand together beside the fallen guardian."
+  },
+  {
+    "time": "16:44:25–16:47:04 · photographs",
+    "title": "The mountain opened like a book",
+    "description": "The onward road reveals the terraced fossil excavation, the high grassy ledge and the bridge over the dig."
+  },
+  {
+    "time": "16:47:23–16:49:42 · photographs",
+    "title": "The Explorers’ League refuge and the open path",
+    "description": "The companions reach the cave with Merrik Rockweaver before the last photograph returns to the wetland path. Particular quest hand-ins and loot awards are not supplied."
+  }
+]);
+}
 return plans;
 })();

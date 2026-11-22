@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-22",
+  "title": "Where the Mountain Remembers",
+  "dungeon": "Excavation Site: Wetlands",
+  "zone": "Wetlands",
+  "companions": [
+    "Xuthar Morvayne",
+    "Carro Steelcave",
+    "Broken Tooth"
+  ],
+  "captureRange": "16:11:46–16:49:42",
+  "levelLastConfirmed": 25,
+  "summary": "Xuthar and Carro explore Excavation Site, defeat Saltspine, Shadetooth and the Relic Guardian, and return past the fossil cliffs and Explorers’ League refuge.",
+  "confirmed": [
+    "The supplied sequence shows Saltspine and Shadetooth defeated.",
+    "The fallen stone guardian and the companions beside it appear at 16:38:03 and 16:38:42.",
+    "The fossil excavation, high ledge, bridge and Explorers’ League cave follow in capture order."
+  ],
+  "unreported": [
+    "Exact encounter start and kill times",
+    "Current online status",
+    "Specific loot received",
+    "Dungeon quest hand-ins",
+    "A new level after the earlier level-25 record",
+    "Highland Horror defeat"
+  ],
+  "chapterIds": [
+    "x-nov22-wetlands-rendezvous",
+    "x-nov22-wetlands-threshold",
+    "x-nov22-wetlands-water",
+    "x-nov22-wetlands-saltspine",
+    "x-nov22-wetlands-shadetooth",
+    "x-nov22-wetlands-burning-camp",
+    "x-nov22-wetlands-forgotten-command",
+    "x-nov22-wetlands-guardian-falls",
+    "x-nov22-wetlands-buried-names",
+    "x-nov22-wetlands-two-friends",
+    "x-nov22-wetlands-road-home"
+  ],
+  "hero": "assets/images/screenshots/WoWScrnShot_112226_163842.jpg",
+  "news": "assets/images/screenshots/WoWScrnShot_112226_164658.jpg",
+  "photos": [
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161146.jpg",
+      "time": "16:11:46",
+      "title": "A friend at the expedition camp",
+      "alt": "Xuthar meets Sergeant Carro Steelcave and Broken Tooth beside the expedition tents.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9146726d2815a10ff91772d5adc48573b87b7986c51684d958877e16dae2efaa"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161337.jpg",
+      "time": "16:13:37",
+      "title": "The torchlit passage",
+      "alt": "Xuthar follows a dark stone passage lit by two braziers.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "aa5525c400420e4d240949b1c0cccc4e6e5643d898e59ae050c48fb558d39ec3"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161446.jpg",
+      "time": "16:14:46",
+      "title": "The valley beyond the threshold",
+      "alt": "A misty valley opens beyond the cobbled rise and low wooden fences.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5496d30323e8b2fddc196a67195b48657bf3c7e07f9724d0e2abcb02c5e36be2"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161552.jpg",
+      "time": "16:15:52",
+      "title": "The marsh before the first battle",
+      "alt": "Turtles and marsh wildlife occupy the shaded ground beside the water.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7e0d191aac61a9ab06d8de51ae62ff8992f40096da1ca1d5a2327ff8640d5285"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161610.jpg",
+      "time": "16:16:10",
+      "title": "Carro on the wetland path",
+      "alt": "Carro and his companions advance between the dark water and the wooded slope.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f7f03403bfc68750ff0e66887ec581a4afe4a637bea8821f7208f1b4b3051a28"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161639.jpg",
+      "time": "16:16:39",
+      "title": "Water beneath the great trees",
+      "alt": "The path descends toward a broad pool among rocks and spreading trees.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a5185f977624f6cc1e306419b4435d6ba492293c843b64d8558e69ac3ac17657"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_161708.jpg",
+      "time": "16:17:08",
+      "title": "The broken crossing",
+      "alt": "Xuthar crosses the pool among floating wooden planks and marsh creatures.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1f909d4e7f99a0e3f16255f59a3be870145b42cadb82d4d04265f132cc47df86"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_162028.jpg",
+      "time": "16:20:28",
+      "title": "Saltspine defeated",
+      "alt": "Saltspine lies motionless in the pool, with Xuthar and Carro nearby.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "667758fc0dfeaa8bd04918a30b893e4c4b3e1781aadedcfc4c037231a8ff3bb1"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_162411.jpg",
+      "time": "16:24:11",
+      "title": "Shadetooth defeated",
+      "alt": "Shadetooth and other raptors lie on the narrow path through the tall grass; Carro and Broken Tooth stand beside Xuthar.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6073e52f01d748312cbb5e52f1745a6a0237e3ede4dcf039295fad89a284acb5"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163304.jpg",
+      "time": "16:33:04",
+      "title": "The fire in the excavation camp",
+      "alt": "Dragonmaw enemies and a captive fire elemental stand around a burning camp beneath great fossil bones.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2cde5bc4232f2db9e759ed02880f571e2d353632fc8d714017c3657416a92e97"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163311.jpg",
+      "time": "16:33:11",
+      "title": "Fire beneath the fossil skull",
+      "alt": "A huge fossil skull overlooks the tents, fires and disturbed excavation.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c0e093c59637d1c172a04c2464360a9d569825bae40bb063026d921eeb7775b"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163415.jpg",
+      "time": "16:34:15",
+      "title": "The timber platform",
+      "alt": "Xuthar approaches wooden platforms and the guarded route beyond the camp.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7751147878cf53a39a02e9fe6854789918073d5df725aa087817130d1dfce495"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163453.jpg",
+      "time": "16:34:53",
+      "title": "The ravine of torches",
+      "alt": "The expedition advances along a narrow passage between high earthen walls.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "820cc2d1d13818647fed062e36c29ee2c7635288c28746ea4e1eb2d930e249f5"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163654.jpg",
+      "time": "16:36:54",
+      "title": "Before the stone guardian",
+      "alt": "A towering stone construct waits among the expedition tents and timberwork.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e0e6b43e12c717c30ff8cbfe4025384ef5fd17a7c1be4a9e9a6a4310018e4770"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163803.jpg",
+      "time": "16:38:03",
+      "title": "The Relic Guardian fallen",
+      "alt": "The great stone construct lies defeated across broken timber while Xuthar, Carro and their companions regroup.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "45f50ca947925335afc5fd8f344593645b90a43012399aa4b6e522f9a248f2b9"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_163842.jpg",
+      "time": "16:38:42",
+      "title": "Honour to the companions",
+      "alt": "Xuthar Morvayne, Sergeant Carro Steelcave and Broken Tooth stand together beside the fallen Relic Guardian.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7d6d20cf65be615d02b1cdb2d83098ff5dccb8a7614b512a02e3f8d0778a2044"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164425.jpg",
+      "time": "16:44:25",
+      "title": "The road after the battle",
+      "alt": "The companions follow the cobbled path away from the guardian’s clearing.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1575c86195dc98fe2d113d76a7996f3ab70ad5bdb48b1fb9ce04d079518d7b90"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164655.jpg",
+      "time": "16:46:55",
+      "title": "The mountain opened like a book",
+      "alt": "A vast terraced excavation reveals fossils, timber supports and hanging equipment in the cliff face.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d1a36c508aaf0721707019142b0f7cf39cf32e07a1107b92421c9a35d38decdd"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164658.jpg",
+      "time": "16:46:58",
+      "title": "Two friends above the ages",
+      "alt": "Xuthar and Carro pause on a high grassy ledge above the mist-filled Wetlands.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "24f8fa05368152594f37e627ccd5e22e6a244da1dd5c935e5e6c17520fc60b06"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164704.jpg",
+      "time": "16:47:04",
+      "title": "The bridge above the dig",
+      "alt": "Carro and Broken Tooth lead the way across a wooden bridge beside the exposed fossil layers.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "79a66b96ade93becdd6535b0587337dd8746f31b3248bb963beb054df54e2ad9"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164723.jpg",
+      "time": "16:47:23",
+      "title": "The Explorers’ League refuge",
+      "alt": "Xuthar and Carro reach a cave with Merrik Rockweaver and another Explorers’ League member.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "eb4933a4702caece2460f4a4763b47174ff2c4fd15082bbe5180faec887cfc3b"
+    },
+    {
+      "src": "assets/images/screenshots/WoWScrnShot_112226_164942.jpg",
+      "time": "16:49:42",
+      "title": "The living world beyond the stone",
+      "alt": "The final photograph returns to an open wetland path, with trees, fences and wildlife in the afternoon light.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5fbd5fdd213eb2ddf88aaf01f9bcc4a92c8bc07ba2d6c3dbca71834dfdd55ec0"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blizzard · Explore the New Dungeons of World of Warcraft: Forever",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301455/"
+    },
+    {
+      "label": "Wowhead · Excavation Site dungeon journal",
+      "url": "https://www.wowhead.com/forever/dungeon-journal/excavation-site-wetlands"
+    },
+    {
+      "label": "Wowhead · Excavation Site overview, quests and encounters",
+      "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards"
+    },
+    {
+      "label": "Wowhead · Relic Guardian encounter",
+      "url": "https://www.wowhead.com/forever/it/dungeon-journal/excavation-site-wetlands/relic-guardian"
+    },
+    {
+      "label": "WoW.gg · Excavation Site field guide",
+      "url": "https://wow.gg/guides/excavation-site-wetlands"
+    }
+  ]
+}

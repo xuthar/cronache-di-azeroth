@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-duskwood-level25",
+      "status": "living-novel-excavation-site-level25",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -4198,6 +4198,228 @@
           "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
         },
         {
+          "id": "x-nov22-wetlands-rendezvous",
+          "chapter": "Chapter 187 · A Friend at the Edge of the Map",
+          "title": "A Friend at the Edge of the Map",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "Carro was waiting beside the tents with the untroubled expression of a dwarf who had found something dangerous and decided that, naturally, his friend ought to see it. Broken Tooth lifted his head at Xuthar’s approach, sniffed the hem of the pale robe and accepted the priest back into the company. That small recognition undid a weariness Xuthar had carried out of the southern woods.",
+            "The morning’s names were still with him: Sven, Jitters, the dead of Raven Hill. He had expected another road of graves and unanswered questions. Instead, the Wetlands stretched beneath a sky that seemed too large for his worries, and somewhere above the expedition camp a mountain was waiting to be opened.",
+            "‘You said a walk,’ Xuthar observed. Carro looked toward the high ground. ‘It has walking in it.’ Broken Tooth’s ears turned toward the slope. The dwarf added, ‘Some of it may need to be done rather quickly.’ Xuthar laughed before he could prevent it. It was the first easy sound he had made all day.",
+            "They checked their provisions in the shade of the canvas. There was no oath this time, no ceremonial clasp of hands. Carro tightened a strap; Xuthar tested the knot holding his book dry inside its wrapping. The promise had been made long ago, beneath Westfall and Stormwind, and neither man had found a reason to withdraw it. Where one entered, the other would keep a way back."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_161146.jpg",
+          "caption": "22 November 2026 · 16:11:46 · A friend at the expedition camp · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-threshold",
+          "chapter": "Chapter 188 · The Passage Between Two Worlds",
+          "title": "The Passage Between Two Worlds",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "The passage narrowed around them. Fire from the braziers ran along the stone in low orange bands, and their footsteps returned from the dark ahead with the hollow confidence of strangers. Xuthar remembered the stairs beneath Stormwind. For a few breaths, the old instinct returned: count the doors, watch the corners, measure how much light remained behind.",
+            "Then the mountain released them into open air. Beyond a cobbled rise lay a valley folded into mist, its slopes carrying trees, water and weathered rock. He had prepared himself for a ceiling and found a whole hidden sky. Carro stood at the crest without speaking, one hand resting on the stock of his weapon.",
+            "Xuthar had known scholars who could turn a discovery into an argument before anyone had looked at it properly. Here, he understood the temptation. Every slope seemed to offer a different explanation. Water had cut its slow marks through the valley; something older had left shapes beneath the earth that no living mason could have planned.",
+            "‘Well?’ Carro asked at last. Xuthar loosened the grip he had kept on his staff. ‘I think we should remember this part.’ The dwarf glanced toward the path below. ‘Before it tries to eat us?’ ‘Especially before that.’ Together they descended, and the torchlit passage became a small dark mouth behind them."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_161446.jpg",
+          "caption": "22 November 2026 · 16:14:46 · The valley beyond the threshold · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-water",
+          "chapter": "Chapter 189 · Where the Water Had Teeth",
+          "title": "Where the Water Had Teeth",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "At first the water appeared almost kind. Broad-backed turtles moved through the shadows, reeds bent beneath the breeze, and the great trees spread their branches as though the valley had never heard of an axe. A line of broken planks drifted across the pool. Xuthar watched one turn slowly and wondered what crossing had once held it in place.",
+            "Broken Tooth stopped. Carro stopped with him. The pause travelled back to the priest without a word. A ridge had appeared where no ridge belonged, too straight for a ripple and too patient for debris. Then another shape moved beneath the surface, and the harmless pool became a place full of distances that had to be measured very carefully.",
+            "They worked their way forward over ground already tested. Carro watched the reeds while Xuthar watched the spaces between his companions, keeping enough room for a spell and enough closeness for a hand. When movement broke from the water, the company met it together. The clash sent muddy spray over the priest’s sleeves and shattered the reflection of the sky.",
+            "Afterward, the floating boards resumed their slow journey. That ordinary motion disturbed Xuthar more than the attack. The valley could swallow a struggle and look peaceful again within moments. He began to understand why an expedition needed more than courage. It needed someone willing to keep looking after the first reassuring glance."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_161708.jpg",
+          "caption": "22 November 2026 · 16:17:08 · The broken crossing · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-saltspine",
+          "chapter": "Chapter 190 · Saltspine, Lord of the Still Water",
+          "title": "Saltspine, Lord of the Still Water",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "Saltspine rose through the brown water with the weight of something that had never needed to hurry. The great jaws opened; the pool folded against its plated sides. Beside it, the other marsh creatures suddenly looked small, like lesser thoughts attending a single immense hunger.",
+            "Carro’s first shot cracked across the water. Broken Tooth moved at his signal, a flash of tawny muscle against the mud. Xuthar planted his staff where the bottom offered purchase and called the Shadow into a narrow thread. It answered with its familiar temptation to spread, to take more than the hand had asked. He held it to the creature before him. There were living friends within reach of every careless choice.",
+            "The fight broke into fragments: a closing mouth, the pull of water around his knees, Carro calling from the right, a ward flaring just long enough to give someone room. Xuthar lost sight of the dwarf behind a burst of spray and found him again because the next shot came exactly when it was needed. Their old rhythm survived the unfamiliar ground.",
+            "When Saltspine finally lay still, Xuthar remained motionless for a moment, breathing with the strange care of a man who had expected his next breath to be interrupted. Carro waded closer. ‘Still a walk,’ the dwarf said. The priest looked at the enormous body between them. ‘You might have mentioned the bathing.’ The laughter that followed was thin with relief, but it belonged entirely to the living."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_162028.jpg",
+          "caption": "22 November 2026 · 16:20:28 · Saltspine defeated · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-shadetooth",
+          "chapter": "Chapter 191 · Shadetooth and the Listening Grass",
+          "title": "Shadetooth and the Listening Grass",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "The grass stood higher than Xuthar’s certainty. Golden stalks closed around the narrow path, hiding movement until it was already near. Carro studied the ground, his expression stripped of its earlier humour. Broken Tooth’s tail had become very still. Somewhere ahead, something answered a call too softly for the priest to place.",
+            "Shadetooth came with company. For an instant the path seemed to possess more claws than there was earth to stand on. Carro marked a target, and the companions gathered their strength against it before the circle could close. Xuthar felt the pressure of fear pass through him like a cold hand searching for the heart.",
+            "His body wanted to run. The grass offered a hundred directions and concealed every consequence. He fixed his attention on Carro’s voice, then on the next deliberate breath. The dwarf was still there. Broken Tooth was still fighting. Xuthar brought his will back into the small piece of ground they had chosen and refused the wider darkness its invitation.",
+            "At last the red shapes lay across the path. The stalks moved gently above them, keeping their secrets. Xuthar lowered his staff and looked toward his friend, who stood beside the cat with one shoulder darkened by sweat. Nothing in the scene resembled a king’s victory painting. Yet the priest knew he would remember it longer than many such paintings: a difficult path, three familiar figures, and room enough to go on."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_162411.jpg",
+          "caption": "22 November 2026 · 16:24:11 · Shadetooth defeated · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-burning-camp",
+          "chapter": "Chapter 192 · The Camp Beneath the Bones",
+          "title": "The Camp Beneath the Bones",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "Beyond the raptors, the earth carried a different wound. Canvas roofs sagged above the dig; flames clawed at the air around the camp. Dragonmaw figures moved among the shelters. A captive fire elemental burned with a furious, imprisoned brightness, and above it all a great fossil skull watched with sockets into which the afternoon could not reach.",
+            "Xuthar stopped beneath the immense jaw. For most of his life, history had arrived in books sized for human hands. Here it had teeth larger than the tools that had uncovered them. The skull had waited while kingdoms rose elsewhere, while fathers named their sons and sons forgot their fathers. Now violence had found it again, smaller than its first death and no less real to those caught within it.",
+            "Carro drew his attention back to the living danger. They made their way through the camp with the patience the grass had taught them, refusing a reckless advance between the flames. Broken Tooth kept close where the timber narrowed the route. Each cleared stretch gave them somewhere to stand while they considered the next.",
+            "Beside a wooden platform, Xuthar looked back at the fires beneath the bones. He could not restore every broken tool or answer every loss the abandoned camp suggested. He could carry the sight faithfully. In his book, the place would retain more than the names of the creatures they had fought. It would retain the evidence of people who had come here hoping to learn."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_163311.jpg",
+          "caption": "22 November 2026 · 16:33:11 · Fire beneath the fossil skull · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-forgotten-command",
+          "chapter": "Chapter 193 · The Weight of a Forgotten Command",
+          "title": "The Weight of a Forgotten Command",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "The route tightened into a ravine, its high walls turning the breeze into an occasional visitor. Torches picked out the rough edges of the passage. Then the great construct appeared beyond the timber: stone shoulders, massive hands, a shape made for endurance rather than mercy. The Relic Guardian waited where the expedition’s small canvas shelters looked suddenly fragile.",
+            "Carro lifted his gaze along the enormous body. Xuthar watched the dwarf’s face and saw an attention he had not seen in the marsh. For Carro, perhaps, the old stone asked a question that lived nearer the bone. The priest did not presume to answer it for him. He waited until his friend looked back.",
+            "‘Someone gave it a duty,’ Carro said. ‘A long time ago.’ Xuthar thought of guards holding the last lamps in Darkshire, of promises surviving the people who had made them. An order could outlast the hand that wrote it. Without judgment or kindness to renew it, that faithfulness could become a terrible thing.",
+            "They readied themselves with unusual quiet. The scholar in Xuthar wanted another hour to look, another day to ask what had been protected and why. The traveller could see the ground they would need when the stone moved. He set his questions beside his fear, kept both within reach, and raised his staff. The guardian’s first movement shook dust from the timber."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_163654.jpg",
+          "caption": "22 November 2026 · 16:36:54 · Before the stone guardian · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-guardian-falls",
+          "chapter": "Chapter 194 · When the Guardian Fell",
+          "title": "When the Guardian Fell",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "The mountain seemed to stand up around them. Stone drove into earth with a sound that struck the chest before it reached the ears. Xuthar stumbled, caught himself, and found that the distance to Carro had widened in a single heartbeat. The dwarf was already moving, calling Broken Tooth clear of the great descending hands.",
+            "Every blow demanded a new decision. Xuthar fed the Shadow carefully into the struggle and kept part of his strength for the friend he could not afford to lose. Carro’s answering fire travelled across the clearing. The guardian endured with a patience more frightening than rage; it had no breath to shorten, no fear to make it hesitate.",
+            "For a moment, the priest felt the old temptation to surrender judgment to power. Let the darkness finish it. Let everything else become somebody else’s concern. Then he heard Broken Tooth snarl and saw Carro turn, checking for him even while the construct moved. Xuthar chose the smaller, harder task. Keep the company together. Reach the next breath. Strike again.",
+            "The fall came as a great undoing. Weight shifted beyond recall, timber cracked, and the enormous body struck the ground. The silence afterward seemed unable to fill the space it had occupied. Xuthar stood with his staff still raised until Carro touched his arm. ‘You can put that down now.’",
+            "They took their place beside the fallen giant: the pale-robed priest, the dwarf with the weathered face, the tawny cat settling at their side. Behind them lay a command older than their countries. Before them lay the simple privilege of another road. Xuthar looked at his friend and found, beneath exhaustion, a gratitude too large for ceremony. They had both come through."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_163842.jpg",
+          "caption": "22 November 2026 · 16:38:42 · Honour to the companions · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-buried-names",
+          "chapter": "Chapter 195 · The Names Beneath the Stone",
+          "title": "The Names Beneath the Stone",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "After the clearing, a cobbled road drew them onward. Xuthar’s hands had begun to tremble with the effort they no longer needed to hide. He let them. Carro walked at the unhurried pace of someone who understood that a surviving companion ought to be allowed to discover his weariness in peace.",
+            "Then the excavation opened beneath them. Terraces cut the cliff into great shelves, each held by timber, rope and the stubborn ingenuity of people much smaller than their work. Fossils pressed from the walls. A suspended hook waited over empty space. The mountain had been opened like an enormous book, its pages too heavy to turn.",
+            "Xuthar imagined the first careful stroke that had found an unfamiliar curve beneath the dirt. Not a battle cry, not a coronation: a worker stopping, calling another worker over, both trying to understand what their hands had touched. He knew that feeling. It was the reason a recovered name could keep him awake longer than a victory.",
+            "Carro pointed out a section of supports on the far wall, and for a while they spoke only of practical things: how the boards had been anchored, where water would run, how much courage it took to trust a rope. Xuthar listened. Wonder did not always arrive as a revelation. Sometimes a friend showed you how a thing had been made, and the world became larger because you had paid attention."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_164655.jpg",
+          "caption": "22 November 2026 · 16:46:55 · The mountain opened like a book · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-two-friends",
+          "chapter": "Chapter 196 · Two Friends Above the Ages",
+          "title": "Two Friends Above the Ages",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "On the grassy ledge above the dig, the Wetlands spread into a pale distance. The haze softened every ridge without making the height less real. Carro stood beside Xuthar, and for once neither filled the silence. Below their boots lay ages they could barely name. Above them, the afternoon was spending itself in the ordinary way.",
+            "The priest thought of the companions they had been beneath Westfall: less certain of one another, carrying hopes that had not yet learned the weight of a shared danger. Since then there had been prison corridors, Redridge slopes, a wounded man brought into daylight, and this hidden valley where stone had risen to bar their way. The map could record the places. It had no symbol for the trust travelling between them.",
+            "‘What will you write?’ Carro asked. Xuthar looked down at the supports in the cliff. He might have written that they had stood against the ages and prevailed. It would have sounded splendid. It would have left out the fear, the muddy sleeves, the cat’s stubborn presence and the fact that his friend had checked for him when it would have been easier to look only forward.",
+            "‘That you waited,’ he said. Carro glanced sideways. ‘I do that rather a lot.’ ‘I know.’ The dwarf accepted the answer with a small nod. After a while he turned toward the bridge, and Broken Tooth rose to follow. Xuthar gave the vast open valley one last look before joining them. There were still people waiting at the other end of the road."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_164658.jpg",
+          "caption": "22 November 2026 · 16:46:58 · Two friends above the ages · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
+          "id": "x-nov22-wetlands-road-home",
+          "chapter": "Chapter 197 · What the Mountain Let Them Carry",
+          "title": "What the Mountain Let Them Carry",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Excavation Site: Wetlands",
+          "paragraphs": [
+            "The cave offered a cooler darkness, a welcome one. Mushrooms caught the faint light along the walls, and figures of the Explorers’ League waited beyond the entrance. Merrik Rockweaver’s name reached Xuthar before the rest of the voices settled into words. After the valley’s teeth and stone, the sight of people attending to ordinary work felt unexpectedly precious.",
+            "He paused while Carro stepped nearer the explorers. Broken Tooth moved between them with the air of a creature who considered introductions complete as soon as everyone had been smelled. Xuthar allowed himself a smile. Whatever answers the expedition might eventually make of the place, this moment already belonged in the book: knowledge continuing because someone had come back to speak.",
+            "Later, on the open path, the afternoon rested on fences, trees and wet ground. The valley’s noises returned one by one. Xuthar loosened the wrapping around his ledger and found a dry page. For a time he wrote only names. Carro Steelcave. Broken Tooth. The explorers beneath the mountain. Then he added the places and the great dangers that had stood between them.",
+            "He left a little space after each name. There would be other days, other roads, things worth knowing that no victory could contain. The Wetlands had given him a glimpse of a world whose memory ran deeper than any graveyard. His part in it remained small enough to hold in his hands.",
+            "Ahead, Carro called that they should keep moving while the light was good. Xuthar closed the book and followed. The mountain kept its buried ages. The companions carried one another’s voices into the living afternoon."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_164723.jpg",
+          "caption": "22 November 2026 · 16:47:23 · The Explorers’ League refuge · Original Full HD screenshot.",
+          "sources": [
+            "assets/data/excavation-site-2026-11-22.json"
+          ],
+          "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -4211,7 +4433,7 @@
           "link": "chronicle.html"
         }
       ],
-      "latestChapterId": "x-nov21-late-watchers"
+      "latestChapterId": "x-nov22-wetlands-rendezvous"
     },
     {
       "id": "thorgar",
@@ -4366,5 +4588,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "22 November 2026 · Level 25 · Chapters 179–186 · Nine new verified Duskwood completions since arrival · 17 Full HD photos"
+  "lastEditorialUpdate": "22 November 2026 · Excavation Site: Wetlands · Chapters 187–197 · Xuthar & Carro · 22 original Full HD photographs"
 }

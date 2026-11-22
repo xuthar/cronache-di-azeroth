@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-22T14:52:58.354Z"
+    "checkedAt": "2026-11-22T16:41:55.906Z"
   },
   "news": [
+    {
+      "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-22T15:00:00.000Z"
+    },
     {
       "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
       "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
       "category": "Forever",
       "publishedAt": "2026-11-21T00:23:36.000Z"
-    },
-    {
-      "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
-      "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
-      "category": "Forever",
-      "publishedAt": "2026-11-20T20:51:19.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-22T14:52:58.354Z",
-  "generatedAt": "2026-11-22T14:52:58.262Z",
+  "newsUpdatedAt": "2026-11-22T16:41:55.906Z",
+  "generatedAt": "2026-11-22T16:41:55.831Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 22 Nov 2026 08:52:49 -0600",
+  "newsFeedBuiltAt": "Sun, 22 Nov 2026 10:41:45 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

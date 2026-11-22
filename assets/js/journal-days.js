@@ -341,5 +341,58 @@ plans.push({
     }
   ]
 });
+const duskwoodNight=plans.find(d=>d.date==='2026-11-21');
+if(duskwoodNight){duskwoodNight.stops.push({"time": "22:44:05–22:51:44 · 21 November photographs", "title": "The bridge, Watcher Backus and the Lost Stalker", "description": "Five additional original Full HD images follow Xuthar beyond Darkshire: the torch-lit bridge, Watcher Backus on the road and the Lost Stalker in the mist. The visible tracker is a historical level-24 state; later official hand-ins are recorded separately."});duskwoodNight.summary+=' Five later photographs extend the night to 22:51:44, with Watcher Backus and the Lost Stalker.';}
+plans.push({
+  "date": "2026-11-22",
+  "day": "Sunday, 22 November",
+  "title": "The Roads Beyond Darkshire · Level 25",
+  "place": "Duskwood · Raven Hill · Abercrombie’s shack · Sven’s camp",
+  "level": "Level 25",
+  "summary": "The first Duskwood promises are answered. Since the arrival snapshot, Blizzard confirms nine more completed quest IDs, reaching 257 overall with 16 still active. The interval spans late 21 November and 22 November; exact hand-in dates are not supplied. Twelve morning photographs follow the cemetery gates, the hermit, the western camp and Raven Hill’s empty streets. All seventeen new originals, including five from the previous night, are preserved in the illustrated account.",
+  "reportUrl": "duskwood-roads-2026-11-22.html",
+  "reportLabel": "The full Duskwood update and all 17 Full HD photographs",
+  "bookUrl": "book.html?character=xuthar#x-nov21-late-watchers",
+  "bookLabel": "The Last Witness · Chapters 179–186",
+  "photo": "assets/images/screenshots/WoWScrnShot_112226_104835.jpg",
+  "photoCaption": "22 November · 10:48:35 · Sven and Lars at the western camp · Original 1920×1080",
+  "stops": [
+    {
+      "time": "10:19:56–10:20:04 · photographs",
+      "title": "Raven Hill’s arches and the road below",
+      "description": "The photographed morning begins at the ruined cemetery entrance and continues on the cobbled road."
+    },
+    {
+      "time": "10:45:58–10:46:24 · photographs",
+      "title": "Abercrombie · The Hermit",
+      "description": "Xuthar reaches the clearing and stands before Abercrombie’s shack. The Hermit (#165) and Supplies from Darkshire (#148) are now verified complete; Ghost Hair Thread (#149) remains active."
+    },
+    {
+      "time": "10:47:20–10:47:49 · photographs",
+      "title": "Between the trees and deserted houses",
+      "description": "The road passes the great trunks, grave markers and an abandoned building. The Valor Family (#96139) is confirmed completed; Ira’s Dagger (#96137) is a separate active task."
+    },
+    {
+      "time": "10:48:35 · photograph",
+      "title": "Sven and Lars beside their tent",
+      "description": "Sven’s camp is photographed with another adventurer nearby. Deliveries to Sven (#164) and Wolves at Our Heels (#226) are complete. Sven’s Revenge (#95) still asks for a buried clue at the former farm."
+    },
+    {
+      "time": "11:41:34–12:06:01 · photographs",
+      "title": "Raven Hill’s quiet streets",
+      "description": "Three originals follow the village road, the square and the turn beyond the old houses. No new boss victory is inferred from scenery."
+    },
+    {
+      "time": "Since the 21 November arrival snapshot · exact hand-in times unavailable",
+      "title": "Nine newly verified Duskwood completions",
+      "description": "Jitters' Growling Gut, Seasoned Wolf Kabobs, Dusky Crab Cakes, Supplies from Darkshire, Raven Hill, Deliveries to Sven, The Hermit, Wolves at Our Heels, The Valor Family. Return to Jitters (#240) is still active after the crab cakes are prepared."
+    },
+    {
+      "time": "15:11:38 Italy · official Blizzard check",
+      "title": "Level 25 · 257 completed IDs · 16 active",
+      "description": "The API confirms Xuthar’s reported level. Ten active commissions belong to the Duskwood story, including Crime and Punishment with an objective in the Stockade; six other obligations remain open."
+    }
+  ]
+});
 return plans;
 })();

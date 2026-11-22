@@ -2,14 +2,14 @@
   "version": 1,
   "character": "Xuthar Morvayne",
   "realm": "Forever EU · RP PvE",
-  "status": "live",
-  "statusConfirmed": true,
+  "status": "unknown",
+  "statusConfirmed": false,
   "zone": "Duskwood",
-  "location": "Darkshire · Town square",
+  "location": "Raven Hill · last photographed 22 Nov, 12:06",
   "coordinates": null,
-  "activity": "The Duskwood adventure begins · 11 new quests · Stalvan introduction complete · Level 24",
-  "reportedOn": "2026-11-21",
-  "updatedAt": "2026-11-21T21:43:51+00:00",
-  "note": "Arrival and current adventure reported by Xuthar. Original Darkshire screenshot preserved at 1920×1080. Blizzard verifies level 24, 248 completed IDs and 17 active quests; online presence comes from the player announcement, not the API.",
-  "level": 24
+  "activity": "Level 25 · 257 completed quest IDs · 16 active · The Roads Beyond Darkshire",
+  "reportedOn": "2026-11-22",
+  "updatedAt": "2026-11-22T14:11:38+00:00",
+  "note": "Player and official API confirm level 25. Last supplied photograph shows the Raven Hill road at 12:06:01 on 22 November; current online/log-out status and exact present location are not reported.",
+  "level": 25
 }

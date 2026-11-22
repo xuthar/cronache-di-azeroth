@@ -1,167 +1,139 @@
 {
   "schemaVersion": 1,
   "character": "Xuthar Morvayne",
-  "recordedAt": "2026-11-21",
-  "location": "Duskwood · Darkshire",
-  "source": "Player arrival announcement and original screenshot; current quest list from verified Blizzard Forever EU profile",
-  "scope": "Darkshire arrival reported by Xuthar and pictured at 21:33:38. Current quests are the official snapshot; objective progress and precise acceptance/hand-in times are not supplied.",
+  "recordedAt": "2026-11-22",
+  "location": "Duskwood · Raven Hill (last photographed at 12:06:01)",
+  "source": "Verified Blizzard Forever EU public profile; player level-25 report; 17 original screenshots from 21–22 November",
+  "scope": "Nine newly verified completions since the published 21 November arrival snapshot. The interval spans late 21 November and 22 November; individual hand-in dates, times and objective counters are not returned. The photos document five late-evening frames on 21 November and twelve morning frames on 22 November. Level 25 is confirmed by player and official profile.",
   "readyForTurnIn": [],
   "active": [
     {
+      "id": 96137,
+      "name": "Ira's Dagger",
+      "status": "active",
+      "objective": "Defeat ten Young Black Ravagers and seven Black Ravagers, then speak to Sirra Von’Indi.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=96137/iras-dagger",
+      "objectiveProgress": null
+    },
+    {
       "id": 174,
       "name": "Look to the Stars",
-      "giver": "Viktori Prism’Antras",
-      "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
-      "story": "An attempt to understand the forest through observation as well as magic.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+      "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars",
+      "objectiveProgress": null
     },
     {
       "id": 101,
       "name": "The Totem of Infliction",
-      "giver": "Madame Eva",
-      "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
-      "story": "A protective charm requires materials from the very threats haunting the forest.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+      "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction",
+      "objectiveProgress": null
     },
     {
-      "id": 96139,
-      "name": "The Valor Family",
-      "giver": "Sirra Von’Indi",
-      "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
-      "story": "A Forever story about preserving the memory of a local family. The book has not yet been recovered.",
+      "id": 149,
+      "name": "Ghost Hair Thread",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+      "objective": "Take the Spectral Comb to Blind Mary south of Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=149/ghost-hair-thread",
+      "objectiveProgress": null
     },
     {
       "id": 173,
       "name": "Worgen in the Woods",
-      "giver": "Calor",
-      "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
-      "story": "The Nightbane threat reaches beyond the town’s lamps.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+      "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods",
+      "objectiveProgress": null
     },
     {
       "id": 3765,
-      "name": "The Corruption Abroad"
+      "name": "The Corruption Abroad",
+      "status": "active",
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
       "id": 95772,
-      "name": "Songblade Search"
-    },
-    {
-      "id": 90,
-      "name": "Seasoned Wolf Kabobs",
-      "giver": "Chef Grual",
-      "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
-      "story": "Even a frightened town needs a working kitchen. Forever requires the flanks, without the old separate seasoning errand.",
+      "name": "Songblade Search",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
       "id": 56,
       "name": "The Night Watch",
-      "giver": "Commander Althea Ebonlocke",
-      "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
-      "story": "The town needs another defender on the cemetery road.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+      "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch",
+      "objectiveProgress": null
     },
     {
       "id": 377,
       "name": "Crime and Punishment",
-      "giver": "Councilman Millstipe",
-      "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
-      "story": "Accepted in Darkshire, with an objective in a different zone. This newly accepted request does not change the recorded Stockade victories.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+      "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment",
+      "objectiveProgress": null
     },
     {
       "id": 2928,
-      "name": "Gyrodrillmatic Excavationators"
+      "name": "Gyrodrillmatic Excavationators",
+      "status": "active",
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
-      "id": 165,
-      "name": "The Hermit",
-      "giver": "Elaine Carevin",
-      "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
-      "story": "An apparently simple welfare visit opens another thread. Xuthar has not yet made the visit.",
+      "id": 95,
+      "name": "Sven's Revenge",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+      "objective": "Search behind the old stump at Sven’s former farm for the buried object.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=95/svens-revenge",
+      "objectiveProgress": null
     },
     {
       "id": 2923,
-      "name": "Tinkmaster Overspark"
+      "name": "Tinkmaster Overspark",
+      "status": "active",
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
-      "id": 163,
-      "name": "Raven Hill",
-      "giver": "Elaine Carevin",
-      "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
-      "story": "An unexplained light and moving shadows draw attention to the western ruins.",
+      "id": 240,
+      "name": "Return to Jitters",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
-    },
-    {
-      "id": 164,
-      "name": "Deliveries to Sven",
-      "giver": "Elaine Carevin",
-      "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
-      "story": "Sven’s small company cannot spare a defender to collect supplies.",
-      "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+      "objective": "Take the prepared Dusky Crab Cakes back to Jitters in Raven Hill.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=240/return-to-jitters",
+      "objectiveProgress": null
     },
     {
       "id": 97894,
-      "name": "Business in Auberdine"
+      "name": "Business in Auberdine",
+      "status": "active",
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
       "id": 1078,
-      "name": "Retrieval for Mauren"
+      "name": "Retrieval for Mauren",
+      "status": "active",
+      "objective": null,
+      "sourceUrl": null,
+      "objectiveProgress": null
     },
     {
       "id": 67,
       "name": "The Legend of Stalvan",
-      "giver": "Clerk Daltry",
-      "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
-      "story": "The introductory errand #66 is complete; the investigation continues with #67.",
       "status": "active",
-      "objectiveProgress": null,
-      "acceptedAt": null,
-      "officialApiVerified": true,
-      "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
+      "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan",
+      "objectiveProgress": null
     }
   ],
   "historical": [
@@ -271,7 +243,7 @@
       "note": "Its subsequent hand-in is not independently confirmed."
     }
   ],
-  "snapshotId": "duskwood-20261121-official-arrival",
+  "snapshotId": "duskwood-20261122-level25",
   "previousSnapshot": {
     "snapshotId": "elwynn-20261105-camping-101",
     "location": "Elwynn Forest · 43.1, 65.0 (coordinates visible in screenshot)",
@@ -329,9 +301,9 @@
       }
     ]
   },
-  "characterLevel": 24,
-  "characterLevelSource": "BlizzardOfficialAPI",
-  "characterLevelRecordedAt": "2026-11-21",
+  "characterLevel": 25,
+  "characterLevelSource": "BlizzardOfficialAPI and explicit player report",
+  "characterLevelRecordedAt": "2026-11-22",
   "confirmedCompleted": [
     {
       "id": "bounty-on-garrick-padfoot",
@@ -580,6 +552,105 @@
       "bookChapterId": "x-nov21-stalvan-name",
       "evidence": "Newly present in official completedQuestIds; #67 is the active next stage. Only the introduction is complete.",
       "blizzardVerifiedAt": "2026-11-21T21:43:51+00:00"
+    },
+    {
+      "id": 5,
+      "name": "Jitters' Growling Gut",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 90,
+      "name": "Seasoned Wolf Kabobs",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 93,
+      "name": "Dusky Crab Cakes",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 148,
+      "name": "Supplies from Darkshire",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 163,
+      "name": "Raven Hill",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 164,
+      "name": "Deliveries to Sven",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 165,
+      "name": "The Hermit",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 226,
+      "name": "Wolves at Our Heels",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
+    },
+    {
+      "id": 96139,
+      "name": "The Valor Family",
+      "officialApiVerified": true,
+      "confirmationType": "BlizzardOfficialAPI",
+      "countedAsDelivered": true,
+      "observedCompletedAt": "2026-11-22T14:11:38+00:00",
+      "observedIntervalStart": 1795297431,
+      "dateOfHandIn": null,
+      "evidence": "Official completedQuestIds newly present since the 21 November arrival snapshot; exact hand-in time is unavailable."
     }
   ],
   "travelMilestones": [
@@ -1048,7 +1119,7 @@
       "publishedOnSite": false
     }
   ],
-  "latestReportAt": "2026-11-21",
+  "latestReportAt": "2026-11-22",
   "previousStormwindSnapshot": {
     "snapshotId": "stormwind-20261105-202423",
     "location": "Stormwind City · Trade District · 63.1, 74.6",
@@ -1361,12 +1432,12 @@
       "apiMilestone": "At level 10, public Armory eligibility; successful API fetch still unverified. Workflow OFF pending credentials and verification."
     }
   ],
-  "currentSessionId": "duskwood-20261121-arrival",
-  "currentSessionStatus": "adventure-in-progress",
-  "currentChronicleDate": "2026-11-21",
+  "currentSessionId": "duskwood-20261122-roads",
+  "currentSessionStatus": "progress-reported",
+  "currentChronicleDate": "2026-11-22",
   "dayTwoOpeningNote": "Xuthar Camera works according to screenshot + chat. Camp near Goldshire, then Crystal Lake for Fishing and Murloc encounters. As of 15:27 Fishing ready for turn-in; Bottles 4/6 Shiny Junk; A Net Disaster 2/7 Half-Eaten Fish. Last character level confirmed 8. Four retrospective in-game diary screenshots add level 5–8 encounters, the first bag, green robes, Sandriana, near-death moments and a newly shown 6 November death; quest progress remains as previously recorded. Latest 18:41 quest tracker: ten active quests; no confirmed new quest turn-in; level 9 directly confirmed by player, earlier missing quests remain unverified. Level 10 directly reported on 6 November evening. Previous 18:41 quest tracker remains the most recent; no mission outcome can be inferred from the level-up. Public Armory and API reading remain unverified.",
   "previousQuestSnapshotId": "day02-20261106-enticing-offer-153654",
-  "lastConfirmedLocation": "Duskwood · Darkshire",
+  "lastConfirmedLocation": "Duskwood · Raven Hill (photographed 22 November, 12:06:01)",
   "currentQuestTrackerLocation": "Zone not shown in tracker; Stockade expedition confirmed by player",
   "previousQuestSnapshot": {
     "snapshotId": "day02-20261106-enticing-offer-153654",
@@ -1910,6 +1981,171 @@
           "newToday": false
         }
       ]
+    },
+    {
+      "recordedAt": "2026-11-21",
+      "location": "Duskwood · Darkshire",
+      "source": "Player arrival announcement and original screenshot; current quest list from verified Blizzard Forever EU profile",
+      "scope": "Darkshire arrival reported by Xuthar and pictured at 21:33:38. Current quests are the official snapshot; objective progress and precise acceptance/hand-in times are not supplied.",
+      "active": [
+        {
+          "id": 174,
+          "name": "Look to the Stars",
+          "giver": "Viktori Prism’Antras",
+          "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+          "story": "An attempt to understand the forest through observation as well as magic.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars"
+        },
+        {
+          "id": 101,
+          "name": "The Totem of Infliction",
+          "giver": "Madame Eva",
+          "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+          "story": "A protective charm requires materials from the very threats haunting the forest.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction"
+        },
+        {
+          "id": 96139,
+          "name": "The Valor Family",
+          "giver": "Sirra Von’Indi",
+          "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+          "story": "A Forever story about preserving the memory of a local family. The book has not yet been recovered.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+        },
+        {
+          "id": 173,
+          "name": "Worgen in the Woods",
+          "giver": "Calor",
+          "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+          "story": "The Nightbane threat reaches beyond the town’s lamps.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods"
+        },
+        {
+          "id": 3765,
+          "name": "The Corruption Abroad"
+        },
+        {
+          "id": 95772,
+          "name": "Songblade Search"
+        },
+        {
+          "id": 90,
+          "name": "Seasoned Wolf Kabobs",
+          "giver": "Chef Grual",
+          "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+          "story": "Even a frightened town needs a working kitchen. Forever requires the flanks, without the old separate seasoning errand.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+        },
+        {
+          "id": 56,
+          "name": "The Night Watch",
+          "giver": "Commander Althea Ebonlocke",
+          "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+          "story": "The town needs another defender on the cemetery road.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch"
+        },
+        {
+          "id": 377,
+          "name": "Crime and Punishment",
+          "giver": "Councilman Millstipe",
+          "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+          "story": "Accepted in Darkshire, with an objective in a different zone. This newly accepted request does not change the recorded Stockade victories.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment"
+        },
+        {
+          "id": 2928,
+          "name": "Gyrodrillmatic Excavationators"
+        },
+        {
+          "id": 165,
+          "name": "The Hermit",
+          "giver": "Elaine Carevin",
+          "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+          "story": "An apparently simple welfare visit opens another thread. Xuthar has not yet made the visit.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+        },
+        {
+          "id": 2923,
+          "name": "Tinkmaster Overspark"
+        },
+        {
+          "id": 163,
+          "name": "Raven Hill",
+          "giver": "Elaine Carevin",
+          "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+          "story": "An unexplained light and moving shadows draw attention to the western ruins.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+        },
+        {
+          "id": 164,
+          "name": "Deliveries to Sven",
+          "giver": "Elaine Carevin",
+          "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+          "story": "Sven’s small company cannot spare a defender to collect supplies.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+        },
+        {
+          "id": 97894,
+          "name": "Business in Auberdine"
+        },
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren"
+        },
+        {
+          "id": 67,
+          "name": "The Legend of Stalvan",
+          "giver": "Clerk Daltry",
+          "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+          "story": "The introductory errand #66 is complete; the investigation continues with #67.",
+          "status": "active",
+          "objectiveProgress": null,
+          "acceptedAt": null,
+          "officialApiVerified": true,
+          "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan"
+        }
+      ],
+      "snapshotId": "duskwood-20261121-official-arrival"
     }
   ],
   "previousConfirmedLevel": 23,
@@ -3462,14 +3698,14 @@
       "narrativeContinuity": "Xuthar has travelled to the western edge of the forest following the Riverpaw hunt; the next full chapter can begin after his entry into Westfall."
     }
   ],
-  "latestPhotographedZone": "Duskwood · Darkshire",
-  "latestPhotographedAt": "2026-11-21 21:33:38",
+  "latestPhotographedZone": "Duskwood · Raven Hill",
+  "latestPhotographedAt": "2026-11-22 12:06:01",
   "currentJourney": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "zone": "Duskwood",
-    "location": "Darkshire",
-    "activity": "The Duskwood adventure begins",
-    "bookAnchor": "x-nov21-darkshire-arrival"
+    "location": "Raven Hill · last supplied photograph",
+    "activity": "Level 25 · The Roads Beyond Darkshire",
+    "bookAnchor": "x-nov22-raven-hill-gates"
   },
   "currentEquipmentReports": [
     {
@@ -8112,11 +8348,15 @@
     ]
   },
   "latestOfficialSnapshot": {
-    "checkedAt": 1795297431,
-    "level": 24,
-    "completedCount": 248,
-    "activeCount": 17,
+    "checkedAt": 1795356698,
+    "level": 25,
+    "completedCount": 257,
+    "activeCount": 16,
     "active": [
+      {
+        "id": 96137,
+        "name": "Ira's Dagger"
+      },
       {
         "id": 174,
         "name": "Look to the Stars"
@@ -8126,8 +8366,8 @@
         "name": "The Totem of Infliction"
       },
       {
-        "id": 96139,
-        "name": "The Valor Family"
+        "id": 149,
+        "name": "Ghost Hair Thread"
       },
       {
         "id": 173,
@@ -8142,10 +8382,6 @@
         "name": "Songblade Search"
       },
       {
-        "id": 90,
-        "name": "Seasoned Wolf Kabobs"
-      },
-      {
         "id": 56,
         "name": "The Night Watch"
       },
@@ -8158,20 +8394,16 @@
         "name": "Gyrodrillmatic Excavationators"
       },
       {
-        "id": 165,
-        "name": "The Hermit"
+        "id": 95,
+        "name": "Sven's Revenge"
       },
       {
         "id": 2923,
         "name": "Tinkmaster Overspark"
       },
       {
-        "id": 163,
-        "name": "Raven Hill"
-      },
-      {
-        "id": 164,
-        "name": "Deliveries to Sven"
+        "id": 240,
+        "name": "Return to Jitters"
       },
       {
         "id": 97894,
@@ -8187,5 +8419,473 @@
       }
     ]
   },
-  "lastEditorialUpdate": "2026-11-21 · Duskwood arrival · current official quest list refreshed"
+  "lastEditorialUpdate": "22 November 2026 · Level 25 · 257 completed IDs · 16 active · 17 original Full HD photographs",
+  "officialQuestAuditNov22": {
+    "schemaVersion": 1,
+    "date": "2026-11-22",
+    "title": "The Roads Beyond Darkshire",
+    "character": "Xuthar Morvayne",
+    "level": 25,
+    "checkedAt": 1795356698,
+    "checkedAtIso": "2026-11-22T14:11:38+00:00",
+    "baseline": {
+      "checkedAt": 1795297431,
+      "completedCount": 248,
+      "activeCount": 17,
+      "level": 24
+    },
+    "completedCount": 257,
+    "activeCount": 16,
+    "newCompletedCount": 9,
+    "newCompleted": [
+      {
+        "id": 5,
+        "title": "Jitters' Growling Gut",
+        "area": "Duskwood",
+        "briefing": "I've been stuck hiding in this ghost town for weeks, and I haven't eaten anything but grubs and weeds! I need some decent food,…",
+        "objective": "Speak with Chef Grual in Darkshire about food for Jitters.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "Jitters is alive among the abandoned houses; his immediate need is a proper meal.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=5/jitters-growling-gut"
+      },
+      {
+        "id": 90,
+        "title": "Seasoned Wolf Kabobs",
+        "area": "Duskwood",
+        "briefing": "Seasoned Wolf Kabobs are a house favorite! Sure, I can make you some. But first I'll need the supplies. Bring me 10 Lean Wolf…",
+        "objective": "Bring Chef Grual ten Lean Wolf Flanks.",
+        "objectiveSource": null,
+        "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU",
+        "story": "A completed kitchen commission brings an ordinary comfort back into the story.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
+      },
+      {
+        "id": 93,
+        "title": "Dusky Crab Cakes",
+        "area": "Duskwood",
+        "briefing": "I'll let you in on a little secret - Dusky \"Crab\" Cakes are really made from spider legs! I know it's a bit disgusting,…",
+        "objective": "Bring Chef Grual six Gooey Spider Legs for the cakes.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "The misleading name hides Grual’s unusual ingredient. The onward delivery to Jitters remains open.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=93/dusky-crab-cakes"
+      },
+      {
+        "id": 148,
+        "title": "Supplies from Darkshire",
+        "area": "Duskwood",
+        "briefing": "Oh, what is a poor old man to do? I need some supplies from Darkshire, but the village is so far away and I…",
+        "objective": "Speak with Madame Eva about Ghost Hair Thread for Abercrombie.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "The supply inquiry is complete; Ghost Hair Thread is the active next stage.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=148/supplies-from-darkshire"
+      },
+      {
+        "id": 163,
+        "title": "Raven Hill",
+        "area": "Duskwood",
+        "briefing": "Something's amiss at Raven Hill, Xuthar. Calor swears that someone--or something--is haunting the buildings there. Two nights running he's noticed the shadows moving, and…",
+        "objective": "Investigate the reported haunting at Raven Hill and find Jitters.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "An apparent haunting leads to a frightened survivor.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
+      },
+      {
+        "id": 164,
+        "title": "Deliveries to Sven",
+        "area": "Duskwood",
+        "briefing": "Do you know Sven? Now, there is a man who does the work of the Light! He and his followers keep a camp at…",
+        "objective": "Deliver the provided supplies to Sven Yorgen’s camp.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "Aid reaches the isolated western camp.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
+      },
+      {
+        "id": 165,
+        "title": "The Hermit",
+        "area": "Duskwood",
+        "briefing": "There was an old man who used to come into town to buy supplies rather frequently, but I haven't seen him for quite some…",
+        "objective": "Check on Abercrombie near Raven Hill Cemetery.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "The welfare visit is complete, and the hermit’s further requests have begun.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
+      },
+      {
+        "id": 226,
+        "title": "Wolves at Our Heels",
+        "area": "Duskwood",
+        "briefing": "Sven and I have dangerous days ahead of us, what with the Necromancer to the east and all. And out here alone as we…",
+        "objective": "Defeat twelve Starving Dire Wolves and eight Rabid Dire Wolves for Lars at Sven’s camp.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "The threat to camp supplies and the surrounding paths has been reduced.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=226/wolves-at-our-heels"
+      },
+      {
+        "id": 96139,
+        "title": "The Valor Family",
+        "area": "Duskwood",
+        "briefing": "In dark times like these, it's important we remember our heroes as much as our foes. Darkshire would not still be standing if it…",
+        "objective": "Find the Raven Hill Tome and bring it to Sirra Von’Indi.",
+        "objectiveSource": null,
+        "metadataSource": "BlizzardStaticForeverEU",
+        "story": "The recovered history answers the first family inquiry; Ira’s Dagger remains a separate active obligation.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
+      }
+    ],
+    "active": [
+      {
+        "id": 96137,
+        "name": "Ira's Dagger",
+        "status": "active",
+        "objective": "Defeat ten Young Black Ravagers and seven Black Ravagers, then speak to Sirra Von’Indi.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=96137/iras-dagger",
+        "objectiveProgress": null
+      },
+      {
+        "id": 174,
+        "name": "Look to the Stars",
+        "status": "active",
+        "objective": "Bring Viktori one Bronze Tube for his stargazing device.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=174/look-to-the-stars",
+        "objectiveProgress": null
+      },
+      {
+        "id": 101,
+        "name": "The Totem of Infliction",
+        "status": "active",
+        "objective": "Bring Madame Eva 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=101/the-totem-of-infliction",
+        "objectiveProgress": null
+      },
+      {
+        "id": 149,
+        "name": "Ghost Hair Thread",
+        "status": "active",
+        "objective": "Take the Spectral Comb to Blind Mary south of Darkshire.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=149/ghost-hair-thread",
+        "objectiveProgress": null
+      },
+      {
+        "id": 173,
+        "name": "Worgen in the Woods",
+        "status": "active",
+        "objective": "Defeat 6 Nightbane Shadow Weavers for Calor in Darkshire.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=173/worgen-in-the-woods",
+        "objectiveProgress": null
+      },
+      {
+        "id": 3765,
+        "name": "The Corruption Abroad",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 95772,
+        "name": "Songblade Search",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 56,
+        "name": "The Night Watch",
+        "status": "active",
+        "objective": "Defeat 8 Skeletal Warriors and 6 Skeletal Mages at Tranquil Gardens, south of Darkshire.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=56/the-night-watch",
+        "objectiveProgress": null
+      },
+      {
+        "id": 377,
+        "name": "Crime and Punishment",
+        "status": "active",
+        "objective": "Obtain the Hand of Dextren Ward in the Stormwind Stockade for Millstipe.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=377/crime-and-punishment",
+        "objectiveProgress": null
+      },
+      {
+        "id": 2928,
+        "name": "Gyrodrillmatic Excavationators",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 95,
+        "name": "Sven's Revenge",
+        "status": "active",
+        "objective": "Search behind the old stump at Sven’s former farm for the buried object.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=95/svens-revenge",
+        "objectiveProgress": null
+      },
+      {
+        "id": 2923,
+        "name": "Tinkmaster Overspark",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 240,
+        "name": "Return to Jitters",
+        "status": "active",
+        "objective": "Take the prepared Dusky Crab Cakes back to Jitters in Raven Hill.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=240/return-to-jitters",
+        "objectiveProgress": null
+      },
+      {
+        "id": 97894,
+        "name": "Business in Auberdine",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 1078,
+        "name": "Retrieval for Mauren",
+        "status": "active",
+        "objective": null,
+        "sourceUrl": null,
+        "objectiveProgress": null
+      },
+      {
+        "id": 67,
+        "name": "The Legend of Stalvan",
+        "status": "active",
+        "objective": "Investigate the Moonbrook Schoolhouse for information about Stalvan.",
+        "sourceUrl": "https://www.wowhead.com/forever/quest=67/the-legend-of-stalvan",
+        "objectiveProgress": null
+      }
+    ],
+    "duskwoodCompletedCount": 10,
+    "duskwoodActiveCount": 10,
+    "photos": [
+      {
+        "file": "WoWScrnShot_112126_224405.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112126_224405.jpg",
+        "title": "The bridge under watch",
+        "description": "A torch-lit stone bridge carries the road into the dark forest.",
+        "date": "2026-11-21",
+        "time": "22:44:05",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov21-late-watchers",
+        "sha256": "51495e20341285df30867b45ba23989be6d1aafdf1ca81e142a0e269e480ac4e"
+      },
+      {
+        "file": "WoWScrnShot_112126_224434.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112126_224434.jpg",
+        "title": "Beyond the first lamp",
+        "description": "Xuthar pauses on a wooded path with a torch beside the road.",
+        "date": "2026-11-21",
+        "time": "22:44:34",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov21-late-watchers",
+        "sha256": "288172a295b194ebb8d2f4229d3571232127b7ce66c97824615a018df513cad5"
+      },
+      {
+        "file": "WoWScrnShot_112126_224614.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112126_224614.jpg",
+        "title": "Watcher Backus on the road",
+        "description": "Xuthar meets Watcher Backus of the Night Watch on the lit cobblestones.",
+        "date": "2026-11-21",
+        "time": "22:46:14",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov21-late-watchers",
+        "sha256": "c21343067a438f12e5b35fc2c5ce66f27e272d0303fb836659c4a53cf9543c03"
+      },
+      {
+        "file": "WoWScrnShot_112126_225143.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112126_225143.jpg",
+        "title": "The Lost Stalker in the mist",
+        "description": "The original game interface identifies a level-24 Lost Stalker; the tracker is an older state, not the latest quest count.",
+        "date": "2026-11-21",
+        "time": "22:51:43",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov21-late-watchers",
+        "sha256": "c527bc9cd9187c2739dc15f71ce68ba230016f94e34b557440a8b0a9d58539ed"
+      },
+      {
+        "file": "WoWScrnShot_112126_225144.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112126_225144.jpg",
+        "title": "A name beyond the tree",
+        "description": "A second original view of the Lost Stalker beyond the dark tree trunk.",
+        "date": "2026-11-21",
+        "time": "22:51:44",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov21-late-watchers",
+        "sha256": "811ca5ff0f2c79f26b76b5b7f4f9c1d431c986c0240b4d0092adec8233423765"
+      },
+      {
+        "file": "WoWScrnShot_112226_101956.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_101956.jpg",
+        "title": "The arches of Raven Hill",
+        "description": "The morning route reaches the ruined cemetery arches, with a torch in the foreground.",
+        "date": "2026-11-22",
+        "time": "10:19:56",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-raven-hill-gates",
+        "sha256": "e5585d920da94a531ee67462e1292ad0de96704c680d2656ec9b761535f44f16"
+      },
+      {
+        "file": "WoWScrnShot_112226_102004.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_102004.jpg",
+        "title": "The road below the graves",
+        "description": "The cobbled road curves beneath a wooded slope and another lonely light.",
+        "date": "2026-11-22",
+        "time": "10:20:04",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-raven-hill-gates",
+        "sha256": "9fbc619194ce6c0fedc67e43867d4183ccf056dcdb851c59b397af900d4bf31a"
+      },
+      {
+        "file": "WoWScrnShot_112226_104558.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104558.jpg",
+        "title": "The hermit’s clearing",
+        "description": "A weathered hut and scattered grave markers appear among the trees.",
+        "date": "2026-11-22",
+        "time": "10:45:58",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-abercrombie",
+        "sha256": "7f877a55b22ca0774acbfbac832e32f34bc8df1a66d483a3093700d27ee079b0"
+      },
+      {
+        "file": "WoWScrnShot_112226_104606.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104606.jpg",
+        "title": "Between the markers",
+        "description": "Xuthar crosses the clearing near the hermit’s shack and burial ground.",
+        "date": "2026-11-22",
+        "time": "10:46:06",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-abercrombie",
+        "sha256": "3df182e0b31aed03c41e4e9ce54eb2710c1e0b6ec789e936e71dab66a4137d05"
+      },
+      {
+        "file": "WoWScrnShot_112226_104624.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104624.jpg",
+        "title": "Abercrombie at his door",
+        "description": "The nameplate identifies Abercrombie, The Hermit, beside his shack and large metal-bound chest.",
+        "date": "2026-11-22",
+        "time": "10:46:24",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-abercrombie",
+        "sha256": "f52f5cd256d7e8a07c929e36bec023278c35b9986595ddaca1f678f96535c40e"
+      },
+      {
+        "file": "WoWScrnShot_112226_104720.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104720.jpg",
+        "title": "The shade of the great trunk",
+        "description": "The path continues between broad trees after the clearing.",
+        "date": "2026-11-22",
+        "time": "10:47:20",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-valor-pages",
+        "sha256": "2827a7b8702b50cc9a9e792d3ccb4ec4d59c3ab21d7d3c77590cd77d78763cba"
+      },
+      {
+        "file": "WoWScrnShot_112226_104723.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104723.jpg",
+        "title": "A second look toward the village",
+        "description": "A quieter angle along the same wooded road, preserved as a separate original frame.",
+        "date": "2026-11-22",
+        "time": "10:47:23",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-valor-pages",
+        "sha256": "711408bb4aeb70fa8aff2dc32bea6849e97492e661f6ebbb1e4acd9cca7b5567"
+      },
+      {
+        "file": "WoWScrnShot_112226_104749.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104749.jpg",
+        "title": "The abandoned house on the hill",
+        "description": "Xuthar approaches a large deserted building amid the gravestones and grass.",
+        "date": "2026-11-22",
+        "time": "10:47:49",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-valor-pages",
+        "sha256": "80c5f6b5144606505dfd996b86501cfa999f7ec2df0b8d3c4e6fbdaeb699fcb2"
+      },
+      {
+        "file": "WoWScrnShot_112226_104835.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_104835.jpg",
+        "title": "Sven and Lars at the western camp",
+        "description": "Sven Yorgen and Lars stand by the tent and campfire; another adventurer is visible nearby.",
+        "date": "2026-11-22",
+        "time": "10:48:35",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-svens-camp",
+        "sha256": "8dd3f6108b76c03cda7cc48160a95faf4d4f427b4399310adab99ca115fbb873"
+      },
+      {
+        "file": "WoWScrnShot_112226_114134.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_114134.jpg",
+        "title": "The western village road",
+        "description": "The cobbled way passes abandoned houses in the blue daylight.",
+        "date": "2026-11-22",
+        "time": "11:41:34",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-raven-hill-square",
+        "sha256": "db1f5ef525fc610092b30da2954a36ff933bf4a72f73f87ff5cf2cf6edea8115"
+      },
+      {
+        "file": "WoWScrnShot_112226_114214.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_114214.jpg",
+        "title": "The silent square of Raven Hill",
+        "description": "Ruined houses and the monument in the village square face the traveler.",
+        "date": "2026-11-22",
+        "time": "11:42:14",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-raven-hill-square",
+        "sha256": "cf691f368a93f151d1260a3aea1dc06e1c17da9b898f03ebaa809e496e5af3d0"
+      },
+      {
+        "file": "WoWScrnShot_112226_120601.jpg",
+        "path": "assets/images/screenshots/WoWScrnShot_112226_120601.jpg",
+        "title": "The turn beyond the old houses",
+        "description": "The last supplied image follows the road among Raven Hill’s abandoned buildings.",
+        "date": "2026-11-22",
+        "time": "12:06:01",
+        "width": 1920,
+        "height": 1080,
+        "bookChapterId": "x-nov22-twenty-fifth-threshold",
+        "sha256": "7a4b6844b3e117f02f5242e3a4403ad1d65c3019aad21e363f0b5be8bbaa0a7d"
+      }
+    ],
+    "interpretation": "Nine newly verified completions since the published 21 November arrival snapshot. The interval spans late 21 November and 22 November; individual hand-in dates, times and objective counters are not returned. The photos document five late-evening frames on 21 November and twelve morning frames on 22 November. Level 25 is confirmed by player and official profile.",
+    "bookChapterIds": [
+      "x-nov21-late-watchers",
+      "x-nov22-raven-hill-gates",
+      "x-nov22-abercrombie",
+      "x-nov22-valor-pages",
+      "x-nov22-svens-camp",
+      "x-nov22-raven-hill-square",
+      "x-nov22-gruals-kitchen",
+      "x-nov22-twenty-fifth-threshold"
+    ]
+  }
 }

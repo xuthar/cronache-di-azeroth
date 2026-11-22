@@ -7,7 +7,7 @@
   const mount=document.getElementById('quests-archive');
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
-  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261121-duskwood';
+  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261122-duskwood-roads';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);
@@ -82,7 +82,7 @@
   }
   // Official active quests are listed directly from the verified EU snapshot.
   // Questie's historical "Quest Complete!" is not an official hand-in confirmation.
-  function activeQuestSection(quests,playerConfirmed){
+  function activeQuestSection(quests,playerConfirmed,notesById){
     const section=make('section','qm-section');section.id='active-quests';
     const header=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','BLIZZARD EU / CURRENT QUEST LOG');
@@ -107,6 +107,8 @@
       text(left,'h3','',safeTitle(quest.name,quest.id));
       head.append(left,make('span',newer?'qm-verified':'qm-in-progress',newer?'✓ Player confirmed complete':'● In progress'));
       card.append(head);
+      const objective=notesById.get(quest.id)?.objective;
+      if(objective)text(card,'p','qm-mission-description',objective);
       text(card,'span','qm-mission-id','Quest ID '+quest.id);
       grid.append(card);
     }
@@ -217,7 +219,7 @@
       '. Completed quest IDs are grouped into readable mission cards by title and region. Blizzard does not provide the exact time each quest was finished.';
     mount.append(note);
     const fieldReport=fieldReportSection(manual);if(fieldReport)mount.append(fieldReport);
-    mount.append(activeQuestSection(quests,playerConfirmed),storyCards(episodeList,completed,playerConfirmed));
+    mount.append(activeQuestSection(quests,playerConfirmed,notesById),storyCards(episodeList,completed,playerConfirmed));
     const section=make('section','qm-section');section.id='mission-record';
     const sectionHead=make('div','qm-section-header'),heading=make('div','');
     text(heading,'span','qm-eyebrow','THE LAST WITNESS / OFFICIAL QUEST LEDGER');
@@ -265,7 +267,7 @@
   Promise.all([
     fetch(feed,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Official feed unavailable');return r.json();}),
     fetch(editorialPath,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('assets/data/xuthar-quest-log.json?v=20261120-stonewatch-triumph',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    fetch('assets/data/xuthar-quest-log.json?v=20261122-duskwood-roads',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
   ]).then(([data,editorial,manual])=>render(data,editorial,manual))
     .catch(async()=>{mount.replaceChildren(
       make('p','qm-error','The verified Blizzard quest archive is temporarily unavailable. Previous manually recorded adventures remain in the Living Book.')

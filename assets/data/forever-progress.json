@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795297431,
+  "exportedAt": 1795356698,
   "characters": [
     {
       "id": "xuthar",
@@ -12,24 +12,28 @@
       "ruleset": "Roleplay",
       "race": "Human",
       "className": "Priest",
-      "level": 24,
+      "level": 25,
       "zone": "",
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 248,
+      "questsCompleted": 257,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795297431,
+      "checkedAt": 1795356698,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795297431,
-          "inProgressCount": 17,
-          "completedCount": 248,
+          "snapshotAt": 1795356698,
+          "inProgressCount": 16,
+          "completedCount": 257,
           "inProgress": [
+            {
+              "id": 96137,
+              "name": "Ira's Dagger"
+            },
             {
               "id": 174,
               "name": "Look to the Stars"
@@ -39,8 +43,8 @@
               "name": "The Totem of Infliction"
             },
             {
-              "id": 96139,
-              "name": "The Valor Family"
+              "id": 149,
+              "name": "Ghost Hair Thread"
             },
             {
               "id": 173,
@@ -55,10 +59,6 @@
               "name": "Songblade Search"
             },
             {
-              "id": 90,
-              "name": "Seasoned Wolf Kabobs"
-            },
-            {
               "id": 56,
               "name": "The Night Watch"
             },
@@ -71,20 +71,16 @@
               "name": "Gyrodrillmatic Excavationators"
             },
             {
-              "id": 165,
-              "name": "The Hermit"
+              "id": 95,
+              "name": "Sven's Revenge"
             },
             {
               "id": 2923,
               "name": "Tinkmaster Overspark"
             },
             {
-              "id": 163,
-              "name": "Raven Hill"
-            },
-            {
-              "id": 164,
-              "name": "Deliveries to Sven"
+              "id": 240,
+              "name": "Return to Jitters"
             },
             {
               "id": 97894,
@@ -100,6 +96,7 @@
             }
           ],
           "completedQuestIds": [
+            5,
             6,
             7,
             9,
@@ -142,8 +139,10 @@
             87,
             88,
             89,
+            90,
             91,
             92,
+            93,
             94,
             102,
             106,
@@ -177,10 +176,14 @@
             145,
             146,
             147,
+            148,
             150,
             151,
             153,
             155,
+            163,
+            164,
+            165,
             166,
             167,
             168,
@@ -190,6 +193,7 @@
             180,
             214,
             219,
+            226,
             239,
             244,
             246,
@@ -292,6 +296,7 @@
             96059,
             96101,
             96102,
+            96139,
             96604,
             96605,
             96606,
@@ -350,6 +355,15 @@
             99143
           ],
           "completedQuestDetails": [
+            {
+              "id": 5,
+              "title": "Jitters' Growling Gut",
+              "area": "Duskwood",
+              "briefing": "I've been stuck hiding in this ghost town for weeks, and I haven't eaten anything but grubs and weeds! I need some decent food,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
             {
               "id": 6,
               "title": "Bounty on Garrick Padfoot",
@@ -645,7 +659,7 @@
               "briefing": "Last night a horrible disturbance rippled through my veins. I sensed that my granddaughter, Alyssa, was in great danger. I consulted the cards and…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 71,
@@ -729,6 +743,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 90,
+              "title": "Seasoned Wolf Kabobs",
+              "area": "Duskwood",
+              "briefing": "Seasoned Wolf Kabobs are a house favorite! Sure, I can make you some. But first I'll need the supplies. Bring me 10 Lean Wolf…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
               "id": 91,
               "title": "Solomon's Law",
               "area": "Redridge Mountains",
@@ -745,6 +768,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 93,
+              "title": "Dusky Crab Cakes",
+              "area": "Duskwood",
+              "briefing": "I'll let you in on a little secret - Dusky \"Crab\" Cakes are really made from spider legs! I know it's a bit disgusting,…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 94,
@@ -1044,6 +1076,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 148,
+              "title": "Supplies from Darkshire",
+              "area": "Duskwood",
+              "briefing": "Oh, what is a poor old man to do? I need some supplies from Darkshire, but the village is so far away and I…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 150,
               "title": "Murloc Poachers",
               "area": "Redridge Mountains",
@@ -1078,6 +1119,33 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 163,
+              "title": "Raven Hill",
+              "area": "Duskwood",
+              "briefing": "Something's amiss at Raven Hill, Xuthar. Calor swears that someone--or something--is haunting the buildings there. Two nights running he's noticed the shadows moving, and…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 164,
+              "title": "Deliveries to Sven",
+              "area": "Duskwood",
+              "briefing": "Do you know Sven? Now, there is a man who does the work of the Light! He and his followers keep a camp at…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 165,
+              "title": "The Hermit",
+              "area": "Duskwood",
+              "briefing": "There was an old man who used to come into town to buy supplies rather frequently, but I haven't seen him for quite some…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 166,
@@ -1159,6 +1227,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 226,
+              "title": "Wolves at Our Heels",
+              "area": "Duskwood",
+              "briefing": "Sven and I have dangerous days ahead of us, what with the Necromancer to the east and all. And out here alone as we…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -2079,6 +2156,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 96139,
+              "title": "The Valor Family",
+              "area": "Duskwood",
+              "briefing": "In dark times like these, it's important we remember our heroes as much as our foes. Darkshire would not still be standing if it…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 96604,
               "title": "The Great Outdoors",
               "area": "Camping",
@@ -2584,9 +2670,16 @@
             }
           ],
           "newlyObservedCompletedIds": [
-            66
+            5,
+            93,
+            148,
+            163,
+            164,
+            165,
+            226,
+            96139
           ],
-          "comparedWithSnapshotAt": 1795274676,
+          "comparedWithSnapshotAt": 1795306933,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2600,9 +2693,9 @@
           "trackedCount": 4
         },
         "achievements": {
-          "trackedCount": 20
+          "trackedCount": 21
         },
-        "profileCheckedAt": 1795297431
+        "profileCheckedAt": 1795356698
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "language": "en",
   "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
@@ -393,7 +393,7 @@
     },
     {
       "id": 96139,
-      "objective": "Search Raven Hill for a Raven Hill Tome and bring it to Sirra in Darkshire.",
+      "objective": "Find the Raven Hill Tome and bring it to Sirra Von’Indi.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=96139/the-valor-family"
     },
     {
@@ -413,22 +413,22 @@
     },
     {
       "id": 90,
-      "objective": "Collect 10 Lean Wolf Flanks and return to Chef Grual.",
+      "objective": "Bring Chef Grual ten Lean Wolf Flanks.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=90/seasoned-wolf-kabobs"
     },
     {
       "id": 163,
-      "objective": "Investigate the supposed haunting of Raven Hill; the destination is Jitters.",
+      "objective": "Investigate the reported haunting at Raven Hill and find Jitters.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=163/raven-hill"
     },
     {
       "id": 164,
-      "objective": "Carry the provided supplies to Sven Yorgen’s camp in northwestern Duskwood.",
+      "objective": "Deliver the provided supplies to Sven Yorgen’s camp.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=164/deliveries-to-sven"
     },
     {
       "id": 165,
-      "objective": "Check on the old man, Abercrombie, in his shack near Raven Hill Cemetery.",
+      "objective": "Check on Abercrombie near Raven Hill Cemetery.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=165/the-hermit"
     },
     {
@@ -440,6 +440,46 @@
       "id": 66,
       "objective": "Speak to Clerk Daltry in Darkshire Town Hall about the name Stalvan, following Madame Eva’s warning.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=66/the-legend-of-stalvan"
+    },
+    {
+      "id": 5,
+      "objective": "Speak with Chef Grual in Darkshire about food for Jitters.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=5/jitters-growling-gut"
+    },
+    {
+      "id": 93,
+      "objective": "Bring Chef Grual six Gooey Spider Legs for the cakes.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=93/dusky-crab-cakes"
+    },
+    {
+      "id": 148,
+      "objective": "Speak with Madame Eva about Ghost Hair Thread for Abercrombie.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=148/supplies-from-darkshire"
+    },
+    {
+      "id": 226,
+      "objective": "Defeat twelve Starving Dire Wolves and eight Rabid Dire Wolves for Lars at Sven’s camp.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=226/wolves-at-our-heels"
+    },
+    {
+      "id": 96137,
+      "objective": "Defeat ten Young Black Ravagers and seven Black Ravagers, then speak to Sirra Von’Indi.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=96137/iras-dagger"
+    },
+    {
+      "id": 149,
+      "objective": "Take the Spectral Comb to Blind Mary south of Darkshire.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=149/ghost-hair-thread"
+    },
+    {
+      "id": 95,
+      "objective": "Search behind the old stump at Sven’s former farm for the buried object.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=95/svens-revenge"
+    },
+    {
+      "id": 240,
+      "objective": "Take the prepared Dusky Crab Cakes back to Jitters in Raven Hill.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=240/return-to-jitters"
     }
   ],
   "episodes": [
@@ -622,6 +662,59 @@
       "screenshotPaths": [
         "assets/images/screenshots/WoWScrnShot_112126_213338.jpg"
       ]
+    },
+    {
+      "id": "duskwood-hermit-nov22",
+      "title": "The Hermit at the Door",
+      "subtitle": "Duskwood · Level 25",
+      "questIds": [
+        165,
+        148
+      ],
+      "bookAnchor": "x-nov22-abercrombie",
+      "teaser": "Abercrombie is found, but his supply request now points to Madame Eva and a spectral comb for Blind Mary.",
+      "sourceNote": "Verified completions newly observed since the 21 November arrival snapshot; the interval spans late 21 and 22 November. Precise hand-in times are not provided.",
+      "verifiedByBlizzard": true
+    },
+    {
+      "id": "duskwood-valor-nov22",
+      "title": "The History Returned",
+      "subtitle": "Duskwood · Level 25",
+      "questIds": [
+        96139
+      ],
+      "bookAnchor": "x-nov22-valor-pages",
+      "teaser": "The Raven Hill Tome restores part of a forgotten family’s history. Ira’s dagger still carries an unfinished duty.",
+      "sourceNote": "Verified completions newly observed since the 21 November arrival snapshot; the interval spans late 21 and 22 November. Precise hand-in times are not provided.",
+      "verifiedByBlizzard": true
+    },
+    {
+      "id": "duskwood-sven-nov22",
+      "title": "The Camp at the Western Edge",
+      "subtitle": "Duskwood · Level 25",
+      "questIds": [
+        164,
+        226
+      ],
+      "bookAnchor": "x-nov22-svens-camp",
+      "teaser": "Supplies reach Sven and Lars, and their wolf hunt is complete. Sven’s loss opens a new investigation at the old farm.",
+      "sourceNote": "Verified completions newly observed since the 21 November arrival snapshot; the interval spans late 21 and 22 November. Precise hand-in times are not provided.",
+      "verifiedByBlizzard": true
+    },
+    {
+      "id": "duskwood-jitters-nov22",
+      "title": "A Meal Before Another Mystery",
+      "subtitle": "Duskwood · Level 25",
+      "questIds": [
+        163,
+        5,
+        93,
+        90
+      ],
+      "bookAnchor": "x-nov22-gruals-kitchen",
+      "teaser": "Jitters is found and Grual’s kitchen work is finished. The cakes are still waiting to be delivered.",
+      "sourceNote": "Verified completions newly observed since the 21 November arrival snapshot; the interval spans late 21 and 22 November. Precise hand-in times are not provided.",
+      "verifiedByBlizzard": true
     }
   ]
 }

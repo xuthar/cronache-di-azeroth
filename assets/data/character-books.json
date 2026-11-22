@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-duskwood-arrival",
+      "status": "living-novel-duskwood-level25",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -4035,6 +4035,169 @@
           "editorialNote": "Player-confirmed Darkshire arrival; quest states from Blizzard. Personal motives, dialogue and atmosphere are dramatized; active quests are not completed in advance."
         },
         {
+          "id": "x-nov21-late-watchers",
+          "chapter": "Chapter 179 · The Watch Beyond the Bridge",
+          "title": "The Lamps Along the Road",
+          "kind": "fiction",
+          "sessionDate": "2026-11-21",
+          "place": "Duskwood",
+          "paragraphs": [
+            "After Darkshire’s square, the road narrowed to a succession of small lights. One burned on a stone bridge; another waited beneath the trees beyond it. Between them lay enough darkness for Xuthar’s thoughts to become louder than his footsteps. He kept to the cobbles and let the torch in his hand reveal the next piece of the way.",
+            "Watcher Backus stood where a turn in the road might otherwise have belonged entirely to the forest. Xuthar paused beside him. There was comfort in meeting a person who had chosen to remain at a difficult post, though the comfort came with an unwelcome realization: the watcher would still be here after the passing traveler had gone.",
+            "Farther on, a shape waited beyond a broad tree. The Lost Stalker had the unsettling stillness of something the world had failed to finish burying. Xuthar watched the pale figure through the mist. The forest’s dead were beginning to acquire names and histories, and that made them harder to dismiss as things that merely stood in the way.",
+            "He remembered Sirra’s request for the history of Raven Hill. A family could disappear twice: first from the world, then from the memory of those who survived it. Somewhere among these roads a small dagger would place Ira’s unfinished duty in his hands. He would have to decide what it meant to carry it.",
+            "For that late hour, the bridge, the watcher and the figure beyond the tree were enough. The next morning would bring him to the graves."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112126_224614.jpg",
+          "caption": "2026-11-21 · 22:46:14 · Watcher Backus on the road · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-raven-hill-gates",
+          "chapter": "Chapter 180 · Morning at the Cemetery",
+          "title": "The Arches That Had Outlived Their Doors",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "Morning brought a paler light to Duskwood, and the forest used it sparingly. Xuthar reached the broken arches of Raven Hill with his torch still burning. The stonework rose above him in a shape once meant to welcome mourners. Now there were no doors left to open, and the hillside beyond seemed to receive him without permission.",
+            "He stood for a moment beneath the arch. A cemetery was a promise that a community had once made to its dead: here, at least, you will be left in peace. The state of Raven Hill made that promise painful to imagine. Grass had crossed its boundaries. The paths still existed, but the living no longer seemed to own them.",
+            "The road below the graves carried him onward between wooded slopes. He thought of the worry that had first sent him west, of the strange movements and lights reported among the abandoned houses. Finding Jitters had given one part of the mystery a human face. Fear could make a survivor look like another haunting to people watching from far away.",
+            "Xuthar kept the thought with him. Before he raised his hand against the next shadow, he wanted to know whether it was an enemy, a memory, or somebody who had been waiting too long for help."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_101956.jpg",
+          "caption": "2026-11-22 · 10:19:56 · The arches of Raven Hill · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-abercrombie",
+          "chapter": "Chapter 181 · The Hermit at the Door",
+          "title": "A Kindness With Unfinished Edges",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "The clearing around Abercrombie’s shack had the untidiness of a life conducted far from neighbors. A cart leaned beside the boards. A large metal-bound chest stood nearby. Grave markers and the dark wood beyond made every ordinary object seem to belong to a question that had not yet been asked.",
+            "The old man was there at his doorway. Elaine’s concern had brought Xuthar to someone who could still answer him, and he felt the small relief of an errand completed without discovering another body. Abercrombie needed help obtaining supplies from Darkshire. Age and dangerous roads had made a journey that seemed simple on a map difficult in practice.",
+            "That request led onward to Madame Eva and Ghost Hair Thread. The first inquiry was done, but the thread itself belonged to a longer task. A spectral comb would have to be taken to Blind Mary, whose sorrow haunted another part of the forest.",
+            "Xuthar thought of the work of a priest: not every response to suffering began with certainty. Sometimes it began with checking a doorway and listening to an old man. He carried the request away with him, uneasy in ways he could not yet explain, but unwilling to pretend that unease alone was knowledge."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_104624.jpg",
+          "caption": "2026-11-22 · 10:46:24 · Abercrombie at his door · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-valor-pages",
+          "chapter": "Chapter 182 · The History Returned",
+          "title": "A Place Kept for the Valors",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "The history of the Valor family had ceased to be an empty space in his ledger. The Raven Hill Tome had been found, and Sirra’s first request answered. Xuthar held the significance of that act more carefully than he held the memory of any reward. A family once reduced to traces in a ruined place could be spoken of again.",
+            "The paths beneath the great trees led past old houses and grass overtaking the ground around them. He found himself looking differently at each building. Somebody had known which window caught the morning light. Somebody had once complained about a loose board or an inconvenient walk to the well. Ruin made those details seem small, but losing them was what made a place empty.",
+            "Ira’s dagger kept another part of the family’s story open. Her duty had concerned the beasts that preyed on travelers, and the obligation attached to the blade was still unfinished. Ten young black ravagers, seven of the larger beasts: a task that could not be fulfilled merely by understanding why it mattered.",
+            "He wrote the name again, beneath the family history he had helped restore. IRA. There was room after it for work still to be done. Remembering somebody did not always end with reading the last page of their story."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_104749.jpg",
+          "caption": "2026-11-22 · 10:47:49 · The abandoned house on the hill · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-svens-camp",
+          "chapter": "Chapter 183 · The Camp at the Western Edge",
+          "title": "What the Supplies Could Carry",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "Sven’s camp stood by the river and the pale slope of a hill, small enough that Xuthar understood at once why its people could spare no one for a supply run. The tent and fire made a fragile settlement of their own. Sven Yorgen and Lars were there, holding to a piece of ground the forest had not yet taken from them.",
+            "The supplies reached their destination. That was one promise kept. The wolves troubling the paths were another, and Lars’s commission had been answered too. Twelve starving dire wolves and eight rabid ones no longer threatened the men’s journeys for food. The danger around the camp had not vanished, but relief did not have to be complete to be real.",
+            "Then Sven’s story made the camp seem lonelier. He had lost his family when Dark Riders descended on his farm. He remembered a figure near the barn, burying something before fleeing. An old stump marked the place where an unanswered question remained in the earth.",
+            "Xuthar listened without offering an easy assurance. The supplies were delivered; Sven’s grief was not resolved. Searching the former farm would be another task, and the buried clue still lay beyond what he had learned.",
+            "The fire continued to burn beside the tent. He stayed long enough to let the warmth reach his hands before he went on."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_104835.jpg",
+          "caption": "2026-11-22 · 10:48:35 · Sven and Lars at the western camp · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-raven-hill-square",
+          "chapter": "Chapter 184 · The Village Without Its Voices",
+          "title": "The Silent Square",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "Later, the road brought him among Raven Hill’s abandoned buildings again. The blue daylight revealed their broken fronts without making them less forbidding. In the square, a monument kept its place before houses whose inhabitants could no longer look out at it.",
+            "He approached slowly. It was possible to be frightened of a village and still grieve for it. The cobbles asked his feet to move as though this were an ordinary street, while every window contradicted them. He imagined errands once conducted here: a visit postponed, a purchase argued over, a child called back before dusk.",
+            "Jitters had survived inside that absence. The investigation at Raven Hill was complete, but the survivor’s hunger had led to something more immediate than another supernatural theory. He needed food from Chef Grual. Xuthar had carried that request to Darkshire, where the kitchen could answer a need no spell should be expected to replace.",
+            "He looked once more toward the empty facades. To bring somebody a meal in such a place was to acknowledge that the living were still there. Duskwood had not become a country belonging only to ghosts."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_114214.jpg",
+          "caption": "2026-11-22 · 11:42:14 · The silent square of Raven Hill · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-gruals-kitchen",
+          "chapter": "Chapter 185 · The Work Between the Roads",
+          "title": "A Meal Before Another Mystery",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "Between the long roads and the troubled houses, ordinary work had continued. Chef Grual’s wolf-flank commission was finished. So was the preparation of the Dusky Crab Cakes, whose name concealed an ingredient Xuthar preferred not to contemplate while hungry.",
+            "The cook needed spider legs rather than anything brought from the sea. Six had answered his request. Xuthar found that Duskwood could still surprise him in ways that were merely culinary, and the discovery was welcome. He would remember the great mysteries more clearly if he did not allow them to swallow every smaller part of the journey.",
+            "The cakes, however, still had a destination. Return to Jitters remained on the page. The preparation was done; the act that would make it useful to the hungry man was still ahead. Xuthar checked that distinction carefully. A good intention could become another form of neglect if a traveler grew satisfied before completing the last short road.",
+            "The spectral comb waited for Blind Mary, Sven’s clue waited behind the old stump, and the cakes waited for Jitters. Each object made a different demand upon his care. None could be replaced by writing a generous ending before he had earned it."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_114134.jpg",
+          "caption": "2026-11-22 · 11:41:34 · The western village road · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
+          "id": "x-nov22-twenty-fifth-threshold",
+          "chapter": "Chapter 186 · The Twenty-Fifth Threshold",
+          "title": "The Promises He Still Carried",
+          "kind": "fiction",
+          "sessionDate": "2026-11-22",
+          "place": "Duskwood",
+          "paragraphs": [
+            "By the time these roads had become part of his life, Xuthar had reached his twenty-fifth level. The change arrived without making the forest smaller. His robe was still the robe of a traveler, his feet still belonged to the paths he had walked, and the names in his ledger remained capable of troubling his sleep.",
+            "He took stock of what had been accomplished. Raven Hill had yielded a living survivor and a recovered family history. The hermit had been found. Supplies had reached Sven. Wolves had been driven from the men’s dangerous routes, and the kitchen work in Darkshire was finished. There was strength in seeing those promises answered together.",
+            "There were other lines he could not close. Althea still needed the work at Tranquil Gardens done. Calor’s worgen, Madame Eva’s totem, Viktori’s instrument and Stalvan’s trail had not become victories because Xuthar had grown stronger. Ira’s duty, Sven’s buried clue and Blind Mary’s comb gave the next journeys names of their own.",
+            "The last road among Raven Hill’s houses curved beneath branches that the morning had failed to soften. Xuthar paused at the turn and felt the familiar pull between going farther and remembering what had already happened. His ledger needed both.",
+            "He had once arrived in Duskwood carrying a letter that could bring no army. Now he carried the beginnings of several people’s trust. It was a heavier burden, and one he chose to keep."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112226_120601.jpg",
+          "caption": "2026-11-22 · 12:06:01 · The turn beyond the old houses · Original Full HD game screenshot. This image illustrates the photographed road; it does not date the related quest hand-ins.",
+          "sources": [
+            "assets/data/duskwood-2026-11-22.json"
+          ],
+          "editorialNote": "Quest outcomes match the verified snapshot. Dialogue, motives and connective scenes are original fiction. Exact sequence of unphotographed hand-ins is not supplied."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -4048,7 +4211,7 @@
           "link": "chronicle.html"
         }
       ],
-      "latestChapterId": "x-nov21-darkshire-arrival"
+      "latestChapterId": "x-nov21-late-watchers"
     },
     {
       "id": "thorgar",
@@ -4203,5 +4366,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "21 November 2026 · Duskwood arrival · Chapters 171–178 · Stalvan introduction #66 complete; eleven newly observed active quests; level 24."
+  "lastEditorialUpdate": "22 November 2026 · Level 25 · Chapters 179–186 · Nine new verified Duskwood completions since arrival · 17 Full HD photos"
 }

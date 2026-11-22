@@ -380,7 +380,7 @@ plans.push({
     {
       "time": "11:41:34–12:06:01 · photographs",
       "title": "Raven Hill’s quiet streets",
-      "description": "Three originals follow the village road, the square and the turn beyond the old houses. No new boss victory is inferred from scenery."
+      "description": "The route follows the village road, the silent square and the turn beyond the old houses. Raven Hill’s empty streets give Xuthar a quiet moment to consider the people whose stories now travel with him."
     },
     {
       "time": "Since the 21 November arrival snapshot · exact hand-in times unavailable",

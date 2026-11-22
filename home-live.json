@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-22T16:41:55.906Z"
+    "checkedAt": "2026-11-22T21:00:17.547Z"
   },
   "news": [
+    {
+      "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-22T19:01:53.000Z"
+    },
+    {
+      "title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
+      "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever",
+      "category": "WoW",
+      "publishedAt": "2026-11-22T19:00:00.000Z"
+    },
     {
       "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
       "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
       "category": "Forever",
       "publishedAt": "2026-11-21T19:26:27.000Z"
-    },
-    {
-      "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-21T15:00:00.000Z"
-    },
-    {
-      "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
-      "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
-      "category": "Forever",
-      "publishedAt": "2026-11-21T00:23:36.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-22T16:41:55.906Z",
-  "generatedAt": "2026-11-22T16:41:55.831Z",
+  "newsUpdatedAt": "2026-11-22T21:00:17.547Z",
+  "generatedAt": "2026-11-22T21:00:17.540Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 22 Nov 2026 10:41:45 -0600",
+  "newsFeedBuiltAt": "Sun, 22 Nov 2026 15:00:17 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

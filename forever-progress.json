@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795297431,
+  "exportedAt": 1795306933,
   "characters": [
     {
       "id": "xuthar",
@@ -17,19 +17,23 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 248,
+      "questsCompleted": 249,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795297431,
+      "checkedAt": 1795306933,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795297431,
+          "snapshotAt": 1795306933,
           "inProgressCount": 17,
-          "completedCount": 248,
+          "completedCount": 249,
           "inProgress": [
+            {
+              "id": 96137,
+              "name": "Ira's Dagger"
+            },
             {
               "id": 174,
               "name": "Look to the Stars"
@@ -53,10 +57,6 @@
             {
               "id": 95772,
               "name": "Songblade Search"
-            },
-            {
-              "id": 90,
-              "name": "Seasoned Wolf Kabobs"
             },
             {
               "id": 56,
@@ -142,6 +142,7 @@
             87,
             88,
             89,
+            90,
             91,
             92,
             94,
@@ -645,7 +646,7 @@
               "briefing": "Last night a horrible disturbance rippled through my veins. I sensed that my granddaughter, Alyssa, was in great danger. I consulted the cards and…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 71,
@@ -727,6 +728,15 @@
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 90,
+              "title": "Seasoned Wolf Kabobs",
+              "area": "Duskwood",
+              "briefing": "Seasoned Wolf Kabobs are a house favorite! Sure, I can make you some. But first I'll need the supplies. Bring me 10 Lean Wolf…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
             },
             {
               "id": 91,
@@ -2584,9 +2594,9 @@
             }
           ],
           "newlyObservedCompletedIds": [
-            66
+            90
           ],
-          "comparedWithSnapshotAt": 1795274676,
+          "comparedWithSnapshotAt": 1795297431,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2602,7 +2612,7 @@
         "achievements": {
           "trackedCount": 20
         },
-        "profileCheckedAt": 1795297431
+        "profileCheckedAt": 1795306933
       }
     }
   ],

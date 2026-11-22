@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795356698,
+  "exportedAt": 1795360964,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795356698,
+      "checkedAt": 1795360964,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795356698,
+          "snapshotAt": 1795360964,
           "inProgressCount": 16,
           "completedCount": 257,
           "inProgress": [
@@ -362,7 +362,7 @@
               "briefing": "I've been stuck hiding in this ghost town for weeks, and I haven't eaten anything but grubs and weeds! I need some decent food,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 6,
@@ -776,7 +776,7 @@
               "briefing": "I'll let you in on a little secret - Dusky \"Crab\" Cakes are really made from spider legs! I know it's a bit disgusting,…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 94,
@@ -1082,7 +1082,7 @@
               "briefing": "Oh, what is a poor old man to do? I need some supplies from Darkshire, but the village is so far away and I…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 150,
@@ -1127,7 +1127,7 @@
               "briefing": "Something's amiss at Raven Hill, Xuthar. Calor swears that someone--or something--is haunting the buildings there. Two nights running he's noticed the shadows moving, and…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 164,
@@ -1136,7 +1136,7 @@
               "briefing": "Do you know Sven? Now, there is a man who does the work of the Light! He and his followers keep a camp at…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 165,
@@ -1145,7 +1145,7 @@
               "briefing": "There was an old man who used to come into town to buy supplies rather frequently, but I haven't seen him for quite some…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 166,
@@ -1235,7 +1235,7 @@
               "briefing": "Sven and I have dangerous days ahead of us, what with the Necromancer to the east and all. And out here alone as we…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 239,
@@ -2162,7 +2162,7 @@
               "briefing": "In dark times like these, it's important we remember our heroes as much as our foes. Darkshire would not still be standing if it…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 96604,
@@ -2669,17 +2669,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            5,
-            93,
-            148,
-            163,
-            164,
-            165,
-            226,
-            96139
-          ],
-          "comparedWithSnapshotAt": 1795306933,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1795356698,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2695,7 +2686,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795356698
+        "profileCheckedAt": 1795360964
       }
     }
   ],

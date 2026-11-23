@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-23T20:41:35.670Z"
+    "checkedAt": "2026-11-23T21:44:07.724Z"
   },
   "news": [
+    {
+      "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
+      "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
+      "category": "Forever",
+      "publishedAt": "2026-11-23T21:20:40.000Z"
+    },
     {
       "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
       "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
       "category": "Forever",
       "publishedAt": "2026-11-23T16:33:33.000Z"
-    },
-    {
-      "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
-      "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
-      "category": "Forever",
-      "publishedAt": "2026-11-23T01:00:37.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-23T20:41:35.670Z",
-  "generatedAt": "2026-11-23T20:41:35.662Z",
+  "newsUpdatedAt": "2026-11-23T21:44:07.723Z",
+  "generatedAt": "2026-11-23T21:44:07.714Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 23 Nov 2026 14:41:35 -0600",
+  "newsFeedBuiltAt": "Mon, 23 Nov 2026 15:43:46 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

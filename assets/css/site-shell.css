@@ -226,3 +226,55 @@ body[data-site-shell] .site-footer {
   border-top-color: color-mix(in srgb, var(--section-accent) 35%, transparent);
   background: #080e18;
 }
+
+/* Winter Veil: pine, brass and cranberry around the original chronicles. */
+body[data-site-season="winter-veil"] .site-header {
+  background: radial-gradient(ellipse at 50% -30%, #39634b55, transparent 72%), #091813;
+  border-bottom-color: #d1ad685e;
+}
+body[data-site-season="winter-veil"] .site-header::before {
+  content: '';
+  position: absolute;
+  inset: -7px 0 auto;
+  height: 52px;
+  z-index: 4;
+  background: url('../images/winter-veil-garland.svg') center top / 540px 54px repeat-x;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 4px #0006);
+}
+body[data-site-season="winter-veil"] .site-bar { position: relative; padding-top: 22px; }
+body[data-site-season="winter-veil"] .site-wordmark { text-shadow: 0 3px 16px #000, 0 0 30px #e8ba5d35; }
+body[data-site-season="winter-veil"] .site-navigation { border-top-color: #c7a35f45; }
+body[data-site-season="winter-veil"] .site-section-nav { background: #101f1b; border-top-color: #ba9b6045; }
+body[data-site-season="winter-veil"] .site-dropdown { background: #14241f; border-color: #b9a16c80; }
+body[data-site-season="winter-veil"] .site-dropdown > a:hover,
+body[data-site-season="winter-veil"] .site-dropdown > a[aria-current="page"] { background: #d8b8791c; }
+.wv-ribbon { position: relative; z-index: 2; border-top: 1px solid #d2b47625; background: linear-gradient(90deg, #14251d00, #2543348c 30%, #2a47398c 70%, #14251d00); }
+.wv-ribbon-inner { width: min(var(--site-width), calc(100% - 64px)); min-height: 46px; margin: auto; display: flex; justify-content: center; align-items: center; gap: 13px; padding: 4px 0; }
+.wv-emblem { display: block; width: 37px; height: 37px; flex: none; filter: drop-shadow(0 2px 3px #0008); }
+.wv-name { font: 1.125rem/1.3 Georgia, 'Times New Roman', serif; color: #f4d99e; letter-spacing: .055em; white-space: nowrap; }
+.wv-greeting { font: .875rem/1.5 Arial, sans-serif; color: #c3d2bd; padding-left: 16px; border-left: 1px solid #d6ba7545; }
+.wv-snow-toggle { margin-left: 16px; min-height: 32px; padding: 5px 10px; border: 1px solid #d4b16a55; border-radius: 3px; color: #e8d6af; background: #081a1577; font: .875rem/1.4 Arial, sans-serif; cursor: pointer; white-space: nowrap; }
+.wv-snow-toggle:hover { background: #284535; border-color: #e4c787; }
+.wv-snow-toggle::before { content: '❄'; padding-right: 7px; color: #dae8e0; }
+.wv-snow { position: absolute; inset: 0 0 auto; height: 240px; overflow: hidden; pointer-events: none; z-index: 3; contain: paint; }
+.wv-snow i { position: absolute; top: -8px; left: var(--wv-left); width: var(--wv-size); height: var(--wv-size); border-radius: 50%; background: #f3f7f1; box-shadow: 0 0 5px #d4e9e86b; opacity: 0; animation: wv-snowfall var(--wv-duration) var(--wv-delay) linear infinite; }
+body[data-winter-snow="off"] .wv-snow { display: none; }
+@keyframes wv-snowfall { 0% { transform: translate3d(0, 0, 0); opacity: 0; } 15% { opacity: .7; } 80% { opacity: .5; } 100% { transform: translate3d(22px, 245px, 0); opacity: 0; } }
+body[data-site-season="winter-veil"] .site-footer { position: relative; background: radial-gradient(ellipse at 50% 110%, #274a3545, transparent 70%), #091610; border-top-color: #d5b57466; }
+body[data-site-season="winter-veil"] .site-footer::before { content: ''; position: absolute; inset: -15px 0 auto; height: 30px; pointer-events: none; background: url('../images/winter-veil-garland.svg') center top / 390px 39px repeat-x; opacity: .8; }
+.wv-footer-wish { grid-column: 1 / -1; margin: 0; padding-top: 12px; border-top: 1px solid #c4a66e26; color: #d8c49a; font: italic 1rem/1.65 Georgia, 'Times New Roman', serif; }
+@media (max-width: 760px) {
+  body[data-site-season="winter-veil"] .site-header::before { height: 37px; background-size: 400px 40px; inset-block-start: -9px; }
+  body[data-site-season="winter-veil"] .site-bar { padding-top: 19px; }
+  .wv-ribbon-inner { width: calc(100% - 36px); gap: 10px; min-height: 43px; }
+  .wv-emblem { width: 31px; height: 31px; }
+  .wv-name { font-size: 1rem; }
+  .wv-greeting { padding-left: 12px; font-size: .875rem; }
+  .wv-snow-toggle { margin-left: auto; }
+  .wv-snow { height: 190px; }
+  .wv-snow i:nth-child(n+8) { display: none; }
+}
+@media (max-width: 560px) { .wv-greeting { display: none; } .wv-ribbon-inner { justify-content: flex-start; } }
+@media (prefers-reduced-motion: reduce) { .wv-snow { display: none; } .wv-snow i { animation: none; } .wv-snow-toggle { display: none; } }
+@media print { .wv-ribbon, .wv-snow, .wv-footer-wish { display: none !important; } }

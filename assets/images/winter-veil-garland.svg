@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="64" viewBox="0 0 640 64" fill="none">
+  <defs>
+    <linearGradient id="pine" x1="0" y1="0" x2="0" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#285b47"/><stop offset="1" stop-color="#0d3028"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="24" x2="0" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#ffdf94"/><stop offset=".52" stop-color="#d49c42"/><stop offset="1" stop-color="#865326"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="25" x2="0" y2="59" gradientUnits="userSpaceOnUse"><stop stop-color="#df7061"/><stop offset=".45" stop-color="#9c3437"/><stop offset="1" stop-color="#5b202b"/></linearGradient>
+    <g id="sprig"><path d="M-43 0 0 11 43 0 33 12 45 12 29 22 40 23 19 32 27 34 0 43-27 34-19 32-40 23-29 22-45 12-33 12Z" fill="url(#pine)"/><path d="M0 1v37M0 12l-22-4M0 20l-28-4M0 28l-18-3M0 12l22-4M0 20l28-4M0 28l18-3" stroke="#619178" stroke-opacity=".55" stroke-width="1.5"/><path d="m-39 1 18 4m29 3 28-7m-52 27 11 3m15-1 11-4" stroke="#e1e9d8" stroke-opacity=".82" stroke-width="3" stroke-linecap="round"/></g>
+    <g id="berry"><path d="M0 0c-13-15-25-10-30-8 7 2 4 13 13 12-1 8 8 6 17-4Zm0 0c8-18 20-20 27-17-6 5 3 9-6 13 5 7-8 8-21 4Z" fill="#397049" stroke="#8eab61" stroke-width=".75"/><circle cx="-4" cy="0" r="4" fill="#a9363d"/><circle cx="4" cy="2" r="4" fill="#c14a44"/><circle cx="0" cy="7" r="4" fill="#8c2b38"/><circle cx="3" cy="0" r="1.2" fill="#f2bb91"/></g>
+  </defs>
+  <path d="M-10 5Q80 21 160 7T320 7T480 7T650 5" stroke="#604b2d" stroke-width="8"/>
+  <g><use href="#sprig" x="0" y="-7"/><use href="#sprig" x="64" y="-3"/><use href="#sprig" x="128" y="-7"/><use href="#sprig" x="192" y="-5"/><use href="#sprig" x="256" y="-9"/><use href="#sprig" x="320" y="-4"/><use href="#sprig" x="384" y="-7"/><use href="#sprig" x="448" y="-3"/><use href="#sprig" x="512" y="-8"/><use href="#sprig" x="576" y="-6"/><use href="#sprig" x="640" y="-7"/></g>
+  <path d="M0 16Q80 39 160 17T320 16T480 17T640 16" stroke="#d0a65e" stroke-width="1.4" stroke-opacity=".75"/>
+  <path d="M90 21v17m154-23v15m155-12v20m155-23v14" stroke="#bf9859" stroke-width="1.5"/>
+  <path d="M85 38h10v5H85zm154-8h10v5h-10zm155 8h10v5h-10zm155-9h10v5h-10z" fill="#dfc281"/>
+  <circle cx="90" cy="49" r="10" fill="url(#red)" stroke="#d59666" stroke-width=".7"/><path d="m90 42 3 7-3 7-3-7Z" stroke="#efc57a" stroke-width=".9"/>
+  <path d="m244 34 9 11-9 12-9-12Z" fill="url(#gold)" stroke="#f3cf89" stroke-width=".8"/>
+  <circle cx="399" cy="49" r="10" fill="url(#gold)" stroke="#e4be70" stroke-width=".7"/><path d="m394 49 5-5 5 5-5 5Z" fill="#243e39"/>
+  <path d="m554 33 9 11-9 12-9-12Z" fill="url(#red)" stroke="#dfb071" stroke-width=".8"/>
+  <use href="#berry" x="160" y="18"/><use href="#berry" x="480" y="18"/>
+  <g fill="#ffdf91"><ellipse cx="31" cy="24" rx="2.6" ry="4.1"/><ellipse cx="187" cy="15" rx="2.6" ry="4.1"/><ellipse cx="341" cy="23" rx="2.6" ry="4.1"/><ellipse cx="498" cy="16" rx="2.6" ry="4.1"/><ellipse cx="607" cy="24" rx="2.6" ry="4.1"/></g>
+</svg>

@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795395359,
+  "exportedAt": 1795461360,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795395359,
+      "checkedAt": 1795461360,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795395359,
+          "snapshotAt": 1795461360,
           "inProgressCount": 18,
           "completedCount": 259,
           "inProgress": [
@@ -2100,7 +2100,7 @@
               "briefing": "Me brother tried draggin' me off tae the Wetlands with some diggin' crew out o' Loch Modan. Said they were headin' into hills no…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 95810,
@@ -2109,7 +2109,7 @@
               "briefing": "You pick up a fractured piece of the rock-mech automaton. It has a texture unlike anything you've touched before, a composite material of unknown…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 95998,
@@ -2697,11 +2697,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            95772,
-            95810
-          ],
-          "comparedWithSnapshotAt": 1795360964,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1795395359,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2717,7 +2714,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795395359
+        "profileCheckedAt": 1795461360
       }
     }
   ],

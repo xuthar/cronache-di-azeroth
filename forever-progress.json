@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795360964,
+  "exportedAt": 1795395359,
   "characters": [
     {
       "id": "xuthar",
@@ -17,18 +17,18 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 257,
+      "questsCompleted": 259,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795360964,
+      "checkedAt": 1795395359,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795360964,
-          "inProgressCount": 16,
-          "completedCount": 257,
+          "snapshotAt": 1795395359,
+          "inProgressCount": 18,
+          "completedCount": 259,
           "inProgress": [
             {
               "id": 96137,
@@ -55,8 +55,8 @@
               "name": "The Corruption Abroad"
             },
             {
-              "id": 95772,
-              "name": "Songblade Search"
+              "id": 98824,
+              "name": "Prehistoric Prism"
             },
             {
               "id": 56,
@@ -83,12 +83,20 @@
               "name": "Return to Jitters"
             },
             {
+              "id": 94241,
+              "name": "Craftsman's Writ: Dark Leather Tunic"
+            },
+            {
               "id": 97894,
               "name": "Business in Auberdine"
             },
             {
               "id": 1078,
               "name": "Retrieval for Mauren"
+            },
+            {
+              "id": 95795,
+              "name": "Fallen in the Fen"
             },
             {
               "id": 67,
@@ -288,6 +296,8 @@
             94778,
             94779,
             95065,
+            95772,
+            95810,
             95998,
             95999,
             96047,
@@ -2084,6 +2094,24 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 95772,
+              "title": "Songblade Search",
+              "area": "Excavation Site: Wetlands",
+              "briefing": "Me brother tried draggin' me off tae the Wetlands with some diggin' crew out o' Loch Modan. Said they were headin' into hills no…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
+              "id": 95810,
+              "title": "Lost Relic Carry",
+              "area": "Excavation Site: Wetlands",
+              "briefing": "You pick up a fractured piece of the rock-mech automaton. It has a texture unlike anything you've touched before, a composite material of unknown…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "BlizzardStaticForeverEU"
+            },
+            {
               "id": 95998,
               "title": "The Great Outdoors",
               "area": "Camping",
@@ -2669,8 +2697,11 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1795356698,
+          "newlyObservedCompletedIds": [
+            95772,
+            95810
+          ],
+          "comparedWithSnapshotAt": 1795360964,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2686,7 +2717,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795360964
+        "profileCheckedAt": 1795395359
       }
     }
   ],

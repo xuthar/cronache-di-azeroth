@@ -449,5 +449,34 @@ if(excavationDay){
   }
 ]);
 }
+plans.push({
+  "date": "2026-11-23",
+  "day": "Monday, 23 November",
+  "title": "The Quiet Between the Roads",
+  "place": "A day of rest after the recent adventures",
+  "level": "Level 25 · last confirmed",
+  "summary": "After the demanding roads of Duskwood and the Excavation Site expedition with Carro Steelcave, Xuthar chooses a quiet day of rest. He lets his strength return, remembers the companions who brought him safely through the Wetlands and reflects on the mysteries still waiting in Azeroth. Future journeys remain open possibilities.",
+  "reportUrl": "chronicle.html#rest-day-2026-11-23",
+  "reportLabel": "Live Chronicle · A day of rest",
+  "bookUrl": "book.html?character=xuthar#x-nov23-quiet-between-roads",
+  "bookLabel": "The Last Witness · Chapter 198",
+  "stops": [
+    {
+      "time": "Today · no exact hour recorded",
+      "title": "A well-earned pause",
+      "description": "Xuthar rests after the adventures of recent days. No new expedition is reported."
+    },
+    {
+      "time": "During the quiet hours",
+      "title": "The mountain and the friend who waited",
+      "description": "The novel returns to the Wetlands through memory: the ancient guardian, the fossil cliffs, Carro’s steady presence and Broken Tooth at their side."
+    },
+    {
+      "time": "Thoughts of tomorrow",
+      "title": "Room for an unwritten road",
+      "description": "Xuthar wonders how he will grow alongside a changing Azeroth. He hopes to meet future challenges with patience, sound judgment and friends he trusts. No destination or departure is scheduled."
+    }
+  ]
+});
 return plans;
 })();

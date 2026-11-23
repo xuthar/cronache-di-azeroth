@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-excavation-site-level25",
+      "status": "living-novel-rest-day-level25",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -4420,6 +4420,25 @@
           "editorialNote": "Original literary interpretation of the photographed expedition. Dialogue, thoughts, atmosphere and unphotographed combat details are dramatized. No new level, specific loot award or quest hand-in is inferred."
         },
         {
+          "id": "x-nov23-quiet-between-roads",
+          "chapter": "Chapter 198 · The Quiet Between the Roads",
+          "title": "The Quiet Between the Roads",
+          "kind": "fiction",
+          "sessionDate": "2026-11-23",
+          "place": "A day of rest",
+          "paragraphs": [
+            "When Xuthar opened his ledger, his fingers found a little grit caught in the binding. He worked it free with his thumbnail and watched the grains settle beside the page. Yesterday a mountain had seemed to rise against him. Today this small, stubborn remnant of it was enough to occupy his attention. His shoulders still remembered the weight of the journey, and he allowed the book to rest across his knees.",
+            "He had made no promise to leave again that morning. For once, the space ahead of him could remain empty. He listened until his breathing lost the hurried rhythm it sometimes kept long after danger had passed. There was an ache along his back, another in the hand that held the staff. He gave them time. The world was large enough to contain a traveller who needed to be still.",
+            "Carro returned to his thoughts as he had stood on the high ledge above the excavation, with Broken Tooth nearby and the Wetlands fading into mist below. Xuthar could remember the vastness of the view. More clearly, he remembered his friend turning during the struggle to see where he was. The gesture had lasted a heartbeat. It had given the priest something solid to hold when the clearing shook.",
+            "He wondered what else Azeroth kept beneath its familiar roads. A hillside could conceal the bones of an age; an ordinary request could uncover a family's forgotten grief. Perhaps the lands he had passed without noticing would someday ask him to return. He wanted the strength to answer them, and the patience to hear what they were asking before he reached for power.",
+            "That thought troubled him enough to write it down. The guardian had carried an ancient purpose into a world that had changed around it. Xuthar knew how easily certainty could become a habit, especially when it had once kept a man alive. As his own power grew, he would need people who could question him. He hoped he would still listen when Carro told him to wait.",
+            "There would be harder roads. He could imagine strangers gathering at entrances he had never seen, the nervous checking of provisions, the first careful words exchanged before anyone knew whom to trust. He might learn spells that now lay beyond his understanding. He might find work whose importance became clear only after it was finished. The thought stirred a quiet eagerness beneath his weariness.",
+            "For today, he let those possibilities keep their distance. Darkshire's lamps and the mountain's buried bones could share the same page without demanding another journey from him. He wrote Carro's name once more, then added a few lines about the cat who had followed them through water and grass. A future worth reaching ought to have room for such details.",
+            "Before closing the ledger, he left a line for tomorrow. He could fill it when tomorrow arrived. The light had moved while he was writing; he watched it for a while, feeling his tired hands grow still. Somewhere in Azeroth another traveller was beginning a story. Xuthar was content to spend this day gathering the strength to meet them."
+          ],
+          "editorialNote": "A player-reported rest day, interpreted as original roleplay reflection. The resting location is unspecified. Future journeys are hopes and possibilities, not announced expeditions or claimed progress."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -4433,7 +4452,7 @@
           "link": "chronicle.html"
         }
       ],
-      "latestChapterId": "x-nov22-wetlands-rendezvous"
+      "latestChapterId": "x-nov23-quiet-between-roads"
     },
     {
       "id": "thorgar",
@@ -4588,5 +4607,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "22 November 2026 · Excavation Site: Wetlands · Chapters 187–197 · Xuthar & Carro · 22 original Full HD photographs"
+  "lastEditorialUpdate": "23 November 2026 · A day of rest · Chapter 198 · Reflections after the Wetlands expedition"
 }

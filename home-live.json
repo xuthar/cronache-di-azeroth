@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-22T21:00:17.547Z"
+    "checkedAt": "2026-11-23T01:35:06.464Z"
   },
   "news": [
+    {
+      "title": "Uldaman Boss No Longer Drops Loot - Nerf Targets Gold Farming Strategy",
+      "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+      "category": "Forever",
+      "publishedAt": "2026-11-23T01:00:37.000Z"
+    },
+    {
+      "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
+      "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
+      "category": "Forever",
+      "publishedAt": "2026-11-22T23:06:59.000Z"
+    },
+    {
+      "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+      "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
+      "category": "Forever",
+      "publishedAt": "2026-11-22T21:00:03.000Z"
+    },
     {
       "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
       "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-22T19:01:53.000Z"
-    },
-    {
-      "title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
-      "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever",
-      "category": "WoW",
-      "publishedAt": "2026-11-22T19:00:00.000Z"
-    },
-    {
-      "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-22T15:00:00.000Z"
-    },
-    {
-      "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
-      "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
-      "category": "Forever",
-      "publishedAt": "2026-11-21T19:26:27.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-22T21:00:17.547Z",
-  "generatedAt": "2026-11-22T21:00:17.540Z",
+  "newsUpdatedAt": "2026-11-23T01:35:06.463Z",
+  "generatedAt": "2026-11-23T01:35:06.412Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Sun, 22 Nov 2026 15:00:17 -0600",
+  "newsFeedBuiltAt": "Sun, 22 Nov 2026 19:34:37 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

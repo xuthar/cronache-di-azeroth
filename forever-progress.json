@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795461360,
+  "exportedAt": 1795495765,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795461360,
+      "checkedAt": 1795495765,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795461360,
+          "snapshotAt": 1795495765,
           "inProgressCount": 18,
           "completedCount": 259,
           "inProgress": [
@@ -2698,7 +2698,7 @@
             }
           ],
           "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1795395359,
+          "comparedWithSnapshotAt": 1795461360,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2714,7 +2714,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795461360
+        "profileCheckedAt": 1795495765
       }
     }
   ],

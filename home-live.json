@@ -2,9 +2,21 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-23T21:44:07.724Z"
+    "checkedAt": "2026-11-24T05:36:51.584Z"
   },
   "news": [
+    {
+      "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+      "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+      "category": "Forever",
+      "publishedAt": "2026-11-24T02:10:52.000Z"
+    },
+    {
+      "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+      "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+      "category": "Forever",
+      "publishedAt": "2026-11-23T23:00:58.000Z"
+    },
     {
       "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
       "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
@@ -16,26 +28,14 @@
       "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
       "category": "Forever",
       "publishedAt": "2026-11-23T19:39:02.000Z"
-    },
-    {
-      "title": "Blizzard Working on a Fix for Paladin and Warlocks Not Unlocking Epic Riding",
-      "url": "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding",
-      "category": "Forever",
-      "publishedAt": "2026-11-23T19:05:26.000Z"
-    },
-    {
-      "title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
-      "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
-      "category": "Forever",
-      "publishedAt": "2026-11-23T16:33:33.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-23T21:44:07.723Z",
-  "generatedAt": "2026-11-23T21:44:07.714Z",
+  "newsUpdatedAt": "2026-11-24T05:36:51.584Z",
+  "generatedAt": "2026-11-24T05:36:51.578Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 23 Nov 2026 15:43:46 -0600",
+  "newsFeedBuiltAt": "Mon, 23 Nov 2026 23:36:51 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

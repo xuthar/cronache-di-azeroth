@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-24T05:36:51.584Z"
+    "checkedAt": "2026-11-24T16:24:11.532Z"
   },
   "news": [
+    {
+      "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-24T15:00:00.000Z"
+    },
     {
       "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
       "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
       "category": "Forever",
       "publishedAt": "2026-11-23T21:20:40.000Z"
-    },
-    {
-      "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
-      "category": "Forever",
-      "publishedAt": "2026-11-23T19:39:02.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-24T05:36:51.584Z",
-  "generatedAt": "2026-11-24T05:36:51.578Z",
+  "newsUpdatedAt": "2026-11-24T16:24:11.531Z",
+  "generatedAt": "2026-11-24T16:24:11.522Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Mon, 23 Nov 2026 23:36:51 -0600",
+  "newsFeedBuiltAt": "Tue, 24 Nov 2026 10:24:10 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

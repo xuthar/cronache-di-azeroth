@@ -1,28 +1,10 @@
 {
-  "updatedAt": "2026-11-23T23:47:46.468Z",
+  "updatedAt": "2026-11-24T09:45:47.737Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
   "region": "Source reference schedule",
   "events": [
-    {
-      "id": "wow-event-561-1794294000000@wowlazymacros.com",
-      "title": "Arena Skirmish Bonus Event",
-      "startAt": "2026-11-10T07:00:00.000Z",
-      "endAt": "2026-11-17T06:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=561"
-    },
-    {
-      "id": "wow-event-1047-1794297600000@wowlazymacros.com",
-      "title": "PvP Brawl: Cooking Impossible",
-      "startAt": "2026-11-10T08:00:00.000Z",
-      "endAt": "2026-11-17T08:00:00.000Z",
-      "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=1047"
-    },
     {
       "id": "wow-event-1263-1794898800000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",

@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-25T19:37:41.578Z"
+    "checkedAt": "2026-11-25T20:21:49.143Z"
   },
   "news": [
+    {
+      "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-25T19:44:07.000Z"
+    },
     {
       "title": "December 2026 Trading Post Preview - Festive Eve and Brrrgl Pets",
       "url": "https://www.wowhead.com/news=383995/december-2026-trading-post-preview-festive-eve-and-brrrgl-pets",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383991/new-limited-time-shop-offer-buy-365-days-of-game-time-for-120-usd",
       "category": "WoW",
       "publishedAt": "2026-11-25T18:17:35.000Z"
-    },
-    {
-      "title": "New Cuddly Seafoam Grrgle Twitch Drop Coming on December 1st",
-      "url": "https://www.wowhead.com/news=383990/new-cuddly-seafoam-grrgle-twitch-drop-coming-on-december-1st",
-      "category": "Live",
-      "publishedAt": "2026-11-25T18:02:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-25T19:37:41.577Z",
-  "generatedAt": "2026-11-25T19:37:41.565Z",
+  "newsUpdatedAt": "2026-11-25T20:21:49.142Z",
+  "generatedAt": "2026-11-25T20:21:49.136Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 25 Nov 2026 13:37:25 -0600",
+  "newsFeedBuiltAt": "Wed, 25 Nov 2026 14:21:48 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

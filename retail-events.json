@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:20:45.813Z",
+  "updatedAt": "2026-11-25T20:21:58.309Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -285,10 +285,10 @@
       "url": "https://www.wowhead.com/event=1170"
     },
     {
-      "id": "wow-event-327-1801562400000@wowlazymacros.com",
+      "id": "wow-event-327-1801821600000@wowlazymacros.com",
       "title": "Lunar Festival",
-      "startAt": "2027-02-02T10:00:00.000Z",
-      "endAt": "2027-02-16T10:00:00.000Z",
+      "startAt": "2027-02-05T10:00:00.000Z",
+      "endAt": "2027-02-19T10:00:00.000Z",
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=327"

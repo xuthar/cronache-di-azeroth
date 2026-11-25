@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-25T09:46:00.191Z"
+    "checkedAt": "2026-11-25T19:37:41.578Z"
   },
   "news": [
     {
-      "title": "[UPDATED] Ascendant Venomstone Drops Increased from Venomous Abyss Bosses and +14 or Higher Mythic+ Keystones",
-      "url": "https://www.wowhead.com/news=383983/ascendant-venomstone-drops-increased-from-venomous-abyss-bosses",
+      "title": "December 2026 Trading Post Preview - Festive Eve and Brrrgl Pets",
+      "url": "https://www.wowhead.com/news=383995/december-2026-trading-post-preview-festive-eve-and-brrrgl-pets",
       "category": "Live",
-      "publishedAt": "2026-11-24T23:51:40.000Z"
+      "publishedAt": "2026-11-25T19:25:29.000Z"
     },
     {
-      "title": "Earn 10% Reputation Bonus During Pilgrim's Bounty",
-      "url": "https://www.wowhead.com/news=383978/earn-10-reputation-bonus-during-pilgrims-bounty",
-      "category": "Live",
-      "publishedAt": "2026-11-24T19:55:46.000Z"
-    },
-    {
-      "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
-      "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+      "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
+      "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form",
       "category": "Forever",
-      "publishedAt": "2026-11-24T18:06:43.000Z"
+      "publishedAt": "2026-11-25T18:33:57.000Z"
     },
     {
-      "title": "Last Week to Obtain Aqir Invasion Feat of Strength Achievements Before Removal",
-      "url": "https://www.wowhead.com/news=383977/last-week-to-obtain-aqir-invasion-feat-of-strength-achievements-before-removal",
+      "title": "Buy 365 Days of Game Time for $120 USD - New Limited Time Shop Offer",
+      "url": "https://www.wowhead.com/news=383991/new-limited-time-shop-offer-buy-365-days-of-game-time-for-120-usd",
+      "category": "WoW",
+      "publishedAt": "2026-11-25T18:17:35.000Z"
+    },
+    {
+      "title": "New Cuddly Seafoam Grrgle Twitch Drop Coming on December 1st",
+      "url": "https://www.wowhead.com/news=383990/new-cuddly-seafoam-grrgle-twitch-drop-coming-on-december-1st",
       "category": "Live",
-      "publishedAt": "2026-11-24T16:30:16.000Z"
+      "publishedAt": "2026-11-25T18:02:21.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-25T09:46:00.191Z",
-  "generatedAt": "2026-11-25T09:46:00.021Z",
+  "newsUpdatedAt": "2026-11-25T19:37:41.577Z",
+  "generatedAt": "2026-11-25T19:37:41.565Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 25 Nov 2026 03:45:59 -0600",
+  "newsFeedBuiltAt": "Wed, 25 Nov 2026 13:37:25 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

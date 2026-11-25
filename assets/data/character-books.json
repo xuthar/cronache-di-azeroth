@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-rest-day-level25",
+      "status": "living-novel-wetlands-echoes-level25",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -4439,6 +4439,24 @@
           "editorialNote": "A player-reported rest day, interpreted as original roleplay reflection. The resting location is unspecified. Future journeys are hopes and possibilities, not announced expeditions or claimed progress."
         },
         {
+          "id": "x-nov25-echoes-of-the-excavation",
+          "chapter": "Chapter 199 · Echoes of the Excavation",
+          "title": "Echoes of the Excavation",
+          "kind": "fiction",
+          "sessionDate": "2026-11-25",
+          "place": "Memories of the Wetlands",
+          "paragraphs": [
+            "The memory of the Wetlands had not ended at the mouth of the mountain. It had followed Xuthar beyond the last bridge, carried in the silence between the names of the fallen and the things the earth had yielded. Some victories were measured in a guardian brought to its knees. Others, he was learning, began with a question that refused to die.",
+            "He remembered the tale of the Songblade, the thread of a brother's search tangled among the ambitions of explorers out of Loch Modan. To strangers the mountain might have been nothing but stone and buried wealth. To someone waiting for a brother, every unreturned footstep had a weight of its own. The priest had learned long ago that a promise could be more terrible to carry than any weapon.",
+            "Then there was the broken relic, a fragment of the ancient automaton whose surface seemed to belong to no ordinary smith's art. The great guardian had fallen beneath their efforts, but the material it left behind raised a different kind of challenge. How many hands had laboured over it? What had its makers intended to preserve? The past had survived the people who built it, and here it was, still asking to be understood.",
+            "In the priest's memory Carro stood against the pale cliffs, solid as the hills from which his people had come. Broken Tooth moved through the grass at his side. Xuthar almost smiled at the thought of the dwarf's practical wisdom: a riddle was worth solving, provided one survived long enough to hear the answer. Their friendship had made the mountain less immense.",
+            "Three further obligations waited in the book of unfinished things: a prism from an ancient age, a mystery in the fen, and a craftsman's writ for dark leather. None was yet a victory. Beyond those lay the older promises of Duskwood — the missing, the restless dead, the uneasy secrets of Stalvan and the debt owed to the Night Watch.",
+            "Xuthar could imagine a road stretching from the wet stone of the excavation to the lanterns of Darkshire, and beyond them into places he had never seen. He did not know what shape those journeys would take. But the shadow that answered his call had taught him something: darkness was not the absence of a story. Sometimes it was the place where a story waited to be found.",
+            "The Songblade's search and the shattered relic belonged now to the memories of the mountain. The rest of the page remained open. He would not write an ending merely because he wished for one. Azeroth would provide its own, in its own time."
+          ],
+          "editorialNote": "Retrospective literary chapter published 25 November. Songblade Search (#95772) and Lost Relic Carry (#95810) were first observed complete in the 23 November 01:55 Italy snapshot, after the 22 November expedition. No new completion, travel, loot, level change or current presence is inferred for 25 November. Thoughts and imagery are dramatized."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -4452,7 +4470,7 @@
           "link": "chronicle.html"
         }
       ],
-      "latestChapterId": "x-nov23-quiet-between-roads"
+      "latestChapterId": "x-nov25-echoes-of-the-excavation"
     },
     {
       "id": "thorgar",
@@ -4607,5 +4625,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "23 November 2026 · A day of rest · Chapter 198 · Reflections after the Wetlands expedition"
+  "lastEditorialUpdate": "25 November 2026 · Chapter 199 · Wetlands retrospective and official profile review"
 }

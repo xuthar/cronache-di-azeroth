@@ -149,7 +149,7 @@
     gallery: () => `<div class="wrap body-space">${header('VI · Memories of Azeroth','Gallery','Faces, landscapes, and moments worth keeping. An album for the things words alone cannot capture.')}<p class="demo-note">A personal album of gameplay screenshots and enhanced memories. Select a frame to see the complete image.</p><div class="grid">${data.gallery.map((g,i)=>`<figure class="content-card gallery-card" style="margin:0">${safeImage(g.image)?`<button class="gallery-button" data-gallery="${i}" aria-label="Enlarge: ${escape(g.title)}"><img class="gallery-image" src="${escape(g.image)}" alt="${escape(g.alt)}" loading="lazy"></button>`:placeholder(g.category)}<figcaption class="card-body"><span class="badge">${escape(g.category)}</span><h2>${escape(g.title)}</h2><span class="meta">${safeImage(g.image)?'Open the image to enlarge it':'Waiting for a memory'}</span></figcaption></figure>`).join('')}</div><dialog id="lightbox" aria-label="Enlarged image"><button type="button" autofocus>Close</button><img alt=""><p></p></dialog></div>`
   };
   const main = document.querySelector('#main');
-  const currentDispatches = [...main.querySelectorAll('#rest-day-2026-11-23, #journal-excavation-2026-11-22, #duskwood-progress-2026-11-22, #duskwood-arrival-2026-11-21')];
+  const currentDispatches = [...main.querySelectorAll('#dispatch-2026-11-25, #rest-day-2026-11-23, #journal-excavation-2026-11-22, #duskwood-progress-2026-11-22, #duskwood-arrival-2026-11-21')];
   if (renderers[page]) {
     main.innerHTML = renderers[page]();
     main.prepend(...currentDispatches);

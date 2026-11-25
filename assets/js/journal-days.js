@@ -478,5 +478,34 @@ plans.push({
     }
   ]
 });
+plans.push({
+  "date": "2026-11-25",
+  "day": "Wednesday, 25 November",
+  "title": "Echoes of the Excavation",
+  "place": "Wetlands retrospective · current location unconfirmed",
+  "level": "Level 25 · 259 completed IDs · 18 active",
+  "summary": "The latest official Forever EU profile confirms level 25, 259 completed quest IDs and 18 active quests. Songblade Search and Lost Relic Carry first appeared complete on 23 November at 01:55 Italian time, after the Wetlands expedition. No further completions are visible in today's snapshots. The diary remembers the two recovered threads of the mountain's story without assigning unverified travel or hand-ins to today.",
+  "reportUrl": "chronicle.html#dispatch-2026-11-25",
+  "reportLabel": "Live Chronicle · Verified profile review",
+  "bookUrl": "book.html?character=xuthar#x-nov25-echoes-of-the-excavation",
+  "bookLabel": "The Last Witness · Chapter 199",
+  "stops": [
+    {
+      "time": "23 November · 01:55 Italy · first observed complete",
+      "title": "Songblade Search (#95772) and Lost Relic Carry (#95810)",
+      "description": "Two Excavation Site quests entered the completed record after the 22 November expedition. One follows a brother's search; the other concerns a fractured piece of the ancient rock-mech automaton. Exact completion times are unavailable."
+    },
+    {
+      "time": "25 November · 04:34 Italy · official snapshot",
+      "title": "The promises still waiting",
+      "description": "Level 25, 259 completed quest IDs and 18 active. Prehistoric Prism (#98824), Fallen in the Fen (#95795) and Craftsman's Writ: Dark Leather Tunic (#94241) are active, not completed."
+    },
+    {
+      "time": "25 November · 18:59 Italy · official snapshot",
+      "title": "The road remains open",
+      "description": "The later snapshot has the same totals and no newly observed completed IDs. No location, presence or specific new gameplay activity is available; the novel revisits the Wetlands rather than inventing a new expedition."
+    }
+  ]
+});
 return plans;
 })();

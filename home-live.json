@@ -2,40 +2,40 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-25T20:21:49.143Z"
+    "checkedAt": "2026-11-26T02:29:12.805Z"
   },
   "news": [
+    {
+      "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
+      "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
+      "category": "Forever",
+      "publishedAt": "2026-11-25T23:24:22.000Z"
+    },
+    {
+      "title": "Alterac Valley Reputation Increased Again in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383999/alterac-valley-reputation-increased-again-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-25T23:11:07.000Z"
+    },
+    {
+      "title": "Take Advantage of Profession Cooldowns for Goldmaking in WoW: Forever",
+      "url": "https://www.wowhead.com/news=383979/take-advantage-of-profession-cooldowns-for-goldmaking-in-wow-forever",
+      "category": "Forever",
+      "publishedAt": "2026-11-25T22:27:09.000Z"
+    },
     {
       "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
       "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-25T19:44:07.000Z"
-    },
-    {
-      "title": "December 2026 Trading Post Preview - Festive Eve and Brrrgl Pets",
-      "url": "https://www.wowhead.com/news=383995/december-2026-trading-post-preview-festive-eve-and-brrrgl-pets",
-      "category": "Live",
-      "publishedAt": "2026-11-25T19:25:29.000Z"
-    },
-    {
-      "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
-      "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form",
-      "category": "Forever",
-      "publishedAt": "2026-11-25T18:33:57.000Z"
-    },
-    {
-      "title": "Buy 365 Days of Game Time for $120 USD - New Limited Time Shop Offer",
-      "url": "https://www.wowhead.com/news=383991/new-limited-time-shop-offer-buy-365-days-of-game-time-for-120-usd",
-      "category": "WoW",
-      "publishedAt": "2026-11-25T18:17:35.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-25T20:21:49.142Z",
-  "generatedAt": "2026-11-25T20:21:49.136Z",
+  "newsUpdatedAt": "2026-11-26T02:29:12.803Z",
+  "generatedAt": "2026-11-26T02:29:12.793Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Wed, 25 Nov 2026 14:21:48 -0600",
+  "newsFeedBuiltAt": "Wed, 25 Nov 2026 20:28:44 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

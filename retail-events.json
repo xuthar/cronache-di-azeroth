@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T21:36:52.747Z",
+  "updatedAt": "2026-11-26T08:06:11.060Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -553,6 +553,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=702"
+    },
+    {
+      "id": "wow-event-666-1811232000000@wowlazymacros.com",
+      "title": "PvP Brawl: Arathi Blizzard",
+      "startAt": "2027-05-25T08:00:00.000Z",
+      "endAt": "2027-06-01T08:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=666"
     }
   ]
 }

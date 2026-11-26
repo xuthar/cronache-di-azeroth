@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795661587,
+  "exportedAt": 1795715118,
   "characters": [
     {
       "id": "xuthar",
@@ -22,11 +22,11 @@
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795661587,
+      "checkedAt": 1795715118,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795661587,
+          "snapshotAt": 1795715118,
           "inProgressCount": 17,
           "completedCount": 264,
           "inProgress": [
@@ -1102,7 +1102,7 @@
               "briefing": "There is a poor, sad spirit, Blind Mary, who haunts an old farm house in the hills south of Darkshire. Here, take this Spectral…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 150,
@@ -1138,7 +1138,7 @@
               "briefing": "NO!!!!! Take it, take this comb away from me! I'm a monster, and no one will ever think me lovely again!",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 155,
@@ -1156,7 +1156,7 @@
               "briefing": "Here is your thread, Xuthar. It has a thousand uses, from binding evil spirits to sewing life into inanimate objects.",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 158,
@@ -1165,7 +1165,7 @@
               "briefing": "I need a bottle of a certain liquor - Zombie Juice. Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire should have some. And…",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 163,
@@ -1300,7 +1300,7 @@
               "briefing": "And here we are - \"Crab\" Cakes ala Grual!",
               "objective": null,
               "objectiveSource": null,
-              "metadataSource": "BlizzardStaticForeverEU"
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
               "id": 244,
@@ -2743,14 +2743,8 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             }
           ],
-          "newlyObservedCompletedIds": [
-            149,
-            154,
-            157,
-            158,
-            240
-          ],
-          "comparedWithSnapshotAt": 1795629561,
+          "newlyObservedCompletedIds": [],
+          "comparedWithSnapshotAt": 1795661587,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2766,7 +2760,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795661587
+        "profileCheckedAt": 1795715118
       }
     }
   ],

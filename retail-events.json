@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T08:06:11.060Z",
+  "updatedAt": "2026-11-26T21:26:03.085Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -69,6 +69,15 @@
       "url": "https://www.wowhead.com/event=662"
     },
     {
+      "id": "wow-event-563-1796108400000@wowlazymacros.com",
+      "title": "Battleground Bonus Event",
+      "startAt": "2026-12-01T07:00:00.000Z",
+      "endAt": "2026-12-08T06:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=563"
+    },
+    {
       "id": "wow-event-565-1796108400000@wowlazymacros.com",
       "title": "Pet Battle Bonus Event",
       "startAt": "2026-12-01T07:00:00.000Z",
@@ -78,13 +87,22 @@
       "url": "https://www.wowhead.com/event=565"
     },
     {
-      "id": "wow-event-563-1796112000000@wowlazymacros.com",
-      "title": "Battleground Bonus Event",
-      "startAt": "2026-12-01T08:00:00.000Z",
-      "endAt": "2026-12-08T07:00:00.000Z",
+      "id": "wow-event-1669-1796108400000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-01T07:00:00.000Z",
+      "endAt": "2026-12-08T06:00:00.000Z",
       "allDay": false,
-      "category": "PvP",
-      "url": "https://www.wowhead.com/event=563"
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1669"
+    },
+    {
+      "id": "wow-event-1425-1796108400000@wowlazymacros.com",
+      "title": "Turbulent Timeways",
+      "startAt": "2026-12-01T07:00:00.000Z",
+      "endAt": "2027-01-26T07:00:00.000Z",
+      "allDay": false,
+      "category": "World events",
+      "url": "https://www.wowhead.com/event=1425"
     },
     {
       "id": "wow-event-1120-1796112000000@wowlazymacros.com",
@@ -123,13 +141,13 @@
       "url": "https://www.wowhead.com/event=667"
     },
     {
-      "id": "wow-event-1669-1796713200000@wowlazymacros.com",
+      "id": "wow-event-1703-1796713200000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2026-12-08T07:00:00.000Z",
       "endAt": "2026-12-15T06:00:00.000Z",
       "allDay": false,
       "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1669"
+      "url": "https://www.wowhead.com/event=1703"
     },
     {
       "id": "wow-event-1559-1797318000000@wowlazymacros.com",
@@ -148,6 +166,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=702"
+    },
+    {
+      "id": "wow-event-1722-1797318000000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-15T07:00:00.000Z",
+      "endAt": "2026-12-22T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1722"
     },
     {
       "id": "wow-event-141-1797328800000@wowlazymacros.com",
@@ -177,6 +204,24 @@
       "url": "https://www.wowhead.com/event=666"
     },
     {
+      "id": "wow-event-1508-1797922800000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2026-12-22T07:00:00.000Z",
+      "endAt": "2026-12-29T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1508"
+    },
+    {
+      "id": "wow-event-559-1798527600000@wowlazymacros.com",
+      "title": "Outland Timewalking Dungeon Event",
+      "startAt": "2026-12-29T07:00:00.000Z",
+      "endAt": "2027-01-05T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=559"
+    },
+    {
       "id": "wow-event-663-1798527600000@wowlazymacros.com",
       "title": "PvP Brawl: Gravity Lapse",
       "startAt": "2026-12-29T07:00:00.000Z",
@@ -184,15 +229,6 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=663"
-    },
-    {
-      "id": "wow-event-1703-1798527600000@wowlazymacros.com",
-      "title": "Timewalking Dungeon Event",
-      "startAt": "2026-12-29T07:00:00.000Z",
-      "endAt": "2027-01-05T06:00:00.000Z",
-      "allDay": false,
-      "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1703"
     },
     {
       "id": "wow-event-1704-1798527600000@wowlazymacros.com",
@@ -222,6 +258,24 @@
       "url": "https://www.wowhead.com/event=479"
     },
     {
+      "id": "wow-event-561-1799132400000@wowlazymacros.com",
+      "title": "Arena Skirmish Bonus Event",
+      "startAt": "2027-01-05T07:00:00.000Z",
+      "endAt": "2027-01-12T06:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=561"
+    },
+    {
+      "id": "wow-event-562-1799132400000@wowlazymacros.com",
+      "title": "Northrend Timewalking Dungeon Event",
+      "startAt": "2027-01-05T07:00:00.000Z",
+      "endAt": "2027-01-12T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=562"
+    },
+    {
       "id": "wow-event-1240-1799136000000@wowlazymacros.com",
       "title": "PvP Brawl: Deepwind Dunk",
       "startAt": "2027-01-05T08:00:00.000Z",
@@ -229,6 +283,24 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1240"
+    },
+    {
+      "id": "wow-event-587-1799737200000@wowlazymacros.com",
+      "title": "Cataclysm Timewalking Dungeon Event",
+      "startAt": "2027-01-12T07:00:00.000Z",
+      "endAt": "2027-01-19T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=587"
+    },
+    {
+      "id": "wow-event-592-1799737200000@wowlazymacros.com",
+      "title": "World Quest Bonus Event",
+      "startAt": "2027-01-12T07:00:00.000Z",
+      "endAt": "2027-01-19T06:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=592"
     },
     {
       "id": "wow-event-1233-1799740800000@wowlazymacros.com",
@@ -240,13 +312,13 @@
       "url": "https://www.wowhead.com/event=1233"
     },
     {
-      "id": "wow-event-1722-1800342000000@wowlazymacros.com",
+      "id": "wow-event-643-1800342000000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2027-01-19T07:00:00.000Z",
       "endAt": "2027-01-26T06:00:00.000Z",
       "allDay": false,
       "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1722"
+      "url": "https://www.wowhead.com/event=643"
     },
     {
       "id": "wow-event-664-1800345600000@wowlazymacros.com",
@@ -267,6 +339,15 @@
       "url": "https://www.wowhead.com/event=638"
     },
     {
+      "id": "wow-event-563-1800946800000@wowlazymacros.com",
+      "title": "Battleground Bonus Event",
+      "startAt": "2027-01-26T07:00:00.000Z",
+      "endAt": "2027-02-02T06:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=563"
+    },
+    {
       "id": "wow-event-1047-1800950400000@wowlazymacros.com",
       "title": "PvP Brawl: Cooking Impossible",
       "startAt": "2027-01-26T08:00:00.000Z",
@@ -274,6 +355,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1047"
+    },
+    {
+      "id": "wow-event-1559-1801551600000@wowlazymacros.com",
+      "title": "Delves Bonus Event",
+      "startAt": "2027-02-02T07:00:00.000Z",
+      "endAt": "2027-02-09T06:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=1559"
     },
     {
       "id": "wow-event-1170-1801555200000@wowlazymacros.com",
@@ -312,13 +402,13 @@
       "url": "https://www.wowhead.com/event=423"
     },
     {
-      "id": "wow-event-1508-1802156400000@wowlazymacros.com",
+      "id": "wow-event-1056-1802156400000@wowlazymacros.com",
       "title": "Timewalking Dungeon Event",
       "startAt": "2027-02-09T07:00:00.000Z",
       "endAt": "2027-02-16T06:00:00.000Z",
       "allDay": false,
       "category": "Timewalking",
-      "url": "https://www.wowhead.com/event=1508"
+      "url": "https://www.wowhead.com/event=1056"
     },
     {
       "id": "wow-event-662-1802160000000@wowlazymacros.com",
@@ -328,6 +418,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=662"
+    },
+    {
+      "id": "wow-event-1802-1802761200000@wowlazymacros.com",
+      "title": "Midnight Dungeon Event",
+      "startAt": "2027-02-16T07:00:00.000Z",
+      "endAt": "2027-02-23T06:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=1802"
     },
     {
       "id": "wow-event-1120-1802764800000@wowlazymacros.com",
@@ -357,6 +456,15 @@
       "url": "https://www.wowhead.com/event=1395"
     },
     {
+      "id": "wow-event-561-1803366000000@wowlazymacros.com",
+      "title": "Arena Skirmish Bonus Event",
+      "startAt": "2027-02-23T07:00:00.000Z",
+      "endAt": "2027-03-02T06:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=561"
+    },
+    {
       "id": "wow-event-667-1803366000000@wowlazymacros.com",
       "title": "PvP Brawl: Packed House",
       "startAt": "2027-02-23T07:00:00.000Z",
@@ -373,6 +481,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=702"
+    },
+    {
+      "id": "wow-event-1263-1803970800000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2027-03-02T07:00:00.000Z",
+      "endAt": "2027-03-09T06:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1263"
     },
     {
       "id": "wow-event-479-1804356060000@wowlazymacros.com",
@@ -393,6 +510,24 @@
       "url": "https://www.wowhead.com/event=666"
     },
     {
+      "id": "wow-event-592-1804575600000@wowlazymacros.com",
+      "title": "World Quest Bonus Event",
+      "startAt": "2027-03-09T07:00:00.000Z",
+      "endAt": "2027-03-16T07:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=592"
+    },
+    {
+      "id": "wow-event-563-1805184000000@wowlazymacros.com",
+      "title": "Battleground Bonus Event",
+      "startAt": "2027-03-16T08:00:00.000Z",
+      "endAt": "2027-03-23T07:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=563"
+    },
+    {
       "id": "wow-event-663-1805184000000@wowlazymacros.com",
       "title": "PvP Brawl: Gravity Lapse",
       "startAt": "2027-03-16T08:00:00.000Z",
@@ -411,6 +546,15 @@
       "url": "https://www.wowhead.com/event=644"
     },
     {
+      "id": "wow-event-1669-1805788800000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2027-03-23T08:00:00.000Z",
+      "endAt": "2027-03-30T07:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1669"
+    },
+    {
       "id": "wow-event-1240-1805792400000@wowlazymacros.com",
       "title": "PvP Brawl: Deepwind Dunk",
       "startAt": "2027-03-23T09:00:00.000Z",
@@ -427,6 +571,15 @@
       "allDay": false,
       "category": "World events",
       "url": "https://www.wowhead.com/event=181"
+    },
+    {
+      "id": "wow-event-1559-1806393600000@wowlazymacros.com",
+      "title": "Delves Bonus Event",
+      "startAt": "2027-03-30T08:00:00.000Z",
+      "endAt": "2027-04-06T07:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=1559"
     },
     {
       "id": "wow-event-1233-1806397200000@wowlazymacros.com",
@@ -456,6 +609,15 @@
       "url": "https://www.wowhead.com/event=647"
     },
     {
+      "id": "wow-event-1802-1806998400000@wowlazymacros.com",
+      "title": "Midnight Dungeon Event",
+      "startAt": "2027-04-06T08:00:00.000Z",
+      "endAt": "2027-04-13T07:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=1802"
+    },
+    {
       "id": "wow-event-664-1807002000000@wowlazymacros.com",
       "title": "PvP Brawl: Warsong Scramble",
       "startAt": "2027-04-06T09:00:00.000Z",
@@ -463,6 +625,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=664"
+    },
+    {
+      "id": "wow-event-1703-1807603200000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2027-04-13T08:00:00.000Z",
+      "endAt": "2027-04-20T07:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1703"
     },
     {
       "id": "wow-event-1047-1807606800000@wowlazymacros.com",
@@ -474,6 +645,15 @@
       "url": "https://www.wowhead.com/event=1047"
     },
     {
+      "id": "wow-event-561-1808208000000@wowlazymacros.com",
+      "title": "Arena Skirmish Bonus Event",
+      "startAt": "2027-04-20T08:00:00.000Z",
+      "endAt": "2027-04-27T07:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=561"
+    },
+    {
       "id": "wow-event-1170-1808211600000@wowlazymacros.com",
       "title": "PvP Brawl: Temple of Hotmogu",
       "startAt": "2027-04-20T09:00:00.000Z",
@@ -481,6 +661,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=1170"
+    },
+    {
+      "id": "wow-event-592-1808812800000@wowlazymacros.com",
+      "title": "World Quest Bonus Event",
+      "startAt": "2027-04-27T08:00:00.000Z",
+      "endAt": "2027-05-04T07:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=592"
     },
     {
       "id": "wow-event-662-1808816400000@wowlazymacros.com",
@@ -519,6 +708,15 @@
       "url": "https://www.wowhead.com/event=201"
     },
     {
+      "id": "wow-event-1722-1809417600000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2027-05-04T08:00:00.000Z",
+      "endAt": "2027-05-11T07:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1722"
+    },
+    {
       "id": "wow-event-1120-1809421200000@wowlazymacros.com",
       "title": "PvP Brawl: Classic Ashran",
       "startAt": "2027-05-04T09:00:00.000Z",
@@ -537,6 +735,15 @@
       "url": "https://www.wowhead.com/event=645"
     },
     {
+      "id": "wow-event-563-1810022400000@wowlazymacros.com",
+      "title": "Battleground Bonus Event",
+      "startAt": "2027-05-11T08:00:00.000Z",
+      "endAt": "2027-05-18T07:00:00.000Z",
+      "allDay": false,
+      "category": "PvP",
+      "url": "https://www.wowhead.com/event=563"
+    },
+    {
       "id": "wow-event-667-1810022400000@wowlazymacros.com",
       "title": "PvP Brawl: Packed House",
       "startAt": "2027-05-11T08:00:00.000Z",
@@ -544,6 +751,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=667"
+    },
+    {
+      "id": "wow-event-1559-1810627200000@wowlazymacros.com",
+      "title": "Delves Bonus Event",
+      "startAt": "2027-05-18T08:00:00.000Z",
+      "endAt": "2027-05-25T07:00:00.000Z",
+      "allDay": false,
+      "category": "Bonus events",
+      "url": "https://www.wowhead.com/event=1559"
     },
     {
       "id": "wow-event-702-1810627200000@wowlazymacros.com",
@@ -562,6 +778,15 @@
       "allDay": false,
       "category": "PvP",
       "url": "https://www.wowhead.com/event=666"
+    },
+    {
+      "id": "wow-event-1508-1811232000000@wowlazymacros.com",
+      "title": "Timewalking Dungeon Event",
+      "startAt": "2027-05-25T08:00:00.000Z",
+      "endAt": "2027-06-01T07:00:00.000Z",
+      "allDay": false,
+      "category": "Timewalking",
+      "url": "https://www.wowhead.com/event=1508"
     }
   ]
 }

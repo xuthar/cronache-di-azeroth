@@ -2,9 +2,15 @@
   "forever": {
     "launchAt": "2026-11-04T23:00:00.000Z",
     "sourceUrl": "https://worldofwarcraft.blizzard.com/it-it/news/24302093/",
-    "checkedAt": "2026-11-27T12:47:01.100Z"
+    "checkedAt": "2026-11-27T21:41:00.179Z"
   },
   "news": [
+    {
+      "title": "Save Up To 60% and Earn In-Game Goodies with the Gear Store Black Friday Sale",
+      "url": "https://www.wowhead.com/news=383998/save-up-to-60-and-earn-in-game-goodies-with-the-gear-store-black-friday-sale",
+      "category": "WoW",
+      "publishedAt": "2026-11-27T15:00:00.000Z"
+    },
     {
       "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
       "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
@@ -22,20 +28,14 @@
       "url": "https://www.wowhead.com/news=383979/take-advantage-of-profession-cooldowns-for-goldmaking-in-wow-forever",
       "category": "Forever",
       "publishedAt": "2026-11-25T22:27:09.000Z"
-    },
-    {
-      "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
-      "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
-      "category": "Forever",
-      "publishedAt": "2026-11-25T19:44:07.000Z"
     }
   ],
-  "newsUpdatedAt": "2026-11-27T12:47:01.099Z",
-  "generatedAt": "2026-11-27T12:47:00.988Z",
+  "newsUpdatedAt": "2026-11-27T21:41:00.179Z",
+  "generatedAt": "2026-11-27T21:41:00.170Z",
   "newsSource": "Wowhead",
   "newsSourceUrl": "https://www.wowhead.com/news",
   "newsRefreshMinutes": 15,
-  "newsFeedBuiltAt": "Fri, 27 Nov 2026 06:47:00 -0600",
+  "newsFeedBuiltAt": "Fri, 27 Nov 2026 15:40:57 -0600",
   "newsFetchError": false,
   "launchCheckError": false
 }

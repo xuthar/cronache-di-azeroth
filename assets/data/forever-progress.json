@@ -3,7 +3,7 @@
   "source": "BlizzardOfficialAPI",
   "status": "active",
   "apiRegion": "eu",
-  "exportedAt": 1795629561,
+  "exportedAt": 1795833829,
   "characters": [
     {
       "id": "xuthar",
@@ -17,90 +17,86 @@
       "subzone": "",
       "xp": null,
       "xpMax": null,
-      "questsCompleted": 259,
+      "questsCompleted": 264,
       "zones": null,
       "professions": [],
       "firstSeenAt": null,
       "lastSeenAt": null,
-      "checkedAt": 1795629561,
+      "checkedAt": 1795833829,
       "officialDetails": {
         "quests": {
           "source": "BlizzardOfficialAPI",
-          "snapshotAt": 1795629561,
-          "inProgressCount": 18,
-          "completedCount": 259,
+          "snapshotAt": 1795833829,
+          "inProgressCount": 17,
+          "completedCount": 264,
           "inProgress": [
-            {
-              "id": 96137,
-              "name": "Ira's Dagger"
-            },
-            {
-              "id": 174,
-              "name": "Look to the Stars"
-            },
-            {
-              "id": 101,
-              "name": "The Totem of Infliction"
-            },
-            {
-              "id": 149,
-              "name": "Ghost Hair Thread"
-            },
             {
               "id": 173,
               "name": "Worgen in the Woods"
-            },
-            {
-              "id": 3765,
-              "name": "The Corruption Abroad"
-            },
-            {
-              "id": 98824,
-              "name": "Prehistoric Prism"
             },
             {
               "id": 56,
               "name": "The Night Watch"
             },
             {
+              "id": 67,
+              "name": "The Legend of Stalvan"
+            },
+            {
               "id": 377,
               "name": "Crime and Punishment"
-            },
-            {
-              "id": 2928,
-              "name": "Gyrodrillmatic Excavationators"
-            },
-            {
-              "id": 95,
-              "name": "Sven's Revenge"
-            },
-            {
-              "id": 2923,
-              "name": "Tinkmaster Overspark"
-            },
-            {
-              "id": 240,
-              "name": "Return to Jitters"
             },
             {
               "id": 94241,
               "name": "Craftsman's Writ: Dark Leather Tunic"
             },
             {
-              "id": 97894,
-              "name": "Business in Auberdine"
-            },
-            {
               "id": 1078,
               "name": "Retrieval for Mauren"
+            },
+            {
+              "id": 3765,
+              "name": "The Corruption Abroad"
+            },
+            {
+              "id": 156,
+              "name": "Gather Rot Blossoms"
+            },
+            {
+              "id": 174,
+              "name": "Look to the Stars"
+            },
+            {
+              "id": 96137,
+              "name": "Ira's Dagger"
+            },
+            {
+              "id": 95,
+              "name": "Sven's Revenge"
+            },
+            {
+              "id": 101,
+              "name": "The Totem of Infliction"
+            },
+            {
+              "id": 2928,
+              "name": "Gyrodrillmatic Excavationators"
+            },
+            {
+              "id": 2923,
+              "name": "Tinkmaster Overspark"
+            },
+            {
+              "id": 97894,
+              "name": "Business in Auberdine"
             },
             {
               "id": 95795,
               "name": "Fallen in the Fen"
             },
             {
-              "id": 67,
-              "name": "The Legend of Stalvan"
+              "id": 98824,
+              "name": "Prehistoric Prism"
             }
           ],
           "completedQuestIds": [
@@ -185,10 +181,14 @@
             146,
             147,
             148,
+            149,
             150,
             151,
             153,
+            154,
             155,
+            157,
+            158,
             163,
             164,
             165,
@@ -203,6 +203,7 @@
             219,
             226,
             239,
+            240,
             244,
             246,
             248,
@@ -1095,6 +1096,15 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 149,
+              "title": "Ghost Hair Thread",
+              "area": "Duskwood",
+              "briefing": "There is a poor, sad spirit, Blind Mary, who haunts an old farm house in the hills south of Darkshire. Here, take this Spectral…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
               "id": 150,
               "title": "Murloc Poachers",
               "area": "Redridge Mountains",
@@ -1122,10 +1132,37 @@
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
             },
             {
+              "id": 154,
+              "title": "Return the Comb",
+              "area": "Duskwood",
+              "briefing": "NO!!!!! Take it, take this comb away from me! I'm a monster, and no one will ever think me lovely again!",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
               "id": 155,
               "title": "The Defias Brotherhood",
               "area": "Westfall",
               "briefing": "So Stoutmantle sends a scrawny {race} like you to protect me? Guess you'll have to do. Better bring some friends too. You know the…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 157,
+              "title": "Deliver the Thread",
+              "area": "Duskwood",
+              "briefing": "Here is your thread, Xuthar. It has a thousand uses, from binding evil spirits to sewing life into inanimate objects.",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 158,
+              "title": "Zombie Juice",
+              "area": "Duskwood",
+              "briefing": "I need a bottle of a certain liquor - Zombie Juice. Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire should have some. And…",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
@@ -1252,6 +1289,15 @@
               "title": "Westbrook Garrison Needs Help!",
               "area": "Elwynn Forest",
               "briefing": "The Garrison on our western border sends word of increasing gnoll and thief activity. They're requesting we send more Stormwind soldiers... but we just…",
+              "objective": null,
+              "objectiveSource": null,
+              "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
+            },
+            {
+              "id": 240,
+              "title": "Return to Jitters",
+              "area": "Duskwood",
+              "briefing": "And here we are - \"Crab\" Cakes ala Grual!",
               "objective": null,
               "objectiveSource": null,
               "metadataSource": "PreviouslyVerifiedBlizzardStaticForeverEU"
@@ -2698,7 +2744,7 @@
             }
           ],
           "newlyObservedCompletedIds": [],
-          "comparedWithSnapshotAt": 1795577643,
+          "comparedWithSnapshotAt": 1795800564,
           "interpretation": "Snapshot only. A missing quest is not evidence of completion, abandonment or delivery. Manual quest journal is never overwritten."
         },
         "professions": {
@@ -2714,7 +2760,7 @@
         "achievements": {
           "trackedCount": 21
         },
-        "profileCheckedAt": 1795629561
+        "profileCheckedAt": 1795833829
       }
     }
   ],

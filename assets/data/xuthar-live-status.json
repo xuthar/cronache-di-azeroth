@@ -4,12 +4,12 @@
   "realm": "Forever EU · RP PvE",
   "status": "unknown",
   "statusConfirmed": false,
-  "zone": "",
-  "location": "Current whereabouts unconfirmed",
+  "zone": "Duskwood",
+  "location": "Duskwood · rain-soaked lantern road (last photographed 28 November)",
   "coordinates": null,
-  "activity": "Level 25 · 259 completed quest IDs · 18 active · official profile checked 25 November",
-  "reportedOn": "2026-11-25",
-  "updatedAt": "2026-11-25T18:59:21+01:00",
-  "note": "Official snapshot confirms profile statistics, not online presence or location. Last player-confirmed rest day was 23 November. No new activity is inferred.",
-  "level": 25
+  "activity": "Level 26 (player confirmed) · 264 completed quest IDs · 17 active (official snapshot at 03:43)",
+  "reportedOn": "2026-11-28",
+  "updatedAt": "2026-11-28T14:12:00+01:00",
+  "note": "Player confirms level 26 and Duskwood. Official profile at 03:43 still records level 25; online status and exact location are unconfirmed.",
+  "level": 26
 }

@@ -7,7 +7,7 @@
   const mount=document.getElementById('quests-archive');
   if(!mount)return;
   const feed='https://raw.githubusercontent.com/xuthar/cronache-di-azeroth/live-blizzard/forever-progress.json';
-  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261122-duskwood-roads';
+  const editorialPath='assets/data/xuthar-quest-editorial.json?v=20261128-duskwood-rain';
   const sourceLink='https://worldofwarcraft.blizzard.com/en-us/forever/eu/armory/character/xuthar-morvayne';
   const make=(tag,cls,value)=>{
     const el=document.createElement(tag);

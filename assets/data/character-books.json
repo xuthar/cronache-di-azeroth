@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-25",
+  "updated": "2026-11-28",
   "editorialPolicy": "The Last Witness is an evolving fictionalized life story, not an evidence ledger. Quest, level, profession and location information informs internal continuity; do not mention screenshots, user reports, trackers, API responses, sources, or verification within the novel. Do not invent official quest completions, levels or visits; literary dialogue, emotions and ambience may be dramatized. Preserve established chronology and chapter anchors.",
   "volumes": [
     {
@@ -9,7 +9,7 @@
       "subtitle": "The Book of Forgotten Names",
       "name": "Xuthar Morvayne",
       "class": "Human · Shadow Priest",
-      "status": "living-novel-wetlands-echoes-level25",
+      "status": "living-novel-duskwood-level26-player-confirmed",
       "priority": "main",
       "dossier": "xuthar.html",
       "cover": "assets/images/gallery/stormwind-midnight.jpg",
@@ -4457,6 +4457,130 @@
           "editorialNote": "Retrospective literary chapter published 25 November. Songblade Search (#95772) and Lost Relic Carry (#95810) were first observed complete in the 23 November 01:55 Italy snapshot, after the 22 November expedition. No new completion, travel, loot, level change or current presence is inferred for 25 November. Thoughts and imagery are dramatized."
         },
         {
+          "id": "x-nov28-where-rain-keeps-watch",
+          "chapter": "Chapter 200 · Where the Rain Keeps Watch",
+          "title": "Where the Rain Keeps Watch",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "The lantern road of Duskwood",
+          "paragraphs": [
+            "The rain had been falling so long that the road seemed to breathe it. Water collected in the hollows between the stones, and every lantern laid a small trembling kingdom of gold across the darkness. Above Xuthar the trees reached into one another, their branches woven like the ribs of some vast, forgotten creature. The sky had ceased to be a sky. It was merely a deeper shade of the forest.",
+            "He had known roads in Elwynn that smelled of wet grass and the promise of morning. In Redridge the mountains had answered the thunder with their own fierce echoes. But Duskwood swallowed sound. Even the tapping of his staff seemed to disappear a few steps behind him, leaving him alone with the rhythm of his breathing and the long dark shape of the path ahead.",
+            "He walked beneath the lanterns and thought of the people whose names had become part of this land: the hungry man of Raven Hill, the spirit who feared her own reflection, the strange old man who desired the ingredients of impossible things. They had each offered him a fragment of a story. None of those fragments had yet revealed the whole.",
+            "Xuthar had once imagined that learning to command the Shadow would make the darkness less mysterious. Instead, it had taught him to listen more carefully. The rain was cold, his robe heavy, and the distant lights looked painfully small. Yet every one of them was an argument against despair. He followed them into the blue-black woods."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112826_095956.webp",
+          "caption": "28 November 2026 · Xuthar on the rain-soaked Duskwood road · original screenshot",
+          "editorialNote": "Original roleplay inspired by the 28 November screenshot and player-reported level 26. Exact route and level-up moment are not established."
+        },
+        {
+          "id": "x-nov28-jitters-table",
+          "chapter": "Chapter 201 · A Table for the Living",
+          "title": "A Table for the Living",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Raven Hill · recollection of Return to Jitters",
+          "paragraphs": [
+            "Raven Hill had the strange stillness of a village that had forgotten what it meant to wake. There were houses, paths and familiar shapes of ordinary life, but their silence belonged to something older than abandonment. Xuthar remembered Jitters, and the desperate hunger hidden beneath the man's nervous words.",
+            "The cakes from Grual's kitchen had been a modest thing to carry through a cursed land. They were called crab cakes, though the forest had furnished their more unusual ingredients. The priest thought of the absurdity with something close to affection. In a country where the dead walked, people could still argue about recipes.",
+            "He had returned the food to the man who needed it. There was no grand revelation in that errand, no promise of a kingdom saved. The act mattered for a different reason. Jitters was alive, hungry and frightened, and the task of a priest was not diminished by the smallness of a meal.",
+            "Somewhere between Raven Hill's deserted houses and the warm kitchen of Darkshire, Xuthar had discovered a kind of resistance that no sword could offer. To feed the living was to insist that they still belonged to the world."
+          ],
+          "editorialNote": "Literary recollection of quests first observed complete on 26 November 2026 at 03:53 Italy. The sequence, feelings and atmosphere are fictionalized; exact hand-in times and travel order are unavailable."
+        },
+        {
+          "id": "x-nov28-blind-mary",
+          "chapter": "Chapter 202 · The Woman Behind the Veil",
+          "title": "The Woman Behind the Veil",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "The old farmhouse south of Darkshire · recollection of Ghost Hair Thread",
+          "paragraphs": [
+            "The hills south of Darkshire held an old farmhouse, a place whose walls had once sheltered a life. Xuthar remembered the spectral comb and the name that had been spoken with it: Blind Mary. The very simplicity of the object troubled him. A comb belonged to mornings, to mirrors, to the private rituals of an ordinary existence.",
+            "Now its purpose lay among spirits. He had learned that Mary haunted the house, and that her ghostly hair could furnish a thread unlike any spun by mortal hands. He could not think of that request without wondering what it meant for a person to be remembered only for what the living needed from her.",
+            "The priest had approached the mystery with caution. A haunting might be a danger, but it might also be the stubborn outline of a sorrow no one had properly understood. He knew better than to believe every ghost was a monster simply because the living were afraid.",
+            "In his thoughts the old house stood apart from the other terrors of Duskwood. Not every creature in the forest was waiting to attack. Some were waiting for someone to recognize that they had once been human."
+          ],
+          "editorialNote": "Literary recollection of quests first observed complete on 26 November 2026 at 03:53 Italy. The sequence, feelings and atmosphere are fictionalized; exact hand-in times and travel order are unavailable."
+        },
+        {
+          "id": "x-nov28-return-comb",
+          "chapter": "Chapter 203 · The Cruelty of a Mirror",
+          "title": "The Cruelty of a Mirror",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Blind Mary's farmhouse · recollection of Return the Comb",
+          "paragraphs": [
+            "Beauty is an uncertain inheritance. Xuthar had seen strong men broken by illness, proud warriors diminished by years, and frightened travellers who concealed their wounds beneath magnificent clothes. But the anguish associated with Mary's comb seemed to him especially terrible.",
+            "The spirit's rejection of the comb was not a riddle to be conquered by cleverness. It was the pain of someone who could no longer bear the thought of being seen. The priest remembered the despair in that story, the conviction that loveliness had vanished forever and that nothing remained but the shape of a monster.",
+            "He had carried the task through, yet the thought followed him long after the old farmhouse lay behind him. What would any of them become if the world stripped away every familiar reflection? What would remain of a name if no voice spoke it with kindness?",
+            "Xuthar understood only this: a person's worth could not be measured in the face reflected by a mirror. Even in a land of ghosts, compassion could still be offered to those who had forgotten how to receive it."
+          ],
+          "editorialNote": "Literary recollection of quests first observed complete on 26 November 2026 at 03:53 Italy. The sequence, feelings and atmosphere are fictionalized; exact hand-in times and travel order are unavailable."
+        },
+        {
+          "id": "x-nov28-deliver-thread",
+          "chapter": "Chapter 204 · A Thread Between Two Worlds",
+          "title": "A Thread Between Two Worlds",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Duskwood · recollection of Deliver the Thread",
+          "paragraphs": [
+            "The thread had a thousand imagined purposes. It could bind things that did not wish to be bound; it belonged to a craft where the boundary between matter and spirit grew dangerously thin. Xuthar, a tailor as well as a priest, understood the strange intimacy of making something whole with a needle and a length of fibre.",
+            "He understood less about the intentions of those who desired a material drawn from a restless spirit. A stitch could mend a torn garment or close a wound. In other hands, it might join things that should never have been joined. Knowledge was a tool, and tools did not absolve the hand that wielded them.",
+            "The delivery was complete, but the question it left was not. It lingered in him whenever he called upon the Shadow, whenever he felt the familiar cold answer his will. Power was not wisdom. The ability to command did not guarantee the right to do so.",
+            "Perhaps Duskwood's most dangerous lessons were those that appeared harmless at first: an errand, an object, a request spoken in an ordinary voice. Xuthar would remember the thread."
+          ],
+          "editorialNote": "Literary recollection of quests first observed complete on 26 November 2026 at 03:53 Italy. The sequence, feelings and atmosphere are fictionalized; exact hand-in times and travel order are unavailable."
+        },
+        {
+          "id": "x-nov28-zombie-juice",
+          "chapter": "Chapter 205 · The Strange Cup",
+          "title": "The Strange Cup",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Darkshire and the hermit's mystery · recollection of Zombie Juice",
+          "paragraphs": [
+            "Among the names recorded in his travels, Zombie Juice sounded like a tavernkeeper's poor joke. Yet in Duskwood even an unusual bottle of liquor could become a part of something far less ordinary. The old man's request had led to the Scarlet Raven Tavern, where Tavernkeep Smitts knew the drinks that passed across the counter.",
+            "Xuthar thought of the contrast between the tavern and the forest. A flame behind a window, the sound of people talking, the smell of food and damp wool: the small comforts of Darkshire were made precious by everything beyond its doors.",
+            "The curious commission had been fulfilled. Its purpose, however, was still shadowed by the greater mystery of the hermit's work. The priest found himself thinking again of the spectral thread, and of how easily a collection of unrelated things could become the ingredients of a single design.",
+            "He would not declare the mystery solved simply because a bottle had changed hands. Duskwood had taught him the folly of mistaking one answer for the end of a question."
+          ],
+          "editorialNote": "Literary recollection of quests first observed complete on 26 November 2026 at 03:53 Italy. The sequence, feelings and atmosphere are fictionalized; exact hand-in times and travel order are unavailable."
+        },
+        {
+          "id": "x-nov28-unfinished-graves",
+          "chapter": "Chapter 206 · Names the Forest Has Not Released",
+          "title": "Names the Forest Has Not Released",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Duskwood · unfinished promises",
+          "paragraphs": [
+            "There were still flowers to gather among places where decay had made itself at home. The new request for rot blossoms joined the older obligations that crowded Xuthar's thoughts. He remembered the Night Watch, the worgen in the woods, the unanswered questions of Stalvan, Sven's sorrow and the duty associated with Ira's dagger.",
+            "The names were not a list to him. Each was a door, and behind each door lay a portion of the life of Duskwood. Some opened toward violence, some toward grief, and some toward the kind of secret that could alter everything a person believed about his neighbours.",
+            "He made no claim that these matters were settled. The Night Watch still had its burdens. The forest still concealed its predators. The people who had asked for help deserved more than the comforting fiction of a task finished before its time.",
+            "Xuthar had learned to accept the unfinished. A long journey could not be measured solely in things brought to an end. It could also be measured in the promises a traveller refused to forget."
+          ],
+          "editorialNote": "Open quests are not represented as completed."
+        },
+        {
+          "id": "x-nov28-twenty-sixth-step",
+          "chapter": "Chapter 207 · The Twenty-Sixth Step",
+          "title": "The Twenty-Sixth Step",
+          "kind": "fiction",
+          "sessionDate": "2026-11-28",
+          "place": "Duskwood · 28 November",
+          "paragraphs": [
+            "The road in the rain was neither a throne room nor a battlefield where a herald could proclaim his growing strength. It was only a road, slick with water, hemmed in by trees and lit by lamps that seemed too fragile for the darkness around them.",
+            "Yet Xuthar knew he had crossed another threshold. His experience had deepened, and the Shadow answered him with a familiarity that once would have frightened him. Twenty-six stages of growth lay behind him now, from the uncertain beginning at Northshire to the strange demands of Duskwood.",
+            "He did not confuse that strength with invulnerability. The forest still felt vast. Its mysteries remained older than his learning. He could not return every lost soul to life or give every grieving family what it wanted. But he could continue to walk, to listen, and to choose what he would do with the power he had gained.",
+            "The rain touched his shoulders, and ahead another lantern burned through the mist. Xuthar moved toward it. The road had not promised him an ending. It had offered him something better: another step."
+          ],
+          "image": "assets/images/screenshots/WoWScrnShot_112826_095956.webp",
+          "caption": "28 November 2026 · Xuthar on the rain-soaked Duskwood road · original screenshot",
+          "editorialNote": "Original roleplay inspired by the 28 November screenshot and player-reported level 26. Exact route and level-up moment are not established."
+        },
+        {
           "id": "x-future",
           "chapter": "Epilogue · The Unwritten Road",
           "title": "What the Next Dawn May Bring",
@@ -4470,7 +4594,7 @@
           "link": "chronicle.html"
         }
       ],
-      "latestChapterId": "x-nov25-echoes-of-the-excavation"
+      "latestChapterId": "x-nov28-where-rain-keeps-watch"
     },
     {
       "id": "thorgar",
@@ -4625,5 +4749,5 @@
       ]
     }
   ],
-  "lastEditorialUpdate": "25 November 2026 · Chapter 199 · Wetlands retrospective and official profile review"
+  "lastEditorialUpdate": "28 November 2026 · Duskwood · Chapters 200–207 · Level 26 (player confirmed)"
 }

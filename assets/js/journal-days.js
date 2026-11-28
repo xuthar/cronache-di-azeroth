@@ -507,5 +507,46 @@ plans.push({
     }
   ]
 });
+plans.push({
+  "date": "2026-11-28",
+  "day": "Saturday, 28 November",
+  "title": "Where the Rain Keeps Watch",
+  "place": "Duskwood · rain-soaked lantern road; retrospective of Darkshire, Raven Hill and Blind Mary's farmhouse",
+  "level": "Level 26 · player confirmed · API: 264 completed IDs, 17 active",
+  "summary": "Xuthar continues his adventures through Duskwood and reports level 26. The original screenshot captures a lonely road in driving rain. Five Duskwood quests newly observed complete on 26 November are now incorporated into the story; no exact hand-in order or additional visits on 28 November are inferred.",
+  "reportUrl": "chronicle.html#duskwood-rain-2026-11-28",
+  "reportLabel": "Live Chronicle · Duskwood field report",
+  "bookUrl": "book.html?character=xuthar#x-nov28-where-rain-keeps-watch",
+  "bookLabel": "The Last Witness · Chapters 200–207",
+  "photo": "assets/images/screenshots/WoWScrnShot_112826_095956.webp",
+  "photoCaption": "28 November · Duskwood in the rain · Original 1920 × 1080 screenshot",
+  "stops": [
+    {
+      "time": "26 November · 03:53 Italy · first official observation",
+      "title": "Return to Jitters (#240)",
+      "description": "The prepared Dusky Crab Cakes are delivered to Jitters in Raven Hill."
+    },
+    {
+      "time": "Same verified completion interval",
+      "title": "Ghost Hair Thread (#149) · Return the Comb (#154) · Deliver the Thread (#157)",
+      "description": "The spectral comb, Blind Mary's grief at the farmhouse south of Darkshire and her ghostly thread connect three completed commissions. Exact order and times are not supplied."
+    },
+    {
+      "time": "Same verified completion interval",
+      "title": "Zombie Juice (#158)",
+      "description": "The hermit's request for unusual liquor connects the mystery to Tavernkeep Smitts at the Scarlet Raven Tavern."
+    },
+    {
+      "time": "28 November · 03:43 Italy · latest official snapshot",
+      "title": "264 completed quest IDs · 17 active",
+      "description": "The official level is still 25 at this check. Gather Rot Blossoms (#156) is newly active since 25 November. The Night Watch, Worgen in the Woods, Stalvan, Ira's Dagger, Sven's Revenge and the Totem of Infliction remain active."
+    },
+    {
+      "time": "28 November · morning photograph and player report",
+      "title": "Rain, lanterns and level 26",
+      "description": "Xuthar continues in Duskwood. The original screenshot shows a lone traveller on a wet cobbled road. The player confirms level 26; the precise route, online status and new hand-ins after the API check are unknown."
+    }
+  ]
+});
 return plans;
 })();

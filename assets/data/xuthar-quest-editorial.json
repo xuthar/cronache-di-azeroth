@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-28",
   "language": "en",
   "sourcePolicy": "Completed quest status and IDs are authoritative only when present in the verified EU Blizzard profile. Quest briefing excerpts come from Blizzard static-forever-eu. Objective summaries below are editorial paraphrases of the official briefing and/or prior player screenshots, not a server-side objective checklist. Exact completion dates and rewards are not inferred. Episodes are original roleplay fiction inspired by verified quest names and context, not records of actual gameplay. General assignment summaries are paraphrases of quest context and are not the exact in-game objective checklist.",
   "objectives": [
@@ -480,6 +480,21 @@
       "id": 240,
       "objective": "Take the prepared Dusky Crab Cakes back to Jitters in Raven Hill.",
       "sourceUrl": "https://www.wowhead.com/forever/quest=240/return-to-jitters"
+    },
+    {
+      "id": 154,
+      "objective": "Resolve the spectral comb commission associated with Blind Mary's distress.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=154/return-the-comb"
+    },
+    {
+      "id": 157,
+      "objective": "Deliver the ghostly thread, a material associated with spirit-binding and unusual magic.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=157/deliver-the-thread"
+    },
+    {
+      "id": 158,
+      "objective": "Obtain Zombie Juice requested by the hermit; Tavernkeep Smitts at the Scarlet Raven Tavern is the lead.",
+      "sourceUrl": "https://www.wowhead.com/forever/quest=158/zombie-juice"
     }
   ],
   "episodes": [
@@ -714,6 +729,22 @@
       "bookAnchor": "x-nov22-gruals-kitchen",
       "teaser": "Jitters is found and Grual’s kitchen work is finished. The cakes are still waiting to be delivered.",
       "sourceNote": "Verified completions newly observed since the 21 November arrival snapshot; the interval spans late 21 and 22 November. Precise hand-in times are not provided.",
+      "verifiedByBlizzard": true
+    },
+    {
+      "id": "duskwood-rain-nov28",
+      "title": "Where the Rain Keeps Watch",
+      "subtitle": "Duskwood · Level 26 (player confirmed)",
+      "questIds": [
+        149,
+        154,
+        157,
+        158,
+        240
+      ],
+      "bookAnchor": "x-nov28-where-rain-keeps-watch",
+      "teaser": "Blind Mary's spectral comb and thread, the hermit's strange liquor and a meal returned to Jitters. Five verified completions, remembered on a rain-soaked road.",
+      "sourceNote": "First observed complete in the 26 November 03:53 Italy official snapshot; exact hand-in times are not available. Level 26 is a later player report.",
       "verifiedByBlizzard": true
     }
   ]

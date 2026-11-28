@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T21:08:27.158Z",
+  "updatedAt": "2026-11-28T07:38:29.758Z",
   "sourceName": "WoW Lazy Tools public calendar",
   "sourceUrl": "https://tools.wowlazymacros.com/world-events",
   "feedUrl": "https://tools.wowlazymacros.com/api/world-events.ics",
@@ -787,6 +787,15 @@
       "allDay": false,
       "category": "Timewalking",
       "url": "https://www.wowhead.com/event=1508"
+    },
+    {
+      "id": "wow-event-648-1811376000000@wowlazymacros.com",
+      "title": "Glowcap Festival",
+      "startAt": "2027-05-27T00:00:00.000Z",
+      "endAt": "2027-05-28T00:00:00.000Z",
+      "allDay": false,
+      "category": "World events",
+      "url": "https://www.wowhead.com/event=648"
     }
   ]
 }
